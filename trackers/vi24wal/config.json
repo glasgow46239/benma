@@ -35,7 +35,7 @@
   "output": {
     "lineJsonPath": "data/wales-vi-line.json",
     "barCsvPath":  "data/wales-vi-bar.csv",
-    "datawrapperLineChartId": "",
-    "datawrapperBarChartId":  ""
+    "datawrapperLineChartId": "eHS9r",
+    "datawrapperBarChartId":  "7winX"
   }
 }
