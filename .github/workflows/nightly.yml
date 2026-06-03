@@ -1,4 +1,4 @@
-name: Nightly poll tracker update
+name: Nightly poll tracker update (all)
 on:
   schedule:
     - cron: "0 6 * * *"   # 06:00 UTC every day
