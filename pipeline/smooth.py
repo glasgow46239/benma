@@ -377,10 +377,8 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
         )
         line_patch_payload = {
             "title": json_data["meta"]["headline"],
-            "describe": {
-                "intro": json_data["meta"]["intro"],
-                "byline": f"Last updated {updated}",
-                "source-name": "",
+            "intro": json_data["meta"]["intro"],
+            "byline": f"Last updated {updated}",
             }
         }
         print(f"Line chart patch payload: {line_patch_payload}")
@@ -403,8 +401,7 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
             data=bar_csv.encode("utf-8")
         )
         bar_patch_payload = {
-            "describe": {
-                "byline": f"Last updated {updated}"
+            "byline": f"Last updated {updated}",
             }
         }
         print(f"Bar chart patch payload: {bar_patch_payload}")
