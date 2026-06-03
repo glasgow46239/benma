@@ -408,9 +408,13 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
         )
         bar_patch_payload = {
             "metadata": {
-        "describe": {
-            "byline": f"Last updated {updated}"
-        }
+    "describe": {
+        "intro": json_data["meta"]["intro"],
+        "byline": "",
+        "source-name": "",
+    },
+    "annotate": {
+        "notes": f'<span style="background-color:#f0f0f0; padding:1px 3px; border-radius:4px">Last updated {updated}</span>'
     }
 }
         print(f"Bar chart patch payload: {bar_patch_payload}")
