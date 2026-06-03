@@ -194,9 +194,9 @@ def generate_headline(polls, config, latest_smooth):
     headline = f"{leader} lead in Wales at {leader_val}%{change_str}"
 
     intro = (
-        f"Latest poll: {pollster}, {latest_date} — "
-        + ", ".join(f"{p} {v}%" for p, v in sorted(party_vals.items(), key=lambda x: -x[1]))
-    )
+    f"Latest poll: {pollster} · {latest_date} · "
+    + " · ".join(f"{p} {v}%" for p, v in sorted(party_vals.items(), key=lambda x: -x[1]))
+)
 
     return headline, intro
 
