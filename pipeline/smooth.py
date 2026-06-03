@@ -401,7 +401,6 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
         )
         bar_patch_payload = {
             "byline": f"Last updated {updated}",
-            }
         }
         print(f"Bar chart patch payload: {bar_patch_payload}")
         bar_patch_resp = requests.patch(
