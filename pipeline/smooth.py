@@ -302,6 +302,31 @@ def build_bar_csv(polls, config):
 # Datawrapper push
 # ---------------------------------------------------------------------------
 
+def build_line_csv(json_data):
+    """Convert smoothed series to a CSV Datawrapper can plot as a line chart."""
+    series = json_data["series"]
+    if not series:
+        return ""
+
+    party_names = list(series.keys())
+
+    # Build a unified date index across all series
+    all_dates = sorted(set(pt["date"] for name in party_names for pt in series[name] if pt["value"] is not None))
+
+    # Header
+    lines = ["date," + ",".join(party_names)]
+
+    for date in all_dates:
+        row = [date]
+        for name in party_names:
+            pts = {pt["date"]: pt["value"] for pt in series[name]}
+            val = pts.get(date)
+            row.append("" if val is None else str(val))
+        lines.append(",".join(row))
+
+    return "\n".join(lines)
+
+
 def push_to_datawrapper(json_data, bar_csv, config):
     token = os.environ.get("DATAWRAPPER_TOKEN")
     if not token:
@@ -317,13 +342,13 @@ def push_to_datawrapper(json_data, bar_csv, config):
     bar_id  = config["output"].get("datawrapperBarChartId")
 
     if line_id:
-        # Push data
+        line_csv = build_line_csv(json_data)
+
         requests.put(
             f"https://api.datawrapper.de/v3/charts/{line_id}/data",
             headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
-            data=json_data["meta"]["intro"]  # placeholder — replace with real CSV build if needed
+            data=line_csv.encode("utf-8")
         )
-        # Push metadata (headline, intro)
         requests.patch(
             f"https://api.datawrapper.de/v3/charts/{line_id}",
             headers=headers,
@@ -332,7 +357,6 @@ def push_to_datawrapper(json_data, bar_csv, config):
                 "describe": {"intro": json_data["meta"]["intro"]}
             }
         )
-        # Republish
         requests.post(f"https://api.datawrapper.de/v3/charts/{line_id}/publish", headers=headers)
         print(f"Pushed and republished line chart: {line_id}")
 
@@ -340,7 +364,7 @@ def push_to_datawrapper(json_data, bar_csv, config):
         requests.put(
             f"https://api.datawrapper.de/v3/charts/{bar_id}/data",
             headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
-            data=bar_csv
+            data=bar_csv.encode("utf-8")
         )
         requests.post(f"https://api.datawrapper.de/v3/charts/{bar_id}/publish", headers=headers)
         print(f"Pushed and republished bar chart: {bar_id}")
