@@ -240,6 +240,9 @@ def build_line_json(polls, config):
 
     headline, intro = generate_headline(polls, config, latest_smooth)
 
+    # Latest poll date in DD-MMM-YYYY format
+    latest_poll_date = polls[-1]["date"].strftime("%d-%b-%Y") if polls else ""
+
     # Raw poll dots (for reference)
     raw_dots = [
         {
@@ -258,7 +261,8 @@ def build_line_json(polls, config):
             "minPollsInWindow": min_polls,
             "headline": headline,
             "intro": intro,
-            "latestSmoothed": latest_smooth
+            "latestSmoothed": latest_smooth,
+            "latestPollDate": latest_poll_date,
         },
         "series": series,
         "rawPolls": raw_dots
@@ -366,7 +370,8 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
 
     line_id = config["output"].get("datawrapperLineChartId")
     bar_id  = config["output"].get("datawrapperBarChartId")
-    updated = datetime.utcnow().strftime("%-d %B %Y")
+    updated = json_data["meta"].get("latestPollDate", "")
+    notes_html = f'<span style="background-color:#f0f0f0; padding:1px 3px; border-radius:4px">Last updated {updated}</span>'
 
     if line_id:
         line_csv = build_line_csv(json_data, polls)
@@ -376,17 +381,18 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
             data=line_csv.encode("utf-8")
         )
         line_patch_payload = {
-                "title": json_data["meta"]["headline"],
-    "metadata": {
-    "describe": {
-        "intro": json_data["meta"]["intro"],
-        "byline": "",
-        "source-name": "",
-    },
-    "annotate": {
-        "notes": f'<span style="background-color:#f0f0f0; padding:1px 3px; border-radius:4px">Last updated {updated}</span>'
-    }
-}
+            "title": json_data["meta"]["headline"],
+            "metadata": {
+                "describe": {
+                    "intro": json_data["meta"]["intro"],
+                    "byline": "",
+                    "source-name": "",
+                },
+                "annotate": {
+                    "notes": notes_html
+                }
+            }
+        }
         print(f"Line chart patch payload: {line_patch_payload}")
         line_patch_resp = requests.patch(
             f"https://api.datawrapper.de/v3/charts/{line_id}",
@@ -408,15 +414,16 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
         )
         bar_patch_payload = {
             "metadata": {
-    "describe": {
-        "intro": json_data["meta"]["intro"],
-        "byline": "",
-        "source-name": "",
-    },
-    "annotate": {
-        "notes": f'<span style="background-color:#f0f0f0; padding:1px 3px; border-radius:4px">Last updated {updated}</span>'
-    }
-}
+                "describe": {
+                    "intro": json_data["meta"]["intro"],
+                    "byline": "",
+                    "source-name": "",
+                },
+                "annotate": {
+                    "notes": notes_html
+                }
+            }
+        }
         print(f"Bar chart patch payload: {bar_patch_payload}")
         bar_patch_resp = requests.patch(
             f"https://api.datawrapper.de/v3/charts/{bar_id}",
