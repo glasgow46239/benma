@@ -338,6 +338,20 @@ def build_line_csv(json_data, polls):
         for pt in series[name]:
             smooth_lookup.setdefault(pt["date"], {})[name] = pt["value"]
 
+# Interpolate smoothed values at raw poll dates not already in smooth_lookup
+for name in party_names:
+    pts = [(pt["t"], pt["value"]) for pt in json_data["series"].get(name, []) if pt["value"] is not None]
+    if not pts:
+        continue
+    for date in raw_dates:
+        if date in smooth_lookup and name in smooth_lookup[date]:
+            continue
+        # Find nearest smooth point by date string proximity isn't easy — use epoch
+        from datetime import datetime as dt
+        d_epoch = (dt.strptime(date, "%Y-%m-%d") - dt(1970, 1, 1)).days
+        closest = min(pts, key=lambda p: abs(p[0] - d_epoch))
+        smooth_lookup.setdefault(date, {})[name] = closest[1]
+    
     all_dates = sorted(set(all_smooth_dates) | set(raw_dates))
 
     for date in all_dates:
