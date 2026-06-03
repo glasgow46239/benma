@@ -68,7 +68,6 @@ def fetch_polls(config):
     reader = csv.reader(io.StringIO(resp.text))
     rows = list(reader)
 
-    # Find the header row (first row with 'date' in col 0)
     header_idx = 0
     for i, row in enumerate(rows):
         if row and row[0].strip().lower() == "date":
@@ -115,10 +114,11 @@ def tricube_weight(u):
         return 0.0
     return (1 - abs(u) ** 3) ** 3
 
-def kernel_loess(data_points, bandwidth_days, min_polls, n_steps=300):
+def kernel_loess(data_points, bandwidth_days, min_polls, step_days=1):
     """
     data_points: list of (timestamp_days, value) tuples
-    Returns list of (timestamp_days, smoothed_value, is_sparse) or None where no line
+    step_days: output one smoothed point every N days (default 1 = daily)
+    Returns list of (timestamp_days, smoothed_value, is_sparse)
     """
     if not data_points:
         return []
@@ -128,15 +128,14 @@ def kernel_loess(data_points, bandwidth_days, min_polls, n_steps=300):
     t_min, t_max = min(ts), max(ts)
 
     results = []
-    for i in range(n_steps + 1):
-        t = t_min + (t_max - t_min) * (i / n_steps)
-
+    t = t_min
+    while t <= t_max:
         nearby = [(tx, y) for tx, y in data_points if abs(tx - t) <= bw]
         if len(nearby) < min_polls:
             results.append((t, None, False))
+            t += step_days
             continue
 
-        # Sparse flag: fewer than 2x min_polls within 1.8x bandwidth
         wider = [(tx, y) for tx, y in data_points if abs(tx - t) <= bw * 1.8]
         is_sparse = len(wider) < min_polls * 2
 
@@ -150,18 +149,80 @@ def kernel_loess(data_points, bandwidth_days, min_polls, n_steps=300):
 
         smoothed = wy_sum / w_sum if w_sum > 0 else None
         results.append((t, round(smoothed, 2) if smoothed is not None else None, is_sparse))
+        t += step_days
 
     return results
 
+def kernel_loess_simple(data_points, bandwidth_days, min_polls, t_values):
+    """
+    Run LOESS at a specific list of t values (used for bootstrap).
+    Returns list of smoothed values (or None) at each t.
+    """
+    bw = bandwidth_days
+    results = []
+    for t in t_values:
+        nearby = [(tx, y) for tx, y in data_points if abs(tx - t) <= bw]
+        if len(nearby) < min_polls:
+            results.append(None)
+            continue
+        w_sum = 0.0
+        wy_sum = 0.0
+        for tx, y in nearby:
+            u = (tx - t) / bw
+            w = tricube_weight(u)
+            w_sum += w
+            wy_sum += w * y
+        results.append(round(wy_sum / w_sum, 2) if w_sum > 0 else None)
+    return results
+
+def bootstrap_ci(data_points, bandwidth_days, min_polls, t_values,
+                 n_boot=200, ci_low=5, ci_high=95):
+    """
+    Bootstrap confidence intervals for LOESS.
+    Returns (lows, highs) — lists of lower/upper bounds at each t,
+    or None where the smoother had no data.
+    """
+    if len(data_points) < min_polls:
+        return [None] * len(t_values), [None] * len(t_values)
+
+    rng = np.random.default_rng(42)
+    boot_results = []
+
+    for _ in range(n_boot):
+        # Resample with replacement
+        indices = rng.integers(0, len(data_points), size=len(data_points))
+        resampled = [data_points[i] for i in indices]
+        smoothed = kernel_loess_simple(resampled, bandwidth_days, min_polls, t_values)
+        boot_results.append(smoothed)
+
+    # boot_results is (n_boot x len(t_values))
+    arr = np.array([[v if v is not None else np.nan for v in row]
+                    for row in boot_results])
+
+    lows, highs = [], []
+    for col_idx in range(len(t_values)):
+        col = arr[:, col_idx]
+        valid = col[~np.isnan(col)]
+        if len(valid) < min_polls:
+            lows.append(None)
+            highs.append(None)
+        else:
+            lows.append(round(float(np.percentile(valid, ci_low)), 2))
+            highs.append(round(float(np.percentile(valid, ci_high)), 2))
+
+    return lows, highs
+
 def days_since_epoch(dt):
     return (dt - datetime(1970, 1, 1)).days
+
+def epoch_to_date_str(d):
+    return (datetime(1970, 1, 1) + timedelta(days=int(d))).strftime("%Y-%m-%d")
 
 # ---------------------------------------------------------------------------
 # Headline generation
 # ---------------------------------------------------------------------------
 
 def generate_headline(polls, config, latest_smooth):
-    """Generate a plain-English headline and intro line from the latest data."""
     if not polls:
         return "", ""
 
@@ -169,7 +230,6 @@ def generate_headline(polls, config, latest_smooth):
     latest_date = latest_poll["date"].strftime("%-d %B %Y")
     pollster = latest_poll["pollster"]
 
-    # Find leading party in latest poll
     party_vals = {
         p: latest_poll["values"].get(p)
         for p in [pt["name"] for pt in config["parties"] if pt["includeInLine"]]
@@ -181,7 +241,6 @@ def generate_headline(polls, config, latest_smooth):
     leader = max(party_vals, key=party_vals.get)
     leader_val = party_vals[leader]
 
-    # Compare to reference election
     ref = config.get("referenceElection", {})
     ref_results = ref.get("results", {})
     ref_label = ref.get("label", "last election")
@@ -208,6 +267,7 @@ def generate_headline(polls, config, latest_smooth):
 def build_line_json(polls, config):
     bw = config["smoothing"]["bandwidthDays"]
     min_polls = config["smoothing"]["minPollsInWindow"]
+    n_boot = config["smoothing"].get("bootstrapIterations", 200)
     parties = [p for p in config["parties"] if p["includeInLine"]]
 
     series = {}
@@ -220,18 +280,25 @@ def build_line_json(polls, config):
         ]
         if not pts:
             continue
-        smoothed = kernel_loess(pts, bw, min_polls)
+
+        smoothed = kernel_loess(pts, bw, min_polls, step_days=1)
+        t_values = [s[0] for s in smoothed]
+
+        print(f"  Bootstrapping CI for {name} ({n_boot} iterations)...")
+        lows, highs = bootstrap_ci(pts, bw, min_polls, t_values, n_boot=n_boot)
+
         series[name] = [
             {
                 "t": int(t),
-                "date": (datetime(1970, 1, 1) + timedelta(days=int(t))).strftime("%Y-%m-%d"),
+                "date": epoch_to_date_str(t),
                 "value": v,
+                "low": lows[i],
+                "high": highs[i],
                 "sparse": s
             }
-            for t, v, s in smoothed
+            for i, (t, v, s) in enumerate(smoothed)
         ]
 
-    # Latest smoothed values (last non-None point per party)
     latest_smooth = {}
     for name, pts in series.items():
         non_null = [p for p in pts if p["value"] is not None]
@@ -239,11 +306,8 @@ def build_line_json(polls, config):
             latest_smooth[name] = non_null[-1]["value"]
 
     headline, intro = generate_headline(polls, config, latest_smooth)
-
-    # Latest poll date in DD-MMM-YYYY format
     latest_poll_date = polls[-1]["date"].strftime("%d-%b-%Y") if polls else ""
 
-    # Raw poll dots (for reference)
     raw_dots = [
         {
             "date": p["date"].strftime("%Y-%m-%d"),
@@ -259,6 +323,7 @@ def build_line_json(polls, config):
             "generated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
             "bandwidthDays": bw,
             "minPollsInWindow": min_polls,
+            "bootstrapIterations": n_boot,
             "headline": headline,
             "intro": intro,
             "latestSmoothed": latest_smooth,
@@ -276,7 +341,6 @@ def build_bar_csv(polls, config):
     ref_results = config.get("referenceElection", {}).get("results", {})
     ref_label = config.get("referenceElection", {}).get("label", "Reference")
 
-    # Latest poll values per party (most recent non-null)
     latest = {}
     for p in reversed(polls):
         for party in parties:
@@ -304,7 +368,10 @@ def build_bar_csv(polls, config):
     return "\n".join(lines)
 
 def build_line_csv(json_data, polls):
-    """Smoothed series + daily-averaged raw polls for Datawrapper line chart."""
+    """
+    Smoothed series (daily) + 90% CI bounds + raw poll averages.
+    Columns: date, [Party], [Party (low)], [Party (high)], [Party (poll)], ...
+    """
     series = json_data["series"]
     if not series:
         return ""
@@ -322,53 +389,36 @@ def build_line_csv(json_data, polls):
 
     raw_dates = sorted(daily.keys())
 
-    # Build smooth lookup: date string -> {party -> value}
+    # Smooth + CI lookup: date -> {party -> (value, low, high)}
     smooth_lookup = {}
     for name in party_names:
         for pt in series.get(name, []):
             if pt["value"] is not None:
-                smooth_lookup.setdefault(pt["date"], {})[name] = pt["value"]
+                smooth_lookup.setdefault(pt["date"], {})[name] = (
+                    pt["value"], pt.get("low"), pt.get("high")
+                )
 
-    # Build a sorted list of (epoch_days, date_str, value) per party for interpolation
-    smooth_pts_by_party = {}
-    for name in party_names:
-        pts = sorted(
-            [(pt["t"], pt["date"], pt["value"]) for pt in series.get(name, []) if pt["value"] is not None],
-            key=lambda x: x[0]
-        )
-        smooth_pts_by_party[name] = pts
-
-    # For every raw poll date not already in smooth_lookup, interpolate nearest smooth value
-    for date_str in raw_dates:
-        d_epoch = days_since_epoch(datetime.strptime(date_str, "%Y-%m-%d"))
-        for name in party_names:
-            if name in smooth_lookup.get(date_str, {}):
-                continue
-            pts = smooth_pts_by_party.get(name, [])
-            if not pts:
-                continue
-            # Find closest smooth point by epoch distance
-            closest = min(pts, key=lambda p: abs(p[0] - d_epoch))
-            smooth_lookup.setdefault(date_str, {})[name] = closest[1]
-
-    # All dates: union of smooth step dates and raw poll dates
-    all_smooth_dates = sorted(set(
-        pt["date"] for name in party_names
-        for pt in series.get(name, []) if pt["value"] is not None
-    ))
+    all_smooth_dates = sorted(smooth_lookup.keys())
     all_dates = sorted(set(all_smooth_dates) | set(raw_dates))
 
-    # Header: date, smoothed parties..., raw poll parties...
-    raw_cols = [f"{n} (poll)" for n in party_names]
-    lines = ["date," + ",".join(party_names) + "," + ",".join(raw_cols)]
+    # Header: date, smooth, low, high per party, then poll per party
+    header_parts = ["date"]
+    for name in party_names:
+        header_parts += [name, f"{name} (low)", f"{name} (high)"]
+    for name in party_names:
+        header_parts.append(f"{name} (poll)")
+    lines = [",".join(header_parts)]
 
     for date in all_dates:
         row = [date]
-        # Smoothed values
         for name in party_names:
-            val = smooth_lookup.get(date, {}).get(name)
-            row.append("" if val is None else str(val))
-        # Raw poll averages
+            entry = smooth_lookup.get(date, {}).get(name)
+            if entry:
+                v, lo, hi = entry
+                row += [str(v), ("" if lo is None else str(lo)),
+                                ("" if hi is None else str(hi))]
+            else:
+                row += ["", "", ""]
         for name in party_names:
             vals = daily.get(date, {}).get(name, [])
             avg = round(sum(vals) / len(vals), 1) if vals else ""
@@ -407,23 +457,18 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
             headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
             data=line_csv.encode("utf-8")
         )
-        line_patch_payload = {
-            "title": json_data["meta"]["headline"],
-            "metadata": {
-                "describe": {
-                    "intro": json_data["meta"]["intro"],
-                    "byline": byline_html,
-                    "source-name": "",
-                }
-            }
-        }
-        print(f"Line chart patch payload: {line_patch_payload}")
         line_patch_resp = requests.patch(
             f"https://api.datawrapper.de/v3/charts/{line_id}",
             headers=headers,
-            json=line_patch_payload
+            json={
+                "metadata": {
+                    "describe": {
+                        "byline": byline_html,
+                    }
+                }
+            }
         )
-        print(f"Line chart patch response: {line_patch_resp.status_code} {line_patch_resp.text}")
+        print(f"Line chart patch response: {line_patch_resp.status_code}")
         requests.post(
             f"https://api.datawrapper.de/v3/charts/{line_id}/publish",
             headers=headers
@@ -436,22 +481,18 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
             headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
             data=bar_csv.encode("utf-8")
         )
-        bar_patch_payload = {
-            "metadata": {
-                "describe": {
-                    "intro": json_data["meta"]["intro"],
-                    "byline": byline_html,
-                    "source-name": "",
-                }
-            }
-        }
-        print(f"Bar chart patch payload: {bar_patch_payload}")
         bar_patch_resp = requests.patch(
             f"https://api.datawrapper.de/v3/charts/{bar_id}",
             headers=headers,
-            json=bar_patch_payload
+            json={
+                "metadata": {
+                    "describe": {
+                        "byline": byline_html,
+                    }
+                }
+            }
         )
-        print(f"Bar chart patch response: {bar_patch_resp.status_code} {bar_patch_resp.text}")
+        print(f"Bar chart patch response: {bar_patch_resp.status_code}")
         requests.post(
             f"https://api.datawrapper.de/v3/charts/{bar_id}/publish",
             headers=headers
@@ -471,12 +512,13 @@ def main():
         print("No polls loaded, exiting")
         sys.exit(1)
 
+    print("Building smoothed series with confidence intervals...")
     line_json = build_line_json(polls, config)
     bar_csv   = build_bar_csv(polls, config)
 
-    # Write outputs
     line_path = config["output"]["lineJsonPath"]
     bar_path  = config["output"]["barCsvPath"]
+    line_csv_path = config["output"].get("lineCsvPath", "")
 
     os.makedirs(os.path.dirname(line_path), exist_ok=True)
 
@@ -487,6 +529,14 @@ def main():
     with open(bar_path, "w") as f:
         f.write(bar_csv)
     print(f"Written: {bar_path}")
+
+    # Write line CSV if path configured
+    if line_csv_path:
+        os.makedirs(os.path.dirname(line_csv_path), exist_ok=True)
+        line_csv_data = build_line_csv(line_json, polls)
+        with open(line_csv_path, "w") as f:
+            f.write(line_csv_data)
+        print(f"Written: {line_csv_path}")
 
     print(f"\nHeadline: {line_json['meta']['headline']}")
     print(f"Intro:    {line_json['meta']['intro']}")
