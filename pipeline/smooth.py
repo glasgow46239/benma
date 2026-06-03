@@ -302,26 +302,55 @@ def build_bar_csv(polls, config):
 # Datawrapper push
 # ---------------------------------------------------------------------------
 
-def build_line_csv(json_data):
-    """Convert smoothed series to a CSV Datawrapper can plot as a line chart."""
+def build_line_csv(json_data, polls):
+    """Smoothed series + daily-averaged raw polls for Datawrapper line chart."""
     series = json_data["series"]
     if not series:
         return ""
 
     party_names = list(series.keys())
 
-    # Build a unified date index across all series
-    all_dates = sorted(set(pt["date"] for name in party_names for pt in series[name] if pt["value"] is not None))
+    # --- Smoothed series ---
+    all_smooth_dates = sorted(set(
+        pt["date"] for name in party_names
+        for pt in series[name] if pt["value"] is not None
+    ))
 
-    # Header
-    lines = ["date," + ",".join(party_names)]
+    # --- Raw poll daily averages ---
+    from collections import defaultdict
+    daily = defaultdict(lambda: defaultdict(list))
+    for poll in polls:
+        date_str = poll["date"].strftime("%Y-%m-%d")
+        for name in party_names:
+            val = poll["values"].get(name)
+            if val is not None:
+                daily[date_str][name].append(val)
+
+    raw_dates = sorted(daily.keys())
+
+    # Header: date, smoothed parties..., raw parties...
+    raw_cols = [f"{n} (poll)" for n in party_names]
+    lines = ["date," + ",".join(party_names) + "," + ",".join(raw_cols)]
+
+    # Smoothed rows
+    smooth_lookup = {}
+    for name in party_names:
+        for pt in series[name]:
+            smooth_lookup.setdefault(pt["date"], {})[name] = pt["value"]
+
+    all_dates = sorted(set(all_smooth_dates) | set(raw_dates))
 
     for date in all_dates:
         row = [date]
+        # Smoothed values
         for name in party_names:
-            pts = {pt["date"]: pt["value"] for pt in series[name]}
-            val = pts.get(date)
+            val = smooth_lookup.get(date, {}).get(name)
             row.append("" if val is None else str(val))
+        # Raw averaged values
+        for name in party_names:
+            vals = daily.get(date, {}).get(name, [])
+            avg = round(sum(vals) / len(vals), 1) if vals else ""
+            row.append("" if avg == "" else str(avg))
         lines.append(",".join(row))
 
     return "\n".join(lines)
@@ -342,32 +371,53 @@ def push_to_datawrapper(json_data, bar_csv, config):
     bar_id  = config["output"].get("datawrapperBarChartId")
 
     if line_id:
-        line_csv = build_line_csv(json_data)
+    line_csv = build_line_csv(json_data, polls)
+    updated = datetime.utcnow().strftime("%-d %B %Y")
 
-        requests.put(
-            f"https://api.datawrapper.de/v3/charts/{line_id}/data",
-            headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
-            data=line_csv.encode("utf-8")
-        )
-        requests.patch(
-            f"https://api.datawrapper.de/v3/charts/{line_id}",
-            headers=headers,
-            json={
-                "title": json_data["meta"]["headline"],
-                "describe": {"intro": json_data["meta"]["intro"]}
+    requests.put(
+        f"https://api.datawrapper.de/v3/charts/{line_id}/data",
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
+        data=line_csv.encode("utf-8")
+    )
+    requests.patch(
+        f"https://api.datawrapper.de/v3/charts/{line_id}",
+        headers=headers,
+        json={
+            "title": json_data["meta"]["headline"],
+            "describe": {
+                "intro": json_data["meta"]["intro"],
+                "byline": "",
+                "source-name": "",
+            },
+            "annotate": {
+                "notes": f"Last updated {updated}. Line shows kernel-smoothed average; dots show individual polls."
             }
-        )
-        requests.post(f"https://api.datawrapper.de/v3/charts/{line_id}/publish", headers=headers)
-        print(f"Pushed and republished line chart: {line_id}")
-
+        }
+    )
+    requests.post(
+        f"https://api.datawrapper.de/v3/charts/{line_id}/publish",
+        headers=headers
+    )
+    print(f"Pushed and republished line chart: {line_id}")
     if bar_id:
-        requests.put(
-            f"https://api.datawrapper.de/v3/charts/{bar_id}/data",
-            headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
-            data=bar_csv.encode("utf-8")
-        )
-        requests.post(f"https://api.datawrapper.de/v3/charts/{bar_id}/publish", headers=headers)
-        print(f"Pushed and republished bar chart: {bar_id}")
+    updated = datetime.utcnow().strftime("%-d %B %Y")
+    requests.put(
+        f"https://api.datawrapper.de/v3/charts/{bar_id}/data",
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
+        data=bar_csv.encode("utf-8")
+    )
+    requests.patch(
+        f"https://api.datawrapper.de/v3/charts/{bar_id}",
+        headers=headers,
+        json={
+            "annotate": {"notes": f"Last updated {updated}."}
+        }
+    )
+    requests.post(
+        f"https://api.datawrapper.de/v3/charts/{bar_id}/publish",
+        headers=headers
+    )
+    print(f"Pushed and republished bar chart: {bar_id}")
 
 # ---------------------------------------------------------------------------
 # Main
