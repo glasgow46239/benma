@@ -375,18 +375,21 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
             headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
             data=line_csv.encode("utf-8")
         )
-        requests.patch(
+        line_patch_payload = {
+            "title": json_data["meta"]["headline"],
+            "describe": {
+                "intro": json_data["meta"]["intro"],
+                "byline": f"Last updated {updated}",
+                "source-name": "",
+            }
+        }
+        print(f"Line chart patch payload: {line_patch_payload}")
+        line_patch_resp = requests.patch(
             f"https://api.datawrapper.de/v3/charts/{line_id}",
             headers=headers,
-            json={
-                "title": json_data["meta"]["headline"],
-                "describe": {
-                    "intro": json_data["meta"]["intro"],
-                    "byline": f"Last updated {updated}",
-                    "source-name": "",
-                }
-            }
+            json=line_patch_payload
         )
+        print(f"Line chart patch response: {line_patch_resp.status_code} {line_patch_resp.text}")
         requests.post(
             f"https://api.datawrapper.de/v3/charts/{line_id}/publish",
             headers=headers
@@ -399,15 +402,18 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
             headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
             data=bar_csv.encode("utf-8")
         )
-        requests.patch(
+        bar_patch_payload = {
+            "describe": {
+                "byline": f"Last updated {updated}"
+            }
+        }
+        print(f"Bar chart patch payload: {bar_patch_payload}")
+        bar_patch_resp = requests.patch(
             f"https://api.datawrapper.de/v3/charts/{bar_id}",
             headers=headers,
-            json={
-                "describe": {
-                    "byline": f"Last updated {updated}"
-                }
-            }
+            json=bar_patch_payload
         )
+        print(f"Bar chart patch response: {bar_patch_resp.status_code} {bar_patch_resp.text}")
         requests.post(
             f"https://api.datawrapper.de/v3/charts/{bar_id}/publish",
             headers=headers
