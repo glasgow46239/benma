@@ -36,6 +36,7 @@
   "output": {
     "lineJsonPath": "data/vi24wal/line.json",
     "barCsvPath":  "data/vi24wal/bar.csv",
+    "lineCsvPath": "trackers/vi24wal/csv.csv",
     "datawrapperLineChartId": "eHS9r",
     "datawrapperBarChartId":  "7winX"
   }
