@@ -29,7 +29,7 @@ import requests
 # ---------------------------------------------------------------------------
 
 def parse_args():
-    p = argparse.ArgumentParser(description="Welsh VI smoothing pipeline")
+    p = argparse.ArgumentParser(description="Smoothing pipeline")
     p.add_argument("--config", default="config.json", help="Path to config.json")
     p.add_argument("--push-to-datawrapper", action="store_true",
                    help="Push outputs to Datawrapper via API (requires DATAWRAPPER_TOKEN env var)")
@@ -382,11 +382,8 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
                 "title": json_data["meta"]["headline"],
                 "describe": {
                     "intro": json_data["meta"]["intro"],
-                    "byline": "",
+                    "byline": f"Last updated {updated}",
                     "source-name": "",
-                },
-                "annotate": {
-                    "notes": f"Last updated {updated}. Line shows kernel-smoothed average; dots show individual polls."
                 }
             }
         )
@@ -406,7 +403,9 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
             f"https://api.datawrapper.de/v3/charts/{bar_id}",
             headers=headers,
             json={
-                "annotate": {"notes": f"Last updated {updated}."}
+                "describe": {
+                    "byline": f"Last updated {updated}"
+                }
             }
         )
         requests.post(
