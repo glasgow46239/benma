@@ -311,12 +311,6 @@ def build_line_csv(json_data, polls):
 
     party_names = list(series.keys())
 
-    # Smoothed date index
-    all_smooth_dates = sorted(set(
-        pt["date"] for name in party_names
-        for pt in series[name] if pt["value"] is not None
-    ))
-
     # Raw poll daily averages
     daily = defaultdict(lambda: defaultdict(list))
     for poll in polls:
@@ -328,37 +322,53 @@ def build_line_csv(json_data, polls):
 
     raw_dates = sorted(daily.keys())
 
+    # Build smooth lookup: date string -> {party -> value}
+    smooth_lookup = {}
+    for name in party_names:
+        for pt in series.get(name, []):
+            if pt["value"] is not None:
+                smooth_lookup.setdefault(pt["date"], {})[name] = pt["value"]
+
+    # Build a sorted list of (epoch_days, date_str, value) per party for interpolation
+    smooth_pts_by_party = {}
+    for name in party_names:
+        pts = sorted(
+            [(pt["t"], pt["date"], pt["value"]) for pt in series.get(name, []) if pt["value"] is not None],
+            key=lambda x: x[0]
+        )
+        smooth_pts_by_party[name] = pts
+
+    # For every raw poll date not already in smooth_lookup, interpolate nearest smooth value
+    for date_str in raw_dates:
+        d_epoch = days_since_epoch(datetime.strptime(date_str, "%Y-%m-%d"))
+        for name in party_names:
+            if name in smooth_lookup.get(date_str, {}):
+                continue
+            pts = smooth_pts_by_party.get(name, [])
+            if not pts:
+                continue
+            # Find closest smooth point by epoch distance
+            closest = min(pts, key=lambda p: abs(p[0] - d_epoch))
+            smooth_lookup.setdefault(date_str, {})[name] = closest[1]
+
+    # All dates: union of smooth step dates and raw poll dates
+    all_smooth_dates = sorted(set(
+        pt["date"] for name in party_names
+        for pt in series.get(name, []) if pt["value"] is not None
+    ))
+    all_dates = sorted(set(all_smooth_dates) | set(raw_dates))
+
     # Header: date, smoothed parties..., raw poll parties...
     raw_cols = [f"{n} (poll)" for n in party_names]
     lines = ["date," + ",".join(party_names) + "," + ",".join(raw_cols)]
 
-    # Smoothed lookup
-    smooth_lookup = {}
-    for name in party_names:
-        for pt in series[name]:
-            smooth_lookup.setdefault(pt["date"], {})[name] = pt["value"]
-
-# Interpolate smoothed values at raw poll dates not already in smooth_lookup
-for name in party_names:
-    pts = [(pt["t"], pt["value"]) for pt in json_data["series"].get(name, []) if pt["value"] is not None]
-    if not pts:
-        continue
-    for date in raw_dates:
-        if date in smooth_lookup and name in smooth_lookup[date]:
-            continue
-        # Find nearest smooth point by date string proximity isn't easy — use epoch
-        from datetime import datetime as dt
-        d_epoch = (dt.strptime(date, "%Y-%m-%d") - dt(1970, 1, 1)).days
-        closest = min(pts, key=lambda p: abs(p[0] - d_epoch))
-        smooth_lookup.setdefault(date, {})[name] = closest[1]
-    
-    all_dates = sorted(set(all_smooth_dates) | set(raw_dates))
-
     for date in all_dates:
         row = [date]
+        # Smoothed values
         for name in party_names:
             val = smooth_lookup.get(date, {}).get(name)
             row.append("" if val is None else str(val))
+        # Raw poll averages
         for name in party_names:
             vals = daily.get(date, {}).get(name, [])
             avg = round(sum(vals) / len(vals), 1) if vals else ""
