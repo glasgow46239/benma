@@ -376,10 +376,15 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
             data=line_csv.encode("utf-8")
         )
         line_patch_payload = {
-            "title": json_data["meta"]["headline"],
+                "title": json_data["meta"]["headline"],
+    "metadata": {
+        "describe": {
             "intro": json_data["meta"]["intro"],
             "byline": f"Last updated {updated}",
+            "source-name": "",
         }
+    }
+}
         print(f"Line chart patch payload: {line_patch_payload}")
         line_patch_resp = requests.patch(
             f"https://api.datawrapper.de/v3/charts/{line_id}",
@@ -400,8 +405,12 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
             data=bar_csv.encode("utf-8")
         )
         bar_patch_payload = {
-            "byline": f"Last updated {updated}",
+            "metadata": {
+        "describe": {
+            "byline": f"Last updated {updated}"
         }
+    }
+}
         print(f"Bar chart patch payload: {bar_patch_payload}")
         bar_patch_resp = requests.patch(
             f"https://api.datawrapper.de/v3/charts/{bar_id}",
