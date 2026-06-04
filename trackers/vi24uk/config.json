@@ -3,7 +3,7 @@
   "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQY797SnNrQzpin7dGAKW7PLLUOd0eSzQJV1-BxLbtZQnKg_H7LtIdkzTYFxlTaqBeYXVDQ4BPJnXhR/pub?gid=1561320384&single=true&output=csv",
 
   "smoothing": {
-    "bandwidthDays": 80,
+    "bandwidthDays": 40,
     "minPollsInWindow": 2
   },
 
