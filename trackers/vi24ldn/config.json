@@ -3,7 +3,7 @@
   "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQY797SnNrQzpin7dGAKW7PLLUOd0eSzQJV1-BxLbtZQnKg_H7LtIdkzTYFxlTaqBeYXVDQ4BPJnXhR/pub?gid=825103233&single=true&output=csv",
 
   "smoothing": {
-    "bandwidthDays": 40,
+    "bandwidthDays": 60,
     "minPollsInWindow": 2
   },
 
@@ -36,7 +36,7 @@
     "lineJsonPath": "data/vi24ldn/line.json",
     "barCsvPath":  "data/vi24ldn/bar.csv",
     "lineCsvPath": "trackers/vi24ldn/csv.csv",
-    "datawrapperLineChartId": "9DaVr",
-    "datawrapperBarChartId":  "rCN3q"
+    "datawrapperLineChartId": "KrhS3",
+    "datawrapperBarChartId":  "Gn4gh"
   }
 }
