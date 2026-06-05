@@ -1,0 +1,45 @@
+name: Create new tracker
+on:
+  workflow_dispatch:
+    inputs:
+      tracker_name:
+        description: "Tracker name (e.g. Scottish Westminster VI)"
+        required: true
+      folder_name:
+        description: "Folder name (e.g. scotland-westminster)"
+        required: true
+      data_url:
+        description: "Google Sheets CSV URL"
+        required: true
+      dw_line_type:
+        description: "Datawrapper line chart type"
+        default: "d3-lines"
+      dw_bar_type:
+        description: "Datawrapper bar chart type"
+        default: "d3-bars-split"
+
+jobs:
+  create-tracker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Create tracker
+        run: |
+          python pipeline/new_tracker.py \
+            --name "${{ github.event.inputs.tracker_name }}" \
+            --folder "${{ github.event.inputs.folder_name }}" \
+            --url "${{ github.event.inputs.data_url }}" \
+            --non-interactive
+        env:
+          DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
+      - name: Commit new tracker
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add trackers/
+          git diff --cached --quiet || git commit -m "add tracker: ${{ github.event.inputs.folder_name }}"
+          git push
