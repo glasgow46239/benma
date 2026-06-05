@@ -1,0 +1,42 @@
+{
+  "trackerName": "vi24ldn",
+  "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQY797SnNrQzpin7dGAKW7PLLUOd0eSzQJV1-BxLbtZQnKg_H7LtIdkzTYFxlTaqBeYXVDQ4BPJnXhR/pub?gid=825103233&single=true&output=csv",
+
+  "smoothing": {
+    "bandwidthDays": 40,
+    "minPollsInWindow": 2
+  },
+
+  "skipPollsterPatterns": ["GE result", "result"],
+
+  "parties": [
+    { "name": "Con",    "col": 2,  "color": "#05718F", "includeInLine": true, "includeInBar": true },
+    { "name": "Lab",    "col": 3,  "color": "#D34C4C", "includeInLine": true, "includeInBar": true },
+    { "name": "LDem",   "col": 4,  "color": "#EBB82F", "includeInLine": true, "includeInBar": true },
+    { "name": "UKIP",   "col": 5,  "color": "#6D3177", "includeInLine": false, "includeInBar": false },
+    { "name": "Grn",    "col": 6,  "color": "#5CBC4A", "includeInLine": true, "includeInBar": true },
+    { "name": "SNP",     "col": 7,  "color": "#EEE03C", "includeInLine": false, "includeInBar": false },
+    { "name": "PC",     "col": 8,  "color": "#005B54", "includeInLine": false, "includeInBar": false },
+    { "name": "Reform", "col": 10, "color": "#15B6C2", "includeInLine": true, "includeInBar": true }
+  ],
+
+  "referenceElection": {
+    "label": "Historic result",
+    "date": "04/07/2024",
+    "results": {
+      "Con":    21,
+      "Lab":    43,
+      "LDem":    11,
+      "Grn":     10,
+      "Reform":  9
+    }
+  },
+
+  "output": {
+    "lineJsonPath": "data/vi24ldn/line.json",
+    "barCsvPath":  "data/vi24ldn/bar.csv",
+    "lineCsvPath": "trackers/vi24ldn/csv.csv",
+    "datawrapperLineChartId": "9DaVr",
+    "datawrapperBarChartId":  "rCN3q"
+  }
+}
