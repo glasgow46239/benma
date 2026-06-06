@@ -22,13 +22,13 @@
 
   "referenceElection": {
     "label": "Historic result",
-    "date": "04/07/2024",
+    "date": "12/12/2019",
     "results": {
-      "Con":    24,
-      "Lab":    35,
-      "LDem":    13,
-      "Grn":     7,
-      "Reform":  15
+      "Con":    44,
+      "Lab":    32,
+      "LDem":    12,
+      "Grn":     3,
+      "Reform":  2
     }
   },
 
