@@ -106,6 +106,82 @@ def fetch_polls(config):
     return polls
 
 # ---------------------------------------------------------------------------
+# Historical series loader
+# ---------------------------------------------------------------------------
+
+def load_historical_series(config):
+    """
+    Fetch a pre-smoothed line.csv from a historical tracker and return
+    a dict of { col_name -> { date_str -> value } } for the requested parties,
+    with the configured suffix appended to party names.
+
+    Expected historical CSV columns:
+        date, Con, Con (low), Con (high), Con (poll), Lab, ...
+
+    Returns:
+        hist  — { suffixed_col_name: { date_str: float_or_none } }
+        polls — { party_name: { date_str: float_or_none } }  (raw poll dots, no suffix)
+    """
+    hist_config = config.get("historicalSeries")
+    if not hist_config:
+        return {}, {}
+
+    url = hist_config["url"]
+    suffix = hist_config.get("labelSuffix", " (hist)")
+    wanted_parties = hist_config.get("parties", [])
+
+    print(f"Fetching historical series from: {url}")
+    resp = requests.get(url, timeout=30)
+    resp.raise_for_status()
+
+    reader = csv.DictReader(io.StringIO(resp.text))
+    rows = list(reader)
+
+    hist = defaultdict(dict)   # suffixed smooth + CI columns
+    polls = defaultdict(dict)  # raw poll dots — no suffix, merged with live
+
+    for row in rows:
+        date = row.get("date", "").strip()
+        if not date:
+            continue
+
+        for party in wanted_parties:
+            # Smooth value
+            smooth_key = party
+            if smooth_key in row and row[smooth_key].strip():
+                try:
+                    hist[f"{party}{suffix}"][date] = float(row[smooth_key])
+                except ValueError:
+                    pass
+
+            # CI low
+            low_key = f"{party} (low)"
+            if low_key in row and row[low_key].strip():
+                try:
+                    hist[f"{party}{suffix} (low)"][date] = float(row[low_key])
+                except ValueError:
+                    pass
+
+            # CI high
+            high_key = f"{party} (high)"
+            if high_key in row and row[high_key].strip():
+                try:
+                    hist[f"{party}{suffix} (high)"][date] = float(row[high_key])
+                except ValueError:
+                    pass
+
+            # Poll dots — merged into live poll column (no suffix)
+            poll_key = f"{party} (poll)"
+            if poll_key in row and row[poll_key].strip():
+                try:
+                    polls[party][date] = float(row[poll_key])
+                except ValueError:
+                    pass
+
+    print(f"  Loaded historical series: {list(hist.keys())[:6]}...")
+    return dict(hist), dict(polls)
+
+# ---------------------------------------------------------------------------
 # Kernel LOESS (Tricube, fixed day bandwidth)
 # ---------------------------------------------------------------------------
 
@@ -154,10 +230,7 @@ def kernel_loess(data_points, bandwidth_days, min_polls, step_days=1):
     return results
 
 def kernel_loess_simple(data_points, bandwidth_days, min_polls, t_values):
-    """
-    Run LOESS at a specific list of t values (used for bootstrap).
-    Returns list of smoothed values (or None) at each t.
-    """
+    """Run LOESS at specific t values (used for bootstrap)."""
     bw = bandwidth_days
     results = []
     for t in t_values:
@@ -177,11 +250,7 @@ def kernel_loess_simple(data_points, bandwidth_days, min_polls, t_values):
 
 def bootstrap_ci(data_points, bandwidth_days, min_polls, t_values,
                  n_boot=200, ci_low=5, ci_high=95):
-    """
-    Bootstrap confidence intervals for LOESS.
-    Returns (lows, highs) — lists of lower/upper bounds at each t,
-    or None where the smoother had no data.
-    """
+    """Bootstrap confidence intervals for LOESS."""
     if len(data_points) < min_polls:
         return [None] * len(t_values), [None] * len(t_values)
 
@@ -189,13 +258,11 @@ def bootstrap_ci(data_points, bandwidth_days, min_polls, t_values,
     boot_results = []
 
     for _ in range(n_boot):
-        # Resample with replacement
         indices = rng.integers(0, len(data_points), size=len(data_points))
         resampled = [data_points[i] for i in indices]
         smoothed = kernel_loess_simple(resampled, bandwidth_days, min_polls, t_values)
         boot_results.append(smoothed)
 
-    # boot_results is (n_boot x len(t_values))
     arr = np.array([[v if v is not None else np.nan for v in row]
                     for row in boot_results])
 
@@ -251,7 +318,7 @@ def generate_headline(polls, config, latest_smooth):
         direction = "up" if change > 0 else "down"
         change_str = f", {direction} {abs(change)} points since the {ref_label}"
 
-    headline = f"{leader} lead in Wales at {leader_val}%{change_str}"
+    headline = f"{leader} lead at {leader_val}%{change_str}"
 
     intro = (
         f"Latest poll: {pollster} · {latest_date} · "
@@ -367,18 +434,32 @@ def build_bar_csv(polls, config):
 
     return "\n".join(lines)
 
-def build_line_csv(json_data, polls):
+def build_line_csv(json_data, polls, hist_series=None, hist_polls=None):
     """
-    Smoothed series (daily) + 90% CI bounds + raw poll averages.
-    Columns: date, [Party], [Party (low)], [Party (high)], [Party (poll)], ...
+    Smoothed series (daily) + CI bounds + historical series + raw poll averages.
+
+    Column order:
+        date,
+        [Party], [Party (low)], [Party (high)],        ← live smooth + CI
+        [Party (suffix)], [Party (suffix) (low)], ..., ← historical smooth + CI
+        [Party (poll)]                                  ← merged poll dots
     """
     series = json_data["series"]
     if not series:
         return ""
 
+    hist_series = hist_series or {}
+    hist_polls  = hist_polls  or {}
+
     party_names = list(series.keys())
 
-    # Raw poll daily averages
+    # All historical column names (smooth + CI, no poll)
+    hist_smooth_cols = sorted(set(
+        k for k in hist_series
+        if not k.endswith(" (low)") and not k.endswith(" (high)")
+    ))
+
+    # Raw poll daily averages from live polls
     daily = defaultdict(lambda: defaultdict(list))
     for poll in polls:
         date_str = poll["date"].strftime("%Y-%m-%d")
@@ -387,9 +468,14 @@ def build_line_csv(json_data, polls):
             if val is not None:
                 daily[date_str][name].append(val)
 
+    # Merge historical poll dots into daily
+    for party, date_vals in hist_polls.items():
+        for date_str, val in date_vals.items():
+            daily[date_str][party].append(val)
+
     raw_dates = sorted(daily.keys())
 
-    # Smooth + CI lookup: date -> {party -> (value, low, high)}
+    # Live smooth lookup: date -> {party -> (value, low, high)}
     smooth_lookup = {}
     for name in party_names:
         for pt in series.get(name, []):
@@ -398,31 +484,55 @@ def build_line_csv(json_data, polls):
                     pt["value"], pt.get("low"), pt.get("high")
                 )
 
-    all_smooth_dates = sorted(smooth_lookup.keys())
-    all_dates = sorted(set(all_smooth_dates) | set(raw_dates))
+    # All dates: live smooth + historical smooth + poll dates
+    all_hist_dates = set()
+    for col_data in hist_series.values():
+        all_hist_dates.update(col_data.keys())
 
-    # Header: date, smooth, low, high per party, then poll per party
-    header_parts = ["date"]
+    all_smooth_dates = set(smooth_lookup.keys())
+    all_dates = sorted(all_smooth_dates | all_hist_dates | set(raw_dates))
+
+    # Build header
+    header = ["date"]
     for name in party_names:
-        header_parts += [name, f"{name} (low)", f"{name} (high)"]
+        header += [name, f"{name} (low)", f"{name} (high)"]
+    for col in hist_smooth_cols:
+        header += [col, f"{col} (low)", f"{col} (high)"]
     for name in party_names:
-        header_parts.append(f"{name} (poll)")
-    lines = [",".join(header_parts)]
+        header.append(f"{name} (poll)")
+    lines = [",".join(header)]
 
     for date in all_dates:
         row = [date]
+
+        # Live smooth + CI
         for name in party_names:
             entry = smooth_lookup.get(date, {}).get(name)
             if entry:
                 v, lo, hi = entry
-                row += [str(v), ("" if lo is None else str(lo)),
-                                ("" if hi is None else str(hi))]
+                row += [str(v),
+                        "" if lo is None else str(lo),
+                        "" if hi is None else str(hi)]
             else:
                 row += ["", "", ""]
+
+        # Historical smooth + CI
+        for col in hist_smooth_cols:
+            v  = hist_series.get(col, {}).get(date)
+            lo = hist_series.get(f"{col} (low)", {}).get(date)
+            hi = hist_series.get(f"{col} (high)", {}).get(date)
+            row += [
+                "" if v  is None else str(v),
+                "" if lo is None else str(lo),
+                "" if hi is None else str(hi),
+            ]
+
+        # Merged poll dots
         for name in party_names:
             vals = daily.get(date, {}).get(name, [])
             avg = round(sum(vals) / len(vals), 1) if vals else ""
             row.append("" if avg == "" else str(avg))
+
         lines.append(",".join(row))
 
     return "\n".join(lines)
@@ -431,7 +541,8 @@ def build_line_csv(json_data, polls):
 # Datawrapper push
 # ---------------------------------------------------------------------------
 
-def push_to_datawrapper(json_data, bar_csv, polls, config):
+def push_to_datawrapper(json_data, bar_csv, polls, config,
+                        hist_series=None, hist_polls=None):
     token = os.environ.get("DATAWRAPPER_TOKEN")
     if not token:
         print("Warning: DATAWRAPPER_TOKEN not set, skipping Datawrapper push")
@@ -451,7 +562,7 @@ def push_to_datawrapper(json_data, bar_csv, polls, config):
     )
 
     if line_id:
-        line_csv = build_line_csv(json_data, polls)
+        line_csv = build_line_csv(json_data, polls, hist_series, hist_polls)
         requests.put(
             f"https://api.datawrapper.de/v3/charts/{line_id}/data",
             headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
@@ -512,12 +623,15 @@ def main():
         print("No polls loaded, exiting")
         sys.exit(1)
 
+    # Load historical series if configured
+    hist_series, hist_polls = load_historical_series(config)
+
     print("Building smoothed series with confidence intervals...")
     line_json = build_line_json(polls, config)
     bar_csv   = build_bar_csv(polls, config)
 
-    line_path = config["output"]["lineJsonPath"]
-    bar_path  = config["output"]["barCsvPath"]
+    line_path     = config["output"]["lineJsonPath"]
+    bar_path      = config["output"]["barCsvPath"]
     line_csv_path = config["output"].get("lineCsvPath", "")
 
     os.makedirs(os.path.dirname(line_path), exist_ok=True)
@@ -530,10 +644,9 @@ def main():
         f.write(bar_csv)
     print(f"Written: {bar_path}")
 
-    # Write line CSV if path configured
     if line_csv_path:
         os.makedirs(os.path.dirname(line_csv_path), exist_ok=True)
-        line_csv_data = build_line_csv(line_json, polls)
+        line_csv_data = build_line_csv(line_json, polls, hist_series, hist_polls)
         with open(line_csv_path, "w") as f:
             f.write(line_csv_data)
         print(f"Written: {line_csv_path}")
@@ -542,7 +655,7 @@ def main():
     print(f"Intro:    {line_json['meta']['intro']}")
 
     if args.push_to_datawrapper:
-        push_to_datawrapper(line_json, bar_csv, polls, config)
+        push_to_datawrapper(line_json, bar_csv, polls, config, hist_series, hist_polls)
 
 if __name__ == "__main__":
     main()
