@@ -7,6 +7,12 @@
     "minPollsInWindow": 2
   },
 
+  "historicalSeries": {
+  "url": "https://raw.githubusercontent.com/glasgow46239/benma/main/trackers/viXXldn/csv.csv",
+  "labelSuffix": " (19-24)",
+  "parties": ["Con", "Lab", "LDem", "Ref", "Grn"]
+}
+  
   "skipPollsterPatterns": ["GE result", "result"],
 
   "parties": [
