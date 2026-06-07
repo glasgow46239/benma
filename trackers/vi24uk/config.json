@@ -10,7 +10,7 @@
   "historicalSeries": {
   "url": "https://raw.githubusercontent.com/glasgow46239/benma/main/trackers/vi19uk/csv.csv",
   "labelSuffix": " (19-24)",
-  "parties": ["Con", "Lab", "LDem", "Ref", "Grn"]
+  "parties": ["Con", "Lab", "LDem", "Reform", "Grn"]
 },
 
   "skipPollsterPatterns": ["GE result", "result"],
