@@ -8,7 +8,7 @@
   },
 
   "historicalSeries": {
-  "url": "https://raw.githubusercontent.com/glasgow46239/benma/main/trackers/viXXldn/csv.csv",
+  "url": "https://github.com/glasgow46239/benma/blob/main/trackers/viXXldn/csv.csv",
   "labelSuffix": " (19-24)",
   "parties": ["Con", "Lab", "LDem", "Ref", "Grn"]
 }
