@@ -8,7 +8,7 @@
   },
 
   "historicalSeries": {
-  "url": "https://github.com/glasgow46239/benma/blob/main/trackers/vi19uk/csv.csv",
+  "url": "https://raw.githubusercontent.com/glasgow46239/benma/main/trackers/vi19uk/csv.csv",
   "labelSuffix": " (19-24)",
   "parties": ["Con", "Lab", "LDem", "Ref", "Grn"]
 },
@@ -39,10 +39,10 @@
   },
 
   "output": {
-    "lineJsonPath": "data/vi24uk/line.json",
-    "barCsvPath":  "data/vi24uk/bar.csv",
-    "lineCsvPath": "trackers/vi24uk/csv.csv",
-    "datawrapperLineChartId": "9DaVr",
-    "datawrapperBarChartId":  "rCN3q"
-  }
+  "lineJsonPath": "trackers/vi24uk/line.json",
+  "barCsvPath":   "trackers/vi24uk/bar.csv",
+  "lineCsvPath":  "trackers/vi24uk/line.csv",
+  "datawrapperLineChartId": "9DaVr",
+  "datawrapperBarChartId":  "rCN3q"
+}
 }
