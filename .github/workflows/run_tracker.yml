@@ -1,0 +1,36 @@
+name: Run single tracker
+
+on:
+  workflow_dispatch:
+    inputs:
+      folder:
+        description: "Tracker folder name (e.g. vi24uk)"
+        required: true
+
+jobs:
+  run-tracker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests numpy
+
+      - name: Run tracker
+        run: python pipeline/smooth.py --config "trackers/${{ github.event.inputs.folder }}/config.json" --push-to-datawrapper
+        env:
+          DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
+
+      - name: Commit updated data files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add trackers/
+          git diff --cached --quiet || git commit -m "chore: update ${{ github.event.inputs.folder }} [$(date -u +%Y-%m-%d)]"
+          git push
