@@ -1,7 +1,7 @@
 {
   "pipeline": "smooth",
   "trackerName": "UK VI by region",
-  "dataUrl": "YOUR_SHEETS_URL",
+  "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQY797SnNrQzpin7dGAKW7PLLUOd0eSzQJV1-BxLbtZQnKg_H7LtIdkzTYFxlTaqBeYXVDQ4BPJnXhR/pub?gid=2022809453&single=true&output=csv",
   "subgroupColumn": 1,
   "smoothing": {
     "bandwidthDays": 120,
