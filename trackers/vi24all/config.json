@@ -5,7 +5,7 @@
   "subgroupColumn": 11,
   "smoothing": {
     "bandwidthDays": 40,
-    "minPollsInWindow": 3,
+    "minPollsInWindow": 2,
     "bootstrapIterations": 200
   },
   "skipPollsterPatterns": [],
@@ -24,7 +24,7 @@
     { "name": "Grn",    "col": 6,  "color": "#00B140", "includeInLine": true, "includeInBar": true },
     { "name": "SNP",   "col": 7,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
     { "name": "PC",   "col": 8,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
-    { "name": "Reform", "col": 9, "color": "#12B6CF", "includeInLine": true, "includeInBar": true }
+    { "name": "Reform", "col": 10, "color": "#12B6CF", "includeInLine": true, "includeInBar": true }
   ],
   "referenceElection": {
     "label": "2024 general election",
