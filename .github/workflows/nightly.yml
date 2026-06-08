@@ -28,18 +28,30 @@ jobs:
         env:
           DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
 
-      - name: Run approval trackers
+      - name: Run all poll trackers
         run: |
-          for dir in trackers/pm-approval/; do
-            python pipeline/approval.py --config "${dir}config.json" --push-to-datawrapper
+          for dir in trackers/*/; do
+            config="${dir}config.json"
+            if [ ! -f "$config" ]; then continue; fi
+            pipeline=$(python3 -c "import json; print(json.load(open('$config')).get('pipeline','smooth'))")
+            if [ "$pipeline" = "smooth" ]; then
+              echo "Running smooth: $dir"
+              python pipeline/smooth.py --config "$config" --push-to-datawrapper
+            fi
           done
         env:
           DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
 
-      - name: Commit updated data files
+      - name: Run approval trackers
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add trackers/
-          git diff --cached --quiet || git commit -m "chore: update poll tracker data [$(date -u +%Y-%m-%d)]"
-          git push
+          for dir in trackers/*/; do
+            config="${dir}config.json"
+            if [ ! -f "$config" ]; then continue; fi
+            pipeline=$(python3 -c "import json; print(json.load(open('$config')).get('pipeline','smooth'))")
+            if [ "$pipeline" = "approval" ]; then
+              echo "Running approval: $dir"
+              python pipeline/approval.py --config "$config" --push-to-datawrapper
+            fi
+          done
+        env:
+          DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
