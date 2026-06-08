@@ -1,12 +1,11 @@
 """
 Approval ratings pipeline
 --------------------------
-Reads a long-format CSV (date, pollster, leader, approve, disapprove),
-pivots to wide format, runs kernel LOESS smoothing with bootstrap CI,
-and outputs:
+Reads a wide-format CSV where each leader has their own approve/disapprove columns.
+Runs kernel LOESS smoothing with bootstrap CI and outputs:
   - approval-lines.csv   : smoothed approve/disapprove/net per leader per day
   - approval-days.csv    : smoothed net approval indexed by days in office
-  - approval-raw.csv     : raw pivoted poll data (wide format)
+  - approval-raw.csv     : raw pivoted poll data
 
 Usage:
     python pipeline/approval.py --config trackers/pm-approval/config.json
@@ -61,17 +60,25 @@ def parse_date(s):
 
 def fetch_approval_polls(config):
     """
-    Fetch long-format approval CSV:
-        date, pollster, leader, approve, disapprove
-    Returns list of dicts with parsed fields.
+    Fetch wide-format approval CSV.
+    Each leader has their own approveCol and disapproveCol.
+    The leader column is used to know which leader this row refers to,
+    and we read the values from that leader's specific columns.
+
+    Returns list of polls:
+        { date, pollster, leader (short name), approve, disapprove, net }
     """
     url = config["dataUrl"]
-    col_date       = config.get("columns", {}).get("date",       0)
-    col_pollster   = config.get("columns", {}).get("pollster",   1)
-    col_leader     = config.get("columns", {}).get("leader",     2)
-    col_approve    = config.get("columns", {}).get("approve",    3)
-    col_disapprove = config.get("columns", {}).get("disapprove", 4)
-    skip_patterns  = config.get("skipPollsterPatterns", [])
+    col_date     = config.get("columns", {}).get("date",     0)
+    col_pollster = config.get("columns", {}).get("pollster", 1)
+    col_leader   = config.get("columns", {}).get("leader",   2)
+    skip_patterns = config.get("skipPollsterPatterns", [])
+
+    # Build matchName -> leader config lookup
+    leader_by_fullname = {}
+    for l in config["leaders"]:
+        match_name = l.get("matchName", l["name"]).strip().lower()
+        leader_by_fullname[match_name] = l
 
     print(f"Fetching data from: {url}")
     resp = requests.get(url, timeout=30)
@@ -88,6 +95,7 @@ def fetch_approval_polls(config):
             break
 
     polls = []
+    skipped = 0
     for row in rows[header_idx + 1:]:
         if not row or not row[0].strip():
             continue
@@ -100,60 +108,46 @@ def fetch_approval_polls(config):
         if any(pat.lower() in pollster.lower() for pat in skip_patterns):
             continue
 
-        leader = row[col_leader].strip().lower() if col_leader < len(row) else ""
-        if not leader:
+        full_name = row[col_leader].strip().lower() if col_leader < len(row) else ""
+        leader_cfg = leader_by_fullname.get(full_name)
+        if not leader_cfg:
+            skipped += 1
             continue
 
         def get_float(col):
             try:
-                v = row[col].strip()
+                v = row[col].strip() if col < len(row) else ""
                 return float(v) if v else None
-            except (ValueError, IndexError):
+            except ValueError:
                 return None
 
-        approve    = get_float(col_approve)
-        disapprove = get_float(col_disapprove)
+        approve    = get_float(leader_cfg["approveCol"])
+        disapprove = get_float(leader_cfg["disapproveCol"])
 
         if approve is None and disapprove is None:
             continue
 
+        net = round(approve - disapprove, 1) if approve is not None and disapprove is not None else None
+
         polls.append({
             "date":       date,
             "pollster":   pollster,
-            "leader":     leader,
+            "leader":     leader_cfg["name"],
             "approve":    approve,
             "disapprove": disapprove,
-            "net":        round(approve - disapprove, 1) if approve is not None and disapprove is not None else None
+            "net":        net
         })
 
     polls.sort(key=lambda p: p["date"])
-    print(f"Loaded {len(polls)} approval polls")
+    print(f"Loaded {len(polls)} approval polls ({skipped} rows skipped — unrecognised leader name)")
+
+    # Summary per leader
+    from collections import Counter
+    counts = Counter(p["leader"] for p in polls)
+    for name, count in sorted(counts.items()):
+        print(f"  {name}: {count} polls")
+
     return polls
-
-# ---------------------------------------------------------------------------
-# Pivot to wide format
-# ---------------------------------------------------------------------------
-
-def pivot_polls(polls, leaders):
-    """
-    Group polls by date+pollster, pivot leader rows into wide format.
-    Returns list of dicts: { date, pollster, leader: {approve, disapprove, net} }
-    """
-    # Index by (date, pollster) -> { leader -> {approve, disapprove, net} }
-    grouped = defaultdict(dict)
-    for p in polls:
-        key = (p["date"], p["pollster"])
-        grouped[key][p["leader"]] = {
-            "approve":    p["approve"],
-            "disapprove": p["disapprove"],
-            "net":        p["net"]
-        }
-
-    result = []
-    for (date, pollster), leader_data in sorted(grouped.items()):
-        result.append({"date": date, "pollster": pollster, "leaders": leader_data})
-
-    return result
 
 # ---------------------------------------------------------------------------
 # LOESS + bootstrap CI
@@ -221,14 +215,20 @@ def bootstrap_ci(data_points, bandwidth_days, min_polls, t_values,
     for _ in range(n_boot):
         idx = rng.integers(0, len(data_points), size=len(data_points))
         resampled = [data_points[i] for i in idx]
-        boot_results.append(kernel_loess_simple(resampled, bandwidth_days, min_polls, t_values))
-    arr = np.array([[v if v is not None else np.nan for v in row] for row in boot_results])
+        boot_results.append(
+            kernel_loess_simple(resampled, bandwidth_days, min_polls, t_values)
+        )
+    arr = np.array([
+        [v if v is not None else np.nan for v in row]
+        for row in boot_results
+    ])
     lows, highs = [], []
     for col_idx in range(len(t_values)):
         col = arr[:, col_idx]
         valid = col[~np.isnan(col)]
         if len(valid) < min_polls:
-            lows.append(None); highs.append(None)
+            lows.append(None)
+            highs.append(None)
         else:
             lows.append(round(float(np.percentile(valid, ci_low)), 2))
             highs.append(round(float(np.percentile(valid, ci_high)), 2))
@@ -240,7 +240,7 @@ def bootstrap_ci(data_points, bandwidth_days, min_polls, t_values,
 
 def smooth_all(polls, config):
     """
-    Returns dict: leader -> {
+    Returns dict: leader_name -> {
         'approve':    [ {date, t, value, low, high} ],
         'disapprove': [ {date, t, value, low, high} ],
         'net':        [ {date, t, value, low, high} ]
@@ -249,11 +249,10 @@ def smooth_all(polls, config):
     bw        = config["smoothing"]["bandwidthDays"]
     min_polls = config["smoothing"]["minPollsInWindow"]
     n_boot    = config["smoothing"].get("bootstrapIterations", 200)
-    leaders   = config["leaders"]
 
     results = {}
 
-    for leader_cfg in leaders:
+    for leader_cfg in config["leaders"]:
         name = leader_cfg["name"]
         print(f"  Smoothing {name}...")
 
@@ -261,7 +260,7 @@ def smooth_all(polls, config):
             return [
                 (days_since_epoch(p["date"]), p[metric])
                 for p in polls
-                if p["leader"] == name.lower() and p[metric] is not None
+                if p["leader"] == name and p.get(metric) is not None
             ]
 
         leader_result = {}
@@ -271,8 +270,8 @@ def smooth_all(polls, config):
                 leader_result[metric] = []
                 continue
 
-            smoothed = kernel_loess(pts, bw, min_polls, step_days=1)
-            t_values = [s[0] for s in smoothed]
+            smoothed  = kernel_loess(pts, bw, min_polls, step_days=1)
+            t_values  = [s[0] for s in smoothed]
             lows, highs = bootstrap_ci(pts, bw, min_polls, t_values, n_boot=n_boot)
 
             leader_result[metric] = [
@@ -296,20 +295,22 @@ def smooth_all(polls, config):
 
 def build_lines_csv(smoothed, config):
     """
-    Columns: date, [Leader approve], [Leader approve (low)], [Leader approve (high)],
-                   [Leader disapprove], [Leader disapprove (low)], [Leader disapprove (high)],
-                   [Leader net], [Leader net (low)], [Leader net (high)], ...
+    Columns: date,
+             [Leader] approve, [Leader] approve (low), [Leader] approve (high),
+             [Leader] disapprove, [Leader] disapprove (low), [Leader] disapprove (high),
+             [Leader] net, [Leader] net (low), [Leader] net (high), ...
     """
     leaders = [l["name"] for l in config["leaders"]]
 
-    # Build date lookup per leader per metric
     lookup = {}
     all_dates = set()
     for leader in leaders:
         lookup[leader] = {}
         for metric in ("approve", "disapprove", "net"):
             pts = smoothed.get(leader, {}).get(metric, [])
-            lookup[leader][metric] = {pt["date"]: pt for pt in pts if pt["value"] is not None}
+            lookup[leader][metric] = {
+                pt["date"]: pt for pt in pts if pt["value"] is not None
+            }
             all_dates.update(lookup[leader][metric].keys())
 
     all_dates = sorted(all_dates)
@@ -345,34 +346,37 @@ def build_lines_csv(smoothed, config):
 def build_days_csv(smoothed, config):
     """
     Rows are days in office (0, 1, 2, ...).
-    Columns: day, [Leader net], [Leader net (low)], [Leader net (high)], ...
-    One column per leader, value is smoothed net approval on that day in office.
+    Columns: day, [Leader] net, [Leader] net (low), [Leader] net (high), ...
     """
     leaders_cfg = {l["name"]: l for l in config["leaders"]}
     leaders = [l["name"] for l in config["leaders"]]
 
-    # Build days-in-office index per leader
     leader_days = {}
     max_days = 0
 
     for leader in leaders:
-        in_office = leaders_cfg[leader].get("inOfficeSince")
+        in_office = leaders_cfg[leader].get("inOfficeSince", "")
         if not in_office:
+            print(f"  WARNING: no inOfficeSince for {leader}, skipping days index")
             continue
-        try:
-            start = datetime.strptime(in_office.strip(), "%d/%m/%Y")
-        except ValueError:
+
+        start = None
+        for fmt in ("%d/%m/%Y", "%Y-%m-%d"):
             try:
-                start = datetime.strptime(in_office.strip(), "%Y-%m-%d")
+                start = datetime.strptime(in_office.strip(), fmt)
+                break
             except ValueError:
-                print(f"  WARNING: Could not parse inOfficeSince for {leader}: {in_office}")
                 continue
 
-        pts_by_date = {}
-        for metric in ("net",):
-            for pt in smoothed.get(leader, {}).get(metric, []):
-                if pt["value"] is not None:
-                    pts_by_date[pt["date"]] = pt
+        if not start:
+            print(f"  WARNING: could not parse inOfficeSince for {leader}: {in_office}")
+            continue
+
+        pts_by_date = {
+            pt["date"]: pt
+            for pt in smoothed.get(leader, {}).get("net", [])
+            if pt["value"] is not None
+        }
 
         if not pts_by_date:
             continue
@@ -393,18 +397,21 @@ def build_days_csv(smoothed, config):
     if not leader_days:
         return ""
 
+    active_leaders = [l for l in leaders if l in leader_days]
+
     header = ["day"]
-    for leader in leaders:
-        if leader in leader_days:
-            header += [f"{leader} net", f"{leader} net (low)", f"{leader} net (high)"]
+    for leader in active_leaders:
+        header += [
+            f"{leader} net",
+            f"{leader} net (low)",
+            f"{leader} net (high)"
+        ]
 
     lines = [",".join(header)]
     for day in range(max_days + 1):
         row = [str(day)]
         has_data = False
-        for leader in leaders:
-            if leader not in leader_days:
-                continue
+        for leader in active_leaders:
             pt = leader_days[leader].get(day)
             if pt and pt["value"] is not None:
                 row += [
@@ -425,29 +432,27 @@ def build_days_csv(smoothed, config):
 # ---------------------------------------------------------------------------
 
 def build_raw_csv(polls, config):
-    """
-    Wide-format raw poll data.
-    Columns: date, pollster, [Leader approve], [Leader disapprove], [Leader net], ...
-    """
-    leaders = [l["name"].lower() for l in config["leaders"]]
-    leader_display = {l["name"].lower(): l["name"] for l in config["leaders"]}
+    """Wide-format raw poll data."""
+    leaders = [l["name"] for l in config["leaders"]]
 
-    # Group by date+pollster
     grouped = defaultdict(dict)
     for p in polls:
         key = (p["date"], p["pollster"])
         grouped[key][p["leader"]] = p
 
     header = ["date", "pollster"]
-    for l in leaders:
-        dn = leader_display.get(l, l)
-        header += [f"{dn} approve", f"{dn} disapprove", f"{dn} net"]
+    for leader in leaders:
+        header += [
+            f"{leader} approve",
+            f"{leader} disapprove",
+            f"{leader} net"
+        ]
 
     lines = [",".join(header)]
     for (date, pollster), leader_data in sorted(grouped.items()):
         row = [date.strftime("%Y-%m-%d"), pollster]
-        for l in leaders:
-            p = leader_data.get(l)
+        for leader in leaders:
+            p = leader_data.get(leader)
             if p:
                 row += [
                     "" if p["approve"]    is None else str(p["approve"]),
@@ -471,54 +476,45 @@ def push_to_datawrapper(config, lines_csv, days_csv):
         return
 
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
-    output = config.get("output", {})
+    output  = config.get("output", {})
 
     lines_id = output.get("datawrapperLinesChartId")
     days_id  = output.get("datawrapperDaysChartId")
 
-    latest_leader = config["leaders"][-1]["name"]
-    updated = datetime.utcnow().strftime("%d-%b-%Y")
+    updated    = datetime.utcnow().strftime("%d-%b-%Y")
     byline_html = (
         f'<span style="background-color:#f0f0f0; padding:1px 3px; border-radius:4px">'
         f'Last updated {updated}</span>'
     )
 
-    if lines_id and lines_csv:
+    for chart_id, data, label in [
+        (lines_id, lines_csv, "lines"),
+        (days_id,  days_csv,  "days"),
+    ]:
+        if not chart_id or not data:
+            continue
         requests.put(
-            f"https://api.datawrapper.de/v3/charts/{lines_id}/data",
+            f"https://api.datawrapper.de/v3/charts/{chart_id}/data",
             headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
-            data=lines_csv.encode("utf-8")
+            data=data.encode("utf-8")
         )
         requests.patch(
-            f"https://api.datawrapper.de/v3/charts/{lines_id}",
+            f"https://api.datawrapper.de/v3/charts/{chart_id}",
             headers=headers,
             json={"metadata": {"describe": {"byline": byline_html}}}
         )
-        requests.post(f"https://api.datawrapper.de/v3/charts/{lines_id}/publish",
-                      headers=headers)
-        print(f"Pushed lines chart: {lines_id}")
-
-    if days_id and days_csv:
-        requests.put(
-            f"https://api.datawrapper.de/v3/charts/{days_id}/data",
-            headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
-            data=days_csv.encode("utf-8")
+        requests.post(
+            f"https://api.datawrapper.de/v3/charts/{chart_id}/publish",
+            headers=headers
         )
-        requests.patch(
-            f"https://api.datawrapper.de/v3/charts/{days_id}",
-            headers=headers,
-            json={"metadata": {"describe": {"byline": byline_html}}}
-        )
-        requests.post(f"https://api.datawrapper.de/v3/charts/{days_id}/publish",
-                      headers=headers)
-        print(f"Pushed days chart: {days_id}")
+        print(f"Pushed {label} chart: {chart_id}")
 
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 def main():
-    args = parse_args()
+    args   = parse_args()
     config = load_config(args.config)
 
     polls = fetch_approval_polls(config)
@@ -530,12 +526,10 @@ def main():
     smoothed = smooth_all(polls, config)
 
     output = config.get("output", {})
-    tracker_dir = os.path.dirname(args.config)
 
     def write(path, content):
-        if not path:
+        if not path or not content:
             return
-        # If path is relative, resolve from repo root not config dir
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "w") as f:
             f.write(content)
