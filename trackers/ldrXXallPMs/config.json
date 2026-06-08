@@ -1,5 +1,5 @@
 {
-  "pipeline": "smooth",
+  "pipeline": "approval",
   "trackerName": "PM comps",
   "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQY797SnNrQzpin7dGAKW7PLLUOd0eSzQJV1-BxLbtZQnKg_H7LtIdkzTYFxlTaqBeYXVDQ4BPJnXhR/pub?gid=1620180028&single=true&output=csv",
   "columns": {
