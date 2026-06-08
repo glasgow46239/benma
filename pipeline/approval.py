@@ -329,14 +329,14 @@ def build_days_csv(smoothed, config):
     header = ["day"] + [f"{l} net" for l in active_leaders]
     lines  = [",".join(header)]
 
-    for day in range(0, max_days + 1, 7):
+    for day in range(0, max_days + 1):
         row      = [str(day)]
         has_data = False
         for leader in active_leaders:
             pts = leader_days[leader]
             # Find nearest point within 7 days
             closest = min(pts, key=lambda x: abs(x[0] - day))
-            if abs(closest[0] - day) <= 7:
+            if abs(closest[0] - day) <= 1:
                 row.append(str(closest[1]))
                 has_data = True
             else:
