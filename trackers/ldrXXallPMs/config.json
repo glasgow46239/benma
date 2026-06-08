@@ -1,0 +1,41 @@
+{
+  "trackerName": "PM comps",
+  "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQY797SnNrQzpin7dGAKW7PLLUOd0eSzQJV1-BxLbtZQnKg_H7LtIdkzTYFxlTaqBeYXVDQ4BPJnXhR/pub?gid=1620180028&single=true&output=csv",
+
+  "columns": {
+    "date":       0,
+    "pollster":   1,
+    "leader":     2,
+    "approve":    3,
+    "disapprove": 4
+  },
+
+  "smoothing": {
+    "bandwidthDays": 90,
+    "minPollsInWindow": 3,
+    "bootstrapIterations": 200
+  },
+
+  "skipPollsterPatterns": [],
+
+  "leaders": [
+    { "name": "Thatcher", "color": "#0087DC", "inOfficeSince": "04/05/1979" },
+    { "name": "Major",    "color": "#0087DC", "inOfficeSince": "28/11/1990" },
+    { "name": "Blair",    "color": "#E4003B", "inOfficeSince": "02/05/1997" },
+    { "name": "Brown",    "color": "#E4003B", "inOfficeSince": "27/06/2007" },
+    { "name": "Cameron",  "color": "#0087DC", "inOfficeSince": "11/05/2010" },
+    { "name": "May",      "color": "#0087DC", "inOfficeSince": "13/07/2016" },
+    { "name": "Johnson",  "color": "#0087DC", "inOfficeSince": "24/07/2019" },
+    { "name": "Truss",    "color": "#0087DC", "inOfficeSince": "06/09/2022" },
+    { "name": "Sunak",    "color": "#0087DC", "inOfficeSince": "25/10/2022" },
+    { "name": "Starmer",  "color": "#E4003B", "inOfficeSince": "05/07/2024" }
+  ],
+
+  "output": {
+    "linesCsvPath": "trackers/pm-approval/data/approval-lines.csv",
+    "daysCsvPath":  "trackers/pm-approval/data/approval-days.csv",
+    "rawCsvPath":   "trackers/pm-approval/data/approval-raw.csv",
+    "datawrapperLinesChartId": "TNsXR",
+    "datawrapperDaysChartId":  "mj4aT"
+  }
+}
