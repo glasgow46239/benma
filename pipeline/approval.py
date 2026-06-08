@@ -2,9 +2,9 @@
 Approval ratings pipeline
 --------------------------
 Reads a wide-format CSV where each leader has their own approve/disapprove columns.
-Runs kernel LOESS smoothing (weekly steps, no CI) and outputs:
-  - approval-lines.csv   : smoothed approve/disapprove/net per leader per week
-  - approval-days.csv    : smoothed net approval indexed by days in office
+Runs kernel LOESS smoothing and outputs:
+  - approval-lines.csv   : smoothed approve/disapprove/net per leader (daily)
+  - approval-days.csv    : smoothed net approval indexed by days in office (weekly)
   - approval-raw.csv     : raw poll data
 
 Usage:
@@ -65,7 +65,6 @@ def fetch_approval_polls(config):
     col_leader    = config.get("columns", {}).get("leader",   2)
     skip_patterns = config.get("skipPollsterPatterns", [])
 
-    # Build matchName -> leader config lookup
     leader_by_fullname = {}
     for l in config["leaders"]:
         match_name = l.get("matchName", l["name"]).strip().lower()
@@ -78,7 +77,6 @@ def fetch_approval_polls(config):
     reader = csv.reader(io.StringIO(resp.text))
     rows = list(reader)
 
-    # Find header row
     header_idx = 0
     for i, row in enumerate(rows):
         if row and row[0].strip().lower() == "date":
@@ -137,7 +135,7 @@ def fetch_approval_polls(config):
         })
 
     polls.sort(key=lambda p: p["date"])
-    print(f"Loaded {len(polls)} approval polls ({skipped} rows skipped — unrecognised leader)")
+    print(f"Loaded {len(polls)} approval polls ({skipped} rows skipped)")
 
     counts = Counter(p["leader"] for p in polls)
     for name, count in sorted(counts.items()):
@@ -146,7 +144,7 @@ def fetch_approval_polls(config):
     return polls
 
 # ---------------------------------------------------------------------------
-# LOESS (no CI, weekly steps)
+# LOESS
 # ---------------------------------------------------------------------------
 
 def days_since_epoch(dt):
@@ -160,7 +158,7 @@ def tricube_weight(u):
         return 0.0
     return (1 - abs(u) ** 3) ** 3
 
-def kernel_loess(data_points, bandwidth_days, min_polls, step_days=7):
+def kernel_loess(data_points, bandwidth_days, min_polls, step_days=1):
     if not data_points:
         return []
     bw = bandwidth_days
@@ -189,7 +187,6 @@ def kernel_loess(data_points, bandwidth_days, min_polls, step_days=7):
 # ---------------------------------------------------------------------------
 
 def get_pts_for(polls, leader_name, metric):
-    """Extract (days, value) tuples for a given leader and metric."""
     return [
         (days_since_epoch(p["date"]), p[metric])
         for p in polls
@@ -199,11 +196,10 @@ def get_pts_for(polls, leader_name, metric):
 def smooth_all(polls, config):
     """
     Returns dict: leader_name -> {
-        'approve':    [ {date, t, value} ],
-        'disapprove': [ {date, t, value} ],
-        'net':        [ {date, t, value} ]
+        metric -> [ {date, t, value} ]
     }
-    Each leader uses its own bandwidthDays if set, else the global default.
+    Lines output uses daily steps.
+    Days output interpolates weekly from the daily smooth.
     """
     global_bw = config["smoothing"]["bandwidthDays"]
     min_polls = config["smoothing"]["minPollsInWindow"]
@@ -221,7 +217,8 @@ def smooth_all(polls, config):
                 leader_result[metric] = []
                 continue
 
-            smoothed = kernel_loess(pts, bw, min_polls, step_days=7)
+            # Daily steps for lines CSV
+            smoothed = kernel_loess(pts, bw, min_polls, step_days=1)
             leader_result[metric] = [
                 {"t": int(t), "date": epoch_to_date_str(t), "value": v}
                 for t, v in smoothed
@@ -232,13 +229,13 @@ def smooth_all(polls, config):
     return results
 
 # ---------------------------------------------------------------------------
-# Output: approval-lines.csv
+# Output: approval-lines.csv (daily)
 # ---------------------------------------------------------------------------
 
 def build_lines_csv(smoothed, config):
     """
+    Daily smoothed approve/disapprove/net per leader.
     Columns: date, [Leader] approve, [Leader] disapprove, [Leader] net, ...
-    Weekly steps, no CI bounds.
     """
     leaders   = [l["name"] for l in config["leaders"]]
     lookup    = {}
@@ -272,12 +269,13 @@ def build_lines_csv(smoothed, config):
     return "\n".join(lines)
 
 # ---------------------------------------------------------------------------
-# Output: approval-days.csv
+# Output: approval-days.csv (weekly, days-in-office indexed)
 # ---------------------------------------------------------------------------
 
 def build_days_csv(smoothed, config):
     """
-    Rows are days in office (0, 7, 14, ... weekly).
+    Weekly steps, indexed by days in office.
+    For each 7-day mark, finds the nearest smoothed value within 7 days.
     Columns: day, [Leader] net, ...
     """
     leaders_cfg = {l["name"]: l for l in config["leaders"]}
@@ -303,27 +301,26 @@ def build_days_csv(smoothed, config):
             print(f"  WARNING: could not parse inOfficeSince for {leader}: {in_office}")
             continue
 
-        pts_by_date = {
-            pt["date"]: pt["value"]
-            for pt in smoothed.get(leader, {}).get("net", [])
-            if pt["value"] is not None
-        }
-
-        if not pts_by_date:
-            continue
-
-        days_data = {}
-        for date_str, val in pts_by_date.items():
+        # Build a sorted list of (day_num, net_value) from the daily smooth
+        net_pts = []
+        for pt in smoothed.get(leader, {}).get("net", []):
+            if pt["value"] is None:
+                continue
             try:
-                date = datetime.strptime(date_str, "%Y-%m-%d")
+                date = datetime.strptime(pt["date"], "%Y-%m-%d")
             except ValueError:
                 continue
             day_num = (date - start).days
             if day_num >= 0:
-                days_data[day_num] = val
+                net_pts.append((day_num, pt["value"]))
                 max_days = max(max_days, day_num)
 
-        leader_days[leader] = days_data
+        if not net_pts:
+            continue
+
+        # Sort by day number for nearest-neighbour lookup
+        net_pts.sort(key=lambda x: x[0])
+        leader_days[leader] = net_pts
 
     if not leader_days:
         return ""
@@ -336,9 +333,11 @@ def build_days_csv(smoothed, config):
         row      = [str(day)]
         has_data = False
         for leader in active_leaders:
-            val = leader_days[leader].get(day)
-            if val is not None:
-                row.append(str(val))
+            pts = leader_days[leader]
+            # Find nearest point within 7 days
+            closest = min(pts, key=lambda x: abs(x[0] - day))
+            if abs(closest[0] - day) <= 7:
+                row.append(str(closest[1]))
                 has_data = True
             else:
                 row.append("")
@@ -448,13 +447,16 @@ def main():
             f.write(content)
         print(f"Written: {path}")
 
-    write(output.get("linesCsvPath"), build_lines_csv(smoothed, config))
-    write(output.get("daysCsvPath"),  build_days_csv(smoothed, config))
-    write(output.get("rawCsvPath"),   build_raw_csv(polls, config))
+    lines_csv = build_lines_csv(smoothed, config)
+    days_csv  = build_days_csv(smoothed, config)
+    raw_csv   = build_raw_csv(polls, config)
+
+    write(output.get("linesCsvPath"), lines_csv)
+    write(output.get("daysCsvPath"),  days_csv)
+    write(output.get("rawCsvPath"),   raw_csv)
 
     if args.push_to_datawrapper:
-        push_to_datawrapper(config, build_lines_csv(smoothed, config),
-                            build_days_csv(smoothed, config))
+        push_to_datawrapper(config, lines_csv, days_csv)
 
 if __name__ == "__main__":
     main()
