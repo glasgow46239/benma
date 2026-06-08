@@ -19,8 +19,8 @@
 
   "leaders": [
     { "name": "Thatcher", "bandwidthDays": 180, "matchName": "Margaret Thatcher", "approveCol": 5,  "disapproveCol": 6,  "color": "#0087DC", "inOfficeSince": "04/05/1979" },
-    { "name": "Major",    "matchName": "John Major",         "approveCol": 7,  "disapproveCol": 8,  "color": "#0087DC", "inOfficeSince": "28/11/1990" },
-    { "name": "Blair",    "matchName": "Tony Blair",         "approveCol": 9,  "disapproveCol": 10, "color": "#E4003B", "inOfficeSince": "02/05/1997" },
+    { "name": "Major", "bandwidthDays": 180,   "matchName": "John Major",         "approveCol": 7,  "disapproveCol": 8,  "color": "#0087DC", "inOfficeSince": "28/11/1990" },
+    { "name": "Blair", "bandwidthDays": 180,   "matchName": "Tony Blair",         "approveCol": 9,  "disapproveCol": 10, "color": "#E4003B", "inOfficeSince": "02/05/1997" },
     { "name": "Brown",    "matchName": "Gordon Brown",       "approveCol": 11, "disapproveCol": 12, "color": "#E4003B", "inOfficeSince": "27/06/2007" },
     { "name": "Cameron",  "matchName": "David Cameron",      "approveCol": 13, "disapproveCol": 14, "color": "#0087DC", "inOfficeSince": "11/05/2010" },
     { "name": "May",      "matchName": "Theresa May",        "approveCol": 15, "disapproveCol": 16, "color": "#0087DC", "inOfficeSince": "13/07/2016" },
