@@ -21,7 +21,7 @@ import io
 import json
 import os
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 
 import numpy as np
@@ -59,10 +59,10 @@ def parse_date(s):
     raise ValueError(f"Unrecognised date format: {s}")
 
 def fetch_approval_polls(config):
-    url          = config["dataUrl"]
-    col_date     = config.get("columns", {}).get("date",     0)
-    col_pollster = config.get("columns", {}).get("pollster", 1)
-    col_leader   = config.get("columns", {}).get("leader",   2)
+    url           = config["dataUrl"]
+    col_date      = config.get("columns", {}).get("date",     0)
+    col_pollster  = config.get("columns", {}).get("pollster", 1)
+    col_leader    = config.get("columns", {}).get("leader",   2)
     skip_patterns = config.get("skipPollsterPatterns", [])
 
     # Build matchName -> leader config lookup
@@ -85,8 +85,13 @@ def fetch_approval_polls(config):
             header_idx = i
             break
 
-    polls = []
+    print(f"Header row found at index: {header_idx}")
+    if len(rows) > header_idx + 1:
+        print(f"First data row sample: {rows[header_idx + 1][:8]}")
+
+    polls   = []
     skipped = 0
+
     for row in rows[header_idx + 1:]:
         if not row or not row[0].strip():
             continue
@@ -132,12 +137,10 @@ def fetch_approval_polls(config):
         })
 
     polls.sort(key=lambda p: p["date"])
-    print(f"Loaded {len(polls)} approval polls ({skipped} rows skipped)")
-    print(f"Header row found at index: {header_idx}")
-    print(f"First data row sample: {rows[header_idx + 1][:8] if len(rows) > header_idx + 1 else 'none'}")
+    print(f"Loaded {len(polls)} approval polls ({skipped} rows skipped — unrecognised leader)")
 
-    from collections import Counter
-    for name, count in sorted(Counter(p["leader"] for p in polls).items()):
+    counts = Counter(p["leader"] for p in polls)
+    for name, count in sorted(counts.items()):
         print(f"  {name}: {count} polls")
 
     return polls
@@ -185,6 +188,14 @@ def kernel_loess(data_points, bandwidth_days, min_polls, step_days=7):
 # Smooth all leaders
 # ---------------------------------------------------------------------------
 
+def get_pts_for(polls, leader_name, metric):
+    """Extract (days, value) tuples for a given leader and metric."""
+    return [
+        (days_since_epoch(p["date"]), p[metric])
+        for p in polls
+        if p["leader"] == leader_name and p.get(metric) is not None
+    ]
+
 def smooth_all(polls, config):
     """
     Returns dict: leader_name -> {
@@ -194,38 +205,25 @@ def smooth_all(polls, config):
     }
     Each leader uses its own bandwidthDays if set, else the global default.
     """
-    global_bw   = config["smoothing"]["bandwidthDays"]
-    min_polls   = config["smoothing"]["minPollsInWindow"]
-
-    results = {}
+    global_bw = config["smoothing"]["bandwidthDays"]
+    min_polls = config["smoothing"]["minPollsInWindow"]
+    results   = {}
 
     for leader_cfg in config["leaders"]:
         name = leader_cfg["name"]
         bw   = leader_cfg.get("bandwidthDays", global_bw)
         print(f"  Smoothing {name} (bandwidth {bw}d)...")
 
-        def get_pts(metric):
-            return [
-                (days_since_epoch(p["date"]), p[metric])
-                for p in polls
-                if p["leader"] == name and p.get(metric) is not None
-            ]
-
         leader_result = {}
         for metric in ("approve", "disapprove", "net"):
-            pts = get_pts(metric)
+            pts = get_pts_for(polls, name, metric)
             if not pts:
                 leader_result[metric] = []
                 continue
 
             smoothed = kernel_loess(pts, bw, min_polls, step_days=7)
-
             leader_result[metric] = [
-                {
-                    "t":     int(t),
-                    "date":  epoch_to_date_str(t),
-                    "value": v,
-                }
+                {"t": int(t), "date": epoch_to_date_str(t), "value": v}
                 for t, v in smoothed
             ]
 
@@ -239,12 +237,10 @@ def smooth_all(polls, config):
 
 def build_lines_csv(smoothed, config):
     """
-    Columns: date,
-             [Leader] approve, [Leader] disapprove, [Leader] net, ...
+    Columns: date, [Leader] approve, [Leader] disapprove, [Leader] net, ...
     Weekly steps, no CI bounds.
     """
-    leaders = [l["name"] for l in config["leaders"]]
-
+    leaders   = [l["name"] for l in config["leaders"]]
     lookup    = {}
     all_dates = set()
 
@@ -262,11 +258,7 @@ def build_lines_csv(smoothed, config):
 
     header = ["date"]
     for leader in leaders:
-        header += [
-            f"{leader} approve",
-            f"{leader} disapprove",
-            f"{leader} net",
-        ]
+        header += [f"{leader} approve", f"{leader} disapprove", f"{leader} net"]
 
     lines = [",".join(header)]
     for date in all_dates:
@@ -285,12 +277,11 @@ def build_lines_csv(smoothed, config):
 
 def build_days_csv(smoothed, config):
     """
-    Rows are days in office (0, 7, 14, ... — weekly).
+    Rows are days in office (0, 7, 14, ... weekly).
     Columns: day, [Leader] net, ...
     """
     leaders_cfg = {l["name"]: l for l in config["leaders"]}
     leaders     = [l["name"] for l in config["leaders"]]
-
     leader_days = {}
     max_days    = 0
 
@@ -338,12 +329,11 @@ def build_days_csv(smoothed, config):
         return ""
 
     active_leaders = [l for l in leaders if l in leader_days]
-
     header = ["day"] + [f"{l} net" for l in active_leaders]
     lines  = [",".join(header)]
 
     for day in range(0, max_days + 1, 7):
-        row = [str(day)]
+        row      = [str(day)]
         has_data = False
         for leader in active_leaders:
             val = leader_days[leader].get(day)
@@ -363,7 +353,6 @@ def build_days_csv(smoothed, config):
 
 def build_raw_csv(polls, config):
     leaders = [l["name"] for l in config["leaders"]]
-
     grouped = defaultdict(dict)
     for p in polls:
         key = (p["date"], p["pollster"])
@@ -371,11 +360,7 @@ def build_raw_csv(polls, config):
 
     header = ["date", "pollster"]
     for leader in leaders:
-        header += [
-            f"{leader} approve",
-            f"{leader} disapprove",
-            f"{leader} net"
-        ]
+        header += [f"{leader} approve", f"{leader} disapprove", f"{leader} net"]
 
     lines = [",".join(header)]
     for (date, pollster), leader_data in sorted(grouped.items()):
@@ -404,9 +389,8 @@ def push_to_datawrapper(config, lines_csv, days_csv):
         print("Warning: DATAWRAPPER_TOKEN not set, skipping Datawrapper push")
         return
 
-    headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
-    output  = config.get("output", {})
-
+    headers  = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
+    output   = config.get("output", {})
     lines_id = output.get("datawrapperLinesChartId")
     days_id  = output.get("datawrapperDaysChartId")
 
@@ -464,16 +448,13 @@ def main():
             f.write(content)
         print(f"Written: {path}")
 
-    lines_csv = build_lines_csv(smoothed, config)
-    days_csv  = build_days_csv(smoothed, config)
-    raw_csv   = build_raw_csv(polls, config)
-
-    write(output.get("linesCsvPath"), lines_csv)
-    write(output.get("daysCsvPath"),  days_csv)
-    write(output.get("rawCsvPath"),   raw_csv)
+    write(output.get("linesCsvPath"), build_lines_csv(smoothed, config))
+    write(output.get("daysCsvPath"),  build_days_csv(smoothed, config))
+    write(output.get("rawCsvPath"),   build_raw_csv(polls, config))
 
     if args.push_to_datawrapper:
-        push_to_datawrapper(config, lines_csv, days_csv)
+        push_to_datawrapper(config, build_lines_csv(smoothed, config),
+                            build_days_csv(smoothed, config))
 
 if __name__ == "__main__":
     main()
