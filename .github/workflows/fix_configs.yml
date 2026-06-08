@@ -1,0 +1,63 @@
+name: Fix all configs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fix-configs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fix all tracker configs
+        run: |
+          python3 << 'EOF'
+          import json
+          import os
+          from pathlib import Path
+
+          trackers_dir = Path("trackers")
+
+          for config_path in sorted(trackers_dir.glob("*/config.json")):
+              folder = config_path.parent.name
+              with open(config_path) as f:
+                  config = json.load(f)
+
+              changed = False
+
+              # Add pipeline field if missing
+              if "pipeline" not in config:
+                  config = {"pipeline": "smooth"} | config
+                  changed = True
+                  print(f"  {folder}: added pipeline=smooth")
+
+              # Fix output paths to trackers/{folder}/data/
+              output = config.get("output", {})
+              for key, filename in [
+                  ("lineJsonPath", "line.json"),
+                  ("barCsvPath",   "bar.csv"),
+                  ("lineCsvPath",  "line.csv"),
+              ]:
+                  expected = f"trackers/{folder}/data/{filename}"
+                  if key in output and output[key] != expected:
+                      print(f"  {folder}: fixing {key}: {output[key]} -> {expected}")
+                      output[key] = expected
+                      changed = True
+
+              if changed:
+                  config["output"] = output
+                  with open(config_path, "w") as f:
+                      json.dump(config, f, indent=2)
+                  print(f"  {folder}: saved")
+              else:
+                  print(f"  {folder}: no changes needed")
+
+          EOF
+
+      - name: Commit fixed configs
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add trackers/
+          git diff --cached --quiet || git commit -m "chore: fix pipeline field and output paths in all configs"
+          git push
