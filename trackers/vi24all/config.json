@@ -1,0 +1,48 @@
+{
+  "pipeline": "smooth",
+  "trackerName": "UK VI by region",
+  "dataUrl": "YOUR_SHEETS_URL",
+  "subgroupColumn": 1,
+  "smoothing": {
+    "bandwidthDays": 120,
+    "minPollsInWindow": 3,
+    "bootstrapIterations": 200
+  },
+  "skipPollsterPatterns": [],
+  "subgroups": [
+    { "name": "London",           "value": "london" },
+    { "name": "Southern England", "value": "southern england" },
+    { "name": "Northern England", "value": "northern england" },
+    { "name": "Midlands",         "value": "midlands" },
+    { "name": "UK/GB",            "value": "uk/gb" }
+  ],
+  "parties": [
+    { "name": "Con",    "col": 3,  "color": "#0087DC", "includeInLine": true, "includeInBar": true },
+    { "name": "Lab",    "col": 4,  "color": "#E4003B", "includeInLine": true, "includeInBar": true },
+    { "name": "LDem",   "col": 5,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
+    { "name": "Ukip",   "col": 6,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
+    { "name": "Grn",    "col": 7,  "color": "#00B140", "includeInLine": true, "includeInBar": true },
+    { "name": "SNP",   "col": 8,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
+    { "name": "PC",   "col": 9,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
+    { "name": "Reform", "col": 11, "color": "#12B6CF", "includeInLine": true, "includeInBar": true }
+  ],
+  "referenceElection": {
+    "label": "2024 general election",
+    "date": "04/07/2024",
+    "results": {
+      "Con": 24, "Lab": 35, "LDem": 13, "Grn": 7, "Reform": 15
+    }
+  },
+  "output": {
+    "lineJsonPath": "trackers/vi24all/data/line.json",
+    "barCsvPath":   "trackers/vi24all/data/bar.csv",
+    "lineCsvPath":  "trackers/vi24all/data/line.csv",
+    "subgroups": {
+      "london":           { "datawrapperLineChartId": "", "datawrapperBarChartId": "" },
+      "southern england": { "datawrapperLineChartId": "", "datawrapperBarChartId": "" },
+      "northern england": { "datawrapperLineChartId": "", "datawrapperBarChartId": "" },
+      "midlands":         { "datawrapperLineChartId": "", "datawrapperBarChartId": "" },
+      "uk/gb":            { "datawrapperLineChartId": "", "datawrapperBarChartId": "" }
+    }
+  }
+}
