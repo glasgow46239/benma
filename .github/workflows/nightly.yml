@@ -29,3 +29,10 @@ jobs:
           git add trackers/
           git diff --cached --quiet || git commit -m "chore: update poll tracker data [$(date -u +%Y-%m-%d)]"
           git push
+- name: Run approval trackers
+  run: |
+    for dir in trackers/pm-approval/; do
+      python pipeline/approval.py --config "${dir}config.json" --push-to-datawrapper
+    done
+  env:
+    DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
