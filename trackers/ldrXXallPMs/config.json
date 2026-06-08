@@ -26,8 +26,8 @@
     { "name": "May",      "matchName": "Theresa May",        "approveCol": 15, "disapproveCol": 16, "color": "#0087DC", "inOfficeSince": "13/07/2016" },
     { "name": "Johnson",  "matchName": "Boris Johnson",      "approveCol": 17, "disapproveCol": 18, "color": "#0087DC", "inOfficeSince": "24/07/2019" },
     { "name": "Truss", "bandwidthDays": 10,   "matchName": "Liz Truss",          "approveCol": 19, "disapproveCol": 20, "color": "#0087DC", "inOfficeSince": "06/09/2022" },
-    { "name": "Sunak",    "matchName": "Rishi Sunak",        "approveCol": 21, "disapproveCol": 22, "color": "#0087DC", "inOfficeSince": "25/10/2022" },
-    { "name": "Starmer",  "matchName": "Keir Starmer",       "approveCol": 3,  "disapproveCol": 4,  "color": "#E4003B", "inOfficeSince": "05/07/2024" }
+    { "name": "Sunak", "bandwidthDays": 40,   "matchName": "Rishi Sunak",        "approveCol": 21, "disapproveCol": 22, "color": "#0087DC", "inOfficeSince": "25/10/2022" },
+    { "name": "Starmer", "bandwidthDays": 40, "matchName": "Keir Starmer",       "approveCol": 3,  "disapproveCol": 4,  "color": "#E4003B", "inOfficeSince": "05/07/2024" }
   ],
 
   "output": {
