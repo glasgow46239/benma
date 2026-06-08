@@ -68,9 +68,9 @@
     }
   ],
   "output": {
-    "linesCsvPath": "trackers/pm-approval/data/approval-lines.csv",
-    "daysCsvPath": "trackers/pm-approval/data/approval-days.csv",
-    "rawCsvPath": "trackers/pm-approval/data/approval-raw.csv",
+    "linesCsvPath": "trackers/ldrXXallPMs/data/approval-lines.csv",
+    "daysCsvPath": "trackers/ldrXXallPMs/data/approval-days.csv",
+    "rawCsvPath": "trackers/ldrXXallPMs/data/approval-raw.csv",
     "datawrapperLinesChartId": "TNsXR",
     "datawrapperDaysChartId": "mj4aT"
   }
