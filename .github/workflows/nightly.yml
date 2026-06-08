@@ -1,27 +1,41 @@
 name: Nightly poll tracker update (all)
+
 on:
   schedule:
     - cron: "0 6 * * *"   # 06:00 UTC every day
   workflow_dispatch:        # manual trigger from GitHub UI
+
 jobs:
   smooth-and-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - name: Install dependencies
         run: pip install requests numpy
-      - name: Run all trackers
+
+      - name: Run all poll trackers
         run: |
           for dir in trackers/*/; do
             python pipeline/smooth.py --config "${dir}config.json" --push-to-datawrapper
           done
         env:
           DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
+
+      - name: Run approval trackers
+        run: |
+          for dir in trackers/pm-approval/; do
+            python pipeline/approval.py --config "${dir}config.json" --push-to-datawrapper
+          done
+        env:
+          DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
+
       - name: Commit updated data files
         run: |
           git config user.name  "github-actions[bot]"
@@ -29,10 +43,3 @@ jobs:
           git add trackers/
           git diff --cached --quiet || git commit -m "chore: update poll tracker data [$(date -u +%Y-%m-%d)]"
           git push
-- name: Run approval trackers
-  run: |
-    for dir in trackers/pm-approval/; do
-      python pipeline/approval.py --config "${dir}config.json" --push-to-datawrapper
-    done
-  env:
-    DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
