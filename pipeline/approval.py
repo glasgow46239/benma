@@ -133,6 +133,8 @@ def fetch_approval_polls(config):
 
     polls.sort(key=lambda p: p["date"])
     print(f"Loaded {len(polls)} approval polls ({skipped} rows skipped)")
+print(f"Header row found at index: {header_idx}")
+print(f"First data row sample: {rows[header_idx + 1][:8] if len(rows) > header_idx + 1 else 'none'}")
 
     from collections import Counter
     for name, count in sorted(Counter(p["leader"] for p in polls).items()):
