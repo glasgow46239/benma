@@ -4,7 +4,7 @@
   "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQY797SnNrQzpin7dGAKW7PLLUOd0eSzQJV1-BxLbtZQnKg_H7LtIdkzTYFxlTaqBeYXVDQ4BPJnXhR/pub?gid=2022809453&single=true&output=csv",
   "subgroupColumn": 11,
   "smoothing": {
-    "bandwidthDays": 120,
+    "bandwidthDays": 40,
     "minPollsInWindow": 3,
     "bootstrapIterations": 200
   },
@@ -17,14 +17,14 @@
     { "name": "UK/GB",            "value": "uk/gb" }
   ],
   "parties": [
-    { "name": "Con",    "col": 3,  "color": "#0087DC", "includeInLine": true, "includeInBar": true },
-    { "name": "Lab",    "col": 4,  "color": "#E4003B", "includeInLine": true, "includeInBar": true },
-    { "name": "LDem",   "col": 5,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
-    { "name": "Ukip",   "col": 6,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
-    { "name": "Grn",    "col": 7,  "color": "#00B140", "includeInLine": true, "includeInBar": true },
-    { "name": "SNP",   "col": 8,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
-    { "name": "PC",   "col": 9,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
-    { "name": "Reform", "col": 11, "color": "#12B6CF", "includeInLine": true, "includeInBar": true }
+    { "name": "Con",    "col": 2,  "color": "#0087DC", "includeInLine": true, "includeInBar": true },
+    { "name": "Lab",    "col": 3,  "color": "#E4003B", "includeInLine": true, "includeInBar": true },
+    { "name": "LDem",   "col": 4,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
+    { "name": "Ukip",   "col": 5,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
+    { "name": "Grn",    "col": 6,  "color": "#00B140", "includeInLine": true, "includeInBar": true },
+    { "name": "SNP",   "col": 7,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
+    { "name": "PC",   "col": 8,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
+    { "name": "Reform", "col": 9, "color": "#12B6CF", "includeInLine": true, "includeInBar": true }
   ],
   "referenceElection": {
     "label": "2024 general election",
