@@ -10,11 +10,13 @@
   },
   "skipPollsterPatterns": [],
   "subgroups": [
-    { "name": "London",           "value": "london" },
-    { "name": "Southern England", "value": "southern england" },
-    { "name": "Northern England", "value": "northern england" },
-    { "name": "Midlands",         "value": "midlands" },
-    { "name": "UK/GB",            "value": "uk/gb" }
+    { "name": "London",           "value": "london",           "bandwidthDays": 80,  "minPollsInWindow": 2 },
+    { "name": "Southern England", "value": "southern england", "bandwidthDays": 80, "minPollsInWindow": 2 },
+    { "name": "Northern England", "value": "northern england", "bandwidthDays": 80, "minPollsInWindow": 2 },
+    { "name": "Midlands",         "value": "midlands",         "bandwidthDays": 80, "minPollsInWindow": 2 },
+    { "name": "UK/GB",            "value": "uk/gb",            "bandwidthDays": 40,  "minPollsInWindow": 2 },
+    { "name": "Scotland",         "value": "scotland",         "bandwidthDays": 60,  "minPollsInWindow": 2 },
+    { "name": "Wales",            "value": "wales",            "bandwidthDays": 60,  "minPollsInWindow": 2 }
   ],
   "historicalSeries": {
     "url": "https://raw.githubusercontent.com/glasgow46239/benma/main/trackers/vi19all/data/line-{subgroup}.csv",
