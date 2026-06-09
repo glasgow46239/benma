@@ -333,8 +333,10 @@ def build_bar_csv(polls, config, subgroup_cfg=None):
     include_other = (subgroup_cfg or {}).get("barIncludeOther",
                     config.get("barIncludeOther", False))
 
-    ref_results = config.get("referenceElection", {}).get("results", {})
-    ref_label   = config.get("referenceElection", {}).get("label", "Reference")
+    # Per-subgroup reference election overrides global if present
+    sg_ref      = (subgroup_cfg or {}).get("referenceElection", {})
+    ref_results = sg_ref.get("results") or config.get("referenceElection", {}).get("results", {})
+    ref_label   = sg_ref.get("label")   or config.get("referenceElection", {}).get("label", "Reference")
 
     # Find most recent non-null value per party
     latest = {}
