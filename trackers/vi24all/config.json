@@ -46,11 +46,13 @@
     "barCsvPath":   "trackers/vi24all/data/bar.csv",
     "lineCsvPath":  "trackers/vi24all/data/line.csv",
     "subgroups": {
-      "london":           { "datawrapperLineChartId": "KrhS3", "datawrapperBarChartId": "" },
-      "southern england": { "datawrapperLineChartId": "494wq", "datawrapperBarChartId": "" },
-      "northern england": { "datawrapperLineChartId": "ZZIgb", "datawrapperBarChartId": "" },
+      "london":           { "datawrapperLineChartId": "mcJSk", "datawrapperBarChartId": "" },
+      "southern england": { "datawrapperLineChartId": "uCins", "datawrapperBarChartId": "" },
+      "northern england": { "datawrapperLineChartId": "B2ehk", "datawrapperBarChartId": "" },
       "midlands":         { "datawrapperLineChartId": "9MBJM", "datawrapperBarChartId": "" },
-      "uk/gb":            { "datawrapperLineChartId": "", "datawrapperBarChartId": "" }
+      "uk/gb":            { "datawrapperLineChartId": "VkLJs", "datawrapperBarChartId": "" },
+      "scotland":         { "datawrapperLineChartId": "ICAdW", "datawrapperBarChartId": "" },
+      "wales":            { "datawrapperLineChartId": "02tYQ", "datawrapperBarChartId": "" }
     }
   }
 }
