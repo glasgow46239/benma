@@ -250,9 +250,12 @@ def generate_headline(polls, config, latest_smooth, subgroup_label=None):
 # Core build functions (operate on a filtered poll list)
 # ---------------------------------------------------------------------------
 
-def build_line_json(polls, config, subgroup_label=None):
-    bw        = config["smoothing"]["bandwidthDays"]
-    min_polls = config["smoothing"]["minPollsInWindow"]
+def build_line_json(polls, config, subgroup_label=None, subgroup_cfg=None):
+    global_bw        = config["smoothing"]["bandwidthDays"]
+    global_min_polls = config["smoothing"]["minPollsInWindow"]
+    n_boot           = config["smoothing"].get("bootstrapIterations", 200)
+    bw        = (subgroup_cfg or {}).get("bandwidthDays",    global_bw)
+    min_polls = (subgroup_cfg or {}).get("minPollsInWindow", global_min_polls)
     n_boot    = config["smoothing"].get("bootstrapIterations", 200)
     parties   = [p for p in config["parties"] if p["includeInLine"]]
 
@@ -640,7 +643,7 @@ def main():
             hist_series, hist_polls = load_historical_series(config, subgroup_value=sg_value)
 
             print("  Building smoothed series...")
-            line_json = build_line_json(polls, config, subgroup_label=sg_label)
+            line_json = build_line_json(polls, config, subgroup_label=sg_label, subgroup_cfg=sg)
             bar_csv   = build_bar_csv(polls, config)
 
             line_json_path, bar_csv_path, line_csv_path, dw_line_id, dw_bar_id = \
