@@ -10,12 +10,14 @@
   },
   "skipPollsterPatterns": [],
   "subgroups": [
-    { "name": "London",           "value": "london" },
-    { "name": "Southern England", "value": "southern england" },
-    { "name": "Northern England", "value": "northern england" },
-    { "name": "Midlands",         "value": "midlands" },
-    { "name": "UK/GB",            "value": "uk/gb" }
-  ],
+    { "name": "London",           "value": "london",           "bandwidthDays": 80,  "minPollsInWindow": 2 },
+    { "name": "Southern England", "value": "southern england", "bandwidthDays": 80, "minPollsInWindow": 2 },
+    { "name": "Northern England", "value": "northern england", "bandwidthDays": 80, "minPollsInWindow": 2 },
+    { "name": "Midlands",         "value": "midlands",         "bandwidthDays": 80, "minPollsInWindow": 2 },
+    { "name": "UK/GB",            "value": "uk/gb",            "bandwidthDays": 40,  "minPollsInWindow": 2 },
+    { "name": "Scotland",         "value": "scotland",         "bandwidthDays": 60,  "minPollsInWindow": 2 },
+    { "name": "Wales",            "value": "wales",            "bandwidthDays": 60,  "minPollsInWindow": 2 }
+],
   "parties": [
     { "name": "Con",    "col": 2,  "color": "#0087DC", "includeInLine": true, "includeInBar": true },
     { "name": "Lab",    "col": 3,  "color": "#E4003B", "includeInLine": true, "includeInBar": true },
