@@ -16,6 +16,12 @@
     { "name": "Midlands",         "value": "midlands" },
     { "name": "UK/GB",            "value": "uk/gb" }
   ],
+  "historicalSeries": {
+    "url": "https://raw.githubusercontent.com/glasgow46239/benma/main/trackers/vi19all/data/line-{subgroup}.csv",
+    "labelSuffix": " (19-24)",
+    "parties": ["Con", "Lab", "LDem", "Ukip", "Grn", "SNP", "PC", "Reform"],
+    "matchSubgroup": true
+  },
   "parties": [
     { "name": "Con",    "col": 2,  "color": "#0087DC", "includeInLine": true, "includeInBar": true },
     { "name": "Lab",    "col": 3,  "color": "#E4003B", "includeInLine": true, "includeInBar": true },
