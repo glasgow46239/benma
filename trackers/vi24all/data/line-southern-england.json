@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "UK VI by region",
     "subgroup": "Southern England",
-    "generated": "2026-06-09T12:25:15Z",
+    "generated": "2026-06-09T12:44:44Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
