@@ -52,12 +52,7 @@ def load_config(path):
 # ---------------------------------------------------------------------------
 
 def parse_date(s):
-    for fmt in ("%d/%m/%Y", "%Y-%m-%d", "%d-%b-%Y"):
-        try:
-            return datetime.strptime(s.strip(), fmt)
-        except ValueError:
-            continue
-    raise ValueError(f"Unrecognised date format: {s}")
+    return datetime.strptime(s.strip(), "%d/%m/%Y")
 
 def should_skip(pollster, skip_patterns):
     for pat in skip_patterns:
@@ -115,9 +110,6 @@ def fetch_polls(config):
 
     polls.sort(key=lambda p: p["date"])
     print(f"Loaded {len(polls)} polls (after skipping reference rows)")
-    print(f"Header idx: {header_idx}")
-    print(f"Total rows: {len(rows)}")
-    print(f"First few rows after header: {rows[header_idx+1:header_idx+4]}")
     return polls
 
 def filter_polls_by_subgroup(polls, subgroup_value):
@@ -438,18 +430,32 @@ def build_line_csv(json_data, polls, hist_series=None, hist_polls=None):
 # Historical series loader
 # ---------------------------------------------------------------------------
 
-def load_historical_series(config):
+def load_historical_series(config, subgroup_value=None):
     hist_config = config.get("historicalSeries")
     if not hist_config:
         return {}, {}
 
-    url           = hist_config["url"]
-    suffix        = hist_config.get("labelSuffix", " (hist)")
+    url            = hist_config["url"]
+    suffix         = hist_config.get("labelSuffix", " (hist)")
     wanted_parties = hist_config.get("parties", [])
+    match_subgroup = hist_config.get("matchSubgroup", False)
 
-    print(f"Fetching historical series from: {url}")
-    resp = requests.get(url, timeout=30)
-    resp.raise_for_status()
+    # Resolve {subgroup} placeholder in URL
+    if match_subgroup and subgroup_value is not None:
+        slug = subgroup_slug(subgroup_value)
+        url  = url.replace("{subgroup}", slug)
+    elif match_subgroup and subgroup_value is None:
+        # No subgroup provided but matchSubgroup requested — skip
+        print("  Skipping historical series: matchSubgroup=true but no subgroup active")
+        return {}, {}
+
+    print(f"  Fetching historical series from: {url}")
+    try:
+        resp = requests.get(url, timeout=30)
+        resp.raise_for_status()
+    except requests.HTTPError as e:
+        print(f"  WARNING: Could not fetch historical series ({e}), skipping")
+        return {}, {}
 
     reader = csv.DictReader(io.StringIO(resp.text))
     rows   = list(reader)
@@ -463,9 +469,9 @@ def load_historical_series(config):
             continue
         for party in wanted_parties:
             for src_key, dst_key in [
-                (party,            f"{party}{suffix}"),
-                (f"{party} (low)", f"{party}{suffix} (low)"),
-                (f"{party} (high)",f"{party}{suffix} (high)"),
+                (party,             f"{party}{suffix}"),
+                (f"{party} (low)",  f"{party}{suffix} (low)"),
+                (f"{party} (high)", f"{party}{suffix} (high)"),
             ]:
                 if src_key in row and row[src_key].strip():
                     try:
@@ -479,6 +485,7 @@ def load_historical_series(config):
                 except ValueError:
                     pass
 
+    print(f"  Loaded historical series: {len(hist)} columns, {len(set(d for v in hist.values() for d in v))} dates")
     return dict(hist), dict(polls)
 
 # ---------------------------------------------------------------------------
@@ -598,8 +605,6 @@ def main():
         print("No polls loaded, exiting")
         sys.exit(1)
 
-    hist_series, hist_polls = load_historical_series(config)
-
     subgroups = config.get("subgroups")
 
     if subgroups:
@@ -615,6 +620,9 @@ def main():
                 print(f"  No polls found for subgroup '{sg_value}', skipping")
                 continue
             print(f"  {len(polls)} polls")
+
+            # Load historical series for this subgroup
+            hist_series, hist_polls = load_historical_series(config, subgroup_value=sg_value)
 
             print("  Building smoothed series...")
             line_json = build_line_json(polls, config, subgroup_label=sg_label)
@@ -654,6 +662,7 @@ def main():
 
     else:
         # --- Standard mode: single series ---
+        hist_series, hist_polls = load_historical_series(config, subgroup_value=None)
         print("Building smoothed series with confidence intervals...")
         line_json = build_line_json(all_polls, config)
         bar_csv   = build_bar_csv(all_polls, config)
