@@ -323,7 +323,7 @@ def build_line_json(polls, config, subgroup_label=None, subgroup_cfg=None):
         "rawPolls": raw_dots
     }
 
-def build_bar_csv(polls, config, subgroup_cfg=None):
+def build_bar_csv(polls, config, subgroup_cfg=None, line_json=None):
     if not polls:
         return ""
 
@@ -343,15 +343,18 @@ def build_bar_csv(polls, config, subgroup_cfg=None):
     ref_results = sg_ref.get("results") or config.get("referenceElection", {}).get("results", {})
     ref_label   = sg_ref.get("label")   or config.get("referenceElection", {}).get("label", "Reference")
 
-    # Find most recent non-null value per party
-    latest = {}
-    for p in reversed(polls):
-        for party in parties:
-            name = party["name"]
-            if name not in latest and p["values"].get(name) is not None:
-                latest[name] = p["values"][name]
-        if len(latest) == len(parties):
-            break
+    # Use latest smoothed values if available, else fall back to raw polls
+    if line_json is not None:
+        latest = {name: val for name, val in line_json["meta"]["latestSmoothed"].items()}
+    else:
+        latest = {}
+        for p in reversed(polls):
+            for party in parties:
+                name = party["name"]
+                if name not in latest and p["values"].get(name) is not None:
+                    latest[name] = p["values"][name]
+            if len(latest) == len(parties):
+                break
 
     lines = [f"Party,Latest poll,{ref_label},Change"]
     for party in parties:
@@ -663,7 +666,7 @@ def main():
 
             print("  Building smoothed series...")
             line_json = build_line_json(polls, config, subgroup_label=sg_label, subgroup_cfg=sg)
-            bar_csv   = build_bar_csv(polls, config, subgroup_cfg=sg)
+            bar_csv   = build_bar_csv(polls, config, subgroup_cfg=sg, line_json=line_json)
 
             line_json_path, bar_csv_path, line_csv_path, dw_line_id, dw_bar_id = \
                 get_output_paths(config, sg_value)
@@ -702,7 +705,7 @@ def main():
         hist_series, hist_polls = load_historical_series(config, subgroup_value=None)
         print("Building smoothed series with confidence intervals...")
         line_json = build_line_json(all_polls, config)
-        bar_csv   = build_bar_csv(all_polls, config)
+        bar_csv   = build_bar_csv(all_polls, config, line_json=line_json)
 
         line_json_path, bar_csv_path, line_csv_path, _, _ = get_output_paths(config)
 
