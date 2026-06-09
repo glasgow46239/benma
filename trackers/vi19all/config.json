@@ -15,8 +15,8 @@
     { "name": "Northern England", "value": "northern england", "bandwidthDays": 80, "minPollsInWindow": 2 },
     { "name": "Midlands",         "value": "midlands",         "bandwidthDays": 80, "minPollsInWindow": 2 },
     { "name": "UK/GB",            "value": "uk/gb",            "bandwidthDays": 40,  "minPollsInWindow": 2 },
-    { "name": "Scotland",         "value": "scotland",         "bandwidthDays": 60,  "minPollsInWindow": 2 },
-    { "name": "Wales",            "value": "wales",            "bandwidthDays": 60,  "minPollsInWindow": 2 }
+    { "name": "Scotland",         "value": "scotland",         "bandwidthDays": 80,  "minPollsInWindow": 2 },
+    { "name": "Wales",            "value": "wales",            "bandwidthDays": 80,  "minPollsInWindow": 2 }
 ],
   "parties": [
     { "name": "Con",    "col": 2,  "color": "#0087DC", "includeInLine": true, "includeInBar": true },
