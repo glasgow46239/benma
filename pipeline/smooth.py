@@ -110,6 +110,9 @@ def fetch_polls(config):
 
     polls.sort(key=lambda p: p["date"])
     print(f"Loaded {len(polls)} polls (after skipping reference rows)")
+    print(f"Header idx: {header_idx}")
+    print(f"Total rows: {len(rows)}")
+    print(f"First few rows after header: {rows[header_idx+1:header_idx+4]}")
     return polls
 
 def filter_polls_by_subgroup(polls, subgroup_value):
