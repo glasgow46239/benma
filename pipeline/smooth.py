@@ -464,7 +464,17 @@ def load_historical_series(config, subgroup_value=None):
     polls = defaultdict(dict)
 
     for row in rows:
-        date = row.get("date", "").strip()
+        raw_date = row.get("date", "").strip()
+        if not raw_date:
+            continue
+        # Normalise to YYYY-MM-DD
+        date = None
+        for fmt in ("%d/%m/%Y", "%Y-%m-%d", "%d-%b-%Y"):
+            try:
+                date = datetime.strptime(raw_date, fmt).strftime("%Y-%m-%d")
+                break
+            except ValueError:
+                continue
         if not date:
             continue
         for party in wanted_parties:
