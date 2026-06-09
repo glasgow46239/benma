@@ -52,7 +52,12 @@ def load_config(path):
 # ---------------------------------------------------------------------------
 
 def parse_date(s):
-    return datetime.strptime(s.strip(), "%d/%m/%Y")
+    for fmt in ("%d/%m/%Y", "%Y-%m-%d", "%d-%b-%Y"):
+        try:
+            return datetime.strptime(s.strip(), fmt)
+        except ValueError:
+            continue
+    raise ValueError(f"Unrecognised date format: {s}")
 
 def should_skip(pollster, skip_patterns):
     for pat in skip_patterns:
