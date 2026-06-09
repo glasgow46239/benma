@@ -52,12 +52,7 @@ def load_config(path):
 # ---------------------------------------------------------------------------
 
 def parse_date(s):
-    for fmt in ("%d/%m/%Y", "%Y-%m-%d", "%d-%b-%Y"):
-        try:
-            return datetime.strptime(s.strip(), fmt)
-        except ValueError:
-            continue
-    raise ValueError(f"Unrecognised date format: {s}")
+    return datetime.strptime(s.strip(), "%d/%m/%Y")
 
 def should_skip(pollster, skip_patterns):
     for pat in skip_patterns:
@@ -254,9 +249,9 @@ def build_line_json(polls, config, subgroup_label=None, subgroup_cfg=None):
     global_bw        = config["smoothing"]["bandwidthDays"]
     global_min_polls = config["smoothing"]["minPollsInWindow"]
     n_boot           = config["smoothing"].get("bootstrapIterations", 200)
+
     bw        = (subgroup_cfg or {}).get("bandwidthDays",    global_bw)
     min_polls = (subgroup_cfg or {}).get("minPollsInWindow", global_min_polls)
-    n_boot    = config["smoothing"].get("bootstrapIterations", 200)
     parties   = [p for p in config["parties"] if p["includeInLine"]]
 
     series = {}
@@ -323,14 +318,25 @@ def build_line_json(polls, config, subgroup_label=None, subgroup_cfg=None):
         "rawPolls": raw_dots
     }
 
-def build_bar_csv(polls, config):
+def build_bar_csv(polls, config, subgroup_cfg=None):
     if not polls:
         return ""
 
-    parties     = [p for p in config["parties"] if p["includeInBar"]]
+    # Party selection: subgroup override > global includeInBar
+    bar_parties_override = (subgroup_cfg or {}).get("barParties")
+    if bar_parties_override:
+        party_lookup = {p["name"]: p for p in config["parties"]}
+        parties = [party_lookup[name] for name in bar_parties_override if name in party_lookup]
+    else:
+        parties = [p for p in config["parties"] if p["includeInBar"]]
+
+    include_other = (subgroup_cfg or {}).get("barIncludeOther",
+                    config.get("barIncludeOther", False))
+
     ref_results = config.get("referenceElection", {}).get("results", {})
     ref_label   = config.get("referenceElection", {}).get("label", "Reference")
 
+    # Find most recent non-null value per party
     latest = {}
     for p in reversed(polls):
         for party in parties:
@@ -354,6 +360,22 @@ def build_bar_csv(polls, config):
             change_str = "n/a"
             ref        = "n/a"
         lines.append(f"{name},{curr},{ref},{change_str}")
+
+    # Other parties: 100 minus sum of all included parties in latest poll
+    if include_other:
+        curr_sum = sum(v for v in latest.values() if v is not None)
+        curr_other = round(100 - curr_sum, 1)
+
+        ref_sum = sum(ref_results.get(p["name"], 0) for p in parties
+                      if ref_results.get(p["name"]) is not None)
+        ref_other = round(100 - ref_sum, 1) if ref_sum > 0 else None
+
+        if ref_other is not None:
+            change     = round(curr_other - ref_other, 1)
+            change_str = f"+{change}" if change >= 0 else str(change)
+            lines.append(f"Other,{curr_other},{ref_other},{change_str}")
+        else:
+            lines.append(f"Other,{curr_other},n/a,n/a")
 
     return "\n".join(lines)
 
@@ -472,17 +494,7 @@ def load_historical_series(config, subgroup_value=None):
     polls = defaultdict(dict)
 
     for row in rows:
-        raw_date = row.get("date", "").strip()
-        if not raw_date:
-            continue
-        # Normalise to YYYY-MM-DD
-        date = None
-        for fmt in ("%d/%m/%Y", "%Y-%m-%d", "%d-%b-%Y"):
-            try:
-                date = datetime.strptime(raw_date, fmt).strftime("%Y-%m-%d")
-                break
-            except ValueError:
-                continue
+        date = row.get("date", "").strip()
         if not date:
             continue
         for party in wanted_parties:
@@ -644,7 +656,7 @@ def main():
 
             print("  Building smoothed series...")
             line_json = build_line_json(polls, config, subgroup_label=sg_label, subgroup_cfg=sg)
-            bar_csv   = build_bar_csv(polls, config)
+            bar_csv   = build_bar_csv(polls, config, subgroup_cfg=sg)
 
             line_json_path, bar_csv_path, line_csv_path, dw_line_id, dw_bar_id = \
                 get_output_paths(config, sg_value)
