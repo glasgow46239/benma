@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "UK VI by region",
     "subgroup": "Wales",
-    "generated": "2026-06-09T15:19:34Z",
+    "generated": "2026-06-09T16:28:50Z",
     "bandwidthDays": 60,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,

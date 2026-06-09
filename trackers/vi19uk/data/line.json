@@ -1,7 +1,8 @@
 {
   "meta": {
     "trackerName": "vi19uk",
-    "generated": "2026-06-08T00:56:54Z",
+    "subgroup": "",
+    "generated": "2026-06-09T16:27:12Z",
     "bandwidthDays": 40,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
@@ -790,7 +791,7 @@
         "t": 18382,
         "date": "2020-04-30",
         "value": 47.78,
-        "low": 46.34,
+        "low": 46.35,
         "high": 49.22,
         "sparse": false
       },
@@ -798,88 +799,88 @@
         "t": 18383,
         "date": "2020-05-01",
         "value": 47.66,
-        "low": 46.26,
-        "high": 49.03,
+        "low": 46.27,
+        "high": 49.05,
         "sparse": false
       },
       {
         "t": 18384,
         "date": "2020-05-02",
         "value": 47.53,
-        "low": 46.17,
-        "high": 48.86,
+        "low": 46.19,
+        "high": 48.84,
         "sparse": false
       },
       {
         "t": 18385,
         "date": "2020-05-03",
         "value": 47.41,
-        "low": 46.1,
-        "high": 48.7,
+        "low": 46.12,
+        "high": 48.67,
         "sparse": false
       },
       {
         "t": 18386,
         "date": "2020-05-04",
         "value": 47.28,
-        "low": 46.03,
-        "high": 48.56,
+        "low": 46.04,
+        "high": 48.52,
         "sparse": false
       },
       {
         "t": 18387,
         "date": "2020-05-05",
         "value": 47.15,
-        "low": 45.94,
-        "high": 48.39,
+        "low": 45.97,
+        "high": 48.42,
         "sparse": false
       },
       {
         "t": 18388,
         "date": "2020-05-06",
         "value": 47.02,
-        "low": 45.86,
-        "high": 48.25,
+        "low": 45.92,
+        "high": 48.32,
         "sparse": false
       },
       {
         "t": 18389,
         "date": "2020-05-07",
         "value": 46.89,
-        "low": 45.76,
-        "high": 48.1,
+        "low": 45.82,
+        "high": 48.2,
         "sparse": false
       },
       {
         "t": 18390,
         "date": "2020-05-08",
         "value": 46.75,
-        "low": 45.65,
-        "high": 47.93,
+        "low": 45.71,
+        "high": 48.04,
         "sparse": false
       },
       {
         "t": 18391,
         "date": "2020-05-09",
         "value": 46.62,
-        "low": 45.57,
-        "high": 47.74,
+        "low": 45.58,
+        "high": 47.87,
         "sparse": false
       },
       {
         "t": 18392,
         "date": "2020-05-10",
         "value": 46.48,
-        "low": 45.48,
-        "high": 47.58,
+        "low": 45.45,
+        "high": 47.69,
         "sparse": false
       },
       {
         "t": 18393,
         "date": "2020-05-11",
         "value": 46.34,
-        "low": 45.36,
-        "high": 47.42,
+        "low": 45.32,
+        "high": 47.51,
         "sparse": false
       },
       {
@@ -887,46 +888,46 @@
         "date": "2020-05-12",
         "value": 46.21,
         "low": 45.24,
-        "high": 47.26,
+        "high": 47.33,
         "sparse": false
       },
       {
         "t": 18395,
         "date": "2020-05-13",
         "value": 46.07,
-        "low": 45.05,
-        "high": 47.09,
+        "low": 45.12,
+        "high": 47.16,
         "sparse": false
       },
       {
         "t": 18396,
         "date": "2020-05-14",
         "value": 45.94,
-        "low": 44.9,
-        "high": 46.93,
+        "low": 45.01,
+        "high": 47.0,
         "sparse": false
       },
       {
         "t": 18397,
         "date": "2020-05-15",
         "value": 45.81,
-        "low": 44.8,
-        "high": 46.77,
+        "low": 44.89,
+        "high": 46.83,
         "sparse": false
       },
       {
         "t": 18398,
         "date": "2020-05-16",
         "value": 45.68,
-        "low": 44.67,
-        "high": 46.63,
+        "low": 44.75,
+        "high": 46.64,
         "sparse": false
       },
       {
         "t": 18399,
         "date": "2020-05-17",
         "value": 45.56,
-        "low": 44.54,
+        "low": 44.62,
         "high": 46.45,
         "sparse": false
       },
@@ -934,143 +935,143 @@
         "t": 18400,
         "date": "2020-05-18",
         "value": 45.44,
-        "low": 44.47,
-        "high": 46.3,
+        "low": 44.49,
+        "high": 46.28,
         "sparse": false
       },
       {
         "t": 18401,
         "date": "2020-05-19",
         "value": 45.32,
-        "low": 44.36,
-        "high": 46.17,
+        "low": 44.37,
+        "high": 46.18,
         "sparse": false
       },
       {
         "t": 18402,
         "date": "2020-05-20",
         "value": 45.21,
-        "low": 44.27,
-        "high": 46.05,
+        "low": 44.26,
+        "high": 46.08,
         "sparse": false
       },
       {
         "t": 18403,
         "date": "2020-05-21",
         "value": 45.1,
-        "low": 44.13,
-        "high": 45.93,
+        "low": 44.15,
+        "high": 45.97,
         "sparse": false
       },
       {
         "t": 18404,
         "date": "2020-05-22",
         "value": 45.0,
-        "low": 44.01,
-        "high": 45.82,
+        "low": 44.06,
+        "high": 45.86,
         "sparse": false
       },
       {
         "t": 18405,
         "date": "2020-05-23",
         "value": 44.91,
-        "low": 43.93,
-        "high": 45.7,
+        "low": 43.98,
+        "high": 45.79,
         "sparse": false
       },
       {
         "t": 18406,
         "date": "2020-05-24",
         "value": 44.81,
-        "low": 43.86,
-        "high": 45.62,
+        "low": 43.91,
+        "high": 45.71,
         "sparse": false
       },
       {
         "t": 18407,
         "date": "2020-05-25",
         "value": 44.73,
-        "low": 43.83,
-        "high": 45.51,
+        "low": 43.85,
+        "high": 45.61,
         "sparse": false
       },
       {
         "t": 18408,
         "date": "2020-05-26",
         "value": 44.64,
-        "low": 43.81,
-        "high": 45.42,
+        "low": 43.8,
+        "high": 45.49,
         "sparse": false
       },
       {
         "t": 18409,
         "date": "2020-05-27",
         "value": 44.56,
-        "low": 43.78,
-        "high": 45.33,
+        "low": 43.74,
+        "high": 45.41,
         "sparse": false
       },
       {
         "t": 18410,
         "date": "2020-05-28",
         "value": 44.48,
-        "low": 43.7,
-        "high": 45.22,
+        "low": 43.66,
+        "high": 45.33,
         "sparse": false
       },
       {
         "t": 18411,
         "date": "2020-05-29",
         "value": 44.41,
-        "low": 43.61,
-        "high": 45.14,
+        "low": 43.56,
+        "high": 45.25,
         "sparse": false
       },
       {
         "t": 18412,
         "date": "2020-05-30",
         "value": 44.33,
-        "low": 43.57,
-        "high": 45.06,
+        "low": 43.5,
+        "high": 45.14,
         "sparse": false
       },
       {
         "t": 18413,
         "date": "2020-05-31",
         "value": 44.26,
-        "low": 43.51,
-        "high": 44.99,
+        "low": 43.43,
+        "high": 45.06,
         "sparse": false
       },
       {
         "t": 18414,
         "date": "2020-06-01",
         "value": 44.19,
-        "low": 43.45,
-        "high": 44.9,
+        "low": 43.39,
+        "high": 44.93,
         "sparse": false
       },
       {
         "t": 18415,
         "date": "2020-06-02",
         "value": 44.13,
-        "low": 43.39,
-        "high": 44.81,
+        "low": 43.32,
+        "high": 44.84,
         "sparse": false
       },
       {
         "t": 18416,
         "date": "2020-06-03",
         "value": 44.06,
-        "low": 43.34,
-        "high": 44.73,
+        "low": 43.26,
+        "high": 44.76,
         "sparse": false
       },
       {
         "t": 18417,
         "date": "2020-06-04",
         "value": 44.0,
-        "low": 43.31,
+        "low": 43.23,
         "high": 44.67,
         "sparse": false
       },
@@ -1078,40 +1079,40 @@
         "t": 18418,
         "date": "2020-06-05",
         "value": 43.94,
-        "low": 43.26,
-        "high": 44.57,
+        "low": 43.2,
+        "high": 44.59,
         "sparse": false
       },
       {
         "t": 18419,
         "date": "2020-06-06",
         "value": 43.87,
-        "low": 43.21,
-        "high": 44.49,
+        "low": 43.16,
+        "high": 44.52,
         "sparse": false
       },
       {
         "t": 18420,
         "date": "2020-06-07",
         "value": 43.81,
-        "low": 43.17,
-        "high": 44.42,
+        "low": 43.13,
+        "high": 44.45,
         "sparse": false
       },
       {
         "t": 18421,
         "date": "2020-06-08",
         "value": 43.75,
-        "low": 43.11,
-        "high": 44.35,
+        "low": 43.09,
+        "high": 44.37,
         "sparse": false
       },
       {
         "t": 18422,
         "date": "2020-06-09",
         "value": 43.69,
-        "low": 43.05,
-        "high": 44.28,
+        "low": 43.04,
+        "high": 44.3,
         "sparse": false
       },
       {
@@ -1119,79 +1120,79 @@
         "date": "2020-06-10",
         "value": 43.62,
         "low": 43.0,
-        "high": 44.2,
+        "high": 44.24,
         "sparse": false
       },
       {
         "t": 18424,
         "date": "2020-06-11",
         "value": 43.56,
-        "low": 42.96,
-        "high": 44.13,
+        "low": 42.95,
+        "high": 44.17,
         "sparse": false
       },
       {
         "t": 18425,
         "date": "2020-06-12",
         "value": 43.5,
-        "low": 42.91,
-        "high": 44.06,
+        "low": 42.9,
+        "high": 44.11,
         "sparse": false
       },
       {
         "t": 18426,
         "date": "2020-06-13",
         "value": 43.43,
-        "low": 42.85,
-        "high": 44.0,
+        "low": 42.86,
+        "high": 44.04,
         "sparse": false
       },
       {
         "t": 18427,
         "date": "2020-06-14",
         "value": 43.37,
-        "low": 42.84,
-        "high": 43.95,
+        "low": 42.82,
+        "high": 43.98,
         "sparse": false
       },
       {
         "t": 18428,
         "date": "2020-06-15",
         "value": 43.31,
-        "low": 42.77,
-        "high": 43.89,
+        "low": 42.79,
+        "high": 43.91,
         "sparse": false
       },
       {
         "t": 18429,
         "date": "2020-06-16",
         "value": 43.25,
-        "low": 42.7,
-        "high": 43.84,
+        "low": 42.71,
+        "high": 43.85,
         "sparse": false
       },
       {
         "t": 18430,
         "date": "2020-06-17",
         "value": 43.2,
-        "low": 42.64,
-        "high": 43.8,
+        "low": 42.65,
+        "high": 43.78,
         "sparse": false
       },
       {
         "t": 18431,
         "date": "2020-06-18",
         "value": 43.14,
-        "low": 42.57,
-        "high": 43.73,
+        "low": 42.59,
+        "high": 43.75,
         "sparse": false
       },
       {
         "t": 18432,
         "date": "2020-06-19",
         "value": 43.09,
-        "low": 42.51,
-        "high": 43.66,
+        "low": 42.52,
+        "high": 43.71,
         "sparse": false
       },
       {
@@ -1199,247 +1200,247 @@
         "date": "2020-06-20",
         "value": 43.04,
         "low": 42.46,
-        "high": 43.61,
+        "high": 43.68,
         "sparse": false
       },
       {
         "t": 18434,
         "date": "2020-06-21",
         "value": 43.0,
-        "low": 42.38,
-        "high": 43.58,
+        "low": 42.41,
+        "high": 43.66,
         "sparse": false
       },
       {
         "t": 18435,
         "date": "2020-06-22",
         "value": 42.96,
-        "low": 42.36,
-        "high": 43.53,
+        "low": 42.37,
+        "high": 43.63,
         "sparse": false
       },
       {
         "t": 18436,
         "date": "2020-06-23",
         "value": 42.92,
-        "low": 42.31,
-        "high": 43.51,
+        "low": 42.29,
+        "high": 43.6,
         "sparse": false
       },
       {
         "t": 18437,
         "date": "2020-06-24",
         "value": 42.89,
-        "low": 42.26,
-        "high": 43.5,
+        "low": 42.21,
+        "high": 43.56,
         "sparse": false
       },
       {
         "t": 18438,
         "date": "2020-06-25",
         "value": 42.86,
-        "low": 42.2,
-        "high": 43.5,
+        "low": 42.19,
+        "high": 43.53,
         "sparse": false
       },
       {
         "t": 18439,
         "date": "2020-06-26",
         "value": 42.83,
-        "low": 42.15,
-        "high": 43.5,
+        "low": 42.16,
+        "high": 43.53,
         "sparse": false
       },
       {
         "t": 18440,
         "date": "2020-06-27",
         "value": 42.81,
-        "low": 42.09,
-        "high": 43.49,
+        "low": 42.11,
+        "high": 43.52,
         "sparse": false
       },
       {
         "t": 18441,
         "date": "2020-06-28",
         "value": 42.8,
-        "low": 42.07,
-        "high": 43.49,
+        "low": 42.06,
+        "high": 43.51,
         "sparse": false
       },
       {
         "t": 18442,
         "date": "2020-06-29",
         "value": 42.78,
-        "low": 42.03,
-        "high": 43.48,
+        "low": 41.98,
+        "high": 43.49,
         "sparse": false
       },
       {
         "t": 18443,
         "date": "2020-06-30",
         "value": 42.77,
-        "low": 41.99,
-        "high": 43.5,
+        "low": 41.93,
+        "high": 43.48,
         "sparse": false
       },
       {
         "t": 18444,
         "date": "2020-07-01",
         "value": 42.77,
-        "low": 41.97,
-        "high": 43.5,
+        "low": 41.9,
+        "high": 43.48,
         "sparse": false
       },
       {
         "t": 18445,
         "date": "2020-07-02",
         "value": 42.77,
-        "low": 41.94,
-        "high": 43.49,
+        "low": 41.88,
+        "high": 43.47,
         "sparse": false
       },
       {
         "t": 18446,
         "date": "2020-07-03",
         "value": 42.77,
-        "low": 41.87,
-        "high": 43.52,
+        "low": 41.88,
+        "high": 43.51,
         "sparse": false
       },
       {
         "t": 18447,
         "date": "2020-07-04",
         "value": 42.78,
-        "low": 41.82,
-        "high": 43.55,
+        "low": 41.88,
+        "high": 43.51,
         "sparse": false
       },
       {
         "t": 18448,
         "date": "2020-07-05",
         "value": 42.78,
-        "low": 41.79,
-        "high": 43.58,
+        "low": 41.86,
+        "high": 43.51,
         "sparse": false
       },
       {
         "t": 18449,
         "date": "2020-07-06",
         "value": 42.79,
-        "low": 41.78,
-        "high": 43.62,
+        "low": 41.86,
+        "high": 43.52,
         "sparse": false
       },
       {
         "t": 18450,
         "date": "2020-07-07",
         "value": 42.8,
-        "low": 41.79,
-        "high": 43.6,
+        "low": 41.85,
+        "high": 43.53,
         "sparse": false
       },
       {
         "t": 18451,
         "date": "2020-07-08",
         "value": 42.81,
-        "low": 41.81,
-        "high": 43.61,
+        "low": 41.87,
+        "high": 43.55,
         "sparse": false
       },
       {
         "t": 18452,
         "date": "2020-07-09",
         "value": 42.81,
-        "low": 41.81,
-        "high": 43.63,
+        "low": 41.85,
+        "high": 43.55,
         "sparse": false
       },
       {
         "t": 18453,
         "date": "2020-07-10",
         "value": 42.82,
-        "low": 41.81,
-        "high": 43.65,
+        "low": 41.83,
+        "high": 43.6,
         "sparse": false
       },
       {
         "t": 18454,
         "date": "2020-07-11",
         "value": 42.82,
-        "low": 41.8,
-        "high": 43.65,
+        "low": 41.82,
+        "high": 43.62,
         "sparse": false
       },
       {
         "t": 18455,
         "date": "2020-07-12",
         "value": 42.82,
-        "low": 41.75,
-        "high": 43.65,
+        "low": 41.79,
+        "high": 43.63,
         "sparse": false
       },
       {
         "t": 18456,
         "date": "2020-07-13",
         "value": 42.82,
-        "low": 41.75,
-        "high": 43.67,
+        "low": 41.77,
+        "high": 43.64,
         "sparse": false
       },
       {
         "t": 18457,
         "date": "2020-07-14",
         "value": 42.81,
-        "low": 41.76,
-        "high": 43.67,
+        "low": 41.75,
+        "high": 43.64,
         "sparse": false
       },
       {
         "t": 18458,
         "date": "2020-07-15",
         "value": 42.8,
-        "low": 41.75,
-        "high": 43.67,
+        "low": 41.74,
+        "high": 43.62,
         "sparse": false
       },
       {
         "t": 18459,
         "date": "2020-07-16",
         "value": 42.79,
-        "low": 41.73,
-        "high": 43.67,
+        "low": 41.72,
+        "high": 43.62,
         "sparse": false
       },
       {
         "t": 18460,
         "date": "2020-07-17",
         "value": 42.78,
-        "low": 41.75,
-        "high": 43.66,
+        "low": 41.7,
+        "high": 43.62,
         "sparse": false
       },
       {
         "t": 18461,
         "date": "2020-07-18",
         "value": 42.76,
-        "low": 41.75,
-        "high": 43.64,
+        "low": 41.66,
+        "high": 43.61,
         "sparse": false
       },
       {
         "t": 18462,
         "date": "2020-07-19",
         "value": 42.74,
-        "low": 41.74,
-        "high": 43.61,
+        "low": 41.65,
+        "high": 43.59,
         "sparse": false
       },
       {
         "t": 18463,
         "date": "2020-07-20",
         "value": 42.73,
-        "low": 41.7,
-        "high": 43.59,
+        "low": 41.66,
+        "high": 43.56,
         "sparse": false
       },
       {
@@ -1447,102 +1448,102 @@
         "date": "2020-07-21",
         "value": 42.7,
         "low": 41.66,
-        "high": 43.57,
+        "high": 43.53,
         "sparse": false
       },
       {
         "t": 18465,
         "date": "2020-07-22",
         "value": 42.68,
-        "low": 41.62,
-        "high": 43.54,
+        "low": 41.64,
+        "high": 43.49,
         "sparse": false
       },
       {
         "t": 18466,
         "date": "2020-07-23",
         "value": 42.66,
-        "low": 41.58,
-        "high": 43.51,
+        "low": 41.64,
+        "high": 43.45,
         "sparse": false
       },
       {
         "t": 18467,
         "date": "2020-07-24",
         "value": 42.64,
-        "low": 41.54,
-        "high": 43.48,
+        "low": 41.63,
+        "high": 43.4,
         "sparse": false
       },
       {
         "t": 18468,
         "date": "2020-07-25",
         "value": 42.62,
-        "low": 41.51,
-        "high": 43.44,
+        "low": 41.63,
+        "high": 43.36,
         "sparse": false
       },
       {
         "t": 18469,
         "date": "2020-07-26",
         "value": 42.6,
-        "low": 41.47,
-        "high": 43.41,
+        "low": 41.63,
+        "high": 43.33,
         "sparse": false
       },
       {
         "t": 18470,
         "date": "2020-07-27",
         "value": 42.57,
-        "low": 41.44,
-        "high": 43.36,
+        "low": 41.6,
+        "high": 43.3,
         "sparse": false
       },
       {
         "t": 18471,
         "date": "2020-07-28",
         "value": 42.56,
-        "low": 41.41,
-        "high": 43.35,
+        "low": 41.58,
+        "high": 43.27,
         "sparse": false
       },
       {
         "t": 18472,
         "date": "2020-07-29",
         "value": 42.54,
-        "low": 41.39,
-        "high": 43.33,
+        "low": 41.56,
+        "high": 43.24,
         "sparse": false
       },
       {
         "t": 18473,
         "date": "2020-07-30",
         "value": 42.52,
-        "low": 41.41,
-        "high": 43.28,
+        "low": 41.54,
+        "high": 43.22,
         "sparse": false
       },
       {
         "t": 18474,
         "date": "2020-07-31",
         "value": 42.5,
-        "low": 41.46,
-        "high": 43.23,
+        "low": 41.56,
+        "high": 43.2,
         "sparse": false
       },
       {
         "t": 18475,
         "date": "2020-08-01",
         "value": 42.49,
-        "low": 41.51,
-        "high": 43.21,
+        "low": 41.58,
+        "high": 43.17,
         "sparse": false
       },
       {
         "t": 18476,
         "date": "2020-08-02",
         "value": 42.48,
-        "low": 41.55,
+        "low": 41.6,
         "high": 43.17,
         "sparse": false
       },
@@ -1550,15 +1551,15 @@
         "t": 18477,
         "date": "2020-08-03",
         "value": 42.47,
-        "low": 41.53,
-        "high": 43.16,
+        "low": 41.56,
+        "high": 43.15,
         "sparse": false
       },
       {
         "t": 18478,
         "date": "2020-08-04",
         "value": 42.45,
-        "low": 41.48,
+        "low": 41.49,
         "high": 43.14,
         "sparse": false
       },
@@ -1566,48 +1567,48 @@
         "t": 18479,
         "date": "2020-08-05",
         "value": 42.44,
-        "low": 41.43,
-        "high": 43.13,
+        "low": 41.5,
+        "high": 43.08,
         "sparse": false
       },
       {
         "t": 18480,
         "date": "2020-08-06",
         "value": 42.43,
-        "low": 41.43,
-        "high": 43.12,
+        "low": 41.51,
+        "high": 43.04,
         "sparse": false
       },
       {
         "t": 18481,
         "date": "2020-08-07",
         "value": 42.42,
-        "low": 41.46,
-        "high": 43.07,
+        "low": 41.52,
+        "high": 43.02,
         "sparse": false
       },
       {
         "t": 18482,
         "date": "2020-08-08",
         "value": 42.41,
-        "low": 41.49,
-        "high": 43.06,
+        "low": 41.54,
+        "high": 42.98,
         "sparse": false
       },
       {
         "t": 18483,
         "date": "2020-08-09",
         "value": 42.4,
-        "low": 41.53,
-        "high": 43.02,
+        "low": 41.56,
+        "high": 42.98,
         "sparse": false
       },
       {
         "t": 18484,
         "date": "2020-08-10",
         "value": 42.38,
-        "low": 41.54,
-        "high": 43.01,
+        "low": 41.58,
+        "high": 42.97,
         "sparse": false
       },
       {
@@ -1615,7 +1616,7 @@
         "date": "2020-08-11",
         "value": 42.36,
         "low": 41.57,
-        "high": 42.98,
+        "high": 42.93,
         "sparse": false
       },
       {
@@ -1623,7 +1624,7 @@
         "date": "2020-08-12",
         "value": 42.34,
         "low": 41.59,
-        "high": 42.94,
+        "high": 42.9,
         "sparse": false
       },
       {
@@ -1631,15 +1632,15 @@
         "date": "2020-08-13",
         "value": 42.31,
         "low": 41.57,
-        "high": 42.88,
+        "high": 42.86,
         "sparse": false
       },
       {
         "t": 18488,
         "date": "2020-08-14",
         "value": 42.27,
-        "low": 41.56,
-        "high": 42.85,
+        "low": 41.55,
+        "high": 42.81,
         "sparse": false
       },
       {
@@ -1647,15 +1648,15 @@
         "date": "2020-08-15",
         "value": 42.23,
         "low": 41.53,
-        "high": 42.76,
+        "high": 42.74,
         "sparse": false
       },
       {
         "t": 18490,
         "date": "2020-08-16",
         "value": 42.19,
-        "low": 41.5,
-        "high": 42.69,
+        "low": 41.49,
+        "high": 42.7,
         "sparse": false
       },
       {
@@ -1663,7 +1664,7 @@
         "date": "2020-08-17",
         "value": 42.13,
         "low": 41.44,
-        "high": 42.64,
+        "high": 42.65,
         "sparse": false
       },
       {
@@ -2310,7 +2311,7 @@
         "t": 18572,
         "date": "2020-11-06",
         "value": 39.24,
-        "low": 38.63,
+        "low": 38.62,
         "high": 39.72,
         "sparse": false
       },
@@ -2319,94 +2320,94 @@
         "date": "2020-11-07",
         "value": 39.22,
         "low": 38.62,
-        "high": 39.71,
+        "high": 39.69,
         "sparse": false
       },
       {
         "t": 18574,
         "date": "2020-11-08",
         "value": 39.2,
-        "low": 38.6,
-        "high": 39.71,
+        "low": 38.61,
+        "high": 39.7,
         "sparse": false
       },
       {
         "t": 18575,
         "date": "2020-11-09",
         "value": 39.17,
-        "low": 38.57,
-        "high": 39.7,
+        "low": 38.59,
+        "high": 39.71,
         "sparse": false
       },
       {
         "t": 18576,
         "date": "2020-11-10",
         "value": 39.15,
-        "low": 38.54,
-        "high": 39.67,
+        "low": 38.57,
+        "high": 39.71,
         "sparse": false
       },
       {
         "t": 18577,
         "date": "2020-11-11",
         "value": 39.12,
-        "low": 38.51,
-        "high": 39.66,
+        "low": 38.54,
+        "high": 39.69,
         "sparse": false
       },
       {
         "t": 18578,
         "date": "2020-11-12",
         "value": 39.09,
-        "low": 38.47,
-        "high": 39.64,
+        "low": 38.52,
+        "high": 39.67,
         "sparse": false
       },
       {
         "t": 18579,
         "date": "2020-11-13",
         "value": 39.06,
-        "low": 38.43,
-        "high": 39.61,
+        "low": 38.49,
+        "high": 39.63,
         "sparse": false
       },
       {
         "t": 18580,
         "date": "2020-11-14",
         "value": 39.03,
-        "low": 38.42,
-        "high": 39.59,
+        "low": 38.47,
+        "high": 39.6,
         "sparse": false
       },
       {
         "t": 18581,
         "date": "2020-11-15",
         "value": 38.99,
-        "low": 38.38,
-        "high": 39.56,
+        "low": 38.45,
+        "high": 39.58,
         "sparse": false
       },
       {
         "t": 18582,
         "date": "2020-11-16",
         "value": 38.96,
-        "low": 38.33,
-        "high": 39.53,
+        "low": 38.41,
+        "high": 39.54,
         "sparse": false
       },
       {
         "t": 18583,
         "date": "2020-11-17",
         "value": 38.93,
-        "low": 38.28,
-        "high": 39.51,
+        "low": 38.37,
+        "high": 39.52,
         "sparse": false
       },
       {
         "t": 18584,
         "date": "2020-11-18",
         "value": 38.89,
-        "low": 38.27,
+        "low": 38.34,
         "high": 39.49,
         "sparse": false
       },
@@ -2414,79 +2415,79 @@
         "t": 18585,
         "date": "2020-11-19",
         "value": 38.86,
-        "low": 38.26,
-        "high": 39.47,
+        "low": 38.31,
+        "high": 39.48,
         "sparse": false
       },
       {
         "t": 18586,
         "date": "2020-11-20",
         "value": 38.82,
-        "low": 38.19,
-        "high": 39.46,
+        "low": 38.27,
+        "high": 39.47,
         "sparse": false
       },
       {
         "t": 18587,
         "date": "2020-11-21",
         "value": 38.79,
-        "low": 38.12,
-        "high": 39.44,
+        "low": 38.21,
+        "high": 39.46,
         "sparse": false
       },
       {
         "t": 18588,
         "date": "2020-11-22",
         "value": 38.77,
-        "low": 38.11,
-        "high": 39.44,
+        "low": 38.19,
+        "high": 39.45,
         "sparse": false
       },
       {
         "t": 18589,
         "date": "2020-11-23",
         "value": 38.74,
-        "low": 38.1,
-        "high": 39.44,
+        "low": 38.15,
+        "high": 39.45,
         "sparse": false
       },
       {
         "t": 18590,
         "date": "2020-11-24",
         "value": 38.72,
-        "low": 38.06,
-        "high": 39.44,
+        "low": 38.13,
+        "high": 39.45,
         "sparse": false
       },
       {
         "t": 18591,
         "date": "2020-11-25",
         "value": 38.71,
-        "low": 38.05,
-        "high": 39.44,
+        "low": 38.12,
+        "high": 39.45,
         "sparse": false
       },
       {
         "t": 18592,
         "date": "2020-11-26",
         "value": 38.69,
-        "low": 38.03,
-        "high": 39.42,
+        "low": 38.11,
+        "high": 39.45,
         "sparse": false
       },
       {
         "t": 18593,
         "date": "2020-11-27",
         "value": 38.69,
-        "low": 38.0,
-        "high": 39.43,
+        "low": 38.08,
+        "high": 39.46,
         "sparse": false
       },
       {
         "t": 18594,
         "date": "2020-11-28",
         "value": 38.69,
-        "low": 38.01,
+        "low": 38.05,
         "high": 39.47,
         "sparse": false
       },
@@ -2494,31 +2495,31 @@
         "t": 18595,
         "date": "2020-11-29",
         "value": 38.69,
-        "low": 37.99,
-        "high": 39.49,
+        "low": 38.04,
+        "high": 39.5,
         "sparse": false
       },
       {
         "t": 18596,
         "date": "2020-11-30",
         "value": 38.69,
-        "low": 37.95,
-        "high": 39.5,
+        "low": 38.0,
+        "high": 39.51,
         "sparse": false
       },
       {
         "t": 18597,
         "date": "2020-12-01",
         "value": 38.7,
-        "low": 37.91,
-        "high": 39.52,
+        "low": 38.01,
+        "high": 39.53,
         "sparse": false
       },
       {
         "t": 18598,
         "date": "2020-12-02",
         "value": 38.71,
-        "low": 37.91,
+        "low": 38.0,
         "high": 39.55,
         "sparse": false
       },
@@ -2526,15 +2527,15 @@
         "t": 18599,
         "date": "2020-12-03",
         "value": 38.72,
-        "low": 37.89,
-        "high": 39.58,
+        "low": 37.99,
+        "high": 39.57,
         "sparse": false
       },
       {
         "t": 18600,
         "date": "2020-12-04",
         "value": 38.74,
-        "low": 37.87,
+        "low": 37.96,
         "high": 39.6,
         "sparse": false
       },
@@ -2542,7 +2543,7 @@
         "t": 18601,
         "date": "2020-12-05",
         "value": 38.75,
-        "low": 37.85,
+        "low": 37.95,
         "high": 39.63,
         "sparse": false
       },
@@ -2550,7 +2551,7 @@
         "t": 18602,
         "date": "2020-12-06",
         "value": 38.77,
-        "low": 37.84,
+        "low": 37.93,
         "high": 39.65,
         "sparse": false
       },
@@ -2558,23 +2559,23 @@
         "t": 18603,
         "date": "2020-12-07",
         "value": 38.78,
-        "low": 37.88,
-        "high": 39.69,
+        "low": 37.92,
+        "high": 39.67,
         "sparse": false
       },
       {
         "t": 18604,
         "date": "2020-12-08",
         "value": 38.8,
-        "low": 37.91,
-        "high": 39.7,
+        "low": 37.92,
+        "high": 39.69,
         "sparse": false
       },
       {
         "t": 18605,
         "date": "2020-12-09",
         "value": 38.81,
-        "low": 37.92,
+        "low": 37.91,
         "high": 39.7,
         "sparse": false
       },
@@ -2582,15 +2583,15 @@
         "t": 18606,
         "date": "2020-12-10",
         "value": 38.82,
-        "low": 37.91,
-        "high": 39.72,
+        "low": 37.88,
+        "high": 39.71,
         "sparse": false
       },
       {
         "t": 18607,
         "date": "2020-12-11",
         "value": 38.83,
-        "low": 37.89,
+        "low": 37.85,
         "high": 39.76,
         "sparse": false
       },
@@ -2598,39 +2599,39 @@
         "t": 18608,
         "date": "2020-12-12",
         "value": 38.84,
-        "low": 37.86,
-        "high": 39.81,
+        "low": 37.83,
+        "high": 39.79,
         "sparse": false
       },
       {
         "t": 18609,
         "date": "2020-12-13",
         "value": 38.84,
-        "low": 37.85,
-        "high": 39.85,
+        "low": 37.81,
+        "high": 39.81,
         "sparse": false
       },
       {
         "t": 18610,
         "date": "2020-12-14",
         "value": 38.84,
-        "low": 37.83,
-        "high": 39.86,
+        "low": 37.8,
+        "high": 39.85,
         "sparse": false
       },
       {
         "t": 18611,
         "date": "2020-12-15",
         "value": 38.85,
-        "low": 37.82,
-        "high": 39.88,
+        "low": 37.79,
+        "high": 39.86,
         "sparse": false
       },
       {
         "t": 18612,
         "date": "2020-12-16",
         "value": 38.85,
-        "low": 37.85,
+        "low": 37.78,
         "high": 39.87,
         "sparse": false
       },
@@ -2638,15 +2639,15 @@
         "t": 18613,
         "date": "2020-12-17",
         "value": 38.85,
-        "low": 37.85,
-        "high": 39.87,
+        "low": 37.77,
+        "high": 39.88,
         "sparse": false
       },
       {
         "t": 18614,
         "date": "2020-12-18",
         "value": 38.85,
-        "low": 37.82,
+        "low": 37.77,
         "high": 39.88,
         "sparse": false
       },
@@ -2654,16 +2655,16 @@
         "t": 18615,
         "date": "2020-12-19",
         "value": 38.85,
-        "low": 37.83,
-        "high": 39.87,
+        "low": 37.78,
+        "high": 39.9,
         "sparse": false
       },
       {
         "t": 18616,
         "date": "2020-12-20",
         "value": 38.85,
-        "low": 37.85,
-        "high": 39.87,
+        "low": 37.82,
+        "high": 39.9,
         "sparse": false
       },
       {
@@ -2671,15 +2672,15 @@
         "date": "2020-12-21",
         "value": 38.86,
         "low": 37.86,
-        "high": 39.86,
+        "high": 39.92,
         "sparse": false
       },
       {
         "t": 18618,
         "date": "2020-12-22",
         "value": 38.87,
-        "low": 37.88,
-        "high": 39.87,
+        "low": 37.86,
+        "high": 39.91,
         "sparse": false
       },
       {
@@ -2687,38 +2688,38 @@
         "date": "2020-12-23",
         "value": 38.88,
         "low": 37.89,
-        "high": 39.89,
+        "high": 39.91,
         "sparse": false
       },
       {
         "t": 18620,
         "date": "2020-12-24",
         "value": 38.89,
-        "low": 37.9,
-        "high": 39.9,
+        "low": 37.93,
+        "high": 39.94,
         "sparse": false
       },
       {
         "t": 18621,
         "date": "2020-12-25",
         "value": 38.9,
-        "low": 37.95,
-        "high": 39.89,
+        "low": 37.92,
+        "high": 39.94,
         "sparse": false
       },
       {
         "t": 18622,
         "date": "2020-12-26",
         "value": 38.92,
-        "low": 37.98,
-        "high": 39.88,
+        "low": 37.96,
+        "high": 39.93,
         "sparse": false
       },
       {
         "t": 18623,
         "date": "2020-12-27",
         "value": 38.95,
-        "low": 38.04,
+        "low": 37.98,
         "high": 39.89,
         "sparse": false
       },
@@ -2726,432 +2727,432 @@
         "t": 18624,
         "date": "2020-12-28",
         "value": 38.98,
-        "low": 38.09,
-        "high": 39.9,
+        "low": 37.99,
+        "high": 39.85,
         "sparse": false
       },
       {
         "t": 18625,
         "date": "2020-12-29",
         "value": 39.01,
-        "low": 38.13,
-        "high": 39.9,
+        "low": 38.04,
+        "high": 39.83,
         "sparse": false
       },
       {
         "t": 18626,
         "date": "2020-12-30",
         "value": 39.05,
-        "low": 38.18,
-        "high": 39.96,
+        "low": 38.09,
+        "high": 39.85,
         "sparse": false
       },
       {
         "t": 18627,
         "date": "2020-12-31",
         "value": 39.09,
-        "low": 38.26,
-        "high": 39.98,
+        "low": 38.1,
+        "high": 39.9,
         "sparse": false
       },
       {
         "t": 18628,
         "date": "2021-01-01",
         "value": 39.14,
-        "low": 38.34,
-        "high": 40.01,
+        "low": 38.16,
+        "high": 39.95,
         "sparse": false
       },
       {
         "t": 18629,
         "date": "2021-01-02",
         "value": 39.18,
-        "low": 38.42,
-        "high": 40.02,
+        "low": 38.27,
+        "high": 39.96,
         "sparse": false
       },
       {
         "t": 18630,
         "date": "2021-01-03",
         "value": 39.24,
-        "low": 38.5,
-        "high": 40.01,
+        "low": 38.36,
+        "high": 39.99,
         "sparse": false
       },
       {
         "t": 18631,
         "date": "2021-01-04",
         "value": 39.29,
-        "low": 38.54,
-        "high": 40.02,
+        "low": 38.44,
+        "high": 40.01,
         "sparse": false
       },
       {
         "t": 18632,
         "date": "2021-01-05",
         "value": 39.35,
-        "low": 38.6,
-        "high": 40.11,
+        "low": 38.51,
+        "high": 40.06,
         "sparse": false
       },
       {
         "t": 18633,
         "date": "2021-01-06",
         "value": 39.41,
-        "low": 38.65,
-        "high": 40.2,
+        "low": 38.6,
+        "high": 40.11,
         "sparse": false
       },
       {
         "t": 18634,
         "date": "2021-01-07",
         "value": 39.48,
-        "low": 38.7,
-        "high": 40.24,
+        "low": 38.65,
+        "high": 40.16,
         "sparse": false
       },
       {
         "t": 18635,
         "date": "2021-01-08",
         "value": 39.54,
-        "low": 38.8,
-        "high": 40.27,
+        "low": 38.7,
+        "high": 40.21,
         "sparse": false
       },
       {
         "t": 18636,
         "date": "2021-01-09",
         "value": 39.6,
-        "low": 38.88,
-        "high": 40.32,
+        "low": 38.76,
+        "high": 40.26,
         "sparse": false
       },
       {
         "t": 18637,
         "date": "2021-01-10",
         "value": 39.66,
-        "low": 38.97,
-        "high": 40.42,
+        "low": 38.78,
+        "high": 40.32,
         "sparse": false
       },
       {
         "t": 18638,
         "date": "2021-01-11",
         "value": 39.72,
-        "low": 39.03,
-        "high": 40.43,
+        "low": 38.85,
+        "high": 40.37,
         "sparse": false
       },
       {
         "t": 18639,
         "date": "2021-01-12",
         "value": 39.77,
-        "low": 39.06,
-        "high": 40.52,
+        "low": 38.92,
+        "high": 40.43,
         "sparse": false
       },
       {
         "t": 18640,
         "date": "2021-01-13",
         "value": 39.83,
-        "low": 39.09,
-        "high": 40.56,
+        "low": 38.98,
+        "high": 40.5,
         "sparse": false
       },
       {
         "t": 18641,
         "date": "2021-01-14",
         "value": 39.87,
-        "low": 39.16,
-        "high": 40.57,
+        "low": 39.0,
+        "high": 40.55,
         "sparse": false
       },
       {
         "t": 18642,
         "date": "2021-01-15",
         "value": 39.91,
-        "low": 39.2,
-        "high": 40.58,
+        "low": 39.03,
+        "high": 40.57,
         "sparse": false
       },
       {
         "t": 18643,
         "date": "2021-01-16",
         "value": 39.94,
-        "low": 39.23,
-        "high": 40.59,
+        "low": 39.07,
+        "high": 40.58,
         "sparse": false
       },
       {
         "t": 18644,
         "date": "2021-01-17",
         "value": 39.96,
-        "low": 39.26,
-        "high": 40.62,
+        "low": 39.11,
+        "high": 40.58,
         "sparse": false
       },
       {
         "t": 18645,
         "date": "2021-01-18",
         "value": 39.97,
-        "low": 39.29,
-        "high": 40.62,
+        "low": 39.14,
+        "high": 40.57,
         "sparse": false
       },
       {
         "t": 18646,
         "date": "2021-01-19",
         "value": 39.98,
-        "low": 39.31,
-        "high": 40.6,
+        "low": 39.21,
+        "high": 40.59,
         "sparse": false
       },
       {
         "t": 18647,
         "date": "2021-01-20",
         "value": 39.98,
-        "low": 39.32,
-        "high": 40.57,
+        "low": 39.27,
+        "high": 40.61,
         "sparse": false
       },
       {
         "t": 18648,
         "date": "2021-01-21",
         "value": 39.97,
-        "low": 39.32,
-        "high": 40.56,
+        "low": 39.26,
+        "high": 40.62,
         "sparse": false
       },
       {
         "t": 18649,
         "date": "2021-01-22",
         "value": 39.96,
-        "low": 39.33,
-        "high": 40.54,
+        "low": 39.23,
+        "high": 40.61,
         "sparse": false
       },
       {
         "t": 18650,
         "date": "2021-01-23",
         "value": 39.95,
-        "low": 39.33,
-        "high": 40.53,
+        "low": 39.25,
+        "high": 40.6,
         "sparse": false
       },
       {
         "t": 18651,
         "date": "2021-01-24",
         "value": 39.94,
-        "low": 39.33,
-        "high": 40.52,
+        "low": 39.22,
+        "high": 40.58,
         "sparse": false
       },
       {
         "t": 18652,
         "date": "2021-01-25",
         "value": 39.93,
-        "low": 39.34,
-        "high": 40.51,
+        "low": 39.23,
+        "high": 40.56,
         "sparse": false
       },
       {
         "t": 18653,
         "date": "2021-01-26",
         "value": 39.91,
-        "low": 39.32,
-        "high": 40.52,
+        "low": 39.25,
+        "high": 40.54,
         "sparse": false
       },
       {
         "t": 18654,
         "date": "2021-01-27",
         "value": 39.91,
-        "low": 39.31,
-        "high": 40.51,
+        "low": 39.23,
+        "high": 40.52,
         "sparse": false
       },
       {
         "t": 18655,
         "date": "2021-01-28",
         "value": 39.9,
-        "low": 39.3,
-        "high": 40.5,
+        "low": 39.21,
+        "high": 40.49,
         "sparse": false
       },
       {
         "t": 18656,
         "date": "2021-01-29",
         "value": 39.89,
-        "low": 39.29,
-        "high": 40.5,
+        "low": 39.21,
+        "high": 40.48,
         "sparse": false
       },
       {
         "t": 18657,
         "date": "2021-01-30",
         "value": 39.9,
-        "low": 39.29,
-        "high": 40.51,
+        "low": 39.19,
+        "high": 40.47,
         "sparse": false
       },
       {
         "t": 18658,
         "date": "2021-01-31",
         "value": 39.9,
-        "low": 39.28,
-        "high": 40.53,
+        "low": 39.18,
+        "high": 40.46,
         "sparse": false
       },
       {
         "t": 18659,
         "date": "2021-02-01",
         "value": 39.92,
-        "low": 39.29,
-        "high": 40.55,
+        "low": 39.17,
+        "high": 40.46,
         "sparse": false
       },
       {
         "t": 18660,
         "date": "2021-02-02",
         "value": 39.93,
-        "low": 39.31,
-        "high": 40.57,
+        "low": 39.17,
+        "high": 40.5,
         "sparse": false
       },
       {
         "t": 18661,
         "date": "2021-02-03",
         "value": 39.96,
-        "low": 39.31,
-        "high": 40.6,
+        "low": 39.18,
+        "high": 40.51,
         "sparse": false
       },
       {
         "t": 18662,
         "date": "2021-02-04",
         "value": 39.99,
-        "low": 39.31,
-        "high": 40.65,
+        "low": 39.22,
+        "high": 40.54,
         "sparse": false
       },
       {
         "t": 18663,
         "date": "2021-02-05",
         "value": 40.02,
-        "low": 39.32,
-        "high": 40.72,
+        "low": 39.27,
+        "high": 40.59,
         "sparse": false
       },
       {
         "t": 18664,
         "date": "2021-02-06",
         "value": 40.06,
-        "low": 39.38,
-        "high": 40.79,
+        "low": 39.3,
+        "high": 40.64,
         "sparse": false
       },
       {
         "t": 18665,
         "date": "2021-02-07",
         "value": 40.11,
-        "low": 39.41,
-        "high": 40.87,
+        "low": 39.34,
+        "high": 40.71,
         "sparse": false
       },
       {
         "t": 18666,
         "date": "2021-02-08",
         "value": 40.16,
-        "low": 39.44,
-        "high": 40.93,
+        "low": 39.4,
+        "high": 40.78,
         "sparse": false
       },
       {
         "t": 18667,
         "date": "2021-02-09",
         "value": 40.21,
-        "low": 39.46,
-        "high": 41.0,
+        "low": 39.44,
+        "high": 40.85,
         "sparse": false
       },
       {
         "t": 18668,
         "date": "2021-02-10",
         "value": 40.26,
-        "low": 39.5,
-        "high": 41.08,
+        "low": 39.45,
+        "high": 40.94,
         "sparse": false
       },
       {
         "t": 18669,
         "date": "2021-02-11",
         "value": 40.31,
-        "low": 39.52,
-        "high": 41.13,
+        "low": 39.53,
+        "high": 41.0,
         "sparse": false
       },
       {
         "t": 18670,
         "date": "2021-02-12",
         "value": 40.37,
-        "low": 39.52,
-        "high": 41.19,
+        "low": 39.56,
+        "high": 41.07,
         "sparse": false
       },
       {
         "t": 18671,
         "date": "2021-02-13",
         "value": 40.43,
-        "low": 39.57,
-        "high": 41.26,
+        "low": 39.62,
+        "high": 41.13,
         "sparse": false
       },
       {
         "t": 18672,
         "date": "2021-02-14",
         "value": 40.48,
-        "low": 39.62,
-        "high": 41.34,
+        "low": 39.64,
+        "high": 41.19,
         "sparse": false
       },
       {
         "t": 18673,
         "date": "2021-02-15",
         "value": 40.54,
-        "low": 39.68,
-        "high": 41.39,
+        "low": 39.69,
+        "high": 41.24,
         "sparse": false
       },
       {
         "t": 18674,
         "date": "2021-02-16",
         "value": 40.6,
-        "low": 39.73,
-        "high": 41.45,
+        "low": 39.75,
+        "high": 41.33,
         "sparse": false
       },
       {
         "t": 18675,
         "date": "2021-02-17",
         "value": 40.66,
-        "low": 39.77,
-        "high": 41.5,
+        "low": 39.81,
+        "high": 41.37,
         "sparse": false
       },
       {
         "t": 18676,
         "date": "2021-02-18",
         "value": 40.72,
-        "low": 39.82,
-        "high": 41.55,
+        "low": 39.84,
+        "high": 41.41,
         "sparse": false
       },
       {
         "t": 18677,
         "date": "2021-02-19",
         "value": 40.77,
-        "low": 39.87,
-        "high": 41.6,
+        "low": 39.88,
+        "high": 41.46,
         "sparse": false
       },
       {
@@ -3159,7 +3160,7 @@
         "date": "2021-02-20",
         "value": 40.83,
         "low": 39.93,
-        "high": 41.66,
+        "high": 41.51,
         "sparse": false
       },
       {
@@ -3167,23 +3168,23 @@
         "date": "2021-02-21",
         "value": 40.88,
         "low": 39.99,
-        "high": 41.71,
+        "high": 41.57,
         "sparse": false
       },
       {
         "t": 18680,
         "date": "2021-02-22",
         "value": 40.93,
-        "low": 40.06,
-        "high": 41.76,
+        "low": 40.05,
+        "high": 41.62,
         "sparse": false
       },
       {
         "t": 18681,
         "date": "2021-02-23",
         "value": 40.98,
-        "low": 40.12,
-        "high": 41.82,
+        "low": 40.1,
+        "high": 41.68,
         "sparse": false
       },
       {
@@ -3191,7 +3192,7 @@
         "date": "2021-02-24",
         "value": 41.03,
         "low": 40.15,
-        "high": 41.87,
+        "high": 41.72,
         "sparse": false
       },
       {
@@ -3199,87 +3200,87 @@
         "date": "2021-02-25",
         "value": 41.07,
         "low": 40.18,
-        "high": 41.92,
+        "high": 41.77,
         "sparse": false
       },
       {
         "t": 18684,
         "date": "2021-02-26",
         "value": 41.11,
-        "low": 40.21,
-        "high": 41.97,
+        "low": 40.22,
+        "high": 41.83,
         "sparse": false
       },
       {
         "t": 18685,
         "date": "2021-02-27",
         "value": 41.15,
-        "low": 40.25,
-        "high": 42.02,
+        "low": 40.28,
+        "high": 41.87,
         "sparse": false
       },
       {
         "t": 18686,
         "date": "2021-02-28",
         "value": 41.19,
-        "low": 40.31,
-        "high": 42.06,
+        "low": 40.33,
+        "high": 41.9,
         "sparse": false
       },
       {
         "t": 18687,
         "date": "2021-03-01",
         "value": 41.23,
-        "low": 40.33,
-        "high": 42.09,
+        "low": 40.35,
+        "high": 41.92,
         "sparse": false
       },
       {
         "t": 18688,
         "date": "2021-03-02",
         "value": 41.26,
-        "low": 40.37,
-        "high": 42.09,
+        "low": 40.41,
+        "high": 41.96,
         "sparse": false
       },
       {
         "t": 18689,
         "date": "2021-03-03",
         "value": 41.3,
-        "low": 40.42,
-        "high": 42.11,
+        "low": 40.46,
+        "high": 42.0,
         "sparse": false
       },
       {
         "t": 18690,
         "date": "2021-03-04",
         "value": 41.33,
-        "low": 40.46,
-        "high": 42.14,
+        "low": 40.5,
+        "high": 42.03,
         "sparse": false
       },
       {
         "t": 18691,
         "date": "2021-03-05",
         "value": 41.36,
-        "low": 40.5,
-        "high": 42.16,
+        "low": 40.55,
+        "high": 42.06,
         "sparse": false
       },
       {
         "t": 18692,
         "date": "2021-03-06",
         "value": 41.4,
-        "low": 40.54,
-        "high": 42.19,
+        "low": 40.6,
+        "high": 42.09,
         "sparse": false
       },
       {
         "t": 18693,
         "date": "2021-03-07",
         "value": 41.44,
-        "low": 40.6,
-        "high": 42.22,
+        "low": 40.63,
+        "high": 42.12,
         "sparse": false
       },
       {
@@ -3287,94 +3288,94 @@
         "date": "2021-03-08",
         "value": 41.48,
         "low": 40.67,
-        "high": 42.24,
+        "high": 42.17,
         "sparse": false
       },
       {
         "t": 18695,
         "date": "2021-03-09",
         "value": 41.52,
-        "low": 40.73,
-        "high": 42.27,
+        "low": 40.71,
+        "high": 42.2,
         "sparse": false
       },
       {
         "t": 18696,
         "date": "2021-03-10",
         "value": 41.57,
-        "low": 40.8,
-        "high": 42.29,
+        "low": 40.76,
+        "high": 42.22,
         "sparse": false
       },
       {
         "t": 18697,
         "date": "2021-03-11",
         "value": 41.61,
-        "low": 40.88,
-        "high": 42.32,
+        "low": 40.82,
+        "high": 42.26,
         "sparse": false
       },
       {
         "t": 18698,
         "date": "2021-03-12",
         "value": 41.66,
-        "low": 40.94,
-        "high": 42.36,
+        "low": 40.87,
+        "high": 42.29,
         "sparse": false
       },
       {
         "t": 18699,
         "date": "2021-03-13",
         "value": 41.71,
-        "low": 40.99,
-        "high": 42.42,
+        "low": 40.92,
+        "high": 42.32,
         "sparse": false
       },
       {
         "t": 18700,
         "date": "2021-03-14",
         "value": 41.76,
-        "low": 41.04,
-        "high": 42.45,
+        "low": 40.97,
+        "high": 42.35,
         "sparse": false
       },
       {
         "t": 18701,
         "date": "2021-03-15",
         "value": 41.81,
-        "low": 41.1,
-        "high": 42.47,
+        "low": 41.04,
+        "high": 42.41,
         "sparse": false
       },
       {
         "t": 18702,
         "date": "2021-03-16",
         "value": 41.86,
-        "low": 41.19,
-        "high": 42.51,
+        "low": 41.14,
+        "high": 42.45,
         "sparse": false
       },
       {
         "t": 18703,
         "date": "2021-03-17",
         "value": 41.91,
-        "low": 41.29,
-        "high": 42.53,
+        "low": 41.21,
+        "high": 42.49,
         "sparse": false
       },
       {
         "t": 18704,
         "date": "2021-03-18",
         "value": 41.96,
-        "low": 41.38,
-        "high": 42.53,
+        "low": 41.28,
+        "high": 42.51,
         "sparse": false
       },
       {
         "t": 18705,
         "date": "2021-03-19",
         "value": 42.01,
-        "low": 41.43,
+        "low": 41.36,
         "high": 42.56,
         "sparse": false
       },
@@ -3382,16 +3383,16 @@
         "t": 18706,
         "date": "2021-03-20",
         "value": 42.05,
-        "low": 41.5,
-        "high": 42.59,
+        "low": 41.46,
+        "high": 42.58,
         "sparse": false
       },
       {
         "t": 18707,
         "date": "2021-03-21",
         "value": 42.09,
-        "low": 41.56,
-        "high": 42.61,
+        "low": 41.51,
+        "high": 42.62,
         "sparse": false
       },
       {
@@ -3399,7 +3400,7 @@
         "date": "2021-03-22",
         "value": 42.12,
         "low": 41.6,
-        "high": 42.62,
+        "high": 42.63,
         "sparse": false
       },
       {
@@ -3407,23 +3408,23 @@
         "date": "2021-03-23",
         "value": 42.15,
         "low": 41.65,
-        "high": 42.62,
+        "high": 42.66,
         "sparse": false
       },
       {
         "t": 18710,
         "date": "2021-03-24",
         "value": 42.17,
-        "low": 41.66,
-        "high": 42.63,
+        "low": 41.68,
+        "high": 42.68,
         "sparse": false
       },
       {
         "t": 18711,
         "date": "2021-03-25",
         "value": 42.18,
-        "low": 41.68,
-        "high": 42.64,
+        "low": 41.69,
+        "high": 42.67,
         "sparse": false
       },
       {
@@ -3431,15 +3432,15 @@
         "date": "2021-03-26",
         "value": 42.18,
         "low": 41.68,
-        "high": 42.66,
+        "high": 42.65,
         "sparse": false
       },
       {
         "t": 18713,
         "date": "2021-03-27",
         "value": 42.18,
-        "low": 41.67,
-        "high": 42.68,
+        "low": 41.68,
+        "high": 42.63,
         "sparse": false
       },
       {
@@ -3447,30 +3448,30 @@
         "date": "2021-03-28",
         "value": 42.17,
         "low": 41.67,
-        "high": 42.66,
+        "high": 42.63,
         "sparse": false
       },
       {
         "t": 18715,
         "date": "2021-03-29",
         "value": 42.15,
-        "low": 41.66,
-        "high": 42.66,
+        "low": 41.64,
+        "high": 42.62,
         "sparse": false
       },
       {
         "t": 18716,
         "date": "2021-03-30",
         "value": 42.13,
-        "low": 41.64,
-        "high": 42.66,
+        "low": 41.59,
+        "high": 42.62,
         "sparse": false
       },
       {
         "t": 18717,
         "date": "2021-03-31",
         "value": 42.1,
-        "low": 41.58,
+        "low": 41.54,
         "high": 42.61,
         "sparse": false
       },
@@ -3478,471 +3479,471 @@
         "t": 18718,
         "date": "2021-04-01",
         "value": 42.06,
-        "low": 41.53,
-        "high": 42.6,
+        "low": 41.51,
+        "high": 42.57,
         "sparse": false
       },
       {
         "t": 18719,
         "date": "2021-04-02",
         "value": 42.03,
-        "low": 41.5,
-        "high": 42.6,
+        "low": 41.48,
+        "high": 42.54,
         "sparse": false
       },
       {
         "t": 18720,
         "date": "2021-04-03",
         "value": 42.0,
-        "low": 41.46,
-        "high": 42.6,
+        "low": 41.43,
+        "high": 42.53,
         "sparse": false
       },
       {
         "t": 18721,
         "date": "2021-04-04",
         "value": 41.97,
-        "low": 41.4,
-        "high": 42.58,
+        "low": 41.37,
+        "high": 42.52,
         "sparse": false
       },
       {
         "t": 18722,
         "date": "2021-04-05",
         "value": 41.94,
-        "low": 41.35,
-        "high": 42.54,
+        "low": 41.32,
+        "high": 42.51,
         "sparse": false
       },
       {
         "t": 18723,
         "date": "2021-04-06",
         "value": 41.91,
-        "low": 41.3,
-        "high": 42.52,
+        "low": 41.26,
+        "high": 42.5,
         "sparse": false
       },
       {
         "t": 18724,
         "date": "2021-04-07",
         "value": 41.89,
-        "low": 41.26,
-        "high": 42.52,
+        "low": 41.2,
+        "high": 42.5,
         "sparse": false
       },
       {
         "t": 18725,
         "date": "2021-04-08",
         "value": 41.87,
-        "low": 41.22,
-        "high": 42.53,
+        "low": 41.14,
+        "high": 42.48,
         "sparse": false
       },
       {
         "t": 18726,
         "date": "2021-04-09",
         "value": 41.85,
-        "low": 41.19,
-        "high": 42.52,
+        "low": 41.09,
+        "high": 42.48,
         "sparse": false
       },
       {
         "t": 18727,
         "date": "2021-04-10",
         "value": 41.84,
-        "low": 41.16,
-        "high": 42.53,
+        "low": 41.05,
+        "high": 42.48,
         "sparse": false
       },
       {
         "t": 18728,
         "date": "2021-04-11",
         "value": 41.83,
-        "low": 41.14,
-        "high": 42.53,
+        "low": 41.03,
+        "high": 42.49,
         "sparse": false
       },
       {
         "t": 18729,
         "date": "2021-04-12",
         "value": 41.82,
-        "low": 41.13,
-        "high": 42.53,
+        "low": 41.02,
+        "high": 42.48,
         "sparse": false
       },
       {
         "t": 18730,
         "date": "2021-04-13",
         "value": 41.82,
-        "low": 41.13,
-        "high": 42.55,
+        "low": 41.02,
+        "high": 42.49,
         "sparse": false
       },
       {
         "t": 18731,
         "date": "2021-04-14",
         "value": 41.83,
-        "low": 41.11,
-        "high": 42.58,
+        "low": 41.0,
+        "high": 42.5,
         "sparse": false
       },
       {
         "t": 18732,
         "date": "2021-04-15",
         "value": 41.83,
-        "low": 41.1,
-        "high": 42.62,
+        "low": 40.99,
+        "high": 42.53,
         "sparse": false
       },
       {
         "t": 18733,
         "date": "2021-04-16",
         "value": 41.84,
-        "low": 41.09,
-        "high": 42.67,
+        "low": 40.98,
+        "high": 42.54,
         "sparse": false
       },
       {
         "t": 18734,
         "date": "2021-04-17",
         "value": 41.86,
-        "low": 41.08,
-        "high": 42.71,
+        "low": 41.0,
+        "high": 42.56,
         "sparse": false
       },
       {
         "t": 18735,
         "date": "2021-04-18",
         "value": 41.87,
-        "low": 41.08,
-        "high": 42.73,
+        "low": 41.01,
+        "high": 42.61,
         "sparse": false
       },
       {
         "t": 18736,
         "date": "2021-04-19",
         "value": 41.88,
-        "low": 41.08,
-        "high": 42.75,
+        "low": 41.05,
+        "high": 42.63,
         "sparse": false
       },
       {
         "t": 18737,
         "date": "2021-04-20",
         "value": 41.9,
-        "low": 41.09,
-        "high": 42.78,
+        "low": 41.07,
+        "high": 42.66,
         "sparse": false
       },
       {
         "t": 18738,
         "date": "2021-04-21",
         "value": 41.92,
-        "low": 41.1,
-        "high": 42.8,
+        "low": 41.08,
+        "high": 42.7,
         "sparse": false
       },
       {
         "t": 18739,
         "date": "2021-04-22",
         "value": 41.94,
-        "low": 41.12,
-        "high": 42.81,
+        "low": 41.07,
+        "high": 42.73,
         "sparse": false
       },
       {
         "t": 18740,
         "date": "2021-04-23",
         "value": 41.95,
-        "low": 41.13,
-        "high": 42.84,
+        "low": 41.08,
+        "high": 42.76,
         "sparse": false
       },
       {
         "t": 18741,
         "date": "2021-04-24",
         "value": 41.97,
-        "low": 41.14,
-        "high": 42.86,
+        "low": 41.08,
+        "high": 42.78,
         "sparse": false
       },
       {
         "t": 18742,
         "date": "2021-04-25",
         "value": 41.99,
-        "low": 41.16,
-        "high": 42.88,
+        "low": 41.08,
+        "high": 42.79,
         "sparse": false
       },
       {
         "t": 18743,
         "date": "2021-04-26",
         "value": 42.01,
-        "low": 41.18,
-        "high": 42.89,
+        "low": 41.1,
+        "high": 42.81,
         "sparse": false
       },
       {
         "t": 18744,
         "date": "2021-04-27",
         "value": 42.03,
-        "low": 41.19,
-        "high": 42.9,
+        "low": 41.11,
+        "high": 42.82,
         "sparse": false
       },
       {
         "t": 18745,
         "date": "2021-04-28",
         "value": 42.05,
-        "low": 41.19,
-        "high": 42.92,
+        "low": 41.11,
+        "high": 42.82,
         "sparse": false
       },
       {
         "t": 18746,
         "date": "2021-04-29",
         "value": 42.07,
-        "low": 41.21,
-        "high": 42.94,
+        "low": 41.12,
+        "high": 42.84,
         "sparse": false
       },
       {
         "t": 18747,
         "date": "2021-04-30",
         "value": 42.09,
-        "low": 41.24,
-        "high": 42.96,
+        "low": 41.13,
+        "high": 42.86,
         "sparse": false
       },
       {
         "t": 18748,
         "date": "2021-05-01",
         "value": 42.11,
-        "low": 41.27,
-        "high": 42.98,
+        "low": 41.14,
+        "high": 42.87,
         "sparse": false
       },
       {
         "t": 18749,
         "date": "2021-05-02",
         "value": 42.13,
-        "low": 41.31,
-        "high": 42.99,
+        "low": 41.16,
+        "high": 42.88,
         "sparse": false
       },
       {
         "t": 18750,
         "date": "2021-05-03",
         "value": 42.16,
-        "low": 41.34,
-        "high": 42.99,
+        "low": 41.18,
+        "high": 42.89,
         "sparse": false
       },
       {
         "t": 18751,
         "date": "2021-05-04",
         "value": 42.18,
-        "low": 41.38,
-        "high": 42.99,
+        "low": 41.21,
+        "high": 42.9,
         "sparse": false
       },
       {
         "t": 18752,
         "date": "2021-05-05",
         "value": 42.2,
-        "low": 41.42,
-        "high": 43.01,
+        "low": 41.27,
+        "high": 42.9,
         "sparse": false
       },
       {
         "t": 18753,
         "date": "2021-05-06",
         "value": 42.23,
-        "low": 41.46,
-        "high": 43.03,
+        "low": 41.34,
+        "high": 42.9,
         "sparse": false
       },
       {
         "t": 18754,
         "date": "2021-05-07",
         "value": 42.26,
-        "low": 41.49,
-        "high": 43.05,
+        "low": 41.42,
+        "high": 42.94,
         "sparse": false
       },
       {
         "t": 18755,
         "date": "2021-05-08",
         "value": 42.3,
-        "low": 41.53,
-        "high": 43.07,
+        "low": 41.48,
+        "high": 42.97,
         "sparse": false
       },
       {
         "t": 18756,
         "date": "2021-05-09",
         "value": 42.33,
-        "low": 41.56,
-        "high": 43.1,
+        "low": 41.54,
+        "high": 43.01,
         "sparse": false
       },
       {
         "t": 18757,
         "date": "2021-05-10",
         "value": 42.37,
-        "low": 41.61,
-        "high": 43.14,
+        "low": 41.57,
+        "high": 43.05,
         "sparse": false
       },
       {
         "t": 18758,
         "date": "2021-05-11",
         "value": 42.41,
-        "low": 41.69,
-        "high": 43.15,
+        "low": 41.61,
+        "high": 43.08,
         "sparse": false
       },
       {
         "t": 18759,
         "date": "2021-05-12",
         "value": 42.46,
-        "low": 41.76,
-        "high": 43.17,
+        "low": 41.7,
+        "high": 43.11,
         "sparse": false
       },
       {
         "t": 18760,
         "date": "2021-05-13",
         "value": 42.5,
-        "low": 41.81,
-        "high": 43.21,
+        "low": 41.79,
+        "high": 43.14,
         "sparse": false
       },
       {
         "t": 18761,
         "date": "2021-05-14",
         "value": 42.55,
-        "low": 41.87,
-        "high": 43.24,
+        "low": 41.85,
+        "high": 43.17,
         "sparse": false
       },
       {
         "t": 18762,
         "date": "2021-05-15",
         "value": 42.6,
-        "low": 41.93,
-        "high": 43.27,
+        "low": 41.89,
+        "high": 43.21,
         "sparse": false
       },
       {
         "t": 18763,
         "date": "2021-05-16",
         "value": 42.65,
-        "low": 41.99,
-        "high": 43.3,
+        "low": 41.97,
+        "high": 43.26,
         "sparse": false
       },
       {
         "t": 18764,
         "date": "2021-05-17",
         "value": 42.71,
-        "low": 42.08,
-        "high": 43.33,
+        "low": 42.07,
+        "high": 43.29,
         "sparse": false
       },
       {
         "t": 18765,
         "date": "2021-05-18",
         "value": 42.76,
-        "low": 42.19,
-        "high": 43.35,
+        "low": 42.16,
+        "high": 43.32,
         "sparse": false
       },
       {
         "t": 18766,
         "date": "2021-05-19",
         "value": 42.81,
-        "low": 42.27,
-        "high": 43.39,
+        "low": 42.25,
+        "high": 43.34,
         "sparse": false
       },
       {
         "t": 18767,
         "date": "2021-05-20",
         "value": 42.86,
-        "low": 42.33,
-        "high": 43.41,
+        "low": 42.3,
+        "high": 43.36,
         "sparse": false
       },
       {
         "t": 18768,
         "date": "2021-05-21",
         "value": 42.91,
-        "low": 42.43,
-        "high": 43.43,
+        "low": 42.35,
+        "high": 43.41,
         "sparse": false
       },
       {
         "t": 18769,
         "date": "2021-05-22",
         "value": 42.96,
-        "low": 42.48,
-        "high": 43.45,
+        "low": 42.41,
+        "high": 43.46,
         "sparse": false
       },
       {
         "t": 18770,
         "date": "2021-05-23",
         "value": 43.01,
-        "low": 42.53,
-        "high": 43.48,
+        "low": 42.46,
+        "high": 43.51,
         "sparse": false
       },
       {
         "t": 18771,
         "date": "2021-05-24",
         "value": 43.05,
-        "low": 42.56,
-        "high": 43.53,
+        "low": 42.51,
+        "high": 43.52,
         "sparse": false
       },
       {
         "t": 18772,
         "date": "2021-05-25",
         "value": 43.08,
-        "low": 42.6,
-        "high": 43.56,
+        "low": 42.56,
+        "high": 43.55,
         "sparse": false
       },
       {
         "t": 18773,
         "date": "2021-05-26",
         "value": 43.11,
-        "low": 42.62,
-        "high": 43.59,
+        "low": 42.6,
+        "high": 43.57,
         "sparse": false
       },
       {
         "t": 18774,
         "date": "2021-05-27",
         "value": 43.14,
-        "low": 42.65,
-        "high": 43.61,
+        "low": 42.66,
+        "high": 43.59,
         "sparse": false
       },
       {
         "t": 18775,
         "date": "2021-05-28",
         "value": 43.16,
-        "low": 42.66,
-        "high": 43.62,
+        "low": 42.69,
+        "high": 43.65,
         "sparse": false
       },
       {
         "t": 18776,
         "date": "2021-05-29",
         "value": 43.17,
-        "low": 42.69,
+        "low": 42.7,
         "high": 43.63,
         "sparse": false
       },
@@ -3950,15 +3951,15 @@
         "t": 18777,
         "date": "2021-05-30",
         "value": 43.18,
-        "low": 42.7,
-        "high": 43.63,
+        "low": 42.71,
+        "high": 43.61,
         "sparse": false
       },
       {
         "t": 18778,
         "date": "2021-05-31",
         "value": 43.18,
-        "low": 42.68,
+        "low": 42.69,
         "high": 43.63,
         "sparse": false
       },
@@ -3966,8 +3967,8 @@
         "t": 18779,
         "date": "2021-06-01",
         "value": 43.17,
-        "low": 42.69,
-        "high": 43.62,
+        "low": 42.7,
+        "high": 43.63,
         "sparse": false
       },
       {
@@ -5230,7 +5231,7 @@
         "t": 18937,
         "date": "2021-11-06",
         "value": 37.79,
-        "low": 37.12,
+        "low": 37.11,
         "high": 38.4,
         "sparse": false
       },
@@ -5246,8 +5247,8 @@
         "t": 18939,
         "date": "2021-11-08",
         "value": 37.62,
-        "low": 36.97,
-        "high": 38.24,
+        "low": 36.96,
+        "high": 38.25,
         "sparse": false
       },
       {
@@ -5262,7 +5263,7 @@
         "t": 18941,
         "date": "2021-11-10",
         "value": 37.43,
-        "low": 36.78,
+        "low": 36.79,
         "high": 38.02,
         "sparse": false
       },
@@ -5270,7 +5271,7 @@
         "t": 18942,
         "date": "2021-11-11",
         "value": 37.33,
-        "low": 36.66,
+        "low": 36.67,
         "high": 37.93,
         "sparse": false
       },
@@ -5278,7 +5279,7 @@
         "t": 18943,
         "date": "2021-11-12",
         "value": 37.23,
-        "low": 36.54,
+        "low": 36.56,
         "high": 37.85,
         "sparse": false
       },
@@ -5286,23 +5287,23 @@
         "t": 18944,
         "date": "2021-11-13",
         "value": 37.13,
-        "low": 36.43,
-        "high": 37.74,
+        "low": 36.45,
+        "high": 37.75,
         "sparse": false
       },
       {
         "t": 18945,
         "date": "2021-11-14",
         "value": 37.02,
-        "low": 36.3,
-        "high": 37.64,
+        "low": 36.31,
+        "high": 37.67,
         "sparse": false
       },
       {
         "t": 18946,
         "date": "2021-11-15",
         "value": 36.92,
-        "low": 36.17,
+        "low": 36.18,
         "high": 37.55,
         "sparse": false
       },
@@ -5310,8 +5311,8 @@
         "t": 18947,
         "date": "2021-11-16",
         "value": 36.81,
-        "low": 36.06,
-        "high": 37.46,
+        "low": 36.08,
+        "high": 37.47,
         "sparse": false
       },
       {
@@ -5319,39 +5320,39 @@
         "date": "2021-11-17",
         "value": 36.71,
         "low": 35.99,
-        "high": 37.36,
+        "high": 37.4,
         "sparse": false
       },
       {
         "t": 18949,
         "date": "2021-11-18",
         "value": 36.61,
-        "low": 35.91,
-        "high": 37.26,
+        "low": 35.88,
+        "high": 37.32,
         "sparse": false
       },
       {
         "t": 18950,
         "date": "2021-11-19",
         "value": 36.52,
-        "low": 35.8,
-        "high": 37.18,
+        "low": 35.79,
+        "high": 37.25,
         "sparse": false
       },
       {
         "t": 18951,
         "date": "2021-11-20",
         "value": 36.42,
-        "low": 35.68,
-        "high": 37.13,
+        "low": 35.69,
+        "high": 37.16,
         "sparse": false
       },
       {
         "t": 18952,
         "date": "2021-11-21",
         "value": 36.34,
-        "low": 35.58,
-        "high": 37.08,
+        "low": 35.59,
+        "high": 37.09,
         "sparse": false
       },
       {
@@ -5359,7 +5360,7 @@
         "date": "2021-11-22",
         "value": 36.25,
         "low": 35.5,
-        "high": 37.01,
+        "high": 37.02,
         "sparse": false
       },
       {
@@ -5367,7 +5368,7 @@
         "date": "2021-11-23",
         "value": 36.17,
         "low": 35.4,
-        "high": 36.93,
+        "high": 36.95,
         "sparse": false
       },
       {
@@ -5375,7 +5376,7 @@
         "date": "2021-11-24",
         "value": 36.09,
         "low": 35.31,
-        "high": 36.86,
+        "high": 36.9,
         "sparse": false
       },
       {
@@ -5383,7 +5384,7 @@
         "date": "2021-11-25",
         "value": 36.02,
         "low": 35.23,
-        "high": 36.79,
+        "high": 36.83,
         "sparse": false
       },
       {
@@ -5391,7 +5392,7 @@
         "date": "2021-11-26",
         "value": 35.95,
         "low": 35.14,
-        "high": 36.74,
+        "high": 36.77,
         "sparse": false
       },
       {
@@ -5399,47 +5400,47 @@
         "date": "2021-11-27",
         "value": 35.88,
         "low": 35.07,
-        "high": 36.66,
+        "high": 36.73,
         "sparse": false
       },
       {
         "t": 18959,
         "date": "2021-11-28",
         "value": 35.81,
-        "low": 35.0,
-        "high": 36.61,
+        "low": 34.97,
+        "high": 36.67,
         "sparse": false
       },
       {
         "t": 18960,
         "date": "2021-11-29",
         "value": 35.75,
-        "low": 34.94,
-        "high": 36.57,
+        "low": 34.87,
+        "high": 36.62,
         "sparse": false
       },
       {
         "t": 18961,
         "date": "2021-11-30",
         "value": 35.68,
-        "low": 34.87,
-        "high": 36.52,
+        "low": 34.8,
+        "high": 36.59,
         "sparse": false
       },
       {
         "t": 18962,
         "date": "2021-12-01",
         "value": 35.62,
-        "low": 34.78,
-        "high": 36.48,
+        "low": 34.74,
+        "high": 36.55,
         "sparse": false
       },
       {
         "t": 18963,
         "date": "2021-12-02",
         "value": 35.56,
-        "low": 34.71,
-        "high": 36.43,
+        "low": 34.68,
+        "high": 36.51,
         "sparse": false
       },
       {
@@ -5447,23 +5448,23 @@
         "date": "2021-12-03",
         "value": 35.51,
         "low": 34.64,
-        "high": 36.35,
+        "high": 36.46,
         "sparse": false
       },
       {
         "t": 18965,
         "date": "2021-12-04",
         "value": 35.45,
-        "low": 34.57,
-        "high": 36.32,
+        "low": 34.58,
+        "high": 36.41,
         "sparse": false
       },
       {
         "t": 18966,
         "date": "2021-12-05",
         "value": 35.39,
-        "low": 34.5,
-        "high": 36.28,
+        "low": 34.51,
+        "high": 36.37,
         "sparse": false
       },
       {
@@ -5471,30 +5472,30 @@
         "date": "2021-12-06",
         "value": 35.34,
         "low": 34.44,
-        "high": 36.22,
+        "high": 36.33,
         "sparse": false
       },
       {
         "t": 18968,
         "date": "2021-12-07",
         "value": 35.28,
-        "low": 34.37,
-        "high": 36.18,
+        "low": 34.38,
+        "high": 36.26,
         "sparse": false
       },
       {
         "t": 18969,
         "date": "2021-12-08",
         "value": 35.21,
-        "low": 34.3,
-        "high": 36.14,
+        "low": 34.31,
+        "high": 36.17,
         "sparse": false
       },
       {
         "t": 18970,
         "date": "2021-12-09",
         "value": 35.14,
-        "low": 34.22,
+        "low": 34.25,
         "high": 36.08,
         "sparse": false
       },
@@ -5502,15 +5503,15 @@
         "t": 18971,
         "date": "2021-12-10",
         "value": 35.07,
-        "low": 34.14,
-        "high": 35.96,
+        "low": 34.19,
+        "high": 36.0,
         "sparse": false
       },
       {
         "t": 18972,
         "date": "2021-12-11",
         "value": 34.99,
-        "low": 34.07,
+        "low": 34.13,
         "high": 35.9,
         "sparse": false
       },
@@ -5518,48 +5519,48 @@
         "t": 18973,
         "date": "2021-12-12",
         "value": 34.91,
-        "low": 33.97,
-        "high": 35.81,
+        "low": 34.06,
+        "high": 35.8,
         "sparse": false
       },
       {
         "t": 18974,
         "date": "2021-12-13",
         "value": 34.82,
-        "low": 33.89,
-        "high": 35.7,
+        "low": 34.0,
+        "high": 35.69,
         "sparse": false
       },
       {
         "t": 18975,
         "date": "2021-12-14",
         "value": 34.73,
-        "low": 33.83,
-        "high": 35.57,
+        "low": 33.86,
+        "high": 35.58,
         "sparse": false
       },
       {
         "t": 18976,
         "date": "2021-12-15",
         "value": 34.64,
-        "low": 33.76,
-        "high": 35.45,
+        "low": 33.77,
+        "high": 35.46,
         "sparse": false
       },
       {
         "t": 18977,
         "date": "2021-12-16",
         "value": 34.55,
-        "low": 33.68,
-        "high": 35.37,
+        "low": 33.72,
+        "high": 35.34,
         "sparse": false
       },
       {
         "t": 18978,
         "date": "2021-12-17",
         "value": 34.45,
-        "low": 33.61,
-        "high": 35.28,
+        "low": 33.65,
+        "high": 35.22,
         "sparse": false
       },
       {
@@ -5567,38 +5568,38 @@
         "date": "2021-12-18",
         "value": 34.36,
         "low": 33.53,
-        "high": 35.14,
+        "high": 35.15,
         "sparse": false
       },
       {
         "t": 18980,
         "date": "2021-12-19",
         "value": 34.27,
-        "low": 33.44,
-        "high": 35.05,
+        "low": 33.42,
+        "high": 35.1,
         "sparse": false
       },
       {
         "t": 18981,
         "date": "2021-12-20",
         "value": 34.17,
-        "low": 33.37,
-        "high": 34.99,
+        "low": 33.35,
+        "high": 35.0,
         "sparse": false
       },
       {
         "t": 18982,
         "date": "2021-12-21",
         "value": 34.08,
-        "low": 33.29,
-        "high": 34.9,
+        "low": 33.28,
+        "high": 34.93,
         "sparse": false
       },
       {
         "t": 18983,
         "date": "2021-12-22",
         "value": 33.99,
-        "low": 33.22,
+        "low": 33.17,
         "high": 34.81,
         "sparse": false
       },
@@ -5606,15 +5607,15 @@
         "t": 18984,
         "date": "2021-12-23",
         "value": 33.9,
-        "low": 33.13,
-        "high": 34.71,
+        "low": 33.06,
+        "high": 34.7,
         "sparse": false
       },
       {
         "t": 18985,
         "date": "2021-12-24",
         "value": 33.82,
-        "low": 33.05,
+        "low": 33.0,
         "high": 34.6,
         "sparse": false
       },
@@ -5622,127 +5623,127 @@
         "t": 18986,
         "date": "2021-12-25",
         "value": 33.74,
-        "low": 32.98,
-        "high": 34.49,
+        "low": 32.93,
+        "high": 34.52,
         "sparse": false
       },
       {
         "t": 18987,
         "date": "2021-12-26",
         "value": 33.66,
-        "low": 32.9,
-        "high": 34.38,
+        "low": 32.87,
+        "high": 34.46,
         "sparse": false
       },
       {
         "t": 18988,
         "date": "2021-12-27",
         "value": 33.58,
-        "low": 32.82,
-        "high": 34.32,
+        "low": 32.78,
+        "high": 34.4,
         "sparse": false
       },
       {
         "t": 18989,
         "date": "2021-12-28",
         "value": 33.5,
-        "low": 32.73,
-        "high": 34.25,
+        "low": 32.69,
+        "high": 34.34,
         "sparse": false
       },
       {
         "t": 18990,
         "date": "2021-12-29",
         "value": 33.43,
-        "low": 32.68,
-        "high": 34.15,
+        "low": 32.62,
+        "high": 34.25,
         "sparse": false
       },
       {
         "t": 18991,
         "date": "2021-12-30",
         "value": 33.36,
-        "low": 32.61,
-        "high": 34.09,
+        "low": 32.59,
+        "high": 34.18,
         "sparse": false
       },
       {
         "t": 18992,
         "date": "2021-12-31",
         "value": 33.29,
-        "low": 32.54,
-        "high": 34.05,
+        "low": 32.56,
+        "high": 34.1,
         "sparse": false
       },
       {
         "t": 18993,
         "date": "2022-01-01",
         "value": 33.23,
-        "low": 32.48,
-        "high": 34.0,
+        "low": 32.49,
+        "high": 34.01,
         "sparse": false
       },
       {
         "t": 18994,
         "date": "2022-01-02",
         "value": 33.17,
-        "low": 32.39,
-        "high": 33.95,
+        "low": 32.41,
+        "high": 33.96,
         "sparse": false
       },
       {
         "t": 18995,
         "date": "2022-01-03",
         "value": 33.11,
-        "low": 32.33,
-        "high": 33.9,
+        "low": 32.37,
+        "high": 33.91,
         "sparse": false
       },
       {
         "t": 18996,
         "date": "2022-01-04",
         "value": 33.06,
-        "low": 32.28,
-        "high": 33.85,
+        "low": 32.31,
+        "high": 33.86,
         "sparse": false
       },
       {
         "t": 18997,
         "date": "2022-01-05",
         "value": 33.01,
-        "low": 32.23,
-        "high": 33.77,
+        "low": 32.24,
+        "high": 33.81,
         "sparse": false
       },
       {
         "t": 18998,
         "date": "2022-01-06",
         "value": 32.97,
-        "low": 32.17,
-        "high": 33.71,
+        "low": 32.21,
+        "high": 33.76,
         "sparse": false
       },
       {
         "t": 18999,
         "date": "2022-01-07",
         "value": 32.94,
-        "low": 32.11,
-        "high": 33.68,
+        "low": 32.2,
+        "high": 33.73,
         "sparse": false
       },
       {
         "t": 19000,
         "date": "2022-01-08",
         "value": 32.91,
-        "low": 32.09,
-        "high": 33.66,
+        "low": 32.16,
+        "high": 33.67,
         "sparse": false
       },
       {
         "t": 19001,
         "date": "2022-01-09",
         "value": 32.89,
-        "low": 32.11,
+        "low": 32.15,
         "high": 33.63,
         "sparse": false
       },
@@ -5750,16 +5751,16 @@
         "t": 19002,
         "date": "2022-01-10",
         "value": 32.87,
-        "low": 32.13,
-        "high": 33.64,
+        "low": 32.12,
+        "high": 33.63,
         "sparse": false
       },
       {
         "t": 19003,
         "date": "2022-01-11",
         "value": 32.86,
-        "low": 32.14,
-        "high": 33.67,
+        "low": 32.11,
+        "high": 33.63,
         "sparse": false
       },
       {
@@ -5767,23 +5768,23 @@
         "date": "2022-01-12",
         "value": 32.86,
         "low": 32.12,
-        "high": 33.58,
+        "high": 33.59,
         "sparse": false
       },
       {
         "t": 19005,
         "date": "2022-01-13",
         "value": 32.86,
-        "low": 32.1,
-        "high": 33.56,
+        "low": 32.11,
+        "high": 33.57,
         "sparse": false
       },
       {
         "t": 19006,
         "date": "2022-01-14",
         "value": 32.86,
-        "low": 32.08,
-        "high": 33.55,
+        "low": 32.09,
+        "high": 33.56,
         "sparse": false
       },
       {
@@ -5798,7 +5799,7 @@
         "t": 19008,
         "date": "2022-01-16",
         "value": 32.88,
-        "low": 32.06,
+        "low": 32.05,
         "high": 33.57,
         "sparse": false
       },
@@ -5806,7 +5807,7 @@
         "t": 19009,
         "date": "2022-01-17",
         "value": 32.89,
-        "low": 32.06,
+        "low": 32.05,
         "high": 33.61,
         "sparse": false
       },
@@ -5830,8 +5831,8 @@
         "t": 19012,
         "date": "2022-01-20",
         "value": 32.95,
-        "low": 32.09,
-        "high": 33.75,
+        "low": 32.1,
+        "high": 33.74,
         "sparse": false
       },
       {
@@ -13744,7 +13745,7 @@
         "t": 18379,
         "date": "2020-04-27",
         "value": 33.4,
-        "low": 32.34,
+        "low": 32.35,
         "high": 34.82,
         "sparse": false
       },
@@ -13761,39 +13762,39 @@
         "date": "2020-04-29",
         "value": 33.67,
         "low": 32.69,
-        "high": 34.92,
+        "high": 34.93,
         "sparse": false
       },
       {
         "t": 18382,
         "date": "2020-04-30",
         "value": 33.81,
-        "low": 32.82,
-        "high": 35.08,
+        "low": 32.84,
+        "high": 35.1,
         "sparse": false
       },
       {
         "t": 18383,
         "date": "2020-05-01",
         "value": 33.96,
-        "low": 32.96,
-        "high": 35.24,
+        "low": 32.95,
+        "high": 35.22,
         "sparse": false
       },
       {
         "t": 18384,
         "date": "2020-05-02",
         "value": 34.12,
-        "low": 33.09,
-        "high": 35.27,
+        "low": 33.11,
+        "high": 35.25,
         "sparse": false
       },
       {
         "t": 18385,
         "date": "2020-05-03",
         "value": 34.28,
-        "low": 33.25,
-        "high": 35.49,
+        "low": 33.3,
+        "high": 35.42,
         "sparse": false
       },
       {
@@ -13801,70 +13802,70 @@
         "date": "2020-05-04",
         "value": 34.43,
         "low": 33.47,
-        "high": 35.64,
+        "high": 35.59,
         "sparse": false
       },
       {
         "t": 18387,
         "date": "2020-05-05",
         "value": 34.59,
-        "low": 33.59,
-        "high": 35.82,
+        "low": 33.66,
+        "high": 35.85,
         "sparse": false
       },
       {
         "t": 18388,
         "date": "2020-05-06",
         "value": 34.75,
-        "low": 33.69,
-        "high": 36.09,
+        "low": 33.79,
+        "high": 36.0,
         "sparse": false
       },
       {
         "t": 18389,
         "date": "2020-05-07",
         "value": 34.9,
-        "low": 33.84,
-        "high": 36.32,
+        "low": 33.95,
+        "high": 36.14,
         "sparse": false
       },
       {
         "t": 18390,
         "date": "2020-05-08",
         "value": 35.06,
-        "low": 33.99,
-        "high": 36.44,
+        "low": 34.07,
+        "high": 36.31,
         "sparse": false
       },
       {
         "t": 18391,
         "date": "2020-05-09",
         "value": 35.2,
-        "low": 34.13,
-        "high": 36.53,
+        "low": 34.22,
+        "high": 36.49,
         "sparse": false
       },
       {
         "t": 18392,
         "date": "2020-05-10",
         "value": 35.35,
-        "low": 34.26,
-        "high": 36.73,
+        "low": 34.34,
+        "high": 36.65,
         "sparse": false
       },
       {
         "t": 18393,
         "date": "2020-05-11",
         "value": 35.48,
-        "low": 34.39,
-        "high": 36.86,
+        "low": 34.43,
+        "high": 36.8,
         "sparse": false
       },
       {
         "t": 18394,
         "date": "2020-05-12",
         "value": 35.62,
-        "low": 34.5,
+        "low": 34.53,
         "high": 36.93,
         "sparse": false
       },
@@ -13872,296 +13873,296 @@
         "t": 18395,
         "date": "2020-05-13",
         "value": 35.74,
-        "low": 34.59,
-        "high": 37.08,
+        "low": 34.61,
+        "high": 37.04,
         "sparse": false
       },
       {
         "t": 18396,
         "date": "2020-05-14",
         "value": 35.87,
-        "low": 34.69,
-        "high": 37.19,
+        "low": 34.72,
+        "high": 37.18,
         "sparse": false
       },
       {
         "t": 18397,
         "date": "2020-05-15",
         "value": 35.99,
-        "low": 34.77,
-        "high": 37.32,
+        "low": 34.79,
+        "high": 37.27,
         "sparse": false
       },
       {
         "t": 18398,
         "date": "2020-05-16",
         "value": 36.1,
-        "low": 34.88,
-        "high": 37.46,
+        "low": 34.92,
+        "high": 37.41,
         "sparse": false
       },
       {
         "t": 18399,
         "date": "2020-05-17",
         "value": 36.21,
-        "low": 34.94,
-        "high": 37.59,
+        "low": 35.02,
+        "high": 37.53,
         "sparse": false
       },
       {
         "t": 18400,
         "date": "2020-05-18",
         "value": 36.31,
-        "low": 35.02,
-        "high": 37.7,
+        "low": 35.12,
+        "high": 37.61,
         "sparse": false
       },
       {
         "t": 18401,
         "date": "2020-05-19",
         "value": 36.41,
-        "low": 35.12,
-        "high": 37.81,
+        "low": 35.26,
+        "high": 37.7,
         "sparse": false
       },
       {
         "t": 18402,
         "date": "2020-05-20",
         "value": 36.5,
-        "low": 35.24,
-        "high": 37.9,
+        "low": 35.34,
+        "high": 37.79,
         "sparse": false
       },
       {
         "t": 18403,
         "date": "2020-05-21",
         "value": 36.59,
-        "low": 35.34,
-        "high": 37.98,
+        "low": 35.43,
+        "high": 37.88,
         "sparse": false
       },
       {
         "t": 18404,
         "date": "2020-05-22",
         "value": 36.68,
-        "low": 35.41,
-        "high": 38.06,
+        "low": 35.53,
+        "high": 37.96,
         "sparse": false
       },
       {
         "t": 18405,
         "date": "2020-05-23",
         "value": 36.76,
-        "low": 35.48,
-        "high": 38.13,
+        "low": 35.63,
+        "high": 38.02,
         "sparse": false
       },
       {
         "t": 18406,
         "date": "2020-05-24",
         "value": 36.83,
-        "low": 35.55,
-        "high": 38.19,
+        "low": 35.71,
+        "high": 38.11,
         "sparse": false
       },
       {
         "t": 18407,
         "date": "2020-05-25",
         "value": 36.9,
-        "low": 35.62,
-        "high": 38.25,
+        "low": 35.79,
+        "high": 38.18,
         "sparse": false
       },
       {
         "t": 18408,
         "date": "2020-05-26",
         "value": 36.97,
-        "low": 35.69,
-        "high": 38.29,
+        "low": 35.86,
+        "high": 38.24,
         "sparse": false
       },
       {
         "t": 18409,
         "date": "2020-05-27",
         "value": 37.04,
-        "low": 35.77,
-        "high": 38.36,
+        "low": 35.93,
+        "high": 38.3,
         "sparse": false
       },
       {
         "t": 18410,
         "date": "2020-05-28",
         "value": 37.1,
-        "low": 35.84,
-        "high": 38.42,
+        "low": 36.0,
+        "high": 38.37,
         "sparse": false
       },
       {
         "t": 18411,
         "date": "2020-05-29",
         "value": 37.17,
-        "low": 35.94,
-        "high": 38.48,
+        "low": 36.08,
+        "high": 38.4,
         "sparse": false
       },
       {
         "t": 18412,
         "date": "2020-05-30",
         "value": 37.23,
-        "low": 36.04,
-        "high": 38.54,
+        "low": 36.15,
+        "high": 38.46,
         "sparse": false
       },
       {
         "t": 18413,
         "date": "2020-05-31",
         "value": 37.29,
-        "low": 36.11,
-        "high": 38.59,
+        "low": 36.21,
+        "high": 38.51,
         "sparse": false
       },
       {
         "t": 18414,
         "date": "2020-06-01",
         "value": 37.36,
-        "low": 36.18,
-        "high": 38.7,
+        "low": 36.27,
+        "high": 38.55,
         "sparse": false
       },
       {
         "t": 18415,
         "date": "2020-06-02",
         "value": 37.42,
-        "low": 36.24,
-        "high": 38.81,
+        "low": 36.35,
+        "high": 38.59,
         "sparse": false
       },
       {
         "t": 18416,
         "date": "2020-06-03",
         "value": 37.47,
-        "low": 36.3,
-        "high": 38.86,
+        "low": 36.42,
+        "high": 38.63,
         "sparse": false
       },
       {
         "t": 18417,
         "date": "2020-06-04",
         "value": 37.53,
-        "low": 36.37,
-        "high": 38.86,
+        "low": 36.48,
+        "high": 38.68,
         "sparse": false
       },
       {
         "t": 18418,
         "date": "2020-06-05",
         "value": 37.58,
-        "low": 36.45,
-        "high": 38.86,
+        "low": 36.54,
+        "high": 38.71,
         "sparse": false
       },
       {
         "t": 18419,
         "date": "2020-06-06",
         "value": 37.62,
-        "low": 36.52,
-        "high": 38.85,
+        "low": 36.58,
+        "high": 38.71,
         "sparse": false
       },
       {
         "t": 18420,
         "date": "2020-06-07",
         "value": 37.67,
-        "low": 36.59,
-        "high": 38.85,
+        "low": 36.62,
+        "high": 38.76,
         "sparse": false
       },
       {
         "t": 18421,
         "date": "2020-06-08",
         "value": 37.7,
-        "low": 36.64,
-        "high": 38.87,
+        "low": 36.69,
+        "high": 38.78,
         "sparse": false
       },
       {
         "t": 18422,
         "date": "2020-06-09",
         "value": 37.74,
-        "low": 36.71,
-        "high": 38.89,
+        "low": 36.74,
+        "high": 38.79,
         "sparse": false
       },
       {
         "t": 18423,
         "date": "2020-06-10",
         "value": 37.76,
-        "low": 36.76,
-        "high": 38.89,
+        "low": 36.82,
+        "high": 38.81,
         "sparse": false
       },
       {
         "t": 18424,
         "date": "2020-06-11",
         "value": 37.78,
-        "low": 36.8,
-        "high": 38.89,
+        "low": 36.87,
+        "high": 38.83,
         "sparse": false
       },
       {
         "t": 18425,
         "date": "2020-06-12",
         "value": 37.79,
-        "low": 36.83,
-        "high": 38.87,
+        "low": 36.9,
+        "high": 38.86,
         "sparse": false
       },
       {
         "t": 18426,
         "date": "2020-06-13",
         "value": 37.8,
-        "low": 36.85,
-        "high": 38.84,
+        "low": 36.93,
+        "high": 38.87,
         "sparse": false
       },
       {
         "t": 18427,
         "date": "2020-06-14",
         "value": 37.8,
-        "low": 36.86,
-        "high": 38.81,
+        "low": 36.95,
+        "high": 38.84,
         "sparse": false
       },
       {
         "t": 18428,
         "date": "2020-06-15",
         "value": 37.79,
-        "low": 36.87,
-        "high": 38.77,
+        "low": 36.97,
+        "high": 38.76,
         "sparse": false
       },
       {
         "t": 18429,
         "date": "2020-06-16",
         "value": 37.77,
-        "low": 36.88,
-        "high": 38.74,
+        "low": 36.98,
+        "high": 38.69,
         "sparse": false
       },
       {
         "t": 18430,
         "date": "2020-06-17",
         "value": 37.75,
-        "low": 36.9,
-        "high": 38.7,
+        "low": 36.96,
+        "high": 38.68,
         "sparse": false
       },
       {
         "t": 18431,
         "date": "2020-06-18",
         "value": 37.73,
-        "low": 36.92,
-        "high": 38.64,
+        "low": 36.93,
+        "high": 38.66,
         "sparse": false
       },
       {
@@ -14169,7 +14170,7 @@
         "date": "2020-06-19",
         "value": 37.7,
         "low": 36.93,
-        "high": 38.59,
+        "high": 38.58,
         "sparse": false
       },
       {
@@ -14177,15 +14178,15 @@
         "date": "2020-06-20",
         "value": 37.66,
         "low": 36.92,
-        "high": 38.52,
+        "high": 38.54,
         "sparse": false
       },
       {
         "t": 18434,
         "date": "2020-06-21",
         "value": 37.63,
-        "low": 36.91,
-        "high": 38.47,
+        "low": 36.9,
+        "high": 38.48,
         "sparse": false
       },
       {
@@ -14193,63 +14194,63 @@
         "date": "2020-06-22",
         "value": 37.59,
         "low": 36.89,
-        "high": 38.4,
+        "high": 38.44,
         "sparse": false
       },
       {
         "t": 18436,
         "date": "2020-06-23",
         "value": 37.54,
-        "low": 36.86,
-        "high": 38.33,
+        "low": 36.87,
+        "high": 38.35,
         "sparse": false
       },
       {
         "t": 18437,
         "date": "2020-06-24",
         "value": 37.5,
-        "low": 36.83,
-        "high": 38.26,
+        "low": 36.86,
+        "high": 38.27,
         "sparse": false
       },
       {
         "t": 18438,
         "date": "2020-06-25",
         "value": 37.45,
-        "low": 36.82,
-        "high": 38.17,
+        "low": 36.86,
+        "high": 38.23,
         "sparse": false
       },
       {
         "t": 18439,
         "date": "2020-06-26",
         "value": 37.4,
-        "low": 36.81,
-        "high": 38.1,
+        "low": 36.82,
+        "high": 38.2,
         "sparse": false
       },
       {
         "t": 18440,
         "date": "2020-06-27",
         "value": 37.36,
-        "low": 36.8,
-        "high": 38.04,
+        "low": 36.79,
+        "high": 38.1,
         "sparse": false
       },
       {
         "t": 18441,
         "date": "2020-06-28",
         "value": 37.31,
-        "low": 36.79,
-        "high": 37.97,
+        "low": 36.76,
+        "high": 38.04,
         "sparse": false
       },
       {
         "t": 18442,
         "date": "2020-06-29",
         "value": 37.26,
-        "low": 36.78,
-        "high": 37.88,
+        "low": 36.75,
+        "high": 37.97,
         "sparse": false
       },
       {
@@ -14257,255 +14258,255 @@
         "date": "2020-06-30",
         "value": 37.22,
         "low": 36.73,
-        "high": 37.84,
+        "high": 37.88,
         "sparse": false
       },
       {
         "t": 18444,
         "date": "2020-07-01",
         "value": 37.17,
-        "low": 36.72,
-        "high": 37.78,
+        "low": 36.73,
+        "high": 37.8,
         "sparse": false
       },
       {
         "t": 18445,
         "date": "2020-07-02",
         "value": 37.13,
-        "low": 36.67,
-        "high": 37.7,
+        "low": 36.71,
+        "high": 37.71,
         "sparse": false
       },
       {
         "t": 18446,
         "date": "2020-07-03",
         "value": 37.1,
-        "low": 36.61,
-        "high": 37.63,
+        "low": 36.7,
+        "high": 37.64,
         "sparse": false
       },
       {
         "t": 18447,
         "date": "2020-07-04",
         "value": 37.06,
-        "low": 36.58,
-        "high": 37.61,
+        "low": 36.68,
+        "high": 37.59,
         "sparse": false
       },
       {
         "t": 18448,
         "date": "2020-07-05",
         "value": 37.03,
-        "low": 36.53,
-        "high": 37.57,
+        "low": 36.66,
+        "high": 37.53,
         "sparse": false
       },
       {
         "t": 18449,
         "date": "2020-07-06",
         "value": 37.0,
-        "low": 36.48,
-        "high": 37.54,
+        "low": 36.61,
+        "high": 37.48,
         "sparse": false
       },
       {
         "t": 18450,
         "date": "2020-07-07",
         "value": 36.98,
-        "low": 36.46,
-        "high": 37.51,
+        "low": 36.57,
+        "high": 37.45,
         "sparse": false
       },
       {
         "t": 18451,
         "date": "2020-07-08",
         "value": 36.95,
-        "low": 36.44,
-        "high": 37.47,
+        "low": 36.53,
+        "high": 37.41,
         "sparse": false
       },
       {
         "t": 18452,
         "date": "2020-07-09",
         "value": 36.93,
-        "low": 36.42,
-        "high": 37.45,
+        "low": 36.49,
+        "high": 37.39,
         "sparse": false
       },
       {
         "t": 18453,
         "date": "2020-07-10",
         "value": 36.92,
-        "low": 36.41,
-        "high": 37.41,
+        "low": 36.46,
+        "high": 37.38,
         "sparse": false
       },
       {
         "t": 18454,
         "date": "2020-07-11",
         "value": 36.9,
-        "low": 36.38,
-        "high": 37.4,
+        "low": 36.44,
+        "high": 37.37,
         "sparse": false
       },
       {
         "t": 18455,
         "date": "2020-07-12",
         "value": 36.89,
-        "low": 36.35,
-        "high": 37.4,
+        "low": 36.43,
+        "high": 37.36,
         "sparse": false
       },
       {
         "t": 18456,
         "date": "2020-07-13",
         "value": 36.88,
-        "low": 36.35,
-        "high": 37.39,
+        "low": 36.42,
+        "high": 37.34,
         "sparse": false
       },
       {
         "t": 18457,
         "date": "2020-07-14",
         "value": 36.87,
-        "low": 36.35,
-        "high": 37.39,
+        "low": 36.4,
+        "high": 37.35,
         "sparse": false
       },
       {
         "t": 18458,
         "date": "2020-07-15",
         "value": 36.86,
-        "low": 36.32,
-        "high": 37.37,
+        "low": 36.37,
+        "high": 37.34,
         "sparse": false
       },
       {
         "t": 18459,
         "date": "2020-07-16",
         "value": 36.85,
-        "low": 36.31,
-        "high": 37.36,
+        "low": 36.36,
+        "high": 37.33,
         "sparse": false
       },
       {
         "t": 18460,
         "date": "2020-07-17",
         "value": 36.84,
-        "low": 36.28,
-        "high": 37.33,
+        "low": 36.36,
+        "high": 37.32,
         "sparse": false
       },
       {
         "t": 18461,
         "date": "2020-07-18",
         "value": 36.83,
-        "low": 36.26,
-        "high": 37.33,
+        "low": 36.32,
+        "high": 37.32,
         "sparse": false
       },
       {
         "t": 18462,
         "date": "2020-07-19",
         "value": 36.82,
-        "low": 36.25,
-        "high": 37.33,
+        "low": 36.3,
+        "high": 37.31,
         "sparse": false
       },
       {
         "t": 18463,
         "date": "2020-07-20",
         "value": 36.81,
-        "low": 36.25,
-        "high": 37.33,
+        "low": 36.3,
+        "high": 37.3,
         "sparse": false
       },
       {
         "t": 18464,
         "date": "2020-07-21",
         "value": 36.8,
-        "low": 36.24,
-        "high": 37.32,
+        "low": 36.29,
+        "high": 37.29,
         "sparse": false
       },
       {
         "t": 18465,
         "date": "2020-07-22",
         "value": 36.79,
-        "low": 36.24,
-        "high": 37.31,
+        "low": 36.28,
+        "high": 37.28,
         "sparse": false
       },
       {
         "t": 18466,
         "date": "2020-07-23",
         "value": 36.78,
-        "low": 36.24,
-        "high": 37.31,
+        "low": 36.27,
+        "high": 37.27,
         "sparse": false
       },
       {
         "t": 18467,
         "date": "2020-07-24",
         "value": 36.78,
-        "low": 36.24,
-        "high": 37.31,
+        "low": 36.27,
+        "high": 37.27,
         "sparse": false
       },
       {
         "t": 18468,
         "date": "2020-07-25",
         "value": 36.77,
-        "low": 36.22,
-        "high": 37.31,
+        "low": 36.27,
+        "high": 37.26,
         "sparse": false
       },
       {
         "t": 18469,
         "date": "2020-07-26",
         "value": 36.77,
-        "low": 36.21,
-        "high": 37.31,
+        "low": 36.26,
+        "high": 37.26,
         "sparse": false
       },
       {
         "t": 18470,
         "date": "2020-07-27",
         "value": 36.77,
-        "low": 36.2,
-        "high": 37.32,
+        "low": 36.25,
+        "high": 37.27,
         "sparse": false
       },
       {
         "t": 18471,
         "date": "2020-07-28",
         "value": 36.77,
-        "low": 36.21,
-        "high": 37.33,
+        "low": 36.23,
+        "high": 37.28,
         "sparse": false
       },
       {
         "t": 18472,
         "date": "2020-07-29",
         "value": 36.77,
-        "low": 36.19,
-        "high": 37.35,
+        "low": 36.23,
+        "high": 37.29,
         "sparse": false
       },
       {
         "t": 18473,
         "date": "2020-07-30",
         "value": 36.78,
-        "low": 36.21,
-        "high": 37.37,
+        "low": 36.22,
+        "high": 37.32,
         "sparse": false
       },
       {
         "t": 18474,
         "date": "2020-07-31",
         "value": 36.78,
-        "low": 36.21,
-        "high": 37.38,
+        "low": 36.22,
+        "high": 37.34,
         "sparse": false
       },
       {
@@ -14513,31 +14514,31 @@
         "date": "2020-08-01",
         "value": 36.79,
         "low": 36.21,
-        "high": 37.38,
+        "high": 37.36,
         "sparse": false
       },
       {
         "t": 18476,
         "date": "2020-08-02",
         "value": 36.81,
-        "low": 36.21,
-        "high": 37.39,
+        "low": 36.23,
+        "high": 37.4,
         "sparse": false
       },
       {
         "t": 18477,
         "date": "2020-08-03",
         "value": 36.82,
-        "low": 36.21,
-        "high": 37.41,
+        "low": 36.24,
+        "high": 37.42,
         "sparse": false
       },
       {
         "t": 18478,
         "date": "2020-08-04",
         "value": 36.83,
-        "low": 36.22,
-        "high": 37.42,
+        "low": 36.24,
+        "high": 37.43,
         "sparse": false
       },
       {
@@ -14545,7 +14546,7 @@
         "date": "2020-08-05",
         "value": 36.85,
         "low": 36.24,
-        "high": 37.43,
+        "high": 37.45,
         "sparse": false
       },
       {
@@ -14553,31 +14554,31 @@
         "date": "2020-08-06",
         "value": 36.87,
         "low": 36.26,
-        "high": 37.43,
+        "high": 37.47,
         "sparse": false
       },
       {
         "t": 18481,
         "date": "2020-08-07",
         "value": 36.89,
-        "low": 36.29,
-        "high": 37.44,
+        "low": 36.28,
+        "high": 37.48,
         "sparse": false
       },
       {
         "t": 18482,
         "date": "2020-08-08",
         "value": 36.91,
-        "low": 36.32,
-        "high": 37.45,
+        "low": 36.34,
+        "high": 37.49,
         "sparse": false
       },
       {
         "t": 18483,
         "date": "2020-08-09",
         "value": 36.93,
-        "low": 36.33,
-        "high": 37.47,
+        "low": 36.34,
+        "high": 37.51,
         "sparse": false
       },
       {
@@ -14585,15 +14586,15 @@
         "date": "2020-08-10",
         "value": 36.95,
         "low": 36.37,
-        "high": 37.49,
+        "high": 37.52,
         "sparse": false
       },
       {
         "t": 18485,
         "date": "2020-08-11",
         "value": 36.98,
-        "low": 36.41,
-        "high": 37.51,
+        "low": 36.39,
+        "high": 37.54,
         "sparse": false
       },
       {
@@ -14601,23 +14602,23 @@
         "date": "2020-08-12",
         "value": 37.0,
         "low": 36.43,
-        "high": 37.53,
+        "high": 37.56,
         "sparse": false
       },
       {
         "t": 18487,
         "date": "2020-08-13",
         "value": 37.03,
-        "low": 36.47,
-        "high": 37.56,
+        "low": 36.48,
+        "high": 37.58,
         "sparse": false
       },
       {
         "t": 18488,
         "date": "2020-08-14",
         "value": 37.06,
-        "low": 36.51,
-        "high": 37.59,
+        "low": 36.5,
+        "high": 37.61,
         "sparse": false
       },
       {
@@ -14625,14 +14626,14 @@
         "date": "2020-08-15",
         "value": 37.08,
         "low": 36.53,
-        "high": 37.62,
+        "high": 37.63,
         "sparse": false
       },
       {
         "t": 18490,
         "date": "2020-08-16",
         "value": 37.11,
-        "low": 36.58,
+        "low": 36.59,
         "high": 37.66,
         "sparse": false
       },
@@ -14640,7 +14641,7 @@
         "t": 18491,
         "date": "2020-08-17",
         "value": 37.14,
-        "low": 36.64,
+        "low": 36.63,
         "high": 37.69,
         "sparse": false
       },
@@ -14649,7 +14650,7 @@
         "date": "2020-08-18",
         "value": 37.17,
         "low": 36.67,
-        "high": 37.72,
+        "high": 37.73,
         "sparse": false
       },
       {
@@ -15272,7 +15273,7 @@
         "t": 18570,
         "date": "2020-11-04",
         "value": 38.25,
-        "low": 37.53,
+        "low": 37.54,
         "high": 38.92,
         "sparse": false
       },
@@ -15281,7 +15282,7 @@
         "date": "2020-11-05",
         "value": 38.23,
         "low": 37.52,
-        "high": 38.9,
+        "high": 38.91,
         "sparse": false
       },
       {
@@ -15305,7 +15306,7 @@
         "date": "2020-11-08",
         "value": 38.16,
         "low": 37.49,
-        "high": 38.83,
+        "high": 38.85,
         "sparse": false
       },
       {
@@ -15313,7 +15314,7 @@
         "date": "2020-11-09",
         "value": 38.14,
         "low": 37.47,
-        "high": 38.8,
+        "high": 38.82,
         "sparse": false
       },
       {
@@ -15321,7 +15322,7 @@
         "date": "2020-11-10",
         "value": 38.11,
         "low": 37.45,
-        "high": 38.77,
+        "high": 38.79,
         "sparse": false
       },
       {
@@ -15329,7 +15330,7 @@
         "date": "2020-11-11",
         "value": 38.08,
         "low": 37.42,
-        "high": 38.75,
+        "high": 38.77,
         "sparse": false
       },
       {
@@ -15337,31 +15338,31 @@
         "date": "2020-11-12",
         "value": 38.05,
         "low": 37.39,
-        "high": 38.7,
+        "high": 38.72,
         "sparse": false
       },
       {
         "t": 18579,
         "date": "2020-11-13",
         "value": 38.02,
-        "low": 37.37,
-        "high": 38.65,
+        "low": 37.36,
+        "high": 38.68,
         "sparse": false
       },
       {
         "t": 18580,
         "date": "2020-11-14",
         "value": 37.98,
-        "low": 37.35,
-        "high": 38.61,
+        "low": 37.31,
+        "high": 38.65,
         "sparse": false
       },
       {
         "t": 18581,
         "date": "2020-11-15",
         "value": 37.95,
-        "low": 37.32,
-        "high": 38.57,
+        "low": 37.31,
+        "high": 38.61,
         "sparse": false
       },
       {
@@ -15369,7 +15370,7 @@
         "date": "2020-11-16",
         "value": 37.92,
         "low": 37.3,
-        "high": 38.55,
+        "high": 38.58,
         "sparse": false
       },
       {
@@ -15377,23 +15378,23 @@
         "date": "2020-11-17",
         "value": 37.89,
         "low": 37.28,
-        "high": 38.49,
+        "high": 38.54,
         "sparse": false
       },
       {
         "t": 18584,
         "date": "2020-11-18",
         "value": 37.86,
-        "low": 37.26,
-        "high": 38.46,
+        "low": 37.24,
+        "high": 38.49,
         "sparse": false
       },
       {
         "t": 18585,
         "date": "2020-11-19",
         "value": 37.83,
-        "low": 37.23,
-        "high": 38.42,
+        "low": 37.22,
+        "high": 38.44,
         "sparse": false
       },
       {
@@ -15401,22 +15402,22 @@
         "date": "2020-11-20",
         "value": 37.8,
         "low": 37.19,
-        "high": 38.38,
+        "high": 38.41,
         "sparse": false
       },
       {
         "t": 18587,
         "date": "2020-11-21",
         "value": 37.77,
-        "low": 37.16,
-        "high": 38.35,
+        "low": 37.17,
+        "high": 38.37,
         "sparse": false
       },
       {
         "t": 18588,
         "date": "2020-11-22",
         "value": 37.74,
-        "low": 37.12,
+        "low": 37.16,
         "high": 38.31,
         "sparse": false
       },
@@ -15424,7 +15425,7 @@
         "t": 18589,
         "date": "2020-11-23",
         "value": 37.71,
-        "low": 37.11,
+        "low": 37.13,
         "high": 38.28,
         "sparse": false
       },
@@ -15432,15 +15433,15 @@
         "t": 18590,
         "date": "2020-11-24",
         "value": 37.69,
-        "low": 37.09,
-        "high": 38.24,
+        "low": 37.1,
+        "high": 38.23,
         "sparse": false
       },
       {
         "t": 18591,
         "date": "2020-11-25",
         "value": 37.66,
-        "low": 37.08,
+        "low": 37.07,
         "high": 38.22,
         "sparse": false
       },
@@ -15448,7 +15449,7 @@
         "t": 18592,
         "date": "2020-11-26",
         "value": 37.64,
-        "low": 37.05,
+        "low": 37.04,
         "high": 38.22,
         "sparse": false
       },
@@ -15456,7 +15457,7 @@
         "t": 18593,
         "date": "2020-11-27",
         "value": 37.61,
-        "low": 37.02,
+        "low": 37.01,
         "high": 38.21,
         "sparse": false
       },
@@ -15464,15 +15465,15 @@
         "t": 18594,
         "date": "2020-11-28",
         "value": 37.59,
-        "low": 36.99,
-        "high": 38.19,
+        "low": 37.0,
+        "high": 38.21,
         "sparse": false
       },
       {
         "t": 18595,
         "date": "2020-11-29",
         "value": 37.57,
-        "low": 36.96,
+        "low": 36.97,
         "high": 38.17,
         "sparse": false
       },
@@ -15480,32 +15481,32 @@
         "t": 18596,
         "date": "2020-11-30",
         "value": 37.55,
-        "low": 36.92,
-        "high": 38.16,
+        "low": 36.93,
+        "high": 38.18,
         "sparse": false
       },
       {
         "t": 18597,
         "date": "2020-12-01",
         "value": 37.54,
-        "low": 36.89,
-        "high": 38.15,
+        "low": 36.92,
+        "high": 38.17,
         "sparse": false
       },
       {
         "t": 18598,
         "date": "2020-12-02",
         "value": 37.53,
-        "low": 36.91,
-        "high": 38.1,
+        "low": 36.89,
+        "high": 38.16,
         "sparse": false
       },
       {
         "t": 18599,
         "date": "2020-12-03",
         "value": 37.52,
-        "low": 36.9,
-        "high": 38.11,
+        "low": 36.89,
+        "high": 38.15,
         "sparse": false
       },
       {
@@ -15513,38 +15514,38 @@
         "date": "2020-12-04",
         "value": 37.52,
         "low": 36.89,
-        "high": 38.11,
+        "high": 38.16,
         "sparse": false
       },
       {
         "t": 18601,
         "date": "2020-12-05",
         "value": 37.51,
-        "low": 36.89,
-        "high": 38.13,
+        "low": 36.86,
+        "high": 38.18,
         "sparse": false
       },
       {
         "t": 18602,
         "date": "2020-12-06",
         "value": 37.51,
-        "low": 36.9,
-        "high": 38.14,
+        "low": 36.86,
+        "high": 38.18,
         "sparse": false
       },
       {
         "t": 18603,
         "date": "2020-12-07",
         "value": 37.51,
-        "low": 36.9,
-        "high": 38.16,
+        "low": 36.87,
+        "high": 38.18,
         "sparse": false
       },
       {
         "t": 18604,
         "date": "2020-12-08",
         "value": 37.52,
-        "low": 36.91,
+        "low": 36.87,
         "high": 38.18,
         "sparse": false
       },
@@ -15552,16 +15553,16 @@
         "t": 18605,
         "date": "2020-12-09",
         "value": 37.52,
-        "low": 36.9,
-        "high": 38.21,
+        "low": 36.88,
+        "high": 38.2,
         "sparse": false
       },
       {
         "t": 18606,
         "date": "2020-12-10",
         "value": 37.53,
-        "low": 36.89,
-        "high": 38.24,
+        "low": 36.87,
+        "high": 38.22,
         "sparse": false
       },
       {
@@ -15569,14 +15570,14 @@
         "date": "2020-12-11",
         "value": 37.54,
         "low": 36.88,
-        "high": 38.25,
+        "high": 38.24,
         "sparse": false
       },
       {
         "t": 18608,
         "date": "2020-12-12",
         "value": 37.54,
-        "low": 36.87,
+        "low": 36.85,
         "high": 38.26,
         "sparse": false
       },
@@ -15584,7 +15585,7 @@
         "t": 18609,
         "date": "2020-12-13",
         "value": 37.55,
-        "low": 36.86,
+        "low": 36.84,
         "high": 38.28,
         "sparse": false
       },
@@ -15592,15 +15593,15 @@
         "t": 18610,
         "date": "2020-12-14",
         "value": 37.57,
-        "low": 36.87,
-        "high": 38.31,
+        "low": 36.85,
+        "high": 38.3,
         "sparse": false
       },
       {
         "t": 18611,
         "date": "2020-12-15",
         "value": 37.58,
-        "low": 36.88,
+        "low": 36.87,
         "high": 38.33,
         "sparse": false
       },
@@ -15609,166 +15610,166 @@
         "date": "2020-12-16",
         "value": 37.59,
         "low": 36.88,
-        "high": 38.33,
+        "high": 38.35,
         "sparse": false
       },
       {
         "t": 18613,
         "date": "2020-12-17",
         "value": 37.6,
-        "low": 36.86,
-        "high": 38.34,
+        "low": 36.9,
+        "high": 38.37,
         "sparse": false
       },
       {
         "t": 18614,
         "date": "2020-12-18",
         "value": 37.62,
-        "low": 36.85,
-        "high": 38.34,
+        "low": 36.91,
+        "high": 38.38,
         "sparse": false
       },
       {
         "t": 18615,
         "date": "2020-12-19",
         "value": 37.63,
-        "low": 36.91,
-        "high": 38.36,
+        "low": 36.92,
+        "high": 38.4,
         "sparse": false
       },
       {
         "t": 18616,
         "date": "2020-12-20",
         "value": 37.65,
-        "low": 36.92,
-        "high": 38.38,
+        "low": 36.95,
+        "high": 38.41,
         "sparse": false
       },
       {
         "t": 18617,
         "date": "2020-12-21",
         "value": 37.67,
-        "low": 36.94,
-        "high": 38.4,
+        "low": 36.99,
+        "high": 38.43,
         "sparse": false
       },
       {
         "t": 18618,
         "date": "2020-12-22",
         "value": 37.69,
-        "low": 36.98,
-        "high": 38.41,
+        "low": 37.02,
+        "high": 38.44,
         "sparse": false
       },
       {
         "t": 18619,
         "date": "2020-12-23",
         "value": 37.71,
-        "low": 37.01,
-        "high": 38.42,
+        "low": 37.07,
+        "high": 38.45,
         "sparse": false
       },
       {
         "t": 18620,
         "date": "2020-12-24",
         "value": 37.73,
-        "low": 37.01,
-        "high": 38.41,
+        "low": 37.09,
+        "high": 38.47,
         "sparse": false
       },
       {
         "t": 18621,
         "date": "2020-12-25",
         "value": 37.75,
-        "low": 37.06,
-        "high": 38.41,
+        "low": 37.1,
+        "high": 38.47,
         "sparse": false
       },
       {
         "t": 18622,
         "date": "2020-12-26",
         "value": 37.77,
-        "low": 37.08,
-        "high": 38.42,
+        "low": 37.13,
+        "high": 38.48,
         "sparse": false
       },
       {
         "t": 18623,
         "date": "2020-12-27",
         "value": 37.79,
-        "low": 37.14,
-        "high": 38.41,
+        "low": 37.15,
+        "high": 38.45,
         "sparse": false
       },
       {
         "t": 18624,
         "date": "2020-12-28",
         "value": 37.81,
-        "low": 37.14,
-        "high": 38.41,
+        "low": 37.15,
+        "high": 38.45,
         "sparse": false
       },
       {
         "t": 18625,
         "date": "2020-12-29",
         "value": 37.83,
-        "low": 37.15,
-        "high": 38.41,
+        "low": 37.17,
+        "high": 38.46,
         "sparse": false
       },
       {
         "t": 18626,
         "date": "2020-12-30",
         "value": 37.85,
-        "low": 37.16,
-        "high": 38.43,
+        "low": 37.2,
+        "high": 38.46,
         "sparse": false
       },
       {
         "t": 18627,
         "date": "2020-12-31",
         "value": 37.86,
-        "low": 37.18,
-        "high": 38.41,
+        "low": 37.24,
+        "high": 38.47,
         "sparse": false
       },
       {
         "t": 18628,
         "date": "2021-01-01",
         "value": 37.87,
-        "low": 37.19,
-        "high": 38.41,
+        "low": 37.25,
+        "high": 38.46,
         "sparse": false
       },
       {
         "t": 18629,
         "date": "2021-01-02",
         "value": 37.88,
-        "low": 37.19,
-        "high": 38.42,
+        "low": 37.25,
+        "high": 38.44,
         "sparse": false
       },
       {
         "t": 18630,
         "date": "2021-01-03",
         "value": 37.89,
-        "low": 37.19,
-        "high": 38.41,
+        "low": 37.25,
+        "high": 38.45,
         "sparse": false
       },
       {
         "t": 18631,
         "date": "2021-01-04",
         "value": 37.89,
-        "low": 37.18,
-        "high": 38.42,
+        "low": 37.26,
+        "high": 38.43,
         "sparse": false
       },
       {
         "t": 18632,
         "date": "2021-01-05",
         "value": 37.89,
-        "low": 37.2,
+        "low": 37.24,
         "high": 38.42,
         "sparse": false
       },
@@ -15776,7 +15777,7 @@
         "t": 18633,
         "date": "2021-01-06",
         "value": 37.9,
-        "low": 37.23,
+        "low": 37.25,
         "high": 38.42,
         "sparse": false
       },
@@ -15784,15 +15785,15 @@
         "t": 18634,
         "date": "2021-01-07",
         "value": 37.89,
-        "low": 37.23,
-        "high": 38.42,
+        "low": 37.25,
+        "high": 38.43,
         "sparse": false
       },
       {
         "t": 18635,
         "date": "2021-01-08",
         "value": 37.89,
-        "low": 37.22,
+        "low": 37.28,
         "high": 38.43,
         "sparse": false
       },
@@ -15800,7 +15801,7 @@
         "t": 18636,
         "date": "2021-01-09",
         "value": 37.89,
-        "low": 37.23,
+        "low": 37.28,
         "high": 38.43,
         "sparse": false
       },
@@ -15808,39 +15809,39 @@
         "t": 18637,
         "date": "2021-01-10",
         "value": 37.89,
-        "low": 37.26,
-        "high": 38.43,
+        "low": 37.28,
+        "high": 38.42,
         "sparse": false
       },
       {
         "t": 18638,
         "date": "2021-01-11",
         "value": 37.88,
-        "low": 37.27,
-        "high": 38.43,
+        "low": 37.26,
+        "high": 38.42,
         "sparse": false
       },
       {
         "t": 18639,
         "date": "2021-01-12",
         "value": 37.88,
-        "low": 37.24,
-        "high": 38.44,
+        "low": 37.27,
+        "high": 38.45,
         "sparse": false
       },
       {
         "t": 18640,
         "date": "2021-01-13",
         "value": 37.87,
-        "low": 37.2,
-        "high": 38.44,
+        "low": 37.26,
+        "high": 38.46,
         "sparse": false
       },
       {
         "t": 18641,
         "date": "2021-01-14",
         "value": 37.87,
-        "low": 37.2,
+        "low": 37.25,
         "high": 38.44,
         "sparse": false
       },
@@ -15848,32 +15849,32 @@
         "t": 18642,
         "date": "2021-01-15",
         "value": 37.86,
-        "low": 37.21,
-        "high": 38.44,
+        "low": 37.23,
+        "high": 38.42,
         "sparse": false
       },
       {
         "t": 18643,
         "date": "2021-01-16",
         "value": 37.85,
-        "low": 37.21,
-        "high": 38.41,
+        "low": 37.22,
+        "high": 38.39,
         "sparse": false
       },
       {
         "t": 18644,
         "date": "2021-01-17",
         "value": 37.83,
-        "low": 37.19,
-        "high": 38.4,
+        "low": 37.21,
+        "high": 38.37,
         "sparse": false
       },
       {
         "t": 18645,
         "date": "2021-01-18",
         "value": 37.81,
-        "low": 37.18,
-        "high": 38.4,
+        "low": 37.2,
+        "high": 38.36,
         "sparse": false
       },
       {
@@ -15881,38 +15882,38 @@
         "date": "2021-01-19",
         "value": 37.79,
         "low": 37.15,
-        "high": 38.39,
+        "high": 38.34,
         "sparse": false
       },
       {
         "t": 18647,
         "date": "2021-01-20",
         "value": 37.76,
-        "low": 37.13,
-        "high": 38.37,
+        "low": 37.12,
+        "high": 38.33,
         "sparse": false
       },
       {
         "t": 18648,
         "date": "2021-01-21",
         "value": 37.73,
-        "low": 37.1,
-        "high": 38.35,
+        "low": 37.09,
+        "high": 38.32,
         "sparse": false
       },
       {
         "t": 18649,
         "date": "2021-01-22",
         "value": 37.7,
-        "low": 37.07,
-        "high": 38.31,
+        "low": 37.06,
+        "high": 38.29,
         "sparse": false
       },
       {
         "t": 18650,
         "date": "2021-01-23",
         "value": 37.67,
-        "low": 37.03,
+        "low": 37.02,
         "high": 38.26,
         "sparse": false
       },
@@ -15921,87 +15922,87 @@
         "date": "2021-01-24",
         "value": 37.63,
         "low": 36.99,
-        "high": 38.24,
+        "high": 38.2,
         "sparse": false
       },
       {
         "t": 18652,
         "date": "2021-01-25",
         "value": 37.6,
-        "low": 36.97,
-        "high": 38.18,
+        "low": 36.96,
+        "high": 38.15,
         "sparse": false
       },
       {
         "t": 18653,
         "date": "2021-01-26",
         "value": 37.56,
-        "low": 36.93,
-        "high": 38.15,
+        "low": 36.94,
+        "high": 38.11,
         "sparse": false
       },
       {
         "t": 18654,
         "date": "2021-01-27",
         "value": 37.52,
-        "low": 36.9,
-        "high": 38.11,
+        "low": 36.92,
+        "high": 38.07,
         "sparse": false
       },
       {
         "t": 18655,
         "date": "2021-01-28",
         "value": 37.49,
-        "low": 36.86,
-        "high": 38.08,
+        "low": 36.89,
+        "high": 38.04,
         "sparse": false
       },
       {
         "t": 18656,
         "date": "2021-01-29",
         "value": 37.45,
-        "low": 36.81,
-        "high": 38.05,
+        "low": 36.86,
+        "high": 38.01,
         "sparse": false
       },
       {
         "t": 18657,
         "date": "2021-01-30",
         "value": 37.4,
-        "low": 36.75,
-        "high": 38.03,
+        "low": 36.82,
+        "high": 37.97,
         "sparse": false
       },
       {
         "t": 18658,
         "date": "2021-01-31",
         "value": 37.36,
-        "low": 36.7,
-        "high": 38.01,
+        "low": 36.79,
+        "high": 37.93,
         "sparse": false
       },
       {
         "t": 18659,
         "date": "2021-02-01",
         "value": 37.32,
-        "low": 36.65,
-        "high": 37.95,
+        "low": 36.72,
+        "high": 37.89,
         "sparse": false
       },
       {
         "t": 18660,
         "date": "2021-02-02",
         "value": 37.27,
-        "low": 36.61,
-        "high": 37.89,
+        "low": 36.66,
+        "high": 37.85,
         "sparse": false
       },
       {
         "t": 18661,
         "date": "2021-02-03",
         "value": 37.22,
-        "low": 36.58,
-        "high": 37.83,
+        "low": 36.6,
+        "high": 37.8,
         "sparse": false
       },
       {
@@ -16009,7 +16010,7 @@
         "date": "2021-02-04",
         "value": 37.16,
         "low": 36.54,
-        "high": 37.76,
+        "high": 37.77,
         "sparse": false
       },
       {
@@ -16017,7 +16018,7 @@
         "date": "2021-02-05",
         "value": 37.11,
         "low": 36.48,
-        "high": 37.69,
+        "high": 37.72,
         "sparse": false
       },
       {
@@ -16025,23 +16026,23 @@
         "date": "2021-02-06",
         "value": 37.05,
         "low": 36.41,
-        "high": 37.65,
+        "high": 37.67,
         "sparse": false
       },
       {
         "t": 18665,
         "date": "2021-02-07",
         "value": 37.0,
-        "low": 36.35,
-        "high": 37.61,
+        "low": 36.39,
+        "high": 37.64,
         "sparse": false
       },
       {
         "t": 18666,
         "date": "2021-02-08",
         "value": 36.95,
-        "low": 36.3,
-        "high": 37.55,
+        "low": 36.33,
+        "high": 37.6,
         "sparse": false
       },
       {
@@ -16049,15 +16050,15 @@
         "date": "2021-02-09",
         "value": 36.9,
         "low": 36.26,
-        "high": 37.5,
+        "high": 37.54,
         "sparse": false
       },
       {
         "t": 18668,
         "date": "2021-02-10",
         "value": 36.85,
-        "low": 36.23,
-        "high": 37.47,
+        "low": 36.21,
+        "high": 37.52,
         "sparse": false
       },
       {
@@ -16065,15 +16066,15 @@
         "date": "2021-02-11",
         "value": 36.81,
         "low": 36.19,
-        "high": 37.44,
+        "high": 37.49,
         "sparse": false
       },
       {
         "t": 18670,
         "date": "2021-02-12",
         "value": 36.77,
-        "low": 36.15,
-        "high": 37.4,
+        "low": 36.19,
+        "high": 37.48,
         "sparse": false
       },
       {
@@ -16081,15 +16082,15 @@
         "date": "2021-02-13",
         "value": 36.75,
         "low": 36.15,
-        "high": 37.35,
+        "high": 37.44,
         "sparse": false
       },
       {
         "t": 18672,
         "date": "2021-02-14",
         "value": 36.72,
-        "low": 36.12,
-        "high": 37.35,
+        "low": 36.11,
+        "high": 37.43,
         "sparse": false
       },
       {
@@ -16097,159 +16098,159 @@
         "date": "2021-02-15",
         "value": 36.7,
         "low": 36.09,
-        "high": 37.34,
+        "high": 37.43,
         "sparse": false
       },
       {
         "t": 18674,
         "date": "2021-02-16",
         "value": 36.69,
-        "low": 36.05,
-        "high": 37.33,
+        "low": 36.08,
+        "high": 37.41,
         "sparse": false
       },
       {
         "t": 18675,
         "date": "2021-02-17",
         "value": 36.68,
-        "low": 36.03,
-        "high": 37.35,
+        "low": 36.08,
+        "high": 37.41,
         "sparse": false
       },
       {
         "t": 18676,
         "date": "2021-02-18",
         "value": 36.68,
-        "low": 36.0,
-        "high": 37.35,
+        "low": 36.04,
+        "high": 37.42,
         "sparse": false
       },
       {
         "t": 18677,
         "date": "2021-02-19",
         "value": 36.68,
-        "low": 35.98,
-        "high": 37.38,
+        "low": 36.04,
+        "high": 37.43,
         "sparse": false
       },
       {
         "t": 18678,
         "date": "2021-02-20",
         "value": 36.68,
-        "low": 35.97,
-        "high": 37.38,
+        "low": 36.02,
+        "high": 37.45,
         "sparse": false
       },
       {
         "t": 18679,
         "date": "2021-02-21",
         "value": 36.69,
-        "low": 35.96,
-        "high": 37.44,
+        "low": 35.99,
+        "high": 37.47,
         "sparse": false
       },
       {
         "t": 18680,
         "date": "2021-02-22",
         "value": 36.69,
-        "low": 35.91,
-        "high": 37.5,
+        "low": 35.95,
+        "high": 37.53,
         "sparse": false
       },
       {
         "t": 18681,
         "date": "2021-02-23",
         "value": 36.71,
-        "low": 35.9,
-        "high": 37.54,
+        "low": 35.97,
+        "high": 37.58,
         "sparse": false
       },
       {
         "t": 18682,
         "date": "2021-02-24",
         "value": 36.72,
-        "low": 35.86,
-        "high": 37.59,
+        "low": 35.95,
+        "high": 37.64,
         "sparse": false
       },
       {
         "t": 18683,
         "date": "2021-02-25",
         "value": 36.73,
-        "low": 35.83,
-        "high": 37.63,
+        "low": 35.92,
+        "high": 37.71,
         "sparse": false
       },
       {
         "t": 18684,
         "date": "2021-02-26",
         "value": 36.75,
-        "low": 35.83,
-        "high": 37.67,
+        "low": 35.89,
+        "high": 37.76,
         "sparse": false
       },
       {
         "t": 18685,
         "date": "2021-02-27",
         "value": 36.76,
-        "low": 35.82,
-        "high": 37.71,
+        "low": 35.86,
+        "high": 37.82,
         "sparse": false
       },
       {
         "t": 18686,
         "date": "2021-02-28",
         "value": 36.77,
-        "low": 35.82,
-        "high": 37.76,
+        "low": 35.84,
+        "high": 37.87,
         "sparse": false
       },
       {
         "t": 18687,
         "date": "2021-03-01",
         "value": 36.79,
-        "low": 35.82,
-        "high": 37.81,
+        "low": 35.84,
+        "high": 37.91,
         "sparse": false
       },
       {
         "t": 18688,
         "date": "2021-03-02",
         "value": 36.8,
-        "low": 35.82,
-        "high": 37.86,
+        "low": 35.83,
+        "high": 37.95,
         "sparse": false
       },
       {
         "t": 18689,
         "date": "2021-03-03",
         "value": 36.81,
-        "low": 35.81,
-        "high": 37.91,
+        "low": 35.82,
+        "high": 37.97,
         "sparse": false
       },
       {
         "t": 18690,
         "date": "2021-03-04",
         "value": 36.81,
-        "low": 35.79,
-        "high": 37.94,
+        "low": 35.81,
+        "high": 37.98,
         "sparse": false
       },
       {
         "t": 18691,
         "date": "2021-03-05",
         "value": 36.82,
-        "low": 35.77,
-        "high": 37.97,
+        "low": 35.8,
+        "high": 37.99,
         "sparse": false
       },
       {
         "t": 18692,
         "date": "2021-03-06",
         "value": 36.82,
-        "low": 35.77,
-        "high": 37.97,
+        "low": 35.79,
+        "high": 37.99,
         "sparse": false
       },
       {
@@ -16257,15 +16258,15 @@
         "date": "2021-03-07",
         "value": 36.82,
         "low": 35.78,
-        "high": 37.98,
+        "high": 37.99,
         "sparse": false
       },
       {
         "t": 18694,
         "date": "2021-03-08",
         "value": 36.82,
-        "low": 35.77,
-        "high": 37.98,
+        "low": 35.76,
+        "high": 37.97,
         "sparse": false
       },
       {
@@ -16273,23 +16274,23 @@
         "date": "2021-03-09",
         "value": 36.81,
         "low": 35.75,
-        "high": 37.97,
+        "high": 37.95,
         "sparse": false
       },
       {
         "t": 18696,
         "date": "2021-03-10",
         "value": 36.8,
-        "low": 35.72,
-        "high": 37.95,
+        "low": 35.74,
+        "high": 37.93,
         "sparse": false
       },
       {
         "t": 18697,
         "date": "2021-03-11",
         "value": 36.79,
-        "low": 35.7,
-        "high": 37.92,
+        "low": 35.72,
+        "high": 37.9,
         "sparse": false
       },
       {
@@ -16304,63 +16305,63 @@
         "t": 18699,
         "date": "2021-03-13",
         "value": 36.75,
-        "low": 35.63,
-        "high": 37.84,
+        "low": 35.64,
+        "high": 37.87,
         "sparse": false
       },
       {
         "t": 18700,
         "date": "2021-03-14",
         "value": 36.73,
-        "low": 35.6,
-        "high": 37.8,
+        "low": 35.63,
+        "high": 37.85,
         "sparse": false
       },
       {
         "t": 18701,
         "date": "2021-03-15",
         "value": 36.71,
-        "low": 35.56,
-        "high": 37.76,
+        "low": 35.59,
+        "high": 37.85,
         "sparse": false
       },
       {
         "t": 18702,
         "date": "2021-03-16",
         "value": 36.69,
-        "low": 35.51,
-        "high": 37.74,
+        "low": 35.55,
+        "high": 37.82,
         "sparse": false
       },
       {
         "t": 18703,
         "date": "2021-03-17",
         "value": 36.67,
-        "low": 35.48,
-        "high": 37.73,
+        "low": 35.51,
+        "high": 37.78,
         "sparse": false
       },
       {
         "t": 18704,
         "date": "2021-03-18",
         "value": 36.65,
-        "low": 35.44,
-        "high": 37.72,
+        "low": 35.46,
+        "high": 37.77,
         "sparse": false
       },
       {
         "t": 18705,
         "date": "2021-03-19",
         "value": 36.64,
-        "low": 35.4,
-        "high": 37.71,
+        "low": 35.43,
+        "high": 37.75,
         "sparse": false
       },
       {
         "t": 18706,
         "date": "2021-03-20",
         "value": 36.62,
-        "low": 35.4,
+        "low": 35.41,
         "high": 37.7,
         "sparse": false
       },
@@ -16368,71 +16369,71 @@
         "t": 18707,
         "date": "2021-03-21",
         "value": 36.6,
-        "low": 35.42,
-        "high": 37.67,
+        "low": 35.4,
+        "high": 37.7,
         "sparse": false
       },
       {
         "t": 18708,
         "date": "2021-03-22",
         "value": 36.59,
-        "low": 35.46,
-        "high": 37.65,
+        "low": 35.38,
+        "high": 37.67,
         "sparse": false
       },
       {
         "t": 18709,
         "date": "2021-03-23",
         "value": 36.57,
-        "low": 35.51,
-        "high": 37.64,
+        "low": 35.42,
+        "high": 37.65,
         "sparse": false
       },
       {
         "t": 18710,
         "date": "2021-03-24",
         "value": 36.56,
-        "low": 35.53,
-        "high": 37.61,
+        "low": 35.48,
+        "high": 37.63,
         "sparse": false
       },
       {
         "t": 18711,
         "date": "2021-03-25",
         "value": 36.55,
-        "low": 35.5,
-        "high": 37.59,
+        "low": 35.52,
+        "high": 37.6,
         "sparse": false
       },
       {
         "t": 18712,
         "date": "2021-03-26",
         "value": 36.53,
-        "low": 35.47,
-        "high": 37.6,
+        "low": 35.49,
+        "high": 37.56,
         "sparse": false
       },
       {
         "t": 18713,
         "date": "2021-03-27",
         "value": 36.52,
-        "low": 35.43,
-        "high": 37.59,
+        "low": 35.45,
+        "high": 37.56,
         "sparse": false
       },
       {
         "t": 18714,
         "date": "2021-03-28",
         "value": 36.51,
-        "low": 35.4,
-        "high": 37.56,
+        "low": 35.41,
+        "high": 37.55,
         "sparse": false
       },
       {
         "t": 18715,
         "date": "2021-03-29",
         "value": 36.49,
-        "low": 35.38,
+        "low": 35.39,
         "high": 37.54,
         "sparse": false
       },
@@ -16441,7 +16442,7 @@
         "date": "2021-03-30",
         "value": 36.48,
         "low": 35.35,
-        "high": 37.52,
+        "high": 37.51,
         "sparse": false
       },
       {
@@ -16449,15 +16450,15 @@
         "date": "2021-03-31",
         "value": 36.46,
         "low": 35.32,
-        "high": 37.54,
+        "high": 37.48,
         "sparse": false
       },
       {
         "t": 18718,
         "date": "2021-04-01",
         "value": 36.44,
-        "low": 35.28,
-        "high": 37.52,
+        "low": 35.29,
+        "high": 37.45,
         "sparse": false
       },
       {
@@ -16465,79 +16466,79 @@
         "date": "2021-04-02",
         "value": 36.42,
         "low": 35.28,
-        "high": 37.49,
+        "high": 37.4,
         "sparse": false
       },
       {
         "t": 18720,
         "date": "2021-04-03",
         "value": 36.4,
-        "low": 35.25,
-        "high": 37.46,
+        "low": 35.27,
+        "high": 37.36,
         "sparse": false
       },
       {
         "t": 18721,
         "date": "2021-04-04",
         "value": 36.37,
-        "low": 35.2,
-        "high": 37.42,
+        "low": 35.25,
+        "high": 37.32,
         "sparse": false
       },
       {
         "t": 18722,
         "date": "2021-04-05",
         "value": 36.34,
-        "low": 35.16,
-        "high": 37.38,
+        "low": 35.21,
+        "high": 37.28,
         "sparse": false
       },
       {
         "t": 18723,
         "date": "2021-04-06",
         "value": 36.3,
-        "low": 35.16,
-        "high": 37.31,
+        "low": 35.22,
+        "high": 37.25,
         "sparse": false
       },
       {
         "t": 18724,
         "date": "2021-04-07",
         "value": 36.26,
-        "low": 35.16,
-        "high": 37.24,
+        "low": 35.23,
+        "high": 37.22,
         "sparse": false
       },
       {
         "t": 18725,
         "date": "2021-04-08",
         "value": 36.21,
-        "low": 35.17,
-        "high": 37.18,
+        "low": 35.21,
+        "high": 37.15,
         "sparse": false
       },
       {
         "t": 18726,
         "date": "2021-04-09",
         "value": 36.16,
-        "low": 35.16,
-        "high": 37.1,
+        "low": 35.17,
+        "high": 37.05,
         "sparse": false
       },
       {
         "t": 18727,
         "date": "2021-04-10",
         "value": 36.1,
-        "low": 35.15,
-        "high": 37.02,
+        "low": 35.16,
+        "high": 36.98,
         "sparse": false
       },
       {
         "t": 18728,
         "date": "2021-04-11",
         "value": 36.03,
-        "low": 35.12,
-        "high": 36.95,
+        "low": 35.13,
+        "high": 36.9,
         "sparse": false
       },
       {
@@ -16545,31 +16546,31 @@
         "date": "2021-04-12",
         "value": 35.96,
         "low": 35.09,
-        "high": 36.87,
+        "high": 36.83,
         "sparse": false
       },
       {
         "t": 18730,
         "date": "2021-04-13",
         "value": 35.88,
-        "low": 35.01,
-        "high": 36.78,
+        "low": 35.05,
+        "high": 36.74,
         "sparse": false
       },
       {
         "t": 18731,
         "date": "2021-04-14",
         "value": 35.79,
-        "low": 34.94,
-        "high": 36.69,
+        "low": 34.97,
+        "high": 36.65,
         "sparse": false
       },
       {
         "t": 18732,
         "date": "2021-04-15",
         "value": 35.7,
-        "low": 34.89,
-        "high": 36.56,
+        "low": 34.92,
+        "high": 36.55,
         "sparse": false
       },
       {
@@ -16577,14 +16578,14 @@
         "date": "2021-04-16",
         "value": 35.61,
         "low": 34.81,
-        "high": 36.45,
+        "high": 36.46,
         "sparse": false
       },
       {
         "t": 18734,
         "date": "2021-04-17",
         "value": 35.52,
-        "low": 34.71,
+        "low": 34.77,
         "high": 36.34,
         "sparse": false
       },
@@ -16592,103 +16593,103 @@
         "t": 18735,
         "date": "2021-04-18",
         "value": 35.43,
-        "low": 34.6,
-        "high": 36.28,
+        "low": 34.69,
+        "high": 36.23,
         "sparse": false
       },
       {
         "t": 18736,
         "date": "2021-04-19",
         "value": 35.34,
-        "low": 34.52,
-        "high": 36.22,
+        "low": 34.55,
+        "high": 36.18,
         "sparse": false
       },
       {
         "t": 18737,
         "date": "2021-04-20",
         "value": 35.25,
-        "low": 34.39,
-        "high": 36.15,
+        "low": 34.46,
+        "high": 36.13,
         "sparse": false
       },
       {
         "t": 18738,
         "date": "2021-04-21",
         "value": 35.17,
-        "low": 34.3,
-        "high": 36.05,
+        "low": 34.38,
+        "high": 36.1,
         "sparse": false
       },
       {
         "t": 18739,
         "date": "2021-04-22",
         "value": 35.09,
-        "low": 34.14,
-        "high": 35.94,
+        "low": 34.28,
+        "high": 36.06,
         "sparse": false
       },
       {
         "t": 18740,
         "date": "2021-04-23",
         "value": 35.02,
-        "low": 34.09,
-        "high": 35.88,
+        "low": 34.2,
+        "high": 36.0,
         "sparse": false
       },
       {
         "t": 18741,
         "date": "2021-04-24",
         "value": 34.96,
-        "low": 34.02,
-        "high": 35.83,
+        "low": 34.15,
+        "high": 35.86,
         "sparse": false
       },
       {
         "t": 18742,
         "date": "2021-04-25",
         "value": 34.9,
-        "low": 33.94,
-        "high": 35.74,
+        "low": 34.06,
+        "high": 35.79,
         "sparse": false
       },
       {
         "t": 18743,
         "date": "2021-04-26",
         "value": 34.84,
-        "low": 33.86,
-        "high": 35.69,
+        "low": 34.01,
+        "high": 35.78,
         "sparse": false
       },
       {
         "t": 18744,
         "date": "2021-04-27",
         "value": 34.79,
-        "low": 33.79,
-        "high": 35.67,
+        "low": 33.93,
+        "high": 35.77,
         "sparse": false
       },
       {
         "t": 18745,
         "date": "2021-04-28",
         "value": 34.74,
-        "low": 33.72,
-        "high": 35.66,
+        "low": 33.87,
+        "high": 35.71,
         "sparse": false
       },
       {
         "t": 18746,
         "date": "2021-04-29",
         "value": 34.69,
-        "low": 33.68,
-        "high": 35.65,
+        "low": 33.82,
+        "high": 35.67,
         "sparse": false
       },
       {
         "t": 18747,
         "date": "2021-04-30",
         "value": 34.64,
-        "low": 33.65,
+        "low": 33.79,
         "high": 35.61,
         "sparse": false
       },
@@ -16696,7 +16697,7 @@
         "t": 18748,
         "date": "2021-05-01",
         "value": 34.6,
-        "low": 33.63,
+        "low": 33.71,
         "high": 35.55,
         "sparse": false
       },
@@ -16704,24 +16705,24 @@
         "t": 18749,
         "date": "2021-05-02",
         "value": 34.56,
-        "low": 33.6,
-        "high": 35.5,
+        "low": 33.64,
+        "high": 35.54,
         "sparse": false
       },
       {
         "t": 18750,
         "date": "2021-05-03",
         "value": 34.52,
-        "low": 33.58,
-        "high": 35.43,
+        "low": 33.57,
+        "high": 35.53,
         "sparse": false
       },
       {
         "t": 18751,
         "date": "2021-05-04",
         "value": 34.48,
-        "low": 33.56,
-        "high": 35.38,
+        "low": 33.55,
+        "high": 35.48,
         "sparse": false
       },
       {
@@ -16729,7 +16730,7 @@
         "date": "2021-05-05",
         "value": 34.44,
         "low": 33.53,
-        "high": 35.32,
+        "high": 35.39,
         "sparse": false
       },
       {
@@ -16737,7 +16738,7 @@
         "date": "2021-05-06",
         "value": 34.4,
         "low": 33.48,
-        "high": 35.25,
+        "high": 35.32,
         "sparse": false
       },
       {
@@ -16745,7 +16746,7 @@
         "date": "2021-05-07",
         "value": 34.36,
         "low": 33.43,
-        "high": 35.23,
+        "high": 35.3,
         "sparse": false
       },
       {
@@ -16753,47 +16754,47 @@
         "date": "2021-05-08",
         "value": 34.32,
         "low": 33.42,
-        "high": 35.18,
+        "high": 35.26,
         "sparse": false
       },
       {
         "t": 18756,
         "date": "2021-05-09",
         "value": 34.28,
-        "low": 33.41,
-        "high": 35.15,
+        "low": 33.39,
+        "high": 35.23,
         "sparse": false
       },
       {
         "t": 18757,
         "date": "2021-05-10",
         "value": 34.24,
-        "low": 33.38,
-        "high": 35.11,
+        "low": 33.36,
+        "high": 35.15,
         "sparse": false
       },
       {
         "t": 18758,
         "date": "2021-05-11",
         "value": 34.2,
-        "low": 33.35,
-        "high": 35.05,
+        "low": 33.32,
+        "high": 35.08,
         "sparse": false
       },
       {
         "t": 18759,
         "date": "2021-05-12",
         "value": 34.15,
-        "low": 33.33,
-        "high": 34.97,
+        "low": 33.27,
+        "high": 35.01,
         "sparse": false
       },
       {
         "t": 18760,
         "date": "2021-05-13",
         "value": 34.11,
-        "low": 33.27,
-        "high": 34.95,
+        "low": 33.25,
+        "high": 34.93,
         "sparse": false
       },
       {
@@ -16801,23 +16802,23 @@
         "date": "2021-05-14",
         "value": 34.06,
         "low": 33.19,
-        "high": 34.93,
+        "high": 34.91,
         "sparse": false
       },
       {
         "t": 18762,
         "date": "2021-05-15",
         "value": 34.01,
-        "low": 33.12,
-        "high": 34.9,
+        "low": 33.14,
+        "high": 34.88,
         "sparse": false
       },
       {
         "t": 18763,
         "date": "2021-05-16",
         "value": 33.96,
-        "low": 33.09,
-        "high": 34.87,
+        "low": 33.11,
+        "high": 34.84,
         "sparse": false
       },
       {
@@ -16825,7 +16826,7 @@
         "date": "2021-05-17",
         "value": 33.91,
         "low": 33.06,
-        "high": 34.85,
+        "high": 34.8,
         "sparse": false
       },
       {
@@ -16833,7 +16834,7 @@
         "date": "2021-05-18",
         "value": 33.87,
         "low": 33.03,
-        "high": 34.82,
+        "high": 34.76,
         "sparse": false
       },
       {
@@ -16841,7 +16842,7 @@
         "date": "2021-05-19",
         "value": 33.82,
         "low": 32.98,
-        "high": 34.79,
+        "high": 34.72,
         "sparse": false
       },
       {
@@ -16849,15 +16850,15 @@
         "date": "2021-05-20",
         "value": 33.78,
         "low": 32.93,
-        "high": 34.69,
+        "high": 34.67,
         "sparse": false
       },
       {
         "t": 18768,
         "date": "2021-05-21",
         "value": 33.74,
-        "low": 32.87,
-        "high": 34.64,
+        "low": 32.88,
+        "high": 34.63,
         "sparse": false
       },
       {
@@ -16865,15 +16866,15 @@
         "date": "2021-05-22",
         "value": 33.71,
         "low": 32.84,
-        "high": 34.54,
+        "high": 34.59,
         "sparse": false
       },
       {
         "t": 18770,
         "date": "2021-05-23",
         "value": 33.67,
-        "low": 32.82,
-        "high": 34.5,
+        "low": 32.81,
+        "high": 34.54,
         "sparse": false
       },
       {
@@ -16881,30 +16882,30 @@
         "date": "2021-05-24",
         "value": 33.64,
         "low": 32.8,
-        "high": 34.46,
+        "high": 34.5,
         "sparse": false
       },
       {
         "t": 18772,
         "date": "2021-05-25",
         "value": 33.62,
-        "low": 32.8,
-        "high": 34.43,
+        "low": 32.79,
+        "high": 34.46,
         "sparse": false
       },
       {
         "t": 18773,
         "date": "2021-05-26",
         "value": 33.6,
-        "low": 32.79,
-        "high": 34.43,
+        "low": 32.8,
+        "high": 34.42,
         "sparse": false
       },
       {
         "t": 18774,
         "date": "2021-05-27",
         "value": 33.59,
-        "low": 32.79,
+        "low": 32.8,
         "high": 34.45,
         "sparse": false
       },
@@ -16912,40 +16913,40 @@
         "t": 18775,
         "date": "2021-05-28",
         "value": 33.58,
-        "low": 32.79,
-        "high": 34.48,
+        "low": 32.8,
+        "high": 34.45,
         "sparse": false
       },
       {
         "t": 18776,
         "date": "2021-05-29",
         "value": 33.57,
-        "low": 32.79,
-        "high": 34.48,
+        "low": 32.8,
+        "high": 34.49,
         "sparse": false
       },
       {
         "t": 18777,
         "date": "2021-05-30",
         "value": 33.57,
-        "low": 32.76,
-        "high": 34.45,
+        "low": 32.77,
+        "high": 34.46,
         "sparse": false
       },
       {
         "t": 18778,
         "date": "2021-05-31",
         "value": 33.58,
-        "low": 32.77,
-        "high": 34.42,
+        "low": 32.76,
+        "high": 34.43,
         "sparse": false
       },
       {
         "t": 18779,
         "date": "2021-06-01",
         "value": 33.58,
-        "low": 32.75,
-        "high": 34.41,
+        "low": 32.76,
+        "high": 34.42,
         "sparse": false
       },
       {
@@ -18216,16 +18217,16 @@
         "t": 18938,
         "date": "2021-11-07",
         "value": 36.67,
-        "low": 35.92,
-        "high": 37.44,
+        "low": 35.93,
+        "high": 37.43,
         "sparse": false
       },
       {
         "t": 18939,
         "date": "2021-11-08",
         "value": 36.73,
-        "low": 35.98,
-        "high": 37.52,
+        "low": 35.97,
+        "high": 37.51,
         "sparse": false
       },
       {
@@ -18240,31 +18241,31 @@
         "t": 18941,
         "date": "2021-11-10",
         "value": 36.86,
-        "low": 36.13,
-        "high": 37.66,
+        "low": 36.11,
+        "high": 37.65,
         "sparse": false
       },
       {
         "t": 18942,
         "date": "2021-11-11",
         "value": 36.93,
-        "low": 36.2,
-        "high": 37.73,
+        "low": 36.18,
+        "high": 37.72,
         "sparse": false
       },
       {
         "t": 18943,
         "date": "2021-11-12",
         "value": 37.0,
-        "low": 36.28,
-        "high": 37.79,
+        "low": 36.25,
+        "high": 37.78,
         "sparse": false
       },
       {
         "t": 18944,
         "date": "2021-11-13",
         "value": 37.06,
-        "low": 36.35,
+        "low": 36.32,
         "high": 37.85,
         "sparse": false
       },
@@ -18272,15 +18273,15 @@
         "t": 18945,
         "date": "2021-11-14",
         "value": 37.13,
-        "low": 36.42,
-        "high": 37.92,
+        "low": 36.39,
+        "high": 37.9,
         "sparse": false
       },
       {
         "t": 18946,
         "date": "2021-11-15",
         "value": 37.19,
-        "low": 36.48,
+        "low": 36.46,
         "high": 37.95,
         "sparse": false
       },
@@ -18288,7 +18289,7 @@
         "t": 18947,
         "date": "2021-11-16",
         "value": 37.25,
-        "low": 36.54,
+        "low": 36.53,
         "high": 37.99,
         "sparse": false
       },
@@ -18296,63 +18297,63 @@
         "t": 18948,
         "date": "2021-11-17",
         "value": 37.31,
-        "low": 36.61,
-        "high": 38.03,
+        "low": 36.59,
+        "high": 38.02,
         "sparse": false
       },
       {
         "t": 18949,
         "date": "2021-11-18",
         "value": 37.37,
-        "low": 36.67,
-        "high": 38.09,
+        "low": 36.66,
+        "high": 38.03,
         "sparse": false
       },
       {
         "t": 18950,
         "date": "2021-11-19",
         "value": 37.42,
-        "low": 36.74,
-        "high": 38.14,
+        "low": 36.72,
+        "high": 38.06,
         "sparse": false
       },
       {
         "t": 18951,
         "date": "2021-11-20",
         "value": 37.47,
-        "low": 36.8,
-        "high": 38.17,
+        "low": 36.78,
+        "high": 38.08,
         "sparse": false
       },
       {
         "t": 18952,
         "date": "2021-11-21",
         "value": 37.52,
-        "low": 36.85,
-        "high": 38.2,
+        "low": 36.83,
+        "high": 38.14,
         "sparse": false
       },
       {
         "t": 18953,
         "date": "2021-11-22",
         "value": 37.57,
-        "low": 36.91,
-        "high": 38.21,
+        "low": 36.88,
+        "high": 38.16,
         "sparse": false
       },
       {
         "t": 18954,
         "date": "2021-11-23",
         "value": 37.61,
-        "low": 36.97,
-        "high": 38.22,
+        "low": 36.92,
+        "high": 38.19,
         "sparse": false
       },
       {
         "t": 18955,
         "date": "2021-11-24",
         "value": 37.65,
-        "low": 37.0,
+        "low": 36.98,
         "high": 38.25,
         "sparse": false
       },
@@ -18360,7 +18361,7 @@
         "t": 18956,
         "date": "2021-11-25",
         "value": 37.69,
-        "low": 37.03,
+        "low": 37.04,
         "high": 38.29,
         "sparse": false
       },
@@ -18368,7 +18369,7 @@
         "t": 18957,
         "date": "2021-11-26",
         "value": 37.73,
-        "low": 37.07,
+        "low": 37.1,
         "high": 38.33,
         "sparse": false
       },
@@ -18376,7 +18377,7 @@
         "t": 18958,
         "date": "2021-11-27",
         "value": 37.76,
-        "low": 37.11,
+        "low": 37.15,
         "high": 38.35,
         "sparse": false
       },
@@ -18384,40 +18385,40 @@
         "t": 18959,
         "date": "2021-11-28",
         "value": 37.8,
-        "low": 37.15,
-        "high": 38.4,
+        "low": 37.18,
+        "high": 38.37,
         "sparse": false
       },
       {
         "t": 18960,
         "date": "2021-11-29",
         "value": 37.82,
-        "low": 37.19,
-        "high": 38.4,
+        "low": 37.21,
+        "high": 38.39,
         "sparse": false
       },
       {
         "t": 18961,
         "date": "2021-11-30",
         "value": 37.85,
-        "low": 37.21,
-        "high": 38.43,
+        "low": 37.25,
+        "high": 38.4,
         "sparse": false
       },
       {
         "t": 18962,
         "date": "2021-12-01",
         "value": 37.88,
-        "low": 37.24,
-        "high": 38.46,
+        "low": 37.29,
+        "high": 38.42,
         "sparse": false
       },
       {
         "t": 18963,
         "date": "2021-12-02",
         "value": 37.9,
-        "low": 37.26,
-        "high": 38.46,
+        "low": 37.3,
+        "high": 38.44,
         "sparse": false
       },
       {
@@ -18425,23 +18426,23 @@
         "date": "2021-12-03",
         "value": 37.92,
         "low": 37.3,
-        "high": 38.51,
+        "high": 38.47,
         "sparse": false
       },
       {
         "t": 18965,
         "date": "2021-12-04",
         "value": 37.94,
-        "low": 37.33,
-        "high": 38.53,
+        "low": 37.32,
+        "high": 38.48,
         "sparse": false
       },
       {
         "t": 18966,
         "date": "2021-12-05",
         "value": 37.96,
-        "low": 37.37,
-        "high": 38.52,
+        "low": 37.36,
+        "high": 38.51,
         "sparse": false
       },
       {
@@ -18449,14 +18450,14 @@
         "date": "2021-12-06",
         "value": 37.98,
         "low": 37.39,
-        "high": 38.54,
+        "high": 38.52,
         "sparse": false
       },
       {
         "t": 18968,
         "date": "2021-12-07",
         "value": 38.0,
-        "low": 37.42,
+        "low": 37.4,
         "high": 38.54,
         "sparse": false
       },
@@ -18464,8 +18465,8 @@
         "t": 18969,
         "date": "2021-12-08",
         "value": 38.02,
-        "low": 37.45,
-        "high": 38.56,
+        "low": 37.43,
+        "high": 38.55,
         "sparse": false
       },
       {
@@ -18473,7 +18474,7 @@
         "date": "2021-12-09",
         "value": 38.04,
         "low": 37.5,
-        "high": 38.59,
+        "high": 38.56,
         "sparse": false
       },
       {
@@ -18481,7 +18482,7 @@
         "date": "2021-12-10",
         "value": 38.07,
         "low": 37.53,
-        "high": 38.62,
+        "high": 38.6,
         "sparse": false
       },
       {
@@ -18489,54 +18490,54 @@
         "date": "2021-12-11",
         "value": 38.11,
         "low": 37.56,
-        "high": 38.67,
+        "high": 38.63,
         "sparse": false
       },
       {
         "t": 18973,
         "date": "2021-12-12",
         "value": 38.15,
-        "low": 37.59,
-        "high": 38.72,
+        "low": 37.58,
+        "high": 38.67,
         "sparse": false
       },
       {
         "t": 18974,
         "date": "2021-12-13",
         "value": 38.19,
-        "low": 37.65,
-        "high": 38.77,
+        "low": 37.64,
+        "high": 38.7,
         "sparse": false
       },
       {
         "t": 18975,
         "date": "2021-12-14",
         "value": 38.24,
-        "low": 37.71,
-        "high": 38.82,
+        "low": 37.72,
+        "high": 38.74,
         "sparse": false
       },
       {
         "t": 18976,
         "date": "2021-12-15",
         "value": 38.29,
-        "low": 37.78,
-        "high": 38.86,
+        "low": 37.79,
+        "high": 38.78,
         "sparse": false
       },
       {
         "t": 18977,
         "date": "2021-12-16",
         "value": 38.35,
-        "low": 37.84,
-        "high": 38.89,
+        "low": 37.86,
+        "high": 38.85,
         "sparse": false
       },
       {
         "t": 18978,
         "date": "2021-12-17",
         "value": 38.42,
-        "low": 37.92,
+        "low": 37.91,
         "high": 38.94,
         "sparse": false
       },
@@ -18544,39 +18545,39 @@
         "t": 18979,
         "date": "2021-12-18",
         "value": 38.48,
-        "low": 38.0,
-        "high": 38.98,
+        "low": 37.99,
+        "high": 39.0,
         "sparse": false
       },
       {
         "t": 18980,
         "date": "2021-12-19",
         "value": 38.55,
-        "low": 38.07,
-        "high": 39.03,
+        "low": 38.06,
+        "high": 39.06,
         "sparse": false
       },
       {
         "t": 18981,
         "date": "2021-12-20",
         "value": 38.61,
-        "low": 38.14,
-        "high": 39.11,
+        "low": 38.12,
+        "high": 39.13,
         "sparse": false
       },
       {
         "t": 18982,
         "date": "2021-12-21",
         "value": 38.68,
-        "low": 38.23,
-        "high": 39.17,
+        "low": 38.19,
+        "high": 39.2,
         "sparse": false
       },
       {
         "t": 18983,
         "date": "2021-12-22",
         "value": 38.75,
-        "low": 38.29,
+        "low": 38.25,
         "high": 39.26,
         "sparse": false
       },
@@ -18584,7 +18585,7 @@
         "t": 18984,
         "date": "2021-12-23",
         "value": 38.81,
-        "low": 38.34,
+        "low": 38.33,
         "high": 39.35,
         "sparse": false
       },
@@ -18592,7 +18593,7 @@
         "t": 18985,
         "date": "2021-12-24",
         "value": 38.88,
-        "low": 38.4,
+        "low": 38.39,
         "high": 39.42,
         "sparse": false
       },
@@ -18600,7 +18601,7 @@
         "t": 18986,
         "date": "2021-12-25",
         "value": 38.94,
-        "low": 38.47,
+        "low": 38.44,
         "high": 39.47,
         "sparse": false
       },
@@ -18608,16 +18609,16 @@
         "t": 18987,
         "date": "2021-12-26",
         "value": 39.01,
-        "low": 38.53,
-        "high": 39.52,
+        "low": 38.51,
+        "high": 39.54,
         "sparse": false
       },
       {
         "t": 18988,
         "date": "2021-12-27",
         "value": 39.07,
-        "low": 38.57,
-        "high": 39.58,
+        "low": 38.58,
+        "high": 39.6,
         "sparse": false
       },
       {
@@ -18625,7 +18626,7 @@
         "date": "2021-12-28",
         "value": 39.13,
         "low": 38.65,
-        "high": 39.62,
+        "high": 39.65,
         "sparse": false
       },
       {
@@ -18633,38 +18634,38 @@
         "date": "2021-12-29",
         "value": 39.19,
         "low": 38.72,
-        "high": 39.68,
+        "high": 39.72,
         "sparse": false
       },
       {
         "t": 18991,
         "date": "2021-12-30",
         "value": 39.25,
-        "low": 38.77,
-        "high": 39.75,
+        "low": 38.8,
+        "high": 39.78,
         "sparse": false
       },
       {
         "t": 18992,
         "date": "2021-12-31",
         "value": 39.32,
-        "low": 38.81,
-        "high": 39.82,
+        "low": 38.85,
+        "high": 39.83,
         "sparse": false
       },
       {
         "t": 18993,
         "date": "2022-01-01",
         "value": 39.38,
-        "low": 38.86,
-        "high": 39.89,
+        "low": 38.92,
+        "high": 39.9,
         "sparse": false
       },
       {
         "t": 18994,
         "date": "2022-01-02",
         "value": 39.44,
-        "low": 38.95,
+        "low": 38.99,
         "high": 39.96,
         "sparse": false
       },
@@ -18673,7 +18674,7 @@
         "date": "2022-01-03",
         "value": 39.5,
         "low": 39.04,
-        "high": 40.04,
+        "high": 40.02,
         "sparse": false
       },
       {
@@ -18681,38 +18682,38 @@
         "date": "2022-01-04",
         "value": 39.57,
         "low": 39.11,
-        "high": 40.1,
+        "high": 40.09,
         "sparse": false
       },
       {
         "t": 18997,
         "date": "2022-01-05",
         "value": 39.62,
-        "low": 39.16,
-        "high": 40.16,
+        "low": 39.17,
+        "high": 40.15,
         "sparse": false
       },
       {
         "t": 18998,
         "date": "2022-01-06",
         "value": 39.68,
-        "low": 39.23,
-        "high": 40.23,
+        "low": 39.22,
+        "high": 40.21,
         "sparse": false
       },
       {
         "t": 18999,
         "date": "2022-01-07",
         "value": 39.74,
-        "low": 39.3,
-        "high": 40.28,
+        "low": 39.26,
+        "high": 40.26,
         "sparse": false
       },
       {
         "t": 19000,
         "date": "2022-01-08",
         "value": 39.79,
-        "low": 39.36,
+        "low": 39.32,
         "high": 40.31,
         "sparse": false
       },
@@ -18720,24 +18721,24 @@
         "t": 19001,
         "date": "2022-01-09",
         "value": 39.83,
-        "low": 39.39,
-        "high": 40.36,
+        "low": 39.35,
+        "high": 40.34,
         "sparse": false
       },
       {
         "t": 19002,
         "date": "2022-01-10",
         "value": 39.88,
-        "low": 39.42,
-        "high": 40.4,
+        "low": 39.39,
+        "high": 40.39,
         "sparse": false
       },
       {
         "t": 19003,
         "date": "2022-01-11",
         "value": 39.91,
-        "low": 39.45,
-        "high": 40.44,
+        "low": 39.44,
+        "high": 40.43,
         "sparse": false
       },
       {
@@ -18752,8 +18753,8 @@
         "t": 19005,
         "date": "2022-01-13",
         "value": 39.98,
-        "low": 39.51,
-        "high": 40.49,
+        "low": 39.52,
+        "high": 40.48,
         "sparse": false
       },
       {
@@ -18761,7 +18762,7 @@
         "date": "2022-01-14",
         "value": 40.0,
         "low": 39.53,
-        "high": 40.5,
+        "high": 40.49,
         "sparse": false
       },
       {
@@ -18769,23 +18770,23 @@
         "date": "2022-01-15",
         "value": 40.02,
         "low": 39.57,
-        "high": 40.5,
+        "high": 40.51,
         "sparse": false
       },
       {
         "t": 19008,
         "date": "2022-01-16",
         "value": 40.04,
-        "low": 39.6,
-        "high": 40.52,
+        "low": 39.61,
+        "high": 40.53,
         "sparse": false
       },
       {
         "t": 19009,
         "date": "2022-01-17",
         "value": 40.06,
-        "low": 39.63,
-        "high": 40.53,
+        "low": 39.62,
+        "high": 40.54,
         "sparse": false
       },
       {
@@ -65532,6 +65533,14 @@
     },
     {
       "date": "2020-06-04",
+      "pollster": "Deltapoll",
+      "values": {
+        "Con": 50.0,
+        "Lab": 50.0
+      }
+    },
+    {
+      "date": "2020-06-04",
       "pollster": "Opinium",
       "values": {
         "Con": 43.0,
@@ -65541,14 +65550,6 @@
         "Grn": 3.0,
         "SNP": 5.0,
         "PC": 1.0
-      }
-    },
-    {
-      "date": "2020-06-04",
-      "pollster": "Deltapoll",
-      "values": {
-        "Con": 50.0,
-        "Lab": 50.0
       }
     },
     {
@@ -65644,6 +65645,14 @@
     },
     {
       "date": "2020-06-13",
+      "pollster": "Kantar",
+      "values": {
+        "Con": 42.0,
+        "Lab": 33.0
+      }
+    },
+    {
+      "date": "2020-06-13",
       "pollster": "Savanta",
       "values": {
         "Con": 40.0,
@@ -65654,14 +65663,6 @@
         "SNP": 5.0,
         "PC": 1.0,
         "Reform": 3.0
-      }
-    },
-    {
-      "date": "2020-06-13",
-      "pollster": "Kantar",
-      "values": {
-        "Con": 42.0,
-        "Lab": 33.0
       }
     },
     {
@@ -65825,6 +65826,14 @@
     },
     {
       "date": "2020-07-11",
+      "pollster": "Kantar",
+      "values": {
+        "Con": 39.0,
+        "Lab": 33.0
+      }
+    },
+    {
+      "date": "2020-07-11",
       "pollster": "Survation",
       "values": {
         "Con": 42.0,
@@ -65835,14 +65844,6 @@
         "SNP": 4.0,
         "PC": 1.0,
         "Reform": 1.0
-      }
-    },
-    {
-      "date": "2020-07-11",
-      "pollster": "Kantar",
-      "values": {
-        "Con": 39.0,
-        "Lab": 33.0
       }
     },
     {
@@ -66791,6 +66792,14 @@
     },
     {
       "date": "2020-12-12",
+      "pollster": "Kantar",
+      "values": {
+        "Con": 32.0,
+        "Lab": 34.0
+      }
+    },
+    {
+      "date": "2020-12-12",
       "pollster": "Savanta",
       "values": {
         "Con": 38.0,
@@ -66798,14 +66807,6 @@
         "LDem": 8.0,
         "Grn": 5.0,
         "SNP": 5.0
-      }
-    },
-    {
-      "date": "2020-12-12",
-      "pollster": "Kantar",
-      "values": {
-        "Con": 32.0,
-        "Lab": 34.0
       }
     },
     {
@@ -67036,6 +67037,14 @@
     },
     {
       "date": "2021-01-23",
+      "pollster": "Kantar",
+      "values": {
+        "Con": 37.0,
+        "Lab": 34.0
+      }
+    },
+    {
+      "date": "2021-01-23",
       "pollster": "Savanta",
       "values": {
         "Con": 40.0,
@@ -67044,14 +67053,6 @@
         "Grn": 3.0,
         "SNP": 5.0,
         "Reform": 2.0
-      }
-    },
-    {
-      "date": "2021-01-23",
-      "pollster": "Kantar",
-      "values": {
-        "Con": 37.0,
-        "Lab": 34.0
       }
     },
     {
@@ -67077,6 +67078,14 @@
     },
     {
       "date": "2021-01-25",
+      "pollster": "Kantar",
+      "values": {
+        "Con": 34.0,
+        "Lab": 37.0
+      }
+    },
+    {
+      "date": "2021-01-25",
       "pollster": "Redfield & Wilton",
       "values": {
         "Con": 42.0,
@@ -67085,14 +67094,6 @@
         "Grn": 4.0,
         "SNP": 5.0,
         "Reform": 3.0
-      }
-    },
-    {
-      "date": "2021-01-25",
-      "pollster": "Kantar",
-      "values": {
-        "Con": 34.0,
-        "Lab": 37.0
       }
     },
     {
@@ -67253,6 +67254,14 @@
     },
     {
       "date": "2021-02-20",
+      "pollster": "Kantar",
+      "values": {
+        "Con": 33.0,
+        "Lab": 33.0
+      }
+    },
+    {
+      "date": "2021-02-20",
       "pollster": "Savanta",
       "values": {
         "Con": 40.0,
@@ -67261,14 +67270,6 @@
         "Grn": 3.0,
         "SNP": 4.0,
         "Reform": 3.0
-      }
-    },
-    {
-      "date": "2021-02-20",
-      "pollster": "Kantar",
-      "values": {
-        "Con": 33.0,
-        "Lab": 33.0
       }
     },
     {
@@ -67287,6 +67288,14 @@
     },
     {
       "date": "2021-02-22",
+      "pollster": "Kantar",
+      "values": {
+        "Con": 33.0,
+        "Lab": 33.0
+      }
+    },
+    {
+      "date": "2021-02-22",
       "pollster": "Redfield & Wilton",
       "values": {
         "Con": 43.0,
@@ -67295,14 +67304,6 @@
         "Grn": 5.0,
         "SNP": 4.0,
         "Reform": 3.0
-      }
-    },
-    {
-      "date": "2021-02-22",
-      "pollster": "Kantar",
-      "values": {
-        "Con": 33.0,
-        "Lab": 33.0
       }
     },
     {
@@ -67781,6 +67782,14 @@
     },
     {
       "date": "2021-04-26",
+      "pollster": "Kantar",
+      "values": {
+        "Con": 31.0,
+        "Lab": 37.0
+      }
+    },
+    {
+      "date": "2021-04-26",
       "pollster": "Redfield & Wilton",
       "values": {
         "Con": 44.0,
@@ -67790,14 +67799,6 @@
         "SNP": 5.0,
         "PC": 1.0,
         "Reform": 3.0
-      }
-    },
-    {
-      "date": "2021-04-26",
-      "pollster": "Kantar",
-      "values": {
-        "Con": 31.0,
-        "Lab": 37.0
       }
     },
     {
@@ -69518,6 +69519,14 @@
     },
     {
       "date": "2021-12-13",
+      "pollster": "Kantar",
+      "values": {
+        "Con": 36.0,
+        "Lab": 33.0
+      }
+    },
+    {
+      "date": "2021-12-13",
       "pollster": "Redfield & Wilton",
       "values": {
         "Con": 32.0,
@@ -69526,14 +69535,6 @@
         "Grn": 8.0,
         "SNP": 4.0,
         "Reform": 7.0
-      }
-    },
-    {
-      "date": "2021-12-13",
-      "pollster": "Kantar",
-      "values": {
-        "Con": 36.0,
-        "Lab": 33.0
       }
     },
     {
