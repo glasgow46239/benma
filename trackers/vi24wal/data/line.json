@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "vi24wal",
     "subgroup": "",
-    "generated": "2026-06-09T16:30:35Z",
+    "generated": "2026-06-10T17:55:38Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,

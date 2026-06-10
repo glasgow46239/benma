@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "ldr24starmer",
     "subgroup": "",
-    "generated": "2026-06-09T16:20:20Z",
+    "generated": "2026-06-10T17:44:34Z",
     "bandwidthDays": 40,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
