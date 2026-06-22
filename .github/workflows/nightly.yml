@@ -27,6 +27,10 @@ jobs:
           for dir in trackers/*/; do
             config="${dir}config.json"
             if [ ! -f "$config" ]; then continue; fi
+            if ! python3 -c "import json; json.load(open('$config'))" 2>/dev/null; then
+              echo "Skipping $dir — invalid or empty config.json"
+              continue
+            fi
             pipeline=$(python3 -c "import json; print(json.load(open('$config')).get('pipeline','smooth'))")
             if [ "$pipeline" = "smooth" ]; then
               echo "Running smooth: $dir"
