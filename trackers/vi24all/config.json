@@ -1,7 +1,7 @@
 {
   "pipeline": "smooth",
   "trackerName": "UK VI by region",
-  "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQY797SnNrQzpin7dGAKW7PLLUOd0eSzQJV1-BxLbtZQnKg_H7LtIdkzTYFxlTaqBeYXVDQ4BPJnXhR/pub?gid=2022809453&single=true&output=csv",
+  "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRUV0qTNO_TaH0vyqyhqCgdo76BxF8W3oMfhLbgTucogF15cuT_EjGhzvCCynZ9FGe2EjrS5sXLE8ga/pub?gid=1956073066&single=true&output=csv",
   "subgroupColumn": 11,
   "smoothing": {
     "bandwidthDays": 40,
@@ -10,18 +10,19 @@
   },
   "skipPollsterPatterns": [],
   "subgroups": [
-  { "name": "London",           "value": "london",           "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
-  { "name": "Southern England", "value": "southern england", "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
-  { "name": "Northern England", "value": "northern england", "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
-  { "name": "Midlands",         "value": "midlands",         "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
-  { "name": "UK/GB",            "value": "uk/gb",            "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 40, "minPollsInWindow": 2 },
-  { "name": "Scotland",         "value": "scotland",         "barIncludeOther": false, "barParties": ["Con", "Lab", "LDem", "Grn", "Reform", "SNP"], "bandwidthDays": 60, "minPollsInWindow": 2,
+  { "name": "C2DE voters",           "value": "uk/gb, c2de",           "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
+  { "name": "London",           "value": "london, london",           "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
+  { "name": "Southern England", "value": "southern england, southern england", "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
+  { "name": "Northern England", "value": "northern england, northern england", "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
+  { "name": "Midlands",         "value": "midlands, midlands",         "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
+  { "name": "UK/GB",            "value": "uk/gb, overall",            "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 40, "minPollsInWindow": 2 },
+  { "name": "Scotland",         "value": "scotland, scotland",         "barIncludeOther": false, "barParties": ["Con", "Lab", "LDem", "Grn", "Reform", "SNP"], "bandwidthDays": 60, "minPollsInWindow": 2,
     "referenceElection": {
       "label": "2024 GE (Scotland)",
       "results": { "Con": 12.7, "Lab": 35.3, "LDem": 4.7, "SNP": 29.9, "Grn": 5.5, "Reform": 7.1 }
     }
   },
-  { "name": "Wales",            "value": "wales",            "barIncludeOther": false, "barParties": ["Con", "Lab", "LDem", "Grn", "Reform", "PC"],  "bandwidthDays": 60, "minPollsInWindow": 2,
+  { "name": "Wales",            "value": "wales, wales",            "barIncludeOther": false, "barParties": ["Con", "Lab", "LDem", "Grn", "Reform", "PC"],  "bandwidthDays": 60, "minPollsInWindow": 2,
     "referenceElection": {
       "label": "2024 GE (Wales)",
       "results": { "Con": 18.2, "Lab": 37.0, "LDem": 6.5, "PC": 14.8, "Grn": 4.7, "Reform": 16.9 }
@@ -56,13 +57,13 @@
     "barCsvPath":   "trackers/vi24all/data/bar.csv",
     "lineCsvPath":  "trackers/vi24all/data/line.csv",
     "subgroups": {
-      "london":           { "datawrapperLineChartId": "mcJSk", "datawrapperBarChartId": "" },
-      "southern england": { "datawrapperLineChartId": "uCins", "datawrapperBarChartId": "" },
-      "northern england": { "datawrapperLineChartId": "B2ehk", "datawrapperBarChartId": "" },
-      "midlands":         { "datawrapperLineChartId": "9MBJM", "datawrapperBarChartId": "" },
-      "uk/gb":            { "datawrapperLineChartId": "VkLJs", "datawrapperBarChartId": "aj89E" },
-      "scotland":         { "datawrapperLineChartId": "ICAdW", "datawrapperBarChartId": "Edu2a" },
-      "wales":            { "datawrapperLineChartId": "02tYQ", "datawrapperBarChartId": "PlQFH" }
+      "london, london":           { "datawrapperLineChartId": "mcJSk", "datawrapperBarChartId": "" },
+      "southern england, southern england": { "datawrapperLineChartId": "uCins", "datawrapperBarChartId": "" },
+      "northern england, northern england": { "datawrapperLineChartId": "B2ehk", "datawrapperBarChartId": "" },
+      "midlands, midlands":         { "datawrapperLineChartId": "9MBJM", "datawrapperBarChartId": "" },
+      "uk/gb, overall":            { "datawrapperLineChartId": "VkLJs", "datawrapperBarChartId": "aj89E" },
+      "scotland, scotland":         { "datawrapperLineChartId": "ICAdW", "datawrapperBarChartId": "Edu2a" },
+      "wales, wales":            { "datawrapperLineChartId": "02tYQ", "datawrapperBarChartId": "PlQFH" }
     }
   }
 }
