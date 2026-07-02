@@ -1,6 +1,6 @@
 {
   "pipeline": "smooth",
-  "trackerName": "Nigel Farage",
+  "trackerName": "Leadership view",
   "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRUV0qTNO_TaH0vyqyhqCgdo76BxF8W3oMfhLbgTucogF15cuT_EjGhzvCCynZ9FGe2EjrS5sXLE8ga/pub?gid=1873886643&single=true&output=csv",
   "subgroupColumn": 11,
   "smoothing": {
@@ -10,27 +10,22 @@
   },
   "skipPollsterPatterns": [],
   "subgroups": [
-    { "name": "65+",     "value": "65+",     "barIncludeOther": true, "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"], "bandwidthDays": 80, "minPollsInWindow": 2 },
-    { "name": "50-64",   "value": "50-64",   "barIncludeOther": true, "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"], "bandwidthDays": 80, "minPollsInWindow": 2 },
-    { "name": "35-49",   "value": "35-49",   "barIncludeOther": true, "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"], "bandwidthDays": 80, "minPollsInWindow": 2 },
-    { "name": "18-34",   "value": "18-34",   "barIncludeOther": true, "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"], "bandwidthDays": 80, "minPollsInWindow": 2 },
-    { "name": "Overall", "value": "overall", "barIncludeOther": true, "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"], "bandwidthDays": 80, "minPollsInWindow": 2 }
+    { "name": "65+",     "value": "65+",     "barIncludeOther": true, "barParties": ["Positive", "Negative", "Unsure"], "bandwidthDays": 80, "minPollsInWindow": 2 },
+    { "name": "50-64",   "value": "50-64",   "barIncludeOther": true, "barParties": ["Positive", "Negative", "Unsure"], "bandwidthDays": 80, "minPollsInWindow": 2 },
+    { "name": "35-49",   "value": "35-49",   "barIncludeOther": true, "barParties": ["Positive", "Negative", "Unsure"], "bandwidthDays": 80, "minPollsInWindow": 2 },
+    { "name": "18-34",   "value": "18-34",   "barIncludeOther": true, "barParties": ["Positive", "Negative", "Unsure"], "bandwidthDays": 80, "minPollsInWindow": 2 },
+    { "name": "Overall", "value": "overall", "barIncludeOther": true, "barParties": ["Positive", "Negative", "Unsure"], "bandwidthDays": 80, "minPollsInWindow": 2 }
   ],
   "historicalSeries": {
     "url": "https://raw.githubusercontent.com/glasgow46239/benma/main/trackers/vi19all/data/line-{subgroup}.csv",
     "labelSuffix": " (19-24)",
-    "parties": ["Con", "Lab", "LDem", "Ukip", "Grn", "SNP", "PC", "Reform"],
+    "parties": ["Positive", "Negative", "Unsure"],
     "matchSubgroup": true
   },
   "parties": [
-    { "name": "Con",    "col": 2,  "color": "#0087DC", "includeInLine": true, "includeInBar": true },
-    { "name": "Lab",    "col": 3,  "color": "#E4003B", "includeInLine": true, "includeInBar": true },
-    { "name": "LDem",   "col": 4,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
-    { "name": "Ukip",   "col": 5,  "color": "#6D3177", "includeInLine": true, "includeInBar": false },
-    { "name": "Grn",    "col": 6,  "color": "#00B140", "includeInLine": true, "includeInBar": true },
-    { "name": "SNP",    "col": 7,  "color": "#EEE03C", "includeInLine": false, "includeInBar": false },
-    { "name": "PC",     "col": 8,  "color": "#005B54", "includeInLine": false, "includeInBar": false },
-    { "name": "Reform", "col": 10, "color": "#12B6CF", "includeInLine": true, "includeInBar": true }
+    { "name": "Positive",    "col": 2,  "color": "#009076", "includeInLine": true, "includeInBar": true },
+    { "name": "Negative",    "col": 3,  "color": "#d45a49", "includeInLine": true, "includeInBar": true },
+    { "name": "Unsure",   "col": 4,  "color": "#D3D3D3", "includeInLine": true, "includeInBar": true }
   ],
   "referenceElection": {
     "label": "2024 general election",
