@@ -1,1 +1,51 @@
-asda
+{
+  "pipeline": "smooth",
+  "trackerName": "Nigel Farage",
+  "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRUV0qTNO_TaH0vyqyhqCgdo76BxF8W3oMfhLbgTucogF15cuT_EjGhzvCCynZ9FGe2EjrS5sXLE8ga/pub?gid=1873886643&single=true&output=csv",
+  "subgroupColumn": 11,
+  "smoothing": {
+    "bandwidthDays": 40,
+    "minPollsInWindow": 2,
+    "bootstrapIterations": 200
+  },
+  "skipPollsterPatterns": [],
+  "subgroups": [
+  { "name": "65+",           "value": "65+",           "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
+  { "name": "50-64",           "value": "50-64",           "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
+  { "name": "35-49",           "value": "35-49",           "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
+  { "name": "18-34",           "value": "50-64",           "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
+  { "name": "Overall",           "value": "overall",           "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
+  }
+],
+  "historicalSeries": {
+    "url": "https://raw.githubusercontent.com/glasgow46239/benma/main/trackers/vi19all/data/line-{subgroup}.csv",
+    "labelSuffix": " (19-24)",
+    "parties": ["Con", "Lab", "LDem", "Ukip", "Grn", "SNP", "PC", "Reform"],
+    "matchSubgroup": true
+  },
+  "parties": [
+    { "name": "Con",    "col": 2,  "color": "#0087DC", "includeInLine": true, "includeInBar": true },
+    { "name": "Lab",    "col": 3,  "color": "#E4003B", "includeInLine": true, "includeInBar": true },
+    { "name": "LDem",   "col": 4,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
+    { "name": "Ukip",   "col": 5,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
+    { "name": "Grn",    "col": 6,  "color": "#00B140", "includeInLine": true, "includeInBar": true },
+    { "name": "SNP",   "col": 7,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
+    { "name": "PC",   "col": 8,  "color": "#FAA61A", "includeInLine": true, "includeInBar": true },
+    { "name": "Reform", "col": 10, "color": "#12B6CF", "includeInLine": true, "includeInBar": true }
+  ],
+  "referenceElection": {
+    "label": "2024 general election",
+    "date": "04/07/2024",
+    "results": {
+      "Con": 24, "Lab": 35, "LDem": 13, "Grn": 7, "Reform": 15
+    }
+  },
+  "output": {
+    "lineJsonPath": "trackers/ldrXXfarage/data/line.json",
+    "barCsvPath":   "trackers/ldrXXfarage/data/bar.csv",
+    "lineCsvPath":  "trackers/ldrXXfarage/data/line.csv",
+    "subgroups": {
+      "wales, wales":            { "datawrapperLineChartId": "", "datawrapperBarChartId": "PlQFH" }
+    }
+  }
+}
