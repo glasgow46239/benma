@@ -15,7 +15,6 @@
   { "name": "35-49",           "value": "35-49",           "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
   { "name": "18-34",           "value": "50-64",           "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
   { "name": "Overall",           "value": "overall",           "barIncludeOther": true,  "barParties": ["Con", "Lab", "LDem", "Grn", "Reform"],        "bandwidthDays": 80, "minPollsInWindow": 2 },
-  }
 ],
   "historicalSeries": {
     "url": "https://raw.githubusercontent.com/glasgow46239/benma/main/trackers/vi19all/data/line-{subgroup}.csv",
