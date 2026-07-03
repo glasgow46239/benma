@@ -1,4 +1,4 @@
-date,Con,Con (low),Con (high),Lab,Lab (low),Lab (high),Con (poll),Lab (poll)
+date,Positive,Positive (low),Positive (high),Negative,Negative (low),Negative (high),Positive (poll),Negative (poll)
 2016-10-21,22.91,21.47,24.56,45.7,45.0,46.71,21.0,47.0
 2016-10-22,22.92,21.48,24.57,45.7,45.0,46.71,,
 2016-10-23,22.93,21.48,24.57,45.69,45.0,46.71,,

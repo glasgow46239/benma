@@ -1,4 +1,4 @@
-date,Con,Con (low),Con (high),Lab,Lab (low),Lab (high),Con (poll),Lab (poll)
+date,Positive,Positive (low),Positive (high),Negative,Negative (low),Negative (high),Positive (poll),Negative (poll)
 2024-07-05,19.63,17.89,21.37,50.74,44.14,57.21,23.0,44.0
 2024-07-06,19.63,17.93,21.35,50.68,44.15,57.16,15.0,73.0
 2024-07-07,19.63,17.96,21.34,50.63,44.16,57.11,,

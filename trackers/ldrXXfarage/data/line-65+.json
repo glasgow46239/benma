@@ -1,21 +1,21 @@
 {
   "meta": {
-    "trackerName": "Nigel Farage",
+    "trackerName": "Leadership view",
     "subgroup": "65+",
-    "generated": "2026-07-02T13:22:09Z",
+    "generated": "2026-07-03T08:54:38Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
-    "headline": "Lab lead (65+) at 48.0%, up 13.0 points since the 2024 general election",
-    "intro": "Latest poll: Opinium \u00b7 26 June 2026 \u00b7 Lab 48.0% \u00b7 Con 30.0%",
+    "headline": "Negative lead (65+) at 48.0%",
+    "intro": "Latest poll: Opinium \u00b7 26 June 2026 \u00b7 Negative 48.0% \u00b7 Positive 30.0%",
     "latestSmoothed": {
-      "Con": 31.27,
-      "Lab": 45.93
+      "Positive": 31.27,
+      "Negative": 45.93
     },
     "latestPollDate": "26-Jun-2026"
   },
   "series": {
-    "Con": [
+    "Positive": [
       {
         "t": 19909,
         "date": "2024-07-05",
@@ -5793,7 +5793,7 @@
         "sparse": false
       }
     ],
-    "Lab": [
+    "Negative": [
       {
         "t": 19909,
         "date": "2024-07-05",
@@ -11577,816 +11577,816 @@
       "date": "2024-07-05",
       "pollster": "Ipsos",
       "values": {
-        "Con": 27.0,
-        "Lab": 54.0
+        "Positive": 27.0,
+        "Negative": 54.0
       }
     },
     {
       "date": "2024-07-06",
       "pollster": "YouGov",
       "values": {
-        "Con": 37.0,
-        "Lab": 58.0
+        "Positive": 37.0,
+        "Negative": 58.0
       }
     },
     {
       "date": "2024-07-25",
       "pollster": "We Think",
       "values": {
-        "Con": 42.0,
-        "Lab": 49.0
+        "Positive": 42.0,
+        "Negative": 49.0
       }
     },
     {
       "date": "2024-07-30",
       "pollster": "YouGov",
       "values": {
-        "Con": 34.0,
-        "Lab": 60.0
+        "Positive": 34.0,
+        "Negative": 60.0
       }
     },
     {
       "date": "2024-07-31",
       "pollster": "Opinium",
       "values": {
-        "Con": 32.0,
-        "Lab": 39.0
+        "Positive": 32.0,
+        "Negative": 39.0
       }
     },
     {
       "date": "2024-08-05",
       "pollster": "YouGov",
       "values": {
-        "Con": 32.0,
-        "Lab": 65.0
+        "Positive": 32.0,
+        "Negative": 65.0
       }
     },
     {
       "date": "2024-08-07",
       "pollster": "BMG Research",
       "values": {
-        "Con": 30.0,
-        "Lab": 36.0
+        "Positive": 30.0,
+        "Negative": 36.0
       }
     },
     {
       "date": "2024-08-07",
       "pollster": "We Think",
       "values": {
-        "Con": 37.0,
-        "Lab": 42.0
+        "Positive": 37.0,
+        "Negative": 42.0
       }
     },
     {
       "date": "2024-08-14",
       "pollster": "Opinium",
       "values": {
-        "Con": 31.0,
-        "Lab": 41.0
+        "Positive": 31.0,
+        "Negative": 41.0
       }
     },
     {
       "date": "2024-08-28",
       "pollster": "YouGov",
       "values": {
-        "Con": 35.0,
-        "Lab": 62.0
+        "Positive": 35.0,
+        "Negative": 62.0
       }
     },
     {
       "date": "2024-08-29",
       "pollster": "BMG Research",
       "values": {
-        "Con": 35.0,
-        "Lab": 36.0
+        "Positive": 35.0,
+        "Negative": 36.0
       }
     },
     {
       "date": "2024-09-18",
       "pollster": "Opinium",
       "values": {
-        "Con": 34.0,
-        "Lab": 38.0
+        "Positive": 34.0,
+        "Negative": 38.0
       }
     },
     {
       "date": "2024-09-25",
       "pollster": "Opinium",
       "values": {
-        "Con": 37.0,
-        "Lab": 39.0
+        "Positive": 37.0,
+        "Negative": 39.0
       }
     },
     {
       "date": "2024-11-08",
       "pollster": "YouGov",
       "values": {
-        "Con": 40.0,
-        "Lab": 54.0
+        "Positive": 40.0,
+        "Negative": 54.0
       }
     },
     {
       "date": "2024-11-13",
       "pollster": "Opinium",
       "values": {
-        "Con": 28.0,
-        "Lab": 38.0
+        "Positive": 28.0,
+        "Negative": 38.0
       }
     },
     {
       "date": "2024-12-10",
       "pollster": "More in Common",
       "values": {
-        "Con": 34.0,
-        "Lab": 37.0
+        "Positive": 34.0,
+        "Negative": 37.0
       }
     },
     {
       "date": "2024-12-16",
       "pollster": "YouGov",
       "values": {
-        "Con": 35.0,
-        "Lab": 60.0
+        "Positive": 35.0,
+        "Negative": 60.0
       }
     },
     {
       "date": "2024-12-20",
       "pollster": "Opinium",
       "values": {
-        "Con": 37.0,
-        "Lab": 37.0
+        "Positive": 37.0,
+        "Negative": 37.0
       }
     },
     {
       "date": "2025-01-10",
       "pollster": "More in Common",
       "values": {
-        "Con": 32.0,
-        "Lab": 40.0
+        "Positive": 32.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-01-10",
       "pollster": "Opinium",
       "values": {
-        "Con": 38.0,
-        "Lab": 38.0
+        "Positive": 38.0,
+        "Negative": 38.0
       }
     },
     {
       "date": "2025-01-10",
       "pollster": "Opinium",
       "values": {
-        "Con": 38.0,
-        "Lab": 38.0
+        "Positive": 38.0,
+        "Negative": 38.0
       }
     },
     {
       "date": "2025-01-23",
       "pollster": "Opinium",
       "values": {
-        "Con": 32.0,
-        "Lab": 38.0
+        "Positive": 32.0,
+        "Negative": 38.0
       }
     },
     {
       "date": "2025-01-28",
       "pollster": "BMG Research",
       "values": {
-        "Con": 33.0,
-        "Lab": 35.0
+        "Positive": 33.0,
+        "Negative": 35.0
       }
     },
     {
       "date": "2025-02-07",
       "pollster": "Opinium",
       "values": {
-        "Con": 34.0,
-        "Lab": 37.0
+        "Positive": 34.0,
+        "Negative": 37.0
       }
     },
     {
       "date": "2025-02-07",
       "pollster": "Opinium",
       "values": {
-        "Con": 33.0,
-        "Lab": 38.0
+        "Positive": 33.0,
+        "Negative": 38.0
       }
     },
     {
       "date": "2025-03-21",
       "pollster": "Opinium",
       "values": {
-        "Con": 30.0,
-        "Lab": 40.0
+        "Positive": 30.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-03-21",
       "pollster": "Opinium",
       "values": {
-        "Con": 29.0,
-        "Lab": 41.0
+        "Positive": 29.0,
+        "Negative": 41.0
       }
     },
     {
       "date": "2025-03-27",
       "pollster": "BMG Research",
       "values": {
-        "Con": 30.0,
-        "Lab": 37.0
+        "Positive": 30.0,
+        "Negative": 37.0
       }
     },
     {
       "date": "2025-03-28",
       "pollster": "Opinium",
       "values": {
-        "Con": 28.0,
-        "Lab": 43.0
+        "Positive": 28.0,
+        "Negative": 43.0
       }
     },
     {
       "date": "2025-04-11",
       "pollster": "Opinium",
       "values": {
-        "Con": 30.0,
-        "Lab": 41.0
+        "Positive": 30.0,
+        "Negative": 41.0
       }
     },
     {
       "date": "2025-04-14",
       "pollster": "Focaldata",
       "values": {
-        "Con": 32.0,
-        "Lab": 45.0
+        "Positive": 32.0,
+        "Negative": 45.0
       }
     },
     {
       "date": "2025-04-21",
       "pollster": "More in Common",
       "values": {
-        "Con": 27.0,
-        "Lab": 45.0
+        "Positive": 27.0,
+        "Negative": 45.0
       }
     },
     {
       "date": "2025-04-25",
       "pollster": "Opinium",
       "values": {
-        "Con": 29.0,
-        "Lab": 42.0
+        "Positive": 29.0,
+        "Negative": 42.0
       }
     },
     {
       "date": "2025-04-27",
       "pollster": "More in Common",
       "values": {
-        "Con": 29.0,
-        "Lab": 42.0
+        "Positive": 29.0,
+        "Negative": 42.0
       }
     },
     {
       "date": "2025-05-02",
       "pollster": "Opinium",
       "values": {
-        "Con": 29.0,
-        "Lab": 41.0
+        "Positive": 29.0,
+        "Negative": 41.0
       }
     },
     {
       "date": "2025-05-02",
       "pollster": "Opinium",
       "values": {
-        "Con": 29.0,
-        "Lab": 42.0
+        "Positive": 29.0,
+        "Negative": 42.0
       }
     },
     {
       "date": "2025-05-04",
       "pollster": "More in Common",
       "values": {
-        "Con": 37.0,
-        "Lab": 36.0
+        "Positive": 37.0,
+        "Negative": 36.0
       }
     },
     {
       "date": "2025-05-08",
       "pollster": "BMG Research",
       "values": {
-        "Con": 38.0,
-        "Lab": 31.0
+        "Positive": 38.0,
+        "Negative": 31.0
       }
     },
     {
       "date": "2025-05-08",
       "pollster": "BMG Research",
       "values": {
-        "Con": 38.0,
-        "Lab": 31.0
+        "Positive": 38.0,
+        "Negative": 31.0
       }
     },
     {
       "date": "2025-05-16",
       "pollster": "Opinium",
       "values": {
-        "Con": 37.0,
-        "Lab": 40.0
+        "Positive": 37.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-05-28",
       "pollster": "BMG Research",
       "values": {
-        "Con": 40.0,
-        "Lab": 28.0
+        "Positive": 40.0,
+        "Negative": 28.0
       }
     },
     {
       "date": "2025-05-30",
       "pollster": "Opinium",
       "values": {
-        "Con": 35.0,
-        "Lab": 40.0
+        "Positive": 35.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-06-02",
       "pollster": "Survation",
       "values": {
-        "Con": 58.0,
-        "Lab": 29.0
+        "Positive": 58.0,
+        "Negative": 29.0
       }
     },
     {
       "date": "2025-06-09",
       "pollster": "More in Common",
       "values": {
-        "Con": 33.0,
-        "Lab": 43.0
+        "Positive": 33.0,
+        "Negative": 43.0
       }
     },
     {
       "date": "2025-06-13",
       "pollster": "Opinium",
       "values": {
-        "Con": 36.0,
-        "Lab": 40.0
+        "Positive": 36.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-06-27",
       "pollster": "Opinium",
       "values": {
-        "Con": 23.0,
-        "Lab": 22.0
+        "Positive": 23.0,
+        "Negative": 22.0
       }
     },
     {
       "date": "2025-07-07",
       "pollster": "More in Common",
       "values": {
-        "Con": 31.0,
-        "Lab": 47.0
+        "Positive": 31.0,
+        "Negative": 47.0
       }
     },
     {
       "date": "2025-07-11",
       "pollster": "Opinium",
       "values": {
-        "Con": 32.0,
-        "Lab": 40.0
+        "Positive": 32.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-07-14",
       "pollster": "YouGov",
       "values": {
-        "Con": 34.0,
-        "Lab": 60.0
+        "Positive": 34.0,
+        "Negative": 60.0
       }
     },
     {
       "date": "2025-07-25",
       "pollster": "Opinium",
       "values": {
-        "Con": 37.0,
-        "Lab": 40.0
+        "Positive": 37.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-08-03",
       "pollster": "Freshwater Strategy",
       "values": {
-        "Con": 42.0,
-        "Lab": 40.0
+        "Positive": 42.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-08-03",
       "pollster": "More in Common",
       "values": {
-        "Con": 35.0,
-        "Lab": 39.0
+        "Positive": 35.0,
+        "Negative": 39.0
       }
     },
     {
       "date": "2025-08-08",
       "pollster": "Opinium",
       "values": {
-        "Con": 37.0,
-        "Lab": 40.0
+        "Positive": 37.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-08-15",
       "pollster": "YouGov",
       "values": {
-        "Con": 46.0,
-        "Lab": 51.0
+        "Positive": 46.0,
+        "Negative": 51.0
       }
     },
     {
       "date": "2025-08-22",
       "pollster": "Opinium",
       "values": {
-        "Con": 37.0,
-        "Lab": 40.0
+        "Positive": 37.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-09-05",
       "pollster": "Opinium",
       "values": {
-        "Con": 35.0,
-        "Lab": 40.0
+        "Positive": 35.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-09-11",
       "pollster": "YouGov",
       "values": {
-        "Con": 46.0,
-        "Lab": 49.0
+        "Positive": 46.0,
+        "Negative": 49.0
       }
     },
     {
       "date": "2025-09-19",
       "pollster": "Opinium",
       "values": {
-        "Con": 33.0,
-        "Lab": 43.0
+        "Positive": 33.0,
+        "Negative": 43.0
       }
     },
     {
       "date": "2025-09-25",
       "pollster": "Survation",
       "values": {
-        "Con": 44.0,
-        "Lab": 40.0
+        "Positive": 44.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-09-26",
       "pollster": "Opinium",
       "values": {
-        "Con": 37.0,
-        "Lab": 44.0
+        "Positive": 37.0,
+        "Negative": 44.0
       }
     },
     {
       "date": "2025-09-29",
       "pollster": "YouGov",
       "values": {
-        "Con": 43.0,
-        "Lab": 55.0
+        "Positive": 43.0,
+        "Negative": 55.0
       }
     },
     {
       "date": "2025-10-03",
       "pollster": "Opinium",
       "values": {
-        "Con": 37.0,
-        "Lab": 43.0
+        "Positive": 37.0,
+        "Negative": 43.0
       }
     },
     {
       "date": "2025-10-07",
       "pollster": "B.E.N.M.A.",
       "values": {
-        "Con": 45.0,
-        "Lab": 40.0
+        "Positive": 45.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-10-12",
       "pollster": "B.E.N.M.A.",
       "values": {
-        "Con": 43.0,
-        "Lab": 40.0
+        "Positive": 43.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-10-19",
       "pollster": "B.E.N.M.A.",
       "values": {
-        "Con": 44.0,
-        "Lab": 40.0
+        "Positive": 44.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-10-24",
       "pollster": "Opinium",
       "values": {
-        "Con": 33.0,
-        "Lab": 44.0
+        "Positive": 33.0,
+        "Negative": 44.0
       }
     },
     {
       "date": "2025-11-07",
       "pollster": "Opinium",
       "values": {
-        "Con": 35.0,
-        "Lab": 40.0
+        "Positive": 35.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-11-07",
       "pollster": "Opinium",
       "values": {
-        "Con": 33.0,
-        "Lab": 42.0
+        "Positive": 33.0,
+        "Negative": 42.0
       }
     },
     {
       "date": "2025-11-12",
       "pollster": "B.E.N.M.A.",
       "values": {
-        "Con": 41.0,
-        "Lab": 40.0
+        "Positive": 41.0,
+        "Negative": 40.0
       }
     },
     {
       "date": "2025-11-21",
       "pollster": "Opinium",
       "values": {
-        "Con": 37.0,
-        "Lab": 45.0
+        "Positive": 37.0,
+        "Negative": 45.0
       }
     },
     {
       "date": "2025-11-28",
       "pollster": "Opinium",
       "values": {
-        "Con": 33.0,
-        "Lab": 43.0
+        "Positive": 33.0,
+        "Negative": 43.0
       }
     },
     {
       "date": "2025-12-01",
       "pollster": "More in Common",
       "values": {
-        "Con": 34.0,
-        "Lab": 44.0
+        "Positive": 34.0,
+        "Negative": 44.0
       }
     },
     {
       "date": "2025-12-02",
       "pollster": "Ipsos",
       "values": {
-        "Con": 37.0,
-        "Lab": 48.0
+        "Positive": 37.0,
+        "Negative": 48.0
       }
     },
     {
       "date": "2025-12-08",
       "pollster": "More in Common",
       "values": {
-        "Con": 34.0,
-        "Lab": 45.0
+        "Positive": 34.0,
+        "Negative": 45.0
       }
     },
     {
       "date": "2025-12-12",
       "pollster": "Opinium",
       "values": {
-        "Con": 33.0,
-        "Lab": 45.0
+        "Positive": 33.0,
+        "Negative": 45.0
       }
     },
     {
       "date": "2025-12-23",
       "pollster": "More in Common",
       "values": {
-        "Con": 33.0,
-        "Lab": 47.0
+        "Positive": 33.0,
+        "Negative": 47.0
       }
     },
     {
       "date": "2026-01-01",
       "pollster": "B.E.N.M.A.",
       "values": {
-        "Con": 34.0,
-        "Lab": 45.0
+        "Positive": 34.0,
+        "Negative": 45.0
       }
     },
     {
       "date": "2026-01-09",
       "pollster": "Opinium",
       "values": {
-        "Con": 34.0,
-        "Lab": 43.0
+        "Positive": 34.0,
+        "Negative": 43.0
       }
     },
     {
       "date": "2026-01-23",
       "pollster": "Opinium",
       "values": {
-        "Con": 34.0,
-        "Lab": 42.0
+        "Positive": 34.0,
+        "Negative": 42.0
       }
     },
     {
       "date": "2026-02-01",
       "pollster": "Freshwater Strategy",
       "values": {
-        "Con": 34.0,
-        "Lab": 45.0
+        "Positive": 34.0,
+        "Negative": 45.0
       }
     },
     {
       "date": "2026-02-06",
       "pollster": "Opinium",
       "values": {
-        "Con": 36.0,
-        "Lab": 42.0
+        "Positive": 36.0,
+        "Negative": 42.0
       }
     },
     {
       "date": "2026-02-06",
       "pollster": "Opinium",
       "values": {
-        "Con": 35.0,
-        "Lab": 42.0
+        "Positive": 35.0,
+        "Negative": 42.0
       }
     },
     {
       "date": "2026-02-10",
       "pollster": "More in Common",
       "values": {
-        "Con": 33.0,
-        "Lab": 44.0
+        "Positive": 33.0,
+        "Negative": 44.0
       }
     },
     {
       "date": "2026-02-11",
       "pollster": "YouGov",
       "values": {
-        "Con": 41.0,
-        "Lab": 52.0
+        "Positive": 41.0,
+        "Negative": 52.0
       }
     },
     {
       "date": "2026-02-25",
       "pollster": "B.E.N.M.A.",
       "values": {
-        "Con": 35.0,
-        "Lab": 45.0
+        "Positive": 35.0,
+        "Negative": 45.0
       }
     },
     {
       "date": "2026-02-27",
       "pollster": "Opinium",
       "values": {
-        "Con": 34.0,
-        "Lab": 44.0
+        "Positive": 34.0,
+        "Negative": 44.0
       }
     },
     {
       "date": "2026-03-05",
       "pollster": "Survation",
       "values": {
-        "Con": 42.0,
-        "Lab": 44.0
+        "Positive": 42.0,
+        "Negative": 44.0
       }
     },
     {
       "date": "2026-03-06",
       "pollster": "Opinium",
       "values": {
-        "Con": 33.0,
-        "Lab": 45.0
+        "Positive": 33.0,
+        "Negative": 45.0
       }
     },
     {
       "date": "2026-03-06",
       "pollster": "Opinium",
       "values": {
-        "Con": 32.0,
-        "Lab": 45.0
+        "Positive": 32.0,
+        "Negative": 45.0
       }
     },
     {
       "date": "2026-03-11",
       "pollster": "Ipsos",
       "values": {
-        "Con": 34.0,
-        "Lab": 57.0
+        "Positive": 34.0,
+        "Negative": 57.0
       }
     },
     {
       "date": "2026-03-20",
       "pollster": "Opinium",
       "values": {
-        "Con": 34.0,
-        "Lab": 44.0
+        "Positive": 34.0,
+        "Negative": 44.0
       }
     },
     {
       "date": "2026-03-20",
       "pollster": "Opinium",
       "values": {
-        "Con": 32.0,
-        "Lab": 44.0
+        "Positive": 32.0,
+        "Negative": 44.0
       }
     },
     {
       "date": "2026-03-23",
       "pollster": "YouGov",
       "values": {
-        "Con": 39.0,
-        "Lab": 56.0
+        "Positive": 39.0,
+        "Negative": 56.0
       }
     },
     {
       "date": "2026-03-24",
       "pollster": "B.E.N.M.A.",
       "values": {
-        "Con": 35.0,
-        "Lab": 47.0
+        "Positive": 35.0,
+        "Negative": 47.0
       }
     },
     {
       "date": "2026-03-26",
       "pollster": "BMG Research",
       "values": {
-        "Con": 33.0,
-        "Lab": 44.0
+        "Positive": 33.0,
+        "Negative": 44.0
       }
     },
     {
       "date": "2026-04-13",
       "pollster": "More in Common",
       "values": {
-        "Con": 29.0,
-        "Lab": 50.0
+        "Positive": 29.0,
+        "Negative": 50.0
       }
     },
     {
       "date": "2026-04-24",
       "pollster": "Opinium",
       "values": {
-        "Con": 35.0,
-        "Lab": 46.0
+        "Positive": 35.0,
+        "Negative": 46.0
       }
     },
     {
       "date": "2026-05-01",
       "pollster": "Opinium",
       "values": {
-        "Con": 31.0,
-        "Lab": 45.0
+        "Positive": 31.0,
+        "Negative": 45.0
       }
     },
     {
       "date": "2026-05-08",
       "pollster": "Opinium",
       "values": {
-        "Con": 33.0,
-        "Lab": 44.0
+        "Positive": 33.0,
+        "Negative": 44.0
       }
     },
     {
       "date": "2026-05-22",
       "pollster": "Opinium",
       "values": {
-        "Con": 33.0,
-        "Lab": 42.0
+        "Positive": 33.0,
+        "Negative": 42.0
       }
     },
     {
       "date": "2026-06-19",
       "pollster": "Opinium",
       "values": {
-        "Con": 30.0,
-        "Lab": 48.0
+        "Positive": 30.0,
+        "Negative": 48.0
       }
     },
     {
       "date": "2026-06-26",
       "pollster": "Opinium",
       "values": {
-        "Con": 30.0,
-        "Lab": 48.0
+        "Positive": 30.0,
+        "Negative": 48.0
       }
     }
   ]
