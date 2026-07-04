@@ -302,9 +302,9 @@
     }
   },
   "output": {
-    "lineJsonPath": "trackers/.../data/line.json",
-    "barCsvPath": "trackers/.../data/bar.csv",
-    "lineCsvPath": "trackers/.../data/line.csv",
+    "lineJsonPath": "trackers/vi_westminster_19/data/line.json",
+    "barCsvPath": "trackers/vi_westminster_19/data/bar.csv",
+    "lineCsvPath": "trackers/vi_westminster_19/data/line.csv",
     "subgroups": {
       "65+": {
         "datawrapperLineChartId": "",
