@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "trackerName": "Leadership view",
+    "subgroup": "Midlands",
+    "generated": "2026-07-04T22:46:31Z",
+    "bandwidthDays": 80,
+    "minPollsInWindow": 2,
+    "bootstrapIterations": 200,
+    "headline": "Negative lead (Midlands) at 25.0%",
+    "intro": "Latest poll: Opinium \u00b7 22 May 2026 \u00b7 Negative 25.0% \u00b7 Positive 21.0%",
+    "latestSmoothed": {},
+    "latestPollDate": "22-May-2026"
+  },
+  "series": {
+    "Positive": [
+      {
+        "t": 20595,
+        "date": "2026-05-22",
+        "value": null,
+        "low": null,
+        "high": null,
+        "sparse": false
+      }
+    ],
+    "Negative": [
+      {
+        "t": 20595,
+        "date": "2026-05-22",
+        "value": null,
+        "low": null,
+        "high": null,
+        "sparse": false
+      }
+    ]
+  },
+  "rawPolls": [
+    {
+      "date": "2026-05-22",
+      "pollster": "Opinium",
+      "values": {
+        "Positive": 21.0,
+        "Negative": 25.0
+      }
+    }
+  ]
+}

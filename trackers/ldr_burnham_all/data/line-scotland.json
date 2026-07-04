@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "trackerName": "Leadership view",
+    "subgroup": "Scotland",
+    "generated": "2026-07-04T22:46:34Z",
+    "bandwidthDays": 60,
+    "minPollsInWindow": 2,
+    "bootstrapIterations": 200,
+    "headline": "Negative lead (Scotland) at 23.0%",
+    "intro": "Latest poll: Opinium \u00b7 22 May 2026 \u00b7 Negative 23.0% \u00b7 Positive 20.0%",
+    "latestSmoothed": {},
+    "latestPollDate": "22-May-2026"
+  },
+  "series": {
+    "Positive": [
+      {
+        "t": 20595,
+        "date": "2026-05-22",
+        "value": null,
+        "low": null,
+        "high": null,
+        "sparse": false
+      }
+    ],
+    "Negative": [
+      {
+        "t": 20595,
+        "date": "2026-05-22",
+        "value": null,
+        "low": null,
+        "high": null,
+        "sparse": false
+      }
+    ]
+  },
+  "rawPolls": [
+    {
+      "date": "2026-05-22",
+      "pollster": "Opinium",
+      "values": {
+        "Positive": 20.0,
+        "Negative": 23.0
+      }
+    }
+  ]
+}
