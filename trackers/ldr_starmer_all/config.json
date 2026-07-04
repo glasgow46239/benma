@@ -1,0 +1,348 @@
+{
+  "pipeline": "smooth",
+  "trackerName": "Leadership view",
+  "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRUV0qTNO_TaH0vyqyhqCgdo76BxF8W3oMfhLbgTucogF15cuT_EjGhzvCCynZ9FGe2EjrS5sXLE8ga/pub?gid=1940291014&single=true&output=csv",
+  "subgroupColumn": 11,
+  "smoothing": {
+    "bandwidthDays": 80,
+    "minPollsInWindow": 4,
+    "bootstrapIterations": 200
+  },
+  "skipPollsterPatterns": [],
+  "subgroups": [
+    {
+      "name": "65+",
+      "value": "65+",
+      "barIncludeOther": true,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform"
+      ],
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2
+    },
+    {
+      "name": "50-64",
+      "value": "50-64",
+      "barIncludeOther": true,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform"
+      ],
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2
+    },
+    {
+      "name": "35-49",
+      "value": "35-49",
+      "barIncludeOther": true,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform"
+      ],
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2
+    },
+    {
+      "name": "18-34",
+      "value": "18-34",
+      "barIncludeOther": true,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform"
+      ],
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2
+    },
+    {
+      "name": "C2DE voters",
+      "value": "c2de",
+      "barIncludeOther": true,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform"
+      ],
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2
+    },
+    {
+      "name": "ABC1 voters",
+      "value": "abc1",
+      "barIncludeOther": true,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform"
+      ],
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2
+    },
+    {
+      "name": "London",
+      "value": "london",
+      "barIncludeOther": true,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform"
+      ],
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2
+    },
+    {
+      "name": "Southern England",
+      "value": "southern england",
+      "barIncludeOther": true,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform"
+      ],
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2
+    },
+    {
+      "name": "Northern England",
+      "value": "northern england",
+      "barIncludeOther": true,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform"
+      ],
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2
+    },
+    {
+      "name": "Midlands",
+      "value": "midlands",
+      "barIncludeOther": true,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform"
+      ],
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2
+    },
+    {
+      "name": "UK/GB",
+      "value": "overall",
+      "barIncludeOther": true,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform"
+      ],
+      "bandwidthDays": 40,
+      "minPollsInWindow": 2
+    },
+    {
+      "name": "Scotland",
+      "value": "scotland",
+      "barIncludeOther": false,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform",
+        "SNP"
+      ],
+      "bandwidthDays": 60,
+      "minPollsInWindow": 2,
+      "referenceElection": {
+        "label": "2024 GE (Scotland)",
+        "results": {
+          "Con": 12.7,
+          "Lab": 35.3,
+          "LDem": 4.7,
+          "SNP": 29.9,
+          "Grn": 5.5,
+          "Reform": 7.1
+        }
+      }
+    },
+    {
+      "name": "Wales",
+      "value": "wales",
+      "barIncludeOther": false,
+      "barParties": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform",
+        "PC"
+      ],
+      "bandwidthDays": 60,
+      "minPollsInWindow": 2,
+      "referenceElection": {
+        "label": "2024 GE (Wales)",
+        "results": {
+          "Con": 18.2,
+          "Lab": 37.0,
+          "LDem": 6.5,
+          "PC": 14.8,
+          "Grn": 4.7,
+          "Reform": 16.9
+        }
+      }
+    }
+  ],
+  "parties": [
+    {
+      "name": "Positive",
+      "col": 2,
+      "color": "#0087DC",
+      "includeInLine": true,
+      "includeInBar": true
+    },
+    {
+      "name": "Negative",
+      "col": 3,
+      "color": "#E4003B",
+      "includeInLine": true,
+      "includeInBar": true
+    },
+    {
+      "name": "Unsure",
+      "col": 4,
+      "color": "#FAA61A",
+      "includeInLine": true,
+      "includeInBar": true
+    },
+    {
+      "name": "Ukip",
+      "col": 5,
+      "color": "#6D3177",
+      "includeInLine": true,
+      "includeInBar": false
+    },
+    {
+      "name": "Grn",
+      "col": 6,
+      "color": "#00B140",
+      "includeInLine": true,
+      "includeInBar": true
+    },
+    {
+      "name": "SNP",
+      "col": 7,
+      "color": "#EEE03C",
+      "includeInLine": true,
+      "includeInBar": false
+    },
+    {
+      "name": "PC",
+      "col": 8,
+      "color": "#005B54",
+      "includeInLine": true,
+      "includeInBar": false
+    },
+    {
+      "name": "Reform",
+      "col": 10,
+      "color": "#12B6CF",
+      "includeInLine": true,
+      "includeInBar": true
+    }
+  ],
+  "referenceElection": {
+    "label": "2024 general election",
+    "date": "04/07/2024",
+    "results": {
+      "Con": 24,
+      "Lab": 35,
+      "LDem": 13,
+      "Grn": 7,
+      "Reform": 15
+    }
+  },
+  "output": {
+    "lineJsonPath": "trackers/ldr_farage_all/data/line.json",
+    "barCsvPath": "trackers/ldr_farage_all/data/bar.csv",
+    "lineCsvPath": "trackers/ldr_farage_all/data/line.csv",
+    "subgroups": {
+      "65+": {
+        "datawrapperLineChartId": "",
+        "datawrapperBarChartId": ""
+      },
+      "50-64": {
+        "datawrapperLineChartId": "",
+        "datawrapperBarChartId": ""
+      },
+      "35-49": {
+        "datawrapperLineChartId": "",
+        "datawrapperBarChartId": ""
+      },
+      "18-34": {
+        "datawrapperLineChartId": "",
+        "datawrapperBarChartId": ""
+      },
+      "c2de": {
+        "datawrapperLineChartId": "",
+        "datawrapperBarChartId": ""
+      },
+      "abc1": {
+        "datawrapperLineChartId": "",
+        "datawrapperBarChartId": ""
+      },
+      "london": {
+        "datawrapperLineChartId": "",
+        "datawrapperBarChartId": ""
+      },
+      "southern england": {
+        "datawrapperLineChartId": "",
+        "datawrapperBarChartId": ""
+      },
+      "northern england": {
+        "datawrapperLineChartId": "",
+        "datawrapperBarChartId": ""
+      },
+      "midlands": {
+        "datawrapperLineChartId": "",
+        "datawrapperBarChartId": ""
+      },
+      "overall": {
+        "datawrapperLineChartId": "Ce7e9",
+        "datawrapperBarChartId": ""
+      },
+      "scotland": {
+        "datawrapperLineChartId": "",
+        "datawrapperBarChartId": ""
+      },
+      "wales": {
+        "datawrapperLineChartId": "",
+        "datawrapperBarChartId": ""
+      }
+    }
+  }
+}
