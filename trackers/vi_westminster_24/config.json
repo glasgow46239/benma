@@ -1,7 +1,7 @@
 {
   "pipeline": "smooth",
   "trackerName": "Voting intention",
-  "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRUV0qTNO_TaH0vyqyhqCgdo76BxF8W3oMfhLbgTucogF15cuT_EjGhzvCCynZ9FGe2EjrS5sXLE8ga/pub?gid=1178868337&single=true&output=csv",
+  "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRUV0qTNO_TaH0vyqyhqCgdo76BxF8W3oMfhLbgTucogF15cuT_EjGhzvCCynZ9FGe2EjrS5sXLE8ga/pub?gid=1956073066&single=true&output=csv",
   "subgroupColumn": 11,
   "smoothing": {
     "bandwidthDays": 40,
