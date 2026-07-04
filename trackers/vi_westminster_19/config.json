@@ -217,21 +217,6 @@
       }
     }
   ],
-  "historicalSeries": {
-    "url": "",
-    "labelSuffix": " (2019-24)",
-    "parties": [
-      "Con",
-      "Lab",
-      "LDem",
-      "Ukip",
-      "Grn",
-      "SNP",
-      "PC",
-      "Reform"
-    ],
-    "matchSubgroup": true
-  },
   "parties": [
     {
       "name": "Con",
