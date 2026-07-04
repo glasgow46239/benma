@@ -4,8 +4,8 @@
   "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRUV0qTNO_TaH0vyqyhqCgdo76BxF8W3oMfhLbgTucogF15cuT_EjGhzvCCynZ9FGe2EjrS5sXLE8ga/pub?gid=163597144&single=true&output=csv",
   "subgroupColumn": 11,
   "smoothing": {
-    "bandwidthDays": 80,
-    "minPollsInWindow": 4,
+    "bandwidthDays": 240,
+    "minPollsInWindow": 2,
     "bootstrapIterations": 200
   },
   "skipPollsterPatterns": [],
