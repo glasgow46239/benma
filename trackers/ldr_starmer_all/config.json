@@ -287,9 +287,9 @@
     }
   },
   "output": {
-    "lineJsonPath": "trackers/ldr_farage_all/data/line.json",
-    "barCsvPath": "trackers/ldr_farage_all/data/bar.csv",
-    "lineCsvPath": "trackers/ldr_farage_all/data/line.csv",
+    "lineJsonPath": "trackers/ldr_starmer_all/data/line.json",
+    "barCsvPath": "trackers/ldr_starmer_all/data/bar.csv",
+    "lineCsvPath": "trackers/ldr_starmer_all/data/line.csv",
     "subgroups": {
       "65+": {
         "datawrapperLineChartId": "",
