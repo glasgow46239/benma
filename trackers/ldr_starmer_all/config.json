@@ -4,7 +4,7 @@
   "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRUV0qTNO_TaH0vyqyhqCgdo76BxF8W3oMfhLbgTucogF15cuT_EjGhzvCCynZ9FGe2EjrS5sXLE8ga/pub?gid=1940291014&single=true&output=csv",
   "subgroupColumn": 11,
   "smoothing": {
-    "bandwidthDays": 80,
+    "bandwidthDays": 120,
     "minPollsInWindow": 4,
     "bootstrapIterations": 200
   },
