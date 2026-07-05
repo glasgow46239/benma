@@ -161,7 +161,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 40,
+      "bandwidthDays": 80,
       "minPollsInWindow": 2
     },
     {
@@ -332,7 +332,7 @@
         "datawrapperBarChartId": ""
       },
       "overall": {
-        "datawrapperLineChartId": "r9jAM",
+        "datawrapperLineChartId": "kVbmP",
         "datawrapperBarChartId": ""
       },
       "scotland": {
