@@ -161,7 +161,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 40,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2
     },
     {
