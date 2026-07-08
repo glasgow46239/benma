@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "London",
-    "generated": "2026-07-08T08:24:32Z",
+    "generated": "2026-07-08T19:38:38Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
@@ -19,7 +19,8 @@
         "value": null,
         "low": null,
         "high": null,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       }
     ],
     "Negative": [
@@ -29,7 +30,8 @@
         "value": null,
         "low": null,
         "high": null,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       }
     ]
   },

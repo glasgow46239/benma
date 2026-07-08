@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "65+",
-    "generated": "2026-07-08T08:25:42Z",
+    "generated": "2026-07-08T19:39:49Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
@@ -22,7 +22,8 @@
         "value": 5.59,
         "low": 4.13,
         "high": 7.15,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20316,
@@ -30,7 +31,8 @@
         "value": 5.62,
         "low": 4.19,
         "high": 7.14,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20317,
@@ -38,7 +40,8 @@
         "value": 5.65,
         "low": 4.23,
         "high": 7.13,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20318,
@@ -46,7 +49,8 @@
         "value": 5.68,
         "low": 4.26,
         "high": 7.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20319,
@@ -54,7 +58,8 @@
         "value": 5.71,
         "low": 4.3,
         "high": 7.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20320,
@@ -62,7 +67,8 @@
         "value": 5.73,
         "low": 4.33,
         "high": 7.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20321,
@@ -70,7 +76,8 @@
         "value": 5.75,
         "low": 4.39,
         "high": 7.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20322,
@@ -78,7 +85,8 @@
         "value": 5.78,
         "low": 4.45,
         "high": 7.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20323,
@@ -86,7 +94,8 @@
         "value": 5.8,
         "low": 4.51,
         "high": 7.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20324,
@@ -94,7 +103,8 @@
         "value": 5.82,
         "low": 4.55,
         "high": 7.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20325,
@@ -102,7 +112,8 @@
         "value": 5.85,
         "low": 4.6,
         "high": 7.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20326,
@@ -110,7 +121,8 @@
         "value": 5.87,
         "low": 4.64,
         "high": 7.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20327,
@@ -118,7 +130,8 @@
         "value": 5.89,
         "low": 4.68,
         "high": 7.13,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20328,
@@ -126,7 +139,8 @@
         "value": 5.92,
         "low": 4.72,
         "high": 7.13,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20329,
@@ -134,7 +148,8 @@
         "value": 5.94,
         "low": 4.79,
         "high": 7.14,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20330,
@@ -142,7 +157,8 @@
         "value": 5.97,
         "low": 4.85,
         "high": 7.14,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20331,
@@ -150,7 +166,8 @@
         "value": 6.0,
         "low": 4.88,
         "high": 7.13,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20332,
@@ -158,7 +175,8 @@
         "value": 6.02,
         "low": 4.92,
         "high": 7.13,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20333,
@@ -166,7 +184,8 @@
         "value": 6.05,
         "low": 5.01,
         "high": 7.14,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20334,
@@ -174,7 +193,8 @@
         "value": 6.08,
         "low": 5.08,
         "high": 7.15,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20335,
@@ -182,7 +202,8 @@
         "value": 6.1,
         "low": 5.13,
         "high": 7.16,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20336,
@@ -190,7 +211,8 @@
         "value": 6.13,
         "low": 5.17,
         "high": 7.18,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20337,
@@ -198,7 +220,8 @@
         "value": 6.16,
         "low": 5.2,
         "high": 7.2,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20338,
@@ -206,7 +229,8 @@
         "value": 6.19,
         "low": 5.24,
         "high": 7.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20339,
@@ -214,7 +238,8 @@
         "value": 6.22,
         "low": 5.27,
         "high": 7.23,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20340,
@@ -222,7 +247,8 @@
         "value": 6.25,
         "low": 5.31,
         "high": 7.24,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20341,
@@ -230,7 +256,8 @@
         "value": 6.28,
         "low": 5.34,
         "high": 7.25,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20342,
@@ -238,7 +265,8 @@
         "value": 6.31,
         "low": 5.37,
         "high": 7.26,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20343,
@@ -246,7 +274,8 @@
         "value": 6.34,
         "low": 5.4,
         "high": 7.29,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20344,
@@ -254,7 +283,8 @@
         "value": 6.37,
         "low": 5.44,
         "high": 7.32,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20345,
@@ -262,7 +292,8 @@
         "value": 6.41,
         "low": 5.47,
         "high": 7.35,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20346,
@@ -270,7 +301,8 @@
         "value": 6.44,
         "low": 5.5,
         "high": 7.37,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20347,
@@ -278,7 +310,8 @@
         "value": 6.47,
         "low": 5.54,
         "high": 7.39,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20348,
@@ -286,7 +319,8 @@
         "value": 6.51,
         "low": 5.59,
         "high": 7.43,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20349,
@@ -294,7 +328,8 @@
         "value": 6.54,
         "low": 5.63,
         "high": 7.46,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20350,
@@ -302,7 +337,8 @@
         "value": 6.58,
         "low": 5.68,
         "high": 7.47,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20351,
@@ -310,7 +346,8 @@
         "value": 6.61,
         "low": 5.72,
         "high": 7.48,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20352,
@@ -318,7 +355,8 @@
         "value": 6.65,
         "low": 5.77,
         "high": 7.48,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20353,
@@ -326,7 +364,8 @@
         "value": 6.68,
         "low": 5.84,
         "high": 7.5,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20354,
@@ -334,7 +373,8 @@
         "value": 6.72,
         "low": 5.89,
         "high": 7.53,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20355,
@@ -342,7 +382,8 @@
         "value": 6.75,
         "low": 5.94,
         "high": 7.55,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20356,
@@ -350,7 +391,8 @@
         "value": 6.79,
         "low": 5.99,
         "high": 7.57,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20357,
@@ -358,7 +400,8 @@
         "value": 6.83,
         "low": 6.06,
         "high": 7.59,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20358,
@@ -366,7 +409,8 @@
         "value": 6.86,
         "low": 6.1,
         "high": 7.64,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20359,
@@ -374,7 +418,8 @@
         "value": 6.9,
         "low": 6.17,
         "high": 7.69,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20360,
@@ -382,7 +427,8 @@
         "value": 6.94,
         "low": 6.2,
         "high": 7.74,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20361,
@@ -390,7 +436,8 @@
         "value": 6.97,
         "low": 6.23,
         "high": 7.76,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20362,
@@ -398,7 +445,8 @@
         "value": 7.01,
         "low": 6.26,
         "high": 7.79,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20363,
@@ -406,7 +454,8 @@
         "value": 7.05,
         "low": 6.32,
         "high": 7.84,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20364,
@@ -414,7 +463,8 @@
         "value": 7.08,
         "low": 6.38,
         "high": 7.89,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20365,
@@ -422,7 +472,8 @@
         "value": 7.12,
         "low": 6.45,
         "high": 7.91,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20366,
@@ -430,7 +481,8 @@
         "value": 7.16,
         "low": 6.5,
         "high": 7.93,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20367,
@@ -438,7 +490,8 @@
         "value": 7.19,
         "low": 6.56,
         "high": 7.95,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20368,
@@ -446,7 +499,8 @@
         "value": 7.23,
         "low": 6.59,
         "high": 7.98,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20369,
@@ -454,7 +508,8 @@
         "value": 7.27,
         "low": 6.63,
         "high": 8.01,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20370,
@@ -462,7 +517,8 @@
         "value": 7.3,
         "low": 6.66,
         "high": 8.03,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20371,
@@ -470,7 +526,8 @@
         "value": 7.34,
         "low": 6.69,
         "high": 8.06,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20372,
@@ -478,7 +535,8 @@
         "value": 7.37,
         "low": 6.71,
         "high": 8.08,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20373,
@@ -486,7 +544,8 @@
         "value": 7.41,
         "low": 6.73,
         "high": 8.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20374,
@@ -494,7 +553,8 @@
         "value": 7.44,
         "low": 6.76,
         "high": 8.17,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20375,
@@ -502,7 +562,8 @@
         "value": 7.47,
         "low": 6.78,
         "high": 8.23,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20376,
@@ -510,7 +571,8 @@
         "value": 7.51,
         "low": 6.8,
         "high": 8.29,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20377,
@@ -518,7 +580,8 @@
         "value": 7.54,
         "low": 6.83,
         "high": 8.34,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20378,
@@ -526,7 +589,8 @@
         "value": 7.57,
         "low": 6.85,
         "high": 8.37,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20379,
@@ -534,7 +598,8 @@
         "value": 7.6,
         "low": 6.87,
         "high": 8.4,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20380,
@@ -542,7 +607,8 @@
         "value": 7.63,
         "low": 6.89,
         "high": 8.43,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20381,
@@ -550,7 +616,8 @@
         "value": 7.66,
         "low": 6.93,
         "high": 8.45,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20382,
@@ -558,7 +625,8 @@
         "value": 7.69,
         "low": 6.94,
         "high": 8.48,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20383,
@@ -566,7 +634,8 @@
         "value": 7.72,
         "low": 6.95,
         "high": 8.51,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20384,
@@ -574,7 +643,8 @@
         "value": 7.75,
         "low": 6.96,
         "high": 8.53,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20385,
@@ -582,7 +652,8 @@
         "value": 7.78,
         "low": 6.96,
         "high": 8.56,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20386,
@@ -590,7 +661,8 @@
         "value": 7.81,
         "low": 6.98,
         "high": 8.59,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20387,
@@ -598,7 +670,8 @@
         "value": 7.84,
         "low": 7.01,
         "high": 8.61,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20388,
@@ -606,7 +679,8 @@
         "value": 7.87,
         "low": 7.03,
         "high": 8.62,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20389,
@@ -614,7 +688,8 @@
         "value": 7.89,
         "low": 7.06,
         "high": 8.64,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20390,
@@ -622,7 +697,8 @@
         "value": 7.92,
         "low": 7.08,
         "high": 8.66,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20391,
@@ -630,7 +706,8 @@
         "value": 7.95,
         "low": 7.09,
         "high": 8.68,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20392,
@@ -638,7 +715,8 @@
         "value": 7.97,
         "low": 7.11,
         "high": 8.71,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20393,
@@ -646,7 +724,8 @@
         "value": 8.0,
         "low": 7.12,
         "high": 8.72,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20394,
@@ -654,7 +733,8 @@
         "value": 8.03,
         "low": 7.14,
         "high": 8.73,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20395,
@@ -662,7 +742,8 @@
         "value": 8.05,
         "low": 7.16,
         "high": 8.75,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20396,
@@ -670,7 +751,8 @@
         "value": 8.08,
         "low": 7.17,
         "high": 8.77,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20397,
@@ -678,7 +760,8 @@
         "value": 8.11,
         "low": 7.19,
         "high": 8.78,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20398,
@@ -686,7 +769,8 @@
         "value": 8.13,
         "low": 7.2,
         "high": 8.8,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20399,
@@ -694,7 +778,8 @@
         "value": 8.16,
         "low": 7.22,
         "high": 8.81,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20400,
@@ -702,7 +787,8 @@
         "value": 8.19,
         "low": 7.25,
         "high": 8.83,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20401,
@@ -710,7 +796,8 @@
         "value": 8.22,
         "low": 7.29,
         "high": 8.86,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20402,
@@ -718,7 +805,8 @@
         "value": 8.25,
         "low": 7.33,
         "high": 8.91,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20403,
@@ -726,7 +814,8 @@
         "value": 8.28,
         "low": 7.35,
         "high": 8.93,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20404,
@@ -734,7 +823,8 @@
         "value": 8.31,
         "low": 7.38,
         "high": 8.96,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20405,
@@ -742,7 +832,8 @@
         "value": 8.34,
         "low": 7.4,
         "high": 9.01,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20406,
@@ -750,7 +841,8 @@
         "value": 8.37,
         "low": 7.43,
         "high": 9.06,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20407,
@@ -758,7 +850,8 @@
         "value": 8.4,
         "low": 7.45,
         "high": 9.11,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20408,
@@ -766,7 +859,8 @@
         "value": 8.43,
         "low": 7.48,
         "high": 9.14,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20409,
@@ -774,7 +868,8 @@
         "value": 8.46,
         "low": 7.5,
         "high": 9.17,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20410,
@@ -782,7 +877,8 @@
         "value": 8.49,
         "low": 7.53,
         "high": 9.21,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20411,
@@ -790,7 +886,8 @@
         "value": 8.52,
         "low": 7.57,
         "high": 9.26,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20412,
@@ -798,7 +895,8 @@
         "value": 8.56,
         "low": 7.6,
         "high": 9.3,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20413,
@@ -806,7 +904,8 @@
         "value": 8.59,
         "low": 7.63,
         "high": 9.33,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20414,
@@ -814,7 +913,8 @@
         "value": 8.62,
         "low": 7.65,
         "high": 9.36,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20415,
@@ -822,7 +922,8 @@
         "value": 8.66,
         "low": 7.68,
         "high": 9.42,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20416,
@@ -830,7 +931,8 @@
         "value": 8.69,
         "low": 7.72,
         "high": 9.46,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20417,
@@ -838,7 +940,8 @@
         "value": 8.72,
         "low": 7.75,
         "high": 9.5,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20418,
@@ -846,7 +949,8 @@
         "value": 8.75,
         "low": 7.78,
         "high": 9.52,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20419,
@@ -854,7 +958,8 @@
         "value": 8.79,
         "low": 7.82,
         "high": 9.54,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20420,
@@ -862,7 +967,8 @@
         "value": 8.82,
         "low": 7.85,
         "high": 9.55,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20421,
@@ -870,7 +976,8 @@
         "value": 8.85,
         "low": 7.89,
         "high": 9.56,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20422,
@@ -878,7 +985,8 @@
         "value": 8.88,
         "low": 7.94,
         "high": 9.58,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20423,
@@ -886,7 +994,8 @@
         "value": 8.92,
         "low": 8.0,
         "high": 9.62,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20424,
@@ -894,7 +1003,8 @@
         "value": 8.95,
         "low": 8.04,
         "high": 9.64,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20425,
@@ -902,7 +1012,8 @@
         "value": 8.98,
         "low": 8.08,
         "high": 9.65,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20426,
@@ -910,7 +1021,8 @@
         "value": 9.01,
         "low": 8.12,
         "high": 9.66,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20427,
@@ -918,7 +1030,8 @@
         "value": 9.04,
         "low": 8.16,
         "high": 9.68,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20428,
@@ -926,7 +1039,8 @@
         "value": 9.07,
         "low": 8.2,
         "high": 9.71,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20429,
@@ -934,7 +1048,8 @@
         "value": 9.09,
         "low": 8.23,
         "high": 9.74,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20430,
@@ -942,7 +1057,8 @@
         "value": 9.12,
         "low": 8.27,
         "high": 9.76,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20431,
@@ -950,7 +1066,8 @@
         "value": 9.15,
         "low": 8.31,
         "high": 9.79,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20432,
@@ -958,7 +1075,8 @@
         "value": 9.17,
         "low": 8.36,
         "high": 9.83,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20433,
@@ -966,7 +1084,8 @@
         "value": 9.19,
         "low": 8.4,
         "high": 9.86,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20434,
@@ -974,7 +1093,8 @@
         "value": 9.22,
         "low": 8.43,
         "high": 9.89,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20435,
@@ -982,7 +1102,8 @@
         "value": 9.24,
         "low": 8.47,
         "high": 9.92,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20436,
@@ -990,7 +1111,8 @@
         "value": 9.25,
         "low": 8.51,
         "high": 9.93,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20437,
@@ -998,7 +1120,8 @@
         "value": 9.27,
         "low": 8.55,
         "high": 9.95,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20438,
@@ -1006,7 +1129,8 @@
         "value": 9.29,
         "low": 8.58,
         "high": 9.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20439,
@@ -1014,7 +1138,8 @@
         "value": 9.3,
         "low": 8.6,
         "high": 9.97,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20440,
@@ -1022,7 +1147,8 @@
         "value": 9.32,
         "low": 8.61,
         "high": 9.98,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20441,
@@ -1030,7 +1156,8 @@
         "value": 9.33,
         "low": 8.65,
         "high": 9.99,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20442,
@@ -1038,7 +1165,8 @@
         "value": 9.34,
         "low": 8.66,
         "high": 10.03,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20443,
@@ -1046,7 +1174,8 @@
         "value": 9.35,
         "low": 8.67,
         "high": 10.03,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20444,
@@ -1054,7 +1183,8 @@
         "value": 9.37,
         "low": 8.71,
         "high": 10.03,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20445,
@@ -1062,7 +1192,8 @@
         "value": 9.38,
         "low": 8.74,
         "high": 10.03,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20446,
@@ -1070,7 +1201,8 @@
         "value": 9.39,
         "low": 8.76,
         "high": 10.03,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20447,
@@ -1078,7 +1210,8 @@
         "value": 9.4,
         "low": 8.78,
         "high": 10.02,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20448,
@@ -1086,7 +1219,8 @@
         "value": 9.41,
         "low": 8.81,
         "high": 10.02,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20449,
@@ -1094,7 +1228,8 @@
         "value": 9.42,
         "low": 8.82,
         "high": 10.03,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20450,
@@ -1102,7 +1237,8 @@
         "value": 9.43,
         "low": 8.83,
         "high": 10.03,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20451,
@@ -1110,7 +1246,8 @@
         "value": 9.44,
         "low": 8.84,
         "high": 10.04,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20452,
@@ -1118,7 +1255,8 @@
         "value": 9.45,
         "low": 8.87,
         "high": 10.06,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20453,
@@ -1126,7 +1264,8 @@
         "value": 9.46,
         "low": 8.89,
         "high": 10.08,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20454,
@@ -1134,7 +1273,8 @@
         "value": 9.48,
         "low": 8.9,
         "high": 10.1,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20455,
@@ -1142,7 +1282,8 @@
         "value": 9.49,
         "low": 8.91,
         "high": 10.14,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20456,
@@ -1150,7 +1291,8 @@
         "value": 9.51,
         "low": 8.92,
         "high": 10.14,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20457,
@@ -1158,7 +1300,8 @@
         "value": 9.52,
         "low": 8.94,
         "high": 10.17,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20458,
@@ -1166,7 +1309,8 @@
         "value": 9.54,
         "low": 8.95,
         "high": 10.21,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20459,
@@ -1174,7 +1318,8 @@
         "value": 9.56,
         "low": 8.99,
         "high": 10.26,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20460,
@@ -1182,7 +1327,8 @@
         "value": 9.58,
         "low": 9.02,
         "high": 10.27,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20461,
@@ -1190,7 +1336,8 @@
         "value": 9.6,
         "low": 9.04,
         "high": 10.29,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20462,
@@ -1198,7 +1345,8 @@
         "value": 9.63,
         "low": 9.05,
         "high": 10.38,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20463,
@@ -1206,7 +1354,8 @@
         "value": 9.65,
         "low": 9.06,
         "high": 10.38,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20464,
@@ -1214,7 +1363,8 @@
         "value": 9.68,
         "low": 9.08,
         "high": 10.38,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20465,
@@ -1222,7 +1372,8 @@
         "value": 9.71,
         "low": 9.1,
         "high": 10.37,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20466,
@@ -1230,7 +1381,8 @@
         "value": 9.73,
         "low": 9.1,
         "high": 10.4,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20467,
@@ -1238,7 +1390,8 @@
         "value": 9.76,
         "low": 9.12,
         "high": 10.44,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20468,
@@ -1246,7 +1399,8 @@
         "value": 9.79,
         "low": 9.14,
         "high": 10.46,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20469,
@@ -1254,7 +1408,8 @@
         "value": 9.82,
         "low": 9.16,
         "high": 10.51,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20470,
@@ -1262,7 +1417,8 @@
         "value": 9.86,
         "low": 9.19,
         "high": 10.55,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20471,
@@ -1270,7 +1426,8 @@
         "value": 9.89,
         "low": 9.22,
         "high": 10.58,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20472,
@@ -1278,7 +1435,8 @@
         "value": 9.92,
         "low": 9.23,
         "high": 10.62,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20473,
@@ -1286,7 +1444,8 @@
         "value": 9.95,
         "low": 9.24,
         "high": 10.66,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20474,
@@ -1294,7 +1453,8 @@
         "value": 9.98,
         "low": 9.28,
         "high": 10.68,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20475,
@@ -1302,7 +1462,8 @@
         "value": 10.01,
         "low": 9.31,
         "high": 10.72,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20476,
@@ -1310,7 +1471,8 @@
         "value": 10.05,
         "low": 9.35,
         "high": 10.76,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20477,
@@ -1318,7 +1480,8 @@
         "value": 10.08,
         "low": 9.38,
         "high": 10.82,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20478,
@@ -1326,7 +1489,8 @@
         "value": 10.11,
         "low": 9.4,
         "high": 10.88,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20479,
@@ -1334,7 +1498,8 @@
         "value": 10.14,
         "low": 9.41,
         "high": 10.93,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20480,
@@ -1342,7 +1507,8 @@
         "value": 10.16,
         "low": 9.41,
         "high": 10.98,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20481,
@@ -1350,7 +1516,8 @@
         "value": 10.19,
         "low": 9.44,
         "high": 10.98,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20482,
@@ -1358,7 +1525,8 @@
         "value": 10.22,
         "low": 9.45,
         "high": 10.98,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20483,
@@ -1366,7 +1534,8 @@
         "value": 10.24,
         "low": 9.46,
         "high": 11.01,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20484,
@@ -1374,7 +1543,8 @@
         "value": 10.27,
         "low": 9.46,
         "high": 11.05,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20485,
@@ -1382,7 +1552,8 @@
         "value": 10.29,
         "low": 9.49,
         "high": 11.09,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20486,
@@ -1390,7 +1561,8 @@
         "value": 10.32,
         "low": 9.5,
         "high": 11.13,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20487,
@@ -1398,7 +1570,8 @@
         "value": 10.34,
         "low": 9.5,
         "high": 11.15,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20488,
@@ -1406,7 +1579,8 @@
         "value": 10.36,
         "low": 9.5,
         "high": 11.19,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20489,
@@ -1414,7 +1588,8 @@
         "value": 10.38,
         "low": 9.5,
         "high": 11.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20490,
@@ -1422,7 +1597,8 @@
         "value": 10.4,
         "low": 9.51,
         "high": 11.24,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20491,
@@ -1430,7 +1606,8 @@
         "value": 10.42,
         "low": 9.51,
         "high": 11.27,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20492,
@@ -1438,7 +1615,8 @@
         "value": 10.44,
         "low": 9.51,
         "high": 11.29,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20493,
@@ -1446,7 +1624,8 @@
         "value": 10.46,
         "low": 9.51,
         "high": 11.31,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20494,
@@ -1454,7 +1633,8 @@
         "value": 10.47,
         "low": 9.54,
         "high": 11.33,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20495,
@@ -1462,7 +1642,8 @@
         "value": 10.49,
         "low": 9.58,
         "high": 11.35,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20496,
@@ -1470,7 +1651,8 @@
         "value": 10.5,
         "low": 9.6,
         "high": 11.37,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20497,
@@ -1478,7 +1660,8 @@
         "value": 10.51,
         "low": 9.61,
         "high": 11.38,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20498,
@@ -1486,7 +1669,8 @@
         "value": 10.53,
         "low": 9.62,
         "high": 11.39,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20499,
@@ -1494,7 +1678,8 @@
         "value": 10.54,
         "low": 9.63,
         "high": 11.4,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20500,
@@ -1502,7 +1687,8 @@
         "value": 10.55,
         "low": 9.64,
         "high": 11.41,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20501,
@@ -1510,7 +1696,8 @@
         "value": 10.56,
         "low": 9.64,
         "high": 11.42,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20502,
@@ -1518,7 +1705,8 @@
         "value": 10.57,
         "low": 9.65,
         "high": 11.42,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20503,
@@ -1526,7 +1714,8 @@
         "value": 10.58,
         "low": 9.66,
         "high": 11.43,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20504,
@@ -1534,7 +1723,8 @@
         "value": 10.59,
         "low": 9.66,
         "high": 11.44,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20505,
@@ -1542,7 +1732,8 @@
         "value": 10.6,
         "low": 9.67,
         "high": 11.44,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20506,
@@ -1550,7 +1741,8 @@
         "value": 10.61,
         "low": 9.68,
         "high": 11.45,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20507,
@@ -1558,7 +1750,8 @@
         "value": 10.62,
         "low": 9.69,
         "high": 11.45,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20508,
@@ -1566,7 +1759,8 @@
         "value": 10.63,
         "low": 9.7,
         "high": 11.45,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20509,
@@ -1574,7 +1768,8 @@
         "value": 10.64,
         "low": 9.71,
         "high": 11.48,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20510,
@@ -1582,7 +1777,8 @@
         "value": 10.65,
         "low": 9.72,
         "high": 11.5,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20511,
@@ -1590,7 +1786,8 @@
         "value": 10.66,
         "low": 9.73,
         "high": 11.53,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20512,
@@ -1598,7 +1795,8 @@
         "value": 10.67,
         "low": 9.74,
         "high": 11.56,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20513,
@@ -1606,7 +1804,8 @@
         "value": 10.68,
         "low": 9.75,
         "high": 11.59,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20514,
@@ -1614,7 +1813,8 @@
         "value": 10.69,
         "low": 9.76,
         "high": 11.62,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20515,
@@ -1622,7 +1822,8 @@
         "value": 10.7,
         "low": 9.77,
         "high": 11.64,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20516,
@@ -1630,7 +1831,8 @@
         "value": 10.71,
         "low": 9.78,
         "high": 11.65,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20517,
@@ -1638,7 +1840,8 @@
         "value": 10.72,
         "low": 9.79,
         "high": 11.66,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20518,
@@ -1646,7 +1849,8 @@
         "value": 10.73,
         "low": 9.81,
         "high": 11.67,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20519,
@@ -1654,7 +1858,8 @@
         "value": 10.74,
         "low": 9.82,
         "high": 11.68,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20520,
@@ -1662,7 +1867,8 @@
         "value": 10.75,
         "low": 9.83,
         "high": 11.69,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20521,
@@ -1670,7 +1876,8 @@
         "value": 10.76,
         "low": 9.84,
         "high": 11.7,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20522,
@@ -1678,7 +1885,8 @@
         "value": 10.76,
         "low": 9.86,
         "high": 11.69,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20523,
@@ -1686,7 +1894,8 @@
         "value": 10.77,
         "low": 9.88,
         "high": 11.68,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20524,
@@ -1694,7 +1903,8 @@
         "value": 10.78,
         "low": 9.89,
         "high": 11.68,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20525,
@@ -1702,7 +1912,8 @@
         "value": 10.79,
         "low": 9.89,
         "high": 11.7,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20526,
@@ -1710,7 +1921,8 @@
         "value": 10.79,
         "low": 9.91,
         "high": 11.72,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20527,
@@ -1718,7 +1930,8 @@
         "value": 10.8,
         "low": 9.91,
         "high": 11.74,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20528,
@@ -1726,7 +1939,8 @@
         "value": 10.81,
         "low": 9.92,
         "high": 11.72,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20529,
@@ -1734,7 +1948,8 @@
         "value": 10.81,
         "low": 9.93,
         "high": 11.72,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20530,
@@ -1742,7 +1957,8 @@
         "value": 10.82,
         "low": 9.93,
         "high": 11.71,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20531,
@@ -1750,7 +1966,8 @@
         "value": 10.83,
         "low": 9.94,
         "high": 11.71,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20532,
@@ -1758,7 +1975,8 @@
         "value": 10.83,
         "low": 9.95,
         "high": 11.73,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20533,
@@ -1766,7 +1984,8 @@
         "value": 10.84,
         "low": 9.95,
         "high": 11.75,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20534,
@@ -1774,7 +1993,8 @@
         "value": 10.84,
         "low": 9.95,
         "high": 11.75,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20535,
@@ -1782,7 +2002,8 @@
         "value": 10.84,
         "low": 9.95,
         "high": 11.76,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20536,
@@ -1790,7 +2011,8 @@
         "value": 10.85,
         "low": 9.97,
         "high": 11.77,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20537,
@@ -1798,7 +2020,8 @@
         "value": 10.85,
         "low": 9.97,
         "high": 11.78,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20538,
@@ -1806,7 +2029,8 @@
         "value": 10.85,
         "low": 9.97,
         "high": 11.8,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20539,
@@ -1814,7 +2038,8 @@
         "value": 10.86,
         "low": 9.97,
         "high": 11.83,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20540,
@@ -1822,7 +2047,8 @@
         "value": 10.86,
         "low": 9.96,
         "high": 11.86,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20541,
@@ -1830,7 +2056,8 @@
         "value": 10.86,
         "low": 9.96,
         "high": 11.88,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20542,
@@ -1838,7 +2065,8 @@
         "value": 10.86,
         "low": 9.95,
         "high": 11.91,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20543,
@@ -1846,7 +2074,8 @@
         "value": 10.86,
         "low": 9.94,
         "high": 11.92,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20544,
@@ -1854,7 +2083,8 @@
         "value": 10.86,
         "low": 9.94,
         "high": 11.92,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20545,
@@ -1862,7 +2092,8 @@
         "value": 10.86,
         "low": 9.93,
         "high": 11.93,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20546,
@@ -1870,7 +2101,8 @@
         "value": 10.86,
         "low": 9.93,
         "high": 11.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20547,
@@ -1878,7 +2110,8 @@
         "value": 10.86,
         "low": 9.93,
         "high": 11.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20548,
@@ -1886,7 +2119,8 @@
         "value": 10.86,
         "low": 9.91,
         "high": 11.95,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20549,
@@ -1894,7 +2128,8 @@
         "value": 10.86,
         "low": 9.89,
         "high": 11.95,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20550,
@@ -1902,7 +2137,8 @@
         "value": 10.85,
         "low": 9.87,
         "high": 11.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20551,
@@ -1910,7 +2146,8 @@
         "value": 10.85,
         "low": 9.87,
         "high": 11.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20552,
@@ -1918,7 +2155,8 @@
         "value": 10.84,
         "low": 9.88,
         "high": 11.95,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20553,
@@ -1926,7 +2164,8 @@
         "value": 10.83,
         "low": 9.86,
         "high": 11.95,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20554,
@@ -1934,7 +2173,8 @@
         "value": 10.82,
         "low": 9.83,
         "high": 11.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20555,
@@ -1942,7 +2182,8 @@
         "value": 10.8,
         "low": 9.8,
         "high": 11.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20556,
@@ -1950,7 +2191,8 @@
         "value": 10.79,
         "low": 9.77,
         "high": 11.91,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20557,
@@ -1958,7 +2200,8 @@
         "value": 10.77,
         "low": 9.74,
         "high": 11.89,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20558,
@@ -1966,7 +2209,8 @@
         "value": 10.75,
         "low": 9.71,
         "high": 11.88,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20559,
@@ -1974,7 +2218,8 @@
         "value": 10.73,
         "low": 9.67,
         "high": 11.85,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20560,
@@ -1982,7 +2227,8 @@
         "value": 10.71,
         "low": 9.64,
         "high": 11.82,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20561,
@@ -1990,7 +2236,8 @@
         "value": 10.68,
         "low": 9.6,
         "high": 11.79,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20562,
@@ -1998,7 +2245,8 @@
         "value": 10.65,
         "low": 9.58,
         "high": 11.76,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20563,
@@ -2006,7 +2254,8 @@
         "value": 10.62,
         "low": 9.57,
         "high": 11.72,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20564,
@@ -2014,7 +2263,8 @@
         "value": 10.59,
         "low": 9.55,
         "high": 11.67,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20565,
@@ -2022,7 +2272,8 @@
         "value": 10.55,
         "low": 9.5,
         "high": 11.62,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20566,
@@ -2030,7 +2281,8 @@
         "value": 10.51,
         "low": 9.44,
         "high": 11.57,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20567,
@@ -2038,7 +2290,8 @@
         "value": 10.47,
         "low": 9.39,
         "high": 11.51,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20568,
@@ -2046,7 +2299,8 @@
         "value": 10.43,
         "low": 9.33,
         "high": 11.45,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20569,
@@ -2054,7 +2308,8 @@
         "value": 10.38,
         "low": 9.28,
         "high": 11.38,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20570,
@@ -2062,7 +2317,8 @@
         "value": 10.33,
         "low": 9.22,
         "high": 11.35,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20571,
@@ -2070,7 +2326,8 @@
         "value": 10.28,
         "low": 9.16,
         "high": 11.26,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20572,
@@ -2078,7 +2335,8 @@
         "value": 10.23,
         "low": 9.11,
         "high": 11.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20573,
@@ -2086,7 +2344,8 @@
         "value": 10.18,
         "low": 9.05,
         "high": 11.2,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20574,
@@ -2094,7 +2353,8 @@
         "value": 10.12,
         "low": 9.01,
         "high": 11.15,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20575,
@@ -2102,7 +2362,8 @@
         "value": 10.06,
         "low": 8.97,
         "high": 11.09,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20576,
@@ -2110,7 +2371,8 @@
         "value": 10.01,
         "low": 8.92,
         "high": 11.04,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20577,
@@ -2118,7 +2380,8 @@
         "value": 9.95,
         "low": 8.87,
         "high": 10.99,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20578,
@@ -2126,7 +2389,8 @@
         "value": 9.89,
         "low": 8.83,
         "high": 10.89,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20579,
@@ -2134,7 +2398,8 @@
         "value": 9.83,
         "low": 8.78,
         "high": 10.84,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20580,
@@ -2142,7 +2407,8 @@
         "value": 9.76,
         "low": 8.73,
         "high": 10.78,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20581,
@@ -2150,7 +2416,8 @@
         "value": 9.7,
         "low": 8.69,
         "high": 10.72,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20582,
@@ -2158,7 +2425,8 @@
         "value": 9.64,
         "low": 8.64,
         "high": 10.66,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20583,
@@ -2166,7 +2434,8 @@
         "value": 9.57,
         "low": 8.61,
         "high": 10.59,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20584,
@@ -2174,7 +2443,8 @@
         "value": 9.51,
         "low": 8.57,
         "high": 10.52,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20585,
@@ -2182,7 +2452,8 @@
         "value": 9.44,
         "low": 8.51,
         "high": 10.44,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20586,
@@ -2190,7 +2461,8 @@
         "value": 9.38,
         "low": 8.47,
         "high": 10.35,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20587,
@@ -2198,7 +2470,8 @@
         "value": 9.32,
         "low": 8.43,
         "high": 10.28,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20588,
@@ -2206,7 +2479,8 @@
         "value": 9.25,
         "low": 8.39,
         "high": 10.2,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20589,
@@ -2214,7 +2488,8 @@
         "value": 9.19,
         "low": 8.31,
         "high": 10.15,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20590,
@@ -2222,7 +2497,8 @@
         "value": 9.13,
         "low": 8.22,
         "high": 10.1,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20591,
@@ -2230,7 +2506,8 @@
         "value": 9.07,
         "low": 8.18,
         "high": 10.05,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20592,
@@ -2238,7 +2515,8 @@
         "value": 9.02,
         "low": 8.15,
         "high": 10.0,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20593,
@@ -2246,7 +2524,8 @@
         "value": 8.96,
         "low": 8.12,
         "high": 9.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20594,
@@ -2254,7 +2533,8 @@
         "value": 8.91,
         "low": 8.09,
         "high": 9.88,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20595,
@@ -2262,7 +2542,8 @@
         "value": 8.85,
         "low": 8.07,
         "high": 9.82,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20596,
@@ -2270,7 +2551,8 @@
         "value": 8.81,
         "low": 8.05,
         "high": 9.77,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20597,
@@ -2278,7 +2560,8 @@
         "value": 8.76,
         "low": 8.01,
         "high": 9.72,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20598,
@@ -2286,7 +2569,8 @@
         "value": 8.71,
         "low": 7.98,
         "high": 9.68,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20599,
@@ -2294,7 +2578,8 @@
         "value": 8.67,
         "low": 7.94,
         "high": 9.64,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20600,
@@ -2302,7 +2587,8 @@
         "value": 8.63,
         "low": 7.89,
         "high": 9.59,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20601,
@@ -2310,7 +2596,8 @@
         "value": 8.59,
         "low": 7.86,
         "high": 9.55,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20602,
@@ -2318,7 +2605,8 @@
         "value": 8.56,
         "low": 7.82,
         "high": 9.5,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20603,
@@ -2326,7 +2614,8 @@
         "value": 8.52,
         "low": 7.79,
         "high": 9.46,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20604,
@@ -2334,7 +2623,8 @@
         "value": 8.49,
         "low": 7.77,
         "high": 9.43,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20605,
@@ -2342,7 +2632,8 @@
         "value": 8.46,
         "low": 7.75,
         "high": 9.38,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20606,
@@ -2350,7 +2641,8 @@
         "value": 8.43,
         "low": 7.73,
         "high": 9.35,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20607,
@@ -2358,7 +2650,8 @@
         "value": 8.4,
         "low": 7.7,
         "high": 9.31,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20608,
@@ -2366,7 +2659,8 @@
         "value": 8.37,
         "low": 7.68,
         "high": 9.27,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20609,
@@ -2374,7 +2668,8 @@
         "value": 8.35,
         "low": 7.65,
         "high": 9.23,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20610,
@@ -2382,7 +2677,8 @@
         "value": 8.33,
         "low": 7.64,
         "high": 9.19,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20611,
@@ -2390,7 +2686,8 @@
         "value": 8.3,
         "low": 7.62,
         "high": 9.16,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20612,
@@ -2398,7 +2695,8 @@
         "value": 8.28,
         "low": 7.61,
         "high": 9.13,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20613,
@@ -2406,7 +2704,8 @@
         "value": 8.26,
         "low": 7.6,
         "high": 9.1,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20614,
@@ -2414,7 +2713,8 @@
         "value": 8.24,
         "low": 7.58,
         "high": 9.07,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20615,
@@ -2422,7 +2722,8 @@
         "value": 8.22,
         "low": 7.57,
         "high": 9.04,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20616,
@@ -2430,7 +2731,8 @@
         "value": 8.2,
         "low": 7.56,
         "high": 9.02,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20617,
@@ -2438,7 +2740,8 @@
         "value": 8.18,
         "low": 7.55,
         "high": 8.99,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20618,
@@ -2446,7 +2749,8 @@
         "value": 8.16,
         "low": 7.54,
         "high": 8.96,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20619,
@@ -2454,7 +2758,8 @@
         "value": 8.14,
         "low": 7.53,
         "high": 8.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20620,
@@ -2462,7 +2767,8 @@
         "value": 8.12,
         "low": 7.52,
         "high": 8.91,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20621,
@@ -2470,7 +2776,8 @@
         "value": 8.1,
         "low": 7.51,
         "high": 8.88,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20622,
@@ -2478,7 +2785,8 @@
         "value": 8.08,
         "low": 7.49,
         "high": 8.86,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20623,
@@ -2486,7 +2794,8 @@
         "value": 8.06,
         "low": 7.49,
         "high": 8.83,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20624,
@@ -2494,7 +2803,8 @@
         "value": 8.03,
         "low": 7.48,
         "high": 8.79,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20625,
@@ -2502,7 +2812,8 @@
         "value": 8.01,
         "low": 7.47,
         "high": 8.76,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20626,
@@ -2510,7 +2821,8 @@
         "value": 7.99,
         "low": 7.47,
         "high": 8.73,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20627,
@@ -2518,7 +2830,8 @@
         "value": 7.97,
         "low": 7.46,
         "high": 8.69,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20628,
@@ -2526,7 +2839,8 @@
         "value": 7.94,
         "low": 7.45,
         "high": 8.64,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20629,
@@ -2534,7 +2848,8 @@
         "value": 7.92,
         "low": 7.44,
         "high": 8.59,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20630,
@@ -2542,7 +2857,8 @@
         "value": 7.89,
         "low": 7.44,
         "high": 8.54,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20631,
@@ -2550,7 +2866,8 @@
         "value": 7.87,
         "low": 7.43,
         "high": 8.49,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20632,
@@ -2558,7 +2875,8 @@
         "value": 7.85,
         "low": 7.42,
         "high": 8.45,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20633,
@@ -2566,7 +2884,8 @@
         "value": 7.83,
         "low": 7.41,
         "high": 8.38,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20634,
@@ -2574,7 +2893,8 @@
         "value": 7.8,
         "low": 7.4,
         "high": 8.32,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20635,
@@ -2582,7 +2902,8 @@
         "value": 7.78,
         "low": 7.39,
         "high": 8.28,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20636,
@@ -2590,7 +2911,8 @@
         "value": 7.76,
         "low": 7.38,
         "high": 8.25,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       },
       {
         "t": 20637,
@@ -2598,7 +2920,8 @@
         "value": 7.74,
         "low": 7.37,
         "high": 8.2,
-        "sparse": false
+        "sparse": false,
+        "party": "Positive"
       }
     ],
     "Negative": [
@@ -2608,7 +2931,8 @@
         "value": 26.2,
         "low": 22.62,
         "high": 29.42,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20316,
@@ -2616,7 +2940,8 @@
         "value": 26.27,
         "low": 22.77,
         "high": 29.4,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20317,
@@ -2624,7 +2949,8 @@
         "value": 26.34,
         "low": 22.91,
         "high": 29.38,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20318,
@@ -2632,7 +2958,8 @@
         "value": 26.4,
         "low": 23.12,
         "high": 29.36,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20319,
@@ -2640,7 +2967,8 @@
         "value": 26.47,
         "low": 23.24,
         "high": 29.34,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20320,
@@ -2648,7 +2976,8 @@
         "value": 26.53,
         "low": 23.36,
         "high": 29.33,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20321,
@@ -2656,7 +2985,8 @@
         "value": 26.58,
         "low": 23.47,
         "high": 29.31,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20322,
@@ -2664,7 +2994,8 @@
         "value": 26.64,
         "low": 23.59,
         "high": 29.3,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20323,
@@ -2672,7 +3003,8 @@
         "value": 26.69,
         "low": 23.69,
         "high": 29.29,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20324,
@@ -2680,7 +3012,8 @@
         "value": 26.74,
         "low": 23.79,
         "high": 29.27,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20325,
@@ -2688,7 +3021,8 @@
         "value": 26.79,
         "low": 23.89,
         "high": 29.26,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20326,
@@ -2696,7 +3030,8 @@
         "value": 26.83,
         "low": 24.0,
         "high": 29.25,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20327,
@@ -2704,7 +3039,8 @@
         "value": 26.88,
         "low": 24.1,
         "high": 29.25,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20328,
@@ -2712,7 +3048,8 @@
         "value": 26.92,
         "low": 24.2,
         "high": 29.24,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20329,
@@ -2720,7 +3057,8 @@
         "value": 26.96,
         "low": 24.3,
         "high": 29.23,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20330,
@@ -2728,7 +3066,8 @@
         "value": 27.01,
         "low": 24.41,
         "high": 29.23,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20331,
@@ -2736,7 +3075,8 @@
         "value": 27.05,
         "low": 24.5,
         "high": 29.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20332,
@@ -2744,7 +3084,8 @@
         "value": 27.09,
         "low": 24.6,
         "high": 29.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20333,
@@ -2752,7 +3093,8 @@
         "value": 27.13,
         "low": 24.73,
         "high": 29.21,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20334,
@@ -2760,7 +3102,8 @@
         "value": 27.17,
         "low": 24.8,
         "high": 29.21,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20335,
@@ -2768,7 +3111,8 @@
         "value": 27.2,
         "low": 24.88,
         "high": 29.2,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20336,
@@ -2776,7 +3120,8 @@
         "value": 27.24,
         "low": 24.96,
         "high": 29.2,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20337,
@@ -2784,7 +3129,8 @@
         "value": 27.28,
         "low": 25.03,
         "high": 29.2,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20338,
@@ -2792,7 +3138,8 @@
         "value": 27.32,
         "low": 25.1,
         "high": 29.19,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20339,
@@ -2800,7 +3147,8 @@
         "value": 27.35,
         "low": 25.16,
         "high": 29.19,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20340,
@@ -2808,7 +3156,8 @@
         "value": 27.39,
         "low": 25.23,
         "high": 29.19,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20341,
@@ -2816,7 +3165,8 @@
         "value": 27.43,
         "low": 25.31,
         "high": 29.18,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20342,
@@ -2824,7 +3174,8 @@
         "value": 27.46,
         "low": 25.4,
         "high": 29.19,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20343,
@@ -2832,7 +3183,8 @@
         "value": 27.5,
         "low": 25.51,
         "high": 29.19,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20344,
@@ -2840,7 +3192,8 @@
         "value": 27.54,
         "low": 25.62,
         "high": 29.18,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20345,
@@ -2848,7 +3201,8 @@
         "value": 27.58,
         "low": 25.73,
         "high": 29.2,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20346,
@@ -2856,7 +3210,8 @@
         "value": 27.62,
         "low": 25.81,
         "high": 29.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20347,
@@ -2864,7 +3219,8 @@
         "value": 27.66,
         "low": 25.89,
         "high": 29.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20348,
@@ -2872,7 +3228,8 @@
         "value": 27.7,
         "low": 25.97,
         "high": 29.24,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20349,
@@ -2880,7 +3237,8 @@
         "value": 27.74,
         "low": 26.04,
         "high": 29.27,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20350,
@@ -2888,7 +3246,8 @@
         "value": 27.79,
         "low": 26.11,
         "high": 29.3,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20351,
@@ -2896,7 +3255,8 @@
         "value": 27.83,
         "low": 26.22,
         "high": 29.31,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20352,
@@ -2904,7 +3264,8 @@
         "value": 27.88,
         "low": 26.32,
         "high": 29.33,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20353,
@@ -2912,7 +3273,8 @@
         "value": 27.94,
         "low": 26.47,
         "high": 29.39,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20354,
@@ -2920,7 +3282,8 @@
         "value": 27.99,
         "low": 26.54,
         "high": 29.41,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20355,
@@ -2928,7 +3291,8 @@
         "value": 28.05,
         "low": 26.61,
         "high": 29.43,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20356,
@@ -2936,7 +3300,8 @@
         "value": 28.1,
         "low": 26.67,
         "high": 29.47,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20357,
@@ -2944,7 +3309,8 @@
         "value": 28.16,
         "low": 26.74,
         "high": 29.5,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20358,
@@ -2952,7 +3318,8 @@
         "value": 28.22,
         "low": 26.83,
         "high": 29.53,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20359,
@@ -2960,7 +3327,8 @@
         "value": 28.29,
         "low": 26.92,
         "high": 29.55,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20360,
@@ -2968,7 +3336,8 @@
         "value": 28.35,
         "low": 27.01,
         "high": 29.6,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20361,
@@ -2976,7 +3345,8 @@
         "value": 28.41,
         "low": 27.05,
         "high": 29.61,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20362,
@@ -2984,7 +3354,8 @@
         "value": 28.48,
         "low": 27.09,
         "high": 29.65,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20363,
@@ -2992,7 +3363,8 @@
         "value": 28.55,
         "low": 27.19,
         "high": 29.7,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20364,
@@ -3000,7 +3372,8 @@
         "value": 28.61,
         "low": 27.3,
         "high": 29.75,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20365,
@@ -3008,7 +3381,8 @@
         "value": 28.68,
         "low": 27.38,
         "high": 29.82,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20366,
@@ -3016,7 +3390,8 @@
         "value": 28.75,
         "low": 27.46,
         "high": 29.88,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20367,
@@ -3024,7 +3399,8 @@
         "value": 28.81,
         "low": 27.53,
         "high": 29.95,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20368,
@@ -3032,7 +3408,8 @@
         "value": 28.88,
         "low": 27.6,
         "high": 30.04,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20369,
@@ -3040,7 +3417,8 @@
         "value": 28.94,
         "low": 27.66,
         "high": 30.25,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20370,
@@ -3048,7 +3426,8 @@
         "value": 29.01,
         "low": 27.71,
         "high": 30.35,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20371,
@@ -3056,7 +3435,8 @@
         "value": 29.07,
         "low": 27.76,
         "high": 30.44,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20372,
@@ -3064,7 +3444,8 @@
         "value": 29.13,
         "low": 27.81,
         "high": 30.55,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20373,
@@ -3072,7 +3453,8 @@
         "value": 29.19,
         "low": 27.86,
         "high": 30.65,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20374,
@@ -3080,7 +3462,8 @@
         "value": 29.25,
         "low": 27.88,
         "high": 30.75,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20375,
@@ -3088,7 +3471,8 @@
         "value": 29.31,
         "low": 27.89,
         "high": 30.89,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20376,
@@ -3096,7 +3480,8 @@
         "value": 29.37,
         "low": 27.94,
         "high": 31.07,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20377,
@@ -3104,7 +3489,8 @@
         "value": 29.43,
         "low": 27.99,
         "high": 31.16,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20378,
@@ -3112,7 +3498,8 @@
         "value": 29.48,
         "low": 28.04,
         "high": 31.24,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20379,
@@ -3120,7 +3507,8 @@
         "value": 29.54,
         "low": 28.07,
         "high": 31.34,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20380,
@@ -3128,7 +3516,8 @@
         "value": 29.59,
         "low": 28.08,
         "high": 31.45,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20381,
@@ -3136,7 +3525,8 @@
         "value": 29.64,
         "low": 28.14,
         "high": 31.57,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20382,
@@ -3144,7 +3534,8 @@
         "value": 29.69,
         "low": 28.2,
         "high": 31.68,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20383,
@@ -3152,7 +3543,8 @@
         "value": 29.74,
         "low": 28.2,
         "high": 31.78,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20384,
@@ -3160,7 +3552,8 @@
         "value": 29.79,
         "low": 28.22,
         "high": 31.89,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20385,
@@ -3168,7 +3561,8 @@
         "value": 29.84,
         "low": 28.23,
         "high": 31.98,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20386,
@@ -3176,7 +3570,8 @@
         "value": 29.88,
         "low": 28.23,
         "high": 32.08,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20387,
@@ -3184,7 +3579,8 @@
         "value": 29.93,
         "low": 28.25,
         "high": 32.17,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20388,
@@ -3192,7 +3588,8 @@
         "value": 29.97,
         "low": 28.28,
         "high": 32.26,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20389,
@@ -3200,7 +3597,8 @@
         "value": 30.01,
         "low": 28.31,
         "high": 32.35,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20390,
@@ -3208,7 +3606,8 @@
         "value": 30.06,
         "low": 28.34,
         "high": 32.43,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20391,
@@ -3216,7 +3615,8 @@
         "value": 30.1,
         "low": 28.36,
         "high": 32.51,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20392,
@@ -3224,7 +3624,8 @@
         "value": 30.14,
         "low": 28.38,
         "high": 32.58,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20393,
@@ -3232,7 +3633,8 @@
         "value": 30.18,
         "low": 28.4,
         "high": 32.65,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20394,
@@ -3240,7 +3642,8 @@
         "value": 30.22,
         "low": 28.42,
         "high": 32.72,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20395,
@@ -3248,7 +3651,8 @@
         "value": 30.26,
         "low": 28.44,
         "high": 32.79,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20396,
@@ -3256,7 +3660,8 @@
         "value": 30.3,
         "low": 28.47,
         "high": 32.86,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20397,
@@ -3264,7 +3669,8 @@
         "value": 30.35,
         "low": 28.49,
         "high": 32.93,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20398,
@@ -3272,7 +3678,8 @@
         "value": 30.39,
         "low": 28.51,
         "high": 32.99,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20399,
@@ -3280,7 +3687,8 @@
         "value": 30.43,
         "low": 28.53,
         "high": 33.06,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20400,
@@ -3288,7 +3696,8 @@
         "value": 30.48,
         "low": 28.54,
         "high": 33.13,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20401,
@@ -3296,7 +3705,8 @@
         "value": 30.52,
         "low": 28.56,
         "high": 33.19,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20402,
@@ -3304,7 +3714,8 @@
         "value": 30.57,
         "low": 28.59,
         "high": 33.24,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20403,
@@ -3312,7 +3723,8 @@
         "value": 30.61,
         "low": 28.62,
         "high": 33.3,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20404,
@@ -3320,7 +3732,8 @@
         "value": 30.66,
         "low": 28.67,
         "high": 33.35,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20405,
@@ -3328,7 +3741,8 @@
         "value": 30.71,
         "low": 28.71,
         "high": 33.41,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20406,
@@ -3336,7 +3750,8 @@
         "value": 30.76,
         "low": 28.73,
         "high": 33.46,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20407,
@@ -3344,7 +3759,8 @@
         "value": 30.82,
         "low": 28.76,
         "high": 33.54,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20408,
@@ -3352,7 +3768,8 @@
         "value": 30.87,
         "low": 28.78,
         "high": 33.62,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20409,
@@ -3360,7 +3777,8 @@
         "value": 30.93,
         "low": 28.81,
         "high": 33.7,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20410,
@@ -3368,7 +3786,8 @@
         "value": 30.98,
         "low": 28.87,
         "high": 33.78,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20411,
@@ -3376,7 +3795,8 @@
         "value": 31.04,
         "low": 28.91,
         "high": 33.89,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20412,
@@ -3384,7 +3804,8 @@
         "value": 31.11,
         "low": 28.95,
         "high": 34.0,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20413,
@@ -3392,7 +3813,8 @@
         "value": 31.17,
         "low": 28.97,
         "high": 34.11,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20414,
@@ -3400,7 +3822,8 @@
         "value": 31.23,
         "low": 29.04,
         "high": 34.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20415,
@@ -3408,7 +3831,8 @@
         "value": 31.3,
         "low": 29.11,
         "high": 34.33,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20416,
@@ -3416,7 +3840,8 @@
         "value": 31.37,
         "low": 29.14,
         "high": 34.45,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20417,
@@ -3424,7 +3849,8 @@
         "value": 31.44,
         "low": 29.17,
         "high": 34.57,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20418,
@@ -3432,7 +3858,8 @@
         "value": 31.52,
         "low": 29.21,
         "high": 34.69,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20419,
@@ -3440,7 +3867,8 @@
         "value": 31.59,
         "low": 29.27,
         "high": 34.81,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20420,
@@ -3448,7 +3876,8 @@
         "value": 31.67,
         "low": 29.35,
         "high": 34.93,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20421,
@@ -3456,7 +3885,8 @@
         "value": 31.75,
         "low": 29.41,
         "high": 35.03,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20422,
@@ -3464,7 +3894,8 @@
         "value": 31.84,
         "low": 29.45,
         "high": 35.08,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20423,
@@ -3472,7 +3903,8 @@
         "value": 31.92,
         "low": 29.53,
         "high": 35.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20424,
@@ -3480,7 +3912,8 @@
         "value": 32.01,
         "low": 29.6,
         "high": 35.16,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20425,
@@ -3488,7 +3921,8 @@
         "value": 32.1,
         "low": 29.69,
         "high": 35.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20426,
@@ -3496,7 +3930,8 @@
         "value": 32.19,
         "low": 29.77,
         "high": 35.29,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20427,
@@ -3504,7 +3939,8 @@
         "value": 32.29,
         "low": 29.85,
         "high": 35.4,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20428,
@@ -3512,7 +3948,8 @@
         "value": 32.38,
         "low": 29.91,
         "high": 35.5,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20429,
@@ -3520,7 +3957,8 @@
         "value": 32.48,
         "low": 29.97,
         "high": 35.59,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20430,
@@ -3528,7 +3966,8 @@
         "value": 32.57,
         "low": 30.01,
         "high": 35.69,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20431,
@@ -3536,7 +3975,8 @@
         "value": 32.67,
         "low": 30.09,
         "high": 35.73,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20432,
@@ -3544,7 +3984,8 @@
         "value": 32.77,
         "low": 30.18,
         "high": 35.76,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20433,
@@ -3552,7 +3993,8 @@
         "value": 32.87,
         "low": 30.26,
         "high": 35.79,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20434,
@@ -3560,7 +4002,8 @@
         "value": 32.97,
         "low": 30.34,
         "high": 35.86,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20435,
@@ -3568,7 +4011,8 @@
         "value": 33.06,
         "low": 30.43,
         "high": 35.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20436,
@@ -3576,7 +4020,8 @@
         "value": 33.16,
         "low": 30.49,
         "high": 36.0,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20437,
@@ -3584,7 +4029,8 @@
         "value": 33.26,
         "low": 30.56,
         "high": 36.09,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20438,
@@ -3592,7 +4038,8 @@
         "value": 33.36,
         "low": 30.62,
         "high": 36.17,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20439,
@@ -3600,7 +4047,8 @@
         "value": 33.46,
         "low": 30.69,
         "high": 36.24,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20440,
@@ -3608,7 +4056,8 @@
         "value": 33.55,
         "low": 30.76,
         "high": 36.31,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20441,
@@ -3616,7 +4065,8 @@
         "value": 33.65,
         "low": 30.84,
         "high": 36.41,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20442,
@@ -3624,7 +4074,8 @@
         "value": 33.75,
         "low": 30.91,
         "high": 36.53,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20443,
@@ -3632,7 +4083,8 @@
         "value": 33.85,
         "low": 30.99,
         "high": 36.65,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20444,
@@ -3640,7 +4092,8 @@
         "value": 33.96,
         "low": 31.07,
         "high": 36.77,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20445,
@@ -3648,7 +4101,8 @@
         "value": 34.06,
         "low": 31.17,
         "high": 36.88,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20446,
@@ -3656,7 +4110,8 @@
         "value": 34.17,
         "low": 31.3,
         "high": 36.99,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20447,
@@ -3664,7 +4119,8 @@
         "value": 34.28,
         "low": 31.48,
         "high": 37.1,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20448,
@@ -3672,7 +4128,8 @@
         "value": 34.4,
         "low": 31.63,
         "high": 37.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20449,
@@ -3680,7 +4137,8 @@
         "value": 34.51,
         "low": 31.76,
         "high": 37.33,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20450,
@@ -3688,7 +4146,8 @@
         "value": 34.64,
         "low": 31.89,
         "high": 37.44,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20451,
@@ -3696,7 +4155,8 @@
         "value": 34.76,
         "low": 32.02,
         "high": 37.56,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20452,
@@ -3704,7 +4164,8 @@
         "value": 34.89,
         "low": 32.17,
         "high": 37.67,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20453,
@@ -3712,7 +4173,8 @@
         "value": 35.02,
         "low": 32.32,
         "high": 37.78,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20454,
@@ -3720,7 +4182,8 @@
         "value": 35.15,
         "low": 32.47,
         "high": 37.9,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20455,
@@ -3728,7 +4191,8 @@
         "value": 35.28,
         "low": 32.62,
         "high": 38.01,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20456,
@@ -3736,7 +4200,8 @@
         "value": 35.42,
         "low": 32.78,
         "high": 38.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20457,
@@ -3744,7 +4209,8 @@
         "value": 35.57,
         "low": 33.0,
         "high": 38.24,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20458,
@@ -3752,7 +4218,8 @@
         "value": 35.71,
         "low": 33.2,
         "high": 38.36,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20459,
@@ -3760,7 +4227,8 @@
         "value": 35.86,
         "low": 33.34,
         "high": 38.5,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20460,
@@ -3768,7 +4236,8 @@
         "value": 36.02,
         "low": 33.49,
         "high": 38.6,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20461,
@@ -3776,7 +4245,8 @@
         "value": 36.18,
         "low": 33.66,
         "high": 38.73,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20462,
@@ -3784,7 +4254,8 @@
         "value": 36.34,
         "low": 33.84,
         "high": 38.84,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20463,
@@ -3792,7 +4263,8 @@
         "value": 36.5,
         "low": 34.03,
         "high": 39.0,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20464,
@@ -3800,7 +4272,8 @@
         "value": 36.67,
         "low": 34.22,
         "high": 39.13,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20465,
@@ -3808,7 +4281,8 @@
         "value": 36.85,
         "low": 34.4,
         "high": 39.27,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20466,
@@ -3816,7 +4290,8 @@
         "value": 37.02,
         "low": 34.56,
         "high": 39.41,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20467,
@@ -3824,7 +4299,8 @@
         "value": 37.19,
         "low": 34.74,
         "high": 39.56,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20468,
@@ -3832,7 +4308,8 @@
         "value": 37.37,
         "low": 34.95,
         "high": 39.71,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20469,
@@ -3840,7 +4317,8 @@
         "value": 37.54,
         "low": 35.09,
         "high": 39.98,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20470,
@@ -3848,7 +4326,8 @@
         "value": 37.72,
         "low": 35.19,
         "high": 40.23,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20471,
@@ -3856,7 +4335,8 @@
         "value": 37.89,
         "low": 35.35,
         "high": 40.48,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20472,
@@ -3864,7 +4344,8 @@
         "value": 38.06,
         "low": 35.5,
         "high": 40.6,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20473,
@@ -3872,7 +4353,8 @@
         "value": 38.23,
         "low": 35.62,
         "high": 40.7,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20474,
@@ -3880,7 +4362,8 @@
         "value": 38.4,
         "low": 35.73,
         "high": 40.77,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20475,
@@ -3888,7 +4371,8 @@
         "value": 38.56,
         "low": 35.86,
         "high": 40.93,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20476,
@@ -3896,7 +4380,8 @@
         "value": 38.72,
         "low": 35.99,
         "high": 41.07,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20477,
@@ -3904,7 +4389,8 @@
         "value": 38.88,
         "low": 36.11,
         "high": 41.18,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20478,
@@ -3912,7 +4398,8 @@
         "value": 39.03,
         "low": 36.3,
         "high": 41.3,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20479,
@@ -3920,7 +4407,8 @@
         "value": 39.18,
         "low": 36.4,
         "high": 41.46,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20480,
@@ -3928,7 +4416,8 @@
         "value": 39.33,
         "low": 36.54,
         "high": 41.61,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20481,
@@ -3936,7 +4425,8 @@
         "value": 39.48,
         "low": 36.66,
         "high": 41.75,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20482,
@@ -3944,7 +4434,8 @@
         "value": 39.62,
         "low": 36.77,
         "high": 41.9,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20483,
@@ -3952,7 +4443,8 @@
         "value": 39.76,
         "low": 36.87,
         "high": 42.03,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20484,
@@ -3960,7 +4452,8 @@
         "value": 39.9,
         "low": 36.98,
         "high": 42.15,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20485,
@@ -3968,7 +4461,8 @@
         "value": 40.04,
         "low": 37.09,
         "high": 42.28,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20486,
@@ -3976,7 +4470,8 @@
         "value": 40.18,
         "low": 37.19,
         "high": 42.49,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20487,
@@ -3984,7 +4479,8 @@
         "value": 40.31,
         "low": 37.29,
         "high": 42.7,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20488,
@@ -3992,7 +4488,8 @@
         "value": 40.44,
         "low": 37.39,
         "high": 42.77,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20489,
@@ -4000,7 +4497,8 @@
         "value": 40.57,
         "low": 37.54,
         "high": 42.95,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20490,
@@ -4008,7 +4506,8 @@
         "value": 40.7,
         "low": 37.65,
         "high": 43.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20491,
@@ -4016,7 +4515,8 @@
         "value": 40.82,
         "low": 37.76,
         "high": 43.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20492,
@@ -4024,7 +4524,8 @@
         "value": 40.94,
         "low": 37.87,
         "high": 43.4,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20493,
@@ -4032,7 +4533,8 @@
         "value": 41.06,
         "low": 37.98,
         "high": 43.57,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20494,
@@ -4040,7 +4542,8 @@
         "value": 41.18,
         "low": 38.1,
         "high": 43.73,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20495,
@@ -4048,7 +4551,8 @@
         "value": 41.3,
         "low": 38.21,
         "high": 43.9,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20496,
@@ -4056,7 +4560,8 @@
         "value": 41.41,
         "low": 38.32,
         "high": 44.06,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20497,
@@ -4064,7 +4569,8 @@
         "value": 41.52,
         "low": 38.43,
         "high": 44.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20498,
@@ -4072,7 +4578,8 @@
         "value": 41.64,
         "low": 38.55,
         "high": 44.32,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20499,
@@ -4080,7 +4587,8 @@
         "value": 41.75,
         "low": 38.68,
         "high": 44.39,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20500,
@@ -4088,7 +4596,8 @@
         "value": 41.86,
         "low": 38.83,
         "high": 44.51,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20501,
@@ -4096,7 +4605,8 @@
         "value": 41.97,
         "low": 38.89,
         "high": 44.63,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20502,
@@ -4104,7 +4614,8 @@
         "value": 42.07,
         "low": 39.01,
         "high": 44.74,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20503,
@@ -4112,7 +4623,8 @@
         "value": 42.18,
         "low": 39.12,
         "high": 44.84,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20504,
@@ -4120,7 +4632,8 @@
         "value": 42.29,
         "low": 39.24,
         "high": 44.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20505,
@@ -4128,7 +4641,8 @@
         "value": 42.4,
         "low": 39.34,
         "high": 45.04,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20506,
@@ -4136,7 +4650,8 @@
         "value": 42.5,
         "low": 39.44,
         "high": 45.13,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20507,
@@ -4144,7 +4659,8 @@
         "value": 42.61,
         "low": 39.53,
         "high": 45.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20508,
@@ -4152,7 +4668,8 @@
         "value": 42.72,
         "low": 39.62,
         "high": 45.31,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20509,
@@ -4160,7 +4677,8 @@
         "value": 42.83,
         "low": 39.71,
         "high": 45.38,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20510,
@@ -4168,7 +4686,8 @@
         "value": 42.94,
         "low": 39.8,
         "high": 45.49,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20511,
@@ -4176,7 +4695,8 @@
         "value": 43.05,
         "low": 39.9,
         "high": 45.59,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20512,
@@ -4184,7 +4704,8 @@
         "value": 43.17,
         "low": 40.0,
         "high": 45.69,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20513,
@@ -4192,7 +4713,8 @@
         "value": 43.28,
         "low": 40.12,
         "high": 45.77,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20514,
@@ -4200,7 +4722,8 @@
         "value": 43.4,
         "low": 40.22,
         "high": 45.85,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20515,
@@ -4208,7 +4731,8 @@
         "value": 43.51,
         "low": 40.34,
         "high": 45.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20516,
@@ -4216,7 +4740,8 @@
         "value": 43.63,
         "low": 40.46,
         "high": 46.03,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20517,
@@ -4224,7 +4749,8 @@
         "value": 43.76,
         "low": 40.57,
         "high": 46.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20518,
@@ -4232,7 +4758,8 @@
         "value": 43.88,
         "low": 40.69,
         "high": 46.21,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20519,
@@ -4240,7 +4767,8 @@
         "value": 44.01,
         "low": 40.82,
         "high": 46.3,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20520,
@@ -4248,7 +4776,8 @@
         "value": 44.14,
         "low": 40.95,
         "high": 46.4,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20521,
@@ -4256,7 +4785,8 @@
         "value": 44.27,
         "low": 41.09,
         "high": 46.51,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20522,
@@ -4264,7 +4794,8 @@
         "value": 44.4,
         "low": 41.29,
         "high": 46.6,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20523,
@@ -4272,7 +4803,8 @@
         "value": 44.54,
         "low": 41.49,
         "high": 46.72,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20524,
@@ -4280,7 +4812,8 @@
         "value": 44.68,
         "low": 41.69,
         "high": 46.81,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20525,
@@ -4288,7 +4821,8 @@
         "value": 44.82,
         "low": 41.81,
         "high": 46.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20526,
@@ -4296,7 +4830,8 @@
         "value": 44.96,
         "low": 41.93,
         "high": 47.07,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20527,
@@ -4304,7 +4839,8 @@
         "value": 45.1,
         "low": 42.06,
         "high": 47.29,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20528,
@@ -4312,7 +4848,8 @@
         "value": 45.24,
         "low": 42.21,
         "high": 47.46,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20529,
@@ -4320,7 +4857,8 @@
         "value": 45.39,
         "low": 42.34,
         "high": 47.63,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20530,
@@ -4328,7 +4866,8 @@
         "value": 45.53,
         "low": 42.48,
         "high": 47.88,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20531,
@@ -4336,7 +4875,8 @@
         "value": 45.68,
         "low": 42.68,
         "high": 48.16,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20532,
@@ -4344,7 +4884,8 @@
         "value": 45.83,
         "low": 42.88,
         "high": 48.45,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20533,
@@ -4352,7 +4893,8 @@
         "value": 45.98,
         "low": 43.1,
         "high": 48.68,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20534,
@@ -4360,7 +4902,8 @@
         "value": 46.12,
         "low": 43.26,
         "high": 48.79,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20535,
@@ -4368,7 +4911,8 @@
         "value": 46.27,
         "low": 43.36,
         "high": 48.95,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20536,
@@ -4376,7 +4920,8 @@
         "value": 46.42,
         "low": 43.6,
         "high": 49.16,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20537,
@@ -4384,7 +4929,8 @@
         "value": 46.57,
         "low": 43.73,
         "high": 49.36,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20538,
@@ -4392,7 +4938,8 @@
         "value": 46.72,
         "low": 43.89,
         "high": 49.54,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20539,
@@ -4400,7 +4947,8 @@
         "value": 46.87,
         "low": 44.03,
         "high": 49.63,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20540,
@@ -4408,7 +4956,8 @@
         "value": 47.02,
         "low": 44.14,
         "high": 49.8,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20541,
@@ -4416,7 +4965,8 @@
         "value": 47.17,
         "low": 44.3,
         "high": 49.91,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20542,
@@ -4424,7 +4974,8 @@
         "value": 47.32,
         "low": 44.5,
         "high": 49.98,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20543,
@@ -4432,7 +4983,8 @@
         "value": 47.47,
         "low": 44.66,
         "high": 50.19,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20544,
@@ -4440,7 +4992,8 @@
         "value": 47.61,
         "low": 44.78,
         "high": 50.53,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20545,
@@ -4448,7 +5001,8 @@
         "value": 47.76,
         "low": 44.92,
         "high": 50.68,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20546,
@@ -4456,7 +5010,8 @@
         "value": 47.91,
         "low": 45.07,
         "high": 50.75,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20547,
@@ -4464,7 +5019,8 @@
         "value": 48.05,
         "low": 45.19,
         "high": 50.97,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20548,
@@ -4472,7 +5028,8 @@
         "value": 48.2,
         "low": 45.35,
         "high": 51.11,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20549,
@@ -4480,7 +5037,8 @@
         "value": 48.34,
         "low": 45.49,
         "high": 51.26,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20550,
@@ -4488,7 +5046,8 @@
         "value": 48.48,
         "low": 45.64,
         "high": 51.39,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20551,
@@ -4496,7 +5055,8 @@
         "value": 48.62,
         "low": 45.76,
         "high": 51.51,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20552,
@@ -4504,7 +5064,8 @@
         "value": 48.76,
         "low": 45.83,
         "high": 51.63,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20553,
@@ -4512,7 +5073,8 @@
         "value": 48.89,
         "low": 45.97,
         "high": 51.81,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20554,
@@ -4520,7 +5082,8 @@
         "value": 49.02,
         "low": 46.13,
         "high": 51.91,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20555,
@@ -4528,7 +5091,8 @@
         "value": 49.15,
         "low": 46.29,
         "high": 52.11,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20556,
@@ -4536,7 +5100,8 @@
         "value": 49.28,
         "low": 46.45,
         "high": 52.27,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20557,
@@ -4544,7 +5109,8 @@
         "value": 49.41,
         "low": 46.55,
         "high": 52.38,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20558,
@@ -4552,7 +5118,8 @@
         "value": 49.53,
         "low": 46.61,
         "high": 52.5,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20559,
@@ -4560,7 +5127,8 @@
         "value": 49.65,
         "low": 46.67,
         "high": 52.6,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20560,
@@ -4568,7 +5136,8 @@
         "value": 49.77,
         "low": 46.77,
         "high": 52.77,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20561,
@@ -4576,7 +5145,8 @@
         "value": 49.89,
         "low": 46.86,
         "high": 52.9,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20562,
@@ -4584,7 +5154,8 @@
         "value": 50.0,
         "low": 46.88,
         "high": 52.99,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20563,
@@ -4592,7 +5163,8 @@
         "value": 50.11,
         "low": 46.9,
         "high": 53.09,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20564,
@@ -4600,7 +5172,8 @@
         "value": 50.22,
         "low": 46.95,
         "high": 53.2,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20565,
@@ -4608,7 +5181,8 @@
         "value": 50.33,
         "low": 47.05,
         "high": 53.36,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20566,
@@ -4616,7 +5190,8 @@
         "value": 50.44,
         "low": 47.16,
         "high": 53.52,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20567,
@@ -4624,7 +5199,8 @@
         "value": 50.54,
         "low": 47.34,
         "high": 53.64,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20568,
@@ -4632,7 +5208,8 @@
         "value": 50.64,
         "low": 47.47,
         "high": 53.74,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20569,
@@ -4640,7 +5217,8 @@
         "value": 50.75,
         "low": 47.53,
         "high": 53.84,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20570,
@@ -4648,7 +5226,8 @@
         "value": 50.85,
         "low": 47.58,
         "high": 53.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20571,
@@ -4656,7 +5235,8 @@
         "value": 50.96,
         "low": 47.63,
         "high": 54.04,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20572,
@@ -4664,7 +5244,8 @@
         "value": 51.06,
         "low": 47.74,
         "high": 54.17,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20573,
@@ -4672,7 +5253,8 @@
         "value": 51.17,
         "low": 47.82,
         "high": 54.29,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20574,
@@ -4680,7 +5262,8 @@
         "value": 51.28,
         "low": 47.9,
         "high": 54.42,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20575,
@@ -4688,7 +5271,8 @@
         "value": 51.39,
         "low": 47.98,
         "high": 54.54,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20576,
@@ -4696,7 +5280,8 @@
         "value": 51.51,
         "low": 48.06,
         "high": 54.66,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20577,
@@ -4704,7 +5289,8 @@
         "value": 51.62,
         "low": 48.15,
         "high": 54.78,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20578,
@@ -4712,7 +5298,8 @@
         "value": 51.73,
         "low": 48.24,
         "high": 54.9,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20579,
@@ -4720,7 +5307,8 @@
         "value": 51.85,
         "low": 48.34,
         "high": 55.02,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20580,
@@ -4728,7 +5316,8 @@
         "value": 51.96,
         "low": 48.51,
         "high": 55.09,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20581,
@@ -4736,7 +5325,8 @@
         "value": 52.08,
         "low": 48.61,
         "high": 55.15,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20582,
@@ -4744,7 +5334,8 @@
         "value": 52.2,
         "low": 48.69,
         "high": 55.22,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20583,
@@ -4752,7 +5343,8 @@
         "value": 52.31,
         "low": 48.74,
         "high": 55.28,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20584,
@@ -4760,7 +5352,8 @@
         "value": 52.43,
         "low": 48.82,
         "high": 55.54,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20585,
@@ -4768,7 +5361,8 @@
         "value": 52.54,
         "low": 48.93,
         "high": 55.69,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20586,
@@ -4776,7 +5370,8 @@
         "value": 52.66,
         "low": 49.02,
         "high": 55.79,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20587,
@@ -4784,7 +5379,8 @@
         "value": 52.77,
         "low": 49.16,
         "high": 55.89,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20588,
@@ -4792,7 +5388,8 @@
         "value": 52.88,
         "low": 49.31,
         "high": 55.98,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20589,
@@ -4800,7 +5397,8 @@
         "value": 52.99,
         "low": 49.46,
         "high": 56.06,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20590,
@@ -4808,7 +5406,8 @@
         "value": 53.09,
         "low": 49.61,
         "high": 56.14,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20591,
@@ -4816,7 +5415,8 @@
         "value": 53.2,
         "low": 49.67,
         "high": 56.21,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20592,
@@ -4824,7 +5424,8 @@
         "value": 53.3,
         "low": 49.78,
         "high": 56.45,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20593,
@@ -4832,7 +5433,8 @@
         "value": 53.4,
         "low": 49.92,
         "high": 56.71,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20594,
@@ -4840,7 +5442,8 @@
         "value": 53.49,
         "low": 49.98,
         "high": 56.81,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20595,
@@ -4848,7 +5451,8 @@
         "value": 53.59,
         "low": 50.04,
         "high": 56.87,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20596,
@@ -4856,7 +5460,8 @@
         "value": 53.68,
         "low": 50.12,
         "high": 56.93,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20597,
@@ -4864,7 +5469,8 @@
         "value": 53.77,
         "low": 50.19,
         "high": 56.97,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20598,
@@ -4872,7 +5478,8 @@
         "value": 53.85,
         "low": 50.3,
         "high": 57.0,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20599,
@@ -4880,7 +5487,8 @@
         "value": 53.94,
         "low": 50.37,
         "high": 57.09,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20600,
@@ -4888,7 +5496,8 @@
         "value": 54.02,
         "low": 50.44,
         "high": 57.17,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20601,
@@ -4896,7 +5505,8 @@
         "value": 54.1,
         "low": 50.51,
         "high": 57.39,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20602,
@@ -4904,7 +5514,8 @@
         "value": 54.17,
         "low": 50.58,
         "high": 57.45,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20603,
@@ -4912,7 +5523,8 @@
         "value": 54.24,
         "low": 50.65,
         "high": 57.47,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20604,
@@ -4920,7 +5532,8 @@
         "value": 54.31,
         "low": 50.72,
         "high": 57.48,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20605,
@@ -4928,7 +5541,8 @@
         "value": 54.38,
         "low": 50.8,
         "high": 57.54,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20606,
@@ -4936,7 +5550,8 @@
         "value": 54.44,
         "low": 50.88,
         "high": 57.52,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20607,
@@ -4944,7 +5559,8 @@
         "value": 54.49,
         "low": 50.96,
         "high": 57.5,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20608,
@@ -4952,7 +5568,8 @@
         "value": 54.54,
         "low": 51.04,
         "high": 57.52,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20609,
@@ -4960,7 +5577,8 @@
         "value": 54.59,
         "low": 51.09,
         "high": 57.58,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20610,
@@ -4968,7 +5586,8 @@
         "value": 54.64,
         "low": 51.15,
         "high": 57.62,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20611,
@@ -4976,7 +5595,8 @@
         "value": 54.68,
         "low": 51.21,
         "high": 57.66,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20612,
@@ -4984,7 +5604,8 @@
         "value": 54.72,
         "low": 51.29,
         "high": 57.7,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20613,
@@ -4992,7 +5613,8 @@
         "value": 54.76,
         "low": 51.37,
         "high": 57.74,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20614,
@@ -5000,7 +5622,8 @@
         "value": 54.8,
         "low": 51.43,
         "high": 57.77,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20615,
@@ -5008,7 +5631,8 @@
         "value": 54.83,
         "low": 51.51,
         "high": 57.81,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20616,
@@ -5016,7 +5640,8 @@
         "value": 54.87,
         "low": 51.59,
         "high": 57.85,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20617,
@@ -5024,7 +5649,8 @@
         "value": 54.9,
         "low": 51.68,
         "high": 57.89,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20618,
@@ -5032,7 +5658,8 @@
         "value": 54.94,
         "low": 51.76,
         "high": 57.99,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20619,
@@ -5040,7 +5667,8 @@
         "value": 54.97,
         "low": 51.83,
         "high": 58.11,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20620,
@@ -5048,7 +5676,8 @@
         "value": 55.0,
         "low": 51.87,
         "high": 58.14,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20621,
@@ -5056,7 +5685,8 @@
         "value": 55.03,
         "low": 51.93,
         "high": 58.12,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20622,
@@ -5064,7 +5694,8 @@
         "value": 55.06,
         "low": 51.98,
         "high": 58.08,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20623,
@@ -5072,7 +5703,8 @@
         "value": 55.09,
         "low": 52.04,
         "high": 58.03,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20624,
@@ -5080,7 +5712,8 @@
         "value": 55.12,
         "low": 52.11,
         "high": 57.99,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20625,
@@ -5088,7 +5721,8 @@
         "value": 55.15,
         "low": 52.17,
         "high": 57.94,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20626,
@@ -5096,7 +5730,8 @@
         "value": 55.18,
         "low": 52.23,
         "high": 57.91,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20627,
@@ -5104,7 +5739,8 @@
         "value": 55.2,
         "low": 52.3,
         "high": 57.85,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20628,
@@ -5112,7 +5748,8 @@
         "value": 55.22,
         "low": 52.38,
         "high": 57.82,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20629,
@@ -5120,7 +5757,8 @@
         "value": 55.24,
         "low": 52.45,
         "high": 57.87,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20630,
@@ -5128,7 +5766,8 @@
         "value": 55.25,
         "low": 52.52,
         "high": 57.9,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20631,
@@ -5136,7 +5775,8 @@
         "value": 55.26,
         "low": 52.6,
         "high": 57.96,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20632,
@@ -5144,7 +5784,8 @@
         "value": 55.27,
         "low": 52.67,
         "high": 57.98,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20633,
@@ -5152,7 +5793,8 @@
         "value": 55.27,
         "low": 52.79,
         "high": 57.93,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20634,
@@ -5160,7 +5802,8 @@
         "value": 55.27,
         "low": 52.94,
         "high": 57.83,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20635,
@@ -5168,7 +5811,8 @@
         "value": 55.27,
         "low": 53.06,
         "high": 57.81,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20636,
@@ -5176,7 +5820,8 @@
         "value": 55.26,
         "low": 53.19,
         "high": 57.76,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       },
       {
         "t": 20637,
@@ -5184,7 +5829,8 @@
         "value": 55.24,
         "low": 53.36,
         "high": 57.7,
-        "sparse": false
+        "sparse": false,
+        "party": "Negative"
       }
     ]
   },
