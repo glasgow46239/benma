@@ -9,7 +9,7 @@
     "bootstrapIterations": 200
   },
   "breaks": [
-  { "date": "04/07/2024", "label": "2024 election" }
+  { "date": "04/07/2024", "label": "2024 election", "bandwidthDays": 120, "minPollsInWindow": 2 }
 ],
   "skipPollsterPatterns": [],
   "subgroups": [
