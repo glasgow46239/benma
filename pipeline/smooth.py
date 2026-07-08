@@ -259,40 +259,84 @@ def build_line_json(polls, config, subgroup_label=None, subgroup_cfg=None):
     min_polls = (subgroup_cfg or {}).get("minPollsInWindow", global_min_polls)
     parties   = [p for p in config["parties"] if p["includeInLine"]]
 
+    # Parse break dates — splits data into independent smoothed segments
+    raw_breaks = config.get("breaks", [])
+    break_days = sorted([
+        days_since_epoch(datetime.strptime(b["date"].strip(), "%d/%m/%Y"))
+        for b in raw_breaks
+    ])
+
+    def segment_pts(pts):
+        """Split (t, y) points into segments at break boundaries."""
+        if not break_days:
+            return [pts]
+        segments = []
+        boundaries = [float("-inf")] + break_days + [float("inf")]
+        for i in range(len(boundaries) - 1):
+            seg = [(t, y) for t, y in pts if boundaries[i] <= t < boundaries[i+1]]
+            if seg:
+                segments.append((i, seg))
+        return segments
+
+    def segment_col_name(name, seg_idx):
+        """Column name for a segment — plain name if no breaks, suffixed otherwise."""
+        if not break_days:
+            return name
+        n = len(break_days)
+        if seg_idx == 0:
+            label = raw_breaks[0].get("label", "break")
+            return f"{name} (pre-{label})"
+        elif seg_idx >= n:
+            label = raw_breaks[-1].get("label", "break")
+            return f"{name} (post-{label})"
+        else:
+            label = raw_breaks[seg_idx].get("label", "break")
+            return f"{name} (to {label})"
+
     series = {}
     for party in parties:
         name = party["name"]
-        pts  = [
+        all_pts = [
             (days_since_epoch(p["date"]), p["values"][name])
             for p in polls
             if p["values"].get(name) is not None
         ]
-        if not pts:
+        if not all_pts:
             continue
 
-        smoothed = kernel_loess(pts, bw, min_polls, step_days=1)
-        t_values = [s[0] for s in smoothed]
+        for seg_idx, pts in segment_pts(all_pts):
+            col_name = segment_col_name(name, seg_idx)
+            smoothed = kernel_loess(pts, bw, min_polls, step_days=1)
+            t_values = [s[0] for s in smoothed]
 
-        print(f"    Bootstrapping CI for {name} ({n_boot} iterations)...")
-        lows, highs = bootstrap_ci(pts, bw, min_polls, t_values, n_boot=n_boot)
+            print(f"    Bootstrapping CI for {col_name} ({n_boot} iterations)...")
+            lows, highs = bootstrap_ci(pts, bw, min_polls, t_values, n_boot=n_boot)
 
-        series[name] = [
-            {
-                "t":     int(t),
-                "date":  epoch_to_date_str(t),
-                "value": v,
-                "low":   lows[i],
-                "high":  highs[i],
-                "sparse": s
-            }
-            for i, (t, v, s) in enumerate(smoothed)
-        ]
+            series[col_name] = [
+                {
+                    "t":      int(t),
+                    "date":   epoch_to_date_str(t),
+                    "value":  v,
+                    "low":    lows[i],
+                    "high":   highs[i],
+                    "sparse": s,
+                    "party":  name
+                }
+                for i, (t, v, s) in enumerate(smoothed)
+            ]
 
+    # Latest smoothed values — use the last segment per party (most recent)
     latest_smooth = {}
-    for name, pts in series.items():
+    for col_name, pts in series.items():
         non_null = [p for p in pts if p["value"] is not None]
         if non_null:
-            latest_smooth[name] = non_null[-1]["value"]
+            # Use "party" field if present, else col_name (backwards compat)
+            party_key = non_null[-1].get("party", col_name)
+            # Only overwrite if this segment ends later
+            existing = latest_smooth.get(party_key)
+            if existing is None or non_null[-1]["t"] > existing["t"]:
+                latest_smooth[party_key] = {"value": non_null[-1]["value"], "t": non_null[-1]["t"]}
+    latest_smooth = {k: v["value"] for k, v in latest_smooth.items()}
 
     headline, intro = generate_headline(polls, config, latest_smooth, subgroup_label)
     latest_poll_date = polls[-1]["date"].strftime("%d-%b-%Y") if polls else ""
@@ -396,7 +440,19 @@ def build_line_csv(json_data, polls, hist_series=None, hist_polls=None):
 
     hist_series = hist_series or {}
     hist_polls  = hist_polls  or {}
-    party_names = list(series.keys())
+
+    # series keys may be suffixed (e.g. "Lab (pre-2024 election)")
+    # party_names for poll dots uses the "party" field or falls back to key
+    series_keys = list(series.keys())
+
+    # Unique base party names (for poll dot columns)
+    seen = []
+    for key in series_keys:
+        pts = series[key]
+        base = pts[0].get("party", key) if pts else key
+        if base not in seen:
+            seen.append(base)
+    party_names = seen
 
     hist_smooth_cols = sorted(set(
         k for k in hist_series
@@ -418,10 +474,10 @@ def build_line_csv(json_data, polls, hist_series=None, hist_polls=None):
     raw_dates = sorted(daily.keys())
 
     smooth_lookup = {}
-    for name in party_names:
-        for pt in series.get(name, []):
+    for key in series_keys:
+        for pt in series.get(key, []):
             if pt["value"] is not None:
-                smooth_lookup.setdefault(pt["date"], {})[name] = (
+                smooth_lookup.setdefault(pt["date"], {})[key] = (
                     pt["value"], pt.get("low"), pt.get("high")
                 )
 
@@ -432,8 +488,8 @@ def build_line_csv(json_data, polls, hist_series=None, hist_polls=None):
     all_dates = sorted(set(smooth_lookup.keys()) | all_hist_dates | set(raw_dates))
 
     header = ["date"]
-    for name in party_names:
-        header += [name, f"{name} (low)", f"{name} (high)"]
+    for key in series_keys:
+        header += [key, f"{key} (low)", f"{key} (high)"]
     for col in hist_smooth_cols:
         header += [col, f"{col} (low)", f"{col} (high)"]
     for name in party_names:
@@ -442,8 +498,8 @@ def build_line_csv(json_data, polls, hist_series=None, hist_polls=None):
 
     for date in all_dates:
         row = [date]
-        for name in party_names:
-            entry = smooth_lookup.get(date, {}).get(name)
+        for key in series_keys:
+            entry = smooth_lookup.get(date, {}).get(key)
             if entry:
                 v, lo, hi = entry
                 row += [str(v),
