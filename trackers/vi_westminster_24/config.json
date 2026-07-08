@@ -224,21 +224,6 @@
       }
     }
   ],
-  "historicalSeries": {
-    "url": "https://raw.githubusercontent.com/glasgow46239/benma/refs/heads/main/trackers/vi_westminster_19/data/line-{subgroup}.csv",
-    "labelSuffix": " (2019-24)",
-    "parties": [
-      "Con",
-      "Lab",
-      "LDem",
-      "Ukip",
-      "Grn",
-      "SNP",
-      "PC",
-      "Reform"
-    ],
-    "matchSubgroup": true
-  },
   "parties": [
     {
       "name": "Con",
