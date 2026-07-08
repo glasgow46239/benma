@@ -306,11 +306,21 @@ def build_line_json(polls, config, subgroup_label=None, subgroup_cfg=None):
 
         for seg_idx, pts in segment_pts(all_pts):
             col_name = segment_col_name(name, seg_idx)
-            smoothed = kernel_loess(pts, bw, min_polls, step_days=1)
+
+            # Per-segment bandwidth: segment 0 uses global, segment N uses break N-1's settings
+            if seg_idx == 0:
+                seg_bw        = bw
+                seg_min_polls = min_polls
+            else:
+                seg_break = raw_breaks[seg_idx - 1]
+                seg_bw        = seg_break.get("bandwidthDays",    bw)
+                seg_min_polls = seg_break.get("minPollsInWindow", min_polls)
+
+            smoothed = kernel_loess(pts, seg_bw, seg_min_polls, step_days=1)
             t_values = [s[0] for s in smoothed]
 
-            print(f"    Bootstrapping CI for {col_name} ({n_boot} iterations)...")
-            lows, highs = bootstrap_ci(pts, bw, min_polls, t_values, n_boot=n_boot)
+            print(f"    Bootstrapping CI for {col_name} (bandwidth {seg_bw}d, {n_boot} iterations)...")
+            lows, highs = bootstrap_ci(pts, seg_bw, seg_min_polls, t_values, n_boot=n_boot)
 
             series[col_name] = [
                 {
