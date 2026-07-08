@@ -267,9 +267,10 @@ def build_line_json(polls, config, subgroup_label=None, subgroup_cfg=None):
     ])
 
     def segment_pts(pts):
-        """Split (t, y) points into segments at break boundaries."""
+        """Split (t, y) points into segments at break boundaries.
+        Always returns list of (seg_idx, pts) tuples."""
         if not break_days:
-            return [pts]
+            return [(0, pts)]
         segments = []
         boundaries = [float("-inf")] + break_days + [float("inf")]
         for i in range(len(boundaries) - 1):
@@ -287,7 +288,7 @@ def build_line_json(polls, config, subgroup_label=None, subgroup_cfg=None):
             label = raw_breaks[0].get("label", "break")
             return f"{name} (pre-{label})"
         elif seg_idx >= n:
-            label = raw_breaks[-1].get("label", "break")
+            label = raw_breaks[seg_idx - 1].get("label", "break")
             return f"{name} (post-{label})"
         else:
             label = raw_breaks[seg_idx].get("label", "break")
