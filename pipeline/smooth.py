@@ -173,14 +173,18 @@ def kernel_loess_simple(data_points, bandwidth_days, min_polls, t_values):
     return results
 
 def bootstrap_ci(data_points, bandwidth_days, min_polls, t_values,
-                 n_boot=200, ci_low=5, ci_high=95):
+                 n_boot=200, ci_low=5, ci_high=95, margin_of_error=0):
     if len(data_points) < min_polls:
         return [None] * len(t_values), [None] * len(t_values)
     rng = np.random.default_rng(42)
     boot_results = []
     for _ in range(n_boot):
-        idx       = rng.integers(0, len(data_points), size=len(data_points))
+        idx = rng.integers(0, len(data_points), size=len(data_points))
         resampled = [data_points[i] for i in idx]
+        # Apply margin of error jitter if specified
+        if margin_of_error > 0:
+            jitter = rng.normal(0, margin_of_error, size=len(resampled))
+            resampled = [(t, y + jitter[i]) for i, (t, y) in enumerate(resampled)]
         boot_results.append(
             kernel_loess_simple(resampled, bandwidth_days, min_polls, t_values)
         )
@@ -254,9 +258,11 @@ def build_line_json(polls, config, subgroup_label=None, subgroup_cfg=None):
     global_bw        = config["smoothing"]["bandwidthDays"]
     global_min_polls = config["smoothing"]["minPollsInWindow"]
     n_boot           = config["smoothing"].get("bootstrapIterations", 200)
+    global_moe       = config["smoothing"].get("marginOfError", 0)
 
     bw        = (subgroup_cfg or {}).get("bandwidthDays",    global_bw)
     min_polls = (subgroup_cfg or {}).get("minPollsInWindow", global_min_polls)
+    moe       = (subgroup_cfg or {}).get("marginOfError",    global_moe)
     parties   = [p for p in config["parties"] if p["includeInLine"]]
 
     # Parse break dates — splits data into independent smoothed segments
@@ -320,8 +326,8 @@ def build_line_json(polls, config, subgroup_label=None, subgroup_cfg=None):
             smoothed = kernel_loess(pts, seg_bw, seg_min_polls, step_days=1)
             t_values = [s[0] for s in smoothed]
 
-            print(f"    Bootstrapping CI for {col_name} (bandwidth {seg_bw}d, {n_boot} iterations)...")
-            lows, highs = bootstrap_ci(pts, seg_bw, seg_min_polls, t_values, n_boot=n_boot)
+            print(f"    Bootstrapping CI for {col_name} (bandwidth {seg_bw}d, MoE ±{moe}pt, {n_boot} iterations)...")
+            lows, highs = bootstrap_ci(pts, seg_bw, seg_min_polls, t_values, n_boot=n_boot, margin_of_error=moe)
 
             series[col_name] = [
                 {
