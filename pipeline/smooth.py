@@ -426,12 +426,12 @@ def build_bar_csv(polls, config, subgroup_cfg=None, line_json=None):
             ref        = "n/a"
         lines.append(f"{name},{curr},{ref},{change_str}")
 
-    # Other parties: 100 minus sum of all included parties in latest poll
+    # Other parties: 100 minus sum of bar parties only (not all parties)
     if include_other:
-        curr_sum = sum(v for v in latest.values() if v is not None)
+        curr_sum = sum(latest.get(p["name"], 0) or 0 for p in parties)
         curr_other = round(100 - curr_sum, 1)
 
-        ref_sum = sum(ref_results.get(p["name"], 0) for p in parties
+        ref_sum = sum(ref_results.get(p["name"], 0) or 0 for p in parties
                       if ref_results.get(p["name"]) is not None)
         ref_other = round(100 - ref_sum, 1) if ref_sum > 0 else None
 
@@ -595,6 +595,89 @@ def load_historical_series(config, subgroup_value=None):
     print(f"  Loaded historical series: {len(hist)} columns, {len(set(d for v in hist.values() for d in v))} dates")
     return dict(hist), dict(polls)
 
+
+# ---------------------------------------------------------------------------
+# Summary CSV builder
+# ---------------------------------------------------------------------------
+
+def build_summary_csv(subgroup_results, config, months_back=(2, 6)):
+    """
+    One row per subgroup, columns per party per timepoint.
+    subgroup_results: list of (sg_label, line_json) tuples
+    months_back: tuple of month offsets to include (default: 2 and 6)
+
+    Output columns:
+        subgroup, [Party] latest, [Party] Xm ago, [Party] Ym ago, ...
+    """
+    from datetime import datetime, timedelta
+
+    if not subgroup_results:
+        return ""
+
+    # Collect all base party names that appear across any subgroup
+    all_parties = []
+    seen = set()
+    for _, line_json in subgroup_results:
+        for col_name in line_json["series"]:
+            pts = line_json["series"][col_name]
+            base = pts[0].get("party", col_name) if pts else col_name
+            if base not in seen:
+                seen.add(base)
+                all_parties.append(base)
+
+    # Only include parties that are includeInLine
+    line_parties = [p["name"] for p in config["parties"] if p["includeInLine"]]
+    parties = [p for p in all_parties if p in line_parties]
+
+    # Reference dates
+    now = datetime.utcnow()
+    ref_dates = {m: now - timedelta(days=m * 30) for m in months_back}
+
+    def find_value_at(series, party, target_dt):
+        """Find smoothed value closest to target_dt for a given party."""
+        target_t = (target_dt - datetime(1970, 1, 1)).days
+        # Collect all segments for this party
+        candidates = []
+        for col_name, pts in series.items():
+            base = pts[0].get("party", col_name) if pts else col_name
+            if base != party:
+                continue
+            non_null = [(pt["t"], pt["value"]) for pt in pts if pt["value"] is not None]
+            candidates.extend(non_null)
+        if not candidates:
+            return None
+        # Find closest point to target
+        closest = min(candidates, key=lambda x: abs(x[0] - target_t))
+        # Only return if within 30 days of target
+        if abs(closest[0] - target_t) <= 30:
+            return closest[1]
+        return None
+
+    # Header
+    header = ["subgroup"]
+    for party in parties:
+        header.append(f"{party} latest")
+        for m in months_back:
+            header.append(f"{party} {m}m ago")
+
+    lines = [",".join(header)]
+
+    for sg_label, line_json in subgroup_results:
+        series   = line_json["series"]
+        latest_s = line_json["meta"].get("latestSmoothed", {})
+        row = [sg_label]
+        for party in parties:
+            # Latest smoothed value
+            latest_val = latest_s.get(party)
+            row.append("" if latest_val is None else str(latest_val))
+            # Historical values
+            for m in months_back:
+                val = find_value_at(series, party, ref_dates[m])
+                row.append("" if val is None else str(round(val, 1)))
+        lines.append(",".join(row))
+
+    return "\n".join(lines)
+
 # ---------------------------------------------------------------------------
 # Datawrapper push
 # ---------------------------------------------------------------------------
@@ -717,6 +800,7 @@ def main():
     if subgroups:
         # --- Subgroup mode: run pipeline once per subgroup ---
         print(f"Subgroup mode: {len(subgroups)} subgroups")
+        subgroup_results = []  # collect (label, line_json) for summary CSV
         for sg in subgroups:
             sg_value = sg["value"]
             sg_label = sg.get("name", sg_value)
@@ -758,6 +842,7 @@ def main():
                 write(line_csv_path, build_line_csv(line_json, polls, hist_series, hist_polls))
 
             print(f"  Headline: {line_json['meta']['headline']}")
+            subgroup_results.append((sg_label, line_json))
 
             if args.push_to_datawrapper:
                 push_to_datawrapper(
@@ -766,6 +851,15 @@ def main():
                     line_id_override=dw_line_id or None,
                     bar_id_override=dw_bar_id or None
                 )
+
+        # Write summary CSV after all subgroups processed
+        summary_csv_path = config.get("output", {}).get("summaryCsvPath", "")
+        if summary_csv_path and subgroup_results:
+            summary_csv = build_summary_csv(subgroup_results, config)
+            os.makedirs(os.path.dirname(summary_csv_path), exist_ok=True)
+            with open(summary_csv_path, "w") as f:
+                f.write(summary_csv)
+            print(f"Written: {summary_csv_path}")
 
     else:
         # --- Standard mode: single series ---
