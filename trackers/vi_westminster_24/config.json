@@ -295,6 +295,7 @@
   },
   "output": {
     "lineJsonPath": "trackers/vi_westminster_24/data/line.json",
+    "summaryCsvPath": "trackers/vi_westminster_24/data/summary.csv",
     "barCsvPath": "trackers/vi_westminster_24/data/bar.csv",
     "lineCsvPath": "trackers/vi_westminster_24/data/line.csv",
     "subgroups": {
