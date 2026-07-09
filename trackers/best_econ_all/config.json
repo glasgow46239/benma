@@ -5,6 +5,7 @@
   "subgroupColumn": 11,
   "smoothing": {
     "bandwidthDays": 240,
+    "marginOfError": 4,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200
   },
@@ -24,7 +25,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2
     },
     {
@@ -38,7 +39,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2
     },
     {
@@ -52,7 +53,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2
     },
     {
@@ -66,7 +67,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2
     },
     {
@@ -80,7 +81,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2
     },
     {
@@ -94,7 +95,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2
     },
     {
@@ -108,7 +109,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2
     },
     {
@@ -122,7 +123,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2
     },
     {
@@ -136,7 +137,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2
     },
     {
@@ -150,7 +151,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2
     },
     {
@@ -179,7 +180,7 @@
         "Reform",
         "SNP"
       ],
-      "bandwidthDays": 60,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2,
       "referenceElection": {
         "label": "2024 GE (Scotland)",
@@ -205,7 +206,7 @@
         "Reform",
         "PC"
       ],
-      "bandwidthDays": 60,
+      "bandwidthDays": 240,
       "minPollsInWindow": 2,
       "referenceElection": {
         "label": "2024 GE (Wales)",
