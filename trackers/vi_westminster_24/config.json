@@ -4,16 +4,17 @@
   "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRUV0qTNO_TaH0vyqyhqCgdo76BxF8W3oMfhLbgTucogF15cuT_EjGhzvCCynZ9FGe2EjrS5sXLE8ga/pub?gid=991080872&single=true&output=csv",
   "subgroupColumn": 11,
   "smoothing": {
-    "bandwidthDays": 40,
-    "minPollsInWindow": 2,
-    "bootstrapIterations": 200
-  },
+    "bandwidthDays": 60,
+    "minPollsInWindow": 3,
+    "bootstrapIterations": 200,
+    "marginOfError": 3
+},
   "breaks": [
-  { "date": "07/05/2010", "label": "2010 election", "bandwidthDays": 40, "minPollsInWindow": 2 },
-  { "date": "07/05/2015", "label": "2015 election", "bandwidthDays": 40, "minPollsInWindow": 2 },
-  { "date": "08/06/2017", "label": "2017 election", "bandwidthDays": 40, "minPollsInWindow": 2 },
-  { "date": "12/12/2019", "label": "2019 election", "bandwidthDays": 40, "minPollsInWindow": 2 },
-  { "date": "04/07/2024", "label": "2024 election", "bandwidthDays": 40, "minPollsInWindow": 2 }
+  { "date": "07/05/2010", "label": "2010 election", "minPollsInWindow": 2 },
+  { "date": "07/05/2015", "label": "2015 election", "minPollsInWindow": 2 },
+  { "date": "08/06/2017", "label": "2017 election", "minPollsInWindow": 2 },
+  { "date": "12/12/2019", "label": "2019 election", "minPollsInWindow": 2 },
+  { "date": "04/07/2024", "label": "2024 election", "minPollsInWindow": 2 }
 ],
   "skipPollsterPatterns": [],
   "subgroups": [
@@ -28,7 +29,8 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 120,
+      "marginOfError": 5,
       "minPollsInWindow": 2
     },
     {
@@ -42,7 +44,8 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 120,
+      "marginOfError": 5,
       "minPollsInWindow": 2
     },
     {
@@ -56,7 +59,8 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 120,
+      "marginOfError": 5,
       "minPollsInWindow": 2
     },
     {
@@ -70,7 +74,8 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 120,
+      "marginOfError": 5,
       "minPollsInWindow": 2
     },
     {
@@ -84,7 +89,8 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 120,
+      "marginOfError": 5,
       "minPollsInWindow": 2
     },
     {
@@ -98,7 +104,8 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 120,
+      "marginOfError": 5,
       "minPollsInWindow": 2
     },
     {
@@ -112,7 +119,8 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 120,
+      "marginOfError": 5,
       "minPollsInWindow": 2
     },
     {
@@ -126,7 +134,8 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 120,
+      "marginOfError": 5,
       "minPollsInWindow": 2
     },
     {
@@ -140,7 +149,8 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 120,
+      "marginOfError": 5,
       "minPollsInWindow": 2
     },
     {
@@ -154,7 +164,8 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 120,
+      "marginOfError": 5,
       "minPollsInWindow": 2
     },
     {
@@ -168,7 +179,8 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 40,
+      "bandwidthDays": 60,
+      "marginOfError": 3,
       "minPollsInWindow": 2
     },
     {
@@ -183,7 +195,8 @@
         "Reform",
         "SNP"
       ],
-      "bandwidthDays": 60,
+      "bandwidthDays": 120,
+      "marginOfError": 5,
       "minPollsInWindow": 2,
       "referenceElection": {
         "label": "2024 GE (Scotland)",
@@ -209,7 +222,8 @@
         "Reform",
         "PC"
       ],
-      "bandwidthDays": 60,
+      "bandwidthDays": 120,
+      "marginOfError": 5,
       "minPollsInWindow": 2,
       "referenceElection": {
         "label": "2024 GE (Wales)",
