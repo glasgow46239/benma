@@ -291,6 +291,7 @@
   },
   "output": {
     "lineJsonPath": "trackers/best_econ_all/data/line.json",
+    "summaryCsvPath": "trackers/best_econ_all/data/summary.csv",
     "barCsvPath": "trackers/best_econ_all/data/bar.csv",
     "lineCsvPath": "trackers/best_econ_all/data/line.csv",
     "subgroups": {
