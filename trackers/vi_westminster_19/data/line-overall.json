@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Voting intention",
     "subgroup": "UK/GB",
-    "generated": "2026-07-11T08:08:33Z",
+    "generated": "2026-07-12T08:28:25Z",
     "bandwidthDays": 40,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
