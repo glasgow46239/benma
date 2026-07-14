@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "Midlands",
-    "generated": "2026-07-13T09:03:48Z",
+    "generated": "2026-07-14T00:52:59Z",
     "bandwidthDays": 120,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
@@ -20,8 +20,8 @@
         "t": 20126,
         "date": "2025-02-07",
         "value": 34.28,
-        "low": 32.13,
-        "high": 36.71,
+        "low": 32.24,
+        "high": 36.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -29,8 +29,8 @@
         "t": 20127,
         "date": "2025-02-08",
         "value": 34.3,
-        "low": 32.07,
-        "high": 36.78,
+        "low": 32.24,
+        "high": 36.64,
         "sparse": false,
         "party": "Positive"
       },
@@ -38,8 +38,8 @@
         "t": 20128,
         "date": "2025-02-09",
         "value": 34.33,
-        "low": 32.01,
-        "high": 36.82,
+        "low": 32.23,
+        "high": 36.75,
         "sparse": false,
         "party": "Positive"
       },
@@ -47,8 +47,8 @@
         "t": 20129,
         "date": "2025-02-10",
         "value": 34.35,
-        "low": 31.97,
-        "high": 36.85,
+        "low": 32.23,
+        "high": 36.8,
         "sparse": false,
         "party": "Positive"
       },
@@ -56,8 +56,8 @@
         "t": 20130,
         "date": "2025-02-11",
         "value": 34.37,
-        "low": 31.95,
-        "high": 36.92,
+        "low": 32.23,
+        "high": 36.85,
         "sparse": false,
         "party": "Positive"
       },
@@ -65,8 +65,8 @@
         "t": 20131,
         "date": "2025-02-12",
         "value": 34.4,
-        "low": 31.96,
-        "high": 36.99,
+        "low": 32.25,
+        "high": 36.89,
         "sparse": false,
         "party": "Positive"
       },
@@ -75,7 +75,7 @@
         "date": "2025-02-13",
         "value": 34.42,
         "low": 31.95,
-        "high": 37.05,
+        "high": 37.1,
         "sparse": false,
         "party": "Positive"
       },
@@ -84,7 +84,7 @@
         "date": "2025-02-14",
         "value": 34.45,
         "low": 31.98,
-        "high": 37.08,
+        "high": 37.15,
         "sparse": false,
         "party": "Positive"
       },
@@ -93,7 +93,7 @@
         "date": "2025-02-15",
         "value": 34.47,
         "low": 31.99,
-        "high": 37.11,
+        "high": 37.22,
         "sparse": false,
         "party": "Positive"
       },
@@ -102,7 +102,7 @@
         "date": "2025-02-16",
         "value": 34.49,
         "low": 32.0,
-        "high": 37.14,
+        "high": 37.28,
         "sparse": false,
         "party": "Positive"
       },
@@ -111,7 +111,7 @@
         "date": "2025-02-17",
         "value": 34.52,
         "low": 32.02,
-        "high": 37.16,
+        "high": 37.35,
         "sparse": false,
         "party": "Positive"
       },
@@ -120,7 +120,7 @@
         "date": "2025-02-18",
         "value": 34.54,
         "low": 32.03,
-        "high": 37.19,
+        "high": 37.4,
         "sparse": false,
         "party": "Positive"
       },
@@ -129,7 +129,7 @@
         "date": "2025-02-19",
         "value": 34.56,
         "low": 32.04,
-        "high": 37.21,
+        "high": 37.44,
         "sparse": false,
         "party": "Positive"
       },
@@ -137,8 +137,8 @@
         "t": 20139,
         "date": "2025-02-20",
         "value": 34.58,
-        "low": 32.06,
-        "high": 37.23,
+        "low": 32.05,
+        "high": 37.49,
         "sparse": false,
         "party": "Positive"
       },
@@ -146,8 +146,8 @@
         "t": 20140,
         "date": "2025-02-21",
         "value": 34.6,
-        "low": 32.07,
-        "high": 37.25,
+        "low": 32.05,
+        "high": 37.53,
         "sparse": false,
         "party": "Positive"
       },
@@ -155,8 +155,8 @@
         "t": 20141,
         "date": "2025-02-22",
         "value": 34.63,
-        "low": 32.09,
-        "high": 37.27,
+        "low": 32.07,
+        "high": 37.57,
         "sparse": false,
         "party": "Positive"
       },
@@ -164,8 +164,8 @@
         "t": 20142,
         "date": "2025-02-23",
         "value": 34.65,
-        "low": 32.11,
-        "high": 37.29,
+        "low": 32.07,
+        "high": 37.6,
         "sparse": false,
         "party": "Positive"
       },
@@ -174,7 +174,7 @@
         "date": "2025-02-24",
         "value": 34.67,
         "low": 32.09,
-        "high": 37.31,
+        "high": 37.64,
         "sparse": false,
         "party": "Positive"
       },
@@ -183,7 +183,7 @@
         "date": "2025-02-25",
         "value": 34.69,
         "low": 32.06,
-        "high": 37.33,
+        "high": 37.68,
         "sparse": false,
         "party": "Positive"
       },
@@ -192,7 +192,7 @@
         "date": "2025-02-26",
         "value": 34.71,
         "low": 32.03,
-        "high": 37.35,
+        "high": 37.71,
         "sparse": false,
         "party": "Positive"
       },
@@ -201,7 +201,7 @@
         "date": "2025-02-27",
         "value": 34.73,
         "low": 32.0,
-        "high": 37.36,
+        "high": 37.71,
         "sparse": false,
         "party": "Positive"
       },
@@ -209,8 +209,8 @@
         "t": 20147,
         "date": "2025-02-28",
         "value": 34.75,
-        "low": 31.98,
-        "high": 37.38,
+        "low": 31.99,
+        "high": 37.71,
         "sparse": false,
         "party": "Positive"
       },
@@ -218,8 +218,8 @@
         "t": 20148,
         "date": "2025-03-01",
         "value": 34.76,
-        "low": 31.95,
-        "high": 37.39,
+        "low": 31.97,
+        "high": 37.71,
         "sparse": false,
         "party": "Positive"
       },
@@ -227,8 +227,8 @@
         "t": 20149,
         "date": "2025-03-02",
         "value": 34.78,
-        "low": 31.93,
-        "high": 37.41,
+        "low": 31.96,
+        "high": 37.7,
         "sparse": false,
         "party": "Positive"
       },
@@ -236,8 +236,8 @@
         "t": 20150,
         "date": "2025-03-03",
         "value": 34.8,
-        "low": 31.91,
-        "high": 37.42,
+        "low": 31.94,
+        "high": 37.7,
         "sparse": false,
         "party": "Positive"
       },
@@ -245,8 +245,8 @@
         "t": 20151,
         "date": "2025-03-04",
         "value": 34.82,
-        "low": 31.89,
-        "high": 37.43,
+        "low": 31.92,
+        "high": 37.7,
         "sparse": false,
         "party": "Positive"
       },
@@ -254,8 +254,8 @@
         "t": 20152,
         "date": "2025-03-05",
         "value": 34.83,
-        "low": 31.87,
-        "high": 37.48,
+        "low": 31.91,
+        "high": 37.7,
         "sparse": false,
         "party": "Positive"
       },
@@ -263,8 +263,8 @@
         "t": 20153,
         "date": "2025-03-06",
         "value": 34.85,
-        "low": 31.85,
-        "high": 37.54,
+        "low": 31.89,
+        "high": 37.7,
         "sparse": false,
         "party": "Positive"
       },
@@ -272,8 +272,8 @@
         "t": 20154,
         "date": "2025-03-07",
         "value": 34.87,
-        "low": 31.83,
-        "high": 37.6,
+        "low": 31.87,
+        "high": 37.72,
         "sparse": false,
         "party": "Positive"
       },
@@ -281,8 +281,8 @@
         "t": 20155,
         "date": "2025-03-08",
         "value": 34.88,
-        "low": 31.82,
-        "high": 37.66,
+        "low": 31.86,
+        "high": 37.74,
         "sparse": false,
         "party": "Positive"
       },
@@ -290,8 +290,8 @@
         "t": 20156,
         "date": "2025-03-09",
         "value": 34.9,
-        "low": 31.8,
-        "high": 37.71,
+        "low": 31.85,
+        "high": 37.77,
         "sparse": false,
         "party": "Positive"
       },
@@ -299,8 +299,8 @@
         "t": 20157,
         "date": "2025-03-10",
         "value": 34.91,
-        "low": 31.79,
-        "high": 37.77,
+        "low": 31.88,
+        "high": 37.78,
         "sparse": false,
         "party": "Positive"
       },
@@ -308,8 +308,8 @@
         "t": 20158,
         "date": "2025-03-11",
         "value": 34.93,
-        "low": 31.78,
-        "high": 37.83,
+        "low": 31.89,
+        "high": 37.8,
         "sparse": false,
         "party": "Positive"
       },
@@ -317,8 +317,8 @@
         "t": 20159,
         "date": "2025-03-12",
         "value": 34.94,
-        "low": 31.78,
-        "high": 37.88,
+        "low": 31.88,
+        "high": 37.81,
         "sparse": false,
         "party": "Positive"
       },
@@ -326,8 +326,8 @@
         "t": 20160,
         "date": "2025-03-13",
         "value": 34.95,
-        "low": 31.77,
-        "high": 37.93,
+        "low": 31.87,
+        "high": 37.83,
         "sparse": false,
         "party": "Positive"
       },
@@ -335,8 +335,8 @@
         "t": 20161,
         "date": "2025-03-14",
         "value": 34.97,
-        "low": 31.81,
-        "high": 37.99,
+        "low": 31.87,
+        "high": 37.84,
         "sparse": false,
         "party": "Positive"
       },
@@ -344,8 +344,8 @@
         "t": 20162,
         "date": "2025-03-15",
         "value": 34.98,
-        "low": 31.86,
-        "high": 38.04,
+        "low": 31.91,
+        "high": 37.85,
         "sparse": false,
         "party": "Positive"
       },
@@ -353,8 +353,8 @@
         "t": 20163,
         "date": "2025-03-16",
         "value": 34.99,
-        "low": 31.85,
-        "high": 38.09,
+        "low": 31.99,
+        "high": 37.87,
         "sparse": false,
         "party": "Positive"
       },
@@ -362,8 +362,8 @@
         "t": 20164,
         "date": "2025-03-17",
         "value": 35.01,
-        "low": 31.84,
-        "high": 38.15,
+        "low": 32.06,
+        "high": 37.89,
         "sparse": false,
         "party": "Positive"
       },
@@ -371,8 +371,8 @@
         "t": 20165,
         "date": "2025-03-18",
         "value": 35.02,
-        "low": 31.84,
-        "high": 38.2,
+        "low": 32.08,
+        "high": 37.91,
         "sparse": false,
         "party": "Positive"
       },
@@ -380,8 +380,8 @@
         "t": 20166,
         "date": "2025-03-19",
         "value": 35.03,
-        "low": 31.82,
-        "high": 38.25,
+        "low": 32.07,
+        "high": 37.93,
         "sparse": false,
         "party": "Positive"
       },
@@ -389,8 +389,8 @@
         "t": 20167,
         "date": "2025-03-20",
         "value": 35.04,
-        "low": 31.82,
-        "high": 38.25,
+        "low": 32.05,
+        "high": 37.95,
         "sparse": false,
         "party": "Positive"
       },
@@ -398,8 +398,8 @@
         "t": 20168,
         "date": "2025-03-21",
         "value": 35.05,
-        "low": 31.81,
-        "high": 38.22,
+        "low": 32.04,
+        "high": 37.96,
         "sparse": false,
         "party": "Positive"
       },
@@ -407,8 +407,8 @@
         "t": 20169,
         "date": "2025-03-22",
         "value": 35.06,
-        "low": 31.81,
-        "high": 38.25,
+        "low": 32.03,
+        "high": 37.98,
         "sparse": false,
         "party": "Positive"
       },
@@ -416,8 +416,8 @@
         "t": 20170,
         "date": "2025-03-23",
         "value": 35.07,
-        "low": 31.81,
-        "high": 38.27,
+        "low": 32.02,
+        "high": 38.0,
         "sparse": false,
         "party": "Positive"
       },
@@ -425,8 +425,8 @@
         "t": 20171,
         "date": "2025-03-24",
         "value": 35.08,
-        "low": 31.8,
-        "high": 38.25,
+        "low": 32.0,
+        "high": 38.01,
         "sparse": false,
         "party": "Positive"
       },
@@ -434,8 +434,8 @@
         "t": 20172,
         "date": "2025-03-25",
         "value": 35.09,
-        "low": 31.81,
-        "high": 38.22,
+        "low": 32.02,
+        "high": 38.02,
         "sparse": false,
         "party": "Positive"
       },
@@ -443,8 +443,8 @@
         "t": 20173,
         "date": "2025-03-26",
         "value": 35.1,
-        "low": 31.81,
-        "high": 38.19,
+        "low": 32.04,
+        "high": 38.04,
         "sparse": false,
         "party": "Positive"
       },
@@ -452,8 +452,8 @@
         "t": 20174,
         "date": "2025-03-27",
         "value": 35.11,
-        "low": 31.81,
-        "high": 38.17,
+        "low": 32.07,
+        "high": 38.05,
         "sparse": false,
         "party": "Positive"
       },
@@ -461,8 +461,8 @@
         "t": 20175,
         "date": "2025-03-28",
         "value": 35.12,
-        "low": 31.8,
-        "high": 38.17,
+        "low": 32.08,
+        "high": 38.06,
         "sparse": false,
         "party": "Positive"
       },
@@ -470,8 +470,8 @@
         "t": 20176,
         "date": "2025-03-29",
         "value": 35.13,
-        "low": 31.8,
-        "high": 38.21,
+        "low": 32.11,
+        "high": 38.07,
         "sparse": false,
         "party": "Positive"
       },
@@ -479,8 +479,8 @@
         "t": 20177,
         "date": "2025-03-30",
         "value": 35.14,
-        "low": 31.81,
-        "high": 38.24,
+        "low": 32.12,
+        "high": 38.05,
         "sparse": false,
         "party": "Positive"
       },
@@ -488,8 +488,8 @@
         "t": 20178,
         "date": "2025-03-31",
         "value": 35.15,
-        "low": 31.81,
-        "high": 38.28,
+        "low": 32.15,
+        "high": 38.05,
         "sparse": false,
         "party": "Positive"
       },
@@ -497,8 +497,8 @@
         "t": 20179,
         "date": "2025-04-01",
         "value": 35.15,
-        "low": 31.81,
-        "high": 38.31,
+        "low": 32.17,
+        "high": 38.07,
         "sparse": false,
         "party": "Positive"
       },
@@ -506,8 +506,8 @@
         "t": 20180,
         "date": "2025-04-02",
         "value": 35.16,
-        "low": 31.82,
-        "high": 38.35,
+        "low": 32.18,
+        "high": 38.09,
         "sparse": false,
         "party": "Positive"
       },
@@ -515,8 +515,8 @@
         "t": 20181,
         "date": "2025-04-03",
         "value": 35.17,
-        "low": 31.82,
-        "high": 38.39,
+        "low": 32.21,
+        "high": 38.11,
         "sparse": false,
         "party": "Positive"
       },
@@ -524,8 +524,8 @@
         "t": 20182,
         "date": "2025-04-04",
         "value": 35.18,
-        "low": 31.81,
-        "high": 38.42,
+        "low": 32.22,
+        "high": 38.13,
         "sparse": false,
         "party": "Positive"
       },
@@ -533,8 +533,8 @@
         "t": 20183,
         "date": "2025-04-05",
         "value": 35.19,
-        "low": 31.81,
-        "high": 38.46,
+        "low": 32.24,
+        "high": 38.15,
         "sparse": false,
         "party": "Positive"
       },
@@ -542,8 +542,8 @@
         "t": 20184,
         "date": "2025-04-06",
         "value": 35.19,
-        "low": 31.8,
-        "high": 38.5,
+        "low": 32.24,
+        "high": 38.17,
         "sparse": false,
         "party": "Positive"
       },
@@ -551,8 +551,8 @@
         "t": 20185,
         "date": "2025-04-07",
         "value": 35.2,
-        "low": 31.8,
-        "high": 38.53,
+        "low": 32.24,
+        "high": 38.2,
         "sparse": false,
         "party": "Positive"
       },
@@ -560,8 +560,8 @@
         "t": 20186,
         "date": "2025-04-08",
         "value": 35.21,
-        "low": 31.8,
-        "high": 38.56,
+        "low": 32.23,
+        "high": 38.21,
         "sparse": false,
         "party": "Positive"
       },
@@ -569,8 +569,8 @@
         "t": 20187,
         "date": "2025-04-09",
         "value": 35.22,
-        "low": 31.8,
-        "high": 38.6,
+        "low": 32.22,
+        "high": 38.22,
         "sparse": false,
         "party": "Positive"
       },
@@ -578,8 +578,8 @@
         "t": 20188,
         "date": "2025-04-10",
         "value": 35.22,
-        "low": 31.8,
-        "high": 38.64,
+        "low": 32.22,
+        "high": 38.24,
         "sparse": false,
         "party": "Positive"
       },
@@ -587,8 +587,8 @@
         "t": 20189,
         "date": "2025-04-11",
         "value": 35.23,
-        "low": 31.79,
-        "high": 38.67,
+        "low": 32.21,
+        "high": 38.25,
         "sparse": false,
         "party": "Positive"
       },
@@ -596,8 +596,8 @@
         "t": 20190,
         "date": "2025-04-12",
         "value": 35.24,
-        "low": 31.79,
-        "high": 38.71,
+        "low": 32.21,
+        "high": 38.27,
         "sparse": false,
         "party": "Positive"
       },
@@ -605,8 +605,8 @@
         "t": 20191,
         "date": "2025-04-13",
         "value": 35.24,
-        "low": 31.79,
-        "high": 38.75,
+        "low": 32.21,
+        "high": 38.29,
         "sparse": false,
         "party": "Positive"
       },
@@ -614,8 +614,8 @@
         "t": 20192,
         "date": "2025-04-14",
         "value": 35.25,
-        "low": 31.79,
-        "high": 38.79,
+        "low": 32.2,
+        "high": 38.3,
         "sparse": false,
         "party": "Positive"
       },
@@ -623,8 +623,8 @@
         "t": 20193,
         "date": "2025-04-15",
         "value": 35.26,
-        "low": 31.78,
-        "high": 38.82,
+        "low": 32.19,
+        "high": 38.34,
         "sparse": false,
         "party": "Positive"
       },
@@ -632,8 +632,8 @@
         "t": 20194,
         "date": "2025-04-16",
         "value": 35.26,
-        "low": 31.78,
-        "high": 38.84,
+        "low": 32.18,
+        "high": 38.34,
         "sparse": false,
         "party": "Positive"
       },
@@ -641,8 +641,8 @@
         "t": 20195,
         "date": "2025-04-17",
         "value": 35.27,
-        "low": 31.77,
-        "high": 38.82,
+        "low": 32.18,
+        "high": 38.34,
         "sparse": false,
         "party": "Positive"
       },
@@ -650,8 +650,8 @@
         "t": 20196,
         "date": "2025-04-18",
         "value": 35.28,
-        "low": 31.77,
-        "high": 38.81,
+        "low": 32.17,
+        "high": 38.36,
         "sparse": false,
         "party": "Positive"
       },
@@ -659,8 +659,8 @@
         "t": 20197,
         "date": "2025-04-19",
         "value": 35.28,
-        "low": 31.77,
-        "high": 38.79,
+        "low": 32.16,
+        "high": 38.37,
         "sparse": false,
         "party": "Positive"
       },
@@ -668,8 +668,8 @@
         "t": 20198,
         "date": "2025-04-20",
         "value": 35.29,
-        "low": 31.76,
-        "high": 38.77,
+        "low": 32.15,
+        "high": 38.38,
         "sparse": false,
         "party": "Positive"
       },
@@ -677,8 +677,8 @@
         "t": 20199,
         "date": "2025-04-21",
         "value": 35.3,
-        "low": 31.76,
-        "high": 38.76,
+        "low": 32.14,
+        "high": 38.4,
         "sparse": false,
         "party": "Positive"
       },
@@ -686,8 +686,8 @@
         "t": 20200,
         "date": "2025-04-22",
         "value": 35.3,
-        "low": 31.76,
-        "high": 38.75,
+        "low": 32.14,
+        "high": 38.41,
         "sparse": false,
         "party": "Positive"
       },
@@ -695,8 +695,8 @@
         "t": 20201,
         "date": "2025-04-23",
         "value": 35.31,
-        "low": 31.76,
-        "high": 38.74,
+        "low": 32.13,
+        "high": 38.44,
         "sparse": false,
         "party": "Positive"
       },
@@ -704,8 +704,8 @@
         "t": 20202,
         "date": "2025-04-24",
         "value": 35.31,
-        "low": 31.76,
-        "high": 38.79,
+        "low": 32.12,
+        "high": 38.45,
         "sparse": false,
         "party": "Positive"
       },
@@ -713,8 +713,8 @@
         "t": 20203,
         "date": "2025-04-25",
         "value": 35.32,
-        "low": 31.76,
-        "high": 38.83,
+        "low": 32.11,
+        "high": 38.46,
         "sparse": false,
         "party": "Positive"
       },
@@ -722,8 +722,8 @@
         "t": 20204,
         "date": "2025-04-26",
         "value": 35.33,
-        "low": 31.75,
-        "high": 38.89,
+        "low": 32.1,
+        "high": 38.48,
         "sparse": false,
         "party": "Positive"
       },
@@ -731,8 +731,8 @@
         "t": 20205,
         "date": "2025-04-27",
         "value": 35.33,
-        "low": 31.75,
-        "high": 38.93,
+        "low": 32.09,
+        "high": 38.49,
         "sparse": false,
         "party": "Positive"
       },
@@ -740,8 +740,8 @@
         "t": 20206,
         "date": "2025-04-28",
         "value": 35.34,
-        "low": 31.74,
-        "high": 38.97,
+        "low": 32.08,
+        "high": 38.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -749,8 +749,8 @@
         "t": 20207,
         "date": "2025-04-29",
         "value": 35.35,
-        "low": 31.74,
-        "high": 38.99,
+        "low": 32.08,
+        "high": 38.52,
         "sparse": false,
         "party": "Positive"
       },
@@ -758,8 +758,8 @@
         "t": 20208,
         "date": "2025-04-30",
         "value": 35.35,
-        "low": 31.73,
-        "high": 39.01,
+        "low": 32.07,
+        "high": 38.53,
         "sparse": false,
         "party": "Positive"
       },
@@ -767,8 +767,8 @@
         "t": 20209,
         "date": "2025-05-01",
         "value": 35.36,
-        "low": 31.73,
-        "high": 39.02,
+        "low": 32.06,
+        "high": 38.55,
         "sparse": false,
         "party": "Positive"
       },
@@ -776,8 +776,8 @@
         "t": 20210,
         "date": "2025-05-02",
         "value": 35.36,
-        "low": 31.72,
-        "high": 39.04,
+        "low": 32.05,
+        "high": 38.56,
         "sparse": false,
         "party": "Positive"
       },
@@ -785,8 +785,8 @@
         "t": 20211,
         "date": "2025-05-03",
         "value": 35.37,
-        "low": 31.71,
-        "high": 39.05,
+        "low": 32.04,
+        "high": 38.59,
         "sparse": false,
         "party": "Positive"
       },
@@ -794,8 +794,8 @@
         "t": 20212,
         "date": "2025-05-04",
         "value": 35.38,
-        "low": 31.71,
-        "high": 39.06,
+        "low": 32.02,
+        "high": 38.6,
         "sparse": false,
         "party": "Positive"
       },
@@ -803,8 +803,8 @@
         "t": 20213,
         "date": "2025-05-05",
         "value": 35.38,
-        "low": 31.7,
-        "high": 39.06,
+        "low": 32.01,
+        "high": 38.61,
         "sparse": false,
         "party": "Positive"
       },
@@ -812,8 +812,8 @@
         "t": 20214,
         "date": "2025-05-06",
         "value": 35.39,
-        "low": 31.7,
-        "high": 39.07,
+        "low": 32.0,
+        "high": 38.62,
         "sparse": false,
         "party": "Positive"
       },
@@ -821,8 +821,8 @@
         "t": 20215,
         "date": "2025-05-07",
         "value": 35.4,
-        "low": 31.69,
-        "high": 39.08,
+        "low": 31.99,
+        "high": 38.63,
         "sparse": false,
         "party": "Positive"
       },
@@ -830,8 +830,8 @@
         "t": 20216,
         "date": "2025-05-08",
         "value": 35.4,
-        "low": 31.68,
-        "high": 39.09,
+        "low": 31.98,
+        "high": 38.64,
         "sparse": false,
         "party": "Positive"
       },
@@ -839,8 +839,8 @@
         "t": 20217,
         "date": "2025-05-09",
         "value": 35.41,
-        "low": 31.67,
-        "high": 39.11,
+        "low": 31.97,
+        "high": 38.66,
         "sparse": false,
         "party": "Positive"
       },
@@ -848,8 +848,8 @@
         "t": 20218,
         "date": "2025-05-10",
         "value": 35.42,
-        "low": 31.66,
-        "high": 39.12,
+        "low": 31.95,
+        "high": 38.67,
         "sparse": false,
         "party": "Positive"
       },
@@ -857,8 +857,8 @@
         "t": 20219,
         "date": "2025-05-11",
         "value": 35.42,
-        "low": 31.66,
-        "high": 39.13,
+        "low": 31.94,
+        "high": 38.68,
         "sparse": false,
         "party": "Positive"
       },
@@ -866,8 +866,8 @@
         "t": 20220,
         "date": "2025-05-12",
         "value": 35.43,
-        "low": 31.65,
-        "high": 39.14,
+        "low": 31.93,
+        "high": 38.69,
         "sparse": false,
         "party": "Positive"
       },
@@ -875,8 +875,8 @@
         "t": 20221,
         "date": "2025-05-13",
         "value": 35.44,
-        "low": 31.64,
-        "high": 39.15,
+        "low": 31.92,
+        "high": 38.7,
         "sparse": false,
         "party": "Positive"
       },
@@ -884,8 +884,8 @@
         "t": 20222,
         "date": "2025-05-14",
         "value": 35.45,
-        "low": 31.63,
-        "high": 39.16,
+        "low": 31.91,
+        "high": 38.71,
         "sparse": false,
         "party": "Positive"
       },
@@ -893,8 +893,8 @@
         "t": 20223,
         "date": "2025-05-15",
         "value": 35.45,
-        "low": 31.62,
-        "high": 39.17,
+        "low": 31.89,
+        "high": 38.72,
         "sparse": false,
         "party": "Positive"
       },
@@ -902,8 +902,8 @@
         "t": 20224,
         "date": "2025-05-16",
         "value": 35.46,
-        "low": 31.61,
-        "high": 39.18,
+        "low": 31.88,
+        "high": 38.73,
         "sparse": false,
         "party": "Positive"
       },
@@ -911,8 +911,8 @@
         "t": 20225,
         "date": "2025-05-17",
         "value": 35.47,
-        "low": 31.6,
-        "high": 39.18,
+        "low": 31.87,
+        "high": 38.74,
         "sparse": false,
         "party": "Positive"
       },
@@ -920,8 +920,8 @@
         "t": 20226,
         "date": "2025-05-18",
         "value": 35.48,
-        "low": 31.6,
-        "high": 39.19,
+        "low": 31.86,
+        "high": 38.75,
         "sparse": false,
         "party": "Positive"
       },
@@ -929,8 +929,8 @@
         "t": 20227,
         "date": "2025-05-19",
         "value": 35.48,
-        "low": 31.59,
-        "high": 39.2,
+        "low": 31.85,
+        "high": 38.76,
         "sparse": false,
         "party": "Positive"
       },
@@ -938,8 +938,8 @@
         "t": 20228,
         "date": "2025-05-20",
         "value": 35.49,
-        "low": 31.58,
-        "high": 39.21,
+        "low": 31.84,
+        "high": 38.77,
         "sparse": false,
         "party": "Positive"
       },
@@ -947,8 +947,8 @@
         "t": 20229,
         "date": "2025-05-21",
         "value": 35.5,
-        "low": 31.57,
-        "high": 39.21,
+        "low": 31.82,
+        "high": 38.77,
         "sparse": false,
         "party": "Positive"
       },
@@ -956,8 +956,8 @@
         "t": 20230,
         "date": "2025-05-22",
         "value": 35.51,
-        "low": 31.56,
-        "high": 39.22,
+        "low": 31.81,
+        "high": 38.78,
         "sparse": false,
         "party": "Positive"
       },
@@ -965,8 +965,8 @@
         "t": 20231,
         "date": "2025-05-23",
         "value": 35.52,
-        "low": 31.55,
-        "high": 39.22,
+        "low": 31.8,
+        "high": 38.79,
         "sparse": false,
         "party": "Positive"
       },
@@ -974,8 +974,8 @@
         "t": 20232,
         "date": "2025-05-24",
         "value": 35.52,
-        "low": 31.54,
-        "high": 39.23,
+        "low": 31.77,
+        "high": 38.79,
         "sparse": false,
         "party": "Positive"
       },
@@ -983,8 +983,8 @@
         "t": 20233,
         "date": "2025-05-25",
         "value": 35.53,
-        "low": 31.53,
-        "high": 39.23,
+        "low": 31.75,
+        "high": 38.8,
         "sparse": false,
         "party": "Positive"
       },
@@ -992,8 +992,8 @@
         "t": 20234,
         "date": "2025-05-26",
         "value": 35.54,
-        "low": 31.52,
-        "high": 39.23,
+        "low": 31.71,
+        "high": 38.8,
         "sparse": false,
         "party": "Positive"
       },
@@ -1001,8 +1001,8 @@
         "t": 20235,
         "date": "2025-05-27",
         "value": 35.55,
-        "low": 31.51,
-        "high": 39.24,
+        "low": 31.68,
+        "high": 38.8,
         "sparse": false,
         "party": "Positive"
       },
@@ -1010,8 +1010,8 @@
         "t": 20236,
         "date": "2025-05-28",
         "value": 35.56,
-        "low": 31.51,
-        "high": 39.25,
+        "low": 31.65,
+        "high": 38.81,
         "sparse": false,
         "party": "Positive"
       },
@@ -1019,8 +1019,8 @@
         "t": 20237,
         "date": "2025-05-29",
         "value": 35.56,
-        "low": 31.5,
-        "high": 39.25,
+        "low": 31.62,
+        "high": 38.81,
         "sparse": false,
         "party": "Positive"
       },
@@ -1028,8 +1028,8 @@
         "t": 20238,
         "date": "2025-05-30",
         "value": 35.57,
-        "low": 31.49,
-        "high": 39.25,
+        "low": 31.58,
+        "high": 38.81,
         "sparse": false,
         "party": "Positive"
       },
@@ -1037,8 +1037,8 @@
         "t": 20239,
         "date": "2025-05-31",
         "value": 35.58,
-        "low": 31.49,
-        "high": 39.25,
+        "low": 31.55,
+        "high": 38.82,
         "sparse": false,
         "party": "Positive"
       },
@@ -1046,8 +1046,8 @@
         "t": 20240,
         "date": "2025-06-01",
         "value": 35.59,
-        "low": 31.48,
-        "high": 39.24,
+        "low": 31.52,
+        "high": 38.81,
         "sparse": false,
         "party": "Positive"
       },
@@ -1055,8 +1055,8 @@
         "t": 20241,
         "date": "2025-06-02",
         "value": 35.6,
-        "low": 31.47,
-        "high": 39.24,
+        "low": 31.48,
+        "high": 38.81,
         "sparse": false,
         "party": "Positive"
       },
@@ -1065,7 +1065,7 @@
         "date": "2025-06-03",
         "value": 35.6,
         "low": 31.47,
-        "high": 39.24,
+        "high": 38.82,
         "sparse": false,
         "party": "Positive"
       },
@@ -1074,7 +1074,7 @@
         "date": "2025-06-04",
         "value": 35.61,
         "low": 31.46,
-        "high": 39.24,
+        "high": 38.86,
         "sparse": false,
         "party": "Positive"
       },
@@ -1083,7 +1083,7 @@
         "date": "2025-06-05",
         "value": 35.62,
         "low": 31.46,
-        "high": 39.24,
+        "high": 38.88,
         "sparse": false,
         "party": "Positive"
       },
@@ -1092,7 +1092,7 @@
         "date": "2025-06-06",
         "value": 35.63,
         "low": 31.46,
-        "high": 39.25,
+        "high": 38.92,
         "sparse": false,
         "party": "Positive"
       },
@@ -1101,7 +1101,7 @@
         "date": "2025-06-07",
         "value": 35.64,
         "low": 31.45,
-        "high": 39.28,
+        "high": 38.96,
         "sparse": false,
         "party": "Positive"
       },
@@ -1110,7 +1110,7 @@
         "date": "2025-06-08",
         "value": 35.64,
         "low": 31.45,
-        "high": 39.21,
+        "high": 38.99,
         "sparse": false,
         "party": "Positive"
       },
@@ -1119,7 +1119,7 @@
         "date": "2025-06-09",
         "value": 35.65,
         "low": 31.45,
-        "high": 39.22,
+        "high": 39.03,
         "sparse": false,
         "party": "Positive"
       },
@@ -1128,7 +1128,7 @@
         "date": "2025-06-10",
         "value": 35.66,
         "low": 31.44,
-        "high": 39.29,
+        "high": 39.05,
         "sparse": false,
         "party": "Positive"
       },
@@ -1137,7 +1137,7 @@
         "date": "2025-06-11",
         "value": 35.67,
         "low": 31.44,
-        "high": 39.38,
+        "high": 39.07,
         "sparse": false,
         "party": "Positive"
       },
@@ -1146,7 +1146,7 @@
         "date": "2025-06-12",
         "value": 35.68,
         "low": 31.44,
-        "high": 39.47,
+        "high": 39.08,
         "sparse": false,
         "party": "Positive"
       },
@@ -1155,7 +1155,7 @@
         "date": "2025-06-13",
         "value": 35.69,
         "low": 31.44,
-        "high": 39.54,
+        "high": 39.09,
         "sparse": false,
         "party": "Positive"
       },
@@ -1164,7 +1164,7 @@
         "date": "2025-06-14",
         "value": 35.69,
         "low": 31.44,
-        "high": 39.58,
+        "high": 39.09,
         "sparse": false,
         "party": "Positive"
       },
@@ -1173,7 +1173,7 @@
         "date": "2025-06-15",
         "value": 35.7,
         "low": 31.44,
-        "high": 39.6,
+        "high": 39.11,
         "sparse": false,
         "party": "Positive"
       },
@@ -1182,7 +1182,7 @@
         "date": "2025-06-16",
         "value": 35.71,
         "low": 31.45,
-        "high": 39.61,
+        "high": 39.11,
         "sparse": false,
         "party": "Positive"
       },
@@ -1191,7 +1191,7 @@
         "date": "2025-06-17",
         "value": 35.72,
         "low": 31.45,
-        "high": 39.63,
+        "high": 39.18,
         "sparse": false,
         "party": "Positive"
       },
@@ -1200,7 +1200,7 @@
         "date": "2025-06-18",
         "value": 35.73,
         "low": 31.45,
-        "high": 39.65,
+        "high": 39.29,
         "sparse": false,
         "party": "Positive"
       },
@@ -1209,7 +1209,7 @@
         "date": "2025-06-19",
         "value": 35.74,
         "low": 31.46,
-        "high": 39.66,
+        "high": 39.36,
         "sparse": false,
         "party": "Positive"
       },
@@ -1218,7 +1218,7 @@
         "date": "2025-06-20",
         "value": 35.75,
         "low": 31.46,
-        "high": 39.67,
+        "high": 39.4,
         "sparse": false,
         "party": "Positive"
       },
@@ -1227,7 +1227,7 @@
         "date": "2025-06-21",
         "value": 35.75,
         "low": 31.47,
-        "high": 39.67,
+        "high": 39.42,
         "sparse": false,
         "party": "Positive"
       },
@@ -1236,7 +1236,7 @@
         "date": "2025-06-22",
         "value": 35.76,
         "low": 31.48,
-        "high": 39.68,
+        "high": 39.44,
         "sparse": false,
         "party": "Positive"
       },
@@ -1245,7 +1245,7 @@
         "date": "2025-06-23",
         "value": 35.77,
         "low": 31.49,
-        "high": 39.68,
+        "high": 39.45,
         "sparse": false,
         "party": "Positive"
       },
@@ -1254,7 +1254,7 @@
         "date": "2025-06-24",
         "value": 35.78,
         "low": 31.5,
-        "high": 39.67,
+        "high": 39.48,
         "sparse": false,
         "party": "Positive"
       },
@@ -1263,7 +1263,7 @@
         "date": "2025-06-25",
         "value": 35.79,
         "low": 31.51,
-        "high": 39.67,
+        "high": 39.49,
         "sparse": false,
         "party": "Positive"
       },
@@ -1272,7 +1272,7 @@
         "date": "2025-06-26",
         "value": 35.8,
         "low": 31.52,
-        "high": 39.67,
+        "high": 39.5,
         "sparse": false,
         "party": "Positive"
       },
@@ -1281,7 +1281,7 @@
         "date": "2025-06-27",
         "value": 35.8,
         "low": 31.54,
-        "high": 39.66,
+        "high": 39.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -1290,7 +1290,7 @@
         "date": "2025-06-28",
         "value": 35.81,
         "low": 31.55,
-        "high": 39.66,
+        "high": 39.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -1299,7 +1299,7 @@
         "date": "2025-06-29",
         "value": 35.82,
         "low": 31.57,
-        "high": 39.65,
+        "high": 39.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -1308,7 +1308,7 @@
         "date": "2025-06-30",
         "value": 35.83,
         "low": 31.59,
-        "high": 39.65,
+        "high": 39.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -1316,8 +1316,8 @@
         "t": 20270,
         "date": "2025-07-01",
         "value": 35.83,
-        "low": 31.6,
-        "high": 39.64,
+        "low": 31.61,
+        "high": 39.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -1325,8 +1325,8 @@
         "t": 20271,
         "date": "2025-07-02",
         "value": 35.84,
-        "low": 31.62,
-        "high": 39.62,
+        "low": 31.63,
+        "high": 39.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -1334,8 +1334,8 @@
         "t": 20272,
         "date": "2025-07-03",
         "value": 35.85,
-        "low": 31.64,
-        "high": 39.61,
+        "low": 31.63,
+        "high": 39.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -1343,8 +1343,8 @@
         "t": 20273,
         "date": "2025-07-04",
         "value": 35.85,
-        "low": 31.66,
-        "high": 39.6,
+        "low": 31.62,
+        "high": 39.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -1352,8 +1352,8 @@
         "t": 20274,
         "date": "2025-07-05",
         "value": 35.86,
-        "low": 31.68,
-        "high": 39.59,
+        "low": 31.62,
+        "high": 39.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -1361,8 +1361,8 @@
         "t": 20275,
         "date": "2025-07-06",
         "value": 35.86,
-        "low": 31.7,
-        "high": 39.58,
+        "low": 31.62,
+        "high": 39.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -1370,8 +1370,8 @@
         "t": 20276,
         "date": "2025-07-07",
         "value": 35.87,
-        "low": 31.73,
-        "high": 39.56,
+        "low": 31.62,
+        "high": 39.51,
         "sparse": false,
         "party": "Positive"
       },
@@ -1379,8 +1379,8 @@
         "t": 20277,
         "date": "2025-07-08",
         "value": 35.87,
-        "low": 31.76,
-        "high": 39.54,
+        "low": 31.62,
+        "high": 39.5,
         "sparse": false,
         "party": "Positive"
       },
@@ -1388,8 +1388,8 @@
         "t": 20278,
         "date": "2025-07-09",
         "value": 35.88,
-        "low": 31.78,
-        "high": 39.52,
+        "low": 31.62,
+        "high": 39.49,
         "sparse": false,
         "party": "Positive"
       },
@@ -1397,8 +1397,8 @@
         "t": 20279,
         "date": "2025-07-10",
         "value": 35.88,
-        "low": 31.86,
-        "high": 39.54,
+        "low": 31.62,
+        "high": 39.47,
         "sparse": false,
         "party": "Positive"
       },
@@ -1406,8 +1406,8 @@
         "t": 20280,
         "date": "2025-07-11",
         "value": 35.89,
-        "low": 31.89,
-        "high": 39.53,
+        "low": 31.62,
+        "high": 39.47,
         "sparse": false,
         "party": "Positive"
       },
@@ -1415,8 +1415,8 @@
         "t": 20281,
         "date": "2025-07-12",
         "value": 35.89,
-        "low": 31.93,
-        "high": 39.53,
+        "low": 31.63,
+        "high": 39.46,
         "sparse": false,
         "party": "Positive"
       },
@@ -1424,8 +1424,8 @@
         "t": 20282,
         "date": "2025-07-13",
         "value": 35.89,
-        "low": 31.97,
-        "high": 39.53,
+        "low": 31.64,
+        "high": 39.47,
         "sparse": false,
         "party": "Positive"
       },
@@ -1433,8 +1433,8 @@
         "t": 20283,
         "date": "2025-07-14",
         "value": 35.9,
-        "low": 32.01,
-        "high": 39.53,
+        "low": 31.65,
+        "high": 39.48,
         "sparse": false,
         "party": "Positive"
       },
@@ -1442,8 +1442,8 @@
         "t": 20284,
         "date": "2025-07-15",
         "value": 35.9,
-        "low": 32.06,
-        "high": 39.53,
+        "low": 31.67,
+        "high": 39.49,
         "sparse": false,
         "party": "Positive"
       },
@@ -1451,8 +1451,8 @@
         "t": 20285,
         "date": "2025-07-16",
         "value": 35.9,
-        "low": 32.11,
-        "high": 39.53,
+        "low": 31.69,
+        "high": 39.48,
         "sparse": false,
         "party": "Positive"
       },
@@ -1460,8 +1460,8 @@
         "t": 20286,
         "date": "2025-07-17",
         "value": 35.9,
-        "low": 32.17,
-        "high": 39.52,
+        "low": 31.71,
+        "high": 39.47,
         "sparse": false,
         "party": "Positive"
       },
@@ -1469,8 +1469,8 @@
         "t": 20287,
         "date": "2025-07-18",
         "value": 35.9,
-        "low": 32.22,
-        "high": 39.52,
+        "low": 31.74,
+        "high": 39.45,
         "sparse": false,
         "party": "Positive"
       },
@@ -1478,8 +1478,8 @@
         "t": 20288,
         "date": "2025-07-19",
         "value": 35.9,
-        "low": 32.28,
-        "high": 39.51,
+        "low": 31.77,
+        "high": 39.44,
         "sparse": false,
         "party": "Positive"
       },
@@ -1487,8 +1487,8 @@
         "t": 20289,
         "date": "2025-07-20",
         "value": 35.9,
-        "low": 32.28,
-        "high": 39.45,
+        "low": 31.81,
+        "high": 39.34,
         "sparse": false,
         "party": "Positive"
       },
@@ -1496,8 +1496,8 @@
         "t": 20290,
         "date": "2025-07-21",
         "value": 35.9,
-        "low": 32.35,
-        "high": 39.44,
+        "low": 31.88,
+        "high": 39.34,
         "sparse": false,
         "party": "Positive"
       },
@@ -1505,8 +1505,8 @@
         "t": 20291,
         "date": "2025-07-22",
         "value": 35.9,
-        "low": 32.42,
-        "high": 39.42,
+        "low": 31.96,
+        "high": 39.34,
         "sparse": false,
         "party": "Positive"
       },
@@ -1514,8 +1514,8 @@
         "t": 20292,
         "date": "2025-07-23",
         "value": 35.9,
-        "low": 32.49,
-        "high": 39.4,
+        "low": 32.05,
+        "high": 39.31,
         "sparse": false,
         "party": "Positive"
       },
@@ -1523,8 +1523,8 @@
         "t": 20293,
         "date": "2025-07-24",
         "value": 35.9,
-        "low": 32.57,
-        "high": 39.37,
+        "low": 32.14,
+        "high": 39.28,
         "sparse": false,
         "party": "Positive"
       },
@@ -1532,8 +1532,8 @@
         "t": 20294,
         "date": "2025-07-25",
         "value": 35.9,
-        "low": 32.64,
-        "high": 39.34,
+        "low": 32.24,
+        "high": 39.24,
         "sparse": false,
         "party": "Positive"
       },
@@ -1541,8 +1541,8 @@
         "t": 20295,
         "date": "2025-07-26",
         "value": 35.9,
-        "low": 32.73,
-        "high": 39.32,
+        "low": 32.34,
+        "high": 39.26,
         "sparse": false,
         "party": "Positive"
       },
@@ -1550,8 +1550,8 @@
         "t": 20296,
         "date": "2025-07-27",
         "value": 35.9,
-        "low": 32.81,
-        "high": 39.3,
+        "low": 32.45,
+        "high": 39.27,
         "sparse": false,
         "party": "Positive"
       },
@@ -1559,8 +1559,8 @@
         "t": 20297,
         "date": "2025-07-28",
         "value": 35.9,
-        "low": 32.9,
-        "high": 39.26,
+        "low": 32.58,
+        "high": 39.22,
         "sparse": false,
         "party": "Positive"
       },
@@ -1568,8 +1568,8 @@
         "t": 20298,
         "date": "2025-07-29",
         "value": 35.89,
-        "low": 33.0,
-        "high": 39.23,
+        "low": 32.7,
+        "high": 39.17,
         "sparse": false,
         "party": "Positive"
       },
@@ -1577,8 +1577,8 @@
         "t": 20299,
         "date": "2025-07-30",
         "value": 35.89,
-        "low": 33.08,
-        "high": 39.19,
+        "low": 32.81,
+        "high": 39.11,
         "sparse": false,
         "party": "Positive"
       },
@@ -1586,8 +1586,8 @@
         "t": 20300,
         "date": "2025-07-31",
         "value": 35.89,
-        "low": 33.13,
-        "high": 39.19,
+        "low": 32.92,
+        "high": 39.05,
         "sparse": false,
         "party": "Positive"
       },
@@ -1595,8 +1595,8 @@
         "t": 20301,
         "date": "2025-08-01",
         "value": 35.88,
-        "low": 33.19,
-        "high": 39.18,
+        "low": 33.04,
+        "high": 38.98,
         "sparse": false,
         "party": "Positive"
       },
@@ -1604,8 +1604,8 @@
         "t": 20302,
         "date": "2025-08-02",
         "value": 35.88,
-        "low": 33.22,
-        "high": 39.18,
+        "low": 33.16,
+        "high": 38.9,
         "sparse": false,
         "party": "Positive"
       },
@@ -1613,8 +1613,8 @@
         "t": 20303,
         "date": "2025-08-03",
         "value": 35.87,
-        "low": 33.3,
-        "high": 39.16,
+        "low": 33.29,
+        "high": 38.81,
         "sparse": false,
         "party": "Positive"
       },
@@ -1622,8 +1622,8 @@
         "t": 20304,
         "date": "2025-08-04",
         "value": 35.87,
-        "low": 33.39,
-        "high": 39.14,
+        "low": 33.42,
+        "high": 38.74,
         "sparse": false,
         "party": "Positive"
       },
@@ -1631,8 +1631,8 @@
         "t": 20305,
         "date": "2025-08-05",
         "value": 35.86,
-        "low": 33.49,
-        "high": 39.11,
+        "low": 33.59,
+        "high": 38.71,
         "sparse": false,
         "party": "Positive"
       },
@@ -1640,8 +1640,8 @@
         "t": 20306,
         "date": "2025-08-06",
         "value": 35.85,
-        "low": 33.59,
-        "high": 39.08,
+        "low": 33.77,
+        "high": 38.74,
         "sparse": false,
         "party": "Positive"
       },
@@ -1649,8 +1649,8 @@
         "t": 20307,
         "date": "2025-08-07",
         "value": 35.84,
-        "low": 33.7,
-        "high": 39.01,
+        "low": 33.93,
+        "high": 38.77,
         "sparse": false,
         "party": "Positive"
       },
@@ -1658,8 +1658,8 @@
         "t": 20308,
         "date": "2025-08-08",
         "value": 35.83,
-        "low": 33.83,
-        "high": 38.95,
+        "low": 34.08,
+        "high": 38.81,
         "sparse": false,
         "party": "Positive"
       },
@@ -1667,8 +1667,8 @@
         "t": 20309,
         "date": "2025-08-09",
         "value": 35.82,
-        "low": 33.96,
-        "high": 38.91,
+        "low": 34.19,
+        "high": 38.85,
         "sparse": false,
         "party": "Positive"
       },
@@ -1676,7 +1676,7 @@
         "t": 20310,
         "date": "2025-08-10",
         "value": 35.81,
-        "low": 34.13,
+        "low": 34.3,
         "high": 38.82,
         "sparse": false,
         "party": "Positive"
@@ -1685,8 +1685,8 @@
         "t": 20311,
         "date": "2025-08-11",
         "value": 35.8,
-        "low": 34.26,
-        "high": 38.64,
+        "low": 34.44,
+        "high": 38.56,
         "sparse": false,
         "party": "Positive"
       },
@@ -1694,8 +1694,8 @@
         "t": 20312,
         "date": "2025-08-12",
         "value": 35.78,
-        "low": 34.38,
-        "high": 38.7,
+        "low": 34.55,
+        "high": 38.35,
         "sparse": false,
         "party": "Positive"
       },
@@ -1703,8 +1703,8 @@
         "t": 20313,
         "date": "2025-08-13",
         "value": 35.77,
-        "low": 34.51,
-        "high": 38.59,
+        "low": 34.59,
+        "high": 38.42,
         "sparse": false,
         "party": "Positive"
       },
@@ -1712,8 +1712,8 @@
         "t": 20314,
         "date": "2025-08-14",
         "value": 35.76,
-        "low": 34.64,
-        "high": 38.41,
+        "low": 34.67,
+        "high": 38.49,
         "sparse": false,
         "party": "Positive"
       },
@@ -1721,8 +1721,8 @@
         "t": 20315,
         "date": "2025-08-15",
         "value": 35.74,
-        "low": 34.7,
-        "high": 38.37,
+        "low": 34.8,
+        "high": 38.52,
         "sparse": false,
         "party": "Positive"
       },
@@ -1730,8 +1730,8 @@
         "t": 20316,
         "date": "2025-08-16",
         "value": 35.73,
-        "low": 34.83,
-        "high": 38.33,
+        "low": 34.85,
+        "high": 38.38,
         "sparse": false,
         "party": "Positive"
       },
@@ -1739,8 +1739,8 @@
         "t": 20317,
         "date": "2025-08-17",
         "value": 35.71,
-        "low": 34.89,
-        "high": 38.13,
+        "low": 34.98,
+        "high": 38.41,
         "sparse": false,
         "party": "Positive"
       },
@@ -1748,8 +1748,8 @@
         "t": 20318,
         "date": "2025-08-18",
         "value": 35.7,
-        "low": 34.95,
-        "high": 38.05,
+        "low": 35.0,
+        "high": 38.52,
         "sparse": false,
         "party": "Positive"
       },
@@ -1757,8 +1757,8 @@
         "t": 20319,
         "date": "2025-08-19",
         "value": 35.68,
-        "low": 34.96,
-        "high": 38.13,
+        "low": 35.0,
+        "high": 38.66,
         "sparse": false,
         "party": "Positive"
       },
@@ -1766,8 +1766,8 @@
         "t": 20320,
         "date": "2025-08-20",
         "value": 35.67,
-        "low": 34.97,
-        "high": 38.22,
+        "low": 35.0,
+        "high": 38.8,
         "sparse": false,
         "party": "Positive"
       },
@@ -1775,8 +1775,8 @@
         "t": 20321,
         "date": "2025-08-21",
         "value": 35.65,
-        "low": 34.98,
-        "high": 38.32,
+        "low": 35.0,
+        "high": 38.82,
         "sparse": false,
         "party": "Positive"
       },
@@ -1784,8 +1784,8 @@
         "t": 20322,
         "date": "2025-08-22",
         "value": 35.64,
-        "low": 34.99,
-        "high": 38.54,
+        "low": 35.0,
+        "high": 38.84,
         "sparse": false,
         "party": "Positive"
       },
@@ -1794,7 +1794,7 @@
         "date": "2025-08-23",
         "value": 35.63,
         "low": 35.0,
-        "high": 38.72,
+        "high": 38.86,
         "sparse": false,
         "party": "Positive"
       },
@@ -1802,7 +1802,7 @@
         "t": 20324,
         "date": "2025-08-24",
         "value": 35.62,
-        "low": 35.0,
+        "low": 35.01,
         "high": 38.88,
         "sparse": false,
         "party": "Positive"
@@ -1820,7 +1820,7 @@
         "t": 20326,
         "date": "2025-08-26",
         "value": 35.61,
-        "low": 35.01,
+        "low": 35.02,
         "high": 39.17,
         "sparse": false,
         "party": "Positive"
@@ -1829,7 +1829,7 @@
         "t": 20327,
         "date": "2025-08-27",
         "value": 35.6,
-        "low": 35.01,
+        "low": 35.02,
         "high": 39.31,
         "sparse": false,
         "party": "Positive"
@@ -1838,7 +1838,7 @@
         "t": 20328,
         "date": "2025-08-28",
         "value": 35.6,
-        "low": 35.01,
+        "low": 35.02,
         "high": 39.42,
         "sparse": false,
         "party": "Positive"
@@ -1856,7 +1856,7 @@
         "t": 20330,
         "date": "2025-08-30",
         "value": 35.61,
-        "low": 35.0,
+        "low": 35.01,
         "high": 39.5,
         "sparse": false,
         "party": "Positive"
@@ -4567,8 +4567,8 @@
         "t": 20126,
         "date": "2025-02-07",
         "value": 32.02,
-        "low": 29.39,
-        "high": 34.57,
+        "low": 29.11,
+        "high": 34.45,
         "sparse": false,
         "party": "Negative"
       },
@@ -4576,8 +4576,8 @@
         "t": 20127,
         "date": "2025-02-08",
         "value": 31.99,
-        "low": 29.28,
-        "high": 34.54,
+        "low": 29.06,
+        "high": 34.46,
         "sparse": false,
         "party": "Negative"
       },
@@ -4585,8 +4585,8 @@
         "t": 20128,
         "date": "2025-02-09",
         "value": 31.97,
-        "low": 29.21,
-        "high": 34.52,
+        "low": 29.01,
+        "high": 34.47,
         "sparse": false,
         "party": "Negative"
       },
@@ -4594,8 +4594,8 @@
         "t": 20129,
         "date": "2025-02-10",
         "value": 31.95,
-        "low": 29.13,
-        "high": 34.5,
+        "low": 28.96,
+        "high": 34.47,
         "sparse": false,
         "party": "Negative"
       },
@@ -4603,7 +4603,7 @@
         "t": 20130,
         "date": "2025-02-11",
         "value": 31.92,
-        "low": 29.06,
+        "low": 28.91,
         "high": 34.48,
         "sparse": false,
         "party": "Negative"
@@ -4612,8 +4612,8 @@
         "t": 20131,
         "date": "2025-02-12",
         "value": 31.9,
-        "low": 28.96,
-        "high": 34.46,
+        "low": 28.86,
+        "high": 34.47,
         "sparse": false,
         "party": "Negative"
       },
@@ -4621,7 +4621,7 @@
         "t": 20132,
         "date": "2025-02-13",
         "value": 31.87,
-        "low": 28.95,
+        "low": 28.66,
         "high": 34.5,
         "sparse": false,
         "party": "Negative"
@@ -4630,7 +4630,7 @@
         "t": 20133,
         "date": "2025-02-14",
         "value": 31.85,
-        "low": 28.9,
+        "low": 28.66,
         "high": 34.95,
         "sparse": false,
         "party": "Negative"
@@ -4639,7 +4639,7 @@
         "t": 20134,
         "date": "2025-02-15",
         "value": 31.82,
-        "low": 28.82,
+        "low": 28.63,
         "high": 34.96,
         "sparse": false,
         "party": "Negative"
@@ -4648,7 +4648,7 @@
         "t": 20135,
         "date": "2025-02-16",
         "value": 31.8,
-        "low": 28.74,
+        "low": 28.6,
         "high": 34.99,
         "sparse": false,
         "party": "Negative"
@@ -4657,7 +4657,7 @@
         "t": 20136,
         "date": "2025-02-17",
         "value": 31.77,
-        "low": 28.66,
+        "low": 28.58,
         "high": 35.0,
         "sparse": false,
         "party": "Negative"
@@ -4666,7 +4666,7 @@
         "t": 20137,
         "date": "2025-02-18",
         "value": 31.75,
-        "low": 28.59,
+        "low": 28.55,
         "high": 35.02,
         "sparse": false,
         "party": "Negative"
@@ -4675,7 +4675,7 @@
         "t": 20138,
         "date": "2025-02-19",
         "value": 31.73,
-        "low": 28.52,
+        "low": 28.5,
         "high": 35.04,
         "sparse": false,
         "party": "Negative"
@@ -4684,7 +4684,7 @@
         "t": 20139,
         "date": "2025-02-20",
         "value": 31.71,
-        "low": 28.45,
+        "low": 28.46,
         "high": 35.06,
         "sparse": false,
         "party": "Negative"
@@ -4693,7 +4693,7 @@
         "t": 20140,
         "date": "2025-02-21",
         "value": 31.69,
-        "low": 28.39,
+        "low": 28.42,
         "high": 35.07,
         "sparse": false,
         "party": "Negative"
@@ -4702,7 +4702,7 @@
         "t": 20141,
         "date": "2025-02-22",
         "value": 31.67,
-        "low": 28.32,
+        "low": 28.39,
         "high": 35.08,
         "sparse": false,
         "party": "Negative"
@@ -4711,7 +4711,7 @@
         "t": 20142,
         "date": "2025-02-23",
         "value": 31.65,
-        "low": 28.25,
+        "low": 28.36,
         "high": 35.1,
         "sparse": false,
         "party": "Negative"
@@ -4720,7 +4720,7 @@
         "t": 20143,
         "date": "2025-02-24",
         "value": 31.63,
-        "low": 28.2,
+        "low": 28.33,
         "high": 35.12,
         "sparse": false,
         "party": "Negative"
@@ -4729,7 +4729,7 @@
         "t": 20144,
         "date": "2025-02-25",
         "value": 31.61,
-        "low": 28.15,
+        "low": 28.31,
         "high": 35.13,
         "sparse": false,
         "party": "Negative"
@@ -4738,7 +4738,7 @@
         "t": 20145,
         "date": "2025-02-26",
         "value": 31.6,
-        "low": 28.1,
+        "low": 28.29,
         "high": 35.14,
         "sparse": false,
         "party": "Negative"
@@ -4747,7 +4747,7 @@
         "t": 20146,
         "date": "2025-02-27",
         "value": 31.58,
-        "low": 28.05,
+        "low": 28.3,
         "high": 35.16,
         "sparse": false,
         "party": "Negative"
@@ -4756,7 +4756,7 @@
         "t": 20147,
         "date": "2025-02-28",
         "value": 31.57,
-        "low": 28.01,
+        "low": 28.34,
         "high": 35.17,
         "sparse": false,
         "party": "Negative"
@@ -4765,7 +4765,7 @@
         "t": 20148,
         "date": "2025-03-01",
         "value": 31.56,
-        "low": 27.98,
+        "low": 28.34,
         "high": 35.18,
         "sparse": false,
         "party": "Negative"
@@ -4774,7 +4774,7 @@
         "t": 20149,
         "date": "2025-03-02",
         "value": 31.55,
-        "low": 27.94,
+        "low": 28.32,
         "high": 35.2,
         "sparse": false,
         "party": "Negative"
@@ -4783,7 +4783,7 @@
         "t": 20150,
         "date": "2025-03-03",
         "value": 31.54,
-        "low": 27.92,
+        "low": 28.3,
         "high": 35.19,
         "sparse": false,
         "party": "Negative"
@@ -4792,7 +4792,7 @@
         "t": 20151,
         "date": "2025-03-04",
         "value": 31.53,
-        "low": 27.89,
+        "low": 28.28,
         "high": 35.18,
         "sparse": false,
         "party": "Negative"
@@ -4801,8 +4801,8 @@
         "t": 20152,
         "date": "2025-03-05",
         "value": 31.52,
-        "low": 27.87,
-        "high": 35.17,
+        "low": 28.26,
+        "high": 35.18,
         "sparse": false,
         "party": "Negative"
       },
@@ -4810,8 +4810,8 @@
         "t": 20153,
         "date": "2025-03-06",
         "value": 31.51,
-        "low": 27.86,
-        "high": 35.17,
+        "low": 28.24,
+        "high": 35.18,
         "sparse": false,
         "party": "Negative"
       },
@@ -4819,8 +4819,8 @@
         "t": 20154,
         "date": "2025-03-07",
         "value": 31.5,
-        "low": 27.86,
-        "high": 35.16,
+        "low": 28.22,
+        "high": 35.19,
         "sparse": false,
         "party": "Negative"
       },
@@ -4828,8 +4828,8 @@
         "t": 20155,
         "date": "2025-03-08",
         "value": 31.5,
-        "low": 27.86,
-        "high": 35.16,
+        "low": 28.2,
+        "high": 35.21,
         "sparse": false,
         "party": "Negative"
       },
@@ -4837,8 +4837,8 @@
         "t": 20156,
         "date": "2025-03-09",
         "value": 31.49,
-        "low": 27.9,
-        "high": 35.15,
+        "low": 28.19,
+        "high": 35.23,
         "sparse": false,
         "party": "Negative"
       },
@@ -4846,8 +4846,8 @@
         "t": 20157,
         "date": "2025-03-10",
         "value": 31.49,
-        "low": 27.88,
-        "high": 35.15,
+        "low": 28.17,
+        "high": 35.23,
         "sparse": false,
         "party": "Negative"
       },
@@ -4855,8 +4855,8 @@
         "t": 20158,
         "date": "2025-03-11",
         "value": 31.49,
-        "low": 27.87,
-        "high": 35.15,
+        "low": 28.16,
+        "high": 35.24,
         "sparse": false,
         "party": "Negative"
       },
@@ -4864,8 +4864,8 @@
         "t": 20159,
         "date": "2025-03-12",
         "value": 31.48,
-        "low": 27.86,
-        "high": 35.14,
+        "low": 28.18,
+        "high": 35.24,
         "sparse": false,
         "party": "Negative"
       },
@@ -4873,8 +4873,8 @@
         "t": 20160,
         "date": "2025-03-13",
         "value": 31.48,
-        "low": 27.87,
-        "high": 35.14,
+        "low": 28.26,
+        "high": 35.25,
         "sparse": false,
         "party": "Negative"
       },
@@ -4882,8 +4882,8 @@
         "t": 20161,
         "date": "2025-03-14",
         "value": 31.48,
-        "low": 27.88,
-        "high": 35.13,
+        "low": 28.34,
+        "high": 35.25,
         "sparse": false,
         "party": "Negative"
       },
@@ -4891,8 +4891,8 @@
         "t": 20162,
         "date": "2025-03-15",
         "value": 31.48,
-        "low": 27.88,
-        "high": 35.13,
+        "low": 28.41,
+        "high": 35.25,
         "sparse": false,
         "party": "Negative"
       },
@@ -4900,8 +4900,8 @@
         "t": 20163,
         "date": "2025-03-16",
         "value": 31.48,
-        "low": 27.86,
-        "high": 35.12,
+        "low": 28.41,
+        "high": 35.25,
         "sparse": false,
         "party": "Negative"
       },
@@ -4909,8 +4909,8 @@
         "t": 20164,
         "date": "2025-03-17",
         "value": 31.48,
-        "low": 27.81,
-        "high": 35.12,
+        "low": 28.38,
+        "high": 35.25,
         "sparse": false,
         "party": "Negative"
       },
@@ -4918,8 +4918,8 @@
         "t": 20165,
         "date": "2025-03-18",
         "value": 31.48,
-        "low": 27.77,
-        "high": 35.11,
+        "low": 28.35,
+        "high": 35.26,
         "sparse": false,
         "party": "Negative"
       },
@@ -4927,8 +4927,8 @@
         "t": 20166,
         "date": "2025-03-19",
         "value": 31.49,
-        "low": 27.72,
-        "high": 35.11,
+        "low": 28.32,
+        "high": 35.26,
         "sparse": false,
         "party": "Negative"
       },
@@ -4936,8 +4936,8 @@
         "t": 20167,
         "date": "2025-03-20",
         "value": 31.49,
-        "low": 27.68,
-        "high": 35.1,
+        "low": 28.3,
+        "high": 35.26,
         "sparse": false,
         "party": "Negative"
       },
@@ -4945,8 +4945,8 @@
         "t": 20168,
         "date": "2025-03-21",
         "value": 31.49,
-        "low": 27.64,
-        "high": 35.1,
+        "low": 28.27,
+        "high": 35.26,
         "sparse": false,
         "party": "Negative"
       },
@@ -4954,8 +4954,8 @@
         "t": 20169,
         "date": "2025-03-22",
         "value": 31.5,
-        "low": 27.59,
-        "high": 35.09,
+        "low": 28.24,
+        "high": 35.27,
         "sparse": false,
         "party": "Negative"
       },
@@ -4963,8 +4963,8 @@
         "t": 20170,
         "date": "2025-03-23",
         "value": 31.5,
-        "low": 27.56,
-        "high": 35.09,
+        "low": 28.22,
+        "high": 35.27,
         "sparse": false,
         "party": "Negative"
       },
@@ -4972,8 +4972,8 @@
         "t": 20171,
         "date": "2025-03-24",
         "value": 31.5,
-        "low": 27.53,
-        "high": 35.09,
+        "low": 28.19,
+        "high": 35.27,
         "sparse": false,
         "party": "Negative"
       },
@@ -4981,8 +4981,8 @@
         "t": 20172,
         "date": "2025-03-25",
         "value": 31.51,
-        "low": 27.49,
-        "high": 35.11,
+        "low": 28.17,
+        "high": 35.27,
         "sparse": false,
         "party": "Negative"
       },
@@ -4990,8 +4990,8 @@
         "t": 20173,
         "date": "2025-03-26",
         "value": 31.52,
-        "low": 27.46,
-        "high": 35.14,
+        "low": 28.13,
+        "high": 35.28,
         "sparse": false,
         "party": "Negative"
       },
@@ -4999,8 +4999,8 @@
         "t": 20174,
         "date": "2025-03-27",
         "value": 31.52,
-        "low": 27.46,
-        "high": 35.15,
+        "low": 28.12,
+        "high": 35.28,
         "sparse": false,
         "party": "Negative"
       },
@@ -5008,8 +5008,8 @@
         "t": 20175,
         "date": "2025-03-28",
         "value": 31.53,
-        "low": 27.52,
-        "high": 35.18,
+        "low": 28.1,
+        "high": 35.28,
         "sparse": false,
         "party": "Negative"
       },
@@ -5017,8 +5017,8 @@
         "t": 20176,
         "date": "2025-03-29",
         "value": 31.53,
-        "low": 27.58,
-        "high": 35.18,
+        "low": 28.07,
+        "high": 35.29,
         "sparse": false,
         "party": "Negative"
       },
@@ -5026,8 +5026,8 @@
         "t": 20177,
         "date": "2025-03-30",
         "value": 31.54,
-        "low": 27.64,
-        "high": 35.19,
+        "low": 28.05,
+        "high": 35.29,
         "sparse": false,
         "party": "Negative"
       },
@@ -5035,8 +5035,8 @@
         "t": 20178,
         "date": "2025-03-31",
         "value": 31.55,
-        "low": 27.7,
-        "high": 35.19,
+        "low": 28.03,
+        "high": 35.29,
         "sparse": false,
         "party": "Negative"
       },
@@ -5044,8 +5044,8 @@
         "t": 20179,
         "date": "2025-04-01",
         "value": 31.56,
-        "low": 27.75,
-        "high": 35.19,
+        "low": 28.01,
+        "high": 35.3,
         "sparse": false,
         "party": "Negative"
       },
@@ -5053,8 +5053,8 @@
         "t": 20180,
         "date": "2025-04-02",
         "value": 31.56,
-        "low": 27.8,
-        "high": 35.2,
+        "low": 28.0,
+        "high": 35.32,
         "sparse": false,
         "party": "Negative"
       },
@@ -5062,8 +5062,8 @@
         "t": 20181,
         "date": "2025-04-03",
         "value": 31.57,
-        "low": 27.79,
-        "high": 35.2,
+        "low": 28.0,
+        "high": 35.34,
         "sparse": false,
         "party": "Negative"
       },
@@ -5071,8 +5071,8 @@
         "t": 20182,
         "date": "2025-04-04",
         "value": 31.58,
-        "low": 27.77,
-        "high": 35.21,
+        "low": 27.99,
+        "high": 35.37,
         "sparse": false,
         "party": "Negative"
       },
@@ -5080,8 +5080,8 @@
         "t": 20183,
         "date": "2025-04-05",
         "value": 31.59,
-        "low": 27.73,
-        "high": 35.21,
+        "low": 27.99,
+        "high": 35.4,
         "sparse": false,
         "party": "Negative"
       },
@@ -5089,8 +5089,8 @@
         "t": 20184,
         "date": "2025-04-06",
         "value": 31.6,
-        "low": 27.7,
-        "high": 35.21,
+        "low": 27.99,
+        "high": 35.41,
         "sparse": false,
         "party": "Negative"
       },
@@ -5098,8 +5098,8 @@
         "t": 20185,
         "date": "2025-04-07",
         "value": 31.6,
-        "low": 27.67,
-        "high": 35.21,
+        "low": 27.99,
+        "high": 35.44,
         "sparse": false,
         "party": "Negative"
       },
@@ -5107,8 +5107,8 @@
         "t": 20186,
         "date": "2025-04-08",
         "value": 31.61,
-        "low": 27.64,
-        "high": 35.22,
+        "low": 28.0,
+        "high": 35.46,
         "sparse": false,
         "party": "Negative"
       },
@@ -5116,8 +5116,8 @@
         "t": 20187,
         "date": "2025-04-09",
         "value": 31.62,
-        "low": 27.6,
-        "high": 35.24,
+        "low": 28.0,
+        "high": 35.47,
         "sparse": false,
         "party": "Negative"
       },
@@ -5125,8 +5125,8 @@
         "t": 20188,
         "date": "2025-04-10",
         "value": 31.63,
-        "low": 27.57,
-        "high": 35.27,
+        "low": 28.04,
+        "high": 35.47,
         "sparse": false,
         "party": "Negative"
       },
@@ -5134,8 +5134,8 @@
         "t": 20189,
         "date": "2025-04-11",
         "value": 31.64,
-        "low": 27.56,
-        "high": 35.28,
+        "low": 28.05,
+        "high": 35.47,
         "sparse": false,
         "party": "Negative"
       },
@@ -5143,8 +5143,8 @@
         "t": 20190,
         "date": "2025-04-12",
         "value": 31.65,
-        "low": 27.56,
-        "high": 35.3,
+        "low": 28.04,
+        "high": 35.48,
         "sparse": false,
         "party": "Negative"
       },
@@ -5152,8 +5152,8 @@
         "t": 20191,
         "date": "2025-04-13",
         "value": 31.66,
-        "low": 27.58,
-        "high": 35.32,
+        "low": 28.02,
+        "high": 35.48,
         "sparse": false,
         "party": "Negative"
       },
@@ -5161,8 +5161,8 @@
         "t": 20192,
         "date": "2025-04-14",
         "value": 31.66,
-        "low": 27.58,
-        "high": 35.34,
+        "low": 28.0,
+        "high": 35.49,
         "sparse": false,
         "party": "Negative"
       },
@@ -5170,8 +5170,8 @@
         "t": 20193,
         "date": "2025-04-15",
         "value": 31.67,
-        "low": 27.59,
-        "high": 35.36,
+        "low": 28.0,
+        "high": 35.49,
         "sparse": false,
         "party": "Negative"
       },
@@ -5179,8 +5179,8 @@
         "t": 20194,
         "date": "2025-04-16",
         "value": 31.68,
-        "low": 27.6,
-        "high": 35.38,
+        "low": 28.0,
+        "high": 35.49,
         "sparse": false,
         "party": "Negative"
       },
@@ -5188,8 +5188,8 @@
         "t": 20195,
         "date": "2025-04-17",
         "value": 31.69,
-        "low": 27.61,
-        "high": 35.39,
+        "low": 28.0,
+        "high": 35.5,
         "sparse": false,
         "party": "Negative"
       },
@@ -5197,8 +5197,8 @@
         "t": 20196,
         "date": "2025-04-18",
         "value": 31.7,
-        "low": 27.6,
-        "high": 35.41,
+        "low": 27.99,
+        "high": 35.5,
         "sparse": false,
         "party": "Negative"
       },
@@ -5206,8 +5206,8 @@
         "t": 20197,
         "date": "2025-04-19",
         "value": 31.71,
-        "low": 27.58,
-        "high": 35.43,
+        "low": 28.0,
+        "high": 35.5,
         "sparse": false,
         "party": "Negative"
       },
@@ -5215,8 +5215,8 @@
         "t": 20198,
         "date": "2025-04-20",
         "value": 31.71,
-        "low": 27.57,
-        "high": 35.45,
+        "low": 28.04,
+        "high": 35.51,
         "sparse": false,
         "party": "Negative"
       },
@@ -5224,8 +5224,8 @@
         "t": 20199,
         "date": "2025-04-21",
         "value": 31.72,
-        "low": 27.55,
-        "high": 35.48,
+        "low": 28.08,
+        "high": 35.51,
         "sparse": false,
         "party": "Negative"
       },
@@ -5233,8 +5233,8 @@
         "t": 20200,
         "date": "2025-04-22",
         "value": 31.73,
-        "low": 27.53,
-        "high": 35.5,
+        "low": 28.13,
+        "high": 35.51,
         "sparse": false,
         "party": "Negative"
       },
@@ -5242,8 +5242,8 @@
         "t": 20201,
         "date": "2025-04-23",
         "value": 31.74,
-        "low": 27.52,
-        "high": 35.51,
+        "low": 28.17,
+        "high": 35.52,
         "sparse": false,
         "party": "Negative"
       },
@@ -5251,7 +5251,7 @@
         "t": 20202,
         "date": "2025-04-24",
         "value": 31.75,
-        "low": 27.5,
+        "low": 28.21,
         "high": 35.53,
         "sparse": false,
         "party": "Negative"
@@ -5260,7 +5260,7 @@
         "t": 20203,
         "date": "2025-04-25",
         "value": 31.75,
-        "low": 27.49,
+        "low": 28.25,
         "high": 35.55,
         "sparse": false,
         "party": "Negative"
@@ -5269,7 +5269,7 @@
         "t": 20204,
         "date": "2025-04-26",
         "value": 31.76,
-        "low": 27.5,
+        "low": 28.24,
         "high": 35.56,
         "sparse": false,
         "party": "Negative"
@@ -5278,7 +5278,7 @@
         "t": 20205,
         "date": "2025-04-27",
         "value": 31.77,
-        "low": 27.5,
+        "low": 28.23,
         "high": 35.57,
         "sparse": false,
         "party": "Negative"
@@ -5287,7 +5287,7 @@
         "t": 20206,
         "date": "2025-04-28",
         "value": 31.77,
-        "low": 27.5,
+        "low": 28.22,
         "high": 35.58,
         "sparse": false,
         "party": "Negative"
@@ -5296,7 +5296,7 @@
         "t": 20207,
         "date": "2025-04-29",
         "value": 31.78,
-        "low": 27.51,
+        "low": 28.21,
         "high": 35.59,
         "sparse": false,
         "party": "Negative"
@@ -5305,7 +5305,7 @@
         "t": 20208,
         "date": "2025-04-30",
         "value": 31.79,
-        "low": 27.51,
+        "low": 28.2,
         "high": 35.59,
         "sparse": false,
         "party": "Negative"
@@ -5314,7 +5314,7 @@
         "t": 20209,
         "date": "2025-05-01",
         "value": 31.79,
-        "low": 27.5,
+        "low": 28.19,
         "high": 35.6,
         "sparse": false,
         "party": "Negative"
@@ -5323,7 +5323,7 @@
         "t": 20210,
         "date": "2025-05-02",
         "value": 31.8,
-        "low": 27.51,
+        "low": 28.18,
         "high": 35.61,
         "sparse": false,
         "party": "Negative"
@@ -5332,7 +5332,7 @@
         "t": 20211,
         "date": "2025-05-03",
         "value": 31.8,
-        "low": 27.51,
+        "low": 28.17,
         "high": 35.62,
         "sparse": false,
         "party": "Negative"
@@ -5341,7 +5341,7 @@
         "t": 20212,
         "date": "2025-05-04",
         "value": 31.81,
-        "low": 27.51,
+        "low": 28.16,
         "high": 35.62,
         "sparse": false,
         "party": "Negative"
@@ -5350,7 +5350,7 @@
         "t": 20213,
         "date": "2025-05-05",
         "value": 31.81,
-        "low": 27.51,
+        "low": 28.15,
         "high": 35.64,
         "sparse": false,
         "party": "Negative"
@@ -5359,7 +5359,7 @@
         "t": 20214,
         "date": "2025-05-06",
         "value": 31.82,
-        "low": 27.51,
+        "low": 28.14,
         "high": 35.65,
         "sparse": false,
         "party": "Negative"
@@ -5368,7 +5368,7 @@
         "t": 20215,
         "date": "2025-05-07",
         "value": 31.82,
-        "low": 27.5,
+        "low": 28.13,
         "high": 35.66,
         "sparse": false,
         "party": "Negative"
@@ -5377,7 +5377,7 @@
         "t": 20216,
         "date": "2025-05-08",
         "value": 31.82,
-        "low": 27.5,
+        "low": 28.13,
         "high": 35.67,
         "sparse": false,
         "party": "Negative"
@@ -5386,7 +5386,7 @@
         "t": 20217,
         "date": "2025-05-09",
         "value": 31.83,
-        "low": 27.5,
+        "low": 28.12,
         "high": 35.68,
         "sparse": false,
         "party": "Negative"
@@ -5395,7 +5395,7 @@
         "t": 20218,
         "date": "2025-05-10",
         "value": 31.83,
-        "low": 27.49,
+        "low": 28.11,
         "high": 35.69,
         "sparse": false,
         "party": "Negative"
@@ -5404,7 +5404,7 @@
         "t": 20219,
         "date": "2025-05-11",
         "value": 31.83,
-        "low": 27.49,
+        "low": 28.1,
         "high": 35.7,
         "sparse": false,
         "party": "Negative"
@@ -5413,7 +5413,7 @@
         "t": 20220,
         "date": "2025-05-12",
         "value": 31.83,
-        "low": 27.48,
+        "low": 28.09,
         "high": 35.71,
         "sparse": false,
         "party": "Negative"
@@ -5422,7 +5422,7 @@
         "t": 20221,
         "date": "2025-05-13",
         "value": 31.83,
-        "low": 27.48,
+        "low": 28.08,
         "high": 35.75,
         "sparse": false,
         "party": "Negative"
@@ -5431,7 +5431,7 @@
         "t": 20222,
         "date": "2025-05-14",
         "value": 31.83,
-        "low": 27.46,
+        "low": 28.07,
         "high": 35.8,
         "sparse": false,
         "party": "Negative"
@@ -5440,7 +5440,7 @@
         "t": 20223,
         "date": "2025-05-15",
         "value": 31.83,
-        "low": 27.45,
+        "low": 28.06,
         "high": 35.84,
         "sparse": false,
         "party": "Negative"
@@ -5449,7 +5449,7 @@
         "t": 20224,
         "date": "2025-05-16",
         "value": 31.83,
-        "low": 27.44,
+        "low": 28.05,
         "high": 35.88,
         "sparse": false,
         "party": "Negative"
@@ -5458,7 +5458,7 @@
         "t": 20225,
         "date": "2025-05-17",
         "value": 31.83,
-        "low": 27.43,
+        "low": 28.05,
         "high": 35.92,
         "sparse": false,
         "party": "Negative"
@@ -5467,7 +5467,7 @@
         "t": 20226,
         "date": "2025-05-18",
         "value": 31.83,
-        "low": 27.43,
+        "low": 28.04,
         "high": 35.96,
         "sparse": false,
         "party": "Negative"
@@ -5476,7 +5476,7 @@
         "t": 20227,
         "date": "2025-05-19",
         "value": 31.83,
-        "low": 27.42,
+        "low": 28.03,
         "high": 36.0,
         "sparse": false,
         "party": "Negative"
@@ -5485,7 +5485,7 @@
         "t": 20228,
         "date": "2025-05-20",
         "value": 31.82,
-        "low": 27.41,
+        "low": 28.03,
         "high": 36.0,
         "sparse": false,
         "party": "Negative"
@@ -5494,7 +5494,7 @@
         "t": 20229,
         "date": "2025-05-21",
         "value": 31.82,
-        "low": 27.39,
+        "low": 28.02,
         "high": 36.01,
         "sparse": false,
         "party": "Negative"
@@ -5503,7 +5503,7 @@
         "t": 20230,
         "date": "2025-05-22",
         "value": 31.82,
-        "low": 27.38,
+        "low": 28.01,
         "high": 36.01,
         "sparse": false,
         "party": "Negative"
@@ -5512,7 +5512,7 @@
         "t": 20231,
         "date": "2025-05-23",
         "value": 31.81,
-        "low": 27.37,
+        "low": 28.0,
         "high": 36.01,
         "sparse": false,
         "party": "Negative"
@@ -5521,7 +5521,7 @@
         "t": 20232,
         "date": "2025-05-24",
         "value": 31.81,
-        "low": 27.36,
+        "low": 28.0,
         "high": 36.02,
         "sparse": false,
         "party": "Negative"
@@ -5530,7 +5530,7 @@
         "t": 20233,
         "date": "2025-05-25",
         "value": 31.8,
-        "low": 27.35,
+        "low": 28.0,
         "high": 36.02,
         "sparse": false,
         "party": "Negative"
@@ -5539,7 +5539,7 @@
         "t": 20234,
         "date": "2025-05-26",
         "value": 31.8,
-        "low": 27.34,
+        "low": 27.99,
         "high": 36.02,
         "sparse": false,
         "party": "Negative"
@@ -5548,7 +5548,7 @@
         "t": 20235,
         "date": "2025-05-27",
         "value": 31.79,
-        "low": 27.32,
+        "low": 27.98,
         "high": 36.02,
         "sparse": false,
         "party": "Negative"
@@ -5557,7 +5557,7 @@
         "t": 20236,
         "date": "2025-05-28",
         "value": 31.79,
-        "low": 27.31,
+        "low": 27.97,
         "high": 36.02,
         "sparse": false,
         "party": "Negative"
@@ -5566,7 +5566,7 @@
         "t": 20237,
         "date": "2025-05-29",
         "value": 31.78,
-        "low": 27.3,
+        "low": 27.96,
         "high": 36.02,
         "sparse": false,
         "party": "Negative"
@@ -5575,7 +5575,7 @@
         "t": 20238,
         "date": "2025-05-30",
         "value": 31.78,
-        "low": 27.28,
+        "low": 27.95,
         "high": 36.02,
         "sparse": false,
         "party": "Negative"
@@ -5584,7 +5584,7 @@
         "t": 20239,
         "date": "2025-05-31",
         "value": 31.77,
-        "low": 27.25,
+        "low": 27.95,
         "high": 36.02,
         "sparse": false,
         "party": "Negative"
@@ -5593,7 +5593,7 @@
         "t": 20240,
         "date": "2025-06-01",
         "value": 31.77,
-        "low": 27.2,
+        "low": 27.94,
         "high": 36.02,
         "sparse": false,
         "party": "Negative"
@@ -5602,7 +5602,7 @@
         "t": 20241,
         "date": "2025-06-02",
         "value": 31.76,
-        "low": 27.15,
+        "low": 27.87,
         "high": 36.03,
         "sparse": false,
         "party": "Negative"
@@ -5611,7 +5611,7 @@
         "t": 20242,
         "date": "2025-06-03",
         "value": 31.76,
-        "low": 27.1,
+        "low": 27.77,
         "high": 36.05,
         "sparse": false,
         "party": "Negative"
@@ -5620,7 +5620,7 @@
         "t": 20243,
         "date": "2025-06-04",
         "value": 31.75,
-        "low": 27.05,
+        "low": 27.71,
         "high": 36.06,
         "sparse": false,
         "party": "Negative"
@@ -5629,7 +5629,7 @@
         "t": 20244,
         "date": "2025-06-05",
         "value": 31.74,
-        "low": 27.0,
+        "low": 27.71,
         "high": 36.09,
         "sparse": false,
         "party": "Negative"
@@ -5638,7 +5638,7 @@
         "t": 20245,
         "date": "2025-06-06",
         "value": 31.74,
-        "low": 26.94,
+        "low": 27.68,
         "high": 36.11,
         "sparse": false,
         "party": "Negative"
@@ -5647,7 +5647,7 @@
         "t": 20246,
         "date": "2025-06-07",
         "value": 31.73,
-        "low": 26.9,
+        "low": 27.66,
         "high": 36.13,
         "sparse": false,
         "party": "Negative"
@@ -5656,7 +5656,7 @@
         "t": 20247,
         "date": "2025-06-08",
         "value": 31.73,
-        "low": 27.15,
+        "low": 27.61,
         "high": 36.15,
         "sparse": false,
         "party": "Negative"
@@ -5665,7 +5665,7 @@
         "t": 20248,
         "date": "2025-06-09",
         "value": 31.72,
-        "low": 27.05,
+        "low": 27.59,
         "high": 36.17,
         "sparse": false,
         "party": "Negative"
@@ -5674,7 +5674,7 @@
         "t": 20249,
         "date": "2025-06-10",
         "value": 31.72,
-        "low": 26.95,
+        "low": 27.57,
         "high": 36.18,
         "sparse": false,
         "party": "Negative"
@@ -5683,7 +5683,7 @@
         "t": 20250,
         "date": "2025-06-11",
         "value": 31.71,
-        "low": 26.84,
+        "low": 27.55,
         "high": 36.19,
         "sparse": false,
         "party": "Negative"
@@ -5692,7 +5692,7 @@
         "t": 20251,
         "date": "2025-06-12",
         "value": 31.71,
-        "low": 26.73,
+        "low": 27.51,
         "high": 36.19,
         "sparse": false,
         "party": "Negative"
@@ -5701,7 +5701,7 @@
         "t": 20252,
         "date": "2025-06-13",
         "value": 31.7,
-        "low": 26.72,
+        "low": 27.48,
         "high": 36.2,
         "sparse": false,
         "party": "Negative"
@@ -5710,7 +5710,7 @@
         "t": 20253,
         "date": "2025-06-14",
         "value": 31.7,
-        "low": 26.72,
+        "low": 27.45,
         "high": 36.2,
         "sparse": false,
         "party": "Negative"
@@ -5719,7 +5719,7 @@
         "t": 20254,
         "date": "2025-06-15",
         "value": 31.7,
-        "low": 26.73,
+        "low": 27.42,
         "high": 36.2,
         "sparse": false,
         "party": "Negative"
@@ -5728,7 +5728,7 @@
         "t": 20255,
         "date": "2025-06-16",
         "value": 31.7,
-        "low": 26.74,
+        "low": 27.36,
         "high": 36.2,
         "sparse": false,
         "party": "Negative"
@@ -5737,7 +5737,7 @@
         "t": 20256,
         "date": "2025-06-17",
         "value": 31.69,
-        "low": 26.74,
+        "low": 27.29,
         "high": 36.21,
         "sparse": false,
         "party": "Negative"
@@ -5746,7 +5746,7 @@
         "t": 20257,
         "date": "2025-06-18",
         "value": 31.69,
-        "low": 26.73,
+        "low": 27.24,
         "high": 36.22,
         "sparse": false,
         "party": "Negative"
@@ -5755,7 +5755,7 @@
         "t": 20258,
         "date": "2025-06-19",
         "value": 31.69,
-        "low": 26.72,
+        "low": 27.21,
         "high": 36.23,
         "sparse": false,
         "party": "Negative"
@@ -5764,7 +5764,7 @@
         "t": 20259,
         "date": "2025-06-20",
         "value": 31.69,
-        "low": 26.72,
+        "low": 27.18,
         "high": 36.24,
         "sparse": false,
         "party": "Negative"
@@ -5773,7 +5773,7 @@
         "t": 20260,
         "date": "2025-06-21",
         "value": 31.69,
-        "low": 26.71,
+        "low": 27.16,
         "high": 36.25,
         "sparse": false,
         "party": "Negative"
@@ -5782,7 +5782,7 @@
         "t": 20261,
         "date": "2025-06-22",
         "value": 31.69,
-        "low": 26.7,
+        "low": 27.1,
         "high": 36.26,
         "sparse": false,
         "party": "Negative"
@@ -5791,7 +5791,7 @@
         "t": 20262,
         "date": "2025-06-23",
         "value": 31.7,
-        "low": 26.68,
+        "low": 27.02,
         "high": 36.26,
         "sparse": false,
         "party": "Negative"
@@ -5800,7 +5800,7 @@
         "t": 20263,
         "date": "2025-06-24",
         "value": 31.7,
-        "low": 26.68,
+        "low": 26.95,
         "high": 36.27,
         "sparse": false,
         "party": "Negative"
@@ -5809,7 +5809,7 @@
         "t": 20264,
         "date": "2025-06-25",
         "value": 31.7,
-        "low": 26.67,
+        "low": 26.92,
         "high": 36.28,
         "sparse": false,
         "party": "Negative"
@@ -5818,7 +5818,7 @@
         "t": 20265,
         "date": "2025-06-26",
         "value": 31.71,
-        "low": 26.66,
+        "low": 26.88,
         "high": 36.3,
         "sparse": false,
         "party": "Negative"
@@ -5827,7 +5827,7 @@
         "t": 20266,
         "date": "2025-06-27",
         "value": 31.71,
-        "low": 26.64,
+        "low": 26.85,
         "high": 36.32,
         "sparse": false,
         "party": "Negative"
@@ -5836,7 +5836,7 @@
         "t": 20267,
         "date": "2025-06-28",
         "value": 31.72,
-        "low": 26.64,
+        "low": 26.82,
         "high": 36.33,
         "sparse": false,
         "party": "Negative"
@@ -5845,7 +5845,7 @@
         "t": 20268,
         "date": "2025-06-29",
         "value": 31.72,
-        "low": 26.63,
+        "low": 26.79,
         "high": 36.34,
         "sparse": false,
         "party": "Negative"
@@ -5854,7 +5854,7 @@
         "t": 20269,
         "date": "2025-06-30",
         "value": 31.73,
-        "low": 26.61,
+        "low": 26.76,
         "high": 36.36,
         "sparse": false,
         "party": "Negative"
@@ -5863,7 +5863,7 @@
         "t": 20270,
         "date": "2025-07-01",
         "value": 31.74,
-        "low": 26.6,
+        "low": 26.73,
         "high": 36.36,
         "sparse": false,
         "party": "Negative"
@@ -5872,7 +5872,7 @@
         "t": 20271,
         "date": "2025-07-02",
         "value": 31.75,
-        "low": 26.59,
+        "low": 26.7,
         "high": 36.37,
         "sparse": false,
         "party": "Negative"
@@ -5881,7 +5881,7 @@
         "t": 20272,
         "date": "2025-07-03",
         "value": 31.76,
-        "low": 26.58,
+        "low": 26.68,
         "high": 36.37,
         "sparse": false,
         "party": "Negative"
@@ -5890,7 +5890,7 @@
         "t": 20273,
         "date": "2025-07-04",
         "value": 31.77,
-        "low": 26.56,
+        "low": 26.65,
         "high": 36.38,
         "sparse": false,
         "party": "Negative"
@@ -5899,7 +5899,7 @@
         "t": 20274,
         "date": "2025-07-05",
         "value": 31.79,
-        "low": 26.55,
+        "low": 26.63,
         "high": 36.38,
         "sparse": false,
         "party": "Negative"
@@ -5908,7 +5908,7 @@
         "t": 20275,
         "date": "2025-07-06",
         "value": 31.8,
-        "low": 26.54,
+        "low": 26.61,
         "high": 36.38,
         "sparse": false,
         "party": "Negative"
@@ -5917,7 +5917,7 @@
         "t": 20276,
         "date": "2025-07-07",
         "value": 31.82,
-        "low": 26.52,
+        "low": 26.59,
         "high": 36.38,
         "sparse": false,
         "party": "Negative"
@@ -5926,7 +5926,7 @@
         "t": 20277,
         "date": "2025-07-08",
         "value": 31.84,
-        "low": 26.51,
+        "low": 26.57,
         "high": 36.38,
         "sparse": false,
         "party": "Negative"
@@ -5935,7 +5935,7 @@
         "t": 20278,
         "date": "2025-07-09",
         "value": 31.86,
-        "low": 26.5,
+        "low": 26.56,
         "high": 36.38,
         "sparse": false,
         "party": "Negative"
@@ -5944,7 +5944,7 @@
         "t": 20279,
         "date": "2025-07-10",
         "value": 31.88,
-        "low": 26.43,
+        "low": 26.55,
         "high": 36.35,
         "sparse": false,
         "party": "Negative"
@@ -5953,7 +5953,7 @@
         "t": 20280,
         "date": "2025-07-11",
         "value": 31.9,
-        "low": 26.41,
+        "low": 26.51,
         "high": 36.35,
         "sparse": false,
         "party": "Negative"
@@ -5962,7 +5962,7 @@
         "t": 20281,
         "date": "2025-07-12",
         "value": 31.92,
-        "low": 26.39,
+        "low": 26.5,
         "high": 36.34,
         "sparse": false,
         "party": "Negative"
@@ -5971,7 +5971,7 @@
         "t": 20282,
         "date": "2025-07-13",
         "value": 31.95,
-        "low": 26.37,
+        "low": 26.51,
         "high": 36.34,
         "sparse": false,
         "party": "Negative"
@@ -5980,7 +5980,7 @@
         "t": 20283,
         "date": "2025-07-14",
         "value": 31.97,
-        "low": 26.35,
+        "low": 26.51,
         "high": 36.34,
         "sparse": false,
         "party": "Negative"
@@ -5989,7 +5989,7 @@
         "t": 20284,
         "date": "2025-07-15",
         "value": 32.0,
-        "low": 26.33,
+        "low": 26.52,
         "high": 36.33,
         "sparse": false,
         "party": "Negative"
@@ -5998,7 +5998,7 @@
         "t": 20285,
         "date": "2025-07-16",
         "value": 32.03,
-        "low": 26.31,
+        "low": 26.53,
         "high": 36.32,
         "sparse": false,
         "party": "Negative"
@@ -6007,7 +6007,7 @@
         "t": 20286,
         "date": "2025-07-17",
         "value": 32.07,
-        "low": 26.3,
+        "low": 26.53,
         "high": 36.32,
         "sparse": false,
         "party": "Negative"
@@ -6016,7 +6016,7 @@
         "t": 20287,
         "date": "2025-07-18",
         "value": 32.1,
-        "low": 26.28,
+        "low": 26.55,
         "high": 36.31,
         "sparse": false,
         "party": "Negative"
@@ -6025,7 +6025,7 @@
         "t": 20288,
         "date": "2025-07-19",
         "value": 32.14,
-        "low": 26.27,
+        "low": 26.57,
         "high": 36.3,
         "sparse": false,
         "party": "Negative"
@@ -6034,7 +6034,7 @@
         "t": 20289,
         "date": "2025-07-20",
         "value": 32.18,
-        "low": 26.31,
+        "low": 26.61,
         "high": 36.32,
         "sparse": false,
         "party": "Negative"
@@ -6043,7 +6043,7 @@
         "t": 20290,
         "date": "2025-07-21",
         "value": 32.22,
-        "low": 26.31,
+        "low": 26.65,
         "high": 36.31,
         "sparse": false,
         "party": "Negative"
@@ -6052,7 +6052,7 @@
         "t": 20291,
         "date": "2025-07-22",
         "value": 32.27,
-        "low": 26.31,
+        "low": 26.69,
         "high": 36.3,
         "sparse": false,
         "party": "Negative"
@@ -6061,7 +6061,7 @@
         "t": 20292,
         "date": "2025-07-23",
         "value": 32.32,
-        "low": 26.31,
+        "low": 26.75,
         "high": 36.29,
         "sparse": false,
         "party": "Negative"
@@ -6070,7 +6070,7 @@
         "t": 20293,
         "date": "2025-07-24",
         "value": 32.37,
-        "low": 26.32,
+        "low": 26.81,
         "high": 36.27,
         "sparse": false,
         "party": "Negative"
@@ -6079,7 +6079,7 @@
         "t": 20294,
         "date": "2025-07-25",
         "value": 32.43,
-        "low": 26.33,
+        "low": 26.88,
         "high": 36.26,
         "sparse": false,
         "party": "Negative"
@@ -6088,7 +6088,7 @@
         "t": 20295,
         "date": "2025-07-26",
         "value": 32.48,
-        "low": 26.35,
+        "low": 26.97,
         "high": 36.26,
         "sparse": false,
         "party": "Negative"
@@ -6097,7 +6097,7 @@
         "t": 20296,
         "date": "2025-07-27",
         "value": 32.55,
-        "low": 26.38,
+        "low": 27.07,
         "high": 36.24,
         "sparse": false,
         "party": "Negative"
@@ -6106,7 +6106,7 @@
         "t": 20297,
         "date": "2025-07-28",
         "value": 32.61,
-        "low": 26.41,
+        "low": 27.18,
         "high": 36.23,
         "sparse": false,
         "party": "Negative"
@@ -6115,7 +6115,7 @@
         "t": 20298,
         "date": "2025-07-29",
         "value": 32.68,
-        "low": 26.45,
+        "low": 27.28,
         "high": 36.21,
         "sparse": false,
         "party": "Negative"
@@ -6124,7 +6124,7 @@
         "t": 20299,
         "date": "2025-07-30",
         "value": 32.75,
-        "low": 26.5,
+        "low": 27.25,
         "high": 36.19,
         "sparse": false,
         "party": "Negative"
@@ -6133,7 +6133,7 @@
         "t": 20300,
         "date": "2025-07-31",
         "value": 32.83,
-        "low": 26.57,
+        "low": 27.22,
         "high": 36.17,
         "sparse": false,
         "party": "Negative"
@@ -6142,7 +6142,7 @@
         "t": 20301,
         "date": "2025-08-01",
         "value": 32.91,
-        "low": 26.65,
+        "low": 27.19,
         "high": 36.14,
         "sparse": false,
         "party": "Negative"
@@ -6151,7 +6151,7 @@
         "t": 20302,
         "date": "2025-08-02",
         "value": 32.99,
-        "low": 26.78,
+        "low": 27.16,
         "high": 36.09,
         "sparse": false,
         "party": "Negative"
@@ -6160,7 +6160,7 @@
         "t": 20303,
         "date": "2025-08-03",
         "value": 33.08,
-        "low": 26.94,
+        "low": 27.12,
         "high": 36.08,
         "sparse": false,
         "party": "Negative"
@@ -6169,7 +6169,7 @@
         "t": 20304,
         "date": "2025-08-04",
         "value": 33.17,
-        "low": 27.0,
+        "low": 27.08,
         "high": 36.04,
         "sparse": false,
         "party": "Negative"
@@ -6187,7 +6187,7 @@
         "t": 20306,
         "date": "2025-08-06",
         "value": 33.36,
-        "low": 27.42,
+        "low": 27.71,
         "high": 36.01,
         "sparse": false,
         "party": "Negative"
@@ -6196,7 +6196,7 @@
         "t": 20307,
         "date": "2025-08-07",
         "value": 33.46,
-        "low": 27.41,
+        "low": 27.77,
         "high": 36.01,
         "sparse": false,
         "party": "Negative"
@@ -6205,7 +6205,7 @@
         "t": 20308,
         "date": "2025-08-08",
         "value": 33.57,
-        "low": 27.65,
+        "low": 27.72,
         "high": 36.0,
         "sparse": false,
         "party": "Negative"
@@ -6214,7 +6214,7 @@
         "t": 20309,
         "date": "2025-08-09",
         "value": 33.67,
-        "low": 27.92,
+        "low": 27.68,
         "high": 35.93,
         "sparse": false,
         "party": "Negative"
@@ -6223,7 +6223,7 @@
         "t": 20310,
         "date": "2025-08-10",
         "value": 33.78,
-        "low": 27.93,
+        "low": 27.69,
         "high": 35.88,
         "sparse": false,
         "party": "Negative"
@@ -6232,7 +6232,7 @@
         "t": 20311,
         "date": "2025-08-11",
         "value": 33.89,
-        "low": 28.03,
+        "low": 27.93,
         "high": 35.87,
         "sparse": false,
         "party": "Negative"
@@ -6241,7 +6241,7 @@
         "t": 20312,
         "date": "2025-08-12",
         "value": 34.01,
-        "low": 28.42,
+        "low": 27.89,
         "high": 35.86,
         "sparse": false,
         "party": "Negative"
@@ -6250,8 +6250,8 @@
         "t": 20313,
         "date": "2025-08-13",
         "value": 34.12,
-        "low": 28.38,
-        "high": 35.84,
+        "low": 27.81,
+        "high": 35.85,
         "sparse": false,
         "party": "Negative"
       },
@@ -6259,7 +6259,7 @@
         "t": 20314,
         "date": "2025-08-14",
         "value": 34.23,
-        "low": 28.32,
+        "low": 27.72,
         "high": 35.82,
         "sparse": false,
         "party": "Negative"
@@ -6268,8 +6268,8 @@
         "t": 20315,
         "date": "2025-08-15",
         "value": 34.34,
-        "low": 28.26,
-        "high": 35.78,
+        "low": 27.62,
+        "high": 35.81,
         "sparse": false,
         "party": "Negative"
       },
@@ -6277,8 +6277,8 @@
         "t": 20316,
         "date": "2025-08-16",
         "value": 34.45,
-        "low": 28.19,
-        "high": 35.76,
+        "low": 27.51,
+        "high": 35.78,
         "sparse": false,
         "party": "Negative"
       },
@@ -6286,8 +6286,8 @@
         "t": 20317,
         "date": "2025-08-17",
         "value": 34.56,
-        "low": 28.12,
-        "high": 35.76,
+        "low": 27.4,
+        "high": 35.79,
         "sparse": false,
         "party": "Negative"
       },
@@ -6295,7 +6295,7 @@
         "t": 20318,
         "date": "2025-08-18",
         "value": 34.66,
-        "low": 28.04,
+        "low": 27.38,
         "high": 35.78,
         "sparse": false,
         "party": "Negative"
@@ -6304,8 +6304,8 @@
         "t": 20319,
         "date": "2025-08-19",
         "value": 34.76,
-        "low": 27.9,
-        "high": 35.79,
+        "low": 27.37,
+        "high": 35.77,
         "sparse": false,
         "party": "Negative"
       },
@@ -6313,8 +6313,8 @@
         "t": 20320,
         "date": "2025-08-20",
         "value": 34.85,
-        "low": 27.72,
-        "high": 35.81,
+        "low": 27.35,
+        "high": 35.75,
         "sparse": false,
         "party": "Negative"
       },
@@ -6322,8 +6322,8 @@
         "t": 20321,
         "date": "2025-08-21",
         "value": 34.94,
-        "low": 27.54,
-        "high": 35.84,
+        "low": 27.33,
+        "high": 35.74,
         "sparse": false,
         "party": "Negative"
       },
@@ -6331,8 +6331,8 @@
         "t": 20322,
         "date": "2025-08-22",
         "value": 35.02,
-        "low": 27.41,
-        "high": 35.86,
+        "low": 27.31,
+        "high": 35.73,
         "sparse": false,
         "party": "Negative"
       },
@@ -6341,7 +6341,7 @@
         "date": "2025-08-23",
         "value": 35.09,
         "low": 27.27,
-        "high": 35.88,
+        "high": 35.77,
         "sparse": false,
         "party": "Negative"
       },
@@ -6350,7 +6350,7 @@
         "date": "2025-08-24",
         "value": 35.16,
         "low": 27.12,
-        "high": 35.9,
+        "high": 35.81,
         "sparse": false,
         "party": "Negative"
       },
@@ -6359,7 +6359,7 @@
         "date": "2025-08-25",
         "value": 35.21,
         "low": 26.98,
-        "high": 35.92,
+        "high": 35.84,
         "sparse": false,
         "party": "Negative"
       },
@@ -6368,7 +6368,7 @@
         "date": "2025-08-26",
         "value": 35.26,
         "low": 26.83,
-        "high": 35.93,
+        "high": 35.87,
         "sparse": false,
         "party": "Negative"
       },
@@ -6377,7 +6377,7 @@
         "date": "2025-08-27",
         "value": 35.3,
         "low": 26.69,
-        "high": 35.95,
+        "high": 35.9,
         "sparse": false,
         "party": "Negative"
       },
@@ -6386,7 +6386,7 @@
         "date": "2025-08-28",
         "value": 35.33,
         "low": 26.58,
-        "high": 35.96,
+        "high": 35.92,
         "sparse": false,
         "party": "Negative"
       },
@@ -6395,7 +6395,7 @@
         "date": "2025-08-29",
         "value": 35.35,
         "low": 26.52,
-        "high": 35.97,
+        "high": 35.94,
         "sparse": false,
         "party": "Negative"
       },
@@ -6404,7 +6404,7 @@
         "date": "2025-08-30",
         "value": 35.36,
         "low": 26.5,
-        "high": 35.98,
+        "high": 35.96,
         "sparse": false,
         "party": "Negative"
       },
@@ -6431,7 +6431,7 @@
         "date": "2025-09-02",
         "value": 35.36,
         "low": 26.5,
-        "high": 36.0,
+        "high": 35.99,
         "sparse": false,
         "party": "Negative"
       },
@@ -9139,16 +9139,16 @@
       "date": "2025-05-08",
       "pollster": "BMG Research",
       "values": {
-        "Positive": 36.0,
-        "Negative": 31.0
+        "Positive": 43.0,
+        "Negative": 22.0
       }
     },
     {
       "date": "2025-05-08",
       "pollster": "BMG Research",
       "values": {
-        "Positive": 43.0,
-        "Negative": 22.0
+        "Positive": 36.0,
+        "Negative": 31.0
       }
     },
     {

@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Best party",
     "subgroup": "Wales",
-    "generated": "2026-07-13T09:02:42Z",
+    "generated": "2026-07-14T00:51:00Z",
     "bandwidthDays": 240,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
@@ -17716,11 +17716,6 @@
         "PC": 3.0,
         "Reform": 16.0
       }
-    },
-    {
-      "date": "2026-05-01",
-      "pollster": "Opinium",
-      "values": {}
     },
     {
       "date": "2026-05-28",
