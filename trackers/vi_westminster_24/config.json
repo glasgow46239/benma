@@ -171,6 +171,9 @@
     {
       "name": "UK/GB",
       "value": "overall",
+      "tableParties": ["Con", "Lab", "LDem", "Grn", "Reform"],
+      "tableOther": true,
+      "tableOtherLabel": "Other parties",
       "barIncludeOther": true,
       "barParties": [
         "Con",
@@ -355,7 +358,8 @@
       },
       "overall": {
         "datawrapperLineChartId": "VkLJs",
-        "datawrapperBarChartId": "aj89E"
+        "datawrapperBarChartId": "aj89E",
+        "datawrapperTableChartId": "ADR7I"
       },
       "scotland": {
         "datawrapperLineChartId": "ICAdW",
