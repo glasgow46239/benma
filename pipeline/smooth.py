@@ -602,6 +602,102 @@ def load_historical_series(config, subgroup_value=None):
     return dict(hist), dict(polls)
 
 
+
+# ---------------------------------------------------------------------------
+# Table CSV builder
+# ---------------------------------------------------------------------------
+
+def build_table_csv(line_json, config, subgroup_cfg=None, ref_months=(2, 6)):
+    """
+    Builds a Datawrapper-ready table CSV with portrait, party, latest %,
+    and changes vs N months ago.
+
+    Columns: Portrait, Party, Latest %, vs Xm, vs Ym
+
+    subgroup_cfg can specify:
+      - tableParties: list of party names to include
+      - tableOther: bool — include an "other" row
+      - tableOtherLabel: string label for the other row (e.g. "Unsure")
+    """
+    from datetime import datetime, timedelta
+
+    series      = line_json["series"]
+    latest_s    = line_json["meta"].get("latestSmoothed", {})
+    sg          = subgroup_cfg or {}
+
+    # Party selection
+    table_parties = sg.get("tableParties")
+    if table_parties:
+        party_lookup = {p["name"]: p for p in config["parties"]}
+        parties = [party_lookup[n] for n in table_parties if n in party_lookup]
+    else:
+        parties = [p for p in config["parties"] if p.get("includeInTable", p.get("includeInBar", True))]
+
+    include_other = sg.get("tableOther", False)
+    other_label   = sg.get("tableOtherLabel", "Other parties")
+
+    # Reference dates
+    now = datetime.utcnow()
+    ref_dates = {m: now - timedelta(days=m * 30) for m in ref_months}
+
+    def find_value_at(party_name, target_dt):
+        target_t = (target_dt - datetime(1970, 1, 1)).days
+        candidates = []
+        for col_name, pts in series.items():
+            base = pts[0].get("party", col_name) if pts else col_name
+            if base != party_name:
+                continue
+            non_null = [(pt["t"], pt["value"]) for pt in pts if pt["value"] is not None]
+            candidates.extend(non_null)
+        if not candidates:
+            return None
+        closest = min(candidates, key=lambda x: abs(x[0] - target_t))
+        if abs(closest[0] - target_t) <= 30:
+            return closest[1]
+        return None
+
+    def fmt_change(curr, prev):
+        if curr is None or prev is None:
+            return ""
+        diff = round(curr - prev, 1)
+        return f"+{diff}" if diff >= 0 else str(diff)
+
+    # Header
+    ref_labels = [f"vs {m}m" for m in ref_months]
+    header = ["Portrait", "Party", "Latest %"] + ref_labels
+    lines  = [",".join(header)]
+
+    curr_sum = 0
+    prev_sums = {m: 0 for m in ref_months}
+
+    for party in parties:
+        name    = party["name"]
+        portrait = party.get("portrait", "")
+        curr    = latest_s.get(name)
+        if curr is None:
+            continue
+
+        curr_sum += curr
+
+        row = [portrait, name, str(round(curr, 1))]
+        for m in ref_months:
+            prev = find_value_at(name, ref_dates[m])
+            if prev is not None:
+                prev_sums[m] += prev
+            row.append(fmt_change(curr, prev))
+        lines.append(",".join(row))
+
+    # Other row
+    if include_other and curr_sum > 0:
+        other_curr = round(100 - curr_sum, 1)
+        row = ["", other_label, str(other_curr)]
+        for m in ref_months:
+            other_prev = round(100 - prev_sums[m], 1) if prev_sums[m] > 0 else None
+            row.append(fmt_change(other_curr, other_prev))
+        lines.append(",".join(row))
+
+    return "\n".join(lines)
+
 # ---------------------------------------------------------------------------
 # Summary CSV builder
 # ---------------------------------------------------------------------------
@@ -690,7 +786,9 @@ def build_summary_csv(subgroup_results, config, months_back=(2, 6)):
 
 def push_to_datawrapper(json_data, bar_csv, polls, config,
                         hist_series=None, hist_polls=None,
-                        line_id_override=None, bar_id_override=None):
+                        line_id_override=None, bar_id_override=None,
+                        table_csv=None, table_id_override=None,
+                        subgroup_cfg=None):
     token = os.environ.get("DATAWRAPPER_TOKEN")
     if not token:
         print("Warning: DATAWRAPPER_TOKEN not set, skipping Datawrapper push")
@@ -742,6 +840,24 @@ def push_to_datawrapper(json_data, bar_csv, polls, config,
             headers=headers
         )
         print(f"Pushed and republished bar chart: {bar_id}")
+
+    table_id = table_id_override or config["output"].get("datawrapperTableChartId", "")
+    if table_id and table_csv:
+        requests.put(
+            f"https://api.datawrapper.de/v3/charts/{table_id}/data",
+            headers={"Authorization": f"Bearer {token}", "Content-Type": "text/csv"},
+            data=table_csv.encode("utf-8")
+        )
+        requests.patch(
+            f"https://api.datawrapper.de/v3/charts/{table_id}",
+            headers=headers,
+            json={"metadata": {"describe": {"byline": byline_html}}}
+        )
+        requests.post(
+            f"https://api.datawrapper.de/v3/charts/{table_id}/publish",
+            headers=headers
+        )
+        print(f"Pushed and republished table chart: {table_id}")
 
 # ---------------------------------------------------------------------------
 # Output path helpers
@@ -828,6 +944,14 @@ def main():
             line_json_path, bar_csv_path, line_csv_path, dw_line_id, dw_bar_id = \
                 get_output_paths(config, sg_value)
 
+            # Table chart ID and path
+            sg_out      = config.get("output", {}).get("subgroups", {}).get(sg_value, {})
+            dw_table_id = sg_out.get("datawrapperTableChartId", "")
+            table_csv_path = sg_out.get("tableCsvPath", "")
+            if not table_csv_path and bar_csv_path:
+                root, ext = os.path.splitext(bar_csv_path)
+                table_csv_path = root.replace("bar-", "table-") + ext
+
             def write(path, content):
                 if not path or not content:
                     return
@@ -847,6 +971,9 @@ def main():
             if line_csv_path:
                 write(line_csv_path, build_line_csv(line_json, polls, hist_series, hist_polls))
 
+            table_csv = build_table_csv(line_json, config, subgroup_cfg=sg)
+            write(table_csv_path, table_csv)
+
             print(f"  Headline: {line_json['meta']['headline']}")
             subgroup_results.append((sg_label, line_json))
 
@@ -855,7 +982,10 @@ def main():
                     line_json, bar_csv, polls, config,
                     hist_series=hist_series, hist_polls=hist_polls,
                     line_id_override=dw_line_id or None,
-                    bar_id_override=dw_bar_id or None
+                    bar_id_override=dw_bar_id or None,
+                    table_csv=table_csv,
+                    table_id_override=dw_table_id or None,
+                    subgroup_cfg=sg
                 )
 
         # Write summary CSV after all subgroups processed
