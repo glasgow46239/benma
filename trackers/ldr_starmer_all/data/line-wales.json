@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "Wales",
-    "generated": "2026-07-17T08:09:37Z",
+    "generated": "2026-07-17T12:30:34Z",
     "bandwidthDays": 120,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
@@ -15,7 +15,7 @@
     "latestPollDate": "26-Jun-2026"
   },
   "series": {
-    "Positive": [
+    "Positive (post-2024 election)": [
       {
         "t": 20126,
         "date": "2025-02-07",
@@ -4562,7 +4562,7 @@
         "party": "Positive"
       }
     ],
-    "Negative": [
+    "Negative (post-2024 election)": [
       {
         "t": 20126,
         "date": "2025-02-07",
