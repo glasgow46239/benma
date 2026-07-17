@@ -153,8 +153,8 @@
     {
       "name": "UK/GB",
       "value": "overall",
-      "tableParties": ["Con", "Lab"],
-      "tableOther": true,
+      "tableParties": ["Positive", "Negative", "Unsure"],
+      "tableOther": false,
       "tableOtherLabel": "Undecided",
       "barIncludeOther": true,
       "barParties": [
