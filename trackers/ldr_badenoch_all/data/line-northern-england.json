@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "Northern England",
-    "generated": "2026-07-20T08:55:32Z",
+    "generated": "2026-07-21T08:21:32Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
