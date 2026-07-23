@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "50-64",
-    "generated": "2026-07-23T14:14:09Z",
+    "generated": "2026-07-23T14:19:19Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
@@ -2616,7 +2616,7 @@
         "value": 32.0,
         "low": 26.0,
         "high": 38.0,
-        "sparse": true,
+        "sparse": false,
         "party": "Positive"
       },
       {
@@ -2625,7 +2625,7 @@
         "value": 32.0,
         "low": 26.0,
         "high": 38.0,
-        "sparse": true,
+        "sparse": false,
         "party": "Positive"
       },
       {
@@ -2634,7 +2634,7 @@
         "value": 32.0,
         "low": 26.0,
         "high": 38.0,
-        "sparse": true,
+        "sparse": false,
         "party": "Positive"
       },
       {
@@ -2643,7 +2643,7 @@
         "value": 32.0,
         "low": 26.0,
         "high": 38.0,
-        "sparse": true,
+        "sparse": false,
         "party": "Positive"
       },
       {
@@ -2652,7 +2652,7 @@
         "value": 32.0,
         "low": 26.0,
         "high": 38.0,
-        "sparse": true,
+        "sparse": false,
         "party": "Positive"
       }
     ],
@@ -5257,7 +5257,7 @@
         "value": 38.0,
         "low": 34.0,
         "high": 42.0,
-        "sparse": true,
+        "sparse": false,
         "party": "Negative"
       },
       {
@@ -5266,7 +5266,7 @@
         "value": 38.0,
         "low": 34.0,
         "high": 42.0,
-        "sparse": true,
+        "sparse": false,
         "party": "Negative"
       },
       {
@@ -5275,7 +5275,7 @@
         "value": 38.0,
         "low": 34.0,
         "high": 42.0,
-        "sparse": true,
+        "sparse": false,
         "party": "Negative"
       },
       {
@@ -5284,7 +5284,7 @@
         "value": 38.0,
         "low": 34.0,
         "high": 42.0,
-        "sparse": true,
+        "sparse": false,
         "party": "Negative"
       },
       {
@@ -5293,7 +5293,7 @@
         "value": 38.0,
         "low": 34.0,
         "high": 42.0,
-        "sparse": true,
+        "sparse": false,
         "party": "Negative"
       }
     ]
