@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "trackerName": "Leadership view",
+    "subgroup": "C2DE voters",
+    "generated": "2026-07-23T08:27:59Z",
+    "bandwidthDays": 80,
+    "minPollsInWindow": 2,
+    "bootstrapIterations": 200,
+    "headline": "Negative lead (C2DE voters) at 47.0%",
+    "intro": "Latest poll: Survation \u00b7 14 July 2026 \u00b7 Negative 47.0% \u00b7 Positive 32.0%",
+    "latestSmoothed": {},
+    "latestPollDate": "14-Jul-2026"
+  },
+  "series": {
+    "Positive": [
+      {
+        "t": 20648,
+        "date": "2026-07-14",
+        "value": null,
+        "low": null,
+        "high": null,
+        "sparse": false,
+        "party": "Positive"
+      }
+    ],
+    "Negative": [
+      {
+        "t": 20648,
+        "date": "2026-07-14",
+        "value": null,
+        "low": null,
+        "high": null,
+        "sparse": false,
+        "party": "Negative"
+      }
+    ]
+  },
+  "rawPolls": [
+    {
+      "date": "2026-07-14",
+      "pollster": "Survation",
+      "values": {
+        "Positive": 32.0,
+        "Negative": 47.0
+      }
+    }
+  ]
+}

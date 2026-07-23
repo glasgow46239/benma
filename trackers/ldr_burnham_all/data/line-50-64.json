@@ -2,12 +2,12 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "50-64",
-    "generated": "2026-07-22T11:21:04Z",
+    "generated": "2026-07-23T08:28:21Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
     "headline": "Negative lead (50-64) at 34.0%",
-    "intro": "Latest poll:  \u00b7 17 July 2026 \u00b7 Negative 34.0% \u00b7 Positive 26.0%",
+    "intro": "Latest poll: Opinium \u00b7 17 July 2026 \u00b7 Negative 34.0% \u00b7 Positive 26.0%",
     "latestSmoothed": {
       "Positive": 23.57,
       "Negative": 34.57
@@ -5381,7 +5381,7 @@
     },
     {
       "date": "2026-07-17",
-      "pollster": "",
+      "pollster": "Opinium",
       "values": {
         "Positive": 26.0,
         "Negative": 34.0
