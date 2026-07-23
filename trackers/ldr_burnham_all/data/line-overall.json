@@ -2,15 +2,15 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "UK/GB",
-    "generated": "2026-07-23T14:03:09Z",
+    "generated": "2026-07-23T14:14:11Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
     "headline": "Positive lead (UK/GB) at 29.0%",
     "intro": "Latest poll: More in Common \u00b7 22 July 2026 \u00b7 Positive 29.0% \u00b7 Negative 16.0%",
     "latestSmoothed": {
-      "Positive": 28.0,
-      "Negative": 23.5
+      "Positive": 33.0,
+      "Negative": 27.75
     },
     "latestPollDate": "22-Jul-2026"
   },
@@ -2802,55 +2802,55 @@
       {
         "t": 20651,
         "date": "2026-07-17",
-        "value": 28.0,
-        "low": 27.0,
-        "high": 29.0,
-        "sparse": true,
+        "value": 33.0,
+        "low": 28.48,
+        "high": 35.86,
+        "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20652,
         "date": "2026-07-18",
-        "value": 28.0,
-        "low": 27.0,
-        "high": 29.0,
-        "sparse": true,
+        "value": 33.0,
+        "low": 28.48,
+        "high": 35.86,
+        "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20653,
         "date": "2026-07-19",
-        "value": 28.0,
-        "low": 27.0,
-        "high": 29.0,
-        "sparse": true,
+        "value": 33.0,
+        "low": 28.48,
+        "high": 35.86,
+        "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20654,
         "date": "2026-07-20",
-        "value": 28.0,
-        "low": 27.0,
-        "high": 29.0,
-        "sparse": true,
+        "value": 33.0,
+        "low": 28.48,
+        "high": 35.86,
+        "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20655,
         "date": "2026-07-21",
-        "value": 28.0,
-        "low": 27.0,
-        "high": 29.0,
-        "sparse": true,
+        "value": 33.0,
+        "low": 28.48,
+        "high": 35.86,
+        "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20656,
         "date": "2026-07-22",
-        "value": 28.0,
-        "low": 27.0,
-        "high": 29.0,
-        "sparse": true,
+        "value": 33.0,
+        "low": 28.48,
+        "high": 35.86,
+        "sparse": false,
         "party": "Positive"
       }
     ],
@@ -5641,55 +5641,55 @@
       {
         "t": 20651,
         "date": "2026-07-17",
-        "value": 23.5,
-        "low": 16.0,
-        "high": 31.0,
-        "sparse": true,
+        "value": 27.75,
+        "low": 20.75,
+        "high": 33.0,
+        "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20652,
         "date": "2026-07-18",
-        "value": 23.5,
-        "low": 16.0,
-        "high": 31.0,
-        "sparse": true,
+        "value": 27.75,
+        "low": 20.75,
+        "high": 33.0,
+        "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20653,
         "date": "2026-07-19",
-        "value": 23.5,
-        "low": 16.0,
-        "high": 31.0,
-        "sparse": true,
+        "value": 27.75,
+        "low": 20.75,
+        "high": 33.0,
+        "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20654,
         "date": "2026-07-20",
-        "value": 23.5,
-        "low": 16.0,
-        "high": 31.0,
-        "sparse": true,
+        "value": 27.75,
+        "low": 20.75,
+        "high": 33.0,
+        "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20655,
         "date": "2026-07-21",
-        "value": 23.5,
-        "low": 16.0,
-        "high": 31.0,
-        "sparse": true,
+        "value": 27.75,
+        "low": 20.75,
+        "high": 33.0,
+        "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20656,
         "date": "2026-07-22",
-        "value": 23.5,
-        "low": 16.0,
-        "high": 31.0,
-        "sparse": true,
+        "value": 27.75,
+        "low": 20.75,
+        "high": 33.0,
+        "sparse": false,
         "party": "Negative"
       }
     ]
@@ -5989,6 +5989,22 @@
       "values": {
         "Positive": 27.0,
         "Negative": 31.0
+      }
+    },
+    {
+      "date": "2026-07-20",
+      "pollster": "Deltapoll",
+      "values": {
+        "Positive": 38.0,
+        "Negative": 29.0
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "pollster": "YouGov",
+      "values": {
+        "Positive": 38.0,
+        "Negative": 35.0
       }
     },
     {

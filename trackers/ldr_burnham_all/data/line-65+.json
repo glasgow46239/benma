@@ -2,17 +2,17 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "65+",
-    "generated": "2026-07-23T14:03:07Z",
+    "generated": "2026-07-23T14:14:09Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
-    "headline": "Negative lead (65+) at 42.0%",
-    "intro": "Latest poll: Opinium \u00b7 17 July 2026 \u00b7 Negative 42.0% \u00b7 Positive 21.0%",
+    "headline": "Positive lead (65+) at 41.0%",
+    "intro": "Latest poll: YouGov \u00b7 21 July 2026 \u00b7 Positive 41.0% \u00b7 Negative 38.0%",
     "latestSmoothed": {
-      "Positive": 17.74,
-      "Negative": 40.26
+      "Positive": 31.0,
+      "Negative": 40.0
     },
-    "latestPollDate": "17-Jul-2026"
+    "latestPollDate": "21-Jul-2026"
   },
   "series": {
     "Positive (pre-Labour leader)": [
@@ -2613,10 +2613,46 @@
       {
         "t": 20651,
         "date": "2026-07-17",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
+        "value": 31.0,
+        "low": 21.0,
+        "high": 41.0,
+        "sparse": true,
+        "party": "Positive"
+      },
+      {
+        "t": 20652,
+        "date": "2026-07-18",
+        "value": 31.0,
+        "low": 21.0,
+        "high": 41.0,
+        "sparse": true,
+        "party": "Positive"
+      },
+      {
+        "t": 20653,
+        "date": "2026-07-19",
+        "value": 31.0,
+        "low": 21.0,
+        "high": 41.0,
+        "sparse": true,
+        "party": "Positive"
+      },
+      {
+        "t": 20654,
+        "date": "2026-07-20",
+        "value": 31.0,
+        "low": 21.0,
+        "high": 41.0,
+        "sparse": true,
+        "party": "Positive"
+      },
+      {
+        "t": 20655,
+        "date": "2026-07-21",
+        "value": 31.0,
+        "low": 21.0,
+        "high": 41.0,
+        "sparse": true,
         "party": "Positive"
       }
     ],
@@ -5218,10 +5254,46 @@
       {
         "t": 20651,
         "date": "2026-07-17",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
+        "value": 40.0,
+        "low": 38.0,
+        "high": 42.0,
+        "sparse": true,
+        "party": "Negative"
+      },
+      {
+        "t": 20652,
+        "date": "2026-07-18",
+        "value": 40.0,
+        "low": 38.0,
+        "high": 42.0,
+        "sparse": true,
+        "party": "Negative"
+      },
+      {
+        "t": 20653,
+        "date": "2026-07-19",
+        "value": 40.0,
+        "low": 38.0,
+        "high": 42.0,
+        "sparse": true,
+        "party": "Negative"
+      },
+      {
+        "t": 20654,
+        "date": "2026-07-20",
+        "value": 40.0,
+        "low": 38.0,
+        "high": 42.0,
+        "sparse": true,
+        "party": "Negative"
+      },
+      {
+        "t": 20655,
+        "date": "2026-07-21",
+        "value": 40.0,
+        "low": 38.0,
+        "high": 42.0,
+        "sparse": true,
         "party": "Negative"
       }
     ]
@@ -5281,6 +5353,14 @@
       "values": {
         "Positive": 21.0,
         "Negative": 42.0
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "pollster": "YouGov",
+      "values": {
+        "Positive": 41.0,
+        "Negative": 38.0
       }
     }
   ]
