@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "Wales",
-    "generated": "2026-07-23T12:13:20Z",
+    "generated": "2026-07-23T14:00:01Z",
     "bandwidthDays": 60,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
@@ -12,7 +12,7 @@
     "latestPollDate": "22-May-2026"
   },
   "series": {
-    "Positive": [
+    "Positive (pre-Prime Minister)": [
       {
         "t": 20595,
         "date": "2026-05-22",
@@ -23,7 +23,7 @@
         "party": "Positive"
       }
     ],
-    "Negative": [
+    "Negative (pre-Prime Minister)": [
       {
         "t": 20595,
         "date": "2026-05-22",
