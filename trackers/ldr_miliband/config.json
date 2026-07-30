@@ -161,6 +161,8 @@
         "Grn",
         "Reform"
       ],
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2
     },
     {
       "name": "Scotland",
