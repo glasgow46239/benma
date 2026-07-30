@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "trackerName": "Leadership view",
+    "subgroup": "C2DE voters",
+    "generated": "2026-07-30T09:52:41Z",
+    "bandwidthDays": 80,
+    "minPollsInWindow": 2,
+    "bootstrapIterations": 200,
+    "headline": "Positive lead (C2DE voters) at 33.0%",
+    "intro": "Latest poll: Survation \u00b7 24 July 2026 \u00b7 Positive 33.0% \u00b7 Negative 30.0%",
+    "latestSmoothed": {
+      "Positive": 33.0,
+      "Negative": 30.0
+    },
+    "latestPollDate": "24-Jul-2026"
+  },
+  "series": {
+    "Positive (post-Labour leader)": [
+      {
+        "t": 20658,
+        "date": "2026-07-24",
+        "value": 33.0,
+        "low": 33.0,
+        "high": 33.0,
+        "sparse": true,
+        "party": "Positive"
+      }
+    ],
+    "Negative (post-Labour leader)": [
+      {
+        "t": 20658,
+        "date": "2026-07-24",
+        "value": 30.0,
+        "low": 30.0,
+        "high": 30.0,
+        "sparse": true,
+        "party": "Negative"
+      }
+    ]
+  },
+  "rawPolls": [
+    {
+      "date": "2026-07-24",
+      "pollster": "Survation",
+      "values": {
+        "Positive": 33.0,
+        "Negative": 30.0
+      }
+    }
+  ]
+}

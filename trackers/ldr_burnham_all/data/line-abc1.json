@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "trackerName": "Leadership view",
+    "subgroup": "ABC1 voters",
+    "generated": "2026-07-30T09:52:41Z",
+    "bandwidthDays": 80,
+    "minPollsInWindow": 2,
+    "bootstrapIterations": 200,
+    "headline": "Positive lead (ABC1 voters) at 43.0%",
+    "intro": "Latest poll: Survation \u00b7 24 July 2026 \u00b7 Positive 43.0% \u00b7 Negative 22.0%",
+    "latestSmoothed": {
+      "Positive": 43.0,
+      "Negative": 22.0
+    },
+    "latestPollDate": "24-Jul-2026"
+  },
+  "series": {
+    "Positive (post-Labour leader)": [
+      {
+        "t": 20658,
+        "date": "2026-07-24",
+        "value": 43.0,
+        "low": 43.0,
+        "high": 43.0,
+        "sparse": true,
+        "party": "Positive"
+      }
+    ],
+    "Negative (post-Labour leader)": [
+      {
+        "t": 20658,
+        "date": "2026-07-24",
+        "value": 22.0,
+        "low": 22.0,
+        "high": 22.0,
+        "sparse": true,
+        "party": "Negative"
+      }
+    ]
+  },
+  "rawPolls": [
+    {
+      "date": "2026-07-24",
+      "pollster": "Survation",
+      "values": {
+        "Positive": 43.0,
+        "Negative": 22.0
+      }
+    }
+  ]
+}
