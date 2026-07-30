@@ -163,7 +163,9 @@
         "LDem",
         "Grn",
         "Reform"
-    ],
+      ],
+      "bandwidthDays": 120,
+      "minPollsInWindow": 2
     },
     {
       "name": "Scotland",
