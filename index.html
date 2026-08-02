@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poll tracker explorer</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #f7f6f2; --surface: #ffffff; --border: rgba(0,0,0,0.1);
+    --text: #1a1a1a; --muted: #666; --radius: 6px;
+    --font: 'DM Sans', system-ui, sans-serif;
+    --font-mono: 'DM Mono', monospace;
+  }
+  body { font-family: var(--font); background: var(--bg); color: var(--text); min-height: 100vh; padding: 1.5rem; }
+  header { display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem; }
+  .tracker-name { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+  h1 { font-size: 22px; font-weight: 600; line-height: 1.2; }
+  .headline-sub { font-size: 13px; color: var(--muted); margin-top: 4px; font-family: var(--font-mono); }
+  .share-btn { display: flex; align-items: center; gap: 6px; font-size: 12px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 6px 12px; cursor: pointer; color: var(--muted); white-space: nowrap; transition: color 0.15s; }
+  .share-btn:hover { color: var(--text); }
+
+  /* URL loader */
+  .url-bar { display: flex; gap: 8px; margin-bottom: 1rem; }
+  .url-bar input { flex: 1; font-family: var(--font-mono); font-size: 12px; padding: 8px 10px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); color: var(--text); }
+  .url-bar input:focus { outline: 2px solid #4a90d9; outline-offset: -1px; }
+  .url-bar button { font-family: var(--font); font-size: 13px; font-weight: 500; padding: 8px 16px; border: none; border-radius: var(--radius); background: var(--text); color: #fff; cursor: pointer; white-space: nowrap; transition: opacity 0.15s; }
+  .url-bar button:hover { opacity: 0.85; }
+  .url-bar button.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--border); }
+
+  /* Column mapper */
+  .col-mapper { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; margin-bottom: 1rem; display: none; }
+  .col-mapper h3 { font-size: 13px; font-weight: 600; margin-bottom: 0.75rem; }
+  .col-mapper-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; margin-bottom: 0.75rem; }
+  .col-entry { display: flex; flex-direction: column; gap: 3px; }
+  .col-entry label { font-size: 11px; color: var(--muted); font-weight: 500; }
+  .col-entry input { font-family: var(--font-mono); font-size: 12px; padding: 4px 8px; border: 1px solid var(--border); border-radius: 4px; background: var(--bg); color: var(--text); width: 100%; }
+  .col-entry input[type=color] { padding: 2px 4px; height: 30px; cursor: pointer; }
+  .party-rows { display: flex; flex-direction: column; gap: 6px; margin-bottom: 0.75rem; }
+  .party-row { display: flex; gap: 8px; align-items: center; }
+  .party-row input[type=text] { font-family: var(--font-mono); font-size: 12px; padding: 4px 8px; border: 1px solid var(--border); border-radius: 4px; width: 80px; }
+  .party-row input[type=number] { font-family: var(--font-mono); font-size: 12px; padding: 4px 8px; border: 1px solid var(--border); border-radius: 4px; width: 60px; }
+  .party-row input[type=color] { padding: 2px 4px; height: 30px; border: 1px solid var(--border); border-radius: 4px; cursor: pointer; width: 40px; }
+  .party-row .remove-btn { font-size: 16px; color: var(--muted); cursor: pointer; background: none; border: none; line-height: 1; padding: 0 4px; }
+  .party-row .remove-btn:hover { color: #c00; }
+  .col-mapper-actions { display: flex; gap: 8px; }
+  .col-mapper-actions button { font-size: 12px; padding: 6px 12px; border-radius: var(--radius); cursor: pointer; }
+  .add-party-btn { background: var(--surface); border: 1px solid var(--border); color: var(--text); }
+  .apply-btn { background: var(--text); border: none; color: #fff; font-weight: 500; }
+  .preview-row { font-family: var(--font-mono); font-size: 11px; color: var(--muted); margin-bottom: 0.5rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  .controls-bar { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.75rem 1rem; margin-bottom: 1rem; font-size: 13px; color: var(--muted); }
+  .ctrl-group { display: flex; align-items: center; gap: 8px; }
+  .ctrl-group label { font-weight: 500; color: var(--text); }
+  input[type=range] { -webkit-appearance: none; width: 110px; height: 4px; background: #ddd; border-radius: 2px; outline: none; }
+  input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 14px; height: 14px; border-radius: 50%; background: var(--text); cursor: pointer; }
+  .ctrl-val { font-family: var(--font-mono); font-size: 12px; min-width: 36px; color: var(--text); font-weight: 500; }
+  .ctrl-divider { width: 1px; height: 20px; background: var(--border); }
+  select { font-family: var(--font); font-size: 13px; padding: 4px 8px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); color: var(--text); cursor: pointer; }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1rem; }
+  .legend-pill { display: flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 500; padding: 4px 10px; border-radius: 20px; border: 1.5px solid transparent; cursor: pointer; transition: opacity 0.15s; user-select: none; }
+  .legend-pill.hidden-party { opacity: 0.3; }
+  .legend-dot { width: 7px; height: 7px; border-radius: 50%; }
+  .chart-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; position: relative; }
+  .status { font-size: 12px; color: var(--muted); margin-top: 0.75rem; font-family: var(--font-mono); display: flex; gap: 1rem; flex-wrap: wrap; }
+  .status-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #22c55e; margin-right: 4px; vertical-align: middle; }
+  .status-dot.loading { background: #f59e0b; }
+  .status-dot.error { background: #ef4444; }
+  .toast { position: fixed; bottom: 1.5rem; right: 1.5rem; background: var(--text); color: #fff; font-size: 13px; padding: 8px 16px; border-radius: var(--radius); opacity: 0; pointer-events: none; transition: opacity 0.2s; }
+  .toast.show { opacity: 1; }
+  @media (max-width: 600px) { body { padding: 1rem; } .controls-bar { gap: 1rem; } input[type=range] { width: 80px; } }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="tracker-name" id="tracker-name">Poll tracker explorer</div>
+    <h1 id="headline">Load data to begin</h1>
+    <div class="headline-sub" id="intro-line">Paste a Google Sheets CSV URL or load config.json</div>
+  </div>
+  <button class="share-btn" id="share-btn">
+    <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+      <circle cx="12" cy="3" r="1.5"/><circle cx="4" cy="8" r="1.5"/><circle cx="12" cy="13" r="1.5"/>
+      <line x1="5.4" y1="7.1" x2="10.6" y2="4"/><line x1="5.4" y1="8.9" x2="10.6" y2="12"/>
+    </svg>
+    Share view
+  </button>
+</header>
+
+<!-- URL loader -->
+<div class="url-bar">
+  <input type="text" id="url-input" placeholder="Paste Google Sheets CSV URL or config.json URL…">
+  <button id="load-btn">Load</button>
+  <button class="secondary" id="config-btn">Load config.json</button>
+</div>
+
+<!-- Column mapper (shown after raw CSV load) -->
+<div class="col-mapper" id="col-mapper">
+  <h3>Map columns</h3>
+  <div class="preview-row" id="preview-row"></div>
+  <div class="col-mapper-grid">
+    <div class="col-entry">
+      <label>Date column</label>
+      <input type="number" id="map-date" value="0" min="0">
+    </div>
+    <div class="col-entry">
+      <label>Pollster column</label>
+      <input type="number" id="map-pollster" value="1" min="0">
+    </div>
+    <div class="col-entry">
+      <label>Subgroup column (blank = none)</label>
+      <input type="number" id="map-subgroup" placeholder="none" min="0">
+    </div>
+  </div>
+  <div class="party-rows" id="party-rows"></div>
+  <div class="col-mapper-actions">
+    <button class="add-party-btn" id="add-party-btn">+ Add party</button>
+    <button class="apply-btn" id="apply-btn">Apply & draw</button>
+  </div>
+</div>
+
+<div class="controls-bar">
+  <div class="ctrl-group" id="subgroup-ctrl" style="display:none">
+    <label for="subgroup-select">Subgroup</label>
+    <select id="subgroup-select"></select>
+  </div>
+  <div class="ctrl-divider" id="subgroup-divider" style="display:none"></div>
+  <div class="ctrl-group">
+    <label for="bw-slider">Bandwidth</label>
+    <input type="range" id="bw-slider" min="30" max="400" step="10" value="120">
+    <span class="ctrl-val"><span id="bw-val">120</span>d</span>
+  </div>
+  <div class="ctrl-divider"></div>
+  <div class="ctrl-group">
+    <label for="mp-slider">Min polls</label>
+    <input type="range" id="mp-slider" min="2" max="10" step="1" value="4">
+    <span class="ctrl-val" id="mp-val">4</span>
+  </div>
+  <div class="ctrl-divider"></div>
+  <label class="ctrl-group" style="cursor:pointer">
+    <input type="checkbox" id="show-dots" checked>
+    <span>Show poll dots</span>
+  </label>
+  <label class="ctrl-group" style="cursor:pointer">
+    <input type="checkbox" id="show-sparse" checked>
+    <span>Show sparse zones</span>
+  </label>
+</div>
+
+<div class="legend" id="legend"></div>
+
+<div class="chart-wrap">
+  <div style="position:relative; height:440px;">
+    <canvas id="chart-canvas"></canvas>
+  </div>
+</div>
+
+<div class="status">
+  <span><span class="status-dot" id="status-dot"></span><span id="status-text">Waiting for data…</span></span>
+  <span id="status-polls"></span>
+  <span id="status-params"></span>
+</div>
+
+<div class="toast" id="toast">Link copied to clipboard</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+// ---------------------------------------------------------------------------
+// State
+// ---------------------------------------------------------------------------
+let config    = null;   // from config.json
+let rawConfig = null;   // synthetic config built from column mapper
+let allPolls  = [];
+let hiddenParties = new Set();
+let chart = null;
+let activeSubgroup = null;
+let rawCsvText = null;  // stored for re-parsing after mapper changes
+
+const DEFAULT_COLORS = [
+  "#0087DC","#E4003B","#FAA61A","#00B140","#12B6CF",
+  "#6D3177","#005B54","#EEE03C","#FF6B35","#8B5CF6"
+];
+
+// ---------------------------------------------------------------------------
+// URL state
+// ---------------------------------------------------------------------------
+function readUrlParams() {
+  const p = new URLSearchParams(location.search);
+  return {
+    url:      p.get("url")    || null,
+    bw:       p.has("bw")     ? +p.get("bw")  : null,
+    minPolls: p.has("mp")     ? +p.get("mp")  : null,
+    showDots: p.has("dots")   ? p.get("dots") !== "0" : null,
+    hidden:   p.has("hidden") ? p.get("hidden").split(",").filter(Boolean) : [],
+    subgroup: p.get("sg")     || null
+  };
+}
+
+function writeUrlParams() {
+  const p = new URLSearchParams();
+  const urlInput = document.getElementById("url-input").value.trim();
+  if (urlInput) p.set("url", urlInput);
+  p.set("bw",   document.getElementById("bw-slider").value);
+  p.set("mp",   document.getElementById("mp-slider").value);
+  p.set("dots", document.getElementById("show-dots").checked ? "1" : "0");
+  if (hiddenParties.size) p.set("hidden", [...hiddenParties].join(","));
+  if (activeSubgroup) p.set("sg", activeSubgroup);
+  history.replaceState(null, "", "?" + p.toString());
+}
+
+// ---------------------------------------------------------------------------
+// Date parsing
+// ---------------------------------------------------------------------------
+function parseDate(s) {
+  const str = s.trim();
+  if (/^\d{4}-\d{2}-\d{2}$/.test(str)) { const [y,m,d]=str.split("-"); return new Date(+y,+m-1,+d); }
+  if (/^\d{2}\/\d{2}\/\d{4}$/.test(str)) { const [d,m,y]=str.split("/"); return new Date(+y,+m-1,+d); }
+  return new Date(str);
+}
+
+// ---------------------------------------------------------------------------
+// CSV fetch & parse
+// ---------------------------------------------------------------------------
+async function fetchCsv(url) {
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+  return resp.text();
+}
+
+function parseCsvRows(text) {
+  const lines = text.trim().split("\n");
+  return lines.map(l => l.split(",").map(c => c.trim()));
+}
+
+function findHeaderIdx(rows) {
+  for (let i = 0; i < rows.length; i++) {
+    if (rows[i][0] && rows[i][0].toLowerCase() === "date") return i;
+  }
+  return 0;
+}
+
+function pollsFromCsv(text, cfg) {
+  const rows = parseCsvRows(text);
+  const headerIdx = findHeaderIdx(rows);
+  const skipPatterns = cfg.skipPollsterPatterns || [];
+  const subgroupCol = cfg.subgroupColumn != null ? cfg.subgroupColumn : null;
+  const polls = [];
+
+  for (const row of rows.slice(headerIdx + 1)) {
+    if (!row[0] || !row[0].trim()) continue;
+    const date = parseDate(row[0]);
+    if (isNaN(date)) continue;
+    const pollster = (row[1] || "").trim();
+    if (skipPatterns.some(p => pollster.toLowerCase().includes(p.toLowerCase()))) continue;
+    const subgroup = subgroupCol != null ? (row[subgroupCol] || "").trim().toLowerCase() : null;
+    const entry = { date, ts: date.getTime(), pollster, subgroup, values: {} };
+    for (const party of cfg.parties) {
+      const raw = (row[party.col] || "").trim();
+      entry.values[party.name] = raw !== "" && raw !== "0" ? +raw : null;
+    }
+    polls.push(entry);
+  }
+  polls.sort((a,b) => a.ts - b.ts);
+  return polls;
+}
+
+// ---------------------------------------------------------------------------
+// Column mapper UI
+// ---------------------------------------------------------------------------
+let partyRowId = 0;
+
+function showMapper(text) {
+  rawCsvText = text;
+  const rows = parseCsvRows(text);
+  const headerIdx = findHeaderIdx(rows);
+  const firstData = rows[headerIdx + 1] || [];
+
+  // Preview
+  document.getElementById("preview-row").textContent =
+    "Row 0: " + firstData.map((v,i) => `[${i}] ${v||"—"}`).join("  ");
+
+  // Pre-populate party rows from header if possible
+  const header = rows[headerIdx] || [];
+  const partyContainer = document.getElementById("party-rows");
+  partyContainer.innerHTML = "";
+  partyRowId = 0;
+
+  // Guess party columns: anything after col 1 (pollster) that isn't subgroup-like
+  const guessed = [];
+  for (let i = 2; i < header.length; i++) {
+    const h = header[i].replace(/#/g,"").trim();
+    if (!h || h.toLowerCase() === "sample") continue;
+    guessed.push({ name: h || `Party${i}`, col: i });
+  }
+
+  // Show up to 8 guessed parties, or 3 blank rows
+  const toShow = guessed.length ? guessed.slice(0, 8) : [{name:"",col:2},{name:"",col:3},{name:"",col:4}];
+  for (const p of toShow) addPartyRow(p.name, p.col, DEFAULT_COLORS[partyRowId % DEFAULT_COLORS.length]);
+
+  document.getElementById("col-mapper").style.display = "block";
+}
+
+function addPartyRow(name="", col="", color=DEFAULT_COLORS[partyRowId % DEFAULT_COLORS.length]) {
+  const id = partyRowId++;
+  const container = document.getElementById("party-rows");
+  const row = document.createElement("div");
+  row.className = "party-row";
+  row.dataset.id = id;
+  row.innerHTML = `
+    <input type="text"   class="party-name"  placeholder="Name"   value="${name}">
+    <input type="number" class="party-col"   placeholder="Col"    value="${col}" min="0">
+    <input type="color"  class="party-color" value="${color}">
+    <button class="remove-btn" onclick="this.closest('.party-row').remove()">×</button>
+  `;
+  container.appendChild(row);
+}
+
+function buildConfigFromMapper() {
+  const dateCol     = +document.getElementById("map-date").value || 0;
+  const pollsterCol = +document.getElementById("map-pollster").value || 1;
+  const sgVal       = document.getElementById("map-subgroup").value.trim();
+  const subgroupCol = sgVal !== "" ? +sgVal : null;
+
+  const parties = [];
+  for (const row of document.querySelectorAll(".party-row")) {
+    const name  = row.querySelector(".party-name").value.trim();
+    const col   = +row.querySelector(".party-col").value;
+    const color = row.querySelector(".party-color").value;
+    if (name) parties.push({ name, col, color, includeInLine: true, includeInBar: true });
+  }
+
+  return {
+    trackerName: "Explorer",
+    dataUrl: document.getElementById("url-input").value.trim(),
+    subgroupColumn: subgroupCol,
+    smoothing: {
+      bandwidthDays: +document.getElementById("bw-slider").value,
+      minPollsInWindow: +document.getElementById("mp-slider").value
+    },
+    skipPollsterPatterns: [],
+    parties
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Subgroup UI
+// ---------------------------------------------------------------------------
+function buildSubgroupDropdown(cfg, polls) {
+  const ctrl = document.getElementById("subgroup-ctrl");
+  const div  = document.getElementById("subgroup-divider");
+
+  if (cfg.subgroupColumn == null) { ctrl.style.display = "none"; div.style.display = "none"; return; }
+
+  // Discover subgroups from data
+  const seen = [...new Set(polls.map(p => p.subgroup).filter(Boolean))].sort();
+  if (!seen.length) { ctrl.style.display = "none"; div.style.display = "none"; return; }
+
+  ctrl.style.display = "flex";
+  div.style.display  = "block";
+
+  const sel = document.getElementById("subgroup-select");
+  sel.innerHTML = '<option value="">All polls</option>';
+  for (const sg of seen) {
+    const opt = document.createElement("option");
+    opt.value = sg;
+    // Capitalise first letter for display
+    opt.textContent = sg.charAt(0).toUpperCase() + sg.slice(1);
+    sel.appendChild(opt);
+  }
+
+  if (activeSubgroup) sel.value = activeSubgroup;
+
+  sel.addEventListener("change", () => {
+    activeSubgroup = sel.value || null;
+    writeUrlParams();
+    rebuildChart();
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Legend
+// ---------------------------------------------------------------------------
+function buildLegend(cfg) {
+  const el = document.getElementById("legend");
+  el.innerHTML = "";
+  for (const party of cfg.parties) {
+    if (!party.includeInLine) continue;
+    const pill = document.createElement("div");
+    pill.className = "legend-pill" + (hiddenParties.has(party.name) ? " hidden-party" : "");
+    pill.style.borderColor = party.color + "55";
+    pill.style.background  = party.color + "12";
+    pill.innerHTML = `<span class="legend-dot" style="background:${party.color}"></span>${party.name}`;
+    pill.addEventListener("click", () => {
+      if (hiddenParties.has(party.name)) hiddenParties.delete(party.name);
+      else hiddenParties.add(party.name);
+      pill.classList.toggle("hidden-party");
+      writeUrlParams();
+      rebuildChart();
+    });
+    el.appendChild(pill);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// LOESS
+// ---------------------------------------------------------------------------
+function tricube(u) { const a=Math.abs(u); if(a>=1) return 0; return Math.pow(1-Math.pow(a,3),3); }
+
+function kernelLoess(pts, bwMs, minPolls, nSteps=300) {
+  if (pts.length < 2) return [];
+  const tMin=pts[0][0], tMax=pts[pts.length-1][0];
+  const results=[];
+  for (let i=0; i<=nSteps; i++) {
+    const t = tMin+(tMax-tMin)*(i/nSteps);
+    const nearby = pts.filter(([tx])=>Math.abs(tx-t)<=bwMs);
+    if (nearby.length<minPolls) { results.push({t,y:null,sparse:false}); continue; }
+    const wider = pts.filter(([tx])=>Math.abs(tx-t)<=bwMs*1.8);
+    const sparse = wider.length<minPolls*2;
+    let wSum=0,wySum=0;
+    for (const [tx,y] of nearby) { const w=tricube((tx-t)/bwMs); wSum+=w; wySum+=w*y; }
+    results.push({t, y: wSum>0 ? Math.round(wySum/wSum*10)/10 : null, sparse});
+  }
+  return results;
+}
+
+// ---------------------------------------------------------------------------
+// Chart
+// ---------------------------------------------------------------------------
+function rebuildChart() {
+  const cfg = rawConfig || config;
+  if (!cfg || !allPolls.length) return;
+
+  const bwDays   = +document.getElementById("bw-slider").value;
+  const minPolls = +document.getElementById("mp-slider").value;
+  const showDots  = document.getElementById("show-dots").checked;
+  const showSparse = document.getElementById("show-sparse").checked;
+  const bwMs     = bwDays * 86400000;
+
+  let polls = allPolls;
+  if (activeSubgroup) polls = allPolls.filter(p => p.subgroup === activeSubgroup);
+
+  writeUrlParams();
+
+  const datasets = [];
+  for (const party of cfg.parties) {
+    if (!party.includeInLine) continue;
+    const hidden = hiddenParties.has(party.name);
+    const pts = polls.filter(p=>p.values[party.name]!=null).map(p=>[p.ts,p.values[party.name]]);
+    if (!pts.length) continue;
+
+    const smooth = kernelLoess(pts, bwMs, minPolls);
+    datasets.push({
+      label: party.name,
+      data: smooth.map(s=>({x:s.t,y:s.y})),
+      borderColor: party.color, borderWidth: 2, pointRadius: 0,
+      tension: 0.4, fill: false, spanGaps: false, hidden, partyName: party.name,
+      segment: {
+        borderDash:  ctx => { const s=smooth[ctx.p0DataIndex]; return s&&s.sparse&&showSparse?[5,4]:[]; },
+        borderColor: ctx => { const s=smooth[ctx.p0DataIndex]; return s&&s.sparse&&showSparse?party.color+"77":party.color; }
+      }
+    });
+
+    if (showDots) {
+      datasets.push({
+        label: party.name+"_dots",
+        data: pts.map(([x,y])=>({x,y})),
+        borderColor: party.color, backgroundColor: party.color+"30",
+        borderWidth: 1.5, pointRadius: 3.5, pointHoverRadius: 5,
+        showLine: false, hidden, partyName: party.name
+      });
+    }
+  }
+
+  // Status
+  const latest = polls[polls.length-1];
+  const sgLabel = activeSubgroup ? ` · ${activeSubgroup}` : "";
+  document.getElementById("status-polls").textContent = `${polls.length} polls${sgLabel}`;
+  document.getElementById("status-params").textContent = `bandwidth ${bwDays}d · min polls ${minPolls}`;
+  if (latest) {
+    document.getElementById("status-text").textContent =
+      `Latest: ${latest.pollster}, ${latest.date.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"})}`;
+    const dot = document.getElementById("status-dot");
+    dot.className = "status-dot";
+  }
+
+  // Headline
+  if (polls.length) {
+    const partyVals = cfg.parties
+      .filter(p=>p.includeInLine && latest.values[p.name]!=null)
+      .sort((a,b)=>latest.values[b.name]-latest.values[a.name]);
+    if (partyVals.length) {
+      document.getElementById("headline").textContent =
+        `${partyVals[0].name} lead in ${cfg.trackerName || "explorer"}`;
+      document.getElementById("intro-line").textContent =
+        `Latest: ${latest.pollster} · ` +
+        partyVals.map(p=>`${p.name} ${latest.values[p.name]}%`).join(" · ");
+    }
+  }
+
+  if (chart) { chart.data.datasets=datasets; chart.update("none"); return; }
+
+  const ctx = document.getElementById("chart-canvas").getContext("2d");
+  chart = new Chart(ctx, {
+    type: "line", data: {datasets},
+    options: {
+      responsive: true, maintainAspectRatio: false, animation: false,
+      interaction: {mode:"index",intersect:false},
+      plugins: {
+        legend: {display:false},
+        tooltip: {
+          callbacks: {
+            title: items => new Date(items[0].parsed.x).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}),
+            label: item => item.dataset.label.endsWith("_dots")||item.parsed.y==null ? null
+              : ` ${item.dataset.partyName}: ${item.parsed.y.toFixed(1)}%`
+          },
+          filter: item => !item.dataset.label.endsWith("_dots") && item.parsed.y!==null
+        }
+      },
+      scales: {
+        x: {
+          type:"linear",
+          ticks:{callback:v=>new Date(v).getFullYear(),maxTicksLimit:18,color:"#999",font:{size:11}},
+          grid:{color:"rgba(0,0,0,0.05)"}
+        },
+        y: {
+          min:0, max:60,
+          ticks:{callback:v=>v+"%",color:"#999",font:{size:11}},
+          grid:{color:"rgba(0,0,0,0.05)"}
+        }
+      }
+    }
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Load logic
+// ---------------------------------------------------------------------------
+function setStatus(msg, state="ok") {
+  document.getElementById("status-text").textContent = msg;
+  const dot = document.getElementById("status-dot");
+  dot.className = "status-dot" + (state==="loading" ? " loading" : state==="error" ? " error" : "");
+}
+
+async function loadFromUrl(url) {
+  setStatus("Fetching…", "loading");
+  try {
+    const text = await fetchCsv(url);
+
+    // Is it JSON (config.json)?
+    try {
+      const parsed = JSON.parse(text);
+      config    = parsed;
+      rawConfig = null;
+      document.getElementById("col-mapper").style.display = "none";
+      document.getElementById("tracker-name").textContent = config.trackerName || "Explorer";
+
+      // Re-fetch data URL
+      const dataText = await fetchCsv(config.dataUrl);
+      allPolls = pollsFromCsv(dataText, config);
+
+      const urlParams = readUrlParams();
+      if (urlParams.bw) { document.getElementById("bw-slider").value=urlParams.bw; document.getElementById("bw-val").textContent=urlParams.bw; }
+      else { document.getElementById("bw-slider").value=config.smoothing.bandwidthDays; document.getElementById("bw-val").textContent=config.smoothing.bandwidthDays; }
+      if (urlParams.minPolls) { document.getElementById("mp-slider").value=urlParams.minPolls; document.getElementById("mp-val").textContent=urlParams.minPolls; }
+      else { document.getElementById("mp-slider").value=config.smoothing.minPollsInWindow; document.getElementById("mp-val").textContent=config.smoothing.minPollsInWindow; }
+
+      hiddenParties = new Set(urlParams.hidden);
+      if (urlParams.subgroup) activeSubgroup = urlParams.subgroup;
+
+      buildLegend(config);
+      buildSubgroupDropdown(config, allPolls);
+      rebuildChart();
+      setStatus(`Loaded ${allPolls.length} polls from config`);
+      return;
+    } catch(e) { /* not JSON, treat as CSV */ }
+
+    // It's a CSV — show the mapper
+    showMapper(text);
+    setStatus(`CSV loaded — map your columns and click Apply`);
+
+  } catch(err) {
+    setStatus(`Error: ${err.message}`, "error");
+    console.error(err);
+  }
+}
+
+// Apply button
+document.getElementById("apply-btn").addEventListener("click", () => {
+  rawConfig = buildConfigFromMapper();
+  config    = null;
+  document.getElementById("tracker-name").textContent = "Explorer";
+  allPolls  = pollsFromCsv(rawCsvText, rawConfig);
+  hiddenParties = new Set();
+  if (chart) { chart.destroy(); chart = null; }
+  buildLegend(rawConfig);
+  buildSubgroupDropdown(rawConfig, allPolls);
+  rebuildChart();
+  setStatus(`${allPolls.length} polls loaded`);
+});
+
+document.getElementById("add-party-btn").addEventListener("click", () => addPartyRow());
+
+document.getElementById("load-btn").addEventListener("click", () => {
+  const url = document.getElementById("url-input").value.trim();
+  if (!url) return;
+  if (chart) { chart.destroy(); chart=null; }
+  activeSubgroup = null;
+  hiddenParties  = new Set();
+  loadFromUrl(url);
+});
+
+document.getElementById("config-btn").addEventListener("click", () => {
+  loadFromUrl("config.json");
+});
+
+document.getElementById("url-input").addEventListener("keydown", e => {
+  if (e.key === "Enter") document.getElementById("load-btn").click();
+});
+
+// Sliders
+document.getElementById("bw-slider").addEventListener("input", function() {
+  document.getElementById("bw-val").textContent = this.value;
+  rebuildChart();
+});
+document.getElementById("mp-slider").addEventListener("input", function() {
+  document.getElementById("mp-val").textContent = this.value;
+  rebuildChart();
+});
+document.getElementById("show-dots").addEventListener("change", rebuildChart);
+document.getElementById("show-sparse").addEventListener("change", rebuildChart);
+
+// Share
+document.getElementById("share-btn").addEventListener("click", () => {
+  writeUrlParams();
+  navigator.clipboard.writeText(location.href).then(() => {
+    const t = document.getElementById("toast");
+    t.classList.add("show");
+    setTimeout(()=>t.classList.remove("show"), 2000);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// Boot
+// ---------------------------------------------------------------------------
+async function boot() {
+  const urlParams = readUrlParams();
+  if (urlParams.bw) { document.getElementById("bw-slider").value=urlParams.bw; document.getElementById("bw-val").textContent=urlParams.bw; }
+  if (urlParams.minPolls) { document.getElementById("mp-slider").value=urlParams.minPolls; document.getElementById("mp-val").textContent=urlParams.minPolls; }
+  if (urlParams.showDots!==null) document.getElementById("show-dots").checked=urlParams.showDots;
+  hiddenParties = new Set(urlParams.hidden);
+  if (urlParams.subgroup) activeSubgroup = urlParams.subgroup;
+
+  if (urlParams.url) {
+    document.getElementById("url-input").value = urlParams.url;
+    await loadFromUrl(urlParams.url);
+  } else {
+    // Try loading config.json silently
+    try {
+      await loadFromUrl("config.json");
+    } catch(e) {
+      setStatus("Paste a URL above to load data");
+    }
+  }
+}
+
+boot();
+</script>
+</body>
+</html>
