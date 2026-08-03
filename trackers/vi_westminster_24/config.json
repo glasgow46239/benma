@@ -4,7 +4,7 @@
   "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRUV0qTNO_TaH0vyqyhqCgdo76BxF8W3oMfhLbgTucogF15cuT_EjGhzvCCynZ9FGe2EjrS5sXLE8ga/pub?gid=991080872&single=true&output=csv",
   "subgroupColumn": 11,
   "smoothing": {
-    "bandwidthDays": 60,
+    "bandwidthDays": 50,
     "minPollsInWindow": 3,
     "bootstrapIterations": 200,
     "marginOfError": 3
@@ -29,7 +29,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 120,
+      "bandwidthDays": 90,
       "marginOfError": 5,
       "minPollsInWindow": 2
     },
@@ -44,7 +44,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 120,
+      "bandwidthDays": 90,
       "marginOfError": 5,
       "minPollsInWindow": 2
     },
@@ -59,7 +59,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 120,
+      "bandwidthDays": 90,
       "marginOfError": 5,
       "minPollsInWindow": 2
     },
@@ -74,7 +74,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 120,
+      "bandwidthDays": 90,
       "marginOfError": 5,
       "minPollsInWindow": 2
     },
@@ -89,7 +89,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 120,
+      "bandwidthDays": 90,
       "marginOfError": 5,
       "minPollsInWindow": 2
     },
@@ -104,7 +104,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 120,
+      "bandwidthDays": 90,
       "marginOfError": 5,
       "minPollsInWindow": 2
     },
@@ -119,7 +119,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 120,
+      "bandwidthDays": 80,
       "marginOfError": 5,
       "minPollsInWindow": 2
     },
@@ -134,7 +134,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 120,
+      "bandwidthDays": 80,
       "marginOfError": 5,
       "minPollsInWindow": 2
     },
@@ -149,7 +149,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 120,
+      "bandwidthDays": 80,
       "marginOfError": 5,
       "minPollsInWindow": 2
     },
@@ -164,7 +164,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 120,
+      "bandwidthDays": 80,
       "marginOfError": 5,
       "minPollsInWindow": 2
     },
@@ -182,7 +182,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 60,
+      "bandwidthDays": 40,
       "marginOfError": 3,
       "minPollsInWindow": 2
     },
@@ -198,7 +198,7 @@
         "Reform",
         "SNP"
       ],
-      "bandwidthDays": 120,
+      "bandwidthDays": 80,
       "marginOfError": 5,
       "minPollsInWindow": 2,
       "referenceElection": {
@@ -225,7 +225,7 @@
         "Reform",
         "PC"
       ],
-      "bandwidthDays": 120,
+      "bandwidthDays": 80,
       "marginOfError": 5,
       "minPollsInWindow": 2,
       "referenceElection": {
