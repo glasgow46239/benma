@@ -14,7 +14,7 @@
   { "date": "07/05/2015", "label": "2015 election", "minPollsInWindow": 2 },
   { "date": "08/06/2017", "label": "2017 election", "minPollsInWindow": 2 },
   { "date": "12/12/2019", "label": "2019 election", "minPollsInWindow": 2 },
-  { "date": "04/07/2024", "label": "2024 election", "minPollsInWindow": 2 }
+  { "date": "04/07/2024", "label": "2024 election", "bandwidthDays": 30, "minPollsInWindow": 2 }
 ],
   "skipPollsterPatterns": [],
   "subgroups": [
