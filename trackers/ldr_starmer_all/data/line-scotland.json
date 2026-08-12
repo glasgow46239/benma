@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "Scotland",
-    "generated": "2026-08-11T07:07:36Z",
+    "generated": "2026-08-12T07:27:23Z",
     "bandwidthDays": 120,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
