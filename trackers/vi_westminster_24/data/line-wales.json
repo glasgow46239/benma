@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Voting intention",
     "subgroup": "Wales",
-    "generated": "2026-08-15T07:23:55Z",
+    "generated": "2026-08-15T20:59:14Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,

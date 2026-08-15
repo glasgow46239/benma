@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "London",
-    "generated": "2026-08-15T06:36:42Z",
+    "generated": "2026-08-15T20:15:35Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
