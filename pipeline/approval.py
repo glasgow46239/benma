@@ -26,10 +26,27 @@ from datetime import datetime, timedelta
 
 import numpy as np
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # ---------------------------------------------------------------------------
 # Argument parsing
 # ---------------------------------------------------------------------------
+
+
+def get_session():
+    """Requests session with retry logic for flaky external URLs."""
+    session = requests.Session()
+    retries = Retry(
+        total=3,
+        backoff_factor=2,
+        status_forcelist=[500, 502, 503, 504],
+        allowed_methods=["GET"]
+    )
+    session.mount("https://", HTTPAdapter(max_retries=retries))
+    session.mount("http://",  HTTPAdapter(max_retries=retries))
+    return session
+
 
 def parse_args():
     p = argparse.ArgumentParser(description="Approval ratings pipeline")
@@ -71,7 +88,7 @@ def fetch_approval_polls(config):
         leader_by_fullname[match_name] = l
 
     print(f"Fetching data from: {url}")
-    resp = requests.get(url, timeout=30)
+    resp = get_session().get(url, timeout=60)
     resp.raise_for_status()
 
     reader = csv.reader(io.StringIO(resp.text))
@@ -329,14 +346,14 @@ def build_days_csv(smoothed, config):
     header = ["day"] + [f"{l} net" for l in active_leaders]
     lines  = [",".join(header)]
 
-    for day in range(0, max_days + 1):
+    for day in range(0, max_days + 1, 7):
         row      = [str(day)]
         has_data = False
         for leader in active_leaders:
             pts = leader_days[leader]
             # Find nearest point within 7 days
             closest = min(pts, key=lambda x: abs(x[0] - day))
-            if abs(closest[0] - day) <= 1:
+            if abs(closest[0] - day) <= 7:
                 row.append(str(closest[1]))
                 has_data = True
             else:
