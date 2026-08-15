@@ -27,10 +27,27 @@ from datetime import datetime, timedelta
 
 import numpy as np
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # ---------------------------------------------------------------------------
 # Argument parsing
 # ---------------------------------------------------------------------------
+
+
+def get_session():
+    """Requests session with retry logic for flaky external URLs."""
+    session = requests.Session()
+    retries = Retry(
+        total=3,
+        backoff_factor=2,
+        status_forcelist=[500, 502, 503, 504],
+        allowed_methods=["GET"]
+    )
+    session.mount("https://", HTTPAdapter(max_retries=retries))
+    session.mount("http://",  HTTPAdapter(max_retries=retries))
+    return session
+
 
 def parse_args():
     p = argparse.ArgumentParser(description="Smoothing pipeline")
@@ -72,7 +89,7 @@ def fetch_polls(config):
     subgroup_col  = config.get("subgroupColumn")
 
     print(f"Fetching data from: {url}")
-    resp = requests.get(url, timeout=30)
+    resp = get_session().get(url, timeout=60)
     resp.raise_for_status()
 
     reader = csv.reader(io.StringIO(resp.text))
@@ -564,7 +581,7 @@ def load_historical_series(config, subgroup_value=None):
 
     print(f"  Fetching historical series from: {url}")
     try:
-        resp = requests.get(url, timeout=30)
+        resp = get_session().get(url, timeout=60)
         resp.raise_for_status()
     except requests.HTTPError as e:
         print(f"  WARNING: Could not fetch historical series ({e}), skipping")
