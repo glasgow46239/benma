@@ -317,19 +317,19 @@
     "lineCsvPath": "trackers/vi_westminster_24/data/line.csv",
     "subgroups": {
       "65+": {
-        "datawrapperLineChartId": "",
+        "datawrapperLineChartId": "deRSf",
         "datawrapperBarChartId": ""
       },
       "50-64": {
-        "datawrapperLineChartId": "",
+        "datawrapperLineChartId": "8Ol2l",
         "datawrapperBarChartId": ""
       },
       "35-49": {
-        "datawrapperLineChartId": "",
+        "datawrapperLineChartId": "Cf4an",
         "datawrapperBarChartId": ""
       },
       "18-34": {
-        "datawrapperLineChartId": "",
+        "datawrapperLineChartId": "regKE",
         "datawrapperBarChartId": ""
       },
       "c2de": {
@@ -341,15 +341,15 @@
         "datawrapperBarChartId": ""
       },
       "london": {
-        "datawrapperLineChartId": "OQ8lZ",
+        "datawrapperLineChartId": "vjThs",
         "datawrapperBarChartId": ""
       },
       "southern england": {
-        "datawrapperLineChartId": "6YEeS",
+        "datawrapperLineChartId": "hYQP8",
         "datawrapperBarChartId": ""
       },
       "northern england": {
-        "datawrapperLineChartId": "Fo0gL",
+        "datawrapperLineChartId": "bXTCY",
         "datawrapperBarChartId": ""
       },
       "midlands": {
@@ -357,16 +357,16 @@
         "datawrapperBarChartId": ""
       },
       "overall": {
-        "datawrapperLineChartId": "VkLJs",
+        "datawrapperLineChartId": "omiZk",
         "datawrapperBarChartId": "aj89E",
         "datawrapperTableChartId": "ADR7I"
       },
       "scotland": {
-        "datawrapperLineChartId": "ICAdW",
+        "datawrapperLineChartId": "TYyyf",
         "datawrapperBarChartId": "Edu2a"
       },
       "wales": {
-        "datawrapperLineChartId": "02tYQ",
+        "datawrapperLineChartId": "j6Gdv",
         "datawrapperBarChartId": "PlQFH"
       }
     }
