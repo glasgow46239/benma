@@ -412,7 +412,7 @@ def push_to_datawrapper(config, lines_csv, days_csv):
 
     updated     = datetime.utcnow().strftime("%d-%b-%Y")
     byline_html = (
-        f'<span style="background-color:#f0f0f0; padding:1px 3px; border-radius:4px">'
+        f'<span style="border:1px solid #00000050; padding:0px 3px; border-radius:4px">'
         f'Last updated {updated}</span>'
     )
 
