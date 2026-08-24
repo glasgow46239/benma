@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Voting intention",
     "subgroup": "ABC1 voters",
-    "generated": "2026-08-23T06:41:29Z",
+    "generated": "2026-08-24T07:02:07Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
