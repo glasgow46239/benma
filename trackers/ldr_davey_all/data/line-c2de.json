@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "C2DE voters",
-    "generated": "2026-08-30T11:11:05Z",
+    "generated": "2026-08-31T12:34:00Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
