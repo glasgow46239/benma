@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "50-64",
-    "generated": "2026-09-01T11:05:36Z",
+    "generated": "2026-09-02T10:33:24Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
