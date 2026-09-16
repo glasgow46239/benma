@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Voting intention",
     "subgroup": "Scotland",
-    "generated": "2026-09-15T11:32:20Z",
+    "generated": "2026-09-16T11:37:06Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
@@ -14,8 +14,7 @@
       "LDem": 8.96,
       "Ukip": 2.23,
       "Grn": 7.44,
-      "SNP": 34.57,
-      "PC": 5.5,
+      "SNP": 34.81,
       "Reform": 16.35
     },
     "latestPollDate": "24-Aug-2026"
@@ -274301,7 +274300,7 @@
         "t": 20577,
         "date": "2026-05-04",
         "value": 33.33,
-        "low": 31.36,
+        "low": 31.37,
         "high": 35.12,
         "sparse": false,
         "party": "SNP"
@@ -274310,8 +274309,8 @@
         "t": 20578,
         "date": "2026-05-05",
         "value": 33.31,
-        "low": 31.33,
-        "high": 35.1,
+        "low": 31.34,
+        "high": 35.11,
         "sparse": false,
         "party": "SNP"
       },
@@ -274319,4485 +274318,1000 @@
         "t": 20579,
         "date": "2026-05-06",
         "value": 33.29,
-        "low": 31.26,
-        "high": 35.07,
+        "low": 31.28,
+        "high": 35.08,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20580,
         "date": "2026-05-07",
-        "value": 33.27,
-        "low": 31.26,
-        "high": 35.04,
+        "value": 33.28,
+        "low": 31.27,
+        "high": 35.05,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20581,
         "date": "2026-05-08",
-        "value": 33.26,
-        "low": 31.26,
-        "high": 35.04,
+        "value": 33.27,
+        "low": 31.29,
+        "high": 35.05,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20582,
         "date": "2026-05-09",
-        "value": 33.25,
-        "low": 31.27,
-        "high": 34.99,
+        "value": 33.26,
+        "low": 31.31,
+        "high": 35.0,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20583,
         "date": "2026-05-10",
-        "value": 33.24,
-        "low": 31.28,
-        "high": 34.95,
+        "value": 33.26,
+        "low": 31.34,
+        "high": 34.96,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20584,
         "date": "2026-05-11",
-        "value": 33.23,
-        "low": 31.3,
-        "high": 34.98,
+        "value": 33.25,
+        "low": 31.37,
+        "high": 34.99,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20585,
         "date": "2026-05-12",
-        "value": 33.23,
-        "low": 31.32,
-        "high": 34.99,
+        "value": 33.25,
+        "low": 31.41,
+        "high": 35.02,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20586,
         "date": "2026-05-13",
-        "value": 33.22,
-        "low": 31.35,
-        "high": 34.97,
+        "value": 33.25,
+        "low": 31.44,
+        "high": 35.0,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20587,
         "date": "2026-05-14",
-        "value": 33.22,
-        "low": 31.38,
-        "high": 34.96,
+        "value": 33.25,
+        "low": 31.4,
+        "high": 35.03,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20588,
         "date": "2026-05-15",
-        "value": 33.22,
+        "value": 33.26,
         "low": 31.33,
-        "high": 34.96,
+        "high": 35.02,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20589,
         "date": "2026-05-16",
-        "value": 33.22,
+        "value": 33.26,
         "low": 31.27,
-        "high": 34.96,
+        "high": 35.04,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20590,
         "date": "2026-05-17",
-        "value": 33.22,
-        "low": 31.23,
-        "high": 35.02,
+        "value": 33.27,
+        "low": 31.28,
+        "high": 35.05,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20591,
         "date": "2026-05-18",
-        "value": 33.23,
-        "low": 31.25,
-        "high": 35.04,
+        "value": 33.28,
+        "low": 31.3,
+        "high": 35.09,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20592,
         "date": "2026-05-19",
-        "value": 33.23,
-        "low": 31.27,
-        "high": 35.06,
+        "value": 33.28,
+        "low": 31.34,
+        "high": 35.07,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20593,
         "date": "2026-05-20",
-        "value": 33.23,
-        "low": 31.3,
-        "high": 34.98,
+        "value": 33.29,
+        "low": 31.37,
+        "high": 35.07,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20594,
         "date": "2026-05-21",
-        "value": 33.24,
-        "low": 31.33,
-        "high": 34.97,
+        "value": 33.3,
+        "low": 31.41,
+        "high": 35.08,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20595,
         "date": "2026-05-22",
-        "value": 33.24,
-        "low": 31.36,
-        "high": 34.97,
+        "value": 33.31,
+        "low": 31.4,
+        "high": 35.1,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20596,
         "date": "2026-05-23",
-        "value": 33.24,
+        "value": 33.32,
         "low": 31.37,
-        "high": 34.95,
+        "high": 35.1,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20597,
         "date": "2026-05-24",
-        "value": 33.25,
-        "low": 31.34,
-        "high": 34.97,
+        "value": 33.33,
+        "low": 31.4,
+        "high": 35.12,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20598,
         "date": "2026-05-25",
-        "value": 33.25,
-        "low": 31.32,
-        "high": 34.96,
+        "value": 33.34,
+        "low": 31.45,
+        "high": 35.13,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20599,
         "date": "2026-05-26",
-        "value": 33.26,
-        "low": 31.33,
-        "high": 34.93,
+        "value": 33.35,
+        "low": 31.43,
+        "high": 35.11,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20600,
         "date": "2026-05-27",
-        "value": 33.26,
-        "low": 31.35,
-        "high": 34.93,
+        "value": 33.36,
+        "low": 31.41,
+        "high": 35.12,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20601,
         "date": "2026-05-28",
-        "value": 33.27,
-        "low": 31.31,
-        "high": 34.93,
+        "value": 33.37,
+        "low": 31.39,
+        "high": 35.15,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20602,
         "date": "2026-05-29",
-        "value": 33.27,
-        "low": 31.32,
-        "high": 34.93,
+        "value": 33.38,
+        "low": 31.36,
+        "high": 35.19,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20603,
         "date": "2026-05-30",
-        "value": 33.28,
-        "low": 31.3,
-        "high": 34.97,
+        "value": 33.39,
+        "low": 31.35,
+        "high": 35.21,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20604,
         "date": "2026-05-31",
-        "value": 33.28,
-        "low": 31.29,
-        "high": 35.0,
+        "value": 33.4,
+        "low": 31.38,
+        "high": 35.23,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20605,
         "date": "2026-06-01",
-        "value": 33.29,
-        "low": 31.29,
-        "high": 35.03,
+        "value": 33.42,
+        "low": 31.44,
+        "high": 35.25,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20606,
         "date": "2026-06-02",
-        "value": 33.3,
-        "low": 31.27,
-        "high": 35.06,
+        "value": 33.43,
+        "low": 31.42,
+        "high": 35.27,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20607,
         "date": "2026-06-03",
-        "value": 33.31,
-        "low": 31.25,
-        "high": 35.09,
+        "value": 33.44,
+        "low": 31.46,
+        "high": 35.29,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20608,
         "date": "2026-06-04",
-        "value": 33.32,
-        "low": 31.25,
-        "high": 35.14,
+        "value": 33.46,
+        "low": 31.43,
+        "high": 35.31,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20609,
         "date": "2026-06-05",
-        "value": 33.33,
-        "low": 31.24,
-        "high": 35.19,
+        "value": 33.47,
+        "low": 31.39,
+        "high": 35.32,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20610,
         "date": "2026-06-06",
-        "value": 33.34,
-        "low": 31.26,
-        "high": 35.22,
+        "value": 33.49,
+        "low": 31.38,
+        "high": 35.36,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20611,
         "date": "2026-06-07",
-        "value": 33.35,
-        "low": 31.27,
-        "high": 35.23,
+        "value": 33.5,
+        "low": 31.37,
+        "high": 35.38,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20612,
         "date": "2026-06-08",
-        "value": 33.36,
-        "low": 31.24,
-        "high": 35.23,
+        "value": 33.52,
+        "low": 31.36,
+        "high": 35.41,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20613,
         "date": "2026-06-09",
-        "value": 33.38,
-        "low": 31.25,
-        "high": 35.28,
+        "value": 33.53,
+        "low": 31.34,
+        "high": 35.43,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20614,
         "date": "2026-06-10",
-        "value": 33.39,
-        "low": 31.26,
-        "high": 35.3,
+        "value": 33.55,
+        "low": 31.35,
+        "high": 35.45,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20615,
         "date": "2026-06-11",
-        "value": 33.4,
-        "low": 31.23,
-        "high": 35.34,
+        "value": 33.57,
+        "low": 31.36,
+        "high": 35.47,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20616,
         "date": "2026-06-12",
-        "value": 33.42,
-        "low": 31.25,
-        "high": 35.36,
+        "value": 33.58,
+        "low": 31.38,
+        "high": 35.49,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20617,
         "date": "2026-06-13",
-        "value": 33.43,
-        "low": 31.27,
-        "high": 35.38,
+        "value": 33.6,
+        "low": 31.41,
+        "high": 35.51,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20618,
         "date": "2026-06-14",
-        "value": 33.45,
-        "low": 31.3,
-        "high": 35.39,
+        "value": 33.62,
+        "low": 31.43,
+        "high": 35.54,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20619,
         "date": "2026-06-15",
-        "value": 33.46,
-        "low": 31.33,
-        "high": 35.41,
+        "value": 33.63,
+        "low": 31.45,
+        "high": 35.56,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20620,
         "date": "2026-06-16",
-        "value": 33.47,
-        "low": 31.37,
-        "high": 35.44,
+        "value": 33.65,
+        "low": 31.48,
+        "high": 35.58,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20621,
         "date": "2026-06-17",
-        "value": 33.49,
-        "low": 31.41,
-        "high": 35.46,
+        "value": 33.67,
+        "low": 31.5,
+        "high": 35.61,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20622,
         "date": "2026-06-18",
-        "value": 33.5,
-        "low": 31.44,
-        "high": 35.45,
+        "value": 33.68,
+        "low": 31.52,
+        "high": 35.63,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20623,
         "date": "2026-06-19",
-        "value": 33.52,
-        "low": 31.47,
-        "high": 35.44,
+        "value": 33.7,
+        "low": 31.55,
+        "high": 35.65,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20624,
         "date": "2026-06-20",
-        "value": 33.53,
-        "low": 31.5,
-        "high": 35.43,
+        "value": 33.72,
+        "low": 31.56,
+        "high": 35.68,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20625,
         "date": "2026-06-21",
-        "value": 33.55,
-        "low": 31.53,
-        "high": 35.43,
+        "value": 33.73,
+        "low": 31.55,
+        "high": 35.69,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20626,
         "date": "2026-06-22",
-        "value": 33.56,
+        "value": 33.75,
         "low": 31.56,
-        "high": 35.42,
+        "high": 35.71,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20627,
         "date": "2026-06-23",
-        "value": 33.57,
+        "value": 33.76,
         "low": 31.58,
-        "high": 35.41,
+        "high": 35.73,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20628,
         "date": "2026-06-24",
-        "value": 33.59,
-        "low": 31.61,
-        "high": 35.41,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20629,
-        "date": "2026-06-25",
-        "value": 33.6,
-        "low": 31.62,
-        "high": 35.4,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20630,
-        "date": "2026-06-26",
-        "value": 33.61,
-        "low": 31.64,
-        "high": 35.4,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20631,
-        "date": "2026-06-27",
-        "value": 33.62,
-        "low": 31.64,
-        "high": 35.4,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20632,
-        "date": "2026-06-28",
-        "value": 33.64,
-        "low": 31.64,
-        "high": 35.39,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20633,
-        "date": "2026-06-29",
-        "value": 33.65,
-        "low": 31.64,
-        "high": 35.39,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20634,
-        "date": "2026-06-30",
-        "value": 33.66,
-        "low": 31.63,
-        "high": 35.38,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20635,
-        "date": "2026-07-01",
-        "value": 33.67,
-        "low": 31.63,
-        "high": 35.41,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20636,
-        "date": "2026-07-02",
-        "value": 33.68,
-        "low": 31.63,
-        "high": 35.45,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20637,
-        "date": "2026-07-03",
-        "value": 33.69,
-        "low": 31.63,
-        "high": 35.49,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20638,
-        "date": "2026-07-04",
-        "value": 33.7,
-        "low": 31.63,
-        "high": 35.52,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20639,
-        "date": "2026-07-05",
-        "value": 33.71,
-        "low": 31.62,
-        "high": 35.56,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20640,
-        "date": "2026-07-06",
-        "value": 33.73,
-        "low": 31.61,
-        "high": 35.6,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20641,
-        "date": "2026-07-07",
-        "value": 33.74,
-        "low": 31.62,
-        "high": 35.59,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20642,
-        "date": "2026-07-08",
-        "value": 33.75,
-        "low": 31.61,
-        "high": 35.59,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20643,
-        "date": "2026-07-09",
-        "value": 33.76,
-        "low": 31.62,
-        "high": 35.6,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20644,
-        "date": "2026-07-10",
-        "value": 33.77,
-        "low": 31.61,
-        "high": 35.59,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20645,
-        "date": "2026-07-11",
         "value": 33.78,
-        "low": 31.6,
-        "high": 35.61,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20646,
-        "date": "2026-07-12",
-        "value": 33.79,
-        "low": 31.6,
-        "high": 35.64,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20647,
-        "date": "2026-07-13",
-        "value": 33.81,
-        "low": 31.6,
-        "high": 35.68,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20648,
-        "date": "2026-07-14",
-        "value": 33.82,
-        "low": 31.6,
-        "high": 35.72,
-        "sparse": false,
-        "party": "SNP"
-      },
-      {
-        "t": 20649,
-        "date": "2026-07-15",
-        "value": 33.83,
         "low": 31.61,
         "high": 35.75,
         "sparse": false,
         "party": "SNP"
       },
       {
+        "t": 20629,
+        "date": "2026-06-25",
+        "value": 33.79,
+        "low": 31.62,
+        "high": 35.75,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20630,
+        "date": "2026-06-26",
+        "value": 33.8,
+        "low": 31.65,
+        "high": 35.79,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20631,
+        "date": "2026-06-27",
+        "value": 33.82,
+        "low": 31.67,
+        "high": 35.8,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20632,
+        "date": "2026-06-28",
+        "value": 33.83,
+        "low": 31.7,
+        "high": 35.8,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20633,
+        "date": "2026-06-29",
+        "value": 33.84,
+        "low": 31.71,
+        "high": 35.8,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20634,
+        "date": "2026-06-30",
+        "value": 33.85,
+        "low": 31.69,
+        "high": 35.8,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20635,
+        "date": "2026-07-01",
+        "value": 33.87,
+        "low": 31.68,
+        "high": 35.79,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20636,
+        "date": "2026-07-02",
+        "value": 33.88,
+        "low": 31.66,
+        "high": 35.8,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20637,
+        "date": "2026-07-03",
+        "value": 33.89,
+        "low": 31.65,
+        "high": 35.8,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20638,
+        "date": "2026-07-04",
+        "value": 33.9,
+        "low": 31.64,
+        "high": 35.8,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20639,
+        "date": "2026-07-05",
+        "value": 33.91,
+        "low": 31.63,
+        "high": 35.79,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20640,
+        "date": "2026-07-06",
+        "value": 33.92,
+        "low": 31.62,
+        "high": 35.79,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20641,
+        "date": "2026-07-07",
+        "value": 33.94,
+        "low": 31.62,
+        "high": 35.79,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20642,
+        "date": "2026-07-08",
+        "value": 33.95,
+        "low": 31.61,
+        "high": 35.78,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20643,
+        "date": "2026-07-09",
+        "value": 33.96,
+        "low": 31.62,
+        "high": 35.78,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20644,
+        "date": "2026-07-10",
+        "value": 33.97,
+        "low": 31.62,
+        "high": 35.78,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20645,
+        "date": "2026-07-11",
+        "value": 33.98,
+        "low": 31.63,
+        "high": 35.81,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20646,
+        "date": "2026-07-12",
+        "value": 34.0,
+        "low": 31.65,
+        "high": 35.84,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20647,
+        "date": "2026-07-13",
+        "value": 34.01,
+        "low": 31.66,
+        "high": 35.88,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20648,
+        "date": "2026-07-14",
+        "value": 34.02,
+        "low": 31.67,
+        "high": 35.91,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
+        "t": 20649,
+        "date": "2026-07-15",
+        "value": 34.04,
+        "low": 31.68,
+        "high": 35.95,
+        "sparse": false,
+        "party": "SNP"
+      },
+      {
         "t": 20650,
         "date": "2026-07-16",
-        "value": 33.85,
-        "low": 31.61,
-        "high": 35.79,
+        "value": 34.05,
+        "low": 31.7,
+        "high": 35.99,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20651,
         "date": "2026-07-17",
-        "value": 33.86,
-        "low": 31.61,
-        "high": 35.83,
+        "value": 34.07,
+        "low": 31.71,
+        "high": 36.03,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20652,
         "date": "2026-07-18",
-        "value": 33.88,
-        "low": 31.65,
-        "high": 35.87,
+        "value": 34.08,
+        "low": 31.72,
+        "high": 36.07,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20653,
         "date": "2026-07-19",
-        "value": 33.89,
-        "low": 31.69,
-        "high": 35.91,
+        "value": 34.1,
+        "low": 31.73,
+        "high": 36.11,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20654,
         "date": "2026-07-20",
-        "value": 33.91,
-        "low": 31.7,
-        "high": 35.94,
+        "value": 34.11,
+        "low": 31.75,
+        "high": 36.14,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20655,
         "date": "2026-07-21",
-        "value": 33.92,
-        "low": 31.71,
-        "high": 35.99,
+        "value": 34.13,
+        "low": 31.8,
+        "high": 36.19,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20656,
         "date": "2026-07-22",
-        "value": 33.94,
-        "low": 31.72,
-        "high": 36.03,
+        "value": 34.15,
+        "low": 31.84,
+        "high": 36.23,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20657,
         "date": "2026-07-23",
-        "value": 33.96,
-        "low": 31.73,
-        "high": 36.04,
+        "value": 34.17,
+        "low": 31.88,
+        "high": 36.28,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20658,
         "date": "2026-07-24",
-        "value": 33.98,
-        "low": 31.75,
-        "high": 36.09,
+        "value": 34.19,
+        "low": 31.89,
+        "high": 36.3,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20659,
         "date": "2026-07-25",
-        "value": 33.99,
-        "low": 31.76,
-        "high": 36.1,
+        "value": 34.21,
+        "low": 31.89,
+        "high": 36.34,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20660,
         "date": "2026-07-26",
-        "value": 34.01,
-        "low": 31.78,
-        "high": 36.1,
+        "value": 34.23,
+        "low": 31.89,
+        "high": 36.39,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20661,
         "date": "2026-07-27",
-        "value": 34.03,
-        "low": 31.79,
-        "high": 36.11,
+        "value": 34.25,
+        "low": 31.88,
+        "high": 36.44,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20662,
         "date": "2026-07-28",
-        "value": 34.05,
-        "low": 31.81,
-        "high": 36.11,
+        "value": 34.27,
+        "low": 31.87,
+        "high": 36.49,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20663,
         "date": "2026-07-29",
-        "value": 34.07,
-        "low": 31.83,
-        "high": 36.12,
+        "value": 34.29,
+        "low": 31.87,
+        "high": 36.54,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20664,
         "date": "2026-07-30",
-        "value": 34.09,
-        "low": 31.85,
-        "high": 36.13,
+        "value": 34.31,
+        "low": 31.86,
+        "high": 36.59,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20665,
         "date": "2026-07-31",
-        "value": 34.11,
-        "low": 31.86,
-        "high": 36.13,
+        "value": 34.33,
+        "low": 31.87,
+        "high": 36.64,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20666,
         "date": "2026-08-01",
-        "value": 34.13,
-        "low": 31.85,
-        "high": 36.14,
+        "value": 34.36,
+        "low": 31.87,
+        "high": 36.7,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20667,
         "date": "2026-08-02",
-        "value": 34.15,
-        "low": 31.87,
-        "high": 36.15,
+        "value": 34.38,
+        "low": 31.88,
+        "high": 36.75,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20668,
         "date": "2026-08-03",
-        "value": 34.17,
-        "low": 31.86,
-        "high": 36.16,
+        "value": 34.4,
+        "low": 31.9,
+        "high": 36.81,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20669,
         "date": "2026-08-04",
-        "value": 34.2,
-        "low": 31.87,
-        "high": 36.17,
+        "value": 34.42,
+        "low": 31.91,
+        "high": 36.84,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20670,
         "date": "2026-08-05",
-        "value": 34.22,
-        "low": 31.89,
-        "high": 36.19,
+        "value": 34.45,
+        "low": 31.92,
+        "high": 36.83,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20671,
         "date": "2026-08-06",
-        "value": 34.24,
-        "low": 31.92,
-        "high": 36.24,
+        "value": 34.47,
+        "low": 31.93,
+        "high": 36.83,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20672,
         "date": "2026-08-07",
-        "value": 34.26,
+        "value": 34.49,
         "low": 31.94,
-        "high": 36.28,
+        "high": 36.81,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20673,
         "date": "2026-08-08",
-        "value": 34.28,
-        "low": 31.95,
-        "high": 36.32,
+        "value": 34.51,
+        "low": 31.96,
+        "high": 36.87,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20674,
         "date": "2026-08-09",
-        "value": 34.3,
-        "low": 31.97,
-        "high": 36.37,
+        "value": 34.54,
+        "low": 31.98,
+        "high": 36.91,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20675,
         "date": "2026-08-10",
-        "value": 34.33,
-        "low": 31.99,
-        "high": 36.42,
+        "value": 34.56,
+        "low": 32.0,
+        "high": 36.96,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20676,
         "date": "2026-08-11",
-        "value": 34.35,
-        "low": 32.01,
-        "high": 36.45,
+        "value": 34.58,
+        "low": 32.02,
+        "high": 37.02,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20677,
         "date": "2026-08-12",
-        "value": 34.37,
-        "low": 32.03,
-        "high": 36.47,
+        "value": 34.6,
+        "low": 32.04,
+        "high": 37.04,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20678,
         "date": "2026-08-13",
-        "value": 34.39,
-        "low": 32.05,
-        "high": 36.49,
+        "value": 34.63,
+        "low": 32.06,
+        "high": 37.04,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20679,
         "date": "2026-08-14",
-        "value": 34.41,
-        "low": 32.07,
-        "high": 36.51,
+        "value": 34.65,
+        "low": 32.08,
+        "high": 37.06,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20680,
         "date": "2026-08-15",
-        "value": 34.43,
-        "low": 32.09,
-        "high": 36.53,
+        "value": 34.67,
+        "low": 32.1,
+        "high": 37.07,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20681,
         "date": "2026-08-16",
-        "value": 34.45,
-        "low": 32.12,
-        "high": 36.54,
+        "value": 34.69,
+        "low": 32.13,
+        "high": 37.07,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20682,
         "date": "2026-08-17",
-        "value": 34.47,
-        "low": 32.13,
-        "high": 36.56,
+        "value": 34.71,
+        "low": 32.14,
+        "high": 37.08,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20683,
         "date": "2026-08-18",
-        "value": 34.49,
-        "low": 32.15,
-        "high": 36.58,
+        "value": 34.73,
+        "low": 32.16,
+        "high": 37.08,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20684,
         "date": "2026-08-19",
-        "value": 34.5,
-        "low": 32.17,
-        "high": 36.59,
+        "value": 34.74,
+        "low": 32.18,
+        "high": 37.1,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20685,
         "date": "2026-08-20",
-        "value": 34.52,
-        "low": 32.15,
-        "high": 36.61,
+        "value": 34.76,
+        "low": 32.16,
+        "high": 37.15,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20686,
         "date": "2026-08-21",
-        "value": 34.54,
-        "low": 32.11,
-        "high": 36.64,
+        "value": 34.77,
+        "low": 32.12,
+        "high": 37.19,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20687,
         "date": "2026-08-22",
-        "value": 34.55,
-        "low": 32.07,
-        "high": 36.66,
+        "value": 34.79,
+        "low": 32.11,
+        "high": 37.24,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20688,
         "date": "2026-08-23",
-        "value": 34.56,
-        "low": 32.02,
-        "high": 36.67,
+        "value": 34.8,
+        "low": 32.12,
+        "high": 37.28,
         "sparse": false,
         "party": "SNP"
       },
       {
         "t": 20689,
         "date": "2026-08-24",
-        "value": 34.57,
-        "low": 31.98,
-        "high": 36.7,
+        "value": 34.81,
+        "low": 32.12,
+        "high": 37.3,
         "sparse": false,
         "party": "SNP"
-      }
-    ],
-    "PC (post-2024 election)": [
-      {
-        "t": 20280,
-        "date": "2025-07-11",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20281,
-        "date": "2025-07-12",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20282,
-        "date": "2025-07-13",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20283,
-        "date": "2025-07-14",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20284,
-        "date": "2025-07-15",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20285,
-        "date": "2025-07-16",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20286,
-        "date": "2025-07-17",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20287,
-        "date": "2025-07-18",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20288,
-        "date": "2025-07-19",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20289,
-        "date": "2025-07-20",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20290,
-        "date": "2025-07-21",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20291,
-        "date": "2025-07-22",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20292,
-        "date": "2025-07-23",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20293,
-        "date": "2025-07-24",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20294,
-        "date": "2025-07-25",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20295,
-        "date": "2025-07-26",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20296,
-        "date": "2025-07-27",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20297,
-        "date": "2025-07-28",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20298,
-        "date": "2025-07-29",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20299,
-        "date": "2025-07-30",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20300,
-        "date": "2025-07-31",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20301,
-        "date": "2025-08-01",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20302,
-        "date": "2025-08-02",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20303,
-        "date": "2025-08-03",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20304,
-        "date": "2025-08-04",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20305,
-        "date": "2025-08-05",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20306,
-        "date": "2025-08-06",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20307,
-        "date": "2025-08-07",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20308,
-        "date": "2025-08-08",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20309,
-        "date": "2025-08-09",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20310,
-        "date": "2025-08-10",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20311,
-        "date": "2025-08-11",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20312,
-        "date": "2025-08-12",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20313,
-        "date": "2025-08-13",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20314,
-        "date": "2025-08-14",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20315,
-        "date": "2025-08-15",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20316,
-        "date": "2025-08-16",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20317,
-        "date": "2025-08-17",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20318,
-        "date": "2025-08-18",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20319,
-        "date": "2025-08-19",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20320,
-        "date": "2025-08-20",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20321,
-        "date": "2025-08-21",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20322,
-        "date": "2025-08-22",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20323,
-        "date": "2025-08-23",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20324,
-        "date": "2025-08-24",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20325,
-        "date": "2025-08-25",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20326,
-        "date": "2025-08-26",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20327,
-        "date": "2025-08-27",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20328,
-        "date": "2025-08-28",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20329,
-        "date": "2025-08-29",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20330,
-        "date": "2025-08-30",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20331,
-        "date": "2025-08-31",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20332,
-        "date": "2025-09-01",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20333,
-        "date": "2025-09-02",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20334,
-        "date": "2025-09-03",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20335,
-        "date": "2025-09-04",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20336,
-        "date": "2025-09-05",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20337,
-        "date": "2025-09-06",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20338,
-        "date": "2025-09-07",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20339,
-        "date": "2025-09-08",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20340,
-        "date": "2025-09-09",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20341,
-        "date": "2025-09-10",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20342,
-        "date": "2025-09-11",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20343,
-        "date": "2025-09-12",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20344,
-        "date": "2025-09-13",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20345,
-        "date": "2025-09-14",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20346,
-        "date": "2025-09-15",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20347,
-        "date": "2025-09-16",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20348,
-        "date": "2025-09-17",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20349,
-        "date": "2025-09-18",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20350,
-        "date": "2025-09-19",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20351,
-        "date": "2025-09-20",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20352,
-        "date": "2025-09-21",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20353,
-        "date": "2025-09-22",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20354,
-        "date": "2025-09-23",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20355,
-        "date": "2025-09-24",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20356,
-        "date": "2025-09-25",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20357,
-        "date": "2025-09-26",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20358,
-        "date": "2025-09-27",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20359,
-        "date": "2025-09-28",
-        "value": null,
-        "low": -3.12,
-        "high": 6.9,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20360,
-        "date": "2025-09-29",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20361,
-        "date": "2025-09-30",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20362,
-        "date": "2025-10-01",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20363,
-        "date": "2025-10-02",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20364,
-        "date": "2025-10-03",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20365,
-        "date": "2025-10-04",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20366,
-        "date": "2025-10-05",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20367,
-        "date": "2025-10-06",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20368,
-        "date": "2025-10-07",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20369,
-        "date": "2025-10-08",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20370,
-        "date": "2025-10-09",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20371,
-        "date": "2025-10-10",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20372,
-        "date": "2025-10-11",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20373,
-        "date": "2025-10-12",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20374,
-        "date": "2025-10-13",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20375,
-        "date": "2025-10-14",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20376,
-        "date": "2025-10-15",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20377,
-        "date": "2025-10-16",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20378,
-        "date": "2025-10-17",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20379,
-        "date": "2025-10-18",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20380,
-        "date": "2025-10-19",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20381,
-        "date": "2025-10-20",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20382,
-        "date": "2025-10-21",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20383,
-        "date": "2025-10-22",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20384,
-        "date": "2025-10-23",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20385,
-        "date": "2025-10-24",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20386,
-        "date": "2025-10-25",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20387,
-        "date": "2025-10-26",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20388,
-        "date": "2025-10-27",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20389,
-        "date": "2025-10-28",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20390,
-        "date": "2025-10-29",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20391,
-        "date": "2025-10-30",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20392,
-        "date": "2025-10-31",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20393,
-        "date": "2025-11-01",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20394,
-        "date": "2025-11-02",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20395,
-        "date": "2025-11-03",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20396,
-        "date": "2025-11-04",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20397,
-        "date": "2025-11-05",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20398,
-        "date": "2025-11-06",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20399,
-        "date": "2025-11-07",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20400,
-        "date": "2025-11-08",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20401,
-        "date": "2025-11-09",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20402,
-        "date": "2025-11-10",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20403,
-        "date": "2025-11-11",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20404,
-        "date": "2025-11-12",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20405,
-        "date": "2025-11-13",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20406,
-        "date": "2025-11-14",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20407,
-        "date": "2025-11-15",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20408,
-        "date": "2025-11-16",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20409,
-        "date": "2025-11-17",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20410,
-        "date": "2025-11-18",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20411,
-        "date": "2025-11-19",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20412,
-        "date": "2025-11-20",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20413,
-        "date": "2025-11-21",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20414,
-        "date": "2025-11-22",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20415,
-        "date": "2025-11-23",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20416,
-        "date": "2025-11-24",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20417,
-        "date": "2025-11-25",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20418,
-        "date": "2025-11-26",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20419,
-        "date": "2025-11-27",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20420,
-        "date": "2025-11-28",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20421,
-        "date": "2025-11-29",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20422,
-        "date": "2025-11-30",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20423,
-        "date": "2025-12-01",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20424,
-        "date": "2025-12-02",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20425,
-        "date": "2025-12-03",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20426,
-        "date": "2025-12-04",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20427,
-        "date": "2025-12-05",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20428,
-        "date": "2025-12-06",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20429,
-        "date": "2025-12-07",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20430,
-        "date": "2025-12-08",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20431,
-        "date": "2025-12-09",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20432,
-        "date": "2025-12-10",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20433,
-        "date": "2025-12-11",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20434,
-        "date": "2025-12-12",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20435,
-        "date": "2025-12-13",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20436,
-        "date": "2025-12-14",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20437,
-        "date": "2025-12-15",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20438,
-        "date": "2025-12-16",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20439,
-        "date": "2025-12-17",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20440,
-        "date": "2025-12-18",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20441,
-        "date": "2025-12-19",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20442,
-        "date": "2025-12-20",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20443,
-        "date": "2025-12-21",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20444,
-        "date": "2025-12-22",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20445,
-        "date": "2025-12-23",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20446,
-        "date": "2025-12-24",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20447,
-        "date": "2025-12-25",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20448,
-        "date": "2025-12-26",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20449,
-        "date": "2025-12-27",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20450,
-        "date": "2025-12-28",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20451,
-        "date": "2025-12-29",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20452,
-        "date": "2025-12-30",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20453,
-        "date": "2025-12-31",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20454,
-        "date": "2026-01-01",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20455,
-        "date": "2026-01-02",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20456,
-        "date": "2026-01-03",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20457,
-        "date": "2026-01-04",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20458,
-        "date": "2026-01-05",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20459,
-        "date": "2026-01-06",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20460,
-        "date": "2026-01-07",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20461,
-        "date": "2026-01-08",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20462,
-        "date": "2026-01-09",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20463,
-        "date": "2026-01-10",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20464,
-        "date": "2026-01-11",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20465,
-        "date": "2026-01-12",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20466,
-        "date": "2026-01-13",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20467,
-        "date": "2026-01-14",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20468,
-        "date": "2026-01-15",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20469,
-        "date": "2026-01-16",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20470,
-        "date": "2026-01-17",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20471,
-        "date": "2026-01-18",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20472,
-        "date": "2026-01-19",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20473,
-        "date": "2026-01-20",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20474,
-        "date": "2026-01-21",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20475,
-        "date": "2026-01-22",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20476,
-        "date": "2026-01-23",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20477,
-        "date": "2026-01-24",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20478,
-        "date": "2026-01-25",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20479,
-        "date": "2026-01-26",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20480,
-        "date": "2026-01-27",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20481,
-        "date": "2026-01-28",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20482,
-        "date": "2026-01-29",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20483,
-        "date": "2026-01-30",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20484,
-        "date": "2026-01-31",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20485,
-        "date": "2026-02-01",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20486,
-        "date": "2026-02-02",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20487,
-        "date": "2026-02-03",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20488,
-        "date": "2026-02-04",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20489,
-        "date": "2026-02-05",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20490,
-        "date": "2026-02-06",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20491,
-        "date": "2026-02-07",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20492,
-        "date": "2026-02-08",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20493,
-        "date": "2026-02-09",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20494,
-        "date": "2026-02-10",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20495,
-        "date": "2026-02-11",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20496,
-        "date": "2026-02-12",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20497,
-        "date": "2026-02-13",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20498,
-        "date": "2026-02-14",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20499,
-        "date": "2026-02-15",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20500,
-        "date": "2026-02-16",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20501,
-        "date": "2026-02-17",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20502,
-        "date": "2026-02-18",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20503,
-        "date": "2026-02-19",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20504,
-        "date": "2026-02-20",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20505,
-        "date": "2026-02-21",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20506,
-        "date": "2026-02-22",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20507,
-        "date": "2026-02-23",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20508,
-        "date": "2026-02-24",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20509,
-        "date": "2026-02-25",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20510,
-        "date": "2026-02-26",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20511,
-        "date": "2026-02-27",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20512,
-        "date": "2026-02-28",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20513,
-        "date": "2026-03-01",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20514,
-        "date": "2026-03-02",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20515,
-        "date": "2026-03-03",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20516,
-        "date": "2026-03-04",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20517,
-        "date": "2026-03-05",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20518,
-        "date": "2026-03-06",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20519,
-        "date": "2026-03-07",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20520,
-        "date": "2026-03-08",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20521,
-        "date": "2026-03-09",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20522,
-        "date": "2026-03-10",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20523,
-        "date": "2026-03-11",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20524,
-        "date": "2026-03-12",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20525,
-        "date": "2026-03-13",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20526,
-        "date": "2026-03-14",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20527,
-        "date": "2026-03-15",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20528,
-        "date": "2026-03-16",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20529,
-        "date": "2026-03-17",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20530,
-        "date": "2026-03-18",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20531,
-        "date": "2026-03-19",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20532,
-        "date": "2026-03-20",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20533,
-        "date": "2026-03-21",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20534,
-        "date": "2026-03-22",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20535,
-        "date": "2026-03-23",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20536,
-        "date": "2026-03-24",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20537,
-        "date": "2026-03-25",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20538,
-        "date": "2026-03-26",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20539,
-        "date": "2026-03-27",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20540,
-        "date": "2026-03-28",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20541,
-        "date": "2026-03-29",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20542,
-        "date": "2026-03-30",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20543,
-        "date": "2026-03-31",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20544,
-        "date": "2026-04-01",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20545,
-        "date": "2026-04-02",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20546,
-        "date": "2026-04-03",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20547,
-        "date": "2026-04-04",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20548,
-        "date": "2026-04-05",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20549,
-        "date": "2026-04-06",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20550,
-        "date": "2026-04-07",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20551,
-        "date": "2026-04-08",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20552,
-        "date": "2026-04-09",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20553,
-        "date": "2026-04-10",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20554,
-        "date": "2026-04-11",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20555,
-        "date": "2026-04-12",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20556,
-        "date": "2026-04-13",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20557,
-        "date": "2026-04-14",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20558,
-        "date": "2026-04-15",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20559,
-        "date": "2026-04-16",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20560,
-        "date": "2026-04-17",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20561,
-        "date": "2026-04-18",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20562,
-        "date": "2026-04-19",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20563,
-        "date": "2026-04-20",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20564,
-        "date": "2026-04-21",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20565,
-        "date": "2026-04-22",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20566,
-        "date": "2026-04-23",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20567,
-        "date": "2026-04-24",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20568,
-        "date": "2026-04-25",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20569,
-        "date": "2026-04-26",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20570,
-        "date": "2026-04-27",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20571,
-        "date": "2026-04-28",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20572,
-        "date": "2026-04-29",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20573,
-        "date": "2026-04-30",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20574,
-        "date": "2026-05-01",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20575,
-        "date": "2026-05-02",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20576,
-        "date": "2026-05-03",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20577,
-        "date": "2026-05-04",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20578,
-        "date": "2026-05-05",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20579,
-        "date": "2026-05-06",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20580,
-        "date": "2026-05-07",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20581,
-        "date": "2026-05-08",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20582,
-        "date": "2026-05-09",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20583,
-        "date": "2026-05-10",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20584,
-        "date": "2026-05-11",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20585,
-        "date": "2026-05-12",
-        "value": null,
-        "low": 1.66,
-        "high": 9.08,
-        "sparse": false,
-        "party": "PC"
-      },
-      {
-        "t": 20586,
-        "date": "2026-05-13",
-        "value": 6.0,
-        "low": -3.18,
-        "high": 10.56,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20587,
-        "date": "2026-05-14",
-        "value": 6.0,
-        "low": -2.3,
-        "high": 10.78,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20588,
-        "date": "2026-05-15",
-        "value": 6.0,
-        "low": -2.29,
-        "high": 10.78,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20589,
-        "date": "2026-05-16",
-        "value": 5.99,
-        "low": -2.27,
-        "high": 10.77,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20590,
-        "date": "2026-05-17",
-        "value": 5.98,
-        "low": -2.25,
-        "high": 10.76,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20591,
-        "date": "2026-05-18",
-        "value": 5.97,
-        "low": -2.21,
-        "high": 10.75,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20592,
-        "date": "2026-05-19",
-        "value": 5.96,
-        "low": -2.17,
-        "high": 10.74,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20593,
-        "date": "2026-05-20",
-        "value": 5.94,
-        "low": -2.12,
-        "high": 10.77,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20594,
-        "date": "2026-05-21",
-        "value": 5.93,
-        "low": -2.06,
-        "high": 10.8,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20595,
-        "date": "2026-05-22",
-        "value": 5.91,
-        "low": -2.01,
-        "high": 10.84,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20596,
-        "date": "2026-05-23",
-        "value": 5.9,
-        "low": -1.96,
-        "high": 10.91,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20597,
-        "date": "2026-05-24",
-        "value": 5.88,
-        "low": -1.9,
-        "high": 10.91,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20598,
-        "date": "2026-05-25",
-        "value": 5.86,
-        "low": -1.8,
-        "high": 10.91,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20599,
-        "date": "2026-05-26",
-        "value": 5.84,
-        "low": -1.62,
-        "high": 10.91,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20600,
-        "date": "2026-05-27",
-        "value": 5.83,
-        "low": -1.47,
-        "high": 10.89,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20601,
-        "date": "2026-05-28",
-        "value": 5.81,
-        "low": -1.4,
-        "high": 10.82,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20602,
-        "date": "2026-05-29",
-        "value": 5.8,
-        "low": -1.38,
-        "high": 10.78,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20603,
-        "date": "2026-05-30",
-        "value": 5.78,
-        "low": -1.39,
-        "high": 10.7,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20604,
-        "date": "2026-05-31",
-        "value": 5.77,
-        "low": -1.29,
-        "high": 10.62,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20605,
-        "date": "2026-06-01",
-        "value": 5.75,
-        "low": -1.21,
-        "high": 10.54,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20606,
-        "date": "2026-06-02",
-        "value": 5.74,
-        "low": -1.07,
-        "high": 10.47,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20607,
-        "date": "2026-06-03",
-        "value": 5.73,
-        "low": -0.85,
-        "high": 10.42,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20608,
-        "date": "2026-06-04",
-        "value": 5.72,
-        "low": -0.7,
-        "high": 10.4,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20609,
-        "date": "2026-06-05",
-        "value": 5.71,
-        "low": -0.63,
-        "high": 10.4,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20610,
-        "date": "2026-06-06",
-        "value": 5.7,
-        "low": -0.59,
-        "high": 10.4,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20611,
-        "date": "2026-06-07",
-        "value": 5.69,
-        "low": -0.56,
-        "high": 10.4,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20612,
-        "date": "2026-06-08",
-        "value": 5.68,
-        "low": -0.52,
-        "high": 10.36,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20613,
-        "date": "2026-06-09",
-        "value": 5.67,
-        "low": -0.49,
-        "high": 10.35,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20614,
-        "date": "2026-06-10",
-        "value": 5.66,
-        "low": -0.48,
-        "high": 10.35,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20615,
-        "date": "2026-06-11",
-        "value": 5.65,
-        "low": -0.49,
-        "high": 10.3,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20616,
-        "date": "2026-06-12",
-        "value": 5.64,
-        "low": -0.5,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20617,
-        "date": "2026-06-13",
-        "value": 5.63,
-        "low": -0.51,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20618,
-        "date": "2026-06-14",
-        "value": 5.63,
-        "low": -0.51,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20619,
-        "date": "2026-06-15",
-        "value": 5.62,
-        "low": -0.52,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20620,
-        "date": "2026-06-16",
-        "value": 5.61,
-        "low": -0.53,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20621,
-        "date": "2026-06-17",
-        "value": 5.6,
-        "low": -0.54,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20622,
-        "date": "2026-06-18",
-        "value": 5.6,
-        "low": -0.55,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20623,
-        "date": "2026-06-19",
-        "value": 5.59,
-        "low": -0.55,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20624,
-        "date": "2026-06-20",
-        "value": 5.59,
-        "low": -0.56,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20625,
-        "date": "2026-06-21",
-        "value": 5.58,
-        "low": -0.57,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20626,
-        "date": "2026-06-22",
-        "value": 5.58,
-        "low": -0.57,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20627,
-        "date": "2026-06-23",
-        "value": 5.57,
-        "low": -0.58,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20628,
-        "date": "2026-06-24",
-        "value": 5.57,
-        "low": -0.57,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20629,
-        "date": "2026-06-25",
-        "value": 5.56,
-        "low": -0.57,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20630,
-        "date": "2026-06-26",
-        "value": 5.56,
-        "low": -0.56,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20631,
-        "date": "2026-06-27",
-        "value": 5.55,
-        "low": -0.56,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20632,
-        "date": "2026-06-28",
-        "value": 5.55,
-        "low": -0.56,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20633,
-        "date": "2026-06-29",
-        "value": 5.55,
-        "low": -0.55,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20634,
-        "date": "2026-06-30",
-        "value": 5.54,
-        "low": -0.55,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20635,
-        "date": "2026-07-01",
-        "value": 5.54,
-        "low": -0.55,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20636,
-        "date": "2026-07-02",
-        "value": 5.54,
-        "low": -0.54,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20637,
-        "date": "2026-07-03",
-        "value": 5.53,
-        "low": -0.54,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20638,
-        "date": "2026-07-04",
-        "value": 5.53,
-        "low": -0.53,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20639,
-        "date": "2026-07-05",
-        "value": 5.53,
-        "low": -0.53,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20640,
-        "date": "2026-07-06",
-        "value": 5.52,
-        "low": -0.53,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20641,
-        "date": "2026-07-07",
-        "value": 5.52,
-        "low": -0.52,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20642,
-        "date": "2026-07-08",
-        "value": 5.52,
-        "low": -0.53,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20643,
-        "date": "2026-07-09",
-        "value": 5.52,
-        "low": -0.52,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20644,
-        "date": "2026-07-10",
-        "value": 5.52,
-        "low": -0.52,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20645,
-        "date": "2026-07-11",
-        "value": 5.51,
-        "low": -0.52,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20646,
-        "date": "2026-07-12",
-        "value": 5.51,
-        "low": -0.51,
-        "high": 10.29,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20647,
-        "date": "2026-07-13",
-        "value": 5.51,
-        "low": -0.52,
-        "high": 10.3,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20648,
-        "date": "2026-07-14",
-        "value": 5.51,
-        "low": -0.52,
-        "high": 10.3,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20649,
-        "date": "2026-07-15",
-        "value": 5.51,
-        "low": -0.52,
-        "high": 10.3,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20650,
-        "date": "2026-07-16",
-        "value": 5.51,
-        "low": -0.52,
-        "high": 10.31,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20651,
-        "date": "2026-07-17",
-        "value": 5.5,
-        "low": -0.52,
-        "high": 10.31,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20652,
-        "date": "2026-07-18",
-        "value": 5.5,
-        "low": -0.52,
-        "high": 10.32,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20653,
-        "date": "2026-07-19",
-        "value": 5.5,
-        "low": -0.53,
-        "high": 10.32,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20654,
-        "date": "2026-07-20",
-        "value": 5.5,
-        "low": -0.53,
-        "high": 10.32,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20655,
-        "date": "2026-07-21",
-        "value": 5.5,
-        "low": -0.53,
-        "high": 10.33,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20656,
-        "date": "2026-07-22",
-        "value": 5.5,
-        "low": -0.53,
-        "high": 10.33,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20657,
-        "date": "2026-07-23",
-        "value": 5.5,
-        "low": -0.53,
-        "high": 10.34,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20658,
-        "date": "2026-07-24",
-        "value": 5.5,
-        "low": -0.53,
-        "high": 10.34,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20659,
-        "date": "2026-07-25",
-        "value": 5.5,
-        "low": -0.53,
-        "high": 10.34,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20660,
-        "date": "2026-07-26",
-        "value": 5.5,
-        "low": -0.53,
-        "high": 10.35,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20661,
-        "date": "2026-07-27",
-        "value": 5.5,
-        "low": -0.53,
-        "high": 10.35,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20662,
-        "date": "2026-07-28",
-        "value": 5.5,
-        "low": -0.54,
-        "high": 10.36,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20663,
-        "date": "2026-07-29",
-        "value": 5.5,
-        "low": -0.54,
-        "high": 10.37,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20664,
-        "date": "2026-07-30",
-        "value": 5.5,
-        "low": -0.54,
-        "high": 10.37,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20665,
-        "date": "2026-07-31",
-        "value": 5.5,
-        "low": -0.54,
-        "high": 10.38,
-        "sparse": true,
-        "party": "PC"
-      },
-      {
-        "t": 20666,
-        "date": "2026-08-01",
-        "value": 5.5,
-        "low": -0.54,
-        "high": 10.38,
-        "sparse": true,
-        "party": "PC"
       }
     ],
     "Reform (to 2019 election)": [
@@ -309613,7 +306127,6 @@
         "LDem": 6.0,
         "Grn": 7.0,
         "SNP": 31.0,
-        "PC": 3.0,
         "Reform": 23.0
       }
     },
@@ -310693,8 +307206,7 @@
         "Lab": 12.0,
         "LDem": 6.0,
         "Grn": 13.0,
-        "SNP": 42.0,
-        "PC": 6.0,
+        "SNP": 48.0,
         "Reform": 16.0
       }
     },
@@ -310802,7 +307314,6 @@
         "LDem": 9.0,
         "Grn": 7.0,
         "SNP": 34.0,
-        "PC": 5.0,
         "Reform": 14.0
       }
     },
