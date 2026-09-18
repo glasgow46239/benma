@@ -2,17 +2,17 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "Scotland",
-    "generated": "2026-09-17T10:53:26Z",
+    "generated": "2026-09-18T10:31:54Z",
     "bandwidthDays": 60,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
-    "headline": "Positive lead (Scotland) at 34.0%",
-    "intro": "Latest poll: Opinium \u00b7 14 August 2026 \u00b7 Positive 34.0% \u00b7 Negative 24.0%",
+    "headline": "Positive lead (Scotland) at 43.0%",
+    "intro": "Latest poll: Survation \u00b7 11 September 2026 \u00b7 Positive 43.0% \u00b7 Negative 23.0%",
     "latestSmoothed": {
-      "Positive": 36.87,
-      "Negative": 22.08
+      "Positive": 39.23,
+      "Negative": 26.05
     },
-    "latestPollDate": "14-Aug-2026"
+    "latestPollDate": "11-Sep-2026"
   },
   "series": {
     "Positive (pre-Labour leader)": [
@@ -471,261 +471,513 @@
       {
         "t": 20651,
         "date": "2026-07-17",
-        "value": 35.35,
-        "low": 30.79,
-        "high": 39.07,
+        "value": 35.4,
+        "low": 30.65,
+        "high": 38.89,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20652,
         "date": "2026-07-18",
-        "value": 35.41,
-        "low": 31.01,
-        "high": 39.08,
+        "value": 35.47,
+        "low": 30.83,
+        "high": 38.89,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20653,
         "date": "2026-07-19",
-        "value": 35.46,
-        "low": 31.2,
-        "high": 39.07,
+        "value": 35.53,
+        "low": 30.92,
+        "high": 38.88,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20654,
         "date": "2026-07-20",
-        "value": 35.5,
-        "low": 31.38,
-        "high": 39.03,
+        "value": 35.59,
+        "low": 31.13,
+        "high": 38.88,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20655,
         "date": "2026-07-21",
-        "value": 35.54,
-        "low": 31.53,
-        "high": 38.99,
+        "value": 35.63,
+        "low": 31.27,
+        "high": 38.85,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20656,
         "date": "2026-07-22",
-        "value": 35.58,
-        "low": 31.57,
-        "high": 38.96,
+        "value": 35.68,
+        "low": 31.35,
+        "high": 38.79,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20657,
         "date": "2026-07-23",
-        "value": 35.6,
-        "low": 31.62,
-        "high": 38.97,
+        "value": 35.72,
+        "low": 31.43,
+        "high": 38.79,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20658,
         "date": "2026-07-24",
-        "value": 35.63,
-        "low": 31.68,
-        "high": 38.97,
+        "value": 35.75,
+        "low": 31.62,
+        "high": 38.79,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20659,
         "date": "2026-07-25",
-        "value": 35.66,
-        "low": 31.75,
-        "high": 38.98,
+        "value": 35.79,
+        "low": 31.81,
+        "high": 38.76,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20660,
         "date": "2026-07-26",
-        "value": 35.68,
-        "low": 31.81,
-        "high": 38.98,
+        "value": 35.82,
+        "low": 31.98,
+        "high": 38.74,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20661,
         "date": "2026-07-27",
-        "value": 35.71,
-        "low": 31.88,
-        "high": 38.99,
+        "value": 35.85,
+        "low": 32.11,
+        "high": 38.73,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20662,
         "date": "2026-07-28",
-        "value": 35.74,
-        "low": 31.94,
-        "high": 38.99,
+        "value": 35.89,
+        "low": 32.19,
+        "high": 38.7,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20663,
         "date": "2026-07-29",
-        "value": 35.77,
-        "low": 32.01,
-        "high": 38.99,
+        "value": 35.92,
+        "low": 32.27,
+        "high": 38.68,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20664,
         "date": "2026-07-30",
-        "value": 35.8,
-        "low": 32.07,
-        "high": 39.0,
+        "value": 35.96,
+        "low": 32.36,
+        "high": 38.65,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20665,
         "date": "2026-07-31",
-        "value": 35.84,
-        "low": 32.14,
-        "high": 39.0,
+        "value": 36.0,
+        "low": 32.45,
+        "high": 38.63,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20666,
         "date": "2026-08-01",
-        "value": 35.89,
-        "low": 32.23,
-        "high": 39.0,
+        "value": 36.05,
+        "low": 32.54,
+        "high": 38.61,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20667,
         "date": "2026-08-02",
-        "value": 35.93,
-        "low": 32.33,
-        "high": 39.01,
+        "value": 36.09,
+        "low": 32.64,
+        "high": 38.6,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20668,
         "date": "2026-08-03",
-        "value": 35.99,
-        "low": 32.44,
-        "high": 39.01,
+        "value": 36.15,
+        "low": 32.76,
+        "high": 38.58,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20669,
         "date": "2026-08-04",
-        "value": 36.04,
-        "low": 32.55,
-        "high": 39.01,
+        "value": 36.21,
+        "low": 32.9,
+        "high": 38.57,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20670,
         "date": "2026-08-05",
-        "value": 36.11,
-        "low": 32.69,
-        "high": 39.02,
+        "value": 36.27,
+        "low": 33.06,
+        "high": 38.55,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20671,
         "date": "2026-08-06",
-        "value": 36.17,
-        "low": 32.85,
-        "high": 39.02,
+        "value": 36.35,
+        "low": 33.34,
+        "high": 38.54,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20672,
         "date": "2026-08-07",
-        "value": 36.25,
-        "low": 33.02,
-        "high": 39.03,
+        "value": 36.45,
+        "low": 33.59,
+        "high": 38.55,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20673,
         "date": "2026-08-08",
-        "value": 36.33,
-        "low": 33.2,
-        "high": 39.03,
+        "value": 36.55,
+        "low": 33.95,
+        "high": 38.55,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20674,
         "date": "2026-08-09",
-        "value": 36.41,
-        "low": 33.34,
-        "high": 39.04,
+        "value": 36.66,
+        "low": 34.17,
+        "high": 38.56,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20675,
         "date": "2026-08-10",
-        "value": 36.5,
-        "low": 33.48,
-        "high": 39.05,
+        "value": 36.78,
+        "low": 34.3,
+        "high": 38.56,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20676,
         "date": "2026-08-11",
-        "value": 36.59,
-        "low": 33.63,
-        "high": 39.05,
+        "value": 36.9,
+        "low": 34.46,
+        "high": 38.58,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20677,
         "date": "2026-08-12",
-        "value": 36.68,
-        "low": 33.8,
-        "high": 39.06,
+        "value": 37.03,
+        "low": 34.85,
+        "high": 38.67,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20678,
         "date": "2026-08-13",
-        "value": 36.77,
-        "low": 33.96,
-        "high": 39.07,
+        "value": 37.16,
+        "low": 35.1,
+        "high": 38.74,
         "sparse": false,
         "party": "Positive"
       },
       {
         "t": 20679,
         "date": "2026-08-14",
-        "value": 36.87,
-        "low": 34.12,
-        "high": 39.08,
+        "value": 37.29,
+        "low": 35.2,
+        "high": 38.86,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20680,
+        "date": "2026-08-15",
+        "value": 37.42,
+        "low": 35.58,
+        "high": 38.95,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20681,
+        "date": "2026-08-16",
+        "value": 37.54,
+        "low": 35.87,
+        "high": 39.11,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20682,
+        "date": "2026-08-17",
+        "value": 37.66,
+        "low": 36.0,
+        "high": 39.2,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20683,
+        "date": "2026-08-18",
+        "value": 37.77,
+        "low": 36.1,
+        "high": 39.28,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20684,
+        "date": "2026-08-19",
+        "value": 37.87,
+        "low": 36.19,
+        "high": 39.4,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20685,
+        "date": "2026-08-20",
+        "value": 37.96,
+        "low": 36.2,
+        "high": 39.53,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20686,
+        "date": "2026-08-21",
+        "value": 38.03,
+        "low": 36.21,
+        "high": 39.65,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20687,
+        "date": "2026-08-22",
+        "value": 38.1,
+        "low": 36.2,
+        "high": 39.73,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20688,
+        "date": "2026-08-23",
+        "value": 38.15,
+        "low": 36.26,
+        "high": 39.87,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20689,
+        "date": "2026-08-24",
+        "value": 38.2,
+        "low": 36.27,
+        "high": 40.03,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20690,
+        "date": "2026-08-25",
+        "value": 38.23,
+        "low": 36.25,
+        "high": 40.14,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20691,
+        "date": "2026-08-26",
+        "value": 38.26,
+        "low": 36.19,
+        "high": 40.29,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20692,
+        "date": "2026-08-27",
+        "value": 38.29,
+        "low": 36.12,
+        "high": 40.43,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20693,
+        "date": "2026-08-28",
+        "value": 38.32,
+        "low": 36.06,
+        "high": 40.57,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20694,
+        "date": "2026-08-29",
+        "value": 38.35,
+        "low": 36.06,
+        "high": 40.68,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20695,
+        "date": "2026-08-30",
+        "value": 38.38,
+        "low": 35.99,
+        "high": 40.78,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20696,
+        "date": "2026-08-31",
+        "value": 38.42,
+        "low": 35.9,
+        "high": 40.82,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20697,
+        "date": "2026-09-01",
+        "value": 38.46,
+        "low": 35.87,
+        "high": 40.86,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20698,
+        "date": "2026-09-02",
+        "value": 38.5,
+        "low": 35.85,
+        "high": 40.89,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20699,
+        "date": "2026-09-03",
+        "value": 38.55,
+        "low": 35.84,
+        "high": 40.91,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20700,
+        "date": "2026-09-04",
+        "value": 38.6,
+        "low": 35.8,
+        "high": 40.94,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20701,
+        "date": "2026-09-05",
+        "value": 38.66,
+        "low": 35.82,
+        "high": 40.97,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20702,
+        "date": "2026-09-06",
+        "value": 38.74,
+        "low": 35.74,
+        "high": 41.1,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20703,
+        "date": "2026-09-07",
+        "value": 38.82,
+        "low": 35.75,
+        "high": 41.25,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20704,
+        "date": "2026-09-08",
+        "value": 38.91,
+        "low": 35.78,
+        "high": 41.4,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20705,
+        "date": "2026-09-09",
+        "value": 39.01,
+        "low": 35.81,
+        "high": 41.56,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20706,
+        "date": "2026-09-10",
+        "value": 39.11,
+        "low": 35.85,
+        "high": 41.72,
+        "sparse": false,
+        "party": "Positive"
+      },
+      {
+        "t": 20707,
+        "date": "2026-09-11",
+        "value": 39.23,
+        "low": 35.88,
+        "high": 41.84,
         "sparse": false,
         "party": "Positive"
       }
@@ -1186,261 +1438,513 @@
       {
         "t": 20651,
         "date": "2026-07-17",
-        "value": 23.22,
-        "low": 19.25,
-        "high": 26.21,
+        "value": 23.48,
+        "low": 19.32,
+        "high": 26.92,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20652,
         "date": "2026-07-18",
-        "value": 23.17,
-        "low": 19.23,
-        "high": 26.16,
+        "value": 23.5,
+        "low": 19.59,
+        "high": 26.93,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20653,
         "date": "2026-07-19",
-        "value": 23.12,
-        "low": 19.22,
-        "high": 26.1,
+        "value": 23.53,
+        "low": 19.82,
+        "high": 26.95,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20654,
         "date": "2026-07-20",
-        "value": 23.08,
-        "low": 19.21,
-        "high": 26.06,
+        "value": 23.57,
+        "low": 20.17,
+        "high": 26.98,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20655,
         "date": "2026-07-21",
-        "value": 23.05,
-        "low": 19.2,
-        "high": 26.02,
+        "value": 23.61,
+        "low": 20.37,
+        "high": 26.99,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20656,
         "date": "2026-07-22",
-        "value": 23.02,
-        "low": 19.18,
-        "high": 25.99,
+        "value": 23.67,
+        "low": 20.58,
+        "high": 27.02,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20657,
         "date": "2026-07-23",
-        "value": 23.0,
-        "low": 19.17,
-        "high": 25.95,
+        "value": 23.72,
+        "low": 20.6,
+        "high": 27.11,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20658,
         "date": "2026-07-24",
-        "value": 22.98,
-        "low": 19.17,
-        "high": 25.92,
+        "value": 23.78,
+        "low": 20.7,
+        "high": 27.16,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20659,
         "date": "2026-07-25",
-        "value": 22.97,
-        "low": 19.18,
-        "high": 25.9,
+        "value": 23.83,
+        "low": 20.8,
+        "high": 27.23,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20660,
         "date": "2026-07-26",
-        "value": 22.95,
-        "low": 19.18,
-        "high": 25.87,
+        "value": 23.89,
+        "low": 20.79,
+        "high": 27.29,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20661,
         "date": "2026-07-27",
-        "value": 22.94,
-        "low": 19.18,
-        "high": 25.85,
+        "value": 23.94,
+        "low": 20.86,
+        "high": 27.34,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20662,
         "date": "2026-07-28",
-        "value": 22.92,
-        "low": 19.18,
-        "high": 25.82,
+        "value": 23.99,
+        "low": 20.88,
+        "high": 27.39,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20663,
         "date": "2026-07-29",
-        "value": 22.9,
-        "low": 19.18,
-        "high": 25.79,
+        "value": 24.04,
+        "low": 20.95,
+        "high": 27.43,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20664,
         "date": "2026-07-30",
-        "value": 22.89,
-        "low": 19.18,
-        "high": 25.77,
+        "value": 24.08,
+        "low": 21.02,
+        "high": 27.48,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20665,
         "date": "2026-07-31",
-        "value": 22.86,
-        "low": 19.17,
-        "high": 25.75,
+        "value": 24.12,
+        "low": 21.06,
+        "high": 27.52,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20666,
         "date": "2026-08-01",
-        "value": 22.84,
-        "low": 19.16,
-        "high": 25.72,
+        "value": 24.15,
+        "low": 21.04,
+        "high": 27.56,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20667,
         "date": "2026-08-02",
-        "value": 22.8,
-        "low": 19.15,
-        "high": 25.69,
+        "value": 24.17,
+        "low": 20.98,
+        "high": 27.59,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20668,
         "date": "2026-08-03",
-        "value": 22.77,
-        "low": 19.13,
-        "high": 25.66,
+        "value": 24.19,
+        "low": 20.94,
+        "high": 27.63,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20669,
         "date": "2026-08-04",
-        "value": 22.73,
-        "low": 19.11,
-        "high": 25.62,
+        "value": 24.21,
+        "low": 20.97,
+        "high": 27.66,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20670,
         "date": "2026-08-05",
-        "value": 22.68,
-        "low": 19.09,
-        "high": 25.57,
+        "value": 24.23,
+        "low": 21.03,
+        "high": 27.7,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20671,
         "date": "2026-08-06",
-        "value": 22.63,
-        "low": 19.06,
-        "high": 25.52,
+        "value": 24.24,
+        "low": 21.09,
+        "high": 27.74,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20672,
         "date": "2026-08-07",
-        "value": 22.58,
-        "low": 19.03,
-        "high": 25.46,
+        "value": 24.25,
+        "low": 21.09,
+        "high": 27.76,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20673,
         "date": "2026-08-08",
-        "value": 22.52,
-        "low": 19.0,
-        "high": 25.4,
+        "value": 24.25,
+        "low": 21.11,
+        "high": 27.78,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20674,
         "date": "2026-08-09",
-        "value": 22.45,
-        "low": 18.97,
-        "high": 25.33,
+        "value": 24.26,
+        "low": 21.15,
+        "high": 27.81,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20675,
         "date": "2026-08-10",
-        "value": 22.38,
-        "low": 18.94,
-        "high": 25.26,
+        "value": 24.26,
+        "low": 21.13,
+        "high": 27.83,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20676,
         "date": "2026-08-11",
-        "value": 22.31,
-        "low": 18.9,
-        "high": 25.18,
+        "value": 24.27,
+        "low": 21.21,
+        "high": 27.86,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20677,
         "date": "2026-08-12",
-        "value": 22.24,
-        "low": 18.86,
-        "high": 25.09,
+        "value": 24.27,
+        "low": 21.2,
+        "high": 27.88,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20678,
         "date": "2026-08-13",
-        "value": 22.16,
-        "low": 18.82,
-        "high": 25.0,
+        "value": 24.28,
+        "low": 21.19,
+        "high": 27.89,
         "sparse": false,
         "party": "Negative"
       },
       {
         "t": 20679,
         "date": "2026-08-14",
-        "value": 22.08,
-        "low": 18.8,
-        "high": 24.89,
+        "value": 24.29,
+        "low": 21.19,
+        "high": 27.82,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20680,
+        "date": "2026-08-15",
+        "value": 24.31,
+        "low": 21.18,
+        "high": 27.84,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20681,
+        "date": "2026-08-16",
+        "value": 24.33,
+        "low": 21.16,
+        "high": 27.87,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20682,
+        "date": "2026-08-17",
+        "value": 24.36,
+        "low": 21.19,
+        "high": 27.89,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20683,
+        "date": "2026-08-18",
+        "value": 24.39,
+        "low": 21.26,
+        "high": 27.9,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20684,
+        "date": "2026-08-19",
+        "value": 24.44,
+        "low": 21.29,
+        "high": 27.91,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20685,
+        "date": "2026-08-20",
+        "value": 24.49,
+        "low": 21.33,
+        "high": 27.87,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20686,
+        "date": "2026-08-21",
+        "value": 24.55,
+        "low": 21.31,
+        "high": 27.83,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20687,
+        "date": "2026-08-22",
+        "value": 24.62,
+        "low": 21.35,
+        "high": 27.82,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20688,
+        "date": "2026-08-23",
+        "value": 24.7,
+        "low": 21.35,
+        "high": 27.78,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20689,
+        "date": "2026-08-24",
+        "value": 24.79,
+        "low": 21.39,
+        "high": 27.75,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20690,
+        "date": "2026-08-25",
+        "value": 24.88,
+        "low": 21.45,
+        "high": 27.71,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20691,
+        "date": "2026-08-26",
+        "value": 24.98,
+        "low": 21.53,
+        "high": 27.68,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20692,
+        "date": "2026-08-27",
+        "value": 25.09,
+        "low": 21.62,
+        "high": 27.67,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20693,
+        "date": "2026-08-28",
+        "value": 25.2,
+        "low": 21.72,
+        "high": 27.77,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20694,
+        "date": "2026-08-29",
+        "value": 25.31,
+        "low": 21.85,
+        "high": 27.91,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20695,
+        "date": "2026-08-30",
+        "value": 25.42,
+        "low": 22.0,
+        "high": 28.11,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20696,
+        "date": "2026-08-31",
+        "value": 25.54,
+        "low": 22.23,
+        "high": 28.27,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20697,
+        "date": "2026-09-01",
+        "value": 25.65,
+        "low": 22.43,
+        "high": 28.43,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20698,
+        "date": "2026-09-02",
+        "value": 25.75,
+        "low": 22.62,
+        "high": 28.38,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20699,
+        "date": "2026-09-03",
+        "value": 25.85,
+        "low": 22.8,
+        "high": 28.41,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20700,
+        "date": "2026-09-04",
+        "value": 25.93,
+        "low": 22.94,
+        "high": 28.47,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20701,
+        "date": "2026-09-05",
+        "value": 26.0,
+        "low": 23.05,
+        "high": 28.53,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20702,
+        "date": "2026-09-06",
+        "value": 26.05,
+        "low": 23.11,
+        "high": 28.6,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20703,
+        "date": "2026-09-07",
+        "value": 26.08,
+        "low": 23.17,
+        "high": 28.65,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20704,
+        "date": "2026-09-08",
+        "value": 26.1,
+        "low": 23.17,
+        "high": 28.74,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20705,
+        "date": "2026-09-09",
+        "value": 26.1,
+        "low": 23.16,
+        "high": 28.82,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20706,
+        "date": "2026-09-10",
+        "value": 26.08,
+        "low": 23.14,
+        "high": 28.74,
+        "sparse": false,
+        "party": "Negative"
+      },
+      {
+        "t": 20707,
+        "date": "2026-09-11",
+        "value": 26.05,
+        "low": 23.16,
+        "high": 28.7,
         "sparse": false,
         "party": "Negative"
       }
@@ -1509,6 +2013,30 @@
       "values": {
         "Positive": 34.0,
         "Negative": 24.0
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "pollster": "Survation",
+      "values": {
+        "Positive": 37.0,
+        "Negative": 32.0
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "pollster": "Opinium",
+      "values": {
+        "Positive": 38.0,
+        "Negative": 27.0
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "pollster": "Survation",
+      "values": {
+        "Positive": 43.0,
+        "Negative": 23.0
       }
     }
   ]
