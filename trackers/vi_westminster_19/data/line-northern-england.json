@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Voting intention",
     "subgroup": "Northern England",
-    "generated": "2026-09-24T11:19:12Z",
+    "generated": "2026-09-25T11:19:56Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,

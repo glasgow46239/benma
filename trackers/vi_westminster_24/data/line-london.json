@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Voting intention",
     "subgroup": "London",
-    "generated": "2026-09-24T11:35:26Z",
+    "generated": "2026-09-25T11:35:55Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
