@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Voting intention",
     "subgroup": "35-49",
-    "generated": "2026-09-27T11:43:51Z",
+    "generated": "2026-09-28T13:10:54Z",
     "bandwidthDays": 90,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
