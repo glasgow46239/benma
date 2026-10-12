@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Best party",
     "subgroup": "ABC1 voters",
-    "generated": "2026-10-11T11:59:22Z",
+    "generated": "2026-10-12T14:11:28Z",
     "bandwidthDays": 240,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
