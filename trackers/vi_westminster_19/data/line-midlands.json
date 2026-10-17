@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Voting intention",
     "subgroup": "Midlands",
-    "generated": "2026-10-16T10:53:35Z",
+    "generated": "2026-10-17T10:23:46Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
