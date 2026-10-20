@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Voting intention",
     "subgroup": "Wales",
-    "generated": "2026-10-19T12:18:18Z",
+    "generated": "2026-10-20T11:15:28Z",
     "bandwidthDays": 60,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
@@ -93340,7 +93340,7 @@
     },
     {
       "date": "2024-06-24",
-      "pollster": "Survation\u00c2\u00a0(MRP)",
+      "pollster": "Survation\u00a0(MRP)",
       "values": {
         "Con": 18.0,
         "Lab": 43.0,
