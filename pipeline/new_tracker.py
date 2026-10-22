@@ -76,23 +76,8 @@ def dw_set_byline(token, chart_id, byline):
 # Party input
 # ---------------------------------------------------------------------------
 
-KNOWN_COLORS = {
-    "con":    "#0087DC",
-    "lab":    "#E4003B",
-    "ldem":   "#FAA61A",
-    "ld":     "#FAA61A",
-    "pc":     "#005B54",
-    "snp":    "#FDF38E",
-    "grn":    "#00B140",
-    "green":  "#00B140",
-    "reform": "#12B6CF",
-    "ukip":   "#6D3177",
-    "dup":    "#D46A4C",
-    "sf":     "#326760",
-    "sdlp":   "#2AA82C",
-    "uup":    "#48A5EE",
-    "apni":   "#F6CB2F",
-}
+from brand import known_colours  # central style guide
+KNOWN_COLORS = known_colours()
 
 def get_parties():
     print("\nEnter parties (one per line).")
@@ -100,7 +85,7 @@ def get_parties():
     print("Column index is 0-based from the CSV (0=date, 1=pollster, 2=#1, 3=#2, ...)")
     print("Color is optional if the party name is recognised (Con, Lab, LDem, PC, SNP, Grn, Reform, UKIP).")
     print("Flags: add '+line' or '+bar' to include/exclude from charts (default: both).")
-    print("Example:  Lab:3:#E4003B+line+bar")
+    print("Example:  Lab:3:#CF4545+line+bar")
     print("Example:  UKIP:5  (color auto-detected, included in both)")
     print("Blank line to finish.\n")
 
@@ -214,8 +199,8 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   :root {{
     --bg: #f7f6f2; --surface: #ffffff; --border: rgba(0,0,0,0.1);
     --text: #1a1a1a; --muted: #666; --radius: 6px;
-    --font: 'DM Sans', system-ui, sans-serif;
-    --font-mono: 'DM Mono', monospace;
+    --font: var(--be-font, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+    --font-mono: var(--be-font, 'Helvetica Neue', Helvetica, Arial, sans-serif);
   }}
   body {{ font-family: var(--font); background: var(--bg); color: var(--text);
           min-height: 100vh; padding: 1.5rem; }}
@@ -262,8 +247,8 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
             opacity: 0; pointer-events: none; transition: opacity 0.2s; }}
   .toast.show {{ opacity: 1; }}
 </style>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://glasgow46239.github.io/style/be.css">
+<script src="https://glasgow46239.github.io/style/be.js"></script>
 </head>
 <body>
 <header>
@@ -519,6 +504,8 @@ document.getElementById("show-sparse").addEventListener("change", rebuildChart);
 async function boot() {{
   try {{
     config = await (await fetch(CONFIG_URL)).json();
+    // House colours from the central style guide; config colour is the fallback.
+    if (window.BE) config.parties.forEach(p => {{ p.color = BE.fill(p.name) || p.color; }});
     document.getElementById("tracker-name").textContent = config.trackerName;
     document.title = config.trackerName + " — explorer";
     const urlParams = readUrlParams();

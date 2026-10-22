@@ -54,6 +54,9 @@ def parse_args():
     p.add_argument("--config", default="config.json", help="Path to config.json")
     p.add_argument("--push-to-datawrapper", action="store_true",
                    help="Push outputs to Datawrapper via API (requires DATAWRAPPER_TOKEN env var)")
+    p.add_argument("--sync-colours", action="store_true",
+                   help="Also set Datawrapper party colours from the central style guide "
+                        "(glasgow46239.github.io/style). Off by default.")
     return p.parse_args()
 
 # ---------------------------------------------------------------------------
@@ -816,6 +819,15 @@ def push_to_datawrapper(json_data, bar_csv, polls, config,
     line_id = line_id_override or config["output"].get("datawrapperLineChartId")
     bar_id  = bar_id_override  or config["output"].get("datawrapperBarChartId")
     updated = json_data["meta"].get("latestPollDate", "")
+    sync = getattr(push_to_datawrapper, "sync_colours", False)
+
+    def colour_patch(labels):
+        """Datawrapper custom-colors keyed by column/row label, from the style guide."""
+        if not sync:
+            return {}
+        from brand import datawrapper_colours
+        cols = datawrapper_colours(labels)
+        return {"visualize": {"custom-colors": cols}} if cols else {}
     byline_html = (
         f'<span style="background-color:#00000010; padding:4px 4px; border-radius:4px">'
         f'Last updated {updated}</span>'
@@ -831,7 +843,8 @@ def push_to_datawrapper(json_data, bar_csv, polls, config,
         resp = requests.patch(
             f"https://api.datawrapper.de/v3/charts/{line_id}",
             headers=headers,
-            json={"metadata": {"describe": {"byline": byline_html}}}
+            json={"metadata": {"describe": {"byline": byline_html},
+                               **colour_patch(line_csv.splitlines()[0].split(",")[1:])}}
         )
         print(f"Line chart patch response: {resp.status_code}")
         requests.post(
@@ -849,7 +862,8 @@ def push_to_datawrapper(json_data, bar_csv, polls, config,
         resp = requests.patch(
             f"https://api.datawrapper.de/v3/charts/{bar_id}",
             headers=headers,
-            json={"metadata": {"describe": {"byline": byline_html}}}
+            json={"metadata": {"describe": {"byline": byline_html},
+                               **colour_patch([r.split(",")[0] for r in bar_csv.splitlines()[1:]])}}
         )
         print(f"Bar chart patch response: {resp.status_code}")
         requests.post(
@@ -927,6 +941,7 @@ def get_output_paths(config, subgroup_value=None):
 
 def main():
     args   = parse_args()
+    push_to_datawrapper.sync_colours = args.sync_colours
     config = load_config(args.config)
 
     all_polls = fetch_polls(config)
