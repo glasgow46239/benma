@@ -8,7 +8,7 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
     --bg: #f7f6f2; --surface: #ffffff; --border: rgba(0,0,0,0.1);
-    --text: #1a1a1a; --muted: #666; --radius: 6px;
+    --text: #1a1a1a; --muted: #666; --radius: var(--be-radius, 5px);
     --font: var(--be-font, 'Helvetica Neue', Helvetica, Arial, sans-serif);
     --font-mono: var(--be-font-mono, ui-monospace, Menlo, Consolas, monospace);
   }
@@ -34,13 +34,13 @@
   .col-mapper-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; margin-bottom: 0.75rem; }
   .col-entry { display: flex; flex-direction: column; gap: 3px; }
   .col-entry label { font-size: 11px; color: var(--muted); font-weight: 500; }
-  .col-entry input { font-family: var(--font-mono); font-size: 12px; padding: 4px 8px; border: 1px solid var(--border); border-radius: 4px; background: var(--bg); color: var(--text); width: 100%; }
+  .col-entry input { font-family: var(--font-mono); font-size: 12px; padding: 4px 8px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg); color: var(--text); width: 100%; }
   .col-entry input[type=color] { padding: 2px 4px; height: 30px; cursor: pointer; }
   .party-rows { display: flex; flex-direction: column; gap: 6px; margin-bottom: 0.75rem; }
   .party-row { display: flex; gap: 8px; align-items: center; }
-  .party-row input[type=text] { font-family: var(--font-mono); font-size: 12px; padding: 4px 8px; border: 1px solid var(--border); border-radius: 4px; width: 80px; }
-  .party-row input[type=number] { font-family: var(--font-mono); font-size: 12px; padding: 4px 8px; border: 1px solid var(--border); border-radius: 4px; width: 60px; }
-  .party-row input[type=color] { padding: 2px 4px; height: 30px; border: 1px solid var(--border); border-radius: 4px; cursor: pointer; width: 40px; }
+  .party-row input[type=text] { font-family: var(--font-mono); font-size: 12px; padding: 4px 8px; border: 1px solid var(--border); border-radius: var(--radius); width: 80px; }
+  .party-row input[type=number] { font-family: var(--font-mono); font-size: 12px; padding: 4px 8px; border: 1px solid var(--border); border-radius: var(--radius); width: 60px; }
+  .party-row input[type=color] { padding: 2px 4px; height: 30px; border: 1px solid var(--border); border-radius: var(--radius); cursor: pointer; width: 40px; }
   .party-row .remove-btn { font-size: 16px; color: var(--muted); cursor: pointer; background: none; border: none; line-height: 1; padding: 0 4px; }
   .party-row .remove-btn:hover { color: #c00; }
   .col-mapper-actions { display: flex; gap: 8px; }
@@ -58,9 +58,9 @@
   .ctrl-divider { width: 1px; height: 20px; background: var(--border); }
   select { font-family: var(--font); font-size: 13px; padding: 4px 8px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); color: var(--text); cursor: pointer; }
   .legend { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1rem; }
-  .legend-pill { display: flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 500; padding: 4px 10px; border-radius: 20px; border: 1.5px solid transparent; cursor: pointer; transition: opacity 0.15s; user-select: none; }
+  .legend-pill { display: flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 500; padding: 4px 10px; border-radius: var(--radius); border: 1.5px solid transparent; cursor: pointer; transition: opacity 0.15s; user-select: none; }
   .legend-pill.hidden-party { opacity: 0.3; }
-  .legend-dot { width: 7px; height: 7px; border-radius: 50%; }
+  .legend-dot { width: 7px; height: 7px; border-radius: 0; }
   .chart-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; position: relative; }
   .status { font-size: 12px; color: var(--muted); margin-top: 0.75rem; font-family: var(--font-mono); display: flex; gap: 1rem; flex-wrap: wrap; }
   .status-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #22c55e; margin-right: 4px; vertical-align: middle; }
