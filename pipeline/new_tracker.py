@@ -198,7 +198,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
   :root {{
     --bg: #f7f6f2; --surface: #ffffff; --border: rgba(0,0,0,0.1);
-    --text: #1a1a1a; --muted: #666; --radius: 6px;
+    --text: #1a1a1a; --muted: #666; --radius: var(--be-radius, 5px);
     --font: var(--be-font, 'Helvetica Neue', Helvetica, Arial, sans-serif);
     --font-mono: var(--be-font, 'Helvetica Neue', Helvetica, Arial, sans-serif);
   }}
@@ -231,11 +231,11 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   .ctrl-divider {{ width: 1px; height: 20px; background: var(--border); }}
   .legend {{ display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1rem; }}
   .legend-pill {{ display: flex; align-items: center; gap: 5px; font-size: 12px;
-                  font-weight: 500; padding: 4px 10px; border-radius: 20px;
+                  font-weight: 500; padding: 4px 10px; border-radius: var(--radius);
                   border: 1.5px solid transparent; cursor: pointer;
                   transition: opacity 0.15s; user-select: none; }}
   .legend-pill.hidden-party {{ opacity: 0.3; }}
-  .legend-dot {{ width: 7px; height: 7px; border-radius: 50%; }}
+  .legend-dot {{ width: 7px; height: 7px; border-radius: 0; }}
   .chart-wrap {{ background: var(--surface); border: 1px solid var(--border);
                  border-radius: var(--radius); padding: 1rem; position: relative; }}
   .status {{ font-size: 12px; color: var(--muted); margin-top: 0.75rem;
