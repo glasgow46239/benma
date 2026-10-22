@@ -9,8 +9,8 @@
   :root {
     --bg: #f7f6f2; --surface: #ffffff; --border: rgba(0,0,0,0.1);
     --text: #1a1a1a; --muted: #666; --radius: 6px;
-    --font: 'DM Sans', system-ui, sans-serif;
-    --font-mono: 'DM Mono', monospace;
+    --font: var(--be-font, 'Helvetica Neue', Helvetica, Arial, sans-serif);
+    --font-mono: var(--be-font-mono, ui-monospace, Menlo, Consolas, monospace);
   }
   body { font-family: var(--font); background: var(--bg); color: var(--text); min-height: 100vh; padding: 1.5rem; }
   header { display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem; }
@@ -70,8 +70,8 @@
   .toast.show { opacity: 1; }
   @media (max-width: 600px) { body { padding: 1rem; } .controls-bar { gap: 1rem; } input[type=range] { width: 80px; } }
 </style>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://glasgow46239.github.io/style/be.css">
+<script src="https://glasgow46239.github.io/style/be.js"></script>
 </head>
 <body>
 
@@ -180,8 +180,7 @@ let activeSubgroup = null;
 let rawCsvText = null;  // stored for re-parsing after mapper changes
 
 const DEFAULT_COLORS = [
-  "#0087DC","#E4003B","#FAA61A","#00B140","#12B6CF",
-  "#6D3177","#005B54","#EEE03C","#FF6B35","#8B5CF6"
+  ...["con","lab","ldem","grn","ref","ukip","pc","snp","rst","oth"].map(k => (window.BE && BE.fill(k)) || "#999999")
 ];
 
 // ---------------------------------------------------------------------------

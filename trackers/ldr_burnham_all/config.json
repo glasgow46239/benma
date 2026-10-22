@@ -227,21 +227,21 @@
     {
       "name": "Positive",
       "col": 2,
-      "color": "#0087DC",
+      "color": "#2A6FB0",
       "includeInLine": true,
       "includeInBar": true
     },
     {
       "name": "Negative",
       "col": 3,
-      "color": "#E4003B",
+      "color": "#E07A1F",
       "includeInLine": true,
       "includeInBar": true
     },
     {
       "name": "Unsure",
       "col": 4,
-      "color": "#FAA61A",
+      "color": "#A9ACA8",
       "includeInLine": true,
       "includeInBar": true
     },
@@ -255,28 +255,28 @@
     {
       "name": "Grn",
       "col": 6,
-      "color": "#00B140",
+      "color": "#62B65A",
       "includeInLine": true,
       "includeInBar": true
     },
     {
       "name": "SNP",
       "col": 7,
-      "color": "#EEE03C",
+      "color": "#F1EC3C",
       "includeInLine": true,
       "includeInBar": false
     },
     {
       "name": "PC",
       "col": 8,
-      "color": "#005B54",
+      "color": "#2F7865",
       "includeInLine": true,
       "includeInBar": false
     },
     {
       "name": "Reform",
       "col": 10,
-      "color": "#12B6CF",
+      "color": "#15B6C2",
       "includeInLine": true,
       "includeInBar": true
     }
