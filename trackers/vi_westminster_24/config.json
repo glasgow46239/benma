@@ -370,5 +370,51 @@
         "datawrapperBarChartId": "PlQFH"
       }
     }
+  },
+  "page": {
+    "type": "vi",
+    "cards": [
+      "Con",
+      "Lab",
+      "LDem",
+      "Grn",
+      "Reform"
+    ],
+    "cardsBy": {
+      "scotland": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform",
+        "SNP"
+      ],
+      "wales": [
+        "Con",
+        "Lab",
+        "LDem",
+        "Grn",
+        "Reform",
+        "PC"
+      ]
+    },
+    "extras": [
+      "Ukip"
+    ],
+    "extrasBy": {
+      "18-34": [],
+      "35-49": [],
+      "50-64": [],
+      "65+": [],
+      "abc1": [],
+      "c2de": []
+    },
+    "windows": {
+      "Ukip": [
+        null,
+        "2019-12-12"
+      ]
+    },
+    "changeDays": 60
   }
 }
