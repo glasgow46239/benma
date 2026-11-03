@@ -352,5 +352,89 @@
         "datawrapperBarChartId": ""
       }
     }
+  },
+  "page": {
+    "type": "leader",
+    "person": "Andy Burnham",
+    "office": "Prime Minister",
+    "tookOffice": "2026-07-16",
+    "cards": [
+      "Positive",
+      "Negative"
+    ],
+    "changeDays": 60,
+    "compare": [
+      {
+        "name": "Andy Burnham",
+        "surname": "Burnham",
+        "party": "Lab",
+        "from": "2026-07-16"
+      },
+      {
+        "name": "Keir Starmer",
+        "surname": "Starmer",
+        "party": "Lab",
+        "tracker": "ldr_starmer_all",
+        "from": "2024-07-05",
+        "to": "2026-07-16"
+      },
+      {
+        "name": "Rishi Sunak",
+        "surname": "Sunak",
+        "party": "Con",
+        "tracker": "ldr_sunak",
+        "from": "2022-10-25",
+        "to": "2024-07-05"
+      },
+      {
+        "name": "Liz Truss",
+        "surname": "Truss",
+        "party": "Con",
+        "tracker": "ldr_truss",
+        "from": "2022-09-06",
+        "to": "2022-10-25"
+      },
+      {
+        "name": "Boris Johnson",
+        "surname": "Johnson",
+        "party": "Con",
+        "tracker": "ldr_johnson",
+        "from": "2019-07-24",
+        "to": "2022-09-06"
+      },
+      {
+        "name": "Theresa May",
+        "surname": "May",
+        "party": "Con",
+        "tracker": "ldr_may",
+        "from": "2016-07-13",
+        "to": "2019-07-24"
+      },
+      {
+        "name": "David Cameron",
+        "surname": "Cameron",
+        "party": "Con",
+        "tracker": "ldr_cameron",
+        "from": "2010-05-11",
+        "to": "2016-07-13"
+      },
+      {
+        "name": "Gordon Brown",
+        "surname": "Brown",
+        "party": "Lab",
+        "tracker": "ldr_brown",
+        "from": "2007-06-27",
+        "to": "2010-05-11"
+      },
+      {
+        "name": "Tony Blair",
+        "surname": "Blair",
+        "party": "Lab",
+        "tracker": "ldr_blair",
+        "from": "1997-05-02",
+        "to": "2007-06-27"
+      }
+    ],
+    "compareMaxDays": 1100
   }
 }

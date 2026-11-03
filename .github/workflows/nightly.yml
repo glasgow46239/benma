@@ -54,10 +54,16 @@ jobs:
         env:
           DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
 
+      - name: Export website page data
+        run: python pipeline/export_page.py --all
+
+      - name: Fetch Substack articles for the website
+        run: python pipeline/articles.py
+
       - name: Commit updated data files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add trackers/
+          git add trackers/ site/
           git diff --cached --quiet || git commit -m "chore: update poll tracker data [$(date -u +%Y-%m-%d)]"
           git push
