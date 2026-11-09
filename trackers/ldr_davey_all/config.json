@@ -345,5 +345,16 @@
         "datawrapperBarChartId": ""
       }
     }
+  },
+  "page": {
+    "type": "leader",
+    "cards": [
+      "Positive",
+      "Negative"
+    ],
+    "changeDays": 60,
+    "person": "Ed Davey",
+    "office": "Lib Dem leader",
+    "tookOffice": "2020-08-27"
   }
 }

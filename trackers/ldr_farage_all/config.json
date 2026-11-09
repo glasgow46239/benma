@@ -345,5 +345,16 @@
         "datawrapperBarChartId": ""
       }
     }
+  },
+  "page": {
+    "type": "leader",
+    "cards": [
+      "Positive",
+      "Negative"
+    ],
+    "changeDays": 60,
+    "person": "Nigel Farage",
+    "office": "Reform leader",
+    "tookOffice": "2024-06-03"
   }
 }
