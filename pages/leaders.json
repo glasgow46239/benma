@@ -1,0 +1,12 @@
+{
+  "type": "leaders",
+  "out": "site/leaders",
+  "changeDays": 60,
+  "leaders": [
+    {"name": "Andy Burnham", "surname": "Burnham", "party": "Lab", "role": "Prime Minister", "tracker": "ldr_burnham_all", "since": "2026-07-16", "url": "leaders/burnham/"},
+    {"name": "Kemi Badenoch", "surname": "Badenoch", "party": "Con", "role": "Conservative leader", "tracker": "ldr_badenoch_all", "since": "2024-11-02", "url": "leaders/badenoch/"},
+    {"name": "Nigel Farage", "surname": "Farage", "party": "Reform", "role": "Reform leader", "tracker": "ldr_farage_all", "since": "2024-06-03", "url": "leaders/farage/"},
+    {"name": "Ed Davey", "surname": "Davey", "party": "LDem", "role": "Lib Dem leader", "tracker": "ldr_davey_all", "since": "2020-08-27", "url": "leaders/davey/"},
+    {"name": "Zack Polanski", "surname": "Polanski", "party": "Grn", "role": "Green leader", "tracker": "ldr_polanski_all", "since": "2025-09-02", "url": "leaders/polanski/"}
+  ]
+}

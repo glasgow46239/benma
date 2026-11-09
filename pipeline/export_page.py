@@ -10,6 +10,9 @@ reads the line-<subgroup>.csv files smooth.py already wrote and writes:
     <data dir>/page-<slug>.json     one file per group: smoothed segments,
                                     uncertainty bands and individual polls
 
+Pages that combine several trackers (the all-leaders page) are defined in
+pages/<name>.json instead; see export_leaders_page().
+
 Numbers are stored as integer tenths and dates as day offsets, to keep files
 small. The site loads page.json first and then only the group being viewed.
 
@@ -220,11 +223,87 @@ def export_compare(leaders, max_days, own_start, own_line_csv):
     return out
 
 
+def encode_lines(segs):
+    """Like encode_segs but means only (no bands): for multi-leader comparison charts."""
+    return [{"d0": pts[0][0], "dd": [b[0] - a[0] for a, b in zip(pts, pts[1:])], "m": [t10(x[1]) for x in pts]}
+            for pts in segs]
+
+
+def export_leaders_page(path):
+    """A page comparing several leaders, defined in pages/<name>.json:
+
+    {"type": "leaders", "out": "site/leaders", "changeDays": 60,
+     "leaders": [{"name": "Andy Burnham", "surname": "Burnham", "party": "Lab", "role": "Prime Minister",
+                  "tracker": "ldr_burnham_all", "since": "2026-07-16", "url": "leaders/burnham/"}, ...]}
+
+    Each leader's data is taken from the day they became leader ("since"). Writes <out>/page.json
+    (groups, and per leader its latest and earlier figures) and <out>/page-<group>.json
+    (net, positive and negative lines per leader).
+    """
+    with open(path) as f:
+        spec = json.load(f)
+    out_dir = spec["out"]
+    os.makedirs(out_dir, exist_ok=True)
+    change_days = spec.get("changeDays", 60)
+    groups_out = []
+    for g in spec.get("groups", DEFAULT_GROUPS):
+        payload, meta, start, end = {}, {}, 10 ** 9, -10 ** 9
+        for L in spec["leaders"]:
+            with open(f"trackers/{L['tracker']}/config.json") as f:
+                c = json.load(f)
+            csv_path = os.path.join(os.path.dirname(c["output"]["lineCsvPath"]), f"line-{g['id']}.csv")
+            if not os.path.exists(csv_path):
+                continue
+            since = day(L["since"]) if L.get("since") else -10 ** 9
+            s = read_line_csv(csv_path, ["Positive", "Negative"], {"Positive": [L.get("since"), None], "Negative": [L.get("since"), None]})
+            if "Positive" not in s or "Negative" not in s:
+                continue
+            pos_segs, neg_segs = s["Positive"]["segs"], s["Negative"]["segs"]
+            net_segs = []
+            for ps in pos_segs:
+                negmap = {x[0]: x[1] for ns in neg_segs for x in ns}
+                pts = [(x[0], x[1] - negmap[x[0]], 0, 0) for x in ps if x[0] in negmap]
+                if len(pts) >= 2:
+                    net_segs.append(pts)
+            if not net_segs:
+                continue
+            key = L["surname"]
+            payload[key] = {"net": encode_lines(net_segs), "pos": encode_lines(pos_segs), "neg": encode_lines(neg_segs)}
+            last_d = net_segs[-1][-1][0]
+            pos_now, neg_now = pos_segs[-1][-1][1], neg_segs[-1][-1][1]
+            pos_ago, neg_ago = value_near(pos_segs, last_d - change_days), value_near(neg_segs, last_d - change_days)
+            meta[key] = {"pos": round(pos_now, 2), "neg": round(neg_now, 2), "posAgo": round(pos_ago, 2), "negAgo": round(neg_ago, 2),
+                         "start": net_segs[0][0][0], "end": last_d, "since": since if since > -10 ** 9 else None}
+            start, end = min(start, net_segs[0][0][0]), max(end, last_d)
+        if not payload:
+            continue
+        group_file = f"page-{g['id']}.json"
+        with open(os.path.join(out_dir, group_file), "w") as f:
+            json.dump(payload, f, separators=(",", ":"))
+        groups_out.append({**g, "file": group_file, "start": start, "end": end, "leaders": meta})
+    index = {
+        "generated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
+        "type": spec["type"], "changeDays": change_days,
+        "leaders": [{k: L[k] for k in ("name", "surname", "party", "role", "url", "since") if k in L} for L in spec["leaders"]],
+        "groups": groups_out,
+    }
+    with open(os.path.join(out_dir, "page.json"), "w") as f:
+        json.dump(index, f, separators=(",", ":"))
+    return out_dir, [g["id"] for g in groups_out]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--config")
     ap.add_argument("--all", action="store_true")
     args = ap.parse_args()
+    if args.all:
+        for p in sorted(glob.glob("pages/*.json")):
+            try:
+                res = export_leaders_page(p)
+                print(f"export_page: {res[0]} ({len(res[1])} groups)")
+            except Exception as e:  # noqa: BLE001
+                print(f"export_page: {p} failed: {e.__class__.__name__}: {e}")
     configs = sorted(glob.glob("trackers/*/config.json")) if args.all else [args.config]
     for c in configs:
         try:

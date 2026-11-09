@@ -345,5 +345,57 @@
         "datawrapperBarChartId": ""
       }
     }
+  },
+  "page": {
+    "type": "leader",
+    "cards": [
+      "Positive",
+      "Negative"
+    ],
+    "changeDays": 60,
+    "person": "Kemi Badenoch",
+    "office": "Conservative leader",
+    "tookOffice": "2024-11-02",
+    "compare": [
+      {
+        "name": "Kemi Badenoch",
+        "surname": "Badenoch",
+        "party": "Con",
+        "from": "2024-11-02"
+      },
+      {
+        "name": "Keir Starmer",
+        "surname": "Starmer",
+        "party": "Lab",
+        "tracker": "ldr_starmer_all",
+        "from": "2020-04-04",
+        "to": "2024-07-05"
+      },
+      {
+        "name": "Jeremy Corbyn",
+        "surname": "Corbyn",
+        "party": "Lab",
+        "tracker": "ldr_corbyn",
+        "from": "2015-09-12",
+        "to": "2020-04-04"
+      },
+      {
+        "name": "Ed Miliband",
+        "surname": "Miliband",
+        "party": "Lab",
+        "tracker": "ldr_miliband",
+        "from": "2010-09-25",
+        "to": "2015-05-08"
+      },
+      {
+        "name": "David Cameron",
+        "surname": "Cameron",
+        "party": "Con",
+        "tracker": "ldr_cameron",
+        "from": "2005-12-06",
+        "to": "2010-05-11"
+      }
+    ],
+    "compareMaxDays": 1500
   }
 }
