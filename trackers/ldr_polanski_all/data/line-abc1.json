@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "ABC1 voters",
-    "generated": "2026-11-12T14:35:38Z",
+    "generated": "2026-11-13T13:55:51Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
