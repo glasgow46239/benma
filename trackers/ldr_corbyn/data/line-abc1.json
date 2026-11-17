@@ -2,46 +2,57 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "ABC1 voters",
-    "generated": "2026-07-30T23:36:09Z",
+    "generated": "2026-11-17T17:48:14Z",
     "bandwidthDays": 120,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
-    "headline": "Negative lead (ABC1 voters) at 52.0%",
-    "intro": "Latest poll: Survation \u00b7 14 July 2026 \u00b7 Negative 52.0% \u00b7 Positive 25.0%",
-    "latestSmoothed": {},
-    "latestPollDate": "14-Jul-2026"
+    "headline": "Negative lead (ABC1 voters) at 62.0%",
+    "intro": "Latest poll: YouGov \u00b7 22 May 2026 \u00b7 Negative 62.0% \u00b7 Positive 46.0%",
+    "latestSmoothed": {
+      "Positive": 46.0,
+      "Negative": 63.5
+    },
+    "latestPollDate": "22-May-2026"
   },
   "series": {
     "Positive (post-2017 election)": [
       {
-        "t": 20648,
-        "date": "2026-07-14",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
+        "t": 20595,
+        "date": "2026-05-22",
+        "value": 46.0,
+        "low": 46.0,
+        "high": 46.0,
+        "sparse": true,
         "party": "Positive"
       }
     ],
     "Negative (post-2017 election)": [
       {
-        "t": 20648,
-        "date": "2026-07-14",
-        "value": null,
-        "low": null,
-        "high": null,
-        "sparse": false,
+        "t": 20595,
+        "date": "2026-05-22",
+        "value": 63.5,
+        "low": 62.0,
+        "high": 65.0,
+        "sparse": true,
         "party": "Negative"
       }
     ]
   },
   "rawPolls": [
     {
-      "date": "2026-07-14",
-      "pollster": "Survation",
+      "date": "2026-05-22",
+      "pollster": "YouGov",
       "values": {
-        "Positive": 25.0,
-        "Negative": 52.0
+        "Positive": 46.0,
+        "Negative": 65.0
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "pollster": "YouGov",
+      "values": {
+        "Positive": 46.0,
+        "Negative": 62.0
       }
     }
   ]
