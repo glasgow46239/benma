@@ -1,7 +1,9 @@
 """
 Write site/articles.json from the Britain Elects Substack, for the website's article strips
-and homepage. Tries the RSS feed first, then Substack's archive API. Keeps the last good file
-if both fail, so a Substack outage never empties the site.
+and homepage. Substack refuses requests from GitHub's servers (HTTP 403), so the first source is a
+relay: a small Google Apps Script web app that fetches the feed from Google's servers and returns it
+as JSON (pipeline/substack_relay.gs, with set-up steps). Then the RSS feed, then Substack's archive
+API. Keeps the last good file if every source fails, so an outage never empties the site.
 
 Each item: title, url, date (YYYY-MM-DD), desc, image (cover image URL or "").
 
@@ -16,6 +18,8 @@ import xml.etree.ElementTree as ET
 SITE = "https://britainelects.substack.com"
 FEED = SITE + "/feed"
 API = SITE + "/api/v1/archive?sort=new&limit=30"
+# Paste the Apps Script web app URL here (ends /exec). Empty = skip the relay.
+RELAY = ""
 OUT = "site/articles.json"
 KEEP = 30
 # Substack refuses requests that don't look like a browser
@@ -65,10 +69,18 @@ def from_api(posts):
     return items
 
 
+def from_relay(data):
+    keys = ("title", "url", "date", "desc", "image")
+    return [{k: (it.get(k) or "") for k in keys} for it in data.get("items", [])[:KEEP] if it.get("title") and it.get("url")]
+
+
 def main():
     import requests
     items = []
-    for name, url, parse in (("feed", FEED, lambda r: from_feed(r.content)), ("api", API, lambda r: from_api(r.json()))):
+    sources = [("feed", FEED, lambda r: from_feed(r.content)), ("api", API, lambda r: from_api(r.json()))]
+    if RELAY:
+        sources.insert(0, ("relay", RELAY, lambda r: from_relay(r.json())))
+    for name, url, parse in sources:
         try:
             r = requests.get(url, timeout=20, headers=HEADERS)
             if r.status_code != 200:
