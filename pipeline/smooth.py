@@ -624,7 +624,18 @@ def build_line_csv(json_data, polls, hist_series=None, hist_polls=None):
     for col_data in hist_series.values():
         all_hist_dates.update(col_data.keys())
 
-    all_dates = sorted(set(smooth_lookup.keys()) | all_hist_dates | set(raw_dates))
+    # Where a smoothed line has a gap (no polls nearby), emit an explicit empty
+    # row right after the last drawn day so charts break the line instead of
+    # joining the two ends with a straight segment.
+    gap_dates = set()
+    for key in series_keys:
+        days = sorted(d for d, v in smooth_lookup.items() if key in v)
+        for a, b in zip(days, days[1:]):
+            da = datetime.strptime(a, "%Y-%m-%d")
+            if (datetime.strptime(b, "%Y-%m-%d") - da).days > 1:
+                gap_dates.add((da + timedelta(days=1)).strftime("%Y-%m-%d"))
+
+    all_dates = sorted(set(smooth_lookup.keys()) | all_hist_dates | set(raw_dates) | gap_dates)
 
     header = ["date"]
     for key in series_keys:
