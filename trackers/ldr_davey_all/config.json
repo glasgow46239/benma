@@ -4,7 +4,7 @@
   "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRUV0qTNO_TaH0vyqyhqCgdo76BxF8W3oMfhLbgTucogF15cuT_EjGhzvCCynZ9FGe2EjrS5sXLE8ga/pub?gid=1527753915&single=true&output=csv",
   "subgroupColumn": 11,
   "smoothing": {
-    "bandwidthDays": 80,
+    "bandwidthDays": 100,
     "minPollsInWindow": 4,
     "bootstrapIterations": 200
   },
@@ -21,7 +21,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 100,
       "minPollsInWindow": 2
     },
     {
@@ -35,7 +35,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 100,
       "minPollsInWindow": 2
     },
     {
@@ -49,7 +49,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 100,
       "minPollsInWindow": 2
     },
     {
@@ -63,7 +63,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 100,
       "minPollsInWindow": 2
     },
     {
@@ -77,7 +77,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 100,
       "minPollsInWindow": 2
     },
     {
@@ -91,7 +91,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 100,
       "minPollsInWindow": 2
     },
     {
@@ -105,7 +105,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 100,
       "minPollsInWindow": 2
     },
     {
@@ -119,7 +119,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 100,
       "minPollsInWindow": 2
     },
     {
@@ -133,7 +133,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 100,
       "minPollsInWindow": 2
     },
     {
@@ -147,7 +147,7 @@
         "Grn",
         "Reform"
       ],
-      "bandwidthDays": 80,
+      "bandwidthDays": 100,
       "minPollsInWindow": 2
     },
     {
@@ -356,5 +356,10 @@
     "person": "Ed Davey",
     "office": "Lib Dem leader",
     "tookOffice": "2020-08-27"
+  },
+  "dataSource": {
+    "type": "long_csv",
+    "path": "data/ldr_davey.csv",
+    "note": "built by the parser repo; legacy dataUrl kept for rollback"
   }
 }
