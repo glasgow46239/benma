@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Voting intention",
     "subgroup": "C2DE voters",
-    "generated": "2026-11-19T15:21:39Z",
+    "generated": "2026-11-21T14:15:51Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
