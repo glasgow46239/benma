@@ -1,0 +1,1625 @@
+date,pollster,sample,option,value,base,n_merged
+2024-07-29,YouGov,18-34,Con,10.0,,1
+2024-07-29,YouGov,18-34,LDem,5.0,,1
+2024-07-29,YouGov,18-34,Lab,37.0,,1
+2024-07-29,YouGov,35-49,Con,13.0,,1
+2024-07-29,YouGov,35-49,LDem,3.0,,1
+2024-07-29,YouGov,35-49,Lab,31.0,,1
+2024-07-29,YouGov,50-64,Con,23.0,,1
+2024-07-29,YouGov,50-64,LDem,2.0,,1
+2024-07-29,YouGov,50-64,Lab,28.0,,1
+2024-07-29,YouGov,65+,Con,33.0,,1
+2024-07-29,YouGov,65+,LDem,2.0,,1
+2024-07-29,YouGov,65+,Lab,22.0,,1
+2024-07-29,YouGov,ABC1,Con,22.0,,1
+2024-07-29,YouGov,ABC1,LDem,4.0,,1
+2024-07-29,YouGov,ABC1,Lab,34.0,,1
+2024-07-29,YouGov,C2DE,Con,18.0,,1
+2024-07-29,YouGov,C2DE,LDem,2.0,,1
+2024-07-29,YouGov,C2DE,Lab,23.0,,1
+2024-07-29,YouGov,Overall,Con,20.0,,1
+2024-07-29,YouGov,Overall,LDem,3.0,,1
+2024-07-29,YouGov,Overall,Lab,29.0,,1
+2024-08-14,Opinium,Overall,Con,25.0,,1
+2024-08-14,Opinium,Overall,Lab,33.0,,1
+2024-09-09,YouGov,18-34,Con,6.0,,1
+2024-09-09,YouGov,18-34,LDem,7.0,,1
+2024-09-09,YouGov,18-34,Lab,33.0,,1
+2024-09-09,YouGov,35-49,Con,14.0,,1
+2024-09-09,YouGov,35-49,LDem,5.0,,1
+2024-09-09,YouGov,35-49,Lab,22.0,,1
+2024-09-09,YouGov,50-64,Con,26.0,,1
+2024-09-09,YouGov,50-64,LDem,5.0,,1
+2024-09-09,YouGov,50-64,Lab,22.0,,1
+2024-09-09,YouGov,65+,Con,41.0,,1
+2024-09-09,YouGov,65+,LDem,5.0,,1
+2024-09-09,YouGov,65+,Lab,16.0,,1
+2024-09-09,YouGov,ABC1,Con,24.0,,1
+2024-09-09,YouGov,ABC1,LDem,5.0,,1
+2024-09-09,YouGov,ABC1,Lab,26.0,,1
+2024-09-09,YouGov,C2DE,Con,19.0,,1
+2024-09-09,YouGov,C2DE,LDem,5.0,,1
+2024-09-09,YouGov,C2DE,Lab,17.0,,1
+2024-09-09,YouGov,Overall,Con,22.0,,1
+2024-09-09,YouGov,Overall,LDem,5.0,,1
+2024-09-09,YouGov,Overall,Lab,22.0,,1
+2024-10-03,Opinium,Overall,Con,26.0,,1
+2024-10-03,Opinium,Overall,Lab,26.0,,1
+2024-10-07,Deltapoll,Overall,Con,34.0,,1
+2024-10-07,Deltapoll,Overall,Lab,39.0,,1
+2024-10-07,YouGov,18-34,Con,10.0,,1
+2024-10-07,YouGov,18-34,LDem,12.0,,1
+2024-10-07,YouGov,18-34,Lab,23.0,,1
+2024-10-07,YouGov,35-49,Con,15.0,,1
+2024-10-07,YouGov,35-49,LDem,5.0,,1
+2024-10-07,YouGov,35-49,Lab,22.0,,1
+2024-10-07,YouGov,50-64,Con,24.0,,1
+2024-10-07,YouGov,50-64,LDem,6.0,,1
+2024-10-07,YouGov,50-64,Lab,21.0,,1
+2024-10-07,YouGov,65+,Con,39.0,,1
+2024-10-07,YouGov,65+,LDem,5.0,,1
+2024-10-07,YouGov,65+,Lab,12.0,,1
+2024-10-07,YouGov,ABC1,Con,24.0,,1
+2024-10-07,YouGov,ABC1,LDem,7.0,,1
+2024-10-07,YouGov,ABC1,Lab,23.0,,1
+2024-10-07,YouGov,C2DE,Con,20.0,,1
+2024-10-07,YouGov,C2DE,LDem,4.0,,1
+2024-10-07,YouGov,C2DE,Lab,15.0,,1
+2024-10-07,YouGov,Overall,Con,22.0,,1
+2024-10-07,YouGov,Overall,LDem,6.0,,1
+2024-10-07,YouGov,Overall,Lab,20.0,,1
+2024-10-16,Opinium,Overall,Con,25.0,,1
+2024-10-16,Opinium,Overall,Lab,24.0,,1
+2024-11-04,YouGov,18-34,Con,10.0,,1
+2024-11-04,YouGov,18-34,LDem,15.0,,1
+2024-11-04,YouGov,18-34,Lab,26.0,,1
+2024-11-04,YouGov,35-49,Con,13.0,,1
+2024-11-04,YouGov,35-49,LDem,5.0,,1
+2024-11-04,YouGov,35-49,Lab,27.0,,1
+2024-11-04,YouGov,50-64,Con,31.0,,1
+2024-11-04,YouGov,50-64,LDem,5.0,,1
+2024-11-04,YouGov,50-64,Lab,20.0,,1
+2024-11-04,YouGov,65+,Con,41.0,,1
+2024-11-04,YouGov,65+,LDem,4.0,,1
+2024-11-04,YouGov,65+,Lab,15.0,,1
+2024-11-04,YouGov,ABC1,Con,27.0,,1
+2024-11-04,YouGov,ABC1,LDem,6.0,,1
+2024-11-04,YouGov,ABC1,Lab,25.0,,1
+2024-11-04,YouGov,C2DE,Con,20.0,,1
+2024-11-04,YouGov,C2DE,LDem,5.0,,1
+2024-11-04,YouGov,C2DE,Lab,19.0,,1
+2024-11-04,YouGov,Overall,Con,24.0,,1
+2024-11-04,YouGov,Overall,LDem,6.0,,1
+2024-11-04,YouGov,Overall,Lab,22.0,,1
+2024-12-02,YouGov,18-34,Con,8.0,,1
+2024-12-02,YouGov,18-34,LDem,8.0,,1
+2024-12-02,YouGov,18-34,Lab,26.0,,1
+2024-12-02,YouGov,35-49,Con,16.0,,1
+2024-12-02,YouGov,35-49,LDem,4.0,,1
+2024-12-02,YouGov,35-49,Lab,23.0,,1
+2024-12-02,YouGov,50-64,Con,22.0,,1
+2024-12-02,YouGov,50-64,LDem,6.0,,1
+2024-12-02,YouGov,50-64,Lab,23.0,,1
+2024-12-02,YouGov,65+,Con,38.0,,1
+2024-12-02,YouGov,65+,LDem,4.0,,1
+2024-12-02,YouGov,65+,Lab,14.0,,1
+2024-12-02,YouGov,ABC1,Con,25.0,,1
+2024-12-02,YouGov,ABC1,LDem,5.0,,1
+2024-12-02,YouGov,ABC1,Lab,25.0,,1
+2024-12-02,YouGov,C2DE,Con,18.0,,1
+2024-12-02,YouGov,C2DE,LDem,4.0,,1
+2024-12-02,YouGov,C2DE,Lab,16.0,,1
+2024-12-02,YouGov,Overall,Con,22.0,,1
+2024-12-02,YouGov,Overall,LDem,5.0,,1
+2024-12-02,YouGov,Overall,Lab,21.0,,1
+2024-12-30,YouGov,18-34,Con,11.0,,1
+2024-12-30,YouGov,18-34,LDem,6.0,,1
+2024-12-30,YouGov,18-34,Lab,18.0,,1
+2024-12-30,YouGov,35-49,Con,14.0,,1
+2024-12-30,YouGov,35-49,LDem,5.0,,1
+2024-12-30,YouGov,35-49,Lab,19.0,,1
+2024-12-30,YouGov,50-64,Con,29.0,,1
+2024-12-30,YouGov,50-64,LDem,5.0,,1
+2024-12-30,YouGov,50-64,Lab,14.0,,1
+2024-12-30,YouGov,65+,Con,34.0,,1
+2024-12-30,YouGov,65+,LDem,5.0,,1
+2024-12-30,YouGov,65+,Lab,12.0,,1
+2024-12-30,YouGov,ABC1,Con,25.0,,1
+2024-12-30,YouGov,ABC1,LDem,6.0,,1
+2024-12-30,YouGov,ABC1,Lab,18.0,,1
+2024-12-30,YouGov,C2DE,Con,18.0,,1
+2024-12-30,YouGov,C2DE,LDem,4.0,,1
+2024-12-30,YouGov,C2DE,Lab,14.0,,1
+2024-12-30,YouGov,Overall,Con,22.0,,1
+2024-12-30,YouGov,Overall,LDem,5.0,,1
+2024-12-30,YouGov,Overall,Lab,16.0,,1
+2025-01-10,Opinium,Overall,Con,25.0,,1
+2025-01-10,Opinium,Overall,Lab,31.0,,1
+2025-01-17,Deltapoll,Overall,Con,37.0,,1
+2025-01-17,Deltapoll,Overall,Lab,31.0,,1
+2025-01-23,Opinium,Overall,Con,23.0,,1
+2025-01-23,Opinium,Overall,Lab,24.0,,1
+2025-01-27,YouGov,18-34,Con,7.0,,1
+2025-01-27,YouGov,18-34,LDem,9.0,,1
+2025-01-27,YouGov,18-34,Lab,22.0,,1
+2025-01-27,YouGov,35-49,Con,13.0,,1
+2025-01-27,YouGov,35-49,LDem,6.0,,1
+2025-01-27,YouGov,35-49,Lab,19.0,,1
+2025-01-27,YouGov,50-64,Con,25.0,,1
+2025-01-27,YouGov,50-64,LDem,5.0,,1
+2025-01-27,YouGov,50-64,Lab,22.0,,1
+2025-01-27,YouGov,65+,Con,37.0,,1
+2025-01-27,YouGov,65+,LDem,5.0,,1
+2025-01-27,YouGov,65+,Lab,10.0,,1
+2025-01-27,YouGov,ABC1,Con,23.0,,1
+2025-01-27,YouGov,ABC1,LDem,7.0,,1
+2025-01-27,YouGov,ABC1,Lab,21.0,,1
+2025-01-27,YouGov,C2DE,Con,18.0,,1
+2025-01-27,YouGov,C2DE,LDem,4.0,,1
+2025-01-27,YouGov,C2DE,Lab,14.0,,1
+2025-01-27,YouGov,Overall,Con,21.0,,1
+2025-01-27,YouGov,Overall,LDem,6.0,,1
+2025-01-27,YouGov,Overall,Lab,18.0,,1
+2025-01-28,BMG Research,Overall,Con,22.0,,1
+2025-01-28,BMG Research,Overall,Lab,21.0,,1
+2025-03-03,YouGov,18-34,Con,12.0,,1
+2025-03-03,YouGov,18-34,LDem,5.0,,1
+2025-03-03,YouGov,18-34,Lab,18.0,,1
+2025-03-03,YouGov,35-49,Con,12.0,,1
+2025-03-03,YouGov,35-49,LDem,6.0,,1
+2025-03-03,YouGov,35-49,Lab,21.0,,1
+2025-03-03,YouGov,50-64,Con,26.0,,1
+2025-03-03,YouGov,50-64,LDem,4.0,,1
+2025-03-03,YouGov,50-64,Lab,16.0,,1
+2025-03-03,YouGov,65+,Con,35.0,,1
+2025-03-03,YouGov,65+,LDem,6.0,,1
+2025-03-03,YouGov,65+,Lab,10.0,,1
+2025-03-03,YouGov,ABC1,Con,24.0,,1
+2025-03-03,YouGov,ABC1,LDem,6.0,,1
+2025-03-03,YouGov,ABC1,Lab,19.0,,1
+2025-03-03,YouGov,C2DE,Con,16.0,,1
+2025-03-03,YouGov,C2DE,LDem,4.0,,1
+2025-03-03,YouGov,C2DE,Lab,15.0,,1
+2025-03-03,YouGov,Overall,Con,21.0,,1
+2025-03-03,YouGov,Overall,LDem,5.0,,1
+2025-03-03,YouGov,Overall,Lab,17.0,,1
+2025-03-17,Deltapoll,Overall,Con,35.0,,1
+2025-03-17,Deltapoll,Overall,Lab,35.0,,1
+2025-03-21,Opinium,Overall,Con,24.0,,1
+2025-03-21,Opinium,Overall,Lab,21.0,,1
+2025-03-27,BMG Research,Overall,Con,21.0,,1
+2025-03-27,BMG Research,Overall,Lab,19.0,,1
+2025-03-28,Opinium,Overall,Con,22.0,,1
+2025-03-28,Opinium,Overall,Lab,22.0,,1
+2025-03-31,YouGov,18-34,Con,15.0,,1
+2025-03-31,YouGov,18-34,LDem,16.0,,1
+2025-03-31,YouGov,18-34,Lab,15.0,,1
+2025-03-31,YouGov,35-49,Con,14.0,,1
+2025-03-31,YouGov,35-49,LDem,7.0,,1
+2025-03-31,YouGov,35-49,Lab,17.0,,1
+2025-03-31,YouGov,50-64,Con,26.0,,1
+2025-03-31,YouGov,50-64,LDem,6.0,,1
+2025-03-31,YouGov,50-64,Lab,13.0,,1
+2025-03-31,YouGov,65+,Con,34.0,,1
+2025-03-31,YouGov,65+,LDem,4.0,,1
+2025-03-31,YouGov,65+,Lab,12.0,,1
+2025-03-31,YouGov,ABC1,Con,24.0,,1
+2025-03-31,YouGov,ABC1,LDem,7.0,,1
+2025-03-31,YouGov,ABC1,Lab,17.0,,1
+2025-03-31,YouGov,C2DE,Con,19.0,,1
+2025-03-31,YouGov,C2DE,LDem,7.0,,1
+2025-03-31,YouGov,C2DE,Lab,11.0,,1
+2025-03-31,YouGov,Overall,Con,22.0,,1
+2025-03-31,YouGov,Overall,LDem,7.0,,1
+2025-03-31,YouGov,Overall,Lab,15.0,,1
+2025-04-11,B.E.N.M.A.,Overall,Con,24.0,,1
+2025-04-11,B.E.N.M.A.,Overall,Lab,23.0,,1
+2025-04-28,YouGov,18-34,Con,8.0,,1
+2025-04-28,YouGov,18-34,LDem,9.0,,1
+2025-04-28,YouGov,18-34,Lab,19.0,,1
+2025-04-28,YouGov,35-49,Con,14.0,,1
+2025-04-28,YouGov,35-49,LDem,6.0,,1
+2025-04-28,YouGov,35-49,Lab,17.0,,1
+2025-04-28,YouGov,50-64,Con,25.0,,1
+2025-04-28,YouGov,50-64,LDem,4.0,,1
+2025-04-28,YouGov,50-64,Lab,17.0,,1
+2025-04-28,YouGov,65+,Con,29.0,,1
+2025-04-28,YouGov,65+,LDem,7.0,,1
+2025-04-28,YouGov,65+,Lab,12.0,,1
+2025-04-28,YouGov,ABC1,Con,22.0,,1
+2025-04-28,YouGov,ABC1,LDem,8.0,,1
+2025-04-28,YouGov,ABC1,Lab,18.0,,1
+2025-04-28,YouGov,C2DE,Con,16.0,,1
+2025-04-28,YouGov,C2DE,LDem,4.0,,1
+2025-04-28,YouGov,C2DE,Lab,14.0,,1
+2025-04-28,YouGov,Overall,Con,20.0,,1
+2025-04-28,YouGov,Overall,LDem,6.0,,1
+2025-04-28,YouGov,Overall,Lab,16.0,,1
+2025-05-01,Opinium,18-34,Con,12.0,2050,1
+2025-05-01,Opinium,18-34,Grn,9.0,2050,1
+2025-05-01,Opinium,18-34,LDem,8.0,2050,1
+2025-05-01,Opinium,18-34,Lab,22.0,2050,1
+2025-05-01,Opinium,18-34,Ref,14.0,2050,1
+2025-05-01,Opinium,35-49,Con,8.0,2050,1
+2025-05-01,Opinium,35-49,Grn,4.0,2050,1
+2025-05-01,Opinium,35-49,LDem,8.0,2050,1
+2025-05-01,Opinium,35-49,Lab,19.0,2050,1
+2025-05-01,Opinium,35-49,Ref,10.0,2050,1
+2025-05-01,Opinium,50-64,Con,12.0,2050,1
+2025-05-01,Opinium,50-64,Grn,3.0,2050,1
+2025-05-01,Opinium,50-64,LDem,6.0,2050,1
+2025-05-01,Opinium,50-64,Lab,14.0,2050,1
+2025-05-01,Opinium,50-64,Ref,10.0,2050,1
+2025-05-01,Opinium,65+,Con,18.0,2050,1
+2025-05-01,Opinium,65+,Grn,1.0,2050,1
+2025-05-01,Opinium,65+,LDem,6.0,2050,1
+2025-05-01,Opinium,65+,Lab,9.0,2050,1
+2025-05-01,Opinium,65+,Ref,11.0,2050,1
+2025-05-01,Opinium,London,Con,15.0,2050,1
+2025-05-01,Opinium,London,Grn,5.0,2050,1
+2025-05-01,Opinium,London,LDem,6.0,2050,1
+2025-05-01,Opinium,London,Lab,26.0,2050,1
+2025-05-01,Opinium,London,Ref,9.0,2050,1
+2025-05-01,Opinium,Midlands,Con,13.0,2050,1
+2025-05-01,Opinium,Midlands,Grn,5.0,2050,1
+2025-05-01,Opinium,Midlands,LDem,7.0,2050,1
+2025-05-01,Opinium,Midlands,Lab,12.0,2050,1
+2025-05-01,Opinium,Midlands,Ref,13.0,2050,1
+2025-05-01,Opinium,Northern England,Con,11.0,2050,1
+2025-05-01,Opinium,Northern England,Grn,4.0,2050,1
+2025-05-01,Opinium,Northern England,LDem,5.0,2050,1
+2025-05-01,Opinium,Northern England,Lab,21.0,2050,1
+2025-05-01,Opinium,Northern England,Ref,13.0,2050,1
+2025-05-01,Opinium,Northern Ireland,Con,11.0,2050,1
+2025-05-01,Opinium,Northern Ireland,Grn,8.0,2050,1
+2025-05-01,Opinium,Northern Ireland,LDem,7.0,2050,1
+2025-05-01,Opinium,Northern Ireland,Lab,6.0,2050,1
+2025-05-01,Opinium,Overall,Con,12.0,2050,1
+2025-05-01,Opinium,Overall,Grn,4.0,2050,1
+2025-05-01,Opinium,Overall,LDem,7.0,2050,1
+2025-05-01,Opinium,Overall,Lab,16.0,2050,1
+2025-05-01,Opinium,Overall,Ref,11.0,2050,1
+2025-05-01,Opinium,Scotland,Con,6.0,2050,1
+2025-05-01,Opinium,Scotland,Grn,6.0,2050,1
+2025-05-01,Opinium,Scotland,LDem,6.0,2050,1
+2025-05-01,Opinium,Scotland,Lab,13.0,2050,1
+2025-05-01,Opinium,Scotland,Ref,6.0,2050,1
+2025-05-01,Opinium,Southern England,Con,15.0,2050,1
+2025-05-01,Opinium,Southern England,Grn,4.0,2050,1
+2025-05-01,Opinium,Southern England,LDem,9.0,2050,1
+2025-05-01,Opinium,Southern England,Lab,11.0,2050,1
+2025-05-01,Opinium,Southern England,Ref,12.0,2050,1
+2025-05-01,Opinium,Wales,Con,5.0,2050,1
+2025-05-01,Opinium,Wales,Grn,1.0,2050,1
+2025-05-01,Opinium,Wales,LDem,8.0,2050,1
+2025-05-01,Opinium,Wales,Lab,23.0,2050,1
+2025-05-01,Opinium,Wales,Ref,7.0,2050,1
+2025-05-02,Opinium,Overall,Con,20.0,,1
+2025-05-02,Opinium,Overall,Lab,20.0,,1
+2025-05-07,BMG Research,18-34,Con,11.3,,1
+2025-05-07,BMG Research,18-34,Grn,6.0,,1
+2025-05-07,BMG Research,18-34,LDem,7.7,,1
+2025-05-07,BMG Research,18-34,Lab,23.7,,1
+2025-05-07,BMG Research,18-34,Ref,18.0,,1
+2025-05-07,BMG Research,18-34,SNP,1.0,,1
+2025-05-07,BMG Research,35-49,Con,13.7,,1
+2025-05-07,BMG Research,35-49,Grn,5.3,,1
+2025-05-07,BMG Research,35-49,LDem,9.0,,1
+2025-05-07,BMG Research,35-49,Lab,16.0,,1
+2025-05-07,BMG Research,35-49,Ref,18.0,,1
+2025-05-07,BMG Research,35-49,SNP,1.7,,1
+2025-05-07,BMG Research,50-64,Con,16.0,,1
+2025-05-07,BMG Research,50-64,Grn,3.0,,1
+2025-05-07,BMG Research,50-64,LDem,6.0,,1
+2025-05-07,BMG Research,50-64,Lab,11.0,,1
+2025-05-07,BMG Research,50-64,PC,1.0,,1
+2025-05-07,BMG Research,50-64,Ref,22.0,,1
+2025-05-07,BMG Research,50-64,SNP,1.0,,1
+2025-05-07,BMG Research,65+,Con,19.0,,1
+2025-05-07,BMG Research,65+,Grn,3.0,,1
+2025-05-07,BMG Research,65+,LDem,5.0,,1
+2025-05-07,BMG Research,65+,Lab,12.0,,1
+2025-05-07,BMG Research,65+,Ref,24.5,,1
+2025-05-07,BMG Research,65+,SNP,1.0,,1
+2025-05-07,BMG Research,England,Con,16.0,,1
+2025-05-07,BMG Research,England,Grn,5.0,,1
+2025-05-07,BMG Research,England,LDem,8.0,,1
+2025-05-07,BMG Research,England,Lab,17.0,,1
+2025-05-07,BMG Research,England,Ref,21.0,,1
+2025-05-07,BMG Research,England and Wales,Con,16.0,,1
+2025-05-07,BMG Research,England and Wales,Grn,5.0,,1
+2025-05-07,BMG Research,England and Wales,LDem,8.0,,1
+2025-05-07,BMG Research,England and Wales,Lab,17.0,,1
+2025-05-07,BMG Research,England and Wales,Ref,21.0,,1
+2025-05-07,BMG Research,London,Con,18.0,,1
+2025-05-07,BMG Research,London,Grn,4.0,,1
+2025-05-07,BMG Research,London,LDem,10.0,,1
+2025-05-07,BMG Research,London,Lab,31.0,,1
+2025-05-07,BMG Research,London,Ref,13.0,,1
+2025-05-07,BMG Research,Midlands,Con,15.5,,1
+2025-05-07,BMG Research,Midlands,Grn,5.5,,1
+2025-05-07,BMG Research,Midlands,LDem,6.0,,1
+2025-05-07,BMG Research,Midlands,Lab,14.0,,1
+2025-05-07,BMG Research,Midlands,Ref,24.5,,1
+2025-05-07,BMG Research,Northern England,Con,12.7,,1
+2025-05-07,BMG Research,Northern England,Grn,6.7,,1
+2025-05-07,BMG Research,Northern England,LDem,7.3,,1
+2025-05-07,BMG Research,Northern England,Lab,14.0,,1
+2025-05-07,BMG Research,Northern England,Ref,23.7,,1
+2025-05-07,BMG Research,Overall,Con,15.0,,1
+2025-05-07,BMG Research,Overall,Grn,5.0,,1
+2025-05-07,BMG Research,Overall,LDem,7.0,,1
+2025-05-07,BMG Research,Overall,Lab,17.0,,1
+2025-05-07,BMG Research,Overall,Ref,20.0,,1
+2025-05-07,BMG Research,Overall,SNP,1.0,,1
+2025-05-07,BMG Research,Scotland,Con,7.0,,1
+2025-05-07,BMG Research,Scotland,Grn,4.0,,1
+2025-05-07,BMG Research,Scotland,LDem,2.0,,1
+2025-05-07,BMG Research,Scotland,Lab,17.0,,1
+2025-05-07,BMG Research,Scotland,Ref,8.0,,1
+2025-05-07,BMG Research,Scotland,SNP,15.0,,1
+2025-05-07,BMG Research,Southern England,Con,16.3,,1
+2025-05-07,BMG Research,Southern England,Grn,3.3,,1
+2025-05-07,BMG Research,Southern England,LDem,8.7,,1
+2025-05-07,BMG Research,Southern England,Lab,15.0,,1
+2025-05-07,BMG Research,Southern England,Ref,22.0,,1
+2025-05-07,BMG Research,Wales,Con,15.0,,1
+2025-05-07,BMG Research,Wales,Grn,2.0,,1
+2025-05-07,BMG Research,Wales,LDem,2.0,,1
+2025-05-07,BMG Research,Wales,Lab,14.0,,1
+2025-05-07,BMG Research,Wales,PC,3.0,,1
+2025-05-07,BMG Research,Wales,Ref,16.0,,1
+2025-05-16,Opinium,Overall,Con,19.0,,1
+2025-05-16,Opinium,Overall,Lab,21.0,,1
+2025-05-26,YouGov,18-34,Con,7.0,,1
+2025-05-26,YouGov,18-34,Grn,8.0,,1
+2025-05-26,YouGov,18-34,LDem,8.0,,1
+2025-05-26,YouGov,18-34,Lab,20.0,,1
+2025-05-26,YouGov,18-34,Ref,4.0,,1
+2025-05-26,YouGov,35-49,Con,8.0,,1
+2025-05-26,YouGov,35-49,Grn,6.0,,1
+2025-05-26,YouGov,35-49,LDem,5.0,,1
+2025-05-26,YouGov,35-49,Lab,15.0,,1
+2025-05-26,YouGov,35-49,Ref,12.0,,1
+2025-05-26,YouGov,50-64,Con,21.0,,1
+2025-05-26,YouGov,50-64,Grn,2.0,,1
+2025-05-26,YouGov,50-64,LDem,5.0,,1
+2025-05-26,YouGov,50-64,Lab,15.0,,1
+2025-05-26,YouGov,50-64,Ref,16.0,,1
+2025-05-26,YouGov,65+,Con,30.0,,1
+2025-05-26,YouGov,65+,Grn,1.0,,1
+2025-05-26,YouGov,65+,LDem,5.0,,1
+2025-05-26,YouGov,65+,Lab,12.0,,1
+2025-05-26,YouGov,65+,Ref,19.0,,1
+2025-05-26,YouGov,ABC1,Con,18.0,,1
+2025-05-26,YouGov,ABC1,Grn,5.0,,1
+2025-05-26,YouGov,ABC1,LDem,6.0,,1
+2025-05-26,YouGov,ABC1,Lab,18.0,,1
+2025-05-26,YouGov,ABC1,Ref,11.0,,1
+2025-05-26,YouGov,C2DE,Con,14.0,,1
+2025-05-26,YouGov,C2DE,Grn,3.0,,1
+2025-05-26,YouGov,C2DE,LDem,5.0,,1
+2025-05-26,YouGov,C2DE,Lab,11.0,,1
+2025-05-26,YouGov,C2DE,Ref,18.0,,1
+2025-05-26,YouGov,Overall,Con,16.0,,1
+2025-05-26,YouGov,Overall,Grn,4.0,,1
+2025-05-26,YouGov,Overall,LDem,5.0,,1
+2025-05-26,YouGov,Overall,Lab,15.0,,1
+2025-05-26,YouGov,Overall,Ref,14.0,,1
+2025-05-28,BMG Research,Overall,Con,17.0,,1
+2025-05-28,BMG Research,Overall,Lab,18.0,,1
+2025-05-30,Opinium,Overall,Con,20.0,,1
+2025-05-30,Opinium,Overall,Lab,22.0,,1
+2025-06-02,Survation,Overall,Con,23.0,,1
+2025-06-02,Survation,Overall,Lab,26.0,,1
+2025-06-23,YouGov,18-34,Con,4.0,,1
+2025-06-23,YouGov,18-34,Grn,8.0,,1
+2025-06-23,YouGov,18-34,LDem,11.0,,1
+2025-06-23,YouGov,18-34,Lab,17.0,,1
+2025-06-23,YouGov,18-34,Ref,7.0,,1
+2025-06-23,YouGov,35-49,Con,11.0,,1
+2025-06-23,YouGov,35-49,Grn,4.0,,1
+2025-06-23,YouGov,35-49,LDem,5.0,,1
+2025-06-23,YouGov,35-49,Lab,16.0,,1
+2025-06-23,YouGov,35-49,Ref,11.0,,1
+2025-06-23,YouGov,50-64,Con,26.0,,1
+2025-06-23,YouGov,50-64,Grn,2.0,,1
+2025-06-23,YouGov,50-64,LDem,4.0,,1
+2025-06-23,YouGov,50-64,Lab,19.0,,1
+2025-06-23,YouGov,50-64,Ref,14.0,,1
+2025-06-23,YouGov,65+,Con,32.0,,1
+2025-06-23,YouGov,65+,Grn,1.0,,1
+2025-06-23,YouGov,65+,LDem,4.0,,1
+2025-06-23,YouGov,65+,Lab,12.0,,1
+2025-06-23,YouGov,65+,Ref,15.0,,1
+2025-06-23,YouGov,ABC1,Con,21.0,,1
+2025-06-23,YouGov,ABC1,Grn,4.0,,1
+2025-06-23,YouGov,ABC1,LDem,6.0,,1
+2025-06-23,YouGov,ABC1,Lab,18.0,,1
+2025-06-23,YouGov,ABC1,Ref,11.0,,1
+2025-06-23,YouGov,C2DE,Con,15.0,,1
+2025-06-23,YouGov,C2DE,Grn,2.0,,1
+2025-06-23,YouGov,C2DE,LDem,3.0,,1
+2025-06-23,YouGov,C2DE,Lab,13.0,,1
+2025-06-23,YouGov,C2DE,Ref,14.0,,1
+2025-06-23,YouGov,Overall,Con,19.0,,1
+2025-06-23,YouGov,Overall,Grn,3.0,,1
+2025-06-23,YouGov,Overall,LDem,5.0,,1
+2025-06-23,YouGov,Overall,Lab,16.0,,1
+2025-06-23,YouGov,Overall,Ref,12.0,,1
+2025-07-06,Freshwater Strategy,Overall,Con,28.0,,1
+2025-07-06,Freshwater Strategy,Overall,Lab,25.0,,1
+2025-07-07,More in Common,Overall,Con,23.0,,1
+2025-07-07,More in Common,Overall,Lab,19.0,,1
+2025-07-11,Opinium,Overall,Con,20.0,,1
+2025-07-11,Opinium,Overall,Lab,20.0,,1
+2025-07-18,JL Partners,Overall,Con,23.0,,1
+2025-07-18,JL Partners,Overall,Lab,21.0,,1
+2025-07-21,YouGov,18-34,Con,2.0,,1
+2025-07-21,YouGov,18-34,Grn,8.0,,1
+2025-07-21,YouGov,18-34,LDem,9.0,,1
+2025-07-21,YouGov,18-34,Lab,17.0,,1
+2025-07-21,YouGov,18-34,Ref,8.0,,1
+2025-07-21,YouGov,35-49,Con,13.0,,1
+2025-07-21,YouGov,35-49,Grn,6.0,,1
+2025-07-21,YouGov,35-49,LDem,5.0,,1
+2025-07-21,YouGov,35-49,Lab,14.0,,1
+2025-07-21,YouGov,35-49,Ref,9.0,,1
+2025-07-21,YouGov,50-64,Con,22.0,,1
+2025-07-21,YouGov,50-64,Grn,3.0,,1
+2025-07-21,YouGov,50-64,LDem,6.0,,1
+2025-07-21,YouGov,50-64,Lab,15.0,,1
+2025-07-21,YouGov,50-64,Ref,18.0,,1
+2025-07-21,YouGov,65+,Con,26.0,,1
+2025-07-21,YouGov,65+,Grn,2.0,,1
+2025-07-21,YouGov,65+,LDem,5.0,,1
+2025-07-21,YouGov,65+,Lab,10.0,,1
+2025-07-21,YouGov,65+,Ref,18.0,,1
+2025-07-21,YouGov,ABC1,Con,20.0,,1
+2025-07-21,YouGov,ABC1,Grn,5.0,,1
+2025-07-21,YouGov,ABC1,LDem,8.0,,1
+2025-07-21,YouGov,ABC1,Lab,16.0,,1
+2025-07-21,YouGov,ABC1,Ref,9.0,,1
+2025-07-21,YouGov,C2DE,Con,12.0,,1
+2025-07-21,YouGov,C2DE,Grn,3.0,,1
+2025-07-21,YouGov,C2DE,LDem,4.0,,1
+2025-07-21,YouGov,C2DE,Lab,11.0,,1
+2025-07-21,YouGov,C2DE,Ref,19.0,,1
+2025-07-21,YouGov,Overall,Con,17.0,,1
+2025-07-21,YouGov,Overall,Grn,4.0,,1
+2025-07-21,YouGov,Overall,LDem,6.0,,1
+2025-07-21,YouGov,Overall,Lab,14.0,,1
+2025-07-21,YouGov,Overall,Ref,13.0,,1
+2025-07-25,Opinium,Overall,Con,23.0,,1
+2025-07-25,Opinium,Overall,Lab,23.0,,1
+2025-07-31,BMG Research,Overall,Con,18.0,,1
+2025-07-31,BMG Research,Overall,Lab,18.0,,1
+2025-08-03,More in Common,Overall,Con,20.0,,1
+2025-08-03,More in Common,Overall,Lab,20.0,,1
+2025-08-24,YouGov,18-34,Con,7.0,,1
+2025-08-24,YouGov,18-34,Grn,6.0,,1
+2025-08-24,YouGov,18-34,LDem,10.0,,1
+2025-08-24,YouGov,18-34,Lab,16.0,,1
+2025-08-24,YouGov,18-34,Ref,9.0,,1
+2025-08-24,YouGov,35-49,Con,14.0,,1
+2025-08-24,YouGov,35-49,Grn,4.0,,1
+2025-08-24,YouGov,35-49,LDem,5.0,,1
+2025-08-24,YouGov,35-49,Lab,13.0,,1
+2025-08-24,YouGov,35-49,Ref,11.0,,1
+2025-08-24,YouGov,50-64,Con,22.0,,1
+2025-08-24,YouGov,50-64,Grn,3.0,,1
+2025-08-24,YouGov,50-64,LDem,4.0,,1
+2025-08-24,YouGov,50-64,Lab,14.0,,1
+2025-08-24,YouGov,50-64,Ref,15.0,,1
+2025-08-24,YouGov,65+,Con,26.0,,1
+2025-08-24,YouGov,65+,Grn,2.0,,1
+2025-08-24,YouGov,65+,LDem,8.0,,1
+2025-08-24,YouGov,65+,Lab,9.0,,1
+2025-08-24,YouGov,65+,Ref,15.0,,1
+2025-08-24,YouGov,ABC1,Con,20.0,,1
+2025-08-24,YouGov,ABC1,Grn,4.0,,1
+2025-08-24,YouGov,ABC1,LDem,6.0,,1
+2025-08-24,YouGov,ABC1,Lab,15.0,,1
+2025-08-24,YouGov,ABC1,Ref,9.0,,1
+2025-08-24,YouGov,C2DE,Con,15.0,,1
+2025-08-24,YouGov,C2DE,Grn,2.0,,1
+2025-08-24,YouGov,C2DE,LDem,7.0,,1
+2025-08-24,YouGov,C2DE,Lab,9.0,,1
+2025-08-24,YouGov,C2DE,Ref,17.0,,1
+2025-08-24,YouGov,Overall,Con,18.0,,1
+2025-08-24,YouGov,Overall,Grn,4.0,,1
+2025-08-24,YouGov,Overall,LDem,6.0,,1
+2025-08-24,YouGov,Overall,Lab,13.0,,1
+2025-08-24,YouGov,Overall,Ref,13.0,,1
+2025-09-22,YouGov,18-34,Con,11.0,,1
+2025-09-22,YouGov,18-34,Grn,9.0,,1
+2025-09-22,YouGov,18-34,LDem,10.0,,1
+2025-09-22,YouGov,18-34,Lab,11.0,,1
+2025-09-22,YouGov,18-34,Ref,3.0,,1
+2025-09-22,YouGov,35-49,Con,13.0,,1
+2025-09-22,YouGov,35-49,Grn,7.0,,1
+2025-09-22,YouGov,35-49,LDem,5.0,,1
+2025-09-22,YouGov,35-49,Lab,13.0,,1
+2025-09-22,YouGov,35-49,Ref,10.0,,1
+2025-09-22,YouGov,50-64,Con,18.0,,1
+2025-09-22,YouGov,50-64,Grn,1.0,,1
+2025-09-22,YouGov,50-64,LDem,8.0,,1
+2025-09-22,YouGov,50-64,Lab,15.0,,1
+2025-09-22,YouGov,50-64,Ref,15.0,,1
+2025-09-22,YouGov,65+,Con,26.0,,1
+2025-09-22,YouGov,65+,Grn,2.0,,1
+2025-09-22,YouGov,65+,LDem,6.0,,1
+2025-09-22,YouGov,65+,Lab,12.0,,1
+2025-09-22,YouGov,65+,Ref,22.0,,1
+2025-09-22,YouGov,ABC1,Con,19.0,,1
+2025-09-22,YouGov,ABC1,Grn,4.0,,1
+2025-09-22,YouGov,ABC1,LDem,8.0,,1
+2025-09-22,YouGov,ABC1,Lab,16.0,,1
+2025-09-22,YouGov,ABC1,Ref,11.0,,1
+2025-09-22,YouGov,C2DE,Con,14.0,,1
+2025-09-22,YouGov,C2DE,Grn,5.0,,1
+2025-09-22,YouGov,C2DE,LDem,5.0,,1
+2025-09-22,YouGov,C2DE,Lab,9.0,,1
+2025-09-22,YouGov,C2DE,Ref,16.0,,1
+2025-09-22,YouGov,Overall,Con,17.0,,1
+2025-09-22,YouGov,Overall,Grn,5.0,,1
+2025-09-22,YouGov,Overall,LDem,7.0,,1
+2025-09-22,YouGov,Overall,Lab,13.0,,1
+2025-09-22,YouGov,Overall,Ref,13.0,,1
+2025-10-03,Opinium,Overall,Con,20.0,,1
+2025-10-03,Opinium,Overall,Lab,22.0,,1
+2025-10-20,YouGov,18-34,Con,12.0,,1
+2025-10-20,YouGov,18-34,Grn,14.0,,1
+2025-10-20,YouGov,18-34,LDem,7.0,,1
+2025-10-20,YouGov,18-34,Lab,10.0,,1
+2025-10-20,YouGov,18-34,Ref,4.0,,1
+2025-10-20,YouGov,35-49,Con,13.0,,1
+2025-10-20,YouGov,35-49,Grn,7.0,,1
+2025-10-20,YouGov,35-49,LDem,6.0,,1
+2025-10-20,YouGov,35-49,Lab,12.0,,1
+2025-10-20,YouGov,35-49,Ref,11.0,,1
+2025-10-20,YouGov,50-64,Con,20.0,,1
+2025-10-20,YouGov,50-64,Grn,3.0,,1
+2025-10-20,YouGov,50-64,LDem,6.0,,1
+2025-10-20,YouGov,50-64,Lab,15.0,,1
+2025-10-20,YouGov,50-64,Ref,14.0,,1
+2025-10-20,YouGov,65+,Con,28.0,,1
+2025-10-20,YouGov,65+,Grn,3.0,,1
+2025-10-20,YouGov,65+,LDem,5.0,,1
+2025-10-20,YouGov,65+,Lab,9.0,,1
+2025-10-20,YouGov,65+,Ref,20.0,,1
+2025-10-20,YouGov,ABC1,Con,20.0,,1
+2025-10-20,YouGov,ABC1,Grn,7.0,,1
+2025-10-20,YouGov,ABC1,LDem,6.0,,1
+2025-10-20,YouGov,ABC1,Lab,15.0,,1
+2025-10-20,YouGov,ABC1,Ref,11.0,,1
+2025-10-20,YouGov,C2DE,Con,15.0,,1
+2025-10-20,YouGov,C2DE,Grn,5.0,,1
+2025-10-20,YouGov,C2DE,LDem,5.0,,1
+2025-10-20,YouGov,C2DE,Lab,8.0,,1
+2025-10-20,YouGov,C2DE,Ref,16.0,,1
+2025-10-20,YouGov,Overall,Con,18.0,,1
+2025-10-20,YouGov,Overall,Grn,6.0,,1
+2025-10-20,YouGov,Overall,LDem,6.0,,1
+2025-10-20,YouGov,Overall,Lab,12.0,,1
+2025-10-20,YouGov,Overall,Ref,13.0,,1
+2025-10-24,Opinium,Overall,Con,22.0,,1
+2025-10-24,Opinium,Overall,Lab,18.0,,1
+2025-11-07,Opinium,Overall,Con,29.0,,1
+2025-11-07,Opinium,Overall,Lab,24.0,,1
+2025-11-17,YouGov,18-34,Con,11.0,,1
+2025-11-17,YouGov,18-34,Grn,10.0,,1
+2025-11-17,YouGov,18-34,LDem,5.0,,1
+2025-11-17,YouGov,18-34,Lab,11.0,,1
+2025-11-17,YouGov,18-34,Ref,5.0,,1
+2025-11-17,YouGov,35-49,Con,14.0,,1
+2025-11-17,YouGov,35-49,Grn,10.0,,1
+2025-11-17,YouGov,35-49,LDem,5.0,,1
+2025-11-17,YouGov,35-49,Lab,13.0,,1
+2025-11-17,YouGov,35-49,Ref,12.0,,1
+2025-11-17,YouGov,50-64,Con,23.0,,1
+2025-11-17,YouGov,50-64,Grn,3.0,,1
+2025-11-17,YouGov,50-64,LDem,7.0,,1
+2025-11-17,YouGov,50-64,Lab,13.0,,1
+2025-11-17,YouGov,50-64,Ref,15.0,,1
+2025-11-17,YouGov,65+,Con,31.0,,1
+2025-11-17,YouGov,65+,Grn,2.0,,1
+2025-11-17,YouGov,65+,LDem,4.0,,1
+2025-11-17,YouGov,65+,Lab,11.0,,1
+2025-11-17,YouGov,65+,Ref,13.0,,1
+2025-11-17,YouGov,ABC1,Con,22.0,,1
+2025-11-17,YouGov,ABC1,Grn,8.0,,1
+2025-11-17,YouGov,ABC1,LDem,6.0,,1
+2025-11-17,YouGov,ABC1,Lab,15.0,,1
+2025-11-17,YouGov,ABC1,Ref,10.0,,1
+2025-11-17,YouGov,C2DE,Con,16.0,,1
+2025-11-17,YouGov,C2DE,Grn,6.0,,1
+2025-11-17,YouGov,C2DE,LDem,4.0,,1
+2025-11-17,YouGov,C2DE,Lab,9.0,,1
+2025-11-17,YouGov,C2DE,Ref,15.0,,1
+2025-11-17,YouGov,Overall,Con,20.0,,1
+2025-11-17,YouGov,Overall,Grn,7.0,,1
+2025-11-17,YouGov,Overall,LDem,6.0,,1
+2025-11-17,YouGov,Overall,Lab,12.0,,1
+2025-11-17,YouGov,Overall,Ref,12.0,,1
+2025-11-21,Opinium,Overall,Con,29.0,,1
+2025-11-21,Opinium,Overall,Lab,22.0,,1
+2025-11-28,Opinium,Overall,Con,25.0,,1
+2025-11-28,Opinium,Overall,Lab,19.0,,1
+2025-12-15,YouGov,18-34,Con,13.0,,1
+2025-12-15,YouGov,18-34,Grn,9.0,,1
+2025-12-15,YouGov,18-34,LDem,3.0,,1
+2025-12-15,YouGov,18-34,Lab,9.0,,1
+2025-12-15,YouGov,18-34,Ref,3.0,,1
+2025-12-15,YouGov,35-49,Con,12.0,,1
+2025-12-15,YouGov,35-49,Grn,8.0,,1
+2025-12-15,YouGov,35-49,LDem,7.0,,1
+2025-12-15,YouGov,35-49,Lab,11.0,,1
+2025-12-15,YouGov,35-49,Ref,12.0,,1
+2025-12-15,YouGov,50-64,Con,22.0,,1
+2025-12-15,YouGov,50-64,Grn,5.0,,1
+2025-12-15,YouGov,50-64,LDem,5.0,,1
+2025-12-15,YouGov,50-64,Lab,15.0,,1
+2025-12-15,YouGov,50-64,Ref,17.0,,1
+2025-12-15,YouGov,65+,Con,31.0,,1
+2025-12-15,YouGov,65+,Grn,1.0,,1
+2025-12-15,YouGov,65+,LDem,4.0,,1
+2025-12-15,YouGov,65+,Lab,12.0,,1
+2025-12-15,YouGov,65+,Ref,16.0,,1
+2025-12-15,YouGov,ABC1,Con,21.0,,1
+2025-12-15,YouGov,ABC1,Grn,8.0,,1
+2025-12-15,YouGov,ABC1,LDem,7.0,,1
+2025-12-15,YouGov,ABC1,Lab,15.0,,1
+2025-12-15,YouGov,ABC1,Ref,10.0,,1
+2025-12-15,YouGov,C2DE,Con,16.0,,1
+2025-12-15,YouGov,C2DE,Grn,3.0,,1
+2025-12-15,YouGov,C2DE,LDem,3.0,,1
+2025-12-15,YouGov,C2DE,Lab,9.0,,1
+2025-12-15,YouGov,C2DE,Ref,16.0,,1
+2025-12-15,YouGov,Overall,Con,19.0,,1
+2025-12-15,YouGov,Overall,Grn,6.0,,1
+2025-12-15,YouGov,Overall,LDem,5.0,,1
+2025-12-15,YouGov,Overall,Lab,12.0,,1
+2025-12-15,YouGov,Overall,Ref,13.0,,1
+2026-01-12,YouGov,18-34,Con,8.0,,1
+2026-01-12,YouGov,18-34,Grn,16.0,,1
+2026-01-12,YouGov,18-34,LDem,5.0,,1
+2026-01-12,YouGov,18-34,Lab,10.0,,1
+2026-01-12,YouGov,18-34,Ref,12.0,,1
+2026-01-12,YouGov,35-49,Con,15.0,,1
+2026-01-12,YouGov,35-49,Grn,10.0,,1
+2026-01-12,YouGov,35-49,LDem,7.0,,1
+2026-01-12,YouGov,35-49,Lab,12.0,,1
+2026-01-12,YouGov,35-49,Ref,11.0,,1
+2026-01-12,YouGov,50-64,Con,25.0,,1
+2026-01-12,YouGov,50-64,Grn,4.0,,1
+2026-01-12,YouGov,50-64,LDem,4.0,,1
+2026-01-12,YouGov,50-64,Lab,14.0,,1
+2026-01-12,YouGov,50-64,Ref,14.0,,1
+2026-01-12,YouGov,65+,Con,33.0,,1
+2026-01-12,YouGov,65+,Grn,2.0,,1
+2026-01-12,YouGov,65+,LDem,4.0,,1
+2026-01-12,YouGov,65+,Lab,10.0,,1
+2026-01-12,YouGov,65+,Ref,21.0,,1
+2026-01-12,YouGov,ABC1,Con,23.0,,1
+2026-01-12,YouGov,ABC1,Grn,7.0,,1
+2026-01-12,YouGov,ABC1,LDem,6.0,,1
+2026-01-12,YouGov,ABC1,Lab,14.0,,1
+2026-01-12,YouGov,ABC1,Ref,11.0,,1
+2026-01-12,YouGov,C2DE,Con,18.0,,1
+2026-01-12,YouGov,C2DE,Grn,7.0,,1
+2026-01-12,YouGov,C2DE,LDem,4.0,,1
+2026-01-12,YouGov,C2DE,Lab,9.0,,1
+2026-01-12,YouGov,C2DE,Ref,18.0,,1
+2026-01-12,YouGov,Overall,Con,21.0,,1
+2026-01-12,YouGov,Overall,Grn,7.0,,1
+2026-01-12,YouGov,Overall,LDem,5.0,,1
+2026-01-12,YouGov,Overall,Lab,12.0,,1
+2026-01-12,YouGov,Overall,Ref,14.0,,1
+2026-01-23,Opinium,Overall,Con,22.0,,1
+2026-01-23,Opinium,Overall,Lab,20.0,,1
+2026-02-01,Freshwater Strategy,Overall,Con,33.0,,1
+2026-02-01,Freshwater Strategy,Overall,Lab,20.0,,1
+2026-02-09,YouGov,18-34,Con,10.0,,1
+2026-02-09,YouGov,18-34,Grn,14.0,,1
+2026-02-09,YouGov,18-34,LDem,3.0,,1
+2026-02-09,YouGov,18-34,Lab,13.0,,1
+2026-02-09,YouGov,18-34,Ref,5.0,,1
+2026-02-09,YouGov,35-49,Con,14.0,,1
+2026-02-09,YouGov,35-49,Grn,7.0,,1
+2026-02-09,YouGov,35-49,LDem,6.0,,1
+2026-02-09,YouGov,35-49,Lab,12.0,,1
+2026-02-09,YouGov,35-49,Ref,10.0,,1
+2026-02-09,YouGov,50-64,Con,20.0,,1
+2026-02-09,YouGov,50-64,Grn,5.0,,1
+2026-02-09,YouGov,50-64,LDem,5.0,,1
+2026-02-09,YouGov,50-64,Lab,17.0,,1
+2026-02-09,YouGov,50-64,Ref,16.0,,1
+2026-02-09,YouGov,65+,Con,26.0,,1
+2026-02-09,YouGov,65+,Grn,2.0,,1
+2026-02-09,YouGov,65+,LDem,5.0,,1
+2026-02-09,YouGov,65+,Lab,14.0,,1
+2026-02-09,YouGov,65+,Ref,19.0,,1
+2026-02-09,YouGov,ABC1,Con,20.0,,1
+2026-02-09,YouGov,ABC1,Grn,7.0,,1
+2026-02-09,YouGov,ABC1,LDem,5.0,,1
+2026-02-09,YouGov,ABC1,Lab,18.0,,1
+2026-02-09,YouGov,ABC1,Ref,10.0,,1
+2026-02-09,YouGov,C2DE,Con,15.0,,1
+2026-02-09,YouGov,C2DE,Grn,5.0,,1
+2026-02-09,YouGov,C2DE,LDem,5.0,,1
+2026-02-09,YouGov,C2DE,Lab,9.0,,1
+2026-02-09,YouGov,C2DE,Ref,17.0,,1
+2026-02-09,YouGov,Overall,Con,18.0,,1
+2026-02-09,YouGov,Overall,Grn,6.0,,1
+2026-02-09,YouGov,Overall,LDem,5.0,,1
+2026-02-09,YouGov,Overall,Lab,14.0,,1
+2026-02-09,YouGov,Overall,Ref,13.0,,1
+2026-02-27,Opinium,Overall,Con,20.0,,1
+2026-02-27,Opinium,Overall,Lab,19.0,,1
+2026-03-05,Survation,Overall,Con,34.0,,1
+2026-03-05,Survation,Overall,Lab,27.0,,1
+2026-03-06,Opinium,Overall,Con,23.0,,1
+2026-03-06,Opinium,Overall,Lab,19.0,,1
+2026-03-09,YouGov,18-34,Con,12.0,,1
+2026-03-09,YouGov,18-34,Grn,20.0,,1
+2026-03-09,YouGov,18-34,LDem,4.0,,1
+2026-03-09,YouGov,18-34,Lab,9.0,,1
+2026-03-09,YouGov,18-34,Ref,8.0,,1
+2026-03-09,YouGov,35-49,Con,14.0,,1
+2026-03-09,YouGov,35-49,Grn,9.0,,1
+2026-03-09,YouGov,35-49,LDem,6.0,,1
+2026-03-09,YouGov,35-49,Lab,11.0,,1
+2026-03-09,YouGov,35-49,Ref,10.0,,1
+2026-03-09,YouGov,50-64,Con,19.0,,1
+2026-03-09,YouGov,50-64,Grn,4.0,,1
+2026-03-09,YouGov,50-64,LDem,5.0,,1
+2026-03-09,YouGov,50-64,Lab,15.0,,1
+2026-03-09,YouGov,50-64,Ref,12.0,,1
+2026-03-09,YouGov,65+,Con,25.0,,1
+2026-03-09,YouGov,65+,Grn,2.0,,1
+2026-03-09,YouGov,65+,LDem,5.0,,1
+2026-03-09,YouGov,65+,Lab,10.0,,1
+2026-03-09,YouGov,65+,Ref,21.0,,1
+2026-03-09,YouGov,ABC1,Con,19.0,,1
+2026-03-09,YouGov,ABC1,Grn,8.0,,1
+2026-03-09,YouGov,ABC1,LDem,5.0,,1
+2026-03-09,YouGov,ABC1,Lab,15.0,,1
+2026-03-09,YouGov,ABC1,Ref,11.0,,1
+2026-03-09,YouGov,C2DE,Con,15.0,,1
+2026-03-09,YouGov,C2DE,Grn,6.0,,1
+2026-03-09,YouGov,C2DE,LDem,5.0,,1
+2026-03-09,YouGov,C2DE,Lab,8.0,,1
+2026-03-09,YouGov,C2DE,Ref,16.0,,1
+2026-03-09,YouGov,Overall,Con,17.0,,1
+2026-03-09,YouGov,Overall,Grn,8.0,,1
+2026-03-09,YouGov,Overall,LDem,5.0,,1
+2026-03-09,YouGov,Overall,Lab,12.0,,1
+2026-03-09,YouGov,Overall,Ref,13.0,,1
+2026-04-06,YouGov,18-34,Con,10.0,,1
+2026-04-06,YouGov,18-34,Grn,10.0,,1
+2026-04-06,YouGov,18-34,LDem,8.0,,1
+2026-04-06,YouGov,18-34,Lab,15.0,,1
+2026-04-06,YouGov,18-34,Ref,4.0,,1
+2026-04-06,YouGov,35-49,Con,13.0,,1
+2026-04-06,YouGov,35-49,Grn,11.0,,1
+2026-04-06,YouGov,35-49,LDem,6.0,,1
+2026-04-06,YouGov,35-49,Lab,14.0,,1
+2026-04-06,YouGov,35-49,Ref,8.0,,1
+2026-04-06,YouGov,50-64,Con,20.0,,1
+2026-04-06,YouGov,50-64,Grn,3.0,,1
+2026-04-06,YouGov,50-64,LDem,6.0,,1
+2026-04-06,YouGov,50-64,Lab,13.0,,1
+2026-04-06,YouGov,50-64,Ref,17.0,,1
+2026-04-06,YouGov,65+,Con,30.0,,1
+2026-04-06,YouGov,65+,Grn,2.0,,1
+2026-04-06,YouGov,65+,LDem,5.0,,1
+2026-04-06,YouGov,65+,Lab,12.0,,1
+2026-04-06,YouGov,65+,Ref,19.0,,1
+2026-04-06,YouGov,ABC1,Con,20.0,,1
+2026-04-06,YouGov,ABC1,Grn,7.0,,1
+2026-04-06,YouGov,ABC1,LDem,7.0,,1
+2026-04-06,YouGov,ABC1,Lab,18.0,,1
+2026-04-06,YouGov,ABC1,Ref,10.0,,1
+2026-04-06,YouGov,C2DE,Con,16.0,,1
+2026-04-06,YouGov,C2DE,Grn,6.0,,1
+2026-04-06,YouGov,C2DE,LDem,4.0,,1
+2026-04-06,YouGov,C2DE,Lab,9.0,,1
+2026-04-06,YouGov,C2DE,Ref,15.0,,1
+2026-04-06,YouGov,Overall,Con,18.0,,1
+2026-04-06,YouGov,Overall,Grn,7.0,,1
+2026-04-06,YouGov,Overall,LDem,6.0,,1
+2026-04-06,YouGov,Overall,Lab,14.0,,1
+2026-04-06,YouGov,Overall,Ref,12.0,,1
+2026-04-12,Freshwater Strategy,Overall,Con,25.0,,1
+2026-04-12,Freshwater Strategy,Overall,Lab,18.0,,1
+2026-04-30,Opinium,18-34,Con,16.0,1743,1
+2026-04-30,Opinium,18-34,Grn,19.0,1743,1
+2026-04-30,Opinium,18-34,LDem,6.0,1743,1
+2026-04-30,Opinium,18-34,Lab,19.0,1743,1
+2026-04-30,Opinium,18-34,UKIP,12.0,1743,1
+2026-04-30,Opinium,35-49,Con,10.0,1743,1
+2026-04-30,Opinium,35-49,Grn,15.0,1743,1
+2026-04-30,Opinium,35-49,LDem,5.0,1743,1
+2026-04-30,Opinium,35-49,Lab,16.0,1743,1
+2026-04-30,Opinium,35-49,UKIP,9.0,1743,1
+2026-04-30,Opinium,50-64,Con,13.0,1743,1
+2026-04-30,Opinium,50-64,Grn,14.0,1743,1
+2026-04-30,Opinium,50-64,LDem,9.0,1743,1
+2026-04-30,Opinium,50-64,Lab,10.0,1743,1
+2026-04-30,Opinium,50-64,UKIP,7.0,1743,1
+2026-04-30,Opinium,65+,Con,18.0,1743,1
+2026-04-30,Opinium,65+,Grn,15.0,1743,1
+2026-04-30,Opinium,65+,LDem,9.0,1743,1
+2026-04-30,Opinium,65+,Lab,8.0,1743,1
+2026-04-30,Opinium,65+,UKIP,2.0,1743,1
+2026-04-30,Opinium,London,Con,15.0,1743,1
+2026-04-30,Opinium,London,Grn,16.0,1743,1
+2026-04-30,Opinium,London,LDem,6.0,1743,1
+2026-04-30,Opinium,London,Lab,19.0,1743,1
+2026-04-30,Opinium,London,UKIP,11.0,1743,1
+2026-04-30,Opinium,Midlands,Con,15.0,1743,1
+2026-04-30,Opinium,Midlands,Grn,18.0,1743,1
+2026-04-30,Opinium,Midlands,LDem,6.0,1743,1
+2026-04-30,Opinium,Midlands,Lab,15.0,1743,1
+2026-04-30,Opinium,Midlands,UKIP,6.0,1743,1
+2026-04-30,Opinium,Northern England,Con,10.0,1743,1
+2026-04-30,Opinium,Northern England,Grn,16.0,1743,1
+2026-04-30,Opinium,Northern England,LDem,7.0,1743,1
+2026-04-30,Opinium,Northern England,Lab,14.0,1743,1
+2026-04-30,Opinium,Northern England,UKIP,9.0,1743,1
+2026-04-30,Opinium,Overall,Con,14.0,1743,1
+2026-04-30,Opinium,Overall,Grn,16.0,1743,1
+2026-04-30,Opinium,Overall,LDem,7.0,1743,1
+2026-04-30,Opinium,Overall,Lab,14.0,1743,1
+2026-04-30,Opinium,Overall,UKIP,8.0,1743,1
+2026-04-30,Opinium,Southern England,Con,16.0,1743,1
+2026-04-30,Opinium,Southern England,Grn,14.0,1743,1
+2026-04-30,Opinium,Southern England,LDem,9.0,1743,1
+2026-04-30,Opinium,Southern England,Lab,10.0,1743,1
+2026-04-30,Opinium,Southern England,UKIP,6.0,1743,1
+2026-05-04,YouGov,18-34,Con,9.0,,1
+2026-05-04,YouGov,18-34,Grn,14.0,,1
+2026-05-04,YouGov,18-34,LDem,8.0,,1
+2026-05-04,YouGov,18-34,Lab,16.0,,1
+2026-05-04,YouGov,18-34,Ref,4.0,,1
+2026-05-04,YouGov,35-49,Con,13.0,,1
+2026-05-04,YouGov,35-49,Grn,9.0,,1
+2026-05-04,YouGov,35-49,LDem,6.0,,1
+2026-05-04,YouGov,35-49,Lab,16.0,,1
+2026-05-04,YouGov,35-49,Ref,8.0,,1
+2026-05-04,YouGov,50-64,Con,19.0,,1
+2026-05-04,YouGov,50-64,Grn,4.0,,1
+2026-05-04,YouGov,50-64,LDem,6.0,,1
+2026-05-04,YouGov,50-64,Lab,17.0,,1
+2026-05-04,YouGov,50-64,Ref,14.0,,1
+2026-05-04,YouGov,65+,Con,34.0,,1
+2026-05-04,YouGov,65+,Grn,2.0,,1
+2026-05-04,YouGov,65+,LDem,5.0,,1
+2026-05-04,YouGov,65+,Lab,11.0,,1
+2026-05-04,YouGov,65+,Ref,15.0,,1
+2026-05-04,YouGov,ABC1,Con,19.0,,1
+2026-05-04,YouGov,ABC1,Grn,7.0,,1
+2026-05-04,YouGov,ABC1,LDem,7.0,,1
+2026-05-04,YouGov,ABC1,Lab,18.0,,1
+2026-05-04,YouGov,ABC1,Ref,9.0,,1
+2026-05-04,YouGov,C2DE,Con,19.0,,1
+2026-05-04,YouGov,C2DE,Grn,7.0,,1
+2026-05-04,YouGov,C2DE,LDem,4.0,,1
+2026-05-04,YouGov,C2DE,Lab,11.0,,1
+2026-05-04,YouGov,C2DE,Ref,13.0,,1
+2026-05-04,YouGov,Overall,Con,19.0,,1
+2026-05-04,YouGov,Overall,Grn,7.0,,1
+2026-05-04,YouGov,Overall,LDem,6.0,,1
+2026-05-04,YouGov,Overall,Lab,15.0,,1
+2026-05-04,YouGov,Overall,Ref,11.0,,1
+2026-05-08,Opinium,Overall,Con,27.0,,1
+2026-05-08,Opinium,Overall,Lab,19.0,,1
+2026-05-27,BMG Research,18-34,Con,12.7,,1
+2026-05-27,BMG Research,18-34,Grn,14.0,,1
+2026-05-27,BMG Research,18-34,Lab,11.7,,1
+2026-05-27,BMG Research,18-34,PC,1.0,,1
+2026-05-27,BMG Research,18-34,Ref,16.7,,1
+2026-05-27,BMG Research,18-34,SNP,1.5,,1
+2026-05-27,BMG Research,35-49,Con,12.7,,1
+2026-05-27,BMG Research,35-49,Grn,8.0,,1
+2026-05-27,BMG Research,35-49,Lab,8.0,,1
+2026-05-27,BMG Research,35-49,PC,1.0,,1
+2026-05-27,BMG Research,35-49,Ref,17.0,,1
+2026-05-27,BMG Research,35-49,SNP,2.0,,1
+2026-05-27,BMG Research,50-64,Con,22.0,,1
+2026-05-27,BMG Research,50-64,Grn,5.0,,1
+2026-05-27,BMG Research,50-64,Lab,5.0,,1
+2026-05-27,BMG Research,50-64,PC,1.0,,1
+2026-05-27,BMG Research,50-64,Ref,18.0,,1
+2026-05-27,BMG Research,50-64,SNP,1.0,,1
+2026-05-27,BMG Research,65+,Con,24.5,,1
+2026-05-27,BMG Research,65+,Grn,2.0,,1
+2026-05-27,BMG Research,65+,Lab,5.0,,1
+2026-05-27,BMG Research,65+,PC,1.0,,1
+2026-05-27,BMG Research,65+,Ref,21.0,,1
+2026-05-27,BMG Research,65+,SNP,1.0,,1
+2026-05-27,BMG Research,England,Con,17.0,,1
+2026-05-27,BMG Research,England,Grn,8.0,,1
+2026-05-27,BMG Research,England,Lab,8.0,,1
+2026-05-27,BMG Research,England,Ref,19.0,,1
+2026-05-27,BMG Research,England and Wales,Con,17.0,,1
+2026-05-27,BMG Research,England and Wales,Grn,8.0,,1
+2026-05-27,BMG Research,England and Wales,Lab,8.0,,1
+2026-05-27,BMG Research,England and Wales,PC,1.0,,1
+2026-05-27,BMG Research,England and Wales,Ref,19.0,,1
+2026-05-27,BMG Research,London,Con,16.0,,1
+2026-05-27,BMG Research,London,Grn,7.0,,1
+2026-05-27,BMG Research,London,Lab,10.0,,1
+2026-05-27,BMG Research,London,Ref,16.0,,1
+2026-05-27,BMG Research,Midlands,Con,17.0,,1
+2026-05-27,BMG Research,Midlands,Grn,7.0,,1
+2026-05-27,BMG Research,Midlands,Lab,6.5,,1
+2026-05-27,BMG Research,Midlands,Ref,17.5,,1
+2026-05-27,BMG Research,Northern England,Con,18.0,,1
+2026-05-27,BMG Research,Northern England,Grn,7.3,,1
+2026-05-27,BMG Research,Northern England,Lab,6.3,,1
+2026-05-27,BMG Research,Northern England,Ref,22.7,,1
+2026-05-27,BMG Research,Overall,Con,17.0,,1
+2026-05-27,BMG Research,Overall,Grn,7.0,,1
+2026-05-27,BMG Research,Overall,Lab,8.0,,1
+2026-05-27,BMG Research,Overall,PC,1.0,,1
+2026-05-27,BMG Research,Overall,Ref,18.0,,1
+2026-05-27,BMG Research,Overall,SNP,1.0,,1
+2026-05-27,BMG Research,Scotland,Con,16.0,,1
+2026-05-27,BMG Research,Scotland,Grn,3.0,,1
+2026-05-27,BMG Research,Scotland,Lab,4.0,,1
+2026-05-27,BMG Research,Scotland,Ref,10.0,,1
+2026-05-27,BMG Research,Scotland,SNP,14.0,,1
+2026-05-27,BMG Research,Southern England,Con,17.0,,1
+2026-05-27,BMG Research,Southern England,Grn,9.0,,1
+2026-05-27,BMG Research,Southern England,Lab,9.3,,1
+2026-05-27,BMG Research,Southern England,Ref,19.3,,1
+2026-05-27,BMG Research,Wales,Con,13.0,,1
+2026-05-27,BMG Research,Wales,Grn,3.0,,1
+2026-05-27,BMG Research,Wales,Lab,7.0,,1
+2026-05-27,BMG Research,Wales,PC,12.0,,1
+2026-05-27,BMG Research,Wales,Ref,17.0,,1
+2026-06-01,YouGov,18-34,Con,11.0,,1
+2026-06-01,YouGov,18-34,Grn,23.0,,1
+2026-06-01,YouGov,18-34,LDem,9.0,,1
+2026-06-01,YouGov,18-34,Lab,11.0,,1
+2026-06-01,YouGov,18-34,Ref,6.0,,1
+2026-06-01,YouGov,35-49,Con,13.0,,1
+2026-06-01,YouGov,35-49,Grn,9.0,,1
+2026-06-01,YouGov,35-49,LDem,6.0,,1
+2026-06-01,YouGov,35-49,Lab,13.0,,1
+2026-06-01,YouGov,35-49,Ref,10.0,,1
+2026-06-01,YouGov,50-64,Con,22.0,,1
+2026-06-01,YouGov,50-64,Grn,4.0,,1
+2026-06-01,YouGov,50-64,LDem,4.0,,1
+2026-06-01,YouGov,50-64,Lab,14.0,,1
+2026-06-01,YouGov,50-64,Ref,16.0,,1
+2026-06-01,YouGov,65+,Con,27.0,,1
+2026-06-01,YouGov,65+,Grn,2.0,,1
+2026-06-01,YouGov,65+,LDem,5.0,,1
+2026-06-01,YouGov,65+,Lab,15.0,,1
+2026-06-01,YouGov,65+,Ref,17.0,,1
+2026-06-01,YouGov,ABC1,Con,21.0,,1
+2026-06-01,YouGov,ABC1,Grn,8.0,,1
+2026-06-01,YouGov,ABC1,LDem,7.0,,1
+2026-06-01,YouGov,ABC1,Lab,17.0,,1
+2026-06-01,YouGov,ABC1,Ref,11.0,,1
+2026-06-01,YouGov,C2DE,Con,14.0,,1
+2026-06-01,YouGov,C2DE,Grn,7.0,,1
+2026-06-01,YouGov,C2DE,LDem,4.0,,1
+2026-06-01,YouGov,C2DE,Lab,9.0,,1
+2026-06-01,YouGov,C2DE,Ref,15.0,,1
+2026-06-01,YouGov,Overall,Con,18.0,,1
+2026-06-01,YouGov,Overall,Grn,7.0,,1
+2026-06-01,YouGov,Overall,LDem,6.0,,1
+2026-06-01,YouGov,Overall,Lab,14.0,,1
+2026-06-01,YouGov,Overall,Ref,13.0,,1
+2026-06-29,YouGov,18-34,Con,9.0,,1
+2026-06-29,YouGov,18-34,Grn,19.0,,1
+2026-06-29,YouGov,18-34,LDem,7.0,,1
+2026-06-29,YouGov,18-34,Lab,15.0,,1
+2026-06-29,YouGov,18-34,Ref,4.0,,1
+2026-06-29,YouGov,35-49,Con,14.0,,1
+2026-06-29,YouGov,35-49,Grn,5.0,,1
+2026-06-29,YouGov,35-49,LDem,5.0,,1
+2026-06-29,YouGov,35-49,Lab,15.0,,1
+2026-06-29,YouGov,35-49,Ref,10.0,,1
+2026-06-29,YouGov,50-64,Con,21.0,,1
+2026-06-29,YouGov,50-64,Grn,2.0,,1
+2026-06-29,YouGov,50-64,LDem,5.0,,1
+2026-06-29,YouGov,50-64,Lab,22.0,,1
+2026-06-29,YouGov,50-64,Ref,10.0,,1
+2026-06-29,YouGov,65+,Con,33.0,,1
+2026-06-29,YouGov,65+,Grn,1.0,,1
+2026-06-29,YouGov,65+,LDem,3.0,,1
+2026-06-29,YouGov,65+,Lab,15.0,,1
+2026-06-29,YouGov,65+,Ref,15.0,,1
+2026-06-29,YouGov,ABC1,Con,23.0,,1
+2026-06-29,YouGov,ABC1,Grn,5.0,,1
+2026-06-29,YouGov,ABC1,LDem,5.0,,1
+2026-06-29,YouGov,ABC1,Lab,22.0,,1
+2026-06-29,YouGov,ABC1,Ref,9.0,,1
+2026-06-29,YouGov,C2DE,Con,15.0,,1
+2026-06-29,YouGov,C2DE,Grn,5.0,,1
+2026-06-29,YouGov,C2DE,LDem,3.0,,1
+2026-06-29,YouGov,C2DE,Lab,10.0,,1
+2026-06-29,YouGov,C2DE,Ref,13.0,,1
+2026-06-29,YouGov,Overall,Con,20.0,,1
+2026-06-29,YouGov,Overall,Grn,5.0,,1
+2026-06-29,YouGov,Overall,LDem,5.0,,1
+2026-06-29,YouGov,Overall,Lab,17.0,,1
+2026-06-29,YouGov,Overall,Ref,10.0,,1
+2026-07-02,Opinium,18-34,Con,20.0,,1
+2026-07-02,Opinium,18-34,Lab,23.0,,1
+2026-07-02,Opinium,35-49,Con,20.0,,1
+2026-07-02,Opinium,35-49,Lab,21.0,,1
+2026-07-02,Opinium,50-64,Con,25.0,,1
+2026-07-02,Opinium,50-64,Lab,18.0,,1
+2026-07-02,Opinium,65+,Con,36.0,,1
+2026-07-02,Opinium,65+,Lab,12.0,,1
+2026-07-02,Opinium,London,Con,23.0,,1
+2026-07-02,Opinium,London,Lab,23.0,,1
+2026-07-02,Opinium,Midlands,Con,28.0,,1
+2026-07-02,Opinium,Midlands,Lab,13.0,,1
+2026-07-02,Opinium,Northern England,Con,24.0,,1
+2026-07-02,Opinium,Northern England,Lab,18.0,,1
+2026-07-02,Opinium,Overall,Con,25.0,,1
+2026-07-02,Opinium,Overall,Lab,19.0,,1
+2026-07-02,Opinium,Scotland,Con,18.0,,1
+2026-07-02,Opinium,Scotland,Lab,28.0,,1
+2026-07-02,Opinium,Southern England,Con,27.0,,1
+2026-07-02,Opinium,Southern England,Lab,18.0,,1
+2026-07-02,Opinium,Wales,Con,29.0,,1
+2026-07-02,Opinium,Wales,Lab,22.0,,1
+2026-07-14,Survation,18-34,Con,11.0,,1
+2026-07-14,Survation,18-34,Grn,20.5,,1
+2026-07-14,Survation,18-34,LDem,9.5,,1
+2026-07-14,Survation,18-34,Lab,20.5,,1
+2026-07-14,Survation,18-34,UKIP,21.5,,1
+2026-07-14,Survation,35-49,Con,17.5,,1
+2026-07-14,Survation,35-49,Grn,18.0,,1
+2026-07-14,Survation,35-49,LDem,9.0,,1
+2026-07-14,Survation,35-49,Lab,21.5,,1
+2026-07-14,Survation,35-49,UKIP,7.0,,1
+2026-07-14,Survation,50-64,Con,19.0,,1
+2026-07-14,Survation,50-64,Grn,24.0,,1
+2026-07-14,Survation,50-64,LDem,8.0,,1
+2026-07-14,Survation,50-64,Lab,18.0,,1
+2026-07-14,Survation,50-64,UKIP,5.0,,1
+2026-07-14,Survation,65+,Con,32.0,,1
+2026-07-14,Survation,65+,Grn,19.0,,1
+2026-07-14,Survation,65+,LDem,8.0,,1
+2026-07-14,Survation,65+,Lab,15.0,,1
+2026-07-14,Survation,65+,UKIP,3.0,,1
+2026-07-14,Survation,ABC1,Con,20.0,,1
+2026-07-14,Survation,ABC1,Grn,18.0,,1
+2026-07-14,Survation,ABC1,LDem,10.0,,1
+2026-07-14,Survation,ABC1,Lab,21.0,,1
+2026-07-14,Survation,ABC1,UKIP,11.0,,1
+2026-07-14,Survation,C2DE,Con,19.0,,1
+2026-07-14,Survation,C2DE,Grn,23.0,,1
+2026-07-14,Survation,C2DE,LDem,7.0,,1
+2026-07-14,Survation,C2DE,Lab,17.0,,1
+2026-07-14,Survation,C2DE,UKIP,7.0,,1
+2026-07-14,Survation,England,Con,20.0,,1
+2026-07-14,Survation,England,Grn,20.0,,1
+2026-07-14,Survation,England,LDem,9.0,,1
+2026-07-14,Survation,England,Lab,20.0,,1
+2026-07-14,Survation,England,UKIP,10.0,,1
+2026-07-14,Survation,London,Con,18.0,,1
+2026-07-14,Survation,London,Grn,20.0,,1
+2026-07-14,Survation,London,LDem,10.0,,1
+2026-07-14,Survation,London,Lab,21.0,,1
+2026-07-14,Survation,London,UKIP,13.0,,1
+2026-07-14,Survation,Midlands,Con,16.0,,1
+2026-07-14,Survation,Midlands,Grn,21.0,,1
+2026-07-14,Survation,Midlands,LDem,9.0,,1
+2026-07-14,Survation,Midlands,Lab,19.0,,1
+2026-07-14,Survation,Midlands,UKIP,9.0,,1
+2026-07-14,Survation,Northern England,Con,18.0,,1
+2026-07-14,Survation,Northern England,Grn,20.0,,1
+2026-07-14,Survation,Northern England,LDem,6.0,,1
+2026-07-14,Survation,Northern England,Lab,26.0,,1
+2026-07-14,Survation,Northern England,UKIP,10.0,,1
+2026-07-14,Survation,Northern Ireland,Con,36.0,,1
+2026-07-14,Survation,Northern Ireland,Grn,22.0,,1
+2026-07-14,Survation,Northern Ireland,LDem,1.0,,1
+2026-07-14,Survation,Northern Ireland,Lab,13.0,,1
+2026-07-14,Survation,Northern Ireland,UKIP,10.0,,1
+2026-07-14,Survation,Overall,Con,20.0,,1
+2026-07-14,Survation,Overall,Grn,20.0,,1
+2026-07-14,Survation,Overall,LDem,9.0,,1
+2026-07-14,Survation,Overall,Lab,19.0,,1
+2026-07-14,Survation,Overall,UKIP,9.0,,1
+2026-07-14,Survation,Scotland,Con,12.0,,1
+2026-07-14,Survation,Scotland,Grn,18.0,,1
+2026-07-14,Survation,Scotland,LDem,14.0,,1
+2026-07-14,Survation,Scotland,Lab,18.0,,1
+2026-07-14,Survation,Scotland,UKIP,6.0,,1
+2026-07-14,Survation,Southern England,Con,23.0,,1
+2026-07-14,Survation,Southern England,Grn,20.0,,1
+2026-07-14,Survation,Southern England,LDem,10.0,,1
+2026-07-14,Survation,Southern England,Lab,15.0,,1
+2026-07-14,Survation,Southern England,UKIP,8.0,,1
+2026-07-14,Survation,Wales,Con,22.0,,1
+2026-07-14,Survation,Wales,Grn,18.0,,1
+2026-07-14,Survation,Wales,LDem,4.0,,1
+2026-07-14,Survation,Wales,Lab,17.0,,1
+2026-07-14,Survation,Wales,UKIP,5.0,,1
+2026-07-24,Survation,18-34,Con,20.8,,2
+2026-07-24,Survation,18-34,Grn,20.0,,1
+2026-07-24,Survation,18-34,LDem,9.5,,1
+2026-07-24,Survation,18-34,Lab,38.2,,2
+2026-07-24,Survation,18-34,UKIP,18.5,,1
+2026-07-24,Survation,35-49,Con,17.3,,2
+2026-07-24,Survation,35-49,Grn,18.0,,1
+2026-07-24,Survation,35-49,LDem,7.5,,1
+2026-07-24,Survation,35-49,Lab,33.2,,2
+2026-07-24,Survation,35-49,UKIP,4.5,,1
+2026-07-24,Survation,50-64,Con,23.7,,2
+2026-07-24,Survation,50-64,Grn,22.0,,1
+2026-07-24,Survation,50-64,LDem,9.0,,1
+2026-07-24,Survation,50-64,Lab,28.7,,2
+2026-07-24,Survation,50-64,UKIP,2.0,,1
+2026-07-24,Survation,65+,Con,39.3,,2
+2026-07-24,Survation,65+,Grn,20.0,,1
+2026-07-24,Survation,65+,LDem,3.0,,1
+2026-07-24,Survation,65+,Lab,24.7,,2
+2026-07-24,Survation,65+,UKIP,1.0,,1
+2026-07-24,Survation,ABC1,Con,25.0,,2
+2026-07-24,Survation,ABC1,Grn,17.0,,1
+2026-07-24,Survation,ABC1,LDem,10.0,,1
+2026-07-24,Survation,ABC1,Lab,36.3,,2
+2026-07-24,Survation,ABC1,UKIP,8.0,,1
+2026-07-24,Survation,C2DE,Con,24.3,,2
+2026-07-24,Survation,C2DE,Grn,22.0,,1
+2026-07-24,Survation,C2DE,LDem,5.0,,1
+2026-07-24,Survation,C2DE,Lab,26.0,,2
+2026-07-24,Survation,C2DE,UKIP,5.0,,1
+2026-07-24,Survation,England,Con,25.3,,2
+2026-07-24,Survation,England,Grn,20.0,,1
+2026-07-24,Survation,England,LDem,7.0,,1
+2026-07-24,Survation,England,Lab,31.7,,2
+2026-07-24,Survation,England,UKIP,7.0,,1
+2026-07-24,Survation,London,Con,28.7,,2
+2026-07-24,Survation,London,Grn,16.0,,1
+2026-07-24,Survation,London,LDem,12.0,,1
+2026-07-24,Survation,London,Lab,33.3,,2
+2026-07-24,Survation,London,UKIP,8.0,,1
+2026-07-24,Survation,Midlands,Con,25.3,,2
+2026-07-24,Survation,Midlands,Grn,22.0,,1
+2026-07-24,Survation,Midlands,LDem,6.0,,1
+2026-07-24,Survation,Midlands,Lab,26.7,,2
+2026-07-24,Survation,Midlands,UKIP,7.0,,1
+2026-07-24,Survation,Northern England,Con,22.0,,2
+2026-07-24,Survation,Northern England,Grn,20.0,,1
+2026-07-24,Survation,Northern England,LDem,6.0,,1
+2026-07-24,Survation,Northern England,Lab,37.3,,2
+2026-07-24,Survation,Northern England,UKIP,9.0,,1
+2026-07-24,Survation,Northern Ireland,Con,34.0,,2
+2026-07-24,Survation,Northern Ireland,Grn,8.0,,1
+2026-07-24,Survation,Northern Ireland,LDem,4.0,,1
+2026-07-24,Survation,Northern Ireland,Lab,31.3,,2
+2026-07-24,Survation,Northern Ireland,UKIP,4.0,,1
+2026-07-24,Survation,Scotland,Con,15.3,,2
+2026-07-24,Survation,Scotland,Grn,15.0,,1
+2026-07-24,Survation,Scotland,LDem,12.0,,1
+2026-07-24,Survation,Scotland,Lab,31.0,,2
+2026-07-24,Survation,Scotland,UKIP,4.0,,1
+2026-07-24,Survation,Southern England,Con,26.7,,2
+2026-07-24,Survation,Southern England,Grn,22.0,,1
+2026-07-24,Survation,Southern England,LDem,8.0,,1
+2026-07-24,Survation,Southern England,Lab,29.3,,2
+2026-07-24,Survation,Southern England,UKIP,6.0,,1
+2026-07-24,Survation,Wales,Con,24.3,,2
+2026-07-24,Survation,Wales,Grn,19.0,,1
+2026-07-24,Survation,Wales,LDem,8.0,,1
+2026-07-24,Survation,Wales,Lab,35.0,,2
+2026-07-24,Survation,Wales,UKIP,6.0,,1
+2026-08-10,YouGov,18-34,Con,5.0,,1
+2026-08-10,YouGov,18-34,Grn,14.0,,1
+2026-08-10,YouGov,18-34,LDem,7.0,,1
+2026-08-10,YouGov,18-34,Lab,19.0,,1
+2026-08-10,YouGov,18-34,Ref,5.0,,1
+2026-08-10,YouGov,35-49,Con,14.0,,1
+2026-08-10,YouGov,35-49,Grn,5.0,,1
+2026-08-10,YouGov,35-49,LDem,4.0,,1
+2026-08-10,YouGov,35-49,Lab,17.0,,1
+2026-08-10,YouGov,35-49,Ref,9.0,,1
+2026-08-10,YouGov,50-64,Con,25.0,,1
+2026-08-10,YouGov,50-64,Grn,3.0,,1
+2026-08-10,YouGov,50-64,LDem,3.0,,1
+2026-08-10,YouGov,50-64,Lab,20.0,,1
+2026-08-10,YouGov,50-64,Ref,11.0,,1
+2026-08-10,YouGov,65+,Con,33.0,,1
+2026-08-10,YouGov,65+,Grn,2.0,,1
+2026-08-10,YouGov,65+,LDem,4.0,,1
+2026-08-10,YouGov,65+,Lab,16.0,,1
+2026-08-10,YouGov,65+,Ref,11.0,,1
+2026-08-10,YouGov,Overall,Con,20.0,,1
+2026-08-10,YouGov,Overall,Grn,5.0,,1
+2026-08-10,YouGov,Overall,LDem,4.0,,1
+2026-08-10,YouGov,Overall,Lab,18.0,,1
+2026-08-10,YouGov,Overall,Ref,9.0,,1
+2026-08-23,More in Common [ 5 ],Overall,Con,13.0,,1
+2026-08-23,More in Common [ 5 ],Overall,Grn,5.0,,1
+2026-08-23,More in Common [ 5 ],Overall,LDem,4.0,,1
+2026-08-23,More in Common [ 5 ],Overall,Lab,21.0,,1
+2026-08-23,More in Common [ 5 ],Overall,Ref,13.0,,1
+2026-09-07,YouGov,Overall,Con,21.0,,1
+2026-09-07,YouGov,Overall,Grn,5.0,,1
+2026-09-07,YouGov,Overall,LDem,5.0,,1
+2026-09-07,YouGov,Overall,Lab,19.0,,1
+2026-09-07,YouGov,Overall,Ref,9.0,,1
+2026-09-11,Survation,18-34,Con,14.0,,1
+2026-09-11,Survation,18-34,Grn,17.0,,1
+2026-09-11,Survation,18-34,LDem,9.5,,1
+2026-09-11,Survation,18-34,Lab,27.0,,1
+2026-09-11,Survation,18-34,Ref,19.0,,1
+2026-09-11,Survation,35-49,Con,16.5,,1
+2026-09-11,Survation,35-49,Grn,6.5,,1
+2026-09-11,Survation,35-49,LDem,8.0,,1
+2026-09-11,Survation,35-49,Lab,29.5,,1
+2026-09-11,Survation,35-49,Ref,16.5,,1
+2026-09-11,Survation,50-64,Con,18.0,,1
+2026-09-11,Survation,50-64,Grn,1.0,,1
+2026-09-11,Survation,50-64,LDem,7.0,,1
+2026-09-11,Survation,50-64,Lab,26.0,,1
+2026-09-11,Survation,50-64,Ref,22.0,,1
+2026-09-11,Survation,65+,Con,32.0,,1
+2026-09-11,Survation,65+,Grn,2.0,,1
+2026-09-11,Survation,65+,LDem,7.0,,1
+2026-09-11,Survation,65+,Lab,20.0,,1
+2026-09-11,Survation,65+,Ref,15.0,,1
+2026-09-11,Survation,ABC1,Con,21.0,,1
+2026-09-11,Survation,ABC1,Grn,9.0,,1
+2026-09-11,Survation,ABC1,LDem,10.0,,1
+2026-09-11,Survation,ABC1,Lab,28.0,,1
+2026-09-11,Survation,ABC1,Ref,16.0,,1
+2026-09-11,Survation,C2DE,Con,18.0,,1
+2026-09-11,Survation,C2DE,Grn,6.0,,1
+2026-09-11,Survation,C2DE,LDem,7.0,,1
+2026-09-11,Survation,C2DE,Lab,24.0,,1
+2026-09-11,Survation,C2DE,Ref,20.0,,1
+2026-09-11,Survation,England,Con,20.0,,1
+2026-09-11,Survation,England,Grn,7.0,,1
+2026-09-11,Survation,England,LDem,8.0,,1
+2026-09-11,Survation,England,Lab,26.0,,1
+2026-09-11,Survation,England,Ref,18.0,,1
+2026-09-11,Survation,London,Con,20.0,,1
+2026-09-11,Survation,London,Grn,11.0,,1
+2026-09-11,Survation,London,LDem,11.0,,1
+2026-09-11,Survation,London,Lab,26.0,,1
+2026-09-11,Survation,London,Ref,14.0,,1
+2026-09-11,Survation,Midlands,Con,17.0,,1
+2026-09-11,Survation,Midlands,Grn,5.0,,1
+2026-09-11,Survation,Midlands,LDem,6.0,,1
+2026-09-11,Survation,Midlands,Lab,28.0,,1
+2026-09-11,Survation,Midlands,Ref,22.0,,1
+2026-09-11,Survation,Northern England,Con,15.0,,1
+2026-09-11,Survation,Northern England,Grn,7.0,,1
+2026-09-11,Survation,Northern England,LDem,7.0,,1
+2026-09-11,Survation,Northern England,Lab,34.0,,1
+2026-09-11,Survation,Northern England,Ref,16.0,,1
+2026-09-11,Survation,Northern Ireland,Con,31.0,,1
+2026-09-11,Survation,Northern Ireland,Grn,8.0,,1
+2026-09-11,Survation,Northern Ireland,LDem,6.0,,1
+2026-09-11,Survation,Northern Ireland,Lab,22.0,,1
+2026-09-11,Survation,Northern Ireland,Ref,22.0,,1
+2026-09-11,Survation,Overall,Con,20.0,,1
+2026-09-11,Survation,Overall,Grn,7.0,,1
+2026-09-11,Survation,Overall,LDem,8.0,,1
+2026-09-11,Survation,Overall,Lab,26.0,,1
+2026-09-11,Survation,Overall,Ref,18.0,,1
+2026-09-11,Survation,Scotland,Con,17.0,,1
+2026-09-11,Survation,Scotland,Grn,7.0,,1
+2026-09-11,Survation,Scotland,LDem,10.0,,1
+2026-09-11,Survation,Scotland,Lab,27.0,,1
+2026-09-11,Survation,Scotland,Ref,15.0,,1
+2026-09-11,Survation,Southern England,Con,26.0,,1
+2026-09-11,Survation,Southern England,Grn,8.0,,1
+2026-09-11,Survation,Southern England,LDem,10.0,,1
+2026-09-11,Survation,Southern England,Lab,20.0,,1
+2026-09-11,Survation,Southern England,Ref,20.0,,1
+2026-09-11,Survation,Wales,Con,9.0,,1
+2026-09-11,Survation,Wales,Grn,6.0,,1
+2026-09-11,Survation,Wales,LDem,6.0,,1
+2026-09-11,Survation,Wales,Lab,24.0,,1
+2026-09-11,Survation,Wales,Ref,21.0,,1
+2026-09-22,Survation,18-34,Con,22.0,,2
+2026-09-22,Survation,18-34,Grn,12.5,,1
+2026-09-22,Survation,18-34,Lab,36.3,,2
+2026-09-22,Survation,18-34,PC,16.0,,1
+2026-09-22,Survation,18-34,Ref,19.5,,1
+2026-09-22,Survation,18-34,SNP,16.0,,1
+2026-09-22,Survation,35-49,Con,26.2,,2
+2026-09-22,Survation,35-49,Grn,6.0,,1
+2026-09-22,Survation,35-49,Lab,31.8,,2
+2026-09-22,Survation,35-49,PC,16.5,,1
+2026-09-22,Survation,35-49,Ref,17.5,,1
+2026-09-22,Survation,35-49,SNP,8.5,,1
+2026-09-22,Survation,50-64,Con,28.0,,2
+2026-09-22,Survation,50-64,Grn,6.0,,1
+2026-09-22,Survation,50-64,Lab,31.0,,2
+2026-09-22,Survation,50-64,PC,16.0,,1
+2026-09-22,Survation,50-64,Ref,17.0,,1
+2026-09-22,Survation,50-64,SNP,2.0,,1
+2026-09-22,Survation,65+,Con,30.7,,2
+2026-09-22,Survation,65+,Grn,11.0,,1
+2026-09-22,Survation,65+,Lab,27.7,,2
+2026-09-22,Survation,65+,PC,21.0,,1
+2026-09-22,Survation,65+,Ref,24.0,,1
+2026-09-22,Survation,65+,SNP,2.0,,1
+2026-09-22,Survation,ABC1,Con,29.7,,2
+2026-09-22,Survation,ABC1,Grn,10.0,,1
+2026-09-22,Survation,ABC1,Lab,33.7,,2
+2026-09-22,Survation,ABC1,PC,16.0,,1
+2026-09-22,Survation,ABC1,Ref,18.0,,1
+2026-09-22,Survation,ABC1,SNP,9.0,,1
+2026-09-22,Survation,C2DE,Con,23.0,,2
+2026-09-22,Survation,C2DE,Grn,7.0,,1
+2026-09-22,Survation,C2DE,Lab,29.7,,2
+2026-09-22,Survation,C2DE,PC,19.0,,1
+2026-09-22,Survation,C2DE,Ref,22.0,,1
+2026-09-22,Survation,C2DE,SNP,7.0,,1
+2026-09-22,Survation,England,Con,26.7,,2
+2026-09-22,Survation,England,Grn,9.0,,1
+2026-09-22,Survation,England,Lab,32.0,,2
+2026-09-22,Survation,England,PC,18.0,,1
+2026-09-22,Survation,England,Ref,20.0,,1
+2026-09-22,Survation,England,SNP,8.0,,1
+2026-09-22,Survation,London,Con,28.7,,2
+2026-09-22,Survation,London,Grn,14.0,,1
+2026-09-22,Survation,London,Lab,33.0,,2
+2026-09-22,Survation,London,PC,20.0,,1
+2026-09-22,Survation,London,Ref,24.0,,1
+2026-09-22,Survation,London,SNP,6.0,,1
+2026-09-22,Survation,Midlands,Con,23.7,,2
+2026-09-22,Survation,Midlands,Grn,8.0,,1
+2026-09-22,Survation,Midlands,Lab,31.0,,2
+2026-09-22,Survation,Midlands,PC,20.0,,1
+2026-09-22,Survation,Midlands,Ref,23.0,,1
+2026-09-22,Survation,Midlands,SNP,7.0,,1
+2026-09-22,Survation,Northern England,Con,22.7,,2
+2026-09-22,Survation,Northern England,Grn,9.0,,1
+2026-09-22,Survation,Northern England,Lab,35.3,,2
+2026-09-22,Survation,Northern England,PC,20.0,,1
+2026-09-22,Survation,Northern England,Ref,20.0,,1
+2026-09-22,Survation,Northern England,SNP,11.0,,1
+2026-09-22,Survation,Northern Ireland,Con,38.0,,2
+2026-09-22,Survation,Northern Ireland,Lab,39.7,,2
+2026-09-22,Survation,Northern Ireland,PC,3.0,,1
+2026-09-22,Survation,Northern Ireland,Ref,2.0,,1
+2026-09-22,Survation,Overall,Con,26.3,,2
+2026-09-22,Survation,Overall,Grn,9.0,,1
+2026-09-22,Survation,Overall,Lab,32.0,,2
+2026-09-22,Survation,Overall,PC,17.0,,1
+2026-09-22,Survation,Overall,Ref,19.0,,1
+2026-09-22,Survation,Overall,SNP,8.0,,1
+2026-09-22,Survation,Scotland,Con,21.7,,2
+2026-09-22,Survation,Scotland,Grn,7.0,,1
+2026-09-22,Survation,Scotland,Lab,32.0,,2
+2026-09-22,Survation,Scotland,PC,18.0,,1
+2026-09-22,Survation,Scotland,Ref,26.0,,1
+2026-09-22,Survation,Scotland,SNP,6.0,,1
+2026-09-22,Survation,Southern England,Con,30.3,,2
+2026-09-22,Survation,Southern England,Grn,8.0,,1
+2026-09-22,Survation,Southern England,Lab,29.7,,2
+2026-09-22,Survation,Southern England,PC,15.0,,1
+2026-09-22,Survation,Southern England,Ref,16.0,,1
+2026-09-22,Survation,Southern England,SNP,7.0,,1
+2026-09-22,Survation,Wales,Con,27.0,,2
+2026-09-22,Survation,Wales,Grn,10.0,,1
+2026-09-22,Survation,Wales,Lab,27.0,,2
+2026-09-22,Survation,Wales,PC,11.0,,1
+2026-09-22,Survation,Wales,Ref,15.0,,1
+2026-09-22,Survation,Wales,SNP,17.0,,1
+2026-10-01,Opinium,18-34,Con,39.5,,2
+2026-10-01,Opinium,18-34,Lab,17.0,,2
+2026-10-01,Opinium,35-49,Con,33.0,,2
+2026-10-01,Opinium,35-49,Lab,17.5,,2
+2026-10-01,Opinium,50-64,Con,30.0,,2
+2026-10-01,Opinium,50-64,Lab,20.5,,2
+2026-10-01,Opinium,65+,Con,19.5,,2
+2026-10-01,Opinium,65+,Lab,34.0,,2
+2026-10-01,Opinium,London,Con,34.0,,2
+2026-10-01,Opinium,London,Lab,24.5,,2
+2026-10-01,Opinium,Midlands,Con,28.0,,2
+2026-10-01,Opinium,Midlands,Lab,21.5,,2
+2026-10-01,Opinium,Northern England,Con,36.0,,2
+2026-10-01,Opinium,Northern England,Lab,17.5,,2
+2026-10-01,Opinium,Overall,Con,31.0,,2
+2026-10-01,Opinium,Overall,Lab,22.0,,2
+2026-10-01,Opinium,Scotland,Con,31.0,,2
+2026-10-01,Opinium,Scotland,Lab,21.5,,2
+2026-10-01,Opinium,Southern England,Con,27.0,,2
+2026-10-01,Opinium,Southern England,Lab,25.0,,2
+2026-10-01,Opinium,Wales,Con,28.0,,2
+2026-10-01,Opinium,Wales,Lab,22.0,,2
+2026-10-02,Survation,18-34,Con,25.8,,2
+2026-10-02,Survation,18-34,Grn,14.5,,1
+2026-10-02,Survation,18-34,LDem,8.5,,1
+2026-10-02,Survation,18-34,Lab,35.3,,2
+2026-10-02,Survation,18-34,Ref,15.8,,2
+2026-10-02,Survation,35-49,Con,24.5,,2
+2026-10-02,Survation,35-49,Grn,5.5,,1
+2026-10-02,Survation,35-49,LDem,6.0,,1
+2026-10-02,Survation,35-49,Lab,31.0,,2
+2026-10-02,Survation,35-49,Ref,20.0,,2
+2026-10-02,Survation,50-64,Con,23.0,,2
+2026-10-02,Survation,50-64,Grn,4.0,,1
+2026-10-02,Survation,50-64,LDem,6.0,,1
+2026-10-02,Survation,50-64,Lab,31.3,,2
+2026-10-02,Survation,50-64,Ref,24.0,,2
+2026-10-02,Survation,65+,Con,30.7,,2
+2026-10-02,Survation,65+,Grn,2.0,,1
+2026-10-02,Survation,65+,LDem,5.0,,1
+2026-10-02,Survation,65+,Lab,32.3,,2
+2026-10-02,Survation,65+,Ref,19.5,,2
+2026-10-02,Survation,ABC1,Con,29.7,,2
+2026-10-02,Survation,ABC1,Grn,7.0,,1
+2026-10-02,Survation,ABC1,LDem,7.0,,1
+2026-10-02,Survation,ABC1,Lab,35.7,,2
+2026-10-02,Survation,ABC1,Ref,17.0,,2
+2026-10-02,Survation,C2DE,Con,22.0,,2
+2026-10-02,Survation,C2DE,Grn,7.0,,1
+2026-10-02,Survation,C2DE,LDem,5.0,,1
+2026-10-02,Survation,C2DE,Lab,29.3,,2
+2026-10-02,Survation,C2DE,Ref,22.5,,2
+2026-10-02,Survation,England,Con,26.7,,2
+2026-10-02,Survation,England,Grn,7.0,,1
+2026-10-02,Survation,England,LDem,6.0,,1
+2026-10-02,Survation,England,Lab,32.3,,2
+2026-10-02,Survation,England,Ref,19.5,,2
+2026-10-02,Survation,London,Con,30.0,,2
+2026-10-02,Survation,London,Grn,11.0,,1
+2026-10-02,Survation,London,LDem,8.0,,1
+2026-10-02,Survation,London,Lab,35.7,,2
+2026-10-02,Survation,London,Ref,14.5,,2
+2026-10-02,Survation,Midlands,Con,25.7,,2
+2026-10-02,Survation,Midlands,Grn,6.0,,1
+2026-10-02,Survation,Midlands,LDem,6.0,,1
+2026-10-02,Survation,Midlands,Lab,32.0,,2
+2026-10-02,Survation,Midlands,Ref,21.5,,2
+2026-10-02,Survation,Northern England,Con,25.3,,2
+2026-10-02,Survation,Northern England,Grn,6.0,,1
+2026-10-02,Survation,Northern England,LDem,5.0,,1
+2026-10-02,Survation,Northern England,Lab,33.7,,2
+2026-10-02,Survation,Northern England,Ref,22.0,,2
+2026-10-02,Survation,Northern Ireland,Con,27.0,,2
+2026-10-02,Survation,Northern Ireland,Grn,3.0,,1
+2026-10-02,Survation,Northern Ireland,LDem,6.0,,1
+2026-10-02,Survation,Northern Ireland,Lab,38.3,,2
+2026-10-02,Survation,Northern Ireland,Ref,23.5,,2
+2026-10-02,Survation,Overall,Con,26.0,,2
+2026-10-02,Survation,Overall,Grn,7.0,,1
+2026-10-02,Survation,Overall,LDem,6.0,,1
+2026-10-02,Survation,Overall,Lab,33.0,,2
+2026-10-02,Survation,Overall,Ref,19.5,,2
+2026-10-02,Survation,Scotland,Con,25.3,,2
+2026-10-02,Survation,Scotland,Grn,5.0,,1
+2026-10-02,Survation,Scotland,LDem,6.0,,1
+2026-10-02,Survation,Scotland,Lab,35.7,,2
+2026-10-02,Survation,Scotland,Ref,16.5,,2
+2026-10-02,Survation,Southern England,Con,26.7,,2
+2026-10-02,Survation,Southern England,Grn,7.0,,1
+2026-10-02,Survation,Southern England,LDem,7.0,,1
+2026-10-02,Survation,Southern England,Lab,30.3,,2
+2026-10-02,Survation,Southern England,Ref,20.0,,2
+2026-10-02,Survation,Wales,Con,18.7,,2
+2026-10-02,Survation,Wales,Grn,2.0,,1
+2026-10-02,Survation,Wales,LDem,6.0,,1
+2026-10-02,Survation,Wales,Lab,30.0,,2
+2026-10-02,Survation,Wales,Ref,16.0,,2
+2026-10-05,YouGov,18-34,Con,8.0,,1
+2026-10-05,YouGov,18-34,Grn,12.0,,1
+2026-10-05,YouGov,18-34,LDem,9.0,,1
+2026-10-05,YouGov,18-34,Lab,20.0,,1
+2026-10-05,YouGov,18-34,Ref,1.0,,1
+2026-10-05,YouGov,35-49,Con,16.0,,1
+2026-10-05,YouGov,35-49,Grn,6.0,,1
+2026-10-05,YouGov,35-49,LDem,4.0,,1
+2026-10-05,YouGov,35-49,Lab,20.0,,1
+2026-10-05,YouGov,35-49,Ref,10.0,,1
+2026-10-05,YouGov,50-64,Con,25.0,,1
+2026-10-05,YouGov,50-64,Grn,2.0,,1
+2026-10-05,YouGov,50-64,LDem,3.0,,1
+2026-10-05,YouGov,50-64,Lab,22.0,,1
+2026-10-05,YouGov,50-64,Ref,10.0,,1
+2026-10-05,YouGov,65+,Con,33.0,,1
+2026-10-05,YouGov,65+,Grn,1.0,,1
+2026-10-05,YouGov,65+,LDem,2.0,,1
+2026-10-05,YouGov,65+,Lab,20.0,,1
+2026-10-05,YouGov,65+,Ref,14.0,,1
+2026-10-05,YouGov,Overall,Con,21.0,,1
+2026-10-05,YouGov,Overall,Grn,5.0,,1
+2026-10-05,YouGov,Overall,LDem,4.0,,1
+2026-10-05,YouGov,Overall,Lab,21.0,,1
+2026-10-05,YouGov,Overall,Ref,10.0,,1
+2026-10-31,Deltapoll,18-34,Con,23.5,,1
+2026-10-31,Deltapoll,18-34,Lab,55.0,,1
+2026-10-31,Deltapoll,35-49,Con,31.0,,1
+2026-10-31,Deltapoll,35-49,Lab,47.0,,1
+2026-10-31,Deltapoll,50-64,Con,48.0,,1
+2026-10-31,Deltapoll,50-64,Lab,36.0,,1
+2026-10-31,Deltapoll,65+,Con,54.0,,1
+2026-10-31,Deltapoll,65+,Lab,30.0,,1
+2026-10-31,Deltapoll,ABC1,Con,40.0,,1
+2026-10-31,Deltapoll,ABC1,Lab,45.0,,1
+2026-10-31,Deltapoll,C2DE,Con,31.0,,1
+2026-10-31,Deltapoll,C2DE,Lab,40.0,,1
+2026-10-31,Deltapoll,London,Con,31.0,,1
+2026-10-31,Deltapoll,London,Lab,49.0,,1
+2026-10-31,Deltapoll,Midlands,Con,33.0,,1
+2026-10-31,Deltapoll,Midlands,Lab,50.0,,1
+2026-10-31,Deltapoll,Northern England,Con,33.0,,1
+2026-10-31,Deltapoll,Northern England,Lab,49.0,,1
+2026-10-31,Deltapoll,Overall,Con,37.0,,1
+2026-10-31,Deltapoll,Overall,Lab,44.0,,1
+2026-10-31,Deltapoll,Scotland,Con,34.0,,1
+2026-10-31,Deltapoll,Scotland,Lab,45.0,,1
+2026-10-31,Deltapoll,Southern England,Con,45.0,,1
+2026-10-31,Deltapoll,Southern England,Lab,34.0,,1
+2026-10-31,Deltapoll,Wales,Con,39.0,,1
+2026-10-31,Deltapoll,Wales,Lab,42.0,,1
+2026-11-11,Survation,18-34,Con,19.2,1100,4
+2026-11-11,Survation,18-34,Grn,16.4,550,2
+2026-11-11,Survation,18-34,LDem,9.7,550,2
+2026-11-11,Survation,18-34,Lab,35.0,1100,4
+2026-11-11,Survation,18-34,Ref,14.8,550,2
+2026-11-11,Survation,35-49,Con,22.3,1324,4
+2026-11-11,Survation,35-49,Grn,5.9,662,2
+2026-11-11,Survation,35-49,LDem,7.9,662,2
+2026-11-11,Survation,35-49,Lab,32.2,1324,4
+2026-11-11,Survation,35-49,Ref,19.4,662,2
+2026-11-11,Survation,50-64,Con,26.2,642,2
+2026-11-11,Survation,50-64,Grn,3.0,321,1
+2026-11-11,Survation,50-64,LDem,7.9,321,1
+2026-11-11,Survation,50-64,Lab,30.4,642,2
+2026-11-11,Survation,50-64,Ref,16.4,321,1
+2026-11-11,Survation,65+,Con,40.5,942,2
+2026-11-11,Survation,65+,Grn,0.3,471,1
+2026-11-11,Survation,65+,LDem,3.1,471,1
+2026-11-11,Survation,65+,Lab,27.0,942,2
+2026-11-11,Survation,65+,Ref,15.8,471,1
+2026-11-11,Survation,ABC1,Con,27.2,2286,2
+2026-11-11,Survation,ABC1,Grn,8.1,1143,1
+2026-11-11,Survation,ABC1,LDem,7.4,1143,1
+2026-11-11,Survation,ABC1,Lab,35.3,2286,2
+2026-11-11,Survation,ABC1,Ref,15.5,1143,1
+2026-11-11,Survation,C2DE,Con,25.2,1724,2
+2026-11-11,Survation,C2DE,Grn,5.5,862,1
+2026-11-11,Survation,C2DE,LDem,7.1,862,1
+2026-11-11,Survation,C2DE,Lab,26.3,1724,2
+2026-11-11,Survation,C2DE,Ref,18.6,862,1
+2026-11-11,Survation,London,Con,25.0,520,2
+2026-11-11,Survation,London,Grn,9.8,260,1
+2026-11-11,Survation,London,LDem,8.0,260,1
+2026-11-11,Survation,London,Lab,40.4,520,2
+2026-11-11,Survation,London,Ref,12.5,260,1
+2026-11-11,Survation,Midlands,Con,27.1,644,4
+2026-11-11,Survation,Midlands,Grn,11.0,322,2
+2026-11-11,Survation,Midlands,LDem,6.2,322,2
+2026-11-11,Survation,Midlands,Lab,27.7,644,4
+2026-11-11,Survation,Midlands,Ref,17.5,322,2
+2026-11-11,Survation,Northern England,Con,23.5,766,4
+2026-11-11,Survation,Northern England,Grn,7.2,383,2
+2026-11-11,Survation,Northern England,LDem,4.5,383,2
+2026-11-11,Survation,Northern England,Lab,37.2,766,4
+2026-11-11,Survation,Northern England,Ref,16.1,383,2
+2026-11-11,Survation,Overall,Con,26.4,4010,2
+2026-11-11,Survation,Overall,Grn,7.0,2005,1
+2026-11-11,Survation,Overall,LDem,7.3,2005,1
+2026-11-11,Survation,Overall,Lab,31.4,4010,2
+2026-11-11,Survation,Overall,Ref,16.8,2005,1
+2026-11-11,Survation,Scotland,Con,23.6,334,2
+2026-11-11,Survation,Scotland,Grn,9.8,167,1
+2026-11-11,Survation,Scotland,LDem,14.2,167,1
+2026-11-11,Survation,Scotland,Lab,33.1,334,2
+2026-11-11,Survation,Scotland,Ref,12.6,167,1
+2026-11-11,Survation,Southern England,Con,29.3,1278,6
+2026-11-11,Survation,Southern England,Grn,4.0,639,3
+2026-11-11,Survation,Southern England,LDem,8.2,639,3
+2026-11-11,Survation,Southern England,Lab,26.0,1278,6
+2026-11-11,Survation,Southern England,Ref,19.4,639,3

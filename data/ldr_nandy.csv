@@ -1,0 +1,29 @@
+date,pollster,sample,option,value,base,n_merged
+2026-11-11,YouGov,18-34,Negative,11.0,,1
+2026-11-11,YouGov,18-34,Positive,6.0,,1
+2026-11-11,YouGov,35-49,Negative,21.0,,1
+2026-11-11,YouGov,35-49,Positive,9.0,,1
+2026-11-11,YouGov,50-64,Negative,34.0,,1
+2026-11-11,YouGov,50-64,Positive,13.0,,1
+2026-11-11,YouGov,65+,Negative,46.0,,1
+2026-11-11,YouGov,65+,Positive,17.0,,1
+2026-11-11,YouGov,ABC1,Negative,31.5,,1
+2026-11-11,YouGov,ABC1,Positive,13.5,,1
+2026-11-11,YouGov,C2DE,Negative,27.0,,1
+2026-11-11,YouGov,C2DE,Positive,9.0,,1
+2026-11-11,YouGov,England,Negative,30.0,,1
+2026-11-11,YouGov,England,Positive,12.0,,1
+2026-11-11,YouGov,London,Negative,31.0,,1
+2026-11-11,YouGov,London,Positive,12.0,,1
+2026-11-11,YouGov,Midlands,Negative,29.0,,1
+2026-11-11,YouGov,Midlands,Positive,13.0,,1
+2026-11-11,YouGov,Northern England,Negative,29.0,,1
+2026-11-11,YouGov,Northern England,Positive,14.0,,1
+2026-11-11,YouGov,Overall,Negative,29.0,,1
+2026-11-11,YouGov,Overall,Positive,12.0,,1
+2026-11-11,YouGov,Scotland,Negative,27.0,,1
+2026-11-11,YouGov,Scotland,Positive,11.0,,1
+2026-11-11,YouGov,Southern England,Negative,29.0,,1
+2026-11-11,YouGov,Southern England,Positive,10.0,,1
+2026-11-11,YouGov,Wales,Negative,21.0,,1
+2026-11-11,YouGov,Wales,Positive,11.0,,1

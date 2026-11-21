@@ -1,0 +1,215 @@
+date,pollster,sample,option,value,base,n_merged
+2025-03-20,Opinium,18-34,Negative,23.0,,2
+2025-03-20,Opinium,18-34,Positive,26.0,,2
+2025-03-20,Opinium,35-49,Negative,33.0,,2
+2025-03-20,Opinium,35-49,Positive,20.0,,2
+2025-03-20,Opinium,50-64,Negative,36.0,,2
+2025-03-20,Opinium,50-64,Positive,17.0,,2
+2025-03-20,Opinium,65+,Negative,42.0,,2
+2025-03-20,Opinium,65+,Positive,16.0,,2
+2025-03-20,Opinium,London,Negative,28.0,,2
+2025-03-20,Opinium,London,Positive,24.0,,2
+2025-03-20,Opinium,Midlands,Negative,30.0,,2
+2025-03-20,Opinium,Midlands,Positive,24.0,,2
+2025-03-20,Opinium,Northern England,Negative,36.0,,2
+2025-03-20,Opinium,Northern England,Positive,20.0,,2
+2025-03-20,Opinium,Overall,Negative,33.0,,2
+2025-03-20,Opinium,Overall,Positive,20.0,,2
+2025-03-20,Opinium,Scotland,Negative,33.0,,2
+2025-03-20,Opinium,Scotland,Positive,17.0,,2
+2025-03-20,Opinium,Southern England,Negative,34.0,,2
+2025-03-20,Opinium,Southern England,Positive,18.0,,2
+2025-03-20,Opinium,Wales,Negative,37.0,,2
+2025-03-20,Opinium,Wales,Positive,16.0,,2
+2025-06-12,Opinium,18-34,Negative,25.0,,2
+2025-06-12,Opinium,18-34,Positive,20.0,,2
+2025-06-12,Opinium,35-49,Negative,28.0,,2
+2025-06-12,Opinium,35-49,Positive,17.0,,2
+2025-06-12,Opinium,50-64,Negative,34.0,,2
+2025-06-12,Opinium,50-64,Positive,20.0,,2
+2025-06-12,Opinium,65+,Negative,39.0,,2
+2025-06-12,Opinium,65+,Positive,16.0,,2
+2025-06-12,Opinium,London,Negative,31.0,,2
+2025-06-12,Opinium,London,Positive,26.0,,2
+2025-06-12,Opinium,Midlands,Negative,34.0,,2
+2025-06-12,Opinium,Midlands,Positive,14.0,,2
+2025-06-12,Opinium,Northern England,Negative,29.0,,2
+2025-06-12,Opinium,Northern England,Positive,20.0,,2
+2025-06-12,Opinium,Overall,Negative,31.0,,2
+2025-06-12,Opinium,Overall,Positive,18.0,,2
+2025-06-12,Opinium,Scotland,Negative,37.0,,2
+2025-06-12,Opinium,Scotland,Positive,20.0,,2
+2025-06-12,Opinium,Southern England,Negative,30.0,,2
+2025-06-12,Opinium,Southern England,Positive,16.0,,2
+2025-06-12,Opinium,Wales,Negative,23.0,,2
+2025-06-12,Opinium,Wales,Positive,14.0,,2
+2026-01-25,YouGov,18-34,Negative,27.0,,1
+2026-01-25,YouGov,18-34,Positive,11.0,,1
+2026-01-25,YouGov,35-49,Negative,33.0,,1
+2026-01-25,YouGov,35-49,Positive,17.0,,1
+2026-01-25,YouGov,50-64,Negative,42.0,,1
+2026-01-25,YouGov,50-64,Positive,20.0,,1
+2026-01-25,YouGov,65+,Negative,46.0,,1
+2026-01-25,YouGov,65+,Positive,23.0,,1
+2026-01-25,YouGov,ABC1,Negative,39.0,,1
+2026-01-25,YouGov,ABC1,Positive,17.5,,1
+2026-01-25,YouGov,C2DE,Negative,37.0,,1
+2026-01-25,YouGov,C2DE,Positive,21.0,,1
+2026-01-25,YouGov,England,Negative,38.0,,1
+2026-01-25,YouGov,England,Positive,18.0,,1
+2026-01-25,YouGov,London,Negative,33.0,,1
+2026-01-25,YouGov,London,Positive,15.0,,1
+2026-01-25,YouGov,Midlands,Negative,36.0,,1
+2026-01-25,YouGov,Midlands,Positive,18.0,,1
+2026-01-25,YouGov,Northern England,Negative,41.0,,1
+2026-01-25,YouGov,Northern England,Positive,19.0,,1
+2026-01-25,YouGov,Overall,Negative,37.0,,1
+2026-01-25,YouGov,Overall,Positive,18.0,,1
+2026-01-25,YouGov,Scotland,Negative,38.0,,1
+2026-01-25,YouGov,Scotland,Positive,19.0,,1
+2026-01-25,YouGov,Southern England,Negative,39.0,,1
+2026-01-25,YouGov,Southern England,Positive,19.0,,1
+2026-01-25,YouGov,Wales,Negative,29.0,,1
+2026-01-25,YouGov,Wales,Positive,18.0,,1
+2026-03-19,Opinium,18-34,Negative,29.0,2050,1
+2026-03-19,Opinium,18-34,Positive,21.0,2050,1
+2026-03-19,Opinium,35-49,Negative,34.0,2050,1
+2026-03-19,Opinium,35-49,Positive,17.0,2050,1
+2026-03-19,Opinium,50-64,Negative,37.0,2050,1
+2026-03-19,Opinium,50-64,Positive,18.0,2050,1
+2026-03-19,Opinium,65+,Negative,40.0,2050,1
+2026-03-19,Opinium,65+,Positive,19.0,2050,1
+2026-03-19,Opinium,London,Negative,27.0,2050,1
+2026-03-19,Opinium,London,Positive,26.0,2050,1
+2026-03-19,Opinium,Midlands,Negative,33.0,2050,1
+2026-03-19,Opinium,Midlands,Positive,19.0,2050,1
+2026-03-19,Opinium,Northern England,Negative,35.0,2050,1
+2026-03-19,Opinium,Northern England,Positive,16.0,2050,1
+2026-03-19,Opinium,Overall,Negative,35.0,2050,1
+2026-03-19,Opinium,Overall,Positive,19.0,2050,1
+2026-03-19,Opinium,Scotland,Negative,39.0,2050,1
+2026-03-19,Opinium,Scotland,Positive,14.0,2050,1
+2026-03-19,Opinium,Southern England,Negative,36.0,2050,1
+2026-03-19,Opinium,Southern England,Positive,20.0,2050,1
+2026-03-19,Opinium,Wales,Negative,46.0,2050,1
+2026-03-19,Opinium,Wales,Positive,13.0,2050,1
+2026-05-21,Opinium,18-34,Negative,24.0,2016,1
+2026-05-21,Opinium,18-34,Positive,18.0,2016,1
+2026-05-21,Opinium,35-49,Negative,35.0,2016,1
+2026-05-21,Opinium,35-49,Positive,10.0,2016,1
+2026-05-21,Opinium,50-64,Negative,44.0,2016,1
+2026-05-21,Opinium,50-64,Positive,12.0,2016,1
+2026-05-21,Opinium,65+,Negative,51.0,2016,1
+2026-05-21,Opinium,65+,Positive,8.0,2016,1
+2026-05-21,Opinium,London,Negative,31.0,2016,1
+2026-05-21,Opinium,London,Positive,19.0,2016,1
+2026-05-21,Opinium,Midlands,Negative,36.0,2016,1
+2026-05-21,Opinium,Midlands,Positive,12.0,2016,1
+2026-05-21,Opinium,Northern England,Negative,40.0,2016,1
+2026-05-21,Opinium,Northern England,Positive,12.0,2016,1
+2026-05-21,Opinium,Overall,Negative,38.0,2016,1
+2026-05-21,Opinium,Overall,Positive,12.0,2016,1
+2026-05-21,Opinium,Scotland,Negative,38.0,2016,1
+2026-05-21,Opinium,Scotland,Positive,6.0,2016,1
+2026-05-21,Opinium,Southern England,Negative,40.0,2016,1
+2026-05-21,Opinium,Southern England,Positive,10.0,2016,1
+2026-05-21,Opinium,Wales,Negative,36.0,2016,1
+2026-05-21,Opinium,Wales,Positive,17.0,2016,1
+2026-05-21,YouGov,18-34,Negative,46.0,,1
+2026-05-21,YouGov,18-34,Positive,18.5,,1
+2026-05-21,YouGov,35-49,Negative,45.0,,1
+2026-05-21,YouGov,35-49,Positive,17.0,,1
+2026-05-21,YouGov,50-64,Negative,59.0,,1
+2026-05-21,YouGov,50-64,Positive,24.0,,1
+2026-05-21,YouGov,65+,Negative,71.0,,1
+2026-05-21,YouGov,65+,Positive,26.5,,1
+2026-05-21,YouGov,ABC1,Negative,55.0,,1
+2026-05-21,YouGov,ABC1,Positive,20.5,,1
+2026-05-21,YouGov,C2DE,Negative,58.0,,1
+2026-05-21,YouGov,C2DE,Positive,22.5,,1
+2026-05-21,YouGov,England,Negative,55.0,,1
+2026-05-21,YouGov,England,Positive,21.0,,1
+2026-05-21,YouGov,London,Negative,49.0,,1
+2026-05-21,YouGov,London,Positive,24.5,,1
+2026-05-21,YouGov,Midlands,Negative,58.0,,1
+2026-05-21,YouGov,Midlands,Positive,21.5,,1
+2026-05-21,YouGov,Northern England,Negative,60.0,,1
+2026-05-21,YouGov,Northern England,Positive,21.5,,1
+2026-05-21,YouGov,Overall,Negative,55.0,,1
+2026-05-21,YouGov,Overall,Positive,21.0,,1
+2026-05-21,YouGov,Scotland,Negative,53.0,,1
+2026-05-21,YouGov,Scotland,Positive,21.5,,1
+2026-05-21,YouGov,Wales,Negative,49.0,,1
+2026-05-21,YouGov,Wales,Positive,20.0,,1
+2026-06-21,YouGov,18-34,Negative,44.0,,1
+2026-06-21,YouGov,18-34,Positive,11.0,,1
+2026-06-21,YouGov,35-49,Negative,44.0,,1
+2026-06-21,YouGov,35-49,Positive,8.0,,1
+2026-06-21,YouGov,50-64,Negative,57.0,,1
+2026-06-21,YouGov,50-64,Positive,17.0,,1
+2026-06-21,YouGov,65+,Negative,59.0,,1
+2026-06-21,YouGov,65+,Positive,22.0,,1
+2026-06-21,YouGov,ABC1,Negative,51.0,,1
+2026-06-21,YouGov,ABC1,Positive,17.0,,1
+2026-06-21,YouGov,C2DE,Negative,50.0,,1
+2026-06-21,YouGov,C2DE,Positive,9.0,,1
+2026-06-21,YouGov,England,Negative,50.0,,1
+2026-06-21,YouGov,England,Positive,14.0,,1
+2026-06-21,YouGov,London,Negative,48.0,,1
+2026-06-21,YouGov,London,Positive,19.0,,1
+2026-06-21,YouGov,Midlands,Negative,49.0,,1
+2026-06-21,YouGov,Midlands,Positive,16.0,,1
+2026-06-21,YouGov,Northern England,Negative,54.0,,1
+2026-06-21,YouGov,Northern England,Positive,9.0,,1
+2026-06-21,YouGov,Overall,Negative,51.0,,1
+2026-06-21,YouGov,Overall,Positive,13.0,,1
+2026-06-21,YouGov,Scotland,Negative,53.0,,1
+2026-06-21,YouGov,Scotland,Positive,5.0,,1
+2026-06-21,YouGov,Southern England,Negative,49.0,,1
+2026-06-21,YouGov,Southern England,Positive,16.0,,1
+2026-06-21,YouGov,Wales,Negative,55.0,,1
+2026-06-21,YouGov,Wales,Positive,11.0,,1
+2026-10-15,YouGov,18-34,Negative,42.0,,1
+2026-10-15,YouGov,18-34,Positive,7.0,,1
+2026-10-15,YouGov,35-49,Negative,42.0,,1
+2026-10-15,YouGov,35-49,Positive,12.0,,1
+2026-10-15,YouGov,50-64,Negative,50.0,,1
+2026-10-15,YouGov,50-64,Positive,19.0,,1
+2026-10-15,YouGov,65+,Negative,55.0,,1
+2026-10-15,YouGov,65+,Positive,23.0,,1
+2026-10-15,YouGov,England,Negative,47.0,,1
+2026-10-15,YouGov,England,Positive,17.0,,1
+2026-10-15,YouGov,London,Negative,49.0,,1
+2026-10-15,YouGov,London,Positive,16.0,,1
+2026-10-15,YouGov,Midlands,Negative,47.0,,1
+2026-10-15,YouGov,Midlands,Positive,18.0,,1
+2026-10-15,YouGov,Northern England,Negative,49.0,,1
+2026-10-15,YouGov,Northern England,Positive,16.0,,1
+2026-10-15,YouGov,Overall,Negative,47.0,,1
+2026-10-15,YouGov,Overall,Positive,16.0,,1
+2026-10-15,YouGov,Scotland,Negative,46.0,,1
+2026-10-15,YouGov,Scotland,Positive,10.0,,1
+2026-10-15,YouGov,Southern England,Negative,46.0,,1
+2026-10-15,YouGov,Southern England,Positive,18.0,,1
+2026-10-15,YouGov,Wales,Negative,36.0,,1
+2026-10-15,YouGov,Wales,Positive,14.0,,1
+2026-11-05,Opinium,18-34,Negative,25.1,547,1
+2026-11-05,Opinium,18-34,Positive,28.7,547,1
+2026-11-05,Opinium,35-49,Negative,31.2,487,1
+2026-11-05,Opinium,35-49,Positive,14.2,487,1
+2026-11-05,Opinium,50-64,Negative,32.5,495,1
+2026-11-05,Opinium,50-64,Positive,16.6,495,1
+2026-11-05,Opinium,65+,Negative,39.5,474,1
+2026-11-05,Opinium,65+,Positive,12.2,474,1
+2026-11-05,Opinium,London,Negative,28.7,268,1
+2026-11-05,Opinium,London,Positive,22.4,268,1
+2026-11-05,Opinium,Midlands,Negative,33.5,331,1
+2026-11-05,Opinium,Midlands,Positive,19.3,331,1
+2026-11-05,Opinium,Northern England,Negative,29.2,480,1
+2026-11-05,Opinium,Northern England,Positive,17.7,480,1
+2026-11-05,Opinium,Overall,Negative,31.8,2003,1
+2026-11-05,Opinium,Overall,Positive,18.2,2003,1
+2026-11-05,Opinium,Scotland,Negative,31.0,171,1
+2026-11-05,Opinium,Scotland,Positive,19.3,171,1
+2026-11-05,Opinium,Southern England,Negative,33.9,657,1
+2026-11-05,Opinium,Southern England,Positive,16.0,657,1
