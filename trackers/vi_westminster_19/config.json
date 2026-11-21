@@ -4,8 +4,6 @@
   "dataUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRUV0qTNO_TaH0vyqyhqCgdo76BxF8W3oMfhLbgTucogF15cuT_EjGhzvCCynZ9FGe2EjrS5sXLE8ga/pub?gid=1178868337&single=true&output=csv",
   "subgroupColumn": 11,
   "smoothing": {
-    "bandwidthDays": 40,
-    "minPollsInWindow": 2,
     "bootstrapIterations": 200
   },
   "skipPollsterPatterns": [],
@@ -20,9 +18,7 @@
         "LDem",
         "Grn",
         "Reform"
-      ],
-      "bandwidthDays": 80,
-      "minPollsInWindow": 2
+      ]
     },
     {
       "name": "50-64",
@@ -34,9 +30,7 @@
         "LDem",
         "Grn",
         "Reform"
-      ],
-      "bandwidthDays": 80,
-      "minPollsInWindow": 2
+      ]
     },
     {
       "name": "35-49",
@@ -48,9 +42,7 @@
         "LDem",
         "Grn",
         "Reform"
-      ],
-      "bandwidthDays": 80,
-      "minPollsInWindow": 2
+      ]
     },
     {
       "name": "18-34",
@@ -62,9 +54,7 @@
         "LDem",
         "Grn",
         "Reform"
-      ],
-      "bandwidthDays": 80,
-      "minPollsInWindow": 2
+      ]
     },
     {
       "name": "C2DE voters",
@@ -76,9 +66,7 @@
         "LDem",
         "Grn",
         "Reform"
-      ],
-      "bandwidthDays": 80,
-      "minPollsInWindow": 2
+      ]
     },
     {
       "name": "ABC1 voters",
@@ -90,9 +78,7 @@
         "LDem",
         "Grn",
         "Reform"
-      ],
-      "bandwidthDays": 80,
-      "minPollsInWindow": 2
+      ]
     },
     {
       "name": "London",
@@ -104,9 +90,7 @@
         "LDem",
         "Grn",
         "Reform"
-      ],
-      "bandwidthDays": 80,
-      "minPollsInWindow": 2
+      ]
     },
     {
       "name": "Southern England",
@@ -118,9 +102,7 @@
         "LDem",
         "Grn",
         "Reform"
-      ],
-      "bandwidthDays": 80,
-      "minPollsInWindow": 2
+      ]
     },
     {
       "name": "Northern England",
@@ -132,9 +114,7 @@
         "LDem",
         "Grn",
         "Reform"
-      ],
-      "bandwidthDays": 80,
-      "minPollsInWindow": 2
+      ]
     },
     {
       "name": "Midlands",
@@ -146,9 +126,7 @@
         "LDem",
         "Grn",
         "Reform"
-      ],
-      "bandwidthDays": 80,
-      "minPollsInWindow": 2
+      ]
     },
     {
       "name": "UK/GB",
@@ -160,9 +138,7 @@
         "LDem",
         "Grn",
         "Reform"
-      ],
-      "bandwidthDays": 40,
-      "minPollsInWindow": 2
+      ]
     },
     {
       "name": "Scotland",
@@ -176,8 +152,6 @@
         "Reform",
         "SNP"
       ],
-      "bandwidthDays": 60,
-      "minPollsInWindow": 2,
       "referenceElection": {
         "label": "2024 GE (Scotland)",
         "results": {
@@ -202,8 +176,6 @@
         "Reform",
         "PC"
       ],
-      "bandwidthDays": 60,
-      "minPollsInWindow": 2,
       "referenceElection": {
         "label": "2024 GE (Wales)",
         "results": {

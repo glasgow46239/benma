@@ -1,0 +1,660 @@
+{
+  "_readme": "One place for smoothing settings. Per tracker: bandwidthDays / minPollsInWindow / marginOfError (tracker-wide), plus 'subgroups' overrides keyed by subgroup value (lowercase, e.g. 'overall', '65+'); a subgroup not listed inherits the tracker-wide value. 'defaults' apply to every tracker unless it sets the same key: localLinear (sloped local fit; removes lag at the latest edge) and maxGapDays (no curve is drawn where the polls either side of a date are further apart than this).",
+  "defaults": {
+    "localLinear": true,
+    "maxGapDays": 45
+  },
+  "trackers": {
+    "best_econ_all": {
+      "bandwidthDays": 240,
+      "minPollsInWindow": 2,
+      "marginOfError": 4
+    },
+    "ldr_badenoch_all": {
+      "bandwidthDays": 120,
+      "minPollsInWindow": 4,
+      "subgroups": {
+        "65+": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2
+        },
+        "50-64": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2
+        },
+        "35-49": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2
+        },
+        "18-34": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2
+        },
+        "c2de": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2
+        },
+        "abc1": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2
+        },
+        "london": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2
+        },
+        "southern england": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2
+        },
+        "northern england": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2
+        },
+        "midlands": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2
+        },
+        "overall": {
+          "bandwidthDays": 81,
+          "minPollsInWindow": 2
+        },
+        "scotland": {
+          "bandwidthDays": 60,
+          "minPollsInWindow": 2
+        },
+        "wales": {
+          "bandwidthDays": 60,
+          "minPollsInWindow": 2
+        }
+      }
+    },
+    "ldr_blair": {
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2,
+      "subgroups": {
+        "scotland": {
+          "bandwidthDays": 60
+        },
+        "wales": {
+          "bandwidthDays": 60
+        }
+      }
+    },
+    "ldr_brown": {
+      "bandwidthDays": 60,
+      "minPollsInWindow": 2,
+      "subgroups": {
+        "65+": {
+          "bandwidthDays": 80
+        },
+        "50-64": {
+          "bandwidthDays": 80
+        },
+        "35-49": {
+          "bandwidthDays": 80
+        },
+        "18-34": {
+          "bandwidthDays": 80
+        },
+        "c2de": {
+          "bandwidthDays": 80
+        },
+        "abc1": {
+          "bandwidthDays": 80
+        },
+        "london": {
+          "bandwidthDays": 80
+        },
+        "southern england": {
+          "bandwidthDays": 80
+        },
+        "northern england": {
+          "bandwidthDays": 80
+        },
+        "midlands": {
+          "bandwidthDays": 80
+        }
+      }
+    },
+    "ldr_burnham_all": {
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2,
+      "subgroups": {
+        "scotland": {
+          "bandwidthDays": 60
+        },
+        "wales": {
+          "bandwidthDays": 60
+        }
+      }
+    },
+    "ldr_cameron": {
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2,
+      "subgroups": {
+        "65+": {
+          "bandwidthDays": 120
+        },
+        "50-64": {
+          "bandwidthDays": 120
+        },
+        "35-49": {
+          "bandwidthDays": 120
+        },
+        "18-34": {
+          "bandwidthDays": 120
+        },
+        "c2de": {
+          "bandwidthDays": 120
+        },
+        "abc1": {
+          "bandwidthDays": 120
+        },
+        "london": {
+          "bandwidthDays": 120
+        },
+        "southern england": {
+          "bandwidthDays": 120
+        },
+        "northern england": {
+          "bandwidthDays": 120
+        },
+        "midlands": {
+          "bandwidthDays": 120
+        },
+        "scotland": {
+          "bandwidthDays": 120
+        },
+        "wales": {
+          "bandwidthDays": 120
+        }
+      }
+    },
+    "ldr_corbyn": {
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2,
+      "subgroups": {
+        "65+": {
+          "bandwidthDays": 120
+        },
+        "50-64": {
+          "bandwidthDays": 120
+        },
+        "35-49": {
+          "bandwidthDays": 120
+        },
+        "18-34": {
+          "bandwidthDays": 120
+        },
+        "c2de": {
+          "bandwidthDays": 120
+        },
+        "abc1": {
+          "bandwidthDays": 120
+        },
+        "london": {
+          "bandwidthDays": 120
+        },
+        "southern england": {
+          "bandwidthDays": 120
+        },
+        "northern england": {
+          "bandwidthDays": 120
+        },
+        "midlands": {
+          "bandwidthDays": 120
+        },
+        "scotland": {
+          "bandwidthDays": 120
+        },
+        "wales": {
+          "bandwidthDays": 120
+        }
+      }
+    },
+    "ldr_davey_all": {
+      "bandwidthDays": 100,
+      "minPollsInWindow": 4,
+      "subgroups": {
+        "65+": {
+          "minPollsInWindow": 2
+        },
+        "50-64": {
+          "minPollsInWindow": 2
+        },
+        "35-49": {
+          "minPollsInWindow": 2
+        },
+        "18-34": {
+          "minPollsInWindow": 2
+        },
+        "c2de": {
+          "minPollsInWindow": 2
+        },
+        "abc1": {
+          "minPollsInWindow": 2
+        },
+        "london": {
+          "minPollsInWindow": 2
+        },
+        "southern england": {
+          "minPollsInWindow": 2
+        },
+        "northern england": {
+          "minPollsInWindow": 2
+        },
+        "midlands": {
+          "minPollsInWindow": 2
+        },
+        "overall": {
+          "minPollsInWindow": 2
+        },
+        "scotland": {
+          "bandwidthDays": 60,
+          "minPollsInWindow": 2
+        },
+        "wales": {
+          "bandwidthDays": 60,
+          "minPollsInWindow": 2
+        }
+      }
+    },
+    "ldr_farage_all": {
+      "bandwidthDays": 80,
+      "minPollsInWindow": 4,
+      "subgroups": {
+        "65+": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "50-64": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "35-49": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "18-34": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "c2de": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "abc1": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "london": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "southern england": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "northern england": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "midlands": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "overall": {
+          "bandwidthDays": 110,
+          "minPollsInWindow": 2
+        },
+        "scotland": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "wales": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        }
+      }
+    },
+    "ldr_johnson": {
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2,
+      "subgroups": {
+        "scotland": {
+          "bandwidthDays": 60
+        },
+        "wales": {
+          "bandwidthDays": 60
+        }
+      }
+    },
+    "ldr_may": {
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2,
+      "subgroups": {
+        "scotland": {
+          "bandwidthDays": 60
+        },
+        "wales": {
+          "bandwidthDays": 60
+        }
+      }
+    },
+    "ldr_miliband": {
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2,
+      "subgroups": {
+        "65+": {
+          "bandwidthDays": 120
+        },
+        "50-64": {
+          "bandwidthDays": 120
+        },
+        "35-49": {
+          "bandwidthDays": 120
+        },
+        "18-34": {
+          "bandwidthDays": 120
+        },
+        "c2de": {
+          "bandwidthDays": 120
+        },
+        "abc1": {
+          "bandwidthDays": 120
+        },
+        "london": {
+          "bandwidthDays": 120
+        },
+        "southern england": {
+          "bandwidthDays": 120
+        },
+        "northern england": {
+          "bandwidthDays": 120
+        },
+        "midlands": {
+          "bandwidthDays": 120
+        },
+        "scotland": {
+          "bandwidthDays": 120
+        },
+        "wales": {
+          "bandwidthDays": 120
+        }
+      }
+    },
+    "ldr_polanski_all": {
+      "bandwidthDays": 80,
+      "minPollsInWindow": 4,
+      "subgroups": {
+        "65+": {
+          "minPollsInWindow": 2
+        },
+        "50-64": {
+          "minPollsInWindow": 2
+        },
+        "35-49": {
+          "minPollsInWindow": 2
+        },
+        "18-34": {
+          "minPollsInWindow": 2
+        },
+        "c2de": {
+          "minPollsInWindow": 2
+        },
+        "abc1": {
+          "minPollsInWindow": 2
+        },
+        "london": {
+          "minPollsInWindow": 2
+        },
+        "southern england": {
+          "minPollsInWindow": 2
+        },
+        "northern england": {
+          "minPollsInWindow": 2
+        },
+        "midlands": {
+          "minPollsInWindow": 2
+        },
+        "overall": {
+          "bandwidthDays": 100,
+          "minPollsInWindow": 2
+        },
+        "scotland": {
+          "bandwidthDays": 60,
+          "minPollsInWindow": 2
+        },
+        "wales": {
+          "bandwidthDays": 60,
+          "minPollsInWindow": 2
+        }
+      }
+    },
+    "ldr_starmer_all": {
+      "bandwidthDays": 100,
+      "minPollsInWindow": 4,
+      "subgroups": {
+        "65+": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "50-64": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "35-49": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "18-34": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "c2de": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "abc1": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "london": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "southern england": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "northern england": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "midlands": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "overall": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "scotland": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        },
+        "wales": {
+          "bandwidthDays": 120,
+          "minPollsInWindow": 2
+        }
+      }
+    },
+    "ldr_sunak": {
+      "bandwidthDays": 80,
+      "minPollsInWindow": 2,
+      "subgroups": {
+        "scotland": {
+          "bandwidthDays": 60
+        },
+        "wales": {
+          "bandwidthDays": 60
+        }
+      }
+    },
+    "ldr_truss": {
+      "bandwidthDays": 40,
+      "minPollsInWindow": 2,
+      "subgroups": {
+        "65+": {
+          "bandwidthDays": 80
+        },
+        "50-64": {
+          "bandwidthDays": 80
+        },
+        "35-49": {
+          "bandwidthDays": 80
+        },
+        "18-34": {
+          "bandwidthDays": 80
+        },
+        "c2de": {
+          "bandwidthDays": 80
+        },
+        "abc1": {
+          "bandwidthDays": 80
+        },
+        "london": {
+          "bandwidthDays": 80
+        },
+        "southern england": {
+          "bandwidthDays": 80
+        },
+        "northern england": {
+          "bandwidthDays": 80
+        },
+        "midlands": {
+          "bandwidthDays": 80
+        },
+        "scotland": {
+          "bandwidthDays": 60
+        },
+        "wales": {
+          "bandwidthDays": 60
+        }
+      }
+    },
+    "vi_westminster_19": {
+      "bandwidthDays": 40,
+      "minPollsInWindow": 2,
+      "subgroups": {
+        "65+": {
+          "bandwidthDays": 80
+        },
+        "50-64": {
+          "bandwidthDays": 80
+        },
+        "35-49": {
+          "bandwidthDays": 80
+        },
+        "18-34": {
+          "bandwidthDays": 80
+        },
+        "c2de": {
+          "bandwidthDays": 80
+        },
+        "abc1": {
+          "bandwidthDays": 80
+        },
+        "london": {
+          "bandwidthDays": 80
+        },
+        "southern england": {
+          "bandwidthDays": 80
+        },
+        "northern england": {
+          "bandwidthDays": 80
+        },
+        "midlands": {
+          "bandwidthDays": 80
+        },
+        "scotland": {
+          "bandwidthDays": 60
+        },
+        "wales": {
+          "bandwidthDays": 60
+        }
+      }
+    },
+    "vi_westminster_24": {
+      "bandwidthDays": 50,
+      "minPollsInWindow": 3,
+      "marginOfError": 3,
+      "subgroups": {
+        "65+": {
+          "bandwidthDays": 90,
+          "minPollsInWindow": 2,
+          "marginOfError": 5
+        },
+        "50-64": {
+          "bandwidthDays": 90,
+          "minPollsInWindow": 2,
+          "marginOfError": 5
+        },
+        "35-49": {
+          "bandwidthDays": 90,
+          "minPollsInWindow": 2,
+          "marginOfError": 5
+        },
+        "18-34": {
+          "bandwidthDays": 90,
+          "minPollsInWindow": 2,
+          "marginOfError": 5
+        },
+        "c2de": {
+          "bandwidthDays": 90,
+          "minPollsInWindow": 2,
+          "marginOfError": 5
+        },
+        "abc1": {
+          "bandwidthDays": 90,
+          "minPollsInWindow": 2,
+          "marginOfError": 5
+        },
+        "london": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2,
+          "marginOfError": 5
+        },
+        "southern england": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2,
+          "marginOfError": 5
+        },
+        "northern england": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2,
+          "marginOfError": 5
+        },
+        "midlands": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2,
+          "marginOfError": 5
+        },
+        "overall": {
+          "bandwidthDays": 40,
+          "minPollsInWindow": 2
+        },
+        "scotland": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2,
+          "marginOfError": 5
+        },
+        "wales": {
+          "bandwidthDays": 80,
+          "minPollsInWindow": 2,
+          "marginOfError": 5
+        }
+      }
+    }
+  }
+}

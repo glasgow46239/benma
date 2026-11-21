@@ -63,9 +63,33 @@ def parse_args():
 # Config loading
 # ---------------------------------------------------------------------------
 
+SMOOTH_KEYS = ("bandwidthDays", "minPollsInWindow", "marginOfError")
+CENTRAL_SMOOTHING = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                                 "config", "smoothing.json")
+
+
 def load_config(path):
+    """Read a tracker config and fill in its smoothing settings from
+    config/smoothing.json (bandwidths etc. live there, not in each tracker)."""
     with open(path) as f:
-        return json.load(f)
+        config = json.load(f)
+    if not os.path.exists(CENTRAL_SMOOTHING):
+        return config
+    with open(CENTRAL_SMOOTHING) as f:
+        central = json.load(f)
+    tid = os.path.basename(os.path.dirname(os.path.abspath(path)))
+    t = dict(central.get("defaults", {}))
+    t.update(central.get("trackers", {}).get(tid, {}))
+    sm = config.setdefault("smoothing", {})
+    for k, v in t.items():
+        if k != "subgroups":
+            sm.setdefault(k, v)
+    for sg in config.get("subgroups", []):
+        over = t.get("subgroups", {}).get(sg["value"], {})
+        for k in SMOOTH_KEYS:
+            if k in over:
+                sg[k] = over[k]
+    return config
 
 # ---------------------------------------------------------------------------
 # Data fetching & parsing
@@ -193,33 +217,65 @@ def tricube_weight(u):
         return 0.0
     return (1 - abs(u) ** 3) ** 3
 
-def kernel_loess(data_points, bandwidth_days, min_polls, step_days=1):
+def _estimate(nearby, t, bw, linear):
+    """Weighted local mean, or a local-linear fit (slope ridge-shrunk toward 0
+    so sparse windows cannot extrapolate wildly)."""
+    ws = [tricube_weight((tx - t) / bw) for tx, _ in nearby]
+    w_sum = sum(ws)
+    if w_sum <= 0:
+        return None
+    xs = [tx - t for tx, _ in nearby]
+    if linear and len(nearby) >= 3 and (min(xs) < 0 < max(xs) or len(nearby) >= 4) \
+            and max(xs) > min(xs):
+        sx  = sum(w * x for w, x in zip(ws, xs))
+        sxx = sum(w * x * x for w, x in zip(ws, xs))
+        sy  = sum(w * y for w, (_, y) in zip(ws, nearby))
+        sxy = sum(w * x * y for w, x, (_, y) in zip(ws, xs, nearby))
+        det = w_sum * (sxx + SLOPE_RIDGE) - sx * sx
+        if abs(det) > 1e-9:
+            return round((sy * (sxx + SLOPE_RIDGE) - sx * sxy) / det, 2)
+    return round(sum(w * y for w, (_, y) in zip(ws, nearby)) / w_sum, 2)
+
+
+SLOPE_RIDGE = 60.0
+
+
+def _in_gap(ts_sorted, t, max_gap):
+    """True when the polls either side of t are more than max_gap days apart."""
+    if not max_gap:
+        return False
+    import bisect
+    i = bisect.bisect_left(ts_sorted, t)
+    if i < len(ts_sorted) and ts_sorted[i] == t:
+        return False
+    if i == 0 or i == len(ts_sorted):
+        return False
+    return ts_sorted[i] - ts_sorted[i - 1] > max_gap
+
+
+def kernel_loess(data_points, bandwidth_days, min_polls, step_days=1,
+                 linear=False, max_gap=None):
     if not data_points:
         return []
     bw = bandwidth_days
     ts = [d[0] for d in data_points]
+    ts_sorted = sorted(ts)
     t_min, t_max = min(ts), max(ts)
     results = []
     t = t_min
     while t <= t_max:
         nearby = [(tx, y) for tx, y in data_points if abs(tx - t) <= bw]
-        if len(nearby) < min_polls:
+        if len(nearby) < min_polls or _in_gap(ts_sorted, t, max_gap):
             results.append((t, None, False))
             t += step_days
             continue
         wider    = [(tx, y) for tx, y in data_points if abs(tx - t) <= bw * 1.8]
         is_sparse = len(wider) < min_polls * 2
-        w_sum = wy_sum = 0.0
-        for tx, y in nearby:
-            w = tricube_weight((tx - t) / bw)
-            w_sum += w
-            wy_sum += w * y
-        smoothed = round(wy_sum / w_sum, 2) if w_sum > 0 else None
-        results.append((t, smoothed, is_sparse))
+        results.append((t, _estimate(nearby, t, bw, linear), is_sparse))
         t += step_days
     return results
 
-def kernel_loess_simple(data_points, bandwidth_days, min_polls, t_values):
+def kernel_loess_simple(data_points, bandwidth_days, min_polls, t_values, linear=False):
     bw = bandwidth_days
     results = []
     for t in t_values:
@@ -227,16 +283,11 @@ def kernel_loess_simple(data_points, bandwidth_days, min_polls, t_values):
         if len(nearby) < min_polls:
             results.append(None)
             continue
-        w_sum = wy_sum = 0.0
-        for tx, y in nearby:
-            w = tricube_weight((tx - t) / bw)
-            w_sum += w
-            wy_sum += w * y
-        results.append(round(wy_sum / w_sum, 2) if w_sum > 0 else None)
+        results.append(_estimate(nearby, t, bw, linear))
     return results
 
 def bootstrap_ci(data_points, bandwidth_days, min_polls, t_values,
-                 n_boot=200, ci_low=5, ci_high=95, margin_of_error=0):
+                 n_boot=200, ci_low=5, ci_high=95, margin_of_error=0, linear=False):
     if len(data_points) < min_polls:
         return [None] * len(t_values), [None] * len(t_values)
     rng = np.random.default_rng(42)
@@ -249,7 +300,7 @@ def bootstrap_ci(data_points, bandwidth_days, min_polls, t_values,
             jitter = rng.normal(0, margin_of_error, size=len(resampled))
             resampled = [(t, y + jitter[i]) for i, (t, y) in enumerate(resampled)]
         boot_results.append(
-            kernel_loess_simple(resampled, bandwidth_days, min_polls, t_values)
+            kernel_loess_simple(resampled, bandwidth_days, min_polls, t_values, linear=linear)
         )
     arr = np.array([[v if v is not None else np.nan for v in row]
                     for row in boot_results])
@@ -386,11 +437,16 @@ def build_line_json(polls, config, subgroup_label=None, subgroup_cfg=None):
                 seg_bw        = seg_break.get("bandwidthDays",    bw)
                 seg_min_polls = seg_break.get("minPollsInWindow", min_polls)
 
-            smoothed = kernel_loess(pts, seg_bw, seg_min_polls, step_days=1)
+            linear  = bool(config["smoothing"].get("localLinear", False))
+            max_gap = config["smoothing"].get("maxGapDays") or None
+            smoothed = kernel_loess(pts, seg_bw, seg_min_polls, step_days=1,
+                                    linear=linear, max_gap=max_gap)
             t_values = [s[0] for s in smoothed]
 
             print(f"    Bootstrapping CI for {col_name} (bandwidth {seg_bw}d, MoE ±{moe}pt, {n_boot} iterations)...")
-            lows, highs = bootstrap_ci(pts, seg_bw, seg_min_polls, t_values, n_boot=n_boot, margin_of_error=moe)
+            lows, highs = bootstrap_ci(pts, seg_bw, seg_min_polls, t_values, n_boot=n_boot, margin_of_error=moe, linear=linear)
+            lows  = [None if sm[1] is None else lo for sm, lo in zip(smoothed, lows)]
+            highs = [None if sm[1] is None else hi for sm, hi in zip(smoothed, highs)]
 
             series[col_name] = [
                 {
