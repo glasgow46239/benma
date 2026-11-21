@@ -85,7 +85,50 @@ def should_skip(pollster, skip_patterns):
             return True
     return False
 
+_OPTION_ALIASES = {"reform": "ref", "ukip": "ukip", "ldem": "ldem", "libdem": "ldem",
+                   "plaid": "pc", "restore": "rtr", "other": "oth"}
+
+
+def fetch_polls_long(config):
+    """Read a long-format CSV (date, pollster, sample, option, value, ...)
+    built by the parser repo, and pivot it into the same poll dicts the
+    Google-Sheets path produces.  Config: "dataSource": {"type": "long_csv",
+    "path": "data/ldr_davey.csv"} (path relative to the repo root)."""
+    src           = config["dataSource"]
+    skip_patterns = config.get("skipPollsterPatterns", [])
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    path = os.path.join(root, src["path"])
+    print(f"Reading long-format data from: {path}")
+    want = {}
+    for party in config["parties"]:
+        n = party["name"].lower()
+        want[_OPTION_ALIASES.get(n, n)] = party["name"]
+    grouped = {}
+    with open(path, newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            if should_skip(r["pollster"], skip_patterns):
+                continue
+            o = r["option"].lower()
+            o = _OPTION_ALIASES.get(o, o)
+            if o not in want:
+                continue
+            key = (r["date"], r["pollster"], r["sample"].strip().lower())
+            try:
+                grouped.setdefault(key, {})[want[o]] = float(r["value"])
+            except ValueError:
+                pass
+    polls = []
+    for (d, pollster, sample), vals in grouped.items():
+        polls.append({"date": parse_date(d), "pollster": pollster, "subgroup": sample,
+                      "values": {p["name"]: vals.get(p["name"]) for p in config["parties"]}})
+    polls.sort(key=lambda p: p["date"])
+    print(f"Loaded {len(polls)} polls from long-format data")
+    return polls
+
+
 def fetch_polls(config):
+    if config.get("dataSource"):
+        return fetch_polls_long(config)
     url           = config["dataUrl"]
     skip_patterns = config.get("skipPollsterPatterns", [])
     parties       = config["parties"]
