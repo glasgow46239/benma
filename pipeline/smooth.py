@@ -123,6 +123,7 @@ def fetch_polls_long(config):
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     path = os.path.join(root, src["path"])
     print(f"Reading long-format data from: {path}")
+    since = src.get("since")
     want = {}
     for party in config["parties"]:
         n = party["name"].lower()
@@ -131,6 +132,8 @@ def fetch_polls_long(config):
     with open(path, newline="", encoding="utf-8") as f:
         for r in csv.DictReader(f):
             if should_skip(r["pollster"], skip_patterns):
+                continue
+            if since and r["date"] < since:
                 continue
             o = r["option"].lower()
             o = _OPTION_ALIASES.get(o, o)

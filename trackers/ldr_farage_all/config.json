@@ -328,5 +328,9 @@
     "person": "Nigel Farage",
     "office": "Reform leader",
     "tookOffice": "2024-06-03"
+  },
+  "dataSource": {
+    "type": "long_csv",
+    "path": "data/ldr_farage.csv"
   }
 }

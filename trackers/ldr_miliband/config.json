@@ -317,5 +317,9 @@
         "datawrapperBarChartId": ""
       }
     }
+  },
+  "dataSource": {
+    "type": "long_csv",
+    "path": "data/ldr_miliband.csv"
   }
 }

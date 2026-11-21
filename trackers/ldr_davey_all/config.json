@@ -332,6 +332,6 @@
   "dataSource": {
     "type": "long_csv",
     "path": "data/ldr_davey.csv",
-    "note": "built by the parser repo; legacy dataUrl kept for rollback"
+    "since": "2025-02-01"
   }
 }

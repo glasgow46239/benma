@@ -1,0 +1,379 @@
+date,pollster,sample,option,value,base,n_merged
+2022-10-15,YouGov,Overall,Negative,55.0,,1
+2022-10-15,YouGov,Overall,Positive,34.0,,1
+2022-10-24,YouGov,Overall,Negative,48.0,,1
+2022-10-24,YouGov,Overall,Positive,39.0,,1
+2022-10-25,BMG Research,Overall,Negative,21.0,,1
+2022-10-25,BMG Research,Overall,Positive,26.0,,1
+2022-10-26,Opinium,Overall,Negative,23.0,,1
+2022-10-26,Opinium,Overall,Positive,31.0,,1
+2022-11-02,Opinium,Overall,Negative,31.0,,1
+2022-11-02,Opinium,Overall,Positive,29.0,,1
+2022-11-09,Redfield & Wilton,Overall,Negative,30.0,,1
+2022-11-09,Redfield & Wilton,Overall,Positive,31.0,,1
+2022-11-12,Ipsos,Overall,Negative,37.0,,1
+2022-11-12,Ipsos,Overall,Positive,29.0,,1
+2022-11-13,Redfield & Wilton,Overall,Negative,30.0,,1
+2022-11-13,Redfield & Wilton,Overall,Positive,26.0,,1
+2022-11-14,YouGov,Overall,Negative,53.0,,1
+2022-11-14,YouGov,Overall,Positive,34.0,,1
+2022-11-17,Omnisis,Overall,Negative,28.0,,1
+2022-11-17,Omnisis,Overall,Positive,33.0,,1
+2022-11-17,Opinium,Overall,Negative,31.0,,1
+2022-11-17,Opinium,Overall,Positive,33.0,,1
+2022-11-20,Redfield & Wilton,Overall,Negative,34.0,,1
+2022-11-20,Redfield & Wilton,Overall,Positive,31.0,,1
+2022-11-27,Redfield & Wilton,Overall,Negative,33.0,,1
+2022-11-27,Redfield & Wilton,Overall,Positive,33.0,,1
+2022-12-01,Opinium,Overall,Negative,34.0,,1
+2022-12-01,Opinium,Overall,Positive,30.0,,1
+2022-12-04,Redfield & Wilton,Overall,Negative,33.0,,1
+2022-12-04,Redfield & Wilton,Overall,Positive,30.0,,1
+2022-12-09,YouGov,Overall,Negative,56.0,,1
+2022-12-09,YouGov,Overall,Positive,32.0,,1
+2022-12-15,YouGov,Overall,Negative,56.0,,1
+2022-12-15,YouGov,Overall,Positive,32.0,,1
+2023-01-02,Redfield & Wilton,Overall,Negative,31.0,,1
+2023-01-02,Redfield & Wilton,Overall,Positive,27.0,,1
+2023-01-08,Redfield & Wilton,Overall,Negative,39.0,,1
+2023-01-08,Redfield & Wilton,Overall,Positive,28.0,,1
+2023-01-13,Omnisis,Overall,Negative,35.0,,1
+2023-01-13,Omnisis,Overall,Positive,30.0,,1
+2023-01-15,Redfield & Wilton,Overall,Negative,38.0,,1
+2023-01-15,Redfield & Wilton,Overall,Positive,28.0,,1
+2023-01-17,YouGov,Overall,Negative,60.0,,1
+2023-01-17,YouGov,Overall,Positive,31.0,,1
+2023-01-19,Omnisis,Overall,Negative,41.0,,1
+2023-01-19,Omnisis,Overall,Positive,26.0,,1
+2023-01-21,Ipsos,Overall,Negative,55.0,,1
+2023-01-21,Ipsos,Overall,Positive,26.0,,1
+2023-01-26,Omnisis,Overall,Negative,47.0,,1
+2023-01-26,Omnisis,Overall,Positive,27.0,,1
+2023-01-29,Redfield & Wilton,Overall,Negative,44.0,,1
+2023-01-29,Redfield & Wilton,Overall,Positive,26.0,,1
+2023-02-03,Omnisis,Overall,Negative,45.0,,1
+2023-02-03,Omnisis,Overall,Positive,23.0,,1
+2023-02-05,Redfield & Wilton,Overall,Negative,44.0,,1
+2023-02-05,Redfield & Wilton,Overall,Positive,24.0,,1
+2023-02-12,Ipsos,Overall,Negative,46.0,,1
+2023-02-12,Ipsos,Overall,Positive,27.0,,1
+2023-02-12,Redfield & Wilton,Overall,Negative,44.0,,1
+2023-02-12,Redfield & Wilton,Overall,Positive,28.0,,1
+2023-02-16,Opinium,Overall,Negative,42.0,,1
+2023-02-16,Opinium,Overall,Positive,27.0,,1
+2023-02-18,Deltapoll,Overall,Negative,53.0,,1
+2023-02-18,Deltapoll,Overall,Positive,37.0,,1
+2023-02-23,Omnisis,Overall,Negative,45.0,,1
+2023-02-23,Omnisis,Overall,Positive,25.0,,1
+2023-02-25,Ipsos,Overall,Negative,59.0,,1
+2023-02-25,Ipsos,Overall,Positive,27.0,,1
+2023-02-26,Redfield & Wilton,Overall,Negative,42.0,,1
+2023-02-26,Redfield & Wilton,Overall,Positive,25.0,,1
+2023-02-28,YouGov,Overall,Negative,55.0,,1
+2023-02-28,YouGov,Overall,Positive,34.0,,1
+2023-03-01,Opinium,Overall,Negative,38.0,,1
+2023-03-01,Opinium,Overall,Positive,30.0,,1
+2023-03-01,YouGov,Overall,Negative,67.0,,1
+2023-03-01,YouGov,Overall,Positive,22.0,,1
+2023-03-02,Omnisis,Overall,Negative,37.0,,1
+2023-03-02,Omnisis,Overall,Positive,31.0,,1
+2023-03-04,Deltapoll,Overall,Negative,49.0,,1
+2023-03-04,Deltapoll,Overall,Positive,44.0,,1
+2023-03-05,Redfield & Wilton,Overall,Negative,39.0,,1
+2023-03-05,Redfield & Wilton,Overall,Positive,30.0,,1
+2023-03-07,YouGov,Overall,Negative,66.0,,1
+2023-03-07,YouGov,Overall,Positive,22.0,,1
+2023-03-12,Deltapoll,Overall,Negative,51.0,,1
+2023-03-12,Deltapoll,Overall,Positive,40.0,,1
+2023-03-12,Redfield & Wilton,Overall,Negative,41.0,,1
+2023-03-12,Redfield & Wilton,Overall,Positive,30.0,,1
+2023-03-16,Opinium,Overall,Negative,39.0,,1
+2023-03-16,Opinium,Overall,Positive,31.0,,1
+2023-03-16,YouGov,Overall,Negative,65.0,,1
+2023-03-16,YouGov,Overall,Positive,25.0,,1
+2023-03-18,Deltapoll,Overall,Negative,50.0,,1
+2023-03-18,Deltapoll,Overall,Positive,41.0,,1
+2023-03-18,Ipsos,Overall,Negative,45.0,,1
+2023-03-18,Ipsos,Overall,Positive,29.0,,1
+2023-03-19,Redfield & Wilton,Overall,Negative,41.0,,1
+2023-03-19,Redfield & Wilton,Overall,Positive,30.0,,1
+2023-03-22,Redfield & Wilton,Overall,Negative,40.0,,1
+2023-03-22,Redfield & Wilton,Overall,Positive,32.0,,1
+2023-03-23,Survation,Overall,Negative,36.0,,1
+2023-03-23,Survation,Overall,Positive,38.0,,1
+2023-03-25,Deltapoll,Overall,Negative,49.0,,1
+2023-03-25,Deltapoll,Overall,Positive,43.0,,1
+2023-03-26,Redfield & Wilton,Overall,Negative,40.0,,1
+2023-03-26,Redfield & Wilton,Overall,Positive,32.0,,1
+2023-04-01,Deltapoll,Overall,Negative,51.0,,1
+2023-04-01,Deltapoll,Overall,Positive,39.0,,1
+2023-04-02,Redfield & Wilton,Overall,Negative,42.0,,1
+2023-04-02,Redfield & Wilton,Overall,Positive,31.0,,1
+2023-04-05,Opinium,Overall,Negative,38.0,,1
+2023-04-05,Opinium,Overall,Positive,32.0,,1
+2023-04-05,YouGov,Overall,Negative,65.0,,1
+2023-04-05,YouGov,Overall,Positive,23.0,,1
+2023-04-09,Redfield & Wilton,Overall,Negative,40.0,,1
+2023-04-09,Redfield & Wilton,Overall,Positive,32.0,,1
+2023-04-13,Omnisis,Overall,Negative,36.0,,1
+2023-04-13,Omnisis,Overall,Positive,31.0,,1
+2023-04-13,Opinium,Overall,Negative,41.0,,1
+2023-04-13,Opinium,Overall,Positive,29.0,,1
+2023-04-15,Deltapoll,Overall,Negative,46.0,,1
+2023-04-15,Deltapoll,Overall,Positive,45.0,,1
+2023-04-16,Redfield & Wilton,Overall,Negative,38.0,,1
+2023-04-16,Redfield & Wilton,Overall,Positive,31.0,,1
+2023-04-17,YouGov,Overall,Negative,65.0,,1
+2023-04-17,YouGov,Overall,Positive,24.0,,1
+2023-04-21,Omnisis,Overall,Negative,38.0,,1
+2023-04-21,Omnisis,Overall,Positive,34.0,,1
+2023-04-23,Opinium,Overall,Negative,44.0,,1
+2023-04-23,Opinium,Overall,Positive,26.0,,1
+2023-04-23,Redfield & Wilton,Overall,Negative,39.0,,1
+2023-04-23,Redfield & Wilton,Overall,Positive,33.0,,1
+2023-04-25,Deltapoll,Overall,Negative,52.0,,1
+2023-04-25,Deltapoll,Overall,Positive,41.0,,1
+2023-05-01,Deltapoll,Overall,Negative,48.0,,1
+2023-05-01,Deltapoll,Overall,Positive,42.0,,1
+2023-05-02,YouGov,Overall,Negative,65.0,,1
+2023-05-02,YouGov,Overall,Positive,23.0,,1
+2023-05-07,Deltapoll,Overall,Negative,48.0,,1
+2023-05-07,Deltapoll,Overall,Positive,42.0,,1
+2023-05-09,YouGov,Overall,Negative,69.0,,1
+2023-05-09,YouGov,Overall,Positive,21.0,,1
+2023-05-13,Deltapoll,Overall,Negative,54.0,,1
+2023-05-13,Deltapoll,Overall,Positive,38.0,,1
+2023-05-15,YouGov,Overall,Negative,66.0,,1
+2023-05-15,YouGov,Overall,Positive,22.0,,1
+2023-05-21,Redfield & Wilton,Overall,Negative,41.0,,1
+2023-05-21,Redfield & Wilton,Overall,Positive,30.0,,1
+2023-05-23,YouGov,Overall,Negative,66.0,,1
+2023-05-23,YouGov,Overall,Positive,24.0,,1
+2023-05-24,Opinium,Overall,Negative,44.0,,1
+2023-05-24,Opinium,Overall,Positive,28.0,,1
+2023-06-10,Deltapoll,Overall,Negative,50.0,,1
+2023-06-10,Deltapoll,Overall,Positive,39.0,,1
+2023-06-16,Ipsos,Overall,Negative,59.0,,1
+2023-06-16,Ipsos,Overall,Positive,26.0,,1
+2023-06-16,YouGov,Overall,Negative,67.0,,1
+2023-06-16,YouGov,Overall,Positive,23.0,,1
+2023-06-21,YouGov,Overall,Negative,71.0,,1
+2023-06-21,YouGov,Overall,Positive,19.0,,1
+2023-06-23,Omnisis,Overall,Negative,42.0,,1
+2023-06-23,Omnisis,Overall,Positive,27.0,,1
+2023-06-24,Deltapoll,Overall,Negative,56.0,,1
+2023-06-24,Deltapoll,Overall,Positive,37.0,,1
+2023-06-25,Redfield & Wilton,Overall,Negative,43.0,,1
+2023-06-25,Redfield & Wilton,Overall,Positive,32.0,,1
+2023-07-01,Deltapoll,Overall,Negative,57.0,,1
+2023-07-01,Deltapoll,Overall,Positive,34.0,,1
+2023-07-15,Deltapoll,Overall,Negative,55.0,,1
+2023-07-15,Deltapoll,Overall,Positive,37.0,,1
+2023-07-23,Redfield & Wilton,Overall,Negative,41.0,,1
+2023-07-23,Redfield & Wilton,Overall,Positive,31.0,,1
+2023-07-29,Deltapoll,Overall,Negative,57.0,,1
+2023-07-29,Deltapoll,Overall,Positive,32.0,,1
+2023-07-30,Redfield & Wilton,Overall,Negative,44.0,,1
+2023-07-30,Redfield & Wilton,Overall,Positive,30.0,,1
+2023-08-06,Redfield & Wilton,Overall,Negative,44.0,,1
+2023-08-06,Redfield & Wilton,Overall,Positive,28.0,,1
+2023-08-22,YouGov,Overall,Negative,70.0,,1
+2023-08-22,YouGov,Overall,Positive,21.0,,1
+2023-08-24,Deltapoll,Overall,Negative,58.0,,1
+2023-08-24,Deltapoll,Overall,Positive,32.0,,1
+2023-08-27,Redfield & Wilton,Overall,Negative,45.0,,1
+2023-08-27,Redfield & Wilton,Overall,Positive,30.0,,1
+2023-08-30,YouGov,Overall,Negative,70.0,,1
+2023-08-30,YouGov,Overall,Positive,22.0,,1
+2023-09-03,Redfield & Wilton,Overall,Negative,43.0,,1
+2023-09-03,Redfield & Wilton,Overall,Positive,31.0,,1
+2023-09-10,Redfield & Wilton,Overall,Negative,46.0,,1
+2023-09-10,Redfield & Wilton,Overall,Positive,25.0,,1
+2023-09-14,Opinium,Overall,Negative,53.0,,1
+2023-09-14,Opinium,Overall,Positive,23.0,,1
+2023-09-23,Deltapoll,Overall,Negative,60.0,,1
+2023-09-23,Deltapoll,Overall,Positive,32.0,,1
+2023-09-29,YouGov,Overall,Negative,68.0,,1
+2023-09-29,YouGov,Overall,Positive,22.0,,1
+2023-09-30,Deltapoll,Overall,Negative,63.0,,1
+2023-09-30,Deltapoll,Overall,Positive,30.0,,1
+2023-10-01,Redfield & Wilton,Overall,Negative,41.0,,1
+2023-10-01,Redfield & Wilton,Overall,Positive,31.0,,1
+2023-10-05,Opinium,Overall,Negative,51.0,,1
+2023-10-05,Opinium,Overall,Positive,27.0,,1
+2023-10-05,YouGov,Overall,Negative,69.0,,1
+2023-10-05,YouGov,Overall,Positive,22.0,,1
+2023-10-06,Deltapoll,Overall,Negative,58.0,,1
+2023-10-06,Deltapoll,Overall,Positive,34.0,,1
+2023-10-08,Redfield & Wilton,Overall,Negative,41.0,,1
+2023-10-08,Redfield & Wilton,Overall,Positive,31.0,,1
+2023-10-12,Omnisis,Overall,Negative,44.0,,1
+2023-10-12,Omnisis,Overall,Positive,31.0,,1
+2023-10-12,Opinium,Overall,Negative,51.0,,1
+2023-10-12,Opinium,Overall,Positive,27.0,,1
+2023-10-13,YouGov,Overall,Negative,67.0,,1
+2023-10-13,YouGov,Overall,Positive,21.0,,1
+2023-10-14,Deltapoll,Overall,Negative,58.0,,1
+2023-10-14,Deltapoll,Overall,Positive,33.0,,1
+2023-10-18,Deltapoll,Overall,Negative,62.0,,1
+2023-10-18,Deltapoll,Overall,Positive,31.0,,1
+2023-10-20,YouGov,Overall,Negative,68.0,,1
+2023-10-20,YouGov,Overall,Positive,21.0,,1
+2023-11-01,YouGov,Overall,Negative,69.0,,1
+2023-11-01,YouGov,Overall,Positive,20.0,,1
+2023-11-08,YouGov,Overall,Negative,69.0,,1
+2023-11-08,YouGov,Overall,Positive,20.0,,1
+2023-11-25,Deltapoll,Overall,Negative,60.0,,1
+2023-11-25,Deltapoll,Overall,Positive,32.0,,1
+2023-12-02,Deltapoll,Overall,Negative,61.0,,1
+2023-12-02,Deltapoll,Overall,Positive,30.0,,1
+2023-12-10,Redfield & Wilton,Overall,Negative,46.0,,1
+2023-12-10,Redfield & Wilton,Overall,Positive,31.0,,1
+2023-12-12,YouGov,Overall,Negative,69.0,,1
+2023-12-12,YouGov,Overall,Positive,20.0,,1
+2023-12-16,Survation,Overall,Negative,56.0,,1
+2023-12-16,Survation,Overall,Positive,26.0,,1
+2023-12-17,Redfield & Wilton,Overall,Negative,47.0,,1
+2023-12-17,Redfield & Wilton,Overall,Positive,28.0,,1
+2023-12-22,We Think,Overall,Negative,51.0,,1
+2023-12-22,We Think,Overall,Positive,24.0,,1
+2024-01-07,Redfield & Wilton,Overall,Negative,46.0,,1
+2024-01-07,Redfield & Wilton,Overall,Positive,31.0,,1
+2024-01-13,Ipsos,Overall,Negative,53.0,,1
+2024-01-13,Ipsos,Overall,Positive,24.0,,1
+2024-01-14,Redfield & Wilton,Overall,Negative,44.0,,1
+2024-01-14,Redfield & Wilton,Overall,Positive,29.0,,1
+2024-01-20,Ipsos,Overall,Negative,66.0,,1
+2024-01-20,Ipsos,Overall,Positive,20.0,,1
+2024-01-21,Redfield & Wilton,Overall,Negative,48.0,,1
+2024-01-21,Redfield & Wilton,Overall,Positive,27.0,,1
+2024-01-28,Redfield & Wilton,Overall,Negative,48.0,,1
+2024-01-28,Redfield & Wilton,Overall,Positive,30.0,,1
+2024-01-30,Survation,Overall,Negative,55.0,,1
+2024-01-30,Survation,Overall,Positive,27.0,,1
+2024-02-01,We Think,Overall,Negative,53.0,,1
+2024-02-01,We Think,Overall,Positive,23.0,,1
+2024-02-03,Deltapoll,Overall,Negative,66.0,,1
+2024-02-03,Deltapoll,Overall,Positive,28.0,,1
+2024-02-04,Redfield & Wilton,Overall,Negative,47.0,,1
+2024-02-04,Redfield & Wilton,Overall,Positive,29.0,,1
+2024-02-09,Deltapoll,Overall,Negative,64.0,,1
+2024-02-09,Deltapoll,Overall,Positive,29.0,,1
+2024-02-10,Deltapoll,Overall,Negative,64.0,,1
+2024-02-10,Deltapoll,Overall,Positive,29.0,,1
+2024-02-11,Redfield & Wilton,Overall,Negative,50.0,,1
+2024-02-11,Redfield & Wilton,Overall,Positive,25.0,,1
+2024-02-11,Survation,Overall,Negative,57.0,,1
+2024-02-11,Survation,Overall,Positive,26.0,,1
+2024-02-17,Deltapoll,Overall,Negative,68.0,,1
+2024-02-17,Deltapoll,Overall,Positive,26.0,,1
+2024-02-18,Redfield & Wilton,Overall,Negative,51.0,,1
+2024-02-18,Redfield & Wilton,Overall,Positive,26.0,,1
+2024-03-03,Redfield & Wilton,Overall,Negative,48.0,,1
+2024-03-03,Redfield & Wilton,Overall,Positive,26.0,,1
+2024-03-10,Redfield & Wilton,Overall,Negative,44.0,,1
+2024-03-10,Redfield & Wilton,Overall,Positive,25.0,,1
+2024-03-17,Redfield & Wilton,Overall,Negative,48.0,,1
+2024-03-17,Redfield & Wilton,Overall,Positive,25.0,,1
+2024-03-18,Deltapoll,Overall,Negative,64.0,,1
+2024-03-18,Deltapoll,Overall,Positive,30.0,,1
+2024-03-22,Opinium,Overall,Negative,58.0,,1
+2024-03-22,Opinium,Overall,Positive,22.0,,1
+2024-03-22,We Think,Overall,Negative,52.0,,1
+2024-03-22,We Think,Overall,Positive,24.0,,1
+2024-03-24,Redfield & Wilton,Overall,Negative,51.0,,1
+2024-03-24,Redfield & Wilton,Overall,Positive,26.0,,1
+2024-03-25,Deltapoll,Overall,Negative,60.0,,1
+2024-03-25,Deltapoll,Overall,Positive,32.0,,1
+2024-03-28,We Think,Overall,Negative,51.0,,1
+2024-03-28,We Think,Overall,Positive,25.0,,1
+2024-03-31,Redfield & Wilton,Overall,Negative,47.0,,1
+2024-03-31,Redfield & Wilton,Overall,Positive,26.0,,1
+2024-04-05,Opinium,Overall,Negative,56.0,,1
+2024-04-05,Opinium,Overall,Positive,22.0,,1
+2024-04-07,JL Partners,Overall,Negative,54.0,,1
+2024-04-07,JL Partners,Overall,Positive,21.0,,1
+2024-04-07,Redfield & Wilton,Overall,Negative,45.0,,1
+2024-04-07,Redfield & Wilton,Overall,Positive,25.0,,1
+2024-04-15,Deltapoll,Overall,Negative,61.0,,1
+2024-04-15,Deltapoll,Overall,Positive,33.0,,1
+2024-04-15,Ipsos,Overall,Negative,75.0,,1
+2024-04-15,Ipsos,Overall,Positive,16.0,,1
+2024-04-19,Deltapoll,Overall,Negative,65.0,,1
+2024-04-19,Deltapoll,Overall,Positive,29.0,,1
+2024-04-19,Opinium,Overall,Negative,56.0,,1
+2024-04-19,Opinium,Overall,Positive,22.0,,1
+2024-04-21,Redfield & Wilton,Overall,Negative,49.0,,1
+2024-04-21,Redfield & Wilton,Overall,Positive,25.0,,1
+2024-04-26,Deltapoll,Overall,Negative,63.0,,1
+2024-04-26,Deltapoll,Overall,Positive,29.0,,1
+2024-04-28,Redfield & Wilton,Overall,Negative,46.0,,1
+2024-04-28,Redfield & Wilton,Overall,Positive,26.0,,1
+2024-05-03,Deltapoll,Overall,Negative,65.0,,1
+2024-05-03,Deltapoll,Overall,Positive,30.0,,1
+2024-05-10,Deltapoll,Overall,Negative,70.0,,1
+2024-05-10,Deltapoll,Overall,Positive,28.0,,1
+2024-05-12,Redfield & Wilton,Overall,Negative,49.0,,1
+2024-05-12,Redfield & Wilton,Overall,Positive,26.0,,1
+2024-05-17,Deltapoll,Overall,Negative,63.0,,1
+2024-05-17,Deltapoll,Overall,Positive,30.0,,1
+2024-05-19,Redfield & Wilton,Overall,Negative,45.0,,1
+2024-05-19,Redfield & Wilton,Overall,Positive,29.0,,1
+2024-05-23,Deltapoll,Overall,Negative,64.0,,1
+2024-05-23,Deltapoll,Overall,Positive,28.0,,1
+2024-05-23,Opinium,Overall,Negative,56.0,,1
+2024-05-23,Opinium,Overall,Positive,25.0,,1
+2024-05-24,JL Partners,Overall,Negative,50.0,,1
+2024-05-24,JL Partners,Overall,Positive,25.0,,1
+2024-05-24,We Think,Overall,Negative,53.0,,1
+2024-05-24,We Think,Overall,Positive,25.0,,1
+2024-05-25,Survation,Overall,Negative,57.0,,1
+2024-05-25,Survation,Overall,Positive,32.0,,1
+2024-05-26,Redfield & Wilton,Overall,Negative,47.0,,1
+2024-05-26,Redfield & Wilton,Overall,Positive,28.0,,1
+2024-05-30,We Think,Overall,Negative,55.0,,1
+2024-05-30,We Think,Overall,Positive,24.0,,1
+2024-06-01,Redfield & Wilton,Overall,Negative,47.0,,1
+2024-06-01,Redfield & Wilton,Overall,Positive,30.0,,1
+2024-06-03,Deltapoll,Overall,Negative,63.0,,1
+2024-06-03,Deltapoll,Overall,Positive,32.0,,1
+2024-06-05,Opinium,Overall,Negative,56.0,,1
+2024-06-05,Opinium,Overall,Positive,24.0,,1
+2024-06-06,Redfield & Wilton,Overall,Negative,47.0,,1
+2024-06-06,Redfield & Wilton,Overall,Positive,28.0,,1
+2024-06-06,We Think,Overall,Negative,55.0,,1
+2024-06-06,We Think,Overall,Positive,23.0,,1
+2024-06-08,Deltapoll,Overall,Negative,64.0,,1
+2024-06-08,Deltapoll,Overall,Positive,31.0,,1
+2024-06-10,Redfield & Wilton,Overall,Negative,53.0,,1
+2024-06-10,Redfield & Wilton,Overall,Positive,26.0,,1
+2024-06-13,We Think,Overall,Negative,58.0,,1
+2024-06-13,We Think,Overall,Positive,23.0,,1
+2024-06-14,Opinium,Overall,Negative,60.0,,1
+2024-06-14,Opinium,Overall,Positive,20.0,,1
+2024-06-15,JL Partners,Overall,Negative,56.0,,1
+2024-06-15,JL Partners,Overall,Positive,21.0,,1
+2024-06-16,Redfield & Wilton,Overall,Negative,51.0,,1
+2024-06-16,Redfield & Wilton,Overall,Positive,27.0,,1
+2024-06-17,Deltapoll,Overall,Negative,70.0,,1
+2024-06-17,Deltapoll,Overall,Positive,25.0,,1
+2024-06-18,Survation,Overall,Negative,62.0,,1
+2024-06-18,Survation,Overall,Positive,23.0,,1
+2024-06-21,We Think,Overall,Negative,57.0,,1
+2024-06-21,We Think,Overall,Positive,25.0,,1
+2024-06-23,Redfield & Wilton,Overall,Negative,52.0,,1
+2024-06-23,Redfield & Wilton,Overall,Positive,29.0,,1
+2024-06-24,Deltapoll,Overall,Negative,70.0,,1
+2024-06-24,Deltapoll,Overall,Positive,25.0,,1
+2024-06-24,JL Partners,Overall,Negative,55.0,,1
+2024-06-24,JL Partners,Overall,Positive,20.0,,1
+2024-06-25,Survation,Overall,Negative,61.0,,1
+2024-06-25,Survation,Overall,Positive,23.0,,1
+2024-06-27,Deltapoll,Overall,Negative,71.0,,1
+2024-06-27,Deltapoll,Overall,Positive,26.0,,1
+2024-06-28,Opinium,Overall,Negative,61.0,,1
+2024-06-28,Opinium,Overall,Positive,21.0,,1
+2024-06-28,Redfield & Wilton,Overall,Negative,50.0,,1
+2024-06-28,Redfield & Wilton,Overall,Positive,27.0,,1
+2024-07-03,Deltapoll,Overall,Negative,71.0,,1
+2024-07-03,Deltapoll,Overall,Positive,26.0,,1
