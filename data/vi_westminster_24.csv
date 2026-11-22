@@ -44116,6 +44116,13 @@ date,pollster,sample,option,value,base,n_merged
 2025-08-26,More in Common,Overall,LDem,14.0,,1
 2025-08-26,More in Common,Overall,Lab,22.0,,1
 2025-08-26,More in Common,Overall,Ref,30.0,,1
+2025-08-26,More in Common,Scotland,Con,12.2,,2
+2025-08-26,More in Common,Scotland,Grn,6.7,,2
+2025-08-26,More in Common,Scotland,LDem,12.9,,2
+2025-08-26,More in Common,Scotland,Lab,16.5,,2
+2025-08-26,More in Common,Scotland,Oth,0.3,,2
+2025-08-26,More in Common,Scotland,Ref,16.1,,2
+2025-08-26,More in Common,Scotland,SNP,34.5,,2
 2025-08-26,YouGov,18-34,Con,3.0,,1
 2025-08-26,YouGov,18-34,Grn,21.0,,1
 2025-08-26,YouGov,18-34,LDem,18.0,,1
@@ -47687,13 +47694,13 @@ date,pollster,sample,option,value,base,n_merged
 2026-01-29,More in Common,65+,Oth,0.5,,3
 2026-01-29,More in Common,65+,Ref,25.7,,5
 2026-01-29,More in Common,65+,SNP,23.8,,5
-2026-01-29,More in Common,Overall,Con,11.5,,3
-2026-01-29,More in Common,Overall,Grn,6.8,,3
-2026-01-29,More in Common,Overall,LDem,11.5,,3
-2026-01-29,More in Common,Overall,Lab,19.0,,3
-2026-01-29,More in Common,Overall,Oth,0.5,,2
-2026-01-29,More in Common,Overall,Ref,20.7,,3
-2026-01-29,More in Common,Overall,SNP,29.2,,3
+2026-01-29,More in Common,Scotland,Con,11.5,,3
+2026-01-29,More in Common,Scotland,Grn,6.8,,3
+2026-01-29,More in Common,Scotland,LDem,11.5,,3
+2026-01-29,More in Common,Scotland,Lab,19.0,,3
+2026-01-29,More in Common,Scotland,Oth,0.5,,2
+2026-01-29,More in Common,Scotland,Ref,20.7,,3
+2026-01-29,More in Common,Scotland,SNP,29.2,,3
 2026-01-29,Survation,Overall,Con,20.0,,1
 2026-01-29,Survation,Overall,Grn,12.0,,1
 2026-01-29,Survation,Overall,LDem,12.0,,1
@@ -47876,6 +47883,13 @@ date,pollster,sample,option,value,base,n_merged
 2026-02-04,More in Common,65+,Oth,1.1,,2
 2026-02-04,More in Common,65+,PC,21.8,,2
 2026-02-04,More in Common,65+,Ref,34.5,,2
+2026-02-04,More in Common,Wales,Con,12.8,,1
+2026-02-04,More in Common,Wales,Grn,5.5,,1
+2026-02-04,More in Common,Wales,LDem,6.3,,1
+2026-02-04,More in Common,Wales,Lab,19.7,,1
+2026-02-04,More in Common,Wales,Oth,0.9,,1
+2026-02-04,More in Common,Wales,PC,24.2,,1
+2026-02-04,More in Common,Wales,Ref,30.7,,1
 2026-02-05,Opinium,18-34,Con,10.0,,1
 2026-02-05,Opinium,18-34,Grn,19.0,,1
 2026-02-05,Opinium,18-34,LDem,7.0,,1
