@@ -8,15 +8,9 @@ on:
       folder_name:
         description: "Folder name (e.g. scotland-westminster)"
         required: true
-      data_url:
-        description: "Google Sheets CSV URL"
+      options:
+        description: "Option names as in the tracker CSV (e.g. Lab,Plaid,Reform,Con)"
         required: true
-      dw_line_type:
-        description: "Datawrapper line chart type"
-        default: "d3-lines"
-      dw_bar_type:
-        description: "Datawrapper bar chart type"
-        default: "d3-bars-split"
 
 jobs:
   create-tracker:
@@ -34,7 +28,7 @@ jobs:
           python pipeline/new_tracker.py \
             --name "${{ github.event.inputs.tracker_name }}" \
             --folder "${{ github.event.inputs.folder_name }}" \
-            --url "${{ github.event.inputs.data_url }}" \
+            --options "${{ github.event.inputs.options }}" \
             --non-interactive
         env:
           DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
@@ -42,6 +36,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add trackers/
+          git add trackers/ config/
           git diff --cached --quiet || git commit -m "add tracker: ${{ github.event.inputs.folder_name }}"
           git push

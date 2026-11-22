@@ -1,5 +1,5 @@
 {
-  "_readme": "One place for smoothing settings. Per tracker: bandwidthDays / minPollsInWindow / marginOfError (tracker-wide), plus 'subgroups' overrides keyed by subgroup value (lowercase, e.g. 'overall', '65+'); a subgroup not listed inherits the tracker-wide value. 'defaults' apply to every tracker unless it sets the same key: localLinear (sloped local fit; removes lag at the latest edge) and maxGapDays (no curve is drawn where the polls either side of a date are further apart than this).",
+  "_readme": "One place for smoothing settings. Per tracker: bandwidthDays / minPollsInWindow / marginOfError (tracker-wide), plus 'subgroups' overrides keyed by subgroup value (lowercase, e.g. 'overall', '65+'); a subgroup not listed inherits the tracker-wide value. 'defaults' apply to every tracker unless it sets the same key: localLinear (sloped local fit; removes lag at the latest edge) and maxGapDays (no curve is drawn where the polls either side of a date are further apart than this). Per tracker you can also set 'enabled': false to stop it being rebuilt and listed (its last output stays on the site until removed), and 'name' to label it in trackers/index.csv.",
   "defaults": {
     "localLinear": true,
     "maxGapDays": 45
@@ -68,7 +68,7 @@
         }
       }
     },
-    "ldr_blair": {
+    "ldr_blair_all": {
       "bandwidthDays": 80,
       "minPollsInWindow": 2,
       "subgroups": {
@@ -80,7 +80,7 @@
         }
       }
     },
-    "ldr_brown": {
+    "ldr_brown_all": {
       "bandwidthDays": 60,
       "minPollsInWindow": 2,
       "subgroups": {
@@ -317,7 +317,7 @@
         }
       }
     },
-    "ldr_johnson": {
+    "ldr_johnson_all": {
       "bandwidthDays": 80,
       "minPollsInWindow": 2,
       "subgroups": {
@@ -329,7 +329,7 @@
         }
       }
     },
-    "ldr_may": {
+    "ldr_may_all": {
       "bandwidthDays": 80,
       "minPollsInWindow": 2,
       "subgroups": {
@@ -489,7 +489,7 @@
         }
       }
     },
-    "ldr_sunak": {
+    "ldr_sunak_all": {
       "bandwidthDays": 80,
       "minPollsInWindow": 2,
       "subgroups": {
@@ -501,7 +501,7 @@
         }
       }
     },
-    "ldr_truss": {
+    "ldr_truss_all": {
       "bandwidthDays": 40,
       "minPollsInWindow": 2,
       "subgroups": {

@@ -22,35 +22,8 @@ jobs:
       - name: Install dependencies
         run: pip install requests numpy
 
-      - name: Run all poll trackers
-        run: |
-          for dir in trackers/*/; do
-            config="${dir}config.json"
-            if [ ! -f "$config" ]; then continue; fi
-            if ! python3 -c "import json; json.load(open('$config'))" 2>/dev/null; then
-              echo "Skipping $dir — invalid or empty config.json"
-              continue
-            fi
-            pipeline=$(python3 -c "import json; print(json.load(open('$config')).get('pipeline','smooth'))")
-            if [ "$pipeline" = "smooth" ]; then
-              echo "Running smooth: $dir"
-              python pipeline/smooth.py --config "$config" --push-to-datawrapper
-            fi
-          done
-        env:
-          DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
-
-      - name: Run approval trackers
-        run: |
-          for dir in trackers/*/; do
-            config="${dir}config.json"
-            if [ ! -f "$config" ]; then continue; fi
-            pipeline=$(python3 -c "import json; print(json.load(open('$config')).get('pipeline','smooth'))")
-            if [ "$pipeline" = "approval" ]; then
-              echo "Running approval: $dir"
-              python pipeline/approval.py --config "$config" --push-to-datawrapper
-            fi
-          done
+      - name: Run all trackers (in parallel) and write trackers/index.csv
+        run: python pipeline/run_all.py --workers 4 --push-to-datawrapper
         env:
           DATAWRAPPER_TOKEN: ${{ secrets.DATAWRAPPER_TOKEN }}
 

@@ -162,27 +162,47 @@ def get_reference_election(parties):
 # Build config
 # ---------------------------------------------------------------------------
 
-def build_config(folder_name, tracker_name, data_url, parties, ref_election,
-                 bw, min_polls, n_boot, line_id, bar_id):
+def build_config(folder_name, tracker_name, data_path, parties, ref_election,
+                 line_id="", bar_id=""):
+    """Config for a tracker fed by a long-format CSV in data/ (written by the
+    parser repo).  Bandwidths live in config/smoothing.json, not here."""
     return {
+        "pipeline": "smooth",
         "trackerName": tracker_name,
-        "dataUrl": data_url,
-        "smoothing": {
-            "bandwidthDays": bw,
-            "minPollsInWindow": min_polls,
-            "bootstrapIterations": n_boot
-        },
+        "dataSource": {"type": "long_csv", "path": data_path},
+        "smoothing": {"bootstrapIterations": 200},
         "skipPollsterPatterns": ["GE result", "result"],
         "parties": parties,
         "referenceElection": ref_election,
         "output": {
-            "lineJsonPath": f"trackers/{folder_name}/data/line.json",
-            "barCsvPath":   f"trackers/{folder_name}/data/bar.csv",
-            "lineCsvPath":  f"trackers/{folder_name}/data/line.csv",
+            "lineJsonPath":   f"trackers/{folder_name}/data/line.json",
+            "summaryCsvPath": f"trackers/{folder_name}/data/summary.csv",
+            "barCsvPath":     f"trackers/{folder_name}/data/bar.csv",
+            "lineCsvPath":    f"trackers/{folder_name}/data/line.csv",
             "datawrapperLineChartId": line_id or "",
             "datawrapperBarChartId":  bar_id  or "",
         }
     }
+
+
+def add_smoothing_entry(folder_name, bw, min_polls):
+    """Register the tracker in the central smoothing config."""
+    path = Path("config/smoothing.json")
+    cfg = json.loads(path.read_text())
+    cfg.setdefault("trackers", {}).setdefault(
+        folder_name, {"bandwidthDays": bw, "minPollsInWindow": min_polls})
+    cfg["trackers"] = dict(sorted(cfg["trackers"].items()))
+    path.write_text(json.dumps(cfg, indent=2) + "\n")
+
+
+def parties_from_options(options):
+    """Comma-separated option names -> party entries with brand colours."""
+    out = []
+    for i, name in enumerate(o.strip() for o in options.split(",") if o.strip()):
+        out.append({"name": name, "col": i + 2,
+                    "color": KNOWN_COLORS.get(name.lower(), "#888888"),
+                    "includeInLine": True, "includeInBar": True})
+    return out
 
 # ---------------------------------------------------------------------------
 # Scaffold files
@@ -547,101 +567,42 @@ boot();
 # ---------------------------------------------------------------------------
 
 def main():
-    parser = argparse.ArgumentParser(description="Create a new poll tracker")
-    parser.add_argument("--datawrapper-token", default=os.environ.get("DATAWRAPPER_TOKEN", ""),
-                        help="Datawrapper API token (or set DATAWRAPPER_TOKEN env var)")
-    parser.add_argument("--trackers-dir", default="trackers",
-                        help="Root trackers directory (default: trackers)")
+    parser = argparse.ArgumentParser(description="Create a new poll tracker (repo-data version)")
+    parser.add_argument("--name", help="Tracker name, e.g. 'Welsh Senedd VI'")
+    parser.add_argument("--folder", help="Folder / tracker id, e.g. vi_senedd")
+    parser.add_argument("--options", help="Comma-separated option names as they appear in the "
+                        "tracker CSV, e.g. 'Lab,Plaid,Reform,Con'")
+    parser.add_argument("--bandwidth", type=int, default=120)
+    parser.add_argument("--min-polls", type=int, default=4)
+    parser.add_argument("--ref-label", default="2024 general election")
+    parser.add_argument("--trackers-dir", default="trackers")
+    parser.add_argument("--non-interactive", action="store_true")
     args = parser.parse_args()
 
-    token = args.datawrapper_token
-    trackers_dir = Path(args.trackers_dir)
-
-    print("=" * 60)
-    print("  New poll tracker setup")
-    print("=" * 60)
-
-    # Basic info
-    tracker_name = ask("\nTracker name (e.g. 'Welsh Senedd VI')")
-    folder_name  = ask("Folder name", default=slug(tracker_name))
-    data_url     = ask("Google Sheets CSV URL")
-
-    # Check folder doesn't already exist
-    tracker_dir = trackers_dir / folder_name
+    tracker_name = args.name or ask("Tracker name (e.g. 'Welsh Senedd VI')")
+    folder_name  = args.folder or ask("Folder / tracker id", default=slug(tracker_name).replace("-", "_"))
+    data_path    = f"data/{folder_name}.csv"
+    tracker_dir  = Path(args.trackers_dir) / folder_name
     if tracker_dir.exists():
-        if not ask_yn(f"\nFolder trackers/{folder_name} already exists. Overwrite?", default="n"):
-            print("Aborted.")
-            sys.exit(0)
+        sys.exit(f"trackers/{folder_name} already exists - aborting.")
 
-    # Smoothing defaults
-    print("\nSmoothing defaults (can be adjusted in config.json later):")
-    bw       = int(ask("  Bandwidth (days)", default="120"))
-    min_polls = int(ask("  Min polls in window", default="4"))
-    n_boot   = int(ask("  Bootstrap iterations for CI", default="200"))
-
-    # Parties
-    parties = get_parties()
-
-    # Reference election
-    ref_election = get_reference_election(parties)
-
-    # Datawrapper
-    line_id, bar_id = "", ""
-    use_dw = ask_yn("\nCreate Datawrapper charts automatically?", default="y" if token else "n")
-
-    if use_dw:
-        if not token:
-            token = ask("Datawrapper API token")
-        if token:
-            print(f"\nCreating line chart '{tracker_name}'...")
-            line_id = dw_create_chart(token, "d3-lines", tracker_name)
-            print(f"  Line chart ID: {line_id}" if line_id else "  Failed to create line chart")
-
-            print(f"Creating bar chart '{tracker_name} — change since {ref_election['label']}'...")
-            bar_id = dw_create_chart(token, "d3-bars-split",
-                                     f"{tracker_name} — change since {ref_election['label']}")
-            print(f"  Bar chart ID: {bar_id}" if bar_id else "  Failed to create bar chart")
-        else:
-            print("  No token provided, skipping Datawrapper chart creation.")
+    if args.options:
+        parties = parties_from_options(args.options)
+    elif args.non_interactive:
+        sys.exit("--options is required with --non-interactive")
     else:
-        line_id = ask("Datawrapper line chart ID (or blank)", required=False)
-        bar_id  = ask("Datawrapper bar chart ID (or blank)",  required=False)
+        parties = get_parties()
+    ref_election = {"label": args.ref_label, "date": "04/07/2024", "results": {}}
 
-    # Build config
-    config = build_config(folder_name, tracker_name, data_url, parties, ref_election,
-                          bw, min_polls, n_boot, line_id, bar_id)
+    tracker_dir.joinpath("data").mkdir(parents=True)
+    (tracker_dir / "config.json").write_text(
+        json.dumps(build_config(folder_name, tracker_name, data_path, parties, ref_election), indent=2))
+    add_smoothing_entry(folder_name, args.bandwidth, args.min_polls)
 
-    # Scaffold files
-    tracker_dir.mkdir(parents=True, exist_ok=True)
-    (tracker_dir / "data").mkdir(exist_ok=True)
+    print(f"Created trackers/{folder_name}/config.json and a config/smoothing.json entry.")
+    print(f"Next: add '{folder_name}' to master/tracker_rules.json in the parser repo so "
+          f"data/{folder_name}.csv is published; the nightly run will then pick it up.")
 
-    config_path = tracker_dir / "config.json"
-    with open(config_path, "w") as f:
-        json.dump(config, f, indent=2)
-    print(f"\nWritten: {config_path}")
-
-    index_path = tracker_dir / "index.html"
-    with open(index_path, "w") as f:
-        f.write(INDEX_TEMPLATE.format(tracker_name=tracker_name))
-    print(f"Written: {index_path}")
-
-    # Summary
-    print("\n" + "=" * 60)
-    print("  Tracker created successfully!")
-    print("=" * 60)
-    print(f"\n  Folder:     trackers/{folder_name}/")
-    print(f"  Config:     trackers/{folder_name}/config.json")
-    print(f"  Explorer:   trackers/{folder_name}/index.html")
-    if line_id:
-        print(f"  DW line:    https://app.datawrapper.de/chart/{line_id}/visualize")
-    if bar_id:
-        print(f"  DW bar:     https://app.datawrapper.de/chart/{bar_id}/visualize")
-    print(f"\n  Next steps:")
-    print(f"  1. git add trackers/{folder_name}/ && git commit -m 'add {folder_name} tracker'")
-    print(f"  2. git push")
-    print(f"  3. Run the pipeline: python pipeline/smooth.py --config trackers/{folder_name}/config.json --push-to-datawrapper")
-    print(f"  4. Style your Datawrapper charts")
-    print()
 
 if __name__ == "__main__":
     main()
