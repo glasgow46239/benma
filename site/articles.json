@@ -1,59 +1,145 @@
 {
- "source": "https://britainelects.substack.com/feed",
+ "source": "https://britainelects.substack.com",
  "items": [
+  {
+   "title": "Holborn & St Pancras, the lines to take",
+   "url": "https://britainelects.substack.com/p/holborn-and-st-pancras-the-lines",
+   "date": "2026-10-09",
+   "desc": "Turnout differentials, a post-match poll, and what it means for the Greens",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/e4213da8-9a55-44b5-836b-bbdc7390eb0e_770x499.png"
+  },
+  {
+   "title": "Catch up: Greater Manchester mayoral results by ward",
+   "url": "https://britainelects.substack.com/p/catch-up-greater-manchester-mayoral",
+   "date": "2026-09-02",
+   "desc": "What&#8217;s more remarkable, that Labour swept Gorton and Denton; or that the fourth-placed Tories were still winning wards?",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/8eb8f743-eb2b-4f74-bbe2-a2a312a43716_1363x974.png"
+  },
   {
    "title": "How to read the Clacton result",
    "url": "https://britainelects.substack.com/p/how-to-read-the-clacton-result",
    "date": "2026-08-15",
-   "desc": "Nigel Farage's vote validates the polls, but Binface does better than expected"
+   "desc": "Nigel Farage's vote validates the polls, but Binface does better than expected",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/e2767dff-3b98-4184-8ea4-ae315b3f3ec4_770x499.png"
   },
   {
    "title": "How popular is Andy Burnham?",
    "url": "https://britainelects.substack.com/p/how-popular-is-andy-burnham",
    "date": "2026-08-09",
-   "desc": "The Britain Elects poll tracker on Labour's Prime Minister, updated with new data"
+   "desc": "The Britain Elects poll tracker on Labour's Prime Minister, updated with new data",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/345aef81-e0dc-4b07-8be2-e5e0c8d743a0_770x499.png"
   },
   {
    "title": "What the polls and models might be getting wrong right now",
    "url": "https://britainelects.substack.com/p/what-the-polls-and-models-might-be",
    "date": "2026-08-09",
-   "desc": "\"Middle England\" isn't quite so keen on Reform as first thought; and other things we found in the Britain Predicts model"
+   "desc": "\"Middle England\" isn't quite so keen on Reform as first thought; and other things we found in the Britain Predicts model",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/0d94acfd-b70c-415e-a9cd-e56f1cd66e6c_770x499.png"
   },
   {
    "title": "Mancman Backs Burnham — who knew?",
    "url": "https://britainelects.substack.com/p/mancman-backs-burnham-who-knew",
    "date": "2026-08-01",
-   "desc": "What you won't read elsewhere"
+   "desc": "What you won't read elsewhere",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/9552f395-6748-482a-8bf2-a88a1d3b4e7d_770x499.png"
   },
   {
    "title": "How popular was Keir Starmer?",
    "url": "https://britainelects.substack.com/p/how-popular-is-keir-starmer",
    "date": "2026-07-17",
-   "desc": "How Starmer performed as Leader of the Labour Party and Prime Minister"
+   "desc": "How Starmer performed as Leader of the Labour Party and Prime Minister",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/a6d2c208-3f80-420e-afde-9b0eea314c71_770x499.png"
   },
   {
    "title": "Who's ahead in the polls?",
    "url": "https://britainelects.substack.com/p/whos-ahead-in-the-polls",
    "date": "2026-07-09",
-   "desc": "The latest from the Britain Elects Poll Tracker for England, Scotland and Wales"
+   "desc": "The latest from the Britain Elects Poll Tracker for England, Scotland and Wales",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/859f8c84-d960-4089-9375-98d43693f626_770x499.png"
   },
   {
    "title": "Is Rejoin happening anytime soon?",
    "url": "https://britainelects.substack.com/p/is-rejoin-happening-anytime-soon",
    "date": "2026-06-23",
-   "desc": "Ten years on from the EU referendum"
+   "desc": "Ten years on from the EU referendum",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/87951c30-8a61-431a-8e36-bdc9f54915dc_770x499.png"
   },
   {
    "title": "The Greatest Gamble",
    "url": "https://britainelects.substack.com/p/the-greatest-gamble",
    "date": "2026-06-18",
-   "desc": "A despatch from the Makerfield constituency"
+   "desc": "A despatch from the Makerfield constituency",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/4b0fdeac-964f-41b6-abb2-47dabf6ea0ba_666x476.png"
   },
   {
    "title": "Who do you trust with the economy?",
    "url": "https://britainelects.substack.com/p/who-do-you-trust-with-the-economy",
    "date": "2026-02-23",
-   "desc": "Conservative vs. Labour with the Britain Elects poll tracker"
+   "desc": "Conservative vs. Labour with the Britain Elects poll tracker",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/2ae220ef-644a-4ab3-b470-c82aef7d6a57_420x300.png"
+  },
+  {
+   "title": "What if it is Green vs. Reform in Gorton and Denton?",
+   "url": "https://britainelects.substack.com/p/what-if-it-is-green-vs-reform-in",
+   "date": "2026-02-04",
+   "desc": "What would happen if the Greens were the tactical voting option, not Labour? Plus: the Owen Jones scoop that Green veterans say is... [redacted]",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/4b7a27af-363d-47a5-9055-60301affc962_1280x720.png"
+  },
+  {
+   "title": "\"Labour needs to lose to learn\"",
+   "url": "https://britainelects.substack.com/p/labour-needs-to-lose-to-learn",
+   "date": "2026-02-03",
+   "desc": "In Runcorn, Ground Zero for Reform, Labour's councillors are struggling to adapt to the new normal",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/ba1ba7cd-f3fe-4ee3-b520-e70fb86c4dde_940x607.png"
+  },
+  {
+   "title": "Corbyn vs. Starmer - who do Britons want really?",
+   "url": "https://britainelects.substack.com/p/corbyn-vs-starmer-who-do-britons",
+   "date": "2025-08-05",
+   "desc": "Plus: a lesson in how not to do polling",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/ea788c94-326d-44af-9d16-b597d9e7ebae_600x429.png"
+  },
+  {
+   "title": "Death spiral? The state of Labour in Wales",
+   "url": "https://britainelects.substack.com/p/death-spiral-the-state-of-labour",
+   "date": "2025-08-02",
+   "desc": "Plus: the polling which shows how bad it really is",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/7bacd99e-3f71-4a18-bb7c-17c2119a8614_600x429.png"
+  },
+  {
+   "title": "Reform has eaten the Tory recovery",
+   "url": "https://britainelects.substack.com/p/reform-has-eaten-the-tory-recovery",
+   "date": "2025-07-05",
+   "desc": "Things aren't so rosy for Britain's Grand Old Party",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/3e3b4db1-f786-456d-ab0b-44dcaedbd531_482x344.png"
+  },
+  {
+   "title": "A Scottish surprise?",
+   "url": "https://britainelects.substack.com/p/a-scottish-surprise",
+   "date": "2025-06-05",
+   "desc": "What does the Britain Predicts model say for the Hamilton by-election?",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/95e1d6f0-1821-44c8-8a1e-e1d6f07707d2_420x300.png"
+  },
+  {
+   "title": "How Labour lost Runcorn",
+   "url": "https://britainelects.substack.com/p/how-labour-lost-runcorn",
+   "date": "2025-05-03",
+   "desc": "\"I think it came down to the number of votes cast\"",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/40a433ea-0618-4e6b-981d-196d4d4f314d_840x600.png"
+  },
+  {
+   "title": "All change in England this day",
+   "url": "https://britainelects.substack.com/p/all-change-in-england-this-day",
+   "date": "2025-05-01",
+   "desc": "Where to get the results for this year's English local elections",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/941d77e5-732a-4c2f-b12f-14e2238b7e52_840x600.png"
+  },
+  {
+   "title": "Get the data: ward-by-ward results of the 2025 English local elections",
+   "url": "https://britainelects.substack.com/p/get-the-data-ward-by-ward-results",
+   "date": "2025-05-01",
+   "desc": "Exclusive to paid subscribers",
+   "image": "https://substack-post-media.s3.amazonaws.com/public/images/a3cfb353-8f5a-4e7a-a8bc-c18e0395e0b0_840x600.png"
   }
  ]
 }
