@@ -268,7 +268,7 @@
   },
   "output": {
     "lineJsonPath": "trackers/ldr_starmer_all/data/line.json",
-    "summaryCsvPath": "trackers/best_econ_all/data/summary.csv",
+    "summaryCsvPath": "trackers/ldr_starmer_all/data/summary.csv",
     "barCsvPath": "trackers/ldr_starmer_all/data/bar.csv",
     "lineCsvPath": "trackers/ldr_starmer_all/data/line.csv",
     "subgroups": {
