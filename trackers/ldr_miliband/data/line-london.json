@@ -2,20 +2,29 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "London",
-    "generated": "2026-11-21T14:10:38Z",
+    "generated": "2026-11-22T11:29:20Z",
     "bandwidthDays": 120,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
     "headline": "Negative lead (London) at 49.0%",
-    "intro": "Latest poll: YouGov \u00b7 12 November 2026 \u00b7 Negative 49.0% \u00b7 Positive 32.0%",
+    "intro": "Latest poll: YouGov \u00b7 11 November 2026 \u00b7 Negative 49.0% \u00b7 Positive 32.0%",
     "latestSmoothed": {
       "Positive": 31.51,
       "Negative": 48.02
     },
-    "latestPollDate": "12-Nov-2026"
+    "latestPollDate": "11-Nov-2026"
   },
   "series": {
     "Positive": [
+      {
+        "t": 20741,
+        "date": "2026-10-15",
+        "value": 31.49,
+        "low": 31.0,
+        "high": 32.0,
+        "sparse": true,
+        "party": "Positive"
+      },
       {
         "t": 20742,
         "date": "2026-10-16",
@@ -55,7 +64,7 @@
       {
         "t": 20746,
         "date": "2026-10-20",
-        "value": 31.49,
+        "value": 31.5,
         "low": 31.0,
         "high": 32.0,
         "sparse": true,
@@ -217,7 +226,7 @@
       {
         "t": 20764,
         "date": "2026-11-07",
-        "value": 31.5,
+        "value": 31.51,
         "low": 31.0,
         "high": 32.0,
         "sparse": true,
@@ -253,15 +262,6 @@
       {
         "t": 20768,
         "date": "2026-11-11",
-        "value": 31.51,
-        "low": 31.0,
-        "high": 32.0,
-        "sparse": true,
-        "party": "Positive"
-      },
-      {
-        "t": 20769,
-        "date": "2026-11-12",
         "value": 31.51,
         "low": 31.0,
         "high": 32.0,
@@ -271,6 +271,15 @@
     ],
     "Negative": [
       {
+        "t": 20741,
+        "date": "2026-10-15",
+        "value": 47.98,
+        "low": 47.0,
+        "high": 49.0,
+        "sparse": true,
+        "party": "Negative"
+      },
+      {
         "t": 20742,
         "date": "2026-10-16",
         "value": 47.98,
@@ -282,7 +291,7 @@
       {
         "t": 20743,
         "date": "2026-10-17",
-        "value": 47.98,
+        "value": 47.99,
         "low": 47.0,
         "high": 49.0,
         "sparse": true,
@@ -345,7 +354,7 @@
       {
         "t": 20750,
         "date": "2026-10-24",
-        "value": 47.99,
+        "value": 48.0,
         "low": 47.0,
         "high": 49.0,
         "sparse": true,
@@ -435,7 +444,7 @@
       {
         "t": 20760,
         "date": "2026-11-03",
-        "value": 48.0,
+        "value": 48.01,
         "low": 47.0,
         "high": 49.0,
         "sparse": true,
@@ -498,7 +507,7 @@
       {
         "t": 20767,
         "date": "2026-11-10",
-        "value": 48.01,
+        "value": 48.02,
         "low": 47.0,
         "high": 49.0,
         "sparse": true,
@@ -507,15 +516,6 @@
       {
         "t": 20768,
         "date": "2026-11-11",
-        "value": 48.02,
-        "low": 47.0,
-        "high": 49.0,
-        "sparse": true,
-        "party": "Negative"
-      },
-      {
-        "t": 20769,
-        "date": "2026-11-12",
         "value": 48.02,
         "low": 47.0,
         "high": 49.0,
@@ -526,7 +526,7 @@
   },
   "rawPolls": [
     {
-      "date": "2026-10-16",
+      "date": "2026-10-15",
       "pollster": "YouGov",
       "values": {
         "Positive": 31.0,
@@ -534,7 +534,7 @@
       }
     },
     {
-      "date": "2026-11-12",
+      "date": "2026-11-11",
       "pollster": "YouGov",
       "values": {
         "Positive": 32.0,

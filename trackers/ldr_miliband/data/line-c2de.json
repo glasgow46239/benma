@@ -2,20 +2,20 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "C2DE voters",
-    "generated": "2026-11-21T14:10:38Z",
+    "generated": "2026-11-22T11:29:20Z",
     "bandwidthDays": 120,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
     "headline": "Negative lead (C2DE voters) at 57.0%",
-    "intro": "Latest poll: YouGov \u00b7 12 November 2026 \u00b7 Negative 57.0% \u00b7 Positive 18.0%",
+    "intro": "Latest poll: YouGov \u00b7 11 November 2026 \u00b7 Negative 57.0% \u00b7 Positive 18.0%",
     "latestSmoothed": {},
-    "latestPollDate": "12-Nov-2026"
+    "latestPollDate": "11-Nov-2026"
   },
   "series": {
     "Positive": [
       {
-        "t": 20769,
-        "date": "2026-11-12",
+        "t": 20768,
+        "date": "2026-11-11",
         "value": null,
         "low": null,
         "high": null,
@@ -25,8 +25,8 @@
     ],
     "Negative": [
       {
-        "t": 20769,
-        "date": "2026-11-12",
+        "t": 20768,
+        "date": "2026-11-11",
         "value": null,
         "low": null,
         "high": null,
@@ -37,7 +37,7 @@
   },
   "rawPolls": [
     {
-      "date": "2026-11-12",
+      "date": "2026-11-11",
       "pollster": "YouGov",
       "values": {
         "Positive": 18.0,

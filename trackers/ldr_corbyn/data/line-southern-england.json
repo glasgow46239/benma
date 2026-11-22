@@ -2,20 +2,20 @@
   "meta": {
     "trackerName": "Leadership view",
     "subgroup": "Southern England",
-    "generated": "2026-11-21T14:08:44Z",
+    "generated": "2026-11-22T11:27:20Z",
     "bandwidthDays": 120,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
     "headline": "Negative lead (Southern England) at 67.0%",
-    "intro": "Latest poll: YouGov \u00b7 22 June 2026 \u00b7 Negative 67.0% \u00b7 Positive 19.0%",
+    "intro": "Latest poll: YouGov \u00b7 21 June 2026 \u00b7 Negative 67.0% \u00b7 Positive 19.0%",
     "latestSmoothed": {},
-    "latestPollDate": "22-Jun-2026"
+    "latestPollDate": "21-Jun-2026"
   },
   "series": {
     "Positive (post-2017 election)": [
       {
-        "t": 20626,
-        "date": "2026-06-22",
+        "t": 20625,
+        "date": "2026-06-21",
         "value": null,
         "low": null,
         "high": null,
@@ -25,8 +25,8 @@
     ],
     "Negative (post-2017 election)": [
       {
-        "t": 20626,
-        "date": "2026-06-22",
+        "t": 20625,
+        "date": "2026-06-21",
         "value": null,
         "low": null,
         "high": null,
@@ -37,7 +37,7 @@
   },
   "rawPolls": [
     {
-      "date": "2026-06-22",
+      "date": "2026-06-21",
       "pollster": "YouGov",
       "values": {
         "Positive": 19.0,
