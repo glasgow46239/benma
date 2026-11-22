@@ -18157,6 +18157,92 @@ date,pollster,sample,option,value,base,n_merged
 2024-02-09,Deltapoll,Overall,LDem,8.0,,1
 2024-02-09,Deltapoll,Overall,Lab,45.0,,1
 2024-02-09,Deltapoll,Overall,Ref,10.0,,1
+2024-02-09,More in Common,18-34,Con,23.0,,2
+2024-02-09,More in Common,18-34,Grn,10.4,,2
+2024-02-09,More in Common,18-34,LDem,11.2,,2
+2024-02-09,More in Common,18-34,Lab,43.9,,2
+2024-02-09,More in Common,18-34,Oth,0.7,,2
+2024-02-09,More in Common,18-34,PC,0.1,,2
+2024-02-09,More in Common,18-34,Ref,8.7,,2
+2024-02-09,More in Common,18-34,SNP,1.9,,2
+2024-02-09,More in Common,25-40,Con,21.3,,2
+2024-02-09,More in Common,25-40,Grn,7.2,,2
+2024-02-09,More in Common,25-40,LDem,12.0,,2
+2024-02-09,More in Common,25-40,Lab,48.2,,2
+2024-02-09,More in Common,25-40,Oth,0.6,,2
+2024-02-09,More in Common,25-40,PC,0.0,,2
+2024-02-09,More in Common,25-40,Ref,7.2,,2
+2024-02-09,More in Common,25-40,SNP,3.3,,2
+2024-02-09,More in Common,41-55,Con,20.8,,2
+2024-02-09,More in Common,41-55,Grn,4.8,,2
+2024-02-09,More in Common,41-55,LDem,9.9,,2
+2024-02-09,More in Common,41-55,Lab,50.4,,2
+2024-02-09,More in Common,41-55,Oth,0.9,,2
+2024-02-09,More in Common,41-55,PC,0.7,,2
+2024-02-09,More in Common,41-55,Ref,10.0,,2
+2024-02-09,More in Common,41-55,SNP,2.6,,2
+2024-02-09,More in Common,56-74,Con,34.2,,2
+2024-02-09,More in Common,56-74,Grn,4.5,,2
+2024-02-09,More in Common,56-74,LDem,9.9,,2
+2024-02-09,More in Common,56-74,Lab,35.0,,2
+2024-02-09,More in Common,56-74,Oth,0.7,,2
+2024-02-09,More in Common,56-74,PC,0.6,,2
+2024-02-09,More in Common,56-74,Ref,12.3,,2
+2024-02-09,More in Common,56-74,SNP,2.8,,2
+2024-02-09,More in Common,65+,Con,51.3,,2
+2024-02-09,More in Common,65+,Grn,3.8,,2
+2024-02-09,More in Common,65+,LDem,12.0,,2
+2024-02-09,More in Common,65+,Lab,18.2,,2
+2024-02-09,More in Common,65+,Oth,0.0,,2
+2024-02-09,More in Common,65+,PC,0.6,,2
+2024-02-09,More in Common,65+,Ref,11.6,,2
+2024-02-09,More in Common,65+,SNP,2.5,,2
+2024-02-09,More in Common,London,Con,25.9,,2
+2024-02-09,More in Common,London,Grn,7.4,,2
+2024-02-09,More in Common,London,LDem,16.8,,2
+2024-02-09,More in Common,London,Lab,42.4,,2
+2024-02-09,More in Common,London,Oth,0.0,,2
+2024-02-09,More in Common,London,Ref,6.9,,2
+2024-02-09,More in Common,Midlands,Con,26.8,,4
+2024-02-09,More in Common,Midlands,Grn,4.7,,4
+2024-02-09,More in Common,Midlands,LDem,9.5,,4
+2024-02-09,More in Common,Midlands,Lab,47.1,,4
+2024-02-09,More in Common,Midlands,Oth,0.2,,4
+2024-02-09,More in Common,Midlands,Ref,11.5,,4
+2024-02-09,More in Common,Northern England,Con,28.2,,6
+2024-02-09,More in Common,Northern England,Grn,4.1,,6
+2024-02-09,More in Common,Northern England,LDem,6.3,,6
+2024-02-09,More in Common,Northern England,Lab,51.6,,6
+2024-02-09,More in Common,Northern England,Oth,0.8,,6
+2024-02-09,More in Common,Northern England,Ref,9.0,,6
+2024-02-09,More in Common,Overall,Con,28.6,,2
+2024-02-09,More in Common,Overall,Grn,5.7,,2
+2024-02-09,More in Common,Overall,LDem,10.8,,2
+2024-02-09,More in Common,Overall,Lab,40.9,,2
+2024-02-09,More in Common,Overall,Oth,0.6,,2
+2024-02-09,More in Common,Overall,PC,0.4,,2
+2024-02-09,More in Common,Overall,Ref,10.0,,2
+2024-02-09,More in Common,Overall,SNP,2.8,,2
+2024-02-09,More in Common,Scotland,Con,17.6,,2
+2024-02-09,More in Common,Scotland,Grn,4.0,,2
+2024-02-09,More in Common,Scotland,LDem,6.4,,2
+2024-02-09,More in Common,Scotland,Lab,35.8,,2
+2024-02-09,More in Common,Scotland,Oth,0.3,,2
+2024-02-09,More in Common,Scotland,Ref,9.2,,2
+2024-02-09,More in Common,Scotland,SNP,26.5,,2
+2024-02-09,More in Common,Southern England,Con,35.6,,6
+2024-02-09,More in Common,Southern England,Grn,6.9,,6
+2024-02-09,More in Common,Southern England,LDem,12.7,,6
+2024-02-09,More in Common,Southern England,Lab,33.1,,6
+2024-02-09,More in Common,Southern England,Oth,1.1,,6
+2024-02-09,More in Common,Southern England,Ref,10.1,,6
+2024-02-09,More in Common,Wales,Con,22.6,,2
+2024-02-09,More in Common,Wales,Grn,5.6,,2
+2024-02-09,More in Common,Wales,LDem,7.4,,2
+2024-02-09,More in Common,Wales,Lab,40.3,,2
+2024-02-09,More in Common,Wales,Oth,0.9,,2
+2024-02-09,More in Common,Wales,PC,7.6,,2
+2024-02-09,More in Common,Wales,Ref,15.6,,2
 2024-02-09,Opinium,Overall,Con,25.0,,1
 2024-02-09,Opinium,Overall,Grn,7.0,,1
 2024-02-09,Opinium,Overall,LDem,11.0,,1
@@ -18368,6 +18454,76 @@ date,pollster,sample,option,value,base,n_merged
 2024-02-24,Opinium,Overall,LDem,10.0,,1
 2024-02-24,Opinium,Overall,Lab,42.0,,1
 2024-02-24,Opinium,Overall,Ref,10.0,,1
+2024-02-25,More in Common,18-34,Con,17.2,,4
+2024-02-25,More in Common,18-34,Grn,9.2,,4
+2024-02-25,More in Common,18-34,LDem,9.2,,4
+2024-02-25,More in Common,18-34,Lab,55.4,,4
+2024-02-25,More in Common,18-34,Oth,1.4,,4
+2024-02-25,More in Common,18-34,PC,0.8,,4
+2024-02-25,More in Common,18-34,Ref,5.0,,4
+2024-02-25,More in Common,18-34,SNP,2.0,,4
+2024-02-25,More in Common,35-49,Con,21.4,,4
+2024-02-25,More in Common,35-49,Grn,4.6,,4
+2024-02-25,More in Common,35-49,LDem,9.1,,4
+2024-02-25,More in Common,35-49,Lab,52.1,,4
+2024-02-25,More in Common,35-49,Oth,0.7,,4
+2024-02-25,More in Common,35-49,PC,0.3,,4
+2024-02-25,More in Common,35-49,Ref,9.2,,4
+2024-02-25,More in Common,35-49,SNP,2.7,,4
+2024-02-25,More in Common,50-64,Con,27.8,,2
+2024-02-25,More in Common,50-64,Grn,4.2,,2
+2024-02-25,More in Common,50-64,LDem,9.5,,2
+2024-02-25,More in Common,50-64,Lab,40.6,,2
+2024-02-25,More in Common,50-64,Oth,2.6,,2
+2024-02-25,More in Common,50-64,PC,0.5,,2
+2024-02-25,More in Common,50-64,Ref,11.8,,2
+2024-02-25,More in Common,50-64,SNP,3.0,,2
+2024-02-25,More in Common,65+,Con,45.1,,4
+2024-02-25,More in Common,65+,Grn,2.5,,4
+2024-02-25,More in Common,65+,LDem,10.4,,4
+2024-02-25,More in Common,65+,Lab,24.8,,4
+2024-02-25,More in Common,65+,Oth,1.1,,4
+2024-02-25,More in Common,65+,PC,0.4,,4
+2024-02-25,More in Common,65+,Ref,12.2,,4
+2024-02-25,More in Common,65+,SNP,3.5,,4
+2024-02-25,More in Common,London,Con,27.1,,2
+2024-02-25,More in Common,London,Grn,5.4,,2
+2024-02-25,More in Common,London,LDem,12.9,,2
+2024-02-25,More in Common,London,Lab,44.6,,2
+2024-02-25,More in Common,London,Oth,2.3,,2
+2024-02-25,More in Common,London,Ref,7.6,,2
+2024-02-25,More in Common,Midlands,Con,27.0,,4
+2024-02-25,More in Common,Midlands,Grn,5.0,,4
+2024-02-25,More in Common,Midlands,LDem,8.8,,4
+2024-02-25,More in Common,Midlands,Lab,43.6,,4
+2024-02-25,More in Common,Midlands,Oth,0.7,,4
+2024-02-25,More in Common,Midlands,Ref,13.9,,4
+2024-02-25,More in Common,Northern England,Con,26.3,,6
+2024-02-25,More in Common,Northern England,Grn,2.4,,6
+2024-02-25,More in Common,Northern England,LDem,8.0,,6
+2024-02-25,More in Common,Northern England,Lab,53.5,,6
+2024-02-25,More in Common,Northern England,Oth,1.7,,6
+2024-02-25,More in Common,Northern England,Ref,7.7,,6
+2024-02-25,More in Common,Scotland,Con,22.9,,2
+2024-02-25,More in Common,Scotland,Grn,3.5,,2
+2024-02-25,More in Common,Scotland,LDem,6.5,,2
+2024-02-25,More in Common,Scotland,Lab,28.6,,2
+2024-02-25,More in Common,Scotland,Oth,0.3,,2
+2024-02-25,More in Common,Scotland,Ref,7.3,,2
+2024-02-25,More in Common,Scotland,SNP,30.8,,2
+2024-02-25,More in Common,Southern England,Con,30.7,,6
+2024-02-25,More in Common,Southern England,Grn,6.8,,6
+2024-02-25,More in Common,Southern England,LDem,11.2,,6
+2024-02-25,More in Common,Southern England,Lab,40.3,,6
+2024-02-25,More in Common,Southern England,Oth,0.7,,6
+2024-02-25,More in Common,Southern England,Ref,10.2,,6
+2024-02-25,More in Common,Wales,Con,21.3,,2
+2024-02-25,More in Common,Wales,Grn,3.5,,2
+2024-02-25,More in Common,Wales,LDem,1.9,,2
+2024-02-25,More in Common,Wales,Lab,56.1,,2
+2024-02-25,More in Common,Wales,Oth,0.0,,2
+2024-02-25,More in Common,Wales,PC,9.6,,2
+2024-02-25,More in Common,Wales,Ref,7.7,,2
 2024-02-25,Redfield & Wilton,Overall,Con,23.0,,1
 2024-02-25,Redfield & Wilton,Overall,Grn,8.0,,1
 2024-02-25,Redfield & Wilton,Overall,LDem,10.0,,1

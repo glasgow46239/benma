@@ -97,3 +97,23 @@ date,pollster,sample,option,value,base,n_merged
 2026-11-11,YouGov,Southern England,Positive,15.0,,1
 2026-11-11,YouGov,Wales,Negative,22.0,,1
 2026-11-11,YouGov,Wales,Positive,16.0,,1
+2026-11-19,Opinium,18-34,Negative,22.7,551,1
+2026-11-19,Opinium,18-34,Positive,22.5,551,1
+2026-11-19,Opinium,35-49,Negative,28.1,484,1
+2026-11-19,Opinium,35-49,Positive,16.9,484,1
+2026-11-19,Opinium,50-64,Negative,38.1,496,1
+2026-11-19,Opinium,50-64,Positive,17.5,496,1
+2026-11-19,Opinium,65+,Negative,42.6,476,1
+2026-11-19,Opinium,65+,Positive,16.4,476,1
+2026-11-19,Opinium,London,Negative,28.4,268,1
+2026-11-19,Opinium,London,Positive,23.9,268,1
+2026-11-19,Opinium,Midlands,Negative,32.2,332,1
+2026-11-19,Opinium,Midlands,Positive,17.5,332,1
+2026-11-19,Opinium,Northern England,Negative,26.8,481,1
+2026-11-19,Opinium,Northern England,Positive,20.0,481,1
+2026-11-19,Opinium,Overall,Negative,32.5,2007,1
+2026-11-19,Opinium,Overall,Positive,18.4,2007,1
+2026-11-19,Opinium,Scotland,Negative,36.3,171,1
+2026-11-19,Opinium,Scotland,Positive,24.0,171,1
+2026-11-19,Opinium,Southern England,Negative,37.8,658,1
+2026-11-19,Opinium,Southern England,Positive,14.3,658,1

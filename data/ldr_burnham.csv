@@ -879,3 +879,23 @@ date,pollster,sample,option,value,base,n_merged
 2026-11-14,Deltapoll,Southern England,Positive,48.0,669,1
 2026-11-14,Deltapoll,Wales,Negative,42.0,103,1
 2026-11-14,Deltapoll,Wales,Positive,49.0,103,1
+2026-11-19,Opinium,18-34,Negative,24.7,551,1
+2026-11-19,Opinium,18-34,Positive,50.3,551,1
+2026-11-19,Opinium,35-49,Negative,32.2,484,1
+2026-11-19,Opinium,35-49,Positive,40.7,484,1
+2026-11-19,Opinium,50-64,Negative,39.1,496,1
+2026-11-19,Opinium,50-64,Positive,38.1,496,1
+2026-11-19,Opinium,65+,Negative,47.3,476,1
+2026-11-19,Opinium,65+,Positive,28.1,476,1
+2026-11-19,Opinium,London,Negative,25.0,268,1
+2026-11-19,Opinium,London,Positive,44.0,268,1
+2026-11-19,Opinium,Midlands,Negative,35.8,332,1
+2026-11-19,Opinium,Midlands,Positive,39.8,332,1
+2026-11-19,Opinium,Northern England,Negative,31.2,481,1
+2026-11-19,Opinium,Northern England,Positive,45.1,481,1
+2026-11-19,Opinium,Overall,Negative,35.4,2007,1
+2026-11-19,Opinium,Overall,Positive,39.7,2007,1
+2026-11-19,Opinium,Scotland,Negative,33.9,171,1
+2026-11-19,Opinium,Scotland,Positive,39.8,171,1
+2026-11-19,Opinium,Southern England,Negative,43.3,658,1
+2026-11-19,Opinium,Southern England,Positive,34.2,658,1

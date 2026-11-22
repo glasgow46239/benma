@@ -1,4 +1,26 @@
 date,pollster,sample,option,value,base,n_merged
+,More in Common,18-34,Negative,49.4,,2
+,More in Common,18-34,Positive,27.9,,2
+,More in Common,35-49,Negative,65.6,,2
+,More in Common,35-49,Positive,14.0,,2
+,More in Common,50-64,Negative,73.8,,1
+,More in Common,50-64,Positive,12.4,,1
+,More in Common,65+,Negative,76.5,,2
+,More in Common,65+,Positive,12.0,,2
+,More in Common,London,Negative,52.9,,1
+,More in Common,London,Positive,24.8,,1
+,More in Common,Midlands,Negative,60.8,,2
+,More in Common,Midlands,Positive,20.9,,2
+,More in Common,Northern England,Negative,64.5,,3
+,More in Common,Northern England,Positive,15.8,,3
+,More in Common,Overall,Negative,64.8,,1
+,More in Common,Overall,Positive,17.4,,1
+,More in Common,Scotland,Negative,72.3,,1
+,More in Common,Scotland,Positive,13.2,,1
+,More in Common,Southern England,Negative,69.9,,3
+,More in Common,Southern England,Positive,14.0,,3
+,More in Common,Wales,Negative,64.4,,1
+,More in Common,Wales,Positive,17.2,,1
 2020-02-20,YouGov,Overall,Negative,27.0,,1
 2020-02-20,YouGov,Overall,Positive,23.0,,1
 2020-02-29,Ipsos,Overall,Negative,19.0,,1
@@ -1727,6 +1749,18 @@ date,pollster,sample,option,value,base,n_merged
 2025-08-22,Opinium,65+,Positive,10.0,,1
 2025-08-22,Opinium,Overall,Negative,60.0,,1
 2025-08-22,Opinium,Overall,Positive,19.0,,1
+2025-08-26,More in Common,16-24,Negative,45.6,,1
+2025-08-26,More in Common,16-24,Positive,19.6,,1
+2025-08-26,More in Common,18-34,Negative,43.9,,1
+2025-08-26,More in Common,18-34,Positive,31.1,,1
+2025-08-26,More in Common,35-49,Negative,57.4,,2
+2025-08-26,More in Common,35-49,Positive,18.4,,2
+2025-08-26,More in Common,50-64,Negative,63.8,,1
+2025-08-26,More in Common,50-64,Positive,12.7,,1
+2025-08-26,More in Common,65+,Negative,67.3,,3
+2025-08-26,More in Common,65+,Positive,16.6,,3
+2025-08-26,More in Common,Overall,Negative,57.3,,1
+2025-08-26,More in Common,Overall,Positive,19.0,,1
 2025-09-05,Opinium,18-34,Negative,43.0,,1
 2025-09-05,Opinium,18-34,Positive,29.0,,1
 2025-09-05,Opinium,35-49,Negative,58.0,,1
@@ -1747,6 +1781,28 @@ date,pollster,sample,option,value,base,n_merged
 2025-09-11,YouGov,65+,Positive,13.0,,1
 2025-09-11,YouGov,Overall,Negative,71.0,,1
 2025-09-11,YouGov,Overall,Positive,21.0,,1
+2025-09-13,More in Common,18-34,Negative,47.0,,2
+2025-09-13,More in Common,18-34,Positive,26.7,,2
+2025-09-13,More in Common,35-49,Negative,60.0,,2
+2025-09-13,More in Common,35-49,Positive,18.2,,2
+2025-09-13,More in Common,50-64,Negative,76.7,,1
+2025-09-13,More in Common,50-64,Positive,10.3,,1
+2025-09-13,More in Common,65+,Negative,76.7,,2
+2025-09-13,More in Common,65+,Positive,9.1,,2
+2025-09-13,More in Common,London,Negative,44.8,,1
+2025-09-13,More in Common,London,Positive,39.2,,1
+2025-09-13,More in Common,Midlands,Negative,62.3,,2
+2025-09-13,More in Common,Midlands,Positive,13.7,,2
+2025-09-13,More in Common,Northern England,Negative,64.2,,3
+2025-09-13,More in Common,Northern England,Positive,18.1,,3
+2025-09-13,More in Common,Overall,Negative,63.3,,1
+2025-09-13,More in Common,Overall,Positive,17.5,,1
+2025-09-13,More in Common,Scotland,Negative,68.3,,1
+2025-09-13,More in Common,Scotland,Positive,16.0,,1
+2025-09-13,More in Common,Southern England,Negative,67.9,,3
+2025-09-13,More in Common,Southern England,Positive,11.9,,3
+2025-09-13,More in Common,Wales,Negative,66.6,,1
+2025-09-13,More in Common,Wales,Positive,14.5,,1
 2025-09-19,Opinium,18-34,Negative,46.0,,1
 2025-09-19,Opinium,18-34,Positive,27.0,,1
 2025-09-19,Opinium,35-49,Negative,62.0,,1
@@ -1757,6 +1813,28 @@ date,pollster,sample,option,value,base,n_merged
 2025-09-19,Opinium,65+,Positive,9.0,,1
 2025-09-19,Opinium,Overall,Negative,60.0,,1
 2025-09-19,Opinium,Overall,Positive,18.0,,1
+2025-09-20,More in Common,18-34,Negative,46.0,,2
+2025-09-20,More in Common,18-34,Positive,26.0,,2
+2025-09-20,More in Common,35-49,Negative,54.5,,2
+2025-09-20,More in Common,35-49,Positive,22.9,,2
+2025-09-20,More in Common,50-64,Negative,73.9,,1
+2025-09-20,More in Common,50-64,Positive,10.5,,1
+2025-09-20,More in Common,65+,Negative,72.3,,2
+2025-09-20,More in Common,65+,Positive,14.1,,2
+2025-09-20,More in Common,London,Negative,46.3,,1
+2025-09-20,More in Common,London,Positive,37.7,,1
+2025-09-20,More in Common,Midlands,Negative,63.1,,2
+2025-09-20,More in Common,Midlands,Positive,18.1,,2
+2025-09-20,More in Common,Northern England,Negative,58.1,,3
+2025-09-20,More in Common,Northern England,Positive,18.8,,3
+2025-09-20,More in Common,Overall,Negative,59.4,,1
+2025-09-20,More in Common,Overall,Positive,20.0,,1
+2025-09-20,More in Common,Scotland,Negative,52.9,,1
+2025-09-20,More in Common,Scotland,Positive,24.1,,1
+2025-09-20,More in Common,Southern England,Negative,62.6,,3
+2025-09-20,More in Common,Southern England,Positive,14.7,,3
+2025-09-20,More in Common,Wales,Negative,72.2,,1
+2025-09-20,More in Common,Wales,Positive,15.7,,1
 2025-09-25,Survation,18-34,Negative,31.0,,1
 2025-09-25,Survation,18-34,Positive,41.0,,1
 2025-09-25,Survation,35-49,Negative,42.0,,1
@@ -1777,6 +1855,28 @@ date,pollster,sample,option,value,base,n_merged
 2025-09-26,Opinium,65+,Positive,9.0,,1
 2025-09-26,Opinium,Overall,Negative,61.0,,1
 2025-09-26,Opinium,Overall,Positive,20.0,,1
+2025-09-27,More in Common,18-34,Negative,51.1,,2
+2025-09-27,More in Common,18-34,Positive,21.3,,2
+2025-09-27,More in Common,35-49,Negative,60.5,,2
+2025-09-27,More in Common,35-49,Positive,17.9,,2
+2025-09-27,More in Common,50-64,Negative,73.7,,1
+2025-09-27,More in Common,50-64,Positive,11.7,,1
+2025-09-27,More in Common,65+,Negative,76.8,,2
+2025-09-27,More in Common,65+,Positive,12.1,,2
+2025-09-27,More in Common,London,Negative,50.9,,1
+2025-09-27,More in Common,London,Positive,25.6,,1
+2025-09-27,More in Common,Midlands,Negative,66.2,,2
+2025-09-27,More in Common,Midlands,Positive,17.3,,2
+2025-09-27,More in Common,Northern England,Negative,69.5,,3
+2025-09-27,More in Common,Northern England,Positive,14.7,,3
+2025-09-27,More in Common,Overall,Negative,64.3,,1
+2025-09-27,More in Common,Overall,Positive,16.6,,1
+2025-09-27,More in Common,Scotland,Negative,58.5,,1
+2025-09-27,More in Common,Scotland,Positive,17.9,,1
+2025-09-27,More in Common,Southern England,Negative,67.0,,3
+2025-09-27,More in Common,Southern England,Positive,12.8,,3
+2025-09-27,More in Common,Wales,Negative,67.4,,1
+2025-09-27,More in Common,Wales,Positive,14.4,,1
 2025-09-29,YouGov,18-34,Negative,57.0,,1
 2025-09-29,YouGov,18-34,Positive,27.0,,1
 2025-09-29,YouGov,35-49,Negative,77.0,,1
@@ -1797,6 +1897,28 @@ date,pollster,sample,option,value,base,n_merged
 2025-10-03,Opinium,65+,Positive,10.0,,1
 2025-10-03,Opinium,Overall,Negative,63.0,,1
 2025-10-03,Opinium,Overall,Positive,19.0,,1
+2025-10-04,More in Common,18-34,Negative,46.9,,2
+2025-10-04,More in Common,18-34,Positive,24.1,,2
+2025-10-04,More in Common,35-49,Negative,69.3,,2
+2025-10-04,More in Common,35-49,Positive,13.7,,2
+2025-10-04,More in Common,50-64,Negative,74.1,,1
+2025-10-04,More in Common,50-64,Positive,11.6,,1
+2025-10-04,More in Common,65+,Negative,74.2,,2
+2025-10-04,More in Common,65+,Positive,14.5,,2
+2025-10-04,More in Common,London,Negative,54.5,,1
+2025-10-04,More in Common,London,Positive,24.3,,1
+2025-10-04,More in Common,Midlands,Negative,59.5,,2
+2025-10-04,More in Common,Midlands,Positive,16.4,,2
+2025-10-04,More in Common,Northern England,Negative,72.5,,3
+2025-10-04,More in Common,Northern England,Positive,13.6,,3
+2025-10-04,More in Common,Overall,Negative,65.4,,1
+2025-10-04,More in Common,Overall,Positive,16.3,,1
+2025-10-04,More in Common,Scotland,Negative,68.7,,1
+2025-10-04,More in Common,Scotland,Positive,14.3,,1
+2025-10-04,More in Common,Southern England,Negative,69.1,,3
+2025-10-04,More in Common,Southern England,Positive,14.9,,3
+2025-10-04,More in Common,Wales,Negative,51.5,,1
+2025-10-04,More in Common,Wales,Positive,19.3,,1
 2025-10-07,B.E.N.M.A.,18-34,Negative,48.0,,1
 2025-10-07,B.E.N.M.A.,18-34,Positive,28.0,,1
 2025-10-07,B.E.N.M.A.,35-49,Negative,64.0,,1
@@ -1829,6 +1951,28 @@ date,pollster,sample,option,value,base,n_merged
 2025-10-10,Opinium,Southern England,Positive,14.0,,1
 2025-10-10,Opinium,Wales,Negative,52.0,,1
 2025-10-10,Opinium,Wales,Positive,28.0,,1
+2025-10-11,More in Common,18-34,Negative,44.5,,2
+2025-10-11,More in Common,18-34,Positive,29.1,,2
+2025-10-11,More in Common,35-49,Negative,64.8,,2
+2025-10-11,More in Common,35-49,Positive,16.4,,2
+2025-10-11,More in Common,50-64,Negative,70.2,,1
+2025-10-11,More in Common,50-64,Positive,13.5,,1
+2025-10-11,More in Common,65+,Negative,76.8,,2
+2025-10-11,More in Common,65+,Positive,13.6,,2
+2025-10-11,More in Common,London,Negative,47.4,,1
+2025-10-11,More in Common,London,Positive,25.1,,1
+2025-10-11,More in Common,Midlands,Negative,66.6,,2
+2025-10-11,More in Common,Midlands,Positive,16.8,,2
+2025-10-11,More in Common,Northern England,Negative,68.4,,3
+2025-10-11,More in Common,Northern England,Positive,17.1,,3
+2025-10-11,More in Common,Overall,Negative,63.3,,1
+2025-10-11,More in Common,Overall,Positive,18.8,,1
+2025-10-11,More in Common,Scotland,Negative,59.6,,1
+2025-10-11,More in Common,Scotland,Positive,25.0,,1
+2025-10-11,More in Common,Southern England,Negative,64.8,,3
+2025-10-11,More in Common,Southern England,Positive,17.3,,3
+2025-10-11,More in Common,Wales,Negative,72.7,,1
+2025-10-11,More in Common,Wales,Positive,15.0,,1
 2025-10-15,B.E.N.M.A.,18-34,Negative,49.0,,1
 2025-10-15,B.E.N.M.A.,18-34,Positive,28.0,,1
 2025-10-15,B.E.N.M.A.,35-49,Negative,65.0,,1
@@ -1839,6 +1983,28 @@ date,pollster,sample,option,value,base,n_merged
 2025-10-15,B.E.N.M.A.,65+,Positive,11.0,,1
 2025-10-15,B.E.N.M.A.,Overall,Negative,64.0,,1
 2025-10-15,B.E.N.M.A.,Overall,Positive,20.0,,1
+2025-10-18,More in Common,18-34,Negative,53.3,,2
+2025-10-18,More in Common,18-34,Positive,20.2,,2
+2025-10-18,More in Common,35-49,Negative,63.0,,2
+2025-10-18,More in Common,35-49,Positive,17.4,,2
+2025-10-18,More in Common,50-64,Negative,67.9,,1
+2025-10-18,More in Common,50-64,Positive,15.4,,1
+2025-10-18,More in Common,65+,Negative,73.3,,2
+2025-10-18,More in Common,65+,Positive,13.7,,2
+2025-10-18,More in Common,London,Negative,54.1,,1
+2025-10-18,More in Common,London,Positive,26.6,,1
+2025-10-18,More in Common,Midlands,Negative,60.5,,2
+2025-10-18,More in Common,Midlands,Positive,19.6,,2
+2025-10-18,More in Common,Northern England,Negative,64.8,,3
+2025-10-18,More in Common,Northern England,Positive,18.3,,3
+2025-10-18,More in Common,Overall,Negative,63.6,,1
+2025-10-18,More in Common,Overall,Positive,17.2,,1
+2025-10-18,More in Common,Scotland,Negative,61.1,,1
+2025-10-18,More in Common,Scotland,Positive,14.8,,1
+2025-10-18,More in Common,Southern England,Negative,67.9,,3
+2025-10-18,More in Common,Southern England,Positive,13.0,,3
+2025-10-18,More in Common,Wales,Negative,64.8,,1
+2025-10-18,More in Common,Wales,Positive,18.6,,1
 2025-10-19,B.E.N.M.A.,18-34,Negative,49.0,,1
 2025-10-19,B.E.N.M.A.,18-34,Positive,28.0,,1
 2025-10-19,B.E.N.M.A.,35-49,Negative,65.0,,1
@@ -1859,6 +2025,50 @@ date,pollster,sample,option,value,base,n_merged
 2025-10-24,Opinium,65+,Positive,10.0,,1
 2025-10-24,Opinium,Overall,Negative,62.0,,1
 2025-10-24,Opinium,Overall,Positive,18.0,,1
+2025-10-25,More in Common,18-34,Negative,48.3,,2
+2025-10-25,More in Common,18-34,Positive,27.1,,2
+2025-10-25,More in Common,35-49,Negative,62.5,,2
+2025-10-25,More in Common,35-49,Positive,16.3,,2
+2025-10-25,More in Common,50-64,Negative,76.4,,1
+2025-10-25,More in Common,50-64,Positive,10.5,,1
+2025-10-25,More in Common,65+,Negative,78.3,,2
+2025-10-25,More in Common,65+,Positive,10.8,,2
+2025-10-25,More in Common,London,Negative,47.5,,1
+2025-10-25,More in Common,London,Positive,29.6,,1
+2025-10-25,More in Common,Midlands,Negative,64.5,,2
+2025-10-25,More in Common,Midlands,Positive,17.4,,2
+2025-10-25,More in Common,Northern England,Negative,67.8,,3
+2025-10-25,More in Common,Northern England,Positive,15.4,,3
+2025-10-25,More in Common,Overall,Negative,64.4,,1
+2025-10-25,More in Common,Overall,Positive,17.3,,1
+2025-10-25,More in Common,Scotland,Negative,69.7,,1
+2025-10-25,More in Common,Scotland,Positive,16.3,,1
+2025-10-25,More in Common,Southern England,Negative,66.4,,3
+2025-10-25,More in Common,Southern England,Positive,13.9,,3
+2025-10-25,More in Common,Wales,Negative,64.7,,1
+2025-10-25,More in Common,Wales,Positive,18.5,,1
+2025-11-01,More in Common,18-34,Negative,48.0,,2
+2025-11-01,More in Common,18-34,Positive,27.6,,2
+2025-11-01,More in Common,35-49,Negative,65.8,,2
+2025-11-01,More in Common,35-49,Positive,15.4,,2
+2025-11-01,More in Common,50-64,Negative,74.7,,1
+2025-11-01,More in Common,50-64,Positive,7.9,,1
+2025-11-01,More in Common,65+,Negative,78.0,,2
+2025-11-01,More in Common,65+,Positive,11.9,,2
+2025-11-01,More in Common,London,Negative,47.7,,1
+2025-11-01,More in Common,London,Positive,28.0,,1
+2025-11-01,More in Common,Midlands,Negative,61.5,,2
+2025-11-01,More in Common,Midlands,Positive,18.6,,2
+2025-11-01,More in Common,Northern England,Negative,70.1,,3
+2025-11-01,More in Common,Northern England,Positive,15.8,,3
+2025-11-01,More in Common,Overall,Negative,65.1,,1
+2025-11-01,More in Common,Overall,Positive,16.7,,1
+2025-11-01,More in Common,Scotland,Negative,70.7,,1
+2025-11-01,More in Common,Scotland,Positive,12.6,,1
+2025-11-01,More in Common,Southern England,Negative,69.0,,3
+2025-11-01,More in Common,Southern England,Positive,13.7,,3
+2025-11-01,More in Common,Wales,Negative,65.2,,1
+2025-11-01,More in Common,Wales,Positive,13.0,,1
 2025-11-02,YouGov,18-34,Negative,52.0,,1
 2025-11-02,YouGov,18-34,Positive,25.0,,1
 2025-11-02,YouGov,35-49,Negative,70.0,,1
@@ -1911,6 +2121,28 @@ date,pollster,sample,option,value,base,n_merged
 2025-11-12,B.E.N.M.A.,65+,Positive,10.0,,1
 2025-11-12,B.E.N.M.A.,Overall,Negative,65.0,,1
 2025-11-12,B.E.N.M.A.,Overall,Positive,14.0,,1
+2025-11-15,More in Common,18-34,Negative,47.4,,2
+2025-11-15,More in Common,18-34,Positive,26.3,,2
+2025-11-15,More in Common,35-49,Negative,66.7,,2
+2025-11-15,More in Common,35-49,Positive,15.2,,2
+2025-11-15,More in Common,50-64,Negative,74.2,,1
+2025-11-15,More in Common,50-64,Positive,10.6,,1
+2025-11-15,More in Common,65+,Negative,80.4,,2
+2025-11-15,More in Common,65+,Positive,12.2,,2
+2025-11-15,More in Common,London,Negative,51.0,,1
+2025-11-15,More in Common,London,Positive,28.2,,1
+2025-11-15,More in Common,Midlands,Negative,65.4,,2
+2025-11-15,More in Common,Midlands,Positive,15.8,,2
+2025-11-15,More in Common,Northern England,Negative,68.6,,3
+2025-11-15,More in Common,Northern England,Positive,14.1,,3
+2025-11-15,More in Common,Overall,Negative,66.1,,1
+2025-11-15,More in Common,Overall,Positive,16.9,,1
+2025-11-15,More in Common,Scotland,Negative,75.3,,1
+2025-11-15,More in Common,Scotland,Positive,12.7,,1
+2025-11-15,More in Common,Southern England,Negative,71.0,,3
+2025-11-15,More in Common,Southern England,Positive,13.8,,3
+2025-11-15,More in Common,Wales,Negative,54.0,,1
+2025-11-15,More in Common,Wales,Positive,26.7,,1
 2025-11-21,Opinium,18-34,Negative,47.0,,1
 2025-11-21,Opinium,18-34,Positive,23.0,,1
 2025-11-21,Opinium,35-49,Negative,63.0,,1
@@ -1931,6 +2163,18 @@ date,pollster,sample,option,value,base,n_merged
 2025-11-28,Opinium,65+,Positive,10.0,,1
 2025-11-28,Opinium,Overall,Negative,62.0,,1
 2025-11-28,Opinium,Overall,Positive,18.0,,1
+2025-11-29,More in Common,London,Negative,49.8,,1
+2025-11-29,More in Common,London,Positive,37.5,,1
+2025-11-29,More in Common,Midlands,Negative,61.8,,2
+2025-11-29,More in Common,Midlands,Positive,13.9,,2
+2025-11-29,More in Common,Northern England,Negative,67.1,,3
+2025-11-29,More in Common,Northern England,Positive,16.0,,3
+2025-11-29,More in Common,Scotland,Negative,69.7,,1
+2025-11-29,More in Common,Scotland,Positive,17.3,,1
+2025-11-29,More in Common,Southern England,Negative,72.0,,3
+2025-11-29,More in Common,Southern England,Positive,14.0,,3
+2025-11-29,More in Common,Wales,Negative,60.9,,1
+2025-11-29,More in Common,Wales,Positive,24.7,,1
 2025-12-01,More in Common,18-34,Negative,42.0,,1
 2025-12-01,More in Common,18-34,Positive,34.0,,1
 2025-12-01,More in Common,35-49,Negative,56.0,,1
@@ -1951,6 +2195,18 @@ date,pollster,sample,option,value,base,n_merged
 2025-12-02,Ipsos,65+,Positive,4.0,,1
 2025-12-02,Ipsos,Overall,Negative,61.0,,1
 2025-12-02,Ipsos,Overall,Positive,17.0,,1
+2025-12-06,More in Common,London,Negative,50.5,,1
+2025-12-06,More in Common,London,Positive,26.8,,1
+2025-12-06,More in Common,Midlands,Negative,64.0,,2
+2025-12-06,More in Common,Midlands,Positive,17.7,,2
+2025-12-06,More in Common,Northern England,Negative,63.4,,3
+2025-12-06,More in Common,Northern England,Positive,16.6,,3
+2025-12-06,More in Common,Scotland,Negative,77.0,,1
+2025-12-06,More in Common,Scotland,Positive,10.1,,1
+2025-12-06,More in Common,Southern England,Negative,69.3,,3
+2025-12-06,More in Common,Southern England,Positive,15.0,,3
+2025-12-06,More in Common,Wales,Negative,68.9,,1
+2025-12-06,More in Common,Wales,Positive,10.9,,1
 2025-12-08,More in Common,18-34,Negative,45.0,,1
 2025-12-08,More in Common,18-34,Positive,27.0,,1
 2025-12-08,More in Common,35-49,Negative,60.0,,1
@@ -1971,6 +2227,18 @@ date,pollster,sample,option,value,base,n_merged
 2025-12-12,Opinium,65+,Positive,8.0,,1
 2025-12-12,Opinium,Overall,Negative,61.0,,1
 2025-12-12,Opinium,Overall,Positive,18.0,,1
+2025-12-21,More in Common,London,Negative,53.0,,1
+2025-12-21,More in Common,London,Positive,27.4,,1
+2025-12-21,More in Common,Midlands,Negative,54.3,,2
+2025-12-21,More in Common,Midlands,Positive,20.6,,2
+2025-12-21,More in Common,Northern England,Negative,64.3,,3
+2025-12-21,More in Common,Northern England,Positive,15.7,,3
+2025-12-21,More in Common,Scotland,Negative,73.5,,1
+2025-12-21,More in Common,Scotland,Positive,11.2,,1
+2025-12-21,More in Common,Southern England,Negative,66.8,,3
+2025-12-21,More in Common,Southern England,Positive,15.9,,3
+2025-12-21,More in Common,Wales,Negative,59.1,,1
+2025-12-21,More in Common,Wales,Positive,18.5,,1
 2025-12-23,More in Common,18-34,Negative,47.0,,1
 2025-12-23,More in Common,18-34,Positive,26.0,,1
 2025-12-23,More in Common,35-49,Negative,63.0,,1
@@ -1991,6 +2259,28 @@ date,pollster,sample,option,value,base,n_merged
 2026-01-01,B.E.N.M.A.,65+,Positive,8.0,,1
 2026-01-01,B.E.N.M.A.,Overall,Negative,63.0,,1
 2026-01-01,B.E.N.M.A.,Overall,Positive,18.0,,1
+2026-01-03,More in Common,18-34,Negative,46.4,,2
+2026-01-03,More in Common,18-34,Positive,23.4,,2
+2026-01-03,More in Common,35-49,Negative,62.5,,2
+2026-01-03,More in Common,35-49,Positive,17.9,,2
+2026-01-03,More in Common,50-64,Negative,77.8,,1
+2026-01-03,More in Common,50-64,Positive,10.5,,1
+2026-01-03,More in Common,65+,Negative,78.2,,2
+2026-01-03,More in Common,65+,Positive,13.8,,2
+2026-01-03,More in Common,London,Negative,51.9,,1
+2026-01-03,More in Common,London,Positive,26.9,,1
+2026-01-03,More in Common,Midlands,Negative,68.6,,2
+2026-01-03,More in Common,Midlands,Positive,18.2,,2
+2026-01-03,More in Common,Northern England,Negative,66.2,,3
+2026-01-03,More in Common,Northern England,Positive,15.1,,3
+2026-01-03,More in Common,Overall,Negative,64.5,,1
+2026-01-03,More in Common,Overall,Positive,17.4,,1
+2026-01-03,More in Common,Scotland,Negative,64.7,,1
+2026-01-03,More in Common,Scotland,Positive,15.5,,1
+2026-01-03,More in Common,Southern England,Negative,67.3,,3
+2026-01-03,More in Common,Southern England,Positive,14.8,,3
+2026-01-03,More in Common,Wales,Negative,61.4,,1
+2026-01-03,More in Common,Wales,Positive,24.0,,1
 2026-01-08,Opinium,18-34,Negative,40.0,,2
 2026-01-08,Opinium,18-34,Positive,23.7,,2
 2026-01-08,Opinium,35-49,Negative,49.7,,2
@@ -2025,6 +2315,50 @@ date,pollster,sample,option,value,base,n_merged
 2026-01-09,Opinium,65+,Positive,9.0,,1
 2026-01-09,Opinium,Overall,Negative,63.0,,1
 2026-01-09,Opinium,Overall,Positive,17.0,,1
+2026-01-11,More in Common,18-34,Negative,47.5,,2
+2026-01-11,More in Common,18-34,Positive,26.1,,2
+2026-01-11,More in Common,35-49,Negative,63.2,,2
+2026-01-11,More in Common,35-49,Positive,12.9,,2
+2026-01-11,More in Common,50-64,Negative,72.8,,1
+2026-01-11,More in Common,50-64,Positive,13.4,,1
+2026-01-11,More in Common,65+,Negative,77.5,,2
+2026-01-11,More in Common,65+,Positive,11.6,,2
+2026-01-11,More in Common,London,Negative,49.7,,1
+2026-01-11,More in Common,London,Positive,24.8,,1
+2026-01-11,More in Common,Midlands,Negative,57.8,,2
+2026-01-11,More in Common,Midlands,Positive,18.0,,2
+2026-01-11,More in Common,Northern England,Negative,67.3,,3
+2026-01-11,More in Common,Northern England,Positive,16.5,,3
+2026-01-11,More in Common,Overall,Negative,63.7,,1
+2026-01-11,More in Common,Overall,Positive,16.7,,1
+2026-01-11,More in Common,Scotland,Negative,70.2,,1
+2026-01-11,More in Common,Scotland,Positive,12.2,,1
+2026-01-11,More in Common,Southern England,Negative,68.8,,3
+2026-01-11,More in Common,Southern England,Positive,14.6,,3
+2026-01-11,More in Common,Wales,Negative,60.5,,1
+2026-01-11,More in Common,Wales,Positive,16.9,,1
+2026-01-17,More in Common,18-34,Negative,43.1,,2
+2026-01-17,More in Common,18-34,Positive,22.4,,2
+2026-01-17,More in Common,35-49,Negative,63.6,,2
+2026-01-17,More in Common,35-49,Positive,18.8,,2
+2026-01-17,More in Common,50-64,Negative,72.8,,1
+2026-01-17,More in Common,50-64,Positive,12.0,,1
+2026-01-17,More in Common,65+,Negative,75.1,,2
+2026-01-17,More in Common,65+,Positive,12.3,,2
+2026-01-17,More in Common,London,Negative,48.4,,1
+2026-01-17,More in Common,London,Positive,26.5,,1
+2026-01-17,More in Common,Midlands,Negative,61.1,,2
+2026-01-17,More in Common,Midlands,Positive,16.0,,2
+2026-01-17,More in Common,Northern England,Negative,66.7,,3
+2026-01-17,More in Common,Northern England,Positive,14.4,,3
+2026-01-17,More in Common,Overall,Negative,62.2,,1
+2026-01-17,More in Common,Overall,Positive,17.4,,1
+2026-01-17,More in Common,Scotland,Negative,65.1,,1
+2026-01-17,More in Common,Scotland,Positive,16.6,,1
+2026-01-17,More in Common,Southern England,Negative,66.9,,3
+2026-01-17,More in Common,Southern England,Positive,15.5,,3
+2026-01-17,More in Common,Wales,Negative,52.1,,1
+2026-01-17,More in Common,Wales,Positive,19.6,,1
 2026-01-22,Opinium,18-34,Negative,45.0,,1
 2026-01-22,Opinium,18-34,Positive,25.0,,1
 2026-01-22,Opinium,35-49,Negative,58.0,,1
@@ -2057,6 +2391,28 @@ date,pollster,sample,option,value,base,n_merged
 2026-01-23,Opinium,65+,Positive,9.0,,1
 2026-01-23,Opinium,Overall,Negative,60.0,,1
 2026-01-23,Opinium,Overall,Positive,19.0,,1
+2026-01-24,More in Common,18-34,Negative,48.3,,2
+2026-01-24,More in Common,18-34,Positive,25.9,,2
+2026-01-24,More in Common,35-49,Negative,59.4,,2
+2026-01-24,More in Common,35-49,Positive,20.1,,2
+2026-01-24,More in Common,50-64,Negative,69.2,,1
+2026-01-24,More in Common,50-64,Positive,13.7,,1
+2026-01-24,More in Common,65+,Negative,72.8,,2
+2026-01-24,More in Common,65+,Positive,14.8,,2
+2026-01-24,More in Common,London,Negative,50.2,,1
+2026-01-24,More in Common,London,Positive,30.6,,1
+2026-01-24,More in Common,Midlands,Negative,59.9,,2
+2026-01-24,More in Common,Midlands,Positive,21.3,,2
+2026-01-24,More in Common,Northern England,Negative,60.2,,3
+2026-01-24,More in Common,Northern England,Positive,20.6,,3
+2026-01-24,More in Common,Overall,Negative,60.9,,1
+2026-01-24,More in Common,Overall,Positive,19.8,,1
+2026-01-24,More in Common,Scotland,Negative,64.5,,1
+2026-01-24,More in Common,Scotland,Positive,14.3,,1
+2026-01-24,More in Common,Southern England,Negative,65.2,,3
+2026-01-24,More in Common,Southern England,Positive,16.0,,3
+2026-01-24,More in Common,Wales,Negative,63.6,,1
+2026-01-24,More in Common,Wales,Positive,14.9,,1
 2026-02-01,Freshwater Strategy,18-34,Negative,46.0,,1
 2026-02-01,Freshwater Strategy,18-34,Positive,26.0,,1
 2026-02-01,Freshwater Strategy,35-49,Negative,62.0,,1
@@ -2067,6 +2423,28 @@ date,pollster,sample,option,value,base,n_merged
 2026-02-01,Freshwater Strategy,65+,Positive,9.0,,1
 2026-02-01,Freshwater Strategy,Overall,Negative,62.0,,1
 2026-02-01,Freshwater Strategy,Overall,Positive,20.0,,1
+2026-02-01,More in Common,18-34,Negative,46.8,,2
+2026-02-01,More in Common,18-34,Positive,27.4,,2
+2026-02-01,More in Common,35-49,Negative,65.8,,2
+2026-02-01,More in Common,35-49,Positive,16.1,,2
+2026-02-01,More in Common,50-64,Negative,74.3,,1
+2026-02-01,More in Common,50-64,Positive,15.0,,1
+2026-02-01,More in Common,65+,Negative,76.8,,2
+2026-02-01,More in Common,65+,Positive,13.8,,2
+2026-02-01,More in Common,London,Negative,50.2,,1
+2026-02-01,More in Common,London,Positive,28.2,,1
+2026-02-01,More in Common,Midlands,Negative,67.2,,2
+2026-02-01,More in Common,Midlands,Positive,17.0,,2
+2026-02-01,More in Common,Northern England,Negative,63.7,,3
+2026-02-01,More in Common,Northern England,Positive,15.8,,3
+2026-02-01,More in Common,Overall,Negative,64.2,,1
+2026-02-01,More in Common,Overall,Positive,18.8,,1
+2026-02-01,More in Common,Scotland,Negative,59.0,,1
+2026-02-01,More in Common,Scotland,Positive,20.3,,1
+2026-02-01,More in Common,Southern England,Negative,69.6,,3
+2026-02-01,More in Common,Southern England,Positive,16.5,,3
+2026-02-01,More in Common,Wales,Negative,63.5,,1
+2026-02-01,More in Common,Wales,Positive,25.5,,1
 2026-02-05,Opinium,18-34,Negative,38.7,,2
 2026-02-05,Opinium,18-34,Positive,25.7,,2
 2026-02-05,Opinium,35-49,Negative,49.0,,2
@@ -2101,6 +2479,18 @@ date,pollster,sample,option,value,base,n_merged
 2026-02-06,Opinium,65+,Positive,8.0,,1
 2026-02-06,Opinium,Overall,Negative,61.0,,1
 2026-02-06,Opinium,Overall,Positive,17.0,,1
+2026-02-08,More in Common,London,Negative,51.7,,1
+2026-02-08,More in Common,London,Positive,29.1,,1
+2026-02-08,More in Common,Midlands,Negative,67.7,,2
+2026-02-08,More in Common,Midlands,Positive,14.3,,2
+2026-02-08,More in Common,Northern England,Negative,72.5,,3
+2026-02-08,More in Common,Northern England,Positive,15.0,,3
+2026-02-08,More in Common,Scotland,Negative,61.9,,1
+2026-02-08,More in Common,Scotland,Positive,14.0,,1
+2026-02-08,More in Common,Southern England,Negative,70.5,,3
+2026-02-08,More in Common,Southern England,Positive,13.0,,3
+2026-02-08,More in Common,Wales,Negative,61.0,,1
+2026-02-08,More in Common,Wales,Positive,15.7,,1
 2026-02-10,More in Common,18-34,Negative,43.0,,1
 2026-02-10,More in Common,18-34,Positive,28.0,,1
 2026-02-10,More in Common,35-49,Negative,58.0,,1
@@ -2121,6 +2511,40 @@ date,pollster,sample,option,value,base,n_merged
 2026-02-11,YouGov,65+,Positive,14.0,,1
 2026-02-11,YouGov,Overall,Negative,69.0,,1
 2026-02-11,YouGov,Overall,Positive,22.0,,1
+2026-02-13,More in Common,London,Negative,46.7,,1
+2026-02-13,More in Common,London,Positive,34.1,,1
+2026-02-13,More in Common,Midlands,Negative,65.0,,2
+2026-02-13,More in Common,Midlands,Positive,13.0,,2
+2026-02-13,More in Common,Northern England,Negative,65.0,,3
+2026-02-13,More in Common,Northern England,Positive,17.3,,3
+2026-02-13,More in Common,Scotland,Negative,74.4,,1
+2026-02-13,More in Common,Scotland,Positive,13.3,,1
+2026-02-13,More in Common,Southern England,Negative,70.2,,3
+2026-02-13,More in Common,Southern England,Positive,16.1,,3
+2026-02-13,More in Common,Wales,Negative,57.5,,1
+2026-02-13,More in Common,Wales,Positive,13.3,,1
+2026-02-15,More in Common,18-34,Negative,45.6,,2
+2026-02-15,More in Common,18-34,Positive,33.1,,2
+2026-02-15,More in Common,35-49,Negative,62.5,,2
+2026-02-15,More in Common,35-49,Positive,17.6,,2
+2026-02-15,More in Common,50-64,Negative,77.9,,1
+2026-02-15,More in Common,50-64,Positive,9.1,,1
+2026-02-15,More in Common,65+,Negative,74.2,,2
+2026-02-15,More in Common,65+,Positive,15.9,,2
+2026-02-15,More in Common,London,Negative,55.6,,1
+2026-02-15,More in Common,London,Positive,26.4,,1
+2026-02-15,More in Common,Midlands,Negative,58.8,,2
+2026-02-15,More in Common,Midlands,Positive,21.6,,2
+2026-02-15,More in Common,Northern England,Negative,68.2,,3
+2026-02-15,More in Common,Northern England,Positive,20.9,,3
+2026-02-15,More in Common,Overall,Negative,63.3,,1
+2026-02-15,More in Common,Overall,Positive,20.2,,1
+2026-02-15,More in Common,Scotland,Negative,66.5,,1
+2026-02-15,More in Common,Scotland,Positive,13.5,,1
+2026-02-15,More in Common,Southern England,Negative,64.0,,3
+2026-02-15,More in Common,Southern England,Positive,19.7,,3
+2026-02-15,More in Common,Wales,Negative,69.1,,1
+2026-02-15,More in Common,Wales,Positive,13.3,,1
 2026-02-27,Opinium,18-34,Negative,49.0,,1
 2026-02-27,Opinium,18-34,Positive,22.0,,1
 2026-02-27,Opinium,35-49,Negative,66.0,,1
@@ -2237,6 +2661,28 @@ date,pollster,sample,option,value,base,n_merged
 2026-03-26,BMG Research,65+,Positive,9.0,,1
 2026-03-26,BMG Research,Overall,Negative,63.0,,1
 2026-03-26,BMG Research,Overall,Positive,17.0,,1
+2026-03-29,More in Common,18-34,Negative,48.1,,2
+2026-03-29,More in Common,18-34,Positive,25.1,,2
+2026-03-29,More in Common,35-49,Negative,60.8,,2
+2026-03-29,More in Common,35-49,Positive,18.4,,2
+2026-03-29,More in Common,50-64,Negative,69.4,,1
+2026-03-29,More in Common,50-64,Positive,15.6,,1
+2026-03-29,More in Common,65+,Negative,72.8,,2
+2026-03-29,More in Common,65+,Positive,13.9,,2
+2026-03-29,More in Common,London,Negative,54.5,,1
+2026-03-29,More in Common,London,Positive,23.1,,1
+2026-03-29,More in Common,Midlands,Negative,62.5,,2
+2026-03-29,More in Common,Midlands,Positive,22.4,,2
+2026-03-29,More in Common,Northern England,Negative,60.6,,3
+2026-03-29,More in Common,Northern England,Positive,16.8,,3
+2026-03-29,More in Common,Overall,Negative,61.1,,1
+2026-03-29,More in Common,Overall,Positive,19.1,,1
+2026-03-29,More in Common,Scotland,Negative,59.9,,1
+2026-03-29,More in Common,Scotland,Positive,19.3,,1
+2026-03-29,More in Common,Southern England,Negative,64.7,,3
+2026-03-29,More in Common,Southern England,Positive,16.8,,3
+2026-03-29,More in Common,Wales,Negative,60.8,,1
+2026-03-29,More in Common,Wales,Positive,16.8,,1
 2026-04-13,More in Common,18-34,Negative,42.0,,1
 2026-04-13,More in Common,18-34,Positive,26.0,,1
 2026-04-13,More in Common,35-49,Negative,57.0,,1
