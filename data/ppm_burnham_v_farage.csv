@@ -1,0 +1,107 @@
+date,pollster,sample,option,value,base,n_merged
+2026-07-08,Opinium,18-34,Andy Burnham,38.0,2002,1
+2026-07-08,Opinium,18-34,Nigel Farage,22.0,2002,1
+2026-07-08,Opinium,35-49,Andy Burnham,40.0,2002,1
+2026-07-08,Opinium,35-49,Nigel Farage,24.0,2002,1
+2026-07-08,Opinium,50-64,Andy Burnham,34.0,2002,1
+2026-07-08,Opinium,50-64,Nigel Farage,26.0,2002,1
+2026-07-08,Opinium,65+,Andy Burnham,28.0,2002,1
+2026-07-08,Opinium,65+,Nigel Farage,27.0,2002,1
+2026-07-08,Opinium,London,Andy Burnham,39.0,2002,1
+2026-07-08,Opinium,London,Nigel Farage,21.0,2002,1
+2026-07-08,Opinium,Midlands,Andy Burnham,32.0,2002,1
+2026-07-08,Opinium,Midlands,Nigel Farage,28.0,2002,1
+2026-07-08,Opinium,Northern England,Andy Burnham,39.0,2002,1
+2026-07-08,Opinium,Northern England,Nigel Farage,22.0,2002,1
+2026-07-08,Opinium,Overall,Andy Burnham,35.0,2002,1
+2026-07-08,Opinium,Overall,Nigel Farage,25.0,2002,1
+2026-07-08,Opinium,Scotland,Andy Burnham,33.0,2002,1
+2026-07-08,Opinium,Scotland,Nigel Farage,19.0,2002,1
+2026-07-08,Opinium,Southern England,Andy Burnham,33.0,2002,1
+2026-07-08,Opinium,Southern England,Nigel Farage,28.0,2002,1
+2026-07-08,Opinium,Wales,Andy Burnham,40.0,2002,1
+2026-07-08,Opinium,Wales,Nigel Farage,22.0,2002,1
+2026-07-30,Opinium,18-34,Andy Burnham,47.0,,1
+2026-07-30,Opinium,18-34,Nigel Farage,21.0,,1
+2026-07-30,Opinium,35-49,Andy Burnham,46.0,,1
+2026-07-30,Opinium,35-49,Nigel Farage,21.0,,1
+2026-07-30,Opinium,50-64,Andy Burnham,49.0,,1
+2026-07-30,Opinium,50-64,Nigel Farage,21.0,,1
+2026-07-30,Opinium,65+,Andy Burnham,36.0,,1
+2026-07-30,Opinium,65+,Nigel Farage,30.0,,1
+2026-07-30,Opinium,London,Andy Burnham,42.0,,1
+2026-07-30,Opinium,London,Nigel Farage,22.0,,1
+2026-07-30,Opinium,Midlands,Andy Burnham,42.0,,1
+2026-07-30,Opinium,Midlands,Nigel Farage,27.0,,1
+2026-07-30,Opinium,Northern England,Andy Burnham,51.0,,1
+2026-07-30,Opinium,Northern England,Nigel Farage,20.0,,1
+2026-07-30,Opinium,Overall,Andy Burnham,45.0,,1
+2026-07-30,Opinium,Overall,Nigel Farage,23.0,,1
+2026-07-30,Opinium,Scotland,Andy Burnham,45.0,,1
+2026-07-30,Opinium,Scotland,Nigel Farage,22.0,,1
+2026-07-30,Opinium,Southern England,Andy Burnham,44.0,,1
+2026-07-30,Opinium,Southern England,Nigel Farage,23.0,,1
+2026-07-30,Opinium,Wales,Andy Burnham,39.0,,1
+2026-07-30,Opinium,Wales,Nigel Farage,25.0,,1
+2026-08-06,Opinium,18-34,Andy Burnham,50.0,,1
+2026-08-06,Opinium,18-34,Nigel Farage,21.0,,1
+2026-08-06,Opinium,35-49,Andy Burnham,47.0,,1
+2026-08-06,Opinium,35-49,Nigel Farage,22.0,,1
+2026-08-06,Opinium,50-64,Andy Burnham,48.0,,1
+2026-08-06,Opinium,50-64,Nigel Farage,22.0,,1
+2026-08-06,Opinium,65+,Andy Burnham,38.0,,1
+2026-08-06,Opinium,65+,Nigel Farage,28.0,,1
+2026-08-06,Opinium,London,Andy Burnham,52.0,,1
+2026-08-06,Opinium,London,Nigel Farage,23.0,,1
+2026-08-06,Opinium,Midlands,Andy Burnham,43.0,,1
+2026-08-06,Opinium,Midlands,Nigel Farage,20.0,,1
+2026-08-06,Opinium,Northern England,Andy Burnham,51.0,,1
+2026-08-06,Opinium,Northern England,Nigel Farage,21.0,,1
+2026-08-06,Opinium,Overall,Andy Burnham,46.0,,1
+2026-08-06,Opinium,Overall,Nigel Farage,23.0,,1
+2026-08-06,Opinium,Scotland,Andy Burnham,52.0,,1
+2026-08-06,Opinium,Scotland,Nigel Farage,14.0,,1
+2026-08-06,Opinium,Southern England,Andy Burnham,40.0,,1
+2026-08-06,Opinium,Southern England,Nigel Farage,29.0,,1
+2026-08-06,Opinium,Wales,Andy Burnham,41.0,,1
+2026-08-06,Opinium,Wales,Nigel Farage,21.0,,1
+2026-11-05,Opinium,18-34,Andy Burnham,53.7,547,1
+2026-11-05,Opinium,18-34,Nigel Farage,20.1,547,1
+2026-11-05,Opinium,35-49,Andy Burnham,46.7,487,1
+2026-11-05,Opinium,35-49,Nigel Farage,17.3,487,1
+2026-11-05,Opinium,50-64,Andy Burnham,49.4,495,1
+2026-11-05,Opinium,50-64,Nigel Farage,21.3,495,1
+2026-11-05,Opinium,65+,Andy Burnham,37.0,474,1
+2026-11-05,Opinium,65+,Nigel Farage,28.9,474,1
+2026-11-05,Opinium,London,Andy Burnham,50.3,268,1
+2026-11-05,Opinium,London,Nigel Farage,22.3,268,1
+2026-11-05,Opinium,Midlands,Andy Burnham,43.4,331,1
+2026-11-05,Opinium,Midlands,Nigel Farage,23.5,331,1
+2026-11-05,Opinium,Northern England,Andy Burnham,50.7,480,1
+2026-11-05,Opinium,Northern England,Nigel Farage,19.6,480,1
+2026-11-05,Opinium,Overall,Andy Burnham,47.0,2003,1
+2026-11-05,Opinium,Overall,Nigel Farage,21.8,2003,1
+2026-11-05,Opinium,Scotland,Andy Burnham,53.8,171,1
+2026-11-05,Opinium,Scotland,Nigel Farage,13.3,171,1
+2026-11-05,Opinium,Southern England,Andy Burnham,42.1,657,1
+2026-11-05,Opinium,Southern England,Nigel Farage,25.0,657,1
+2026-11-19,Opinium,18-34,Andy Burnham,51.7,551,1
+2026-11-19,Opinium,18-34,Nigel Farage,21.0,551,1
+2026-11-19,Opinium,35-49,Andy Burnham,49.5,484,1
+2026-11-19,Opinium,35-49,Nigel Farage,16.0,484,1
+2026-11-19,Opinium,50-64,Andy Burnham,48.0,496,1
+2026-11-19,Opinium,50-64,Nigel Farage,24.8,496,1
+2026-11-19,Opinium,65+,Andy Burnham,37.3,476,1
+2026-11-19,Opinium,65+,Nigel Farage,30.7,476,1
+2026-11-19,Opinium,London,Andy Burnham,53.3,268,1
+2026-11-19,Opinium,London,Nigel Farage,17.6,268,1
+2026-11-19,Opinium,Midlands,Andy Burnham,41.2,332,1
+2026-11-19,Opinium,Midlands,Nigel Farage,28.4,332,1
+2026-11-19,Opinium,Northern England,Andy Burnham,50.3,481,1
+2026-11-19,Opinium,Northern England,Nigel Farage,19.8,481,1
+2026-11-19,Opinium,Overall,Andy Burnham,46.8,2007,1
+2026-11-19,Opinium,Overall,Nigel Farage,23.0,2007,1
+2026-11-19,Opinium,Scotland,Andy Burnham,56.2,171,1
+2026-11-19,Opinium,Scotland,Nigel Farage,18.1,171,1
+2026-11-19,Opinium,Southern England,Andy Burnham,41.5,658,1
+2026-11-19,Opinium,Southern England,Nigel Farage,27.0,658,1

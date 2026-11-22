@@ -1,0 +1,397 @@
+date,pollster,sample,option,value,base,n_merged
+2025-09-13,More in Common,18-34,Keir Starmer,23.6,,2
+2025-09-13,More in Common,18-34,Kemi Badenoch,12.4,,2
+2025-09-13,More in Common,18-34,Nigel Farage,22.4,,2
+2025-09-13,More in Common,35-49,Keir Starmer,21.9,,2
+2025-09-13,More in Common,35-49,Kemi Badenoch,8.9,,2
+2025-09-13,More in Common,35-49,Nigel Farage,20.4,,2
+2025-09-13,More in Common,50-64,Keir Starmer,17.5,,1
+2025-09-13,More in Common,50-64,Kemi Badenoch,8.9,,1
+2025-09-13,More in Common,50-64,Nigel Farage,31.7,,1
+2025-09-13,More in Common,65+,Keir Starmer,14.9,,2
+2025-09-13,More in Common,65+,Kemi Badenoch,13.8,,2
+2025-09-13,More in Common,65+,Nigel Farage,26.0,,2
+2025-09-13,More in Common,London,Keir Starmer,34.1,,1
+2025-09-13,More in Common,London,Kemi Badenoch,11.8,,1
+2025-09-13,More in Common,London,Nigel Farage,14.7,,1
+2025-09-13,More in Common,Midlands,Keir Starmer,19.7,,2
+2025-09-13,More in Common,Midlands,Kemi Badenoch,11.9,,2
+2025-09-13,More in Common,Midlands,Nigel Farage,26.2,,2
+2025-09-13,More in Common,Northern England,Keir Starmer,19.9,,3
+2025-09-13,More in Common,Northern England,Kemi Badenoch,8.7,,3
+2025-09-13,More in Common,Northern England,Nigel Farage,25.2,,3
+2025-09-13,More in Common,Overall,Keir Starmer,20.4,,1
+2025-09-13,More in Common,Overall,Kemi Badenoch,11.0,,1
+2025-09-13,More in Common,Overall,Nigel Farage,24.3,,1
+2025-09-13,More in Common,Scotland,Keir Starmer,21.6,,1
+2025-09-13,More in Common,Scotland,Kemi Badenoch,15.5,,1
+2025-09-13,More in Common,Scotland,Nigel Farage,28.0,,1
+2025-09-13,More in Common,Southern England,Keir Starmer,15.9,,3
+2025-09-13,More in Common,Southern England,Kemi Badenoch,11.2,,3
+2025-09-13,More in Common,Southern England,Nigel Farage,25.1,,3
+2025-09-13,More in Common,Wales,Keir Starmer,19.1,,1
+2025-09-13,More in Common,Wales,Kemi Badenoch,11.9,,1
+2025-09-13,More in Common,Wales,Nigel Farage,26.9,,1
+2025-09-20,More in Common,18-34,Keir Starmer,28.5,,2
+2025-09-20,More in Common,18-34,Kemi Badenoch,9.6,,2
+2025-09-20,More in Common,18-34,Nigel Farage,21.6,,2
+2025-09-20,More in Common,35-49,Keir Starmer,23.6,,2
+2025-09-20,More in Common,35-49,Kemi Badenoch,8.9,,2
+2025-09-20,More in Common,35-49,Nigel Farage,24.1,,2
+2025-09-20,More in Common,50-64,Keir Starmer,14.9,,1
+2025-09-20,More in Common,50-64,Kemi Badenoch,8.8,,1
+2025-09-20,More in Common,50-64,Nigel Farage,27.6,,1
+2025-09-20,More in Common,65+,Keir Starmer,19.2,,2
+2025-09-20,More in Common,65+,Kemi Badenoch,16.9,,2
+2025-09-20,More in Common,65+,Nigel Farage,28.1,,2
+2025-09-20,More in Common,London,Keir Starmer,35.4,,1
+2025-09-20,More in Common,London,Kemi Badenoch,11.7,,1
+2025-09-20,More in Common,London,Nigel Farage,18.3,,1
+2025-09-20,More in Common,Midlands,Keir Starmer,19.2,,2
+2025-09-20,More in Common,Midlands,Kemi Badenoch,10.1,,2
+2025-09-20,More in Common,Midlands,Nigel Farage,26.3,,2
+2025-09-20,More in Common,Northern England,Keir Starmer,22.7,,3
+2025-09-20,More in Common,Northern England,Kemi Badenoch,8.7,,3
+2025-09-20,More in Common,Northern England,Nigel Farage,25.2,,3
+2025-09-20,More in Common,Overall,Keir Starmer,22.4,,1
+2025-09-20,More in Common,Overall,Kemi Badenoch,11.1,,1
+2025-09-20,More in Common,Overall,Nigel Farage,25.0,,1
+2025-09-20,More in Common,Scotland,Keir Starmer,18.3,,1
+2025-09-20,More in Common,Scotland,Kemi Badenoch,11.1,,1
+2025-09-20,More in Common,Scotland,Nigel Farage,22.8,,1
+2025-09-20,More in Common,Southern England,Keir Starmer,21.2,,3
+2025-09-20,More in Common,Southern England,Kemi Badenoch,12.4,,3
+2025-09-20,More in Common,Southern England,Nigel Farage,26.8,,3
+2025-09-20,More in Common,Wales,Keir Starmer,23.4,,1
+2025-09-20,More in Common,Wales,Kemi Badenoch,14.8,,1
+2025-09-20,More in Common,Wales,Nigel Farage,28.0,,1
+2025-09-27,More in Common,18-34,Keir Starmer,25.1,,2
+2025-09-27,More in Common,18-34,Kemi Badenoch,12.7,,2
+2025-09-27,More in Common,18-34,Nigel Farage,21.6,,2
+2025-09-27,More in Common,35-49,Keir Starmer,26.9,,2
+2025-09-27,More in Common,35-49,Kemi Badenoch,8.2,,2
+2025-09-27,More in Common,35-49,Nigel Farage,22.0,,2
+2025-09-27,More in Common,50-64,Keir Starmer,18.7,,1
+2025-09-27,More in Common,50-64,Kemi Badenoch,12.2,,1
+2025-09-27,More in Common,50-64,Nigel Farage,25.8,,1
+2025-09-27,More in Common,65+,Keir Starmer,16.3,,2
+2025-09-27,More in Common,65+,Kemi Badenoch,14.7,,2
+2025-09-27,More in Common,65+,Nigel Farage,31.8,,2
+2025-09-27,More in Common,London,Keir Starmer,31.5,,1
+2025-09-27,More in Common,London,Kemi Badenoch,15.0,,1
+2025-09-27,More in Common,London,Nigel Farage,17.9,,1
+2025-09-27,More in Common,Midlands,Keir Starmer,19.1,,2
+2025-09-27,More in Common,Midlands,Kemi Badenoch,12.4,,2
+2025-09-27,More in Common,Midlands,Nigel Farage,26.9,,2
+2025-09-27,More in Common,Northern England,Keir Starmer,20.1,,3
+2025-09-27,More in Common,Northern England,Kemi Badenoch,8.8,,3
+2025-09-27,More in Common,Northern England,Nigel Farage,25.4,,3
+2025-09-27,More in Common,Overall,Keir Starmer,22.3,,1
+2025-09-27,More in Common,Overall,Kemi Badenoch,11.6,,1
+2025-09-27,More in Common,Overall,Nigel Farage,25.2,,1
+2025-09-27,More in Common,Scotland,Keir Starmer,24.1,,1
+2025-09-27,More in Common,Scotland,Kemi Badenoch,14.3,,1
+2025-09-27,More in Common,Scotland,Nigel Farage,18.1,,1
+2025-09-27,More in Common,Southern England,Keir Starmer,20.1,,3
+2025-09-27,More in Common,Southern England,Kemi Badenoch,12.4,,3
+2025-09-27,More in Common,Southern England,Nigel Farage,27.9,,3
+2025-09-27,More in Common,Wales,Keir Starmer,21.1,,1
+2025-09-27,More in Common,Wales,Kemi Badenoch,5.9,,1
+2025-09-27,More in Common,Wales,Nigel Farage,37.9,,1
+2025-10-04,More in Common,18-34,Keir Starmer,22.5,,2
+2025-10-04,More in Common,18-34,Kemi Badenoch,7.8,,2
+2025-10-04,More in Common,18-34,Nigel Farage,19.9,,2
+2025-10-04,More in Common,35-49,Keir Starmer,18.9,,2
+2025-10-04,More in Common,35-49,Kemi Badenoch,7.2,,2
+2025-10-04,More in Common,35-49,Nigel Farage,25.0,,2
+2025-10-04,More in Common,50-64,Keir Starmer,15.0,,1
+2025-10-04,More in Common,50-64,Kemi Badenoch,10.5,,1
+2025-10-04,More in Common,50-64,Nigel Farage,29.4,,1
+2025-10-04,More in Common,65+,Keir Starmer,20.2,,2
+2025-10-04,More in Common,65+,Kemi Badenoch,14.0,,2
+2025-10-04,More in Common,65+,Nigel Farage,26.1,,2
+2025-10-04,More in Common,London,Keir Starmer,26.5,,1
+2025-10-04,More in Common,London,Kemi Badenoch,10.0,,1
+2025-10-04,More in Common,London,Nigel Farage,17.9,,1
+2025-10-04,More in Common,Midlands,Keir Starmer,20.1,,2
+2025-10-04,More in Common,Midlands,Kemi Badenoch,6.8,,2
+2025-10-04,More in Common,Midlands,Nigel Farage,25.4,,2
+2025-10-04,More in Common,Northern England,Keir Starmer,19.1,,3
+2025-10-04,More in Common,Northern England,Kemi Badenoch,8.7,,3
+2025-10-04,More in Common,Northern England,Nigel Farage,24.3,,3
+2025-10-04,More in Common,Overall,Keir Starmer,19.7,,1
+2025-10-04,More in Common,Overall,Kemi Badenoch,9.5,,1
+2025-10-04,More in Common,Overall,Nigel Farage,25.0,,1
+2025-10-04,More in Common,Scotland,Keir Starmer,19.3,,1
+2025-10-04,More in Common,Scotland,Kemi Badenoch,6.3,,1
+2025-10-04,More in Common,Scotland,Nigel Farage,19.9,,1
+2025-10-04,More in Common,Southern England,Keir Starmer,16.6,,3
+2025-10-04,More in Common,Southern England,Kemi Badenoch,11.6,,3
+2025-10-04,More in Common,Southern England,Nigel Farage,29.7,,3
+2025-10-04,More in Common,Wales,Keir Starmer,23.4,,1
+2025-10-04,More in Common,Wales,Kemi Badenoch,11.9,,1
+2025-10-04,More in Common,Wales,Nigel Farage,24.8,,1
+2025-10-11,More in Common,18-34,Keir Starmer,26.6,,2
+2025-10-11,More in Common,18-34,Kemi Badenoch,19.4,,2
+2025-10-11,More in Common,18-34,Nigel Farage,13.8,,2
+2025-10-11,More in Common,35-49,Keir Starmer,21.0,,2
+2025-10-11,More in Common,35-49,Kemi Badenoch,11.8,,2
+2025-10-11,More in Common,35-49,Nigel Farage,24.8,,2
+2025-10-11,More in Common,50-64,Keir Starmer,21.7,,1
+2025-10-11,More in Common,50-64,Kemi Badenoch,7.9,,1
+2025-10-11,More in Common,50-64,Nigel Farage,28.8,,1
+2025-10-11,More in Common,65+,Keir Starmer,17.9,,2
+2025-10-11,More in Common,65+,Kemi Badenoch,17.7,,2
+2025-10-11,More in Common,65+,Nigel Farage,23.6,,2
+2025-10-11,More in Common,London,Keir Starmer,29.6,,1
+2025-10-11,More in Common,London,Kemi Badenoch,14.9,,1
+2025-10-11,More in Common,London,Nigel Farage,11.7,,1
+2025-10-11,More in Common,Midlands,Keir Starmer,16.9,,2
+2025-10-11,More in Common,Midlands,Kemi Badenoch,15.8,,2
+2025-10-11,More in Common,Midlands,Nigel Farage,24.2,,2
+2025-10-11,More in Common,Northern England,Keir Starmer,19.6,,3
+2025-10-11,More in Common,Northern England,Kemi Badenoch,14.1,,3
+2025-10-11,More in Common,Northern England,Nigel Farage,25.5,,3
+2025-10-11,More in Common,Overall,Keir Starmer,21.9,,1
+2025-10-11,More in Common,Overall,Kemi Badenoch,14.4,,1
+2025-10-11,More in Common,Overall,Nigel Farage,22.6,,1
+2025-10-11,More in Common,Scotland,Keir Starmer,25.9,,1
+2025-10-11,More in Common,Scotland,Kemi Badenoch,14.7,,1
+2025-10-11,More in Common,Scotland,Nigel Farage,17.7,,1
+2025-10-11,More in Common,Southern England,Keir Starmer,21.6,,3
+2025-10-11,More in Common,Southern England,Kemi Badenoch,14.8,,3
+2025-10-11,More in Common,Southern England,Nigel Farage,26.0,,3
+2025-10-11,More in Common,Wales,Keir Starmer,19.9,,1
+2025-10-11,More in Common,Wales,Kemi Badenoch,13.3,,1
+2025-10-11,More in Common,Wales,Nigel Farage,21.8,,1
+2025-10-25,More in Common,18-34,Keir Starmer,22.4,,2
+2025-10-25,More in Common,18-34,Kemi Badenoch,12.6,,2
+2025-10-25,More in Common,18-34,Nigel Farage,19.5,,2
+2025-10-25,More in Common,35-49,Keir Starmer,19.1,,2
+2025-10-25,More in Common,35-49,Kemi Badenoch,8.9,,2
+2025-10-25,More in Common,35-49,Nigel Farage,23.9,,2
+2025-10-25,More in Common,50-64,Keir Starmer,18.1,,1
+2025-10-25,More in Common,50-64,Kemi Badenoch,13.9,,1
+2025-10-25,More in Common,50-64,Nigel Farage,26.6,,1
+2025-10-25,More in Common,65+,Keir Starmer,13.6,,2
+2025-10-25,More in Common,65+,Kemi Badenoch,11.4,,2
+2025-10-25,More in Common,65+,Nigel Farage,27.6,,2
+2025-10-25,More in Common,London,Keir Starmer,26.0,,1
+2025-10-25,More in Common,London,Kemi Badenoch,13.6,,1
+2025-10-25,More in Common,London,Nigel Farage,17.2,,1
+2025-10-25,More in Common,Midlands,Keir Starmer,15.7,,2
+2025-10-25,More in Common,Midlands,Kemi Badenoch,12.8,,2
+2025-10-25,More in Common,Midlands,Nigel Farage,24.1,,2
+2025-10-25,More in Common,Northern England,Keir Starmer,17.4,,3
+2025-10-25,More in Common,Northern England,Kemi Badenoch,8.1,,3
+2025-10-25,More in Common,Northern England,Nigel Farage,27.0,,3
+2025-10-25,More in Common,Overall,Keir Starmer,18.7,,1
+2025-10-25,More in Common,Overall,Kemi Badenoch,11.4,,1
+2025-10-25,More in Common,Overall,Nigel Farage,24.1,,1
+2025-10-25,More in Common,Scotland,Keir Starmer,19.1,,1
+2025-10-25,More in Common,Scotland,Kemi Badenoch,13.4,,1
+2025-10-25,More in Common,Scotland,Nigel Farage,17.6,,1
+2025-10-25,More in Common,Southern England,Keir Starmer,16.9,,3
+2025-10-25,More in Common,Southern England,Kemi Badenoch,11.7,,3
+2025-10-25,More in Common,Southern England,Nigel Farage,26.8,,3
+2025-10-25,More in Common,Wales,Keir Starmer,26.3,,1
+2025-10-25,More in Common,Wales,Kemi Badenoch,5.1,,1
+2025-10-25,More in Common,Wales,Nigel Farage,24.1,,1
+2025-11-01,More in Common,18-34,Keir Starmer,29.1,,2
+2025-11-01,More in Common,18-34,Kemi Badenoch,9.3,,2
+2025-11-01,More in Common,18-34,Nigel Farage,18.4,,2
+2025-11-01,More in Common,35-49,Keir Starmer,21.2,,2
+2025-11-01,More in Common,35-49,Kemi Badenoch,8.0,,2
+2025-11-01,More in Common,35-49,Nigel Farage,22.2,,2
+2025-11-01,More in Common,50-64,Keir Starmer,15.9,,1
+2025-11-01,More in Common,50-64,Kemi Badenoch,11.9,,1
+2025-11-01,More in Common,50-64,Nigel Farage,30.7,,1
+2025-11-01,More in Common,65+,Keir Starmer,16.4,,2
+2025-11-01,More in Common,65+,Kemi Badenoch,14.4,,2
+2025-11-01,More in Common,65+,Nigel Farage,29.5,,2
+2025-11-01,More in Common,London,Keir Starmer,31.2,,1
+2025-11-01,More in Common,London,Kemi Badenoch,15.6,,1
+2025-11-01,More in Common,London,Nigel Farage,18.4,,1
+2025-11-01,More in Common,Midlands,Keir Starmer,21.9,,2
+2025-11-01,More in Common,Midlands,Kemi Badenoch,10.5,,2
+2025-11-01,More in Common,Midlands,Nigel Farage,31.0,,2
+2025-11-01,More in Common,Northern England,Keir Starmer,19.4,,3
+2025-11-01,More in Common,Northern England,Kemi Badenoch,6.5,,3
+2025-11-01,More in Common,Northern England,Nigel Farage,26.2,,3
+2025-11-01,More in Common,Overall,Keir Starmer,21.4,,1
+2025-11-01,More in Common,Overall,Kemi Badenoch,10.6,,1
+2025-11-01,More in Common,Overall,Nigel Farage,24.5,,1
+2025-11-01,More in Common,Scotland,Keir Starmer,19.6,,1
+2025-11-01,More in Common,Scotland,Kemi Badenoch,5.2,,1
+2025-11-01,More in Common,Scotland,Nigel Farage,20.9,,1
+2025-11-01,More in Common,Southern England,Keir Starmer,20.1,,3
+2025-11-01,More in Common,Southern England,Kemi Badenoch,11.8,,3
+2025-11-01,More in Common,Southern England,Nigel Farage,23.5,,3
+2025-11-01,More in Common,Wales,Keir Starmer,16.1,,1
+2025-11-01,More in Common,Wales,Kemi Badenoch,11.1,,1
+2025-11-01,More in Common,Wales,Nigel Farage,22.3,,1
+2025-11-15,More in Common,18-34,Keir Starmer,26.2,,2
+2025-11-15,More in Common,18-34,Kemi Badenoch,12.4,,2
+2025-11-15,More in Common,18-34,Nigel Farage,18.8,,2
+2025-11-15,More in Common,35-49,Keir Starmer,21.8,,2
+2025-11-15,More in Common,35-49,Kemi Badenoch,9.1,,2
+2025-11-15,More in Common,35-49,Nigel Farage,23.0,,2
+2025-11-15,More in Common,50-64,Keir Starmer,17.4,,1
+2025-11-15,More in Common,50-64,Kemi Badenoch,7.2,,1
+2025-11-15,More in Common,50-64,Nigel Farage,26.5,,1
+2025-11-15,More in Common,65+,Keir Starmer,16.2,,2
+2025-11-15,More in Common,65+,Kemi Badenoch,15.7,,2
+2025-11-15,More in Common,65+,Nigel Farage,29.9,,2
+2025-11-15,More in Common,London,Keir Starmer,30.0,,1
+2025-11-15,More in Common,London,Kemi Badenoch,10.1,,1
+2025-11-15,More in Common,London,Nigel Farage,19.5,,1
+2025-11-15,More in Common,Midlands,Keir Starmer,19.1,,2
+2025-11-15,More in Common,Midlands,Kemi Badenoch,13.6,,2
+2025-11-15,More in Common,Midlands,Nigel Farage,21.9,,2
+2025-11-15,More in Common,Northern England,Keir Starmer,20.0,,3
+2025-11-15,More in Common,Northern England,Kemi Badenoch,9.5,,3
+2025-11-15,More in Common,Northern England,Nigel Farage,26.1,,3
+2025-11-15,More in Common,Overall,Keir Starmer,20.8,,1
+2025-11-15,More in Common,Overall,Kemi Badenoch,11.1,,1
+2025-11-15,More in Common,Overall,Nigel Farage,24.5,,1
+2025-11-15,More in Common,Scotland,Keir Starmer,20.3,,1
+2025-11-15,More in Common,Scotland,Kemi Badenoch,5.2,,1
+2025-11-15,More in Common,Scotland,Nigel Farage,32.4,,1
+2025-11-15,More in Common,Southern England,Keir Starmer,15.9,,3
+2025-11-15,More in Common,Southern England,Kemi Badenoch,13.3,,3
+2025-11-15,More in Common,Southern England,Nigel Farage,26.9,,3
+2025-11-15,More in Common,Wales,Keir Starmer,29.7,,1
+2025-11-15,More in Common,Wales,Kemi Badenoch,11.8,,1
+2025-11-15,More in Common,Wales,Nigel Farage,20.2,,1
+2025-11-29,More in Common,18-34,Keir Starmer,42.5,,1
+2025-11-29,More in Common,18-34,Kemi Badenoch,15.3,,1
+2025-11-29,More in Common,18-34,Nigel Farage,16.0,,1
+2025-11-29,More in Common,35-49,Keir Starmer,21.3,,2
+2025-11-29,More in Common,35-49,Kemi Badenoch,13.4,,2
+2025-11-29,More in Common,35-49,Nigel Farage,21.8,,2
+2025-11-29,More in Common,50-64,Keir Starmer,16.6,,1
+2025-11-29,More in Common,50-64,Kemi Badenoch,13.3,,1
+2025-11-29,More in Common,50-64,Nigel Farage,33.0,,1
+2025-11-29,More in Common,65+,Keir Starmer,15.6,,2
+2025-11-29,More in Common,65+,Kemi Badenoch,22.8,,2
+2025-11-29,More in Common,65+,Nigel Farage,24.9,,2
+2025-11-29,More in Common,London,Keir Starmer,38.3,,1
+2025-11-29,More in Common,London,Kemi Badenoch,15.8,,1
+2025-11-29,More in Common,London,Nigel Farage,17.1,,1
+2025-11-29,More in Common,Midlands,Keir Starmer,16.9,,2
+2025-11-29,More in Common,Midlands,Kemi Badenoch,14.0,,2
+2025-11-29,More in Common,Midlands,Nigel Farage,23.9,,2
+2025-11-29,More in Common,Northern England,Keir Starmer,19.0,,3
+2025-11-29,More in Common,Northern England,Kemi Badenoch,14.0,,3
+2025-11-29,More in Common,Northern England,Nigel Farage,24.0,,3
+2025-11-29,More in Common,Overall,Keir Starmer,22.7,,1
+2025-11-29,More in Common,Overall,Kemi Badenoch,16.2,,1
+2025-11-29,More in Common,Overall,Nigel Farage,23.7,,1
+2025-11-29,More in Common,Scotland,Keir Starmer,24.1,,1
+2025-11-29,More in Common,Scotland,Kemi Badenoch,20.2,,1
+2025-11-29,More in Common,Scotland,Nigel Farage,19.6,,1
+2025-11-29,More in Common,Southern England,Keir Starmer,19.5,,3
+2025-11-29,More in Common,Southern England,Kemi Badenoch,17.8,,3
+2025-11-29,More in Common,Southern England,Nigel Farage,27.0,,3
+2025-11-29,More in Common,Wales,Keir Starmer,32.1,,1
+2025-11-29,More in Common,Wales,Kemi Badenoch,11.7,,1
+2025-11-29,More in Common,Wales,Nigel Farage,25.4,,1
+2025-12-06,More in Common,18-34,Keir Starmer,23.7,,2
+2025-12-06,More in Common,18-34,Kemi Badenoch,13.9,,2
+2025-12-06,More in Common,18-34,Nigel Farage,22.9,,2
+2025-12-06,More in Common,35-49,Keir Starmer,18.1,,2
+2025-12-06,More in Common,35-49,Kemi Badenoch,14.8,,2
+2025-12-06,More in Common,35-49,Nigel Farage,18.9,,2
+2025-12-06,More in Common,50-64,Keir Starmer,19.2,,1
+2025-12-06,More in Common,50-64,Kemi Badenoch,15.2,,1
+2025-12-06,More in Common,50-64,Nigel Farage,26.1,,1
+2025-12-06,More in Common,65+,Keir Starmer,15.8,,2
+2025-12-06,More in Common,65+,Kemi Badenoch,21.1,,2
+2025-12-06,More in Common,65+,Nigel Farage,29.0,,2
+2025-12-06,More in Common,London,Keir Starmer,29.3,,1
+2025-12-06,More in Common,London,Kemi Badenoch,16.4,,1
+2025-12-06,More in Common,London,Nigel Farage,16.9,,1
+2025-12-06,More in Common,Midlands,Keir Starmer,17.2,,2
+2025-12-06,More in Common,Midlands,Kemi Badenoch,15.6,,2
+2025-12-06,More in Common,Midlands,Nigel Farage,25.8,,2
+2025-12-06,More in Common,Northern England,Keir Starmer,19.2,,3
+2025-12-06,More in Common,Northern England,Kemi Badenoch,13.4,,3
+2025-12-06,More in Common,Northern England,Nigel Farage,24.8,,3
+2025-12-06,More in Common,Overall,Keir Starmer,19.5,,1
+2025-12-06,More in Common,Overall,Kemi Badenoch,16.0,,1
+2025-12-06,More in Common,Overall,Nigel Farage,23.5,,1
+2025-12-06,More in Common,Scotland,Keir Starmer,15.3,,1
+2025-12-06,More in Common,Scotland,Kemi Badenoch,10.2,,1
+2025-12-06,More in Common,Scotland,Nigel Farage,16.3,,1
+2025-12-06,More in Common,Southern England,Keir Starmer,16.5,,3
+2025-12-06,More in Common,Southern England,Kemi Badenoch,18.0,,3
+2025-12-06,More in Common,Southern England,Nigel Farage,27.6,,3
+2025-12-06,More in Common,Wales,Keir Starmer,21.2,,1
+2025-12-06,More in Common,Wales,Kemi Badenoch,19.3,,1
+2025-12-06,More in Common,Wales,Nigel Farage,22.0,,1
+2025-12-21,More in Common,18-34,Keir Starmer,29.1,,2
+2025-12-21,More in Common,18-34,Kemi Badenoch,10.8,,2
+2025-12-21,More in Common,18-34,Nigel Farage,20.1,,2
+2025-12-21,More in Common,35-49,Keir Starmer,16.9,,2
+2025-12-21,More in Common,35-49,Kemi Badenoch,11.1,,2
+2025-12-21,More in Common,35-49,Nigel Farage,21.3,,2
+2025-12-21,More in Common,50-64,Keir Starmer,21.2,,1
+2025-12-21,More in Common,50-64,Kemi Badenoch,12.4,,1
+2025-12-21,More in Common,50-64,Nigel Farage,22.4,,1
+2025-12-21,More in Common,65+,Keir Starmer,17.8,,2
+2025-12-21,More in Common,65+,Kemi Badenoch,19.1,,2
+2025-12-21,More in Common,65+,Nigel Farage,25.5,,2
+2025-12-21,More in Common,London,Keir Starmer,32.1,,1
+2025-12-21,More in Common,London,Kemi Badenoch,14.5,,1
+2025-12-21,More in Common,London,Nigel Farage,17.9,,1
+2025-12-21,More in Common,Midlands,Keir Starmer,24.0,,2
+2025-12-21,More in Common,Midlands,Kemi Badenoch,11.9,,2
+2025-12-21,More in Common,Midlands,Nigel Farage,24.6,,2
+2025-12-21,More in Common,Northern England,Keir Starmer,16.8,,3
+2025-12-21,More in Common,Northern England,Kemi Badenoch,13.5,,3
+2025-12-21,More in Common,Northern England,Nigel Farage,23.0,,3
+2025-12-21,More in Common,Overall,Keir Starmer,21.3,,1
+2025-12-21,More in Common,Overall,Kemi Badenoch,13.3,,1
+2025-12-21,More in Common,Overall,Nigel Farage,22.5,,1
+2025-12-21,More in Common,Scotland,Keir Starmer,18.3,,1
+2025-12-21,More in Common,Scotland,Kemi Badenoch,8.2,,1
+2025-12-21,More in Common,Scotland,Nigel Farage,24.2,,1
+2025-12-21,More in Common,Southern England,Keir Starmer,19.2,,3
+2025-12-21,More in Common,Southern England,Kemi Badenoch,15.1,,3
+2025-12-21,More in Common,Southern England,Nigel Farage,23.2,,3
+2025-12-21,More in Common,Wales,Keir Starmer,26.1,,1
+2025-12-21,More in Common,Wales,Kemi Badenoch,11.6,,1
+2025-12-21,More in Common,Wales,Nigel Farage,17.7,,1
+2026-01-03,More in Common,18-34,Keir Starmer,20.8,,2
+2026-01-03,More in Common,18-34,Kemi Badenoch,11.4,,2
+2026-01-03,More in Common,18-34,Nigel Farage,20.4,,2
+2026-01-03,More in Common,35-49,Keir Starmer,22.2,,2
+2026-01-03,More in Common,35-49,Kemi Badenoch,10.6,,2
+2026-01-03,More in Common,35-49,Nigel Farage,24.0,,2
+2026-01-03,More in Common,50-64,Keir Starmer,18.8,,1
+2026-01-03,More in Common,50-64,Kemi Badenoch,14.2,,1
+2026-01-03,More in Common,50-64,Nigel Farage,27.6,,1
+2026-01-03,More in Common,65+,Keir Starmer,15.6,,2
+2026-01-03,More in Common,65+,Kemi Badenoch,18.2,,2
+2026-01-03,More in Common,65+,Nigel Farage,29.9,,2
+2026-01-03,More in Common,London,Keir Starmer,34.2,,1
+2026-01-03,More in Common,London,Kemi Badenoch,14.0,,1
+2026-01-03,More in Common,London,Nigel Farage,23.1,,1
+2026-01-03,More in Common,Midlands,Keir Starmer,17.9,,2
+2026-01-03,More in Common,Midlands,Kemi Badenoch,13.6,,2
+2026-01-03,More in Common,Midlands,Nigel Farage,24.9,,2
+2026-01-03,More in Common,Northern England,Keir Starmer,17.4,,3
+2026-01-03,More in Common,Northern England,Kemi Badenoch,10.1,,3
+2026-01-03,More in Common,Northern England,Nigel Farage,23.9,,3
+2026-01-03,More in Common,Overall,Keir Starmer,19.9,,1
+2026-01-03,More in Common,Overall,Kemi Badenoch,13.4,,1
+2026-01-03,More in Common,Overall,Nigel Farage,25.2,,1
+2026-01-03,More in Common,Scotland,Keir Starmer,21.0,,1
+2026-01-03,More in Common,Scotland,Kemi Badenoch,10.8,,1
+2026-01-03,More in Common,Scotland,Nigel Farage,26.4,,1
+2026-01-03,More in Common,Southern England,Keir Starmer,17.2,,3
+2026-01-03,More in Common,Southern England,Kemi Badenoch,16.0,,3
+2026-01-03,More in Common,Southern England,Nigel Farage,26.4,,3
+2026-01-03,More in Common,Wales,Keir Starmer,20.9,,1
+2026-01-03,More in Common,Wales,Kemi Badenoch,7.1,,1
+2026-01-03,More in Common,Wales,Nigel Farage,31.0,,1

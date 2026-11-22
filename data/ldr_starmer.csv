@@ -1,26 +1,4 @@
 date,pollster,sample,option,value,base,n_merged
-,More in Common,18-34,Negative,49.4,,2
-,More in Common,18-34,Positive,27.9,,2
-,More in Common,35-49,Negative,65.6,,2
-,More in Common,35-49,Positive,14.0,,2
-,More in Common,50-64,Negative,73.8,,1
-,More in Common,50-64,Positive,12.4,,1
-,More in Common,65+,Negative,76.5,,2
-,More in Common,65+,Positive,12.0,,2
-,More in Common,London,Negative,52.9,,1
-,More in Common,London,Positive,24.8,,1
-,More in Common,Midlands,Negative,60.8,,2
-,More in Common,Midlands,Positive,20.9,,2
-,More in Common,Northern England,Negative,64.5,,3
-,More in Common,Northern England,Positive,15.8,,3
-,More in Common,Overall,Negative,64.8,,1
-,More in Common,Overall,Positive,17.4,,1
-,More in Common,Scotland,Negative,72.3,,1
-,More in Common,Scotland,Positive,13.2,,1
-,More in Common,Southern England,Negative,69.9,,3
-,More in Common,Southern England,Positive,14.0,,3
-,More in Common,Wales,Negative,64.4,,1
-,More in Common,Wales,Positive,17.2,,1
 2020-02-20,YouGov,Overall,Negative,27.0,,1
 2020-02-20,YouGov,Overall,Positive,23.0,,1
 2020-02-29,Ipsos,Overall,Negative,19.0,,1

@@ -1,0 +1,107 @@
+date,pollster,sample,option,value,base,n_merged
+2026-07-08,Opinium,18-34,Andy Burnham,34.0,2002,1
+2026-07-08,Opinium,18-34,Kemi Badenoch,18.0,2002,1
+2026-07-08,Opinium,35-49,Andy Burnham,33.0,2002,1
+2026-07-08,Opinium,35-49,Kemi Badenoch,21.0,2002,1
+2026-07-08,Opinium,50-64,Andy Burnham,25.0,2002,1
+2026-07-08,Opinium,50-64,Kemi Badenoch,23.0,2002,1
+2026-07-08,Opinium,65+,Andy Burnham,20.0,2002,1
+2026-07-08,Opinium,65+,Kemi Badenoch,34.0,2002,1
+2026-07-08,Opinium,London,Andy Burnham,31.0,2002,1
+2026-07-08,Opinium,London,Kemi Badenoch,22.0,2002,1
+2026-07-08,Opinium,Midlands,Andy Burnham,24.0,2002,1
+2026-07-08,Opinium,Midlands,Kemi Badenoch,25.0,2002,1
+2026-07-08,Opinium,Northern England,Andy Burnham,37.0,2002,1
+2026-07-08,Opinium,Northern England,Kemi Badenoch,19.0,2002,1
+2026-07-08,Opinium,Overall,Andy Burnham,29.0,2002,1
+2026-07-08,Opinium,Overall,Kemi Badenoch,24.0,2002,1
+2026-07-08,Opinium,Scotland,Andy Burnham,27.0,2002,1
+2026-07-08,Opinium,Scotland,Kemi Badenoch,21.0,2002,1
+2026-07-08,Opinium,Southern England,Andy Burnham,24.0,2002,1
+2026-07-08,Opinium,Southern England,Kemi Badenoch,28.0,2002,1
+2026-07-08,Opinium,Wales,Andy Burnham,28.0,2002,1
+2026-07-08,Opinium,Wales,Kemi Badenoch,25.0,2002,1
+2026-07-30,Opinium,18-34,Andy Burnham,45.0,,1
+2026-07-30,Opinium,18-34,Kemi Badenoch,12.0,,1
+2026-07-30,Opinium,35-49,Andy Burnham,43.0,,1
+2026-07-30,Opinium,35-49,Kemi Badenoch,15.0,,1
+2026-07-30,Opinium,50-64,Andy Burnham,40.0,,1
+2026-07-30,Opinium,50-64,Kemi Badenoch,20.0,,1
+2026-07-30,Opinium,65+,Andy Burnham,26.0,,1
+2026-07-30,Opinium,65+,Kemi Badenoch,31.0,,1
+2026-07-30,Opinium,London,Andy Burnham,38.0,,1
+2026-07-30,Opinium,London,Kemi Badenoch,17.0,,1
+2026-07-30,Opinium,Midlands,Andy Burnham,39.0,,1
+2026-07-30,Opinium,Midlands,Kemi Badenoch,20.0,,1
+2026-07-30,Opinium,Northern England,Andy Burnham,47.0,,1
+2026-07-30,Opinium,Northern England,Kemi Badenoch,15.0,,1
+2026-07-30,Opinium,Overall,Andy Burnham,39.0,,1
+2026-07-30,Opinium,Overall,Kemi Badenoch,19.0,,1
+2026-07-30,Opinium,Scotland,Andy Burnham,43.0,,1
+2026-07-30,Opinium,Scotland,Kemi Badenoch,13.0,,1
+2026-07-30,Opinium,Southern England,Andy Burnham,35.0,,1
+2026-07-30,Opinium,Southern England,Kemi Badenoch,23.0,,1
+2026-07-30,Opinium,Wales,Andy Burnham,28.0,,1
+2026-07-30,Opinium,Wales,Kemi Badenoch,25.0,,1
+2026-08-06,Opinium,18-34,Andy Burnham,47.0,,1
+2026-08-06,Opinium,18-34,Kemi Badenoch,15.0,,1
+2026-08-06,Opinium,35-49,Andy Burnham,44.0,,1
+2026-08-06,Opinium,35-49,Kemi Badenoch,15.0,,1
+2026-08-06,Opinium,50-64,Andy Burnham,38.0,,1
+2026-08-06,Opinium,50-64,Kemi Badenoch,19.0,,1
+2026-08-06,Opinium,65+,Andy Burnham,29.0,,1
+2026-08-06,Opinium,65+,Kemi Badenoch,25.0,,1
+2026-08-06,Opinium,London,Andy Burnham,42.0,,1
+2026-08-06,Opinium,London,Kemi Badenoch,19.0,,1
+2026-08-06,Opinium,Midlands,Andy Burnham,38.0,,1
+2026-08-06,Opinium,Midlands,Kemi Badenoch,17.0,,1
+2026-08-06,Opinium,Northern England,Andy Burnham,48.0,,1
+2026-08-06,Opinium,Northern England,Kemi Badenoch,16.0,,1
+2026-08-06,Opinium,Overall,Andy Burnham,40.0,,1
+2026-08-06,Opinium,Overall,Kemi Badenoch,18.0,,1
+2026-08-06,Opinium,Scotland,Andy Burnham,42.0,,1
+2026-08-06,Opinium,Scotland,Kemi Badenoch,12.0,,1
+2026-08-06,Opinium,Southern England,Andy Burnham,33.0,,1
+2026-08-06,Opinium,Southern England,Kemi Badenoch,22.0,,1
+2026-08-06,Opinium,Wales,Andy Burnham,39.0,,1
+2026-08-06,Opinium,Wales,Kemi Badenoch,16.0,,1
+2026-11-05,Opinium,18-34,Andy Burnham,47.6,547,1
+2026-11-05,Opinium,18-34,Kemi Badenoch,16.3,547,1
+2026-11-05,Opinium,35-49,Andy Burnham,42.2,487,1
+2026-11-05,Opinium,35-49,Kemi Badenoch,14.7,487,1
+2026-11-05,Opinium,50-64,Andy Burnham,42.1,495,1
+2026-11-05,Opinium,50-64,Kemi Badenoch,24.6,495,1
+2026-11-05,Opinium,65+,Andy Burnham,29.1,474,1
+2026-11-05,Opinium,65+,Kemi Badenoch,34.3,474,1
+2026-11-05,Opinium,London,Andy Burnham,41.4,268,1
+2026-11-05,Opinium,London,Kemi Badenoch,23.8,268,1
+2026-11-05,Opinium,Midlands,Andy Burnham,39.3,331,1
+2026-11-05,Opinium,Midlands,Kemi Badenoch,24.2,331,1
+2026-11-05,Opinium,Northern England,Andy Burnham,46.3,480,1
+2026-11-05,Opinium,Northern England,Kemi Badenoch,18.3,480,1
+2026-11-05,Opinium,Overall,Andy Burnham,40.5,2003,1
+2026-11-05,Opinium,Overall,Kemi Badenoch,22.2,2003,1
+2026-11-05,Opinium,Scotland,Andy Burnham,45.4,171,1
+2026-11-05,Opinium,Scotland,Kemi Badenoch,18.6,171,1
+2026-11-05,Opinium,Southern England,Andy Burnham,34.2,657,1
+2026-11-05,Opinium,Southern England,Kemi Badenoch,25.3,657,1
+2026-11-19,Opinium,18-34,Andy Burnham,48.1,551,1
+2026-11-19,Opinium,18-34,Kemi Badenoch,14.4,551,1
+2026-11-19,Opinium,35-49,Andy Burnham,42.6,484,1
+2026-11-19,Opinium,35-49,Kemi Badenoch,16.2,484,1
+2026-11-19,Opinium,50-64,Andy Burnham,39.7,496,1
+2026-11-19,Opinium,50-64,Kemi Badenoch,23.5,496,1
+2026-11-19,Opinium,65+,Andy Burnham,26.7,476,1
+2026-11-19,Opinium,65+,Kemi Badenoch,34.0,476,1
+2026-11-19,Opinium,London,Andy Burnham,43.8,268,1
+2026-11-19,Opinium,London,Kemi Badenoch,17.3,268,1
+2026-11-19,Opinium,Midlands,Andy Burnham,37.3,332,1
+2026-11-19,Opinium,Midlands,Kemi Badenoch,23.9,332,1
+2026-11-19,Opinium,Northern England,Andy Burnham,45.6,481,1
+2026-11-19,Opinium,Northern England,Kemi Badenoch,17.4,481,1
+2026-11-19,Opinium,Overall,Andy Burnham,39.6,2007,1
+2026-11-19,Opinium,Overall,Kemi Badenoch,21.7,2007,1
+2026-11-19,Opinium,Scotland,Andy Burnham,48.7,171,1
+2026-11-19,Opinium,Scotland,Kemi Badenoch,16.7,171,1
+2026-11-19,Opinium,Southern England,Andy Burnham,31.9,658,1
+2026-11-19,Opinium,Southern England,Kemi Badenoch,28.3,658,1

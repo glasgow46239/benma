@@ -1,26 +1,4 @@
 date,pollster,sample,option,value,base,n_merged
-,More in Common,18-34,Negative,29.8,,2
-,More in Common,18-34,Positive,26.0,,2
-,More in Common,35-49,Negative,42.5,,2
-,More in Common,35-49,Positive,15.9,,2
-,More in Common,50-64,Negative,49.1,,1
-,More in Common,50-64,Positive,17.4,,1
-,More in Common,65+,Negative,33.1,,2
-,More in Common,65+,Positive,30.9,,2
-,More in Common,London,Negative,29.9,,1
-,More in Common,London,Positive,26.7,,1
-,More in Common,Midlands,Negative,35.2,,2
-,More in Common,Midlands,Positive,22.9,,2
-,More in Common,Northern England,Negative,39.8,,3
-,More in Common,Northern England,Positive,24.3,,3
-,More in Common,Overall,Negative,38.0,,1
-,More in Common,Overall,Positive,22.7,,1
-,More in Common,Scotland,Negative,57.2,,1
-,More in Common,Scotland,Positive,15.9,,1
-,More in Common,Southern England,Negative,37.6,,3
-,More in Common,Southern England,Positive,22.3,,3
-,More in Common,Wales,Negative,35.7,,1
-,More in Common,Wales,Positive,18.2,,1
 2024-11-08,YouGov,18-34,Negative,35.0,,1
 2024-11-08,YouGov,18-34,Positive,14.0,,1
 2024-11-08,YouGov,35-49,Negative,47.0,,1
