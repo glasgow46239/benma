@@ -2,7 +2,7 @@
   "meta": {
     "trackerName": "Voting intention",
     "subgroup": "Scotland",
-    "generated": "2026-11-22T11:57:33Z",
+    "generated": "2026-11-22T15:05:08Z",
     "bandwidthDays": 80,
     "minPollsInWindow": 2,
     "bootstrapIterations": 200,
