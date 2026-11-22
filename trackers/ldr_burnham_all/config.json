@@ -417,5 +417,9 @@
       }
     ],
     "compareMaxDays": 1100
+  },
+  "dataSource": {
+    "type": "long_csv",
+    "path": "data/ldr_burnham.csv"
   }
 }

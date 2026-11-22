@@ -400,5 +400,9 @@
       ]
     },
     "changeDays": 60
+  },
+  "dataSource": {
+    "type": "long_csv",
+    "path": "data/vi_westminster_24.csv"
   }
 }

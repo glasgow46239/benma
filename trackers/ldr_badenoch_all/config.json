@@ -369,5 +369,9 @@
       }
     ],
     "compareMaxDays": 1500
+  },
+  "dataSource": {
+    "type": "long_csv",
+    "path": "data/ldr_badenoch.csv"
   }
 }

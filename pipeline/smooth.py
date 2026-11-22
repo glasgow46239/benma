@@ -123,6 +123,7 @@ def fetch_polls_long(config):
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     path = os.path.join(root, src["path"])
     print(f"Reading long-format data from: {path}")
+    since = src.get("since")
     want = {}
     for party in config["parties"]:
         n = party["name"].lower()
@@ -131,6 +132,8 @@ def fetch_polls_long(config):
     with open(path, newline="", encoding="utf-8") as f:
         for r in csv.DictReader(f):
             if should_skip(r["pollster"], skip_patterns):
+                continue
+            if since and r["date"] < since:
                 continue
             o = r["option"].lower()
             o = _OPTION_ALIASES.get(o, o)
@@ -621,7 +624,18 @@ def build_line_csv(json_data, polls, hist_series=None, hist_polls=None):
     for col_data in hist_series.values():
         all_hist_dates.update(col_data.keys())
 
-    all_dates = sorted(set(smooth_lookup.keys()) | all_hist_dates | set(raw_dates))
+    # Where a smoothed line has a gap (no polls nearby), emit an explicit empty
+    # row right after the last drawn day so charts break the line instead of
+    # joining the two ends with a straight segment.
+    gap_dates = set()
+    for key in series_keys:
+        days = sorted(d for d, v in smooth_lookup.items() if key in v)
+        for a, b in zip(days, days[1:]):
+            da = datetime.strptime(a, "%Y-%m-%d")
+            if (datetime.strptime(b, "%Y-%m-%d") - da).days > 1:
+                gap_dates.add((da + timedelta(days=1)).strftime("%Y-%m-%d"))
+
+    all_dates = sorted(set(smooth_lookup.keys()) | all_hist_dates | set(raw_dates) | gap_dates)
 
     header = ["date"]
     for key in series_keys:

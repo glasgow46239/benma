@@ -316,5 +316,9 @@
         "datawrapperBarChartId": ""
       }
     }
+  },
+  "dataSource": {
+    "type": "long_csv",
+    "path": "data/vi_westminster_19.csv"
   }
 }
