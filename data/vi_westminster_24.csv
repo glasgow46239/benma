@@ -1,4 +1,32 @@
 date,pollster,sample,option,value,base,n_merged
+,Freshwater Strategy,18-34,Con,16.9,,1
+,Freshwater Strategy,18-34,Grn,20.1,,1
+,Freshwater Strategy,18-34,LDem,13.5,,1
+,Freshwater Strategy,18-34,Lab,30.1,,1
+,Freshwater Strategy,18-34,Oth,3.7,,1
+,Freshwater Strategy,18-34,Ref,14.3,,1
+,Freshwater Strategy,18-34,SNP,1.4,,1
+,Freshwater Strategy,35-49,Con,16.3,,1
+,Freshwater Strategy,35-49,Grn,13.8,,1
+,Freshwater Strategy,35-49,LDem,7.9,,1
+,Freshwater Strategy,35-49,Lab,34.3,,1
+,Freshwater Strategy,35-49,Oth,3.3,,1
+,Freshwater Strategy,35-49,Ref,21.5,,1
+,Freshwater Strategy,35-49,SNP,2.9,,1
+,Freshwater Strategy,50-64,Con,28.9,,1
+,Freshwater Strategy,50-64,Grn,3.1,,1
+,Freshwater Strategy,50-64,LDem,9.9,,1
+,Freshwater Strategy,50-64,Lab,27.3,,1
+,Freshwater Strategy,50-64,Oth,3.2,,1
+,Freshwater Strategy,50-64,Ref,25.3,,1
+,Freshwater Strategy,50-64,SNP,2.3,,1
+,Freshwater Strategy,Overall,Con,22.4,,1
+,Freshwater Strategy,Overall,Grn,10.0,,1
+,Freshwater Strategy,Overall,LDem,10.0,,1
+,Freshwater Strategy,Overall,Lab,30.1,,1
+,Freshwater Strategy,Overall,Oth,3.3,,1
+,Freshwater Strategy,Overall,Ref,21.8,,1
+,Freshwater Strategy,Overall,SNP,2.3,,1
 ,More in Common,18-34,Con,12.8,,2
 ,More in Common,18-34,Grn,26.0,,2
 ,More in Common,18-34,LDem,10.1,,2
@@ -52399,6 +52427,24 @@ date,pollster,sample,option,value,base,n_merged
 2026-09-12,Deltapoll,65+,PC,1.0,,1
 2026-09-12,Deltapoll,65+,Ref,29.0,,1
 2026-09-12,Deltapoll,65+,SNP,3.0,,1
+2026-09-12,Deltapoll,London,Con,17.0,366,1
+2026-09-12,Deltapoll,London,Grn,11.0,366,1
+2026-09-12,Deltapoll,London,LDem,9.0,366,1
+2026-09-12,Deltapoll,London,Lab,41.0,366,1
+2026-09-12,Deltapoll,London,Oth,4.0,366,1
+2026-09-12,Deltapoll,London,Ref,17.0,366,1
+2026-09-12,Deltapoll,Midlands,Con,22.0,420,1
+2026-09-12,Deltapoll,Midlands,Grn,10.0,420,1
+2026-09-12,Deltapoll,Midlands,LDem,5.0,420,1
+2026-09-12,Deltapoll,Midlands,Lab,29.0,420,1
+2026-09-12,Deltapoll,Midlands,Oth,5.0,420,1
+2026-09-12,Deltapoll,Midlands,Ref,29.0,420,1
+2026-09-12,Deltapoll,Northern England,Con,14.0,651,1
+2026-09-12,Deltapoll,Northern England,Grn,9.0,651,1
+2026-09-12,Deltapoll,Northern England,LDem,5.0,651,1
+2026-09-12,Deltapoll,Northern England,Lab,40.0,651,1
+2026-09-12,Deltapoll,Northern England,Oth,3.0,651,1
+2026-09-12,Deltapoll,Northern England,Ref,30.0,651,1
 2026-09-12,Deltapoll,Overall,Con,19.0,,1
 2026-09-12,Deltapoll,Overall,Grn,9.0,,1
 2026-09-12,Deltapoll,Overall,LDem,8.0,,1
@@ -52406,6 +52452,26 @@ date,pollster,sample,option,value,base,n_merged
 2026-09-12,Deltapoll,Overall,PC,1.0,,1
 2026-09-12,Deltapoll,Overall,Ref,25.0,,1
 2026-09-12,Deltapoll,Overall,SNP,4.0,,1
+2026-09-12,Deltapoll,Scotland,Con,12.0,253,1
+2026-09-12,Deltapoll,Scotland,Grn,9.0,253,1
+2026-09-12,Deltapoll,Scotland,LDem,6.0,253,1
+2026-09-12,Deltapoll,Scotland,Lab,18.0,253,1
+2026-09-12,Deltapoll,Scotland,Oth,5.0,253,1
+2026-09-12,Deltapoll,Scotland,Ref,12.0,253,1
+2026-09-12,Deltapoll,Scotland,SNP,38.0,253,1
+2026-09-12,Deltapoll,Southern England,Con,25.0,880,1
+2026-09-12,Deltapoll,Southern England,Grn,8.0,880,1
+2026-09-12,Deltapoll,Southern England,LDem,14.0,880,1
+2026-09-12,Deltapoll,Southern England,Lab,22.0,880,1
+2026-09-12,Deltapoll,Southern England,Oth,4.0,880,1
+2026-09-12,Deltapoll,Southern England,Ref,27.0,880,1
+2026-09-12,Deltapoll,Wales,Con,18.0,130,1
+2026-09-12,Deltapoll,Wales,Grn,5.0,130,1
+2026-09-12,Deltapoll,Wales,LDem,2.0,130,1
+2026-09-12,Deltapoll,Wales,Lab,20.0,130,1
+2026-09-12,Deltapoll,Wales,Oth,3.0,130,1
+2026-09-12,Deltapoll,Wales,PC,26.0,130,1
+2026-09-12,Deltapoll,Wales,Ref,25.0,130,1
 2026-09-13,More in Common,18-34,Con,13.0,,1
 2026-09-13,More in Common,18-34,Grn,24.5,,1
 2026-09-13,More in Common,18-34,LDem,10.5,,1

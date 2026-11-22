@@ -2413,6 +2413,34 @@ date,pollster,sample,option,value,base,n_merged
 2026-01-24,More in Common,Southern England,Positive,16.0,,3
 2026-01-24,More in Common,Wales,Negative,63.6,,1
 2026-01-24,More in Common,Wales,Positive,14.9,,1
+2026-01-25,YouGov,18-34,Negative,68.0,229,1
+2026-01-25,YouGov,18-34,Positive,21.0,229,1
+2026-01-25,YouGov,35-49,Negative,68.0,902,1
+2026-01-25,YouGov,35-49,Positive,19.0,902,1
+2026-01-25,YouGov,50-64,Negative,71.0,539,1
+2026-01-25,YouGov,50-64,Positive,22.0,539,1
+2026-01-25,YouGov,65+,Negative,77.0,513,1
+2026-01-25,YouGov,65+,Positive,20.0,513,1
+2026-01-25,YouGov,ABC1,Negative,69.0,1229,2
+2026-01-25,YouGov,ABC1,Positive,22.6,1229,2
+2026-01-25,YouGov,C2DE,Negative,76.0,653,1
+2026-01-25,YouGov,C2DE,Positive,15.0,653,1
+2026-01-25,YouGov,England,Negative,72.0,1888,1
+2026-01-25,YouGov,England,Positive,20.0,1888,1
+2026-01-25,YouGov,London,Negative,62.0,264,1
+2026-01-25,YouGov,London,Positive,31.0,264,1
+2026-01-25,YouGov,Midlands,Negative,77.0,358,1
+2026-01-25,YouGov,Midlands,Positive,16.0,358,1
+2026-01-25,YouGov,Northern England,Negative,70.0,517,1
+2026-01-25,YouGov,Northern England,Positive,17.0,517,1
+2026-01-25,YouGov,Overall,Negative,71.0,2183,1
+2026-01-25,YouGov,Overall,Positive,20.0,2183,1
+2026-01-25,YouGov,Scotland,Negative,73.0,190,1
+2026-01-25,YouGov,Scotland,Positive,20.0,190,1
+2026-01-25,YouGov,Southern England,Negative,73.0,749,1
+2026-01-25,YouGov,Southern England,Positive,19.0,749,1
+2026-01-25,YouGov,Wales,Negative,64.0,105,1
+2026-01-25,YouGov,Wales,Positive,24.0,105,1
 2026-02-01,Freshwater Strategy,18-34,Negative,46.0,,1
 2026-02-01,Freshwater Strategy,18-34,Positive,26.0,,1
 2026-02-01,Freshwater Strategy,35-49,Negative,62.0,,1
