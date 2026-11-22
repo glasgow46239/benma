@@ -1915,30 +1915,30 @@ date,pollster,sample,option,value,base,n_merged
 2026-11-07,More in Common,Southern England,Positive,19.6,,3
 2026-11-07,More in Common,Wales,Negative,40.6,,1
 2026-11-07,More in Common,Wales,Positive,13.2,,1
-2026-11-11,Survation,18-34,Negative,25.1,550,2
-2026-11-11,Survation,18-34,Positive,26.5,550,2
-2026-11-11,Survation,35-49,Negative,25.1,662,2
-2026-11-11,Survation,35-49,Positive,26.9,662,2
-2026-11-11,Survation,50-64,Negative,24.0,321,1
-2026-11-11,Survation,50-64,Positive,29.6,321,1
-2026-11-11,Survation,65+,Negative,33.1,471,1
-2026-11-11,Survation,65+,Positive,25.9,471,1
-2026-11-11,Survation,ABC1,Negative,26.1,1143,1
-2026-11-11,Survation,ABC1,Positive,30.1,1143,1
-2026-11-11,Survation,C2DE,Negative,27.7,862,1
-2026-11-11,Survation,C2DE,Positive,23.1,862,1
-2026-11-11,Survation,London,Negative,21.9,260,1
-2026-11-11,Survation,London,Positive,31.9,260,1
-2026-11-11,Survation,Midlands,Negative,27.6,322,2
-2026-11-11,Survation,Midlands,Positive,22.7,322,2
-2026-11-11,Survation,Northern England,Negative,23.8,383,2
-2026-11-11,Survation,Northern England,Positive,30.0,383,2
-2026-11-11,Survation,Overall,Negative,26.7,2005,1
-2026-11-11,Survation,Overall,Positive,27.0,2005,1
-2026-11-11,Survation,Scotland,Negative,26.4,167,1
-2026-11-11,Survation,Scotland,Positive,28.1,167,1
-2026-11-11,Survation,Southern England,Negative,28.3,639,3
-2026-11-11,Survation,Southern England,Positive,26.9,639,3
+2026-11-11,Survation,18-34,Negative,31.2,1100,4
+2026-11-11,Survation,18-34,Positive,26.6,1100,4
+2026-11-11,Survation,35-49,Negative,28.4,1324,4
+2026-11-11,Survation,35-49,Positive,29.4,1324,4
+2026-11-11,Survation,50-64,Negative,29.9,642,2
+2026-11-11,Survation,50-64,Positive,32.2,642,2
+2026-11-11,Survation,65+,Negative,38.7,942,2
+2026-11-11,Survation,65+,Positive,27.5,942,2
+2026-11-11,Survation,ABC1,Negative,32.9,2286,2
+2026-11-11,Survation,ABC1,Positive,31.2,2286,2
+2026-11-11,Survation,C2DE,Negative,30.4,1724,2
+2026-11-11,Survation,C2DE,Positive,25.2,1724,2
+2026-11-11,Survation,London,Negative,34.0,520,2
+2026-11-11,Survation,London,Positive,31.4,520,2
+2026-11-11,Survation,Midlands,Negative,31.7,644,4
+2026-11-11,Survation,Midlands,Positive,26.6,644,4
+2026-11-11,Survation,Northern England,Negative,27.7,766,4
+2026-11-11,Survation,Northern England,Positive,30.5,766,4
+2026-11-11,Survation,Overall,Negative,31.8,4010,2
+2026-11-11,Survation,Overall,Positive,28.6,4010,2
+2026-11-11,Survation,Scotland,Negative,30.6,334,2
+2026-11-11,Survation,Scotland,Positive,31.7,334,2
+2026-11-11,Survation,Southern England,Negative,31.7,1278,6
+2026-11-11,Survation,Southern England,Positive,28.3,1278,6
 2026-11-11,YouGov,18-34,Negative,21.0,,1
 2026-11-11,YouGov,18-34,Positive,26.0,,1
 2026-11-11,YouGov,35-49,Negative,30.0,,1
