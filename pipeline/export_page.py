@@ -93,7 +93,14 @@ def read_line_csv(path, parties, windows):
             im, il, ih = head.index(c), head.index(c + " (low)"), head.index(c + " (high)")
             pts = []
             for k, r in enumerate(data):
-                if r[im] == "" or not (lo_d <= days[k] <= hi_d):
+                if not (lo_d <= days[k] <= hi_d):
+                    continue
+                if r[im] == "":
+                    # an empty cell inside the line is a gap (no polls nearby): start a new segment
+                    # rather than letting the chart join across it
+                    if len(pts) >= 2:
+                        segs.append(pts)
+                    pts = []
                     continue
                 m = float(r[im])
                 pts.append((days[k], m, float(r[il] or m), float(r[ih] or m)))
@@ -182,6 +189,7 @@ def export_tracker(config_path):
     if page.get("compare"):
         index["compare"] = export_compare(page["compare"], page.get("compareMaxDays", 1100), page.get("tookOffice"),
                                           config["output"]["lineCsvPath"])
+        write_compare_csvs(index["compare"], data_dir)
     with open(os.path.join(data_dir, "page.json"), "w") as f:
         json.dump(index, f, separators=(",", ":"))
     return data_dir, [g["id"] for g in groups_out]
@@ -221,6 +229,27 @@ def export_compare(leaders, max_days, own_start, own_line_csv):
             "neg": [t10(vals["Negative"][k]) if k in vals["Negative"] else None for k in range(first, last + 1)],
         })
     return out
+
+
+def write_compare_csvs(rows, data_dir):
+    """compare-net.csv, compare-positive.csv, compare-negative.csv: one row per day in the job (day 0 =
+    the day each took over), one column per leader, blank where there is no line. Ready for Datawrapper."""
+    if not rows:
+        return
+    last = max(r["last"] for r in rows)
+    for kind in ("net", "positive", "negative"):
+        with open(os.path.join(data_dir, f"compare-{kind}.csv"), "w", newline="") as f:
+            w = csv.writer(f)
+            w.writerow(["day"] + [r["name"] for r in rows])
+            for d in range(0, last + 1):
+                line = [d]
+                for r in rows:
+                    i = d - r["first"]
+                    p = r["pos"][i] if 0 <= i < len(r["pos"]) else None
+                    n = r["neg"][i] if 0 <= i < len(r["neg"]) else None
+                    v = {"net": None if p is None or n is None else p - n, "positive": p, "negative": n}[kind]
+                    line.append("" if v is None else f"{v / 10:.1f}")
+                w.writerow(line)
 
 
 def encode_lines(segs):

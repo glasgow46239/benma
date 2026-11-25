@@ -363,7 +363,7 @@
         "name": "Rishi Sunak",
         "surname": "Sunak",
         "party": "Con",
-        "tracker": "ldr_sunak",
+        "tracker": "ldr_sunak_all",
         "from": "2022-10-25",
         "to": "2024-07-05"
       },
@@ -371,7 +371,7 @@
         "name": "Liz Truss",
         "surname": "Truss",
         "party": "Con",
-        "tracker": "ldr_truss",
+        "tracker": "ldr_truss_all",
         "from": "2022-09-06",
         "to": "2022-10-25"
       },
@@ -379,7 +379,7 @@
         "name": "Boris Johnson",
         "surname": "Johnson",
         "party": "Con",
-        "tracker": "ldr_johnson",
+        "tracker": "ldr_johnson_all",
         "from": "2019-07-24",
         "to": "2022-09-06"
       },
@@ -387,7 +387,7 @@
         "name": "Theresa May",
         "surname": "May",
         "party": "Con",
-        "tracker": "ldr_may",
+        "tracker": "ldr_may_all",
         "from": "2016-07-13",
         "to": "2019-07-24"
       },
@@ -403,7 +403,7 @@
         "name": "Gordon Brown",
         "surname": "Brown",
         "party": "Lab",
-        "tracker": "ldr_brown",
+        "tracker": "ldr_brown_all",
         "from": "2007-06-27",
         "to": "2010-05-11"
       },
@@ -411,7 +411,7 @@
         "name": "Tony Blair",
         "surname": "Blair",
         "party": "Lab",
-        "tracker": "ldr_blair",
+        "tracker": "ldr_blair_all",
         "from": "1997-05-02",
         "to": "2007-06-27"
       }
