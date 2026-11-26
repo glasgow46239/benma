@@ -55296,3 +55296,81 @@ date,pollster,sample,option,value,base,n_merged
 2026-11-22,YouGov,Wales,Oth,1.0,108,1
 2026-11-22,YouGov,Wales,PC,25.0,108,1
 2026-11-22,YouGov,Wales,Ref,25.0,108,1
+2026-11-25,Deltapoll,18-34,Con,8.5,724,2
+2026-11-25,Deltapoll,18-34,Grn,20.9,724,2
+2026-11-25,Deltapoll,18-34,LDem,10.5,724,2
+2026-11-25,Deltapoll,18-34,Lab,35.5,724,2
+2026-11-25,Deltapoll,18-34,Oth,2.6,724,2
+2026-11-25,Deltapoll,18-34,PC,0.4,724,2
+2026-11-25,Deltapoll,18-34,Ref,17.8,724,2
+2026-11-25,Deltapoll,18-34,SNP,2.6,724,2
+2026-11-25,Deltapoll,35-49,Con,19.0,1106,1
+2026-11-25,Deltapoll,35-49,Grn,7.0,1106,1
+2026-11-25,Deltapoll,35-49,LDem,4.0,1106,1
+2026-11-25,Deltapoll,35-49,Lab,36.0,1106,1
+2026-11-25,Deltapoll,35-49,Oth,4.0,1106,1
+2026-11-25,Deltapoll,35-49,PC,1.0,1106,1
+2026-11-25,Deltapoll,35-49,Ref,26.0,1106,1
+2026-11-25,Deltapoll,35-49,SNP,3.0,1106,1
+2026-11-25,Deltapoll,50-64,Con,26.0,519,1
+2026-11-25,Deltapoll,50-64,Grn,1.0,519,1
+2026-11-25,Deltapoll,50-64,LDem,6.0,519,1
+2026-11-25,Deltapoll,50-64,Lab,32.0,519,1
+2026-11-25,Deltapoll,50-64,Oth,5.0,519,1
+2026-11-25,Deltapoll,50-64,PC,1.0,519,1
+2026-11-25,Deltapoll,50-64,Ref,23.0,519,1
+2026-11-25,Deltapoll,50-64,SNP,5.0,519,1
+2026-11-25,Deltapoll,65+,Con,36.0,708,1
+2026-11-25,Deltapoll,65+,Grn,1.0,708,1
+2026-11-25,Deltapoll,65+,LDem,9.0,708,1
+2026-11-25,Deltapoll,65+,Lab,24.0,708,1
+2026-11-25,Deltapoll,65+,Oth,2.0,708,1
+2026-11-25,Deltapoll,65+,PC,0.0,708,1
+2026-11-25,Deltapoll,65+,Ref,26.0,708,1
+2026-11-25,Deltapoll,65+,SNP,1.0,708,1
+2026-11-25,Deltapoll,London,Con,26.0,429,1
+2026-11-25,Deltapoll,London,Grn,11.0,429,1
+2026-11-25,Deltapoll,London,LDem,10.0,429,1
+2026-11-25,Deltapoll,London,Lab,37.0,429,1
+2026-11-25,Deltapoll,London,Oth,3.0,429,1
+2026-11-25,Deltapoll,London,Ref,12.0,429,1
+2026-11-25,Deltapoll,Midlands,Con,22.0,514,1
+2026-11-25,Deltapoll,Midlands,Grn,10.0,514,1
+2026-11-25,Deltapoll,Midlands,LDem,5.0,514,1
+2026-11-25,Deltapoll,Midlands,Lab,33.0,514,1
+2026-11-25,Deltapoll,Midlands,Oth,3.0,514,1
+2026-11-25,Deltapoll,Midlands,Ref,28.0,514,1
+2026-11-25,Deltapoll,Northern England,Con,20.0,734,1
+2026-11-25,Deltapoll,Northern England,Grn,7.0,734,1
+2026-11-25,Deltapoll,Northern England,LDem,5.0,734,1
+2026-11-25,Deltapoll,Northern England,Lab,39.0,734,1
+2026-11-25,Deltapoll,Northern England,Oth,4.0,734,1
+2026-11-25,Deltapoll,Northern England,Ref,24.0,734,1
+2026-11-25,Deltapoll,Overall,Con,22.0,6116,2
+2026-11-25,Deltapoll,Overall,Grn,8.0,6116,2
+2026-11-25,Deltapoll,Overall,LDem,7.0,6116,2
+2026-11-25,Deltapoll,Overall,Lab,32.0,6116,2
+2026-11-25,Deltapoll,Overall,Oth,3.0,6116,2
+2026-11-25,Deltapoll,Overall,PC,1.0,6116,2
+2026-11-25,Deltapoll,Overall,Ref,24.0,6116,2
+2026-11-25,Deltapoll,Overall,SNP,3.0,6116,2
+2026-11-25,Deltapoll,Scotland,Con,11.0,260,1
+2026-11-25,Deltapoll,Scotland,Grn,5.0,260,1
+2026-11-25,Deltapoll,Scotland,LDem,4.0,260,1
+2026-11-25,Deltapoll,Scotland,Lab,21.0,260,1
+2026-11-25,Deltapoll,Scotland,Oth,4.0,260,1
+2026-11-25,Deltapoll,Scotland,Ref,21.0,260,1
+2026-11-25,Deltapoll,Scotland,SNP,32.0,260,1
+2026-11-25,Deltapoll,Southern England,Con,25.0,971,1
+2026-11-25,Deltapoll,Southern England,Grn,7.0,971,1
+2026-11-25,Deltapoll,Southern England,LDem,10.0,971,1
+2026-11-25,Deltapoll,Southern England,Lab,28.0,971,1
+2026-11-25,Deltapoll,Southern England,Oth,3.0,971,1
+2026-11-25,Deltapoll,Southern England,Ref,26.0,971,1
+2026-11-25,Deltapoll,Wales,Con,14.0,150,1
+2026-11-25,Deltapoll,Wales,Grn,7.0,150,1
+2026-11-25,Deltapoll,Wales,LDem,3.0,150,1
+2026-11-25,Deltapoll,Wales,Lab,32.0,150,1
+2026-11-25,Deltapoll,Wales,Oth,1.0,150,1
+2026-11-25,Deltapoll,Wales,PC,14.0,150,1
+2026-11-25,Deltapoll,Wales,Ref,29.0,150,1

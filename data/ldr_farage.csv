@@ -2579,3 +2579,13 @@ date,pollster,sample,option,value,base,n_merged
 2026-11-21,More in Common,Southern England,Positive,25.6,,3
 2026-11-21,More in Common,Wales,Negative,51.4,,1
 2026-11-21,More in Common,Wales,Positive,15.5,,1
+2026-11-25,Deltapoll,18-34,Negative,51.3,456,2
+2026-11-25,Deltapoll,18-34,Positive,37.1,456,2
+2026-11-25,Deltapoll,35-49,Negative,50.0,694,1
+2026-11-25,Deltapoll,35-49,Positive,39.0,694,1
+2026-11-25,Deltapoll,50-64,Negative,58.0,330,1
+2026-11-25,Deltapoll,50-64,Positive,35.0,330,1
+2026-11-25,Deltapoll,65+,Negative,51.0,452,1
+2026-11-25,Deltapoll,65+,Positive,43.0,452,1
+2026-11-25,Deltapoll,Overall,Negative,52.0,1933,1
+2026-11-25,Deltapoll,Overall,Positive,39.0,1933,1

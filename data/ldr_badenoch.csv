@@ -2505,3 +2505,27 @@ date,pollster,sample,option,value,base,n_merged
 2026-11-21,More in Common,Southern England,Positive,38.5,,3
 2026-11-21,More in Common,Wales,Negative,31.2,,1
 2026-11-21,More in Common,Wales,Positive,29.9,,1
+2026-11-25,Deltapoll,18-34,Negative,45.6,456,2
+2026-11-25,Deltapoll,18-34,Positive,35.1,456,2
+2026-11-25,Deltapoll,35-49,Negative,44.0,694,1
+2026-11-25,Deltapoll,35-49,Positive,39.0,694,1
+2026-11-25,Deltapoll,50-64,Negative,40.0,330,1
+2026-11-25,Deltapoll,50-64,Positive,52.0,330,1
+2026-11-25,Deltapoll,65+,Negative,29.0,452,1
+2026-11-25,Deltapoll,65+,Positive,61.0,452,1
+2026-11-25,Deltapoll,ABC1,Negative,38.0,1082,1
+2026-11-25,Deltapoll,ABC1,Positive,50.0,1082,1
+2026-11-25,Deltapoll,C2DE,Negative,43.0,834,1
+2026-11-25,Deltapoll,C2DE,Positive,40.0,834,1
+2026-11-25,Deltapoll,London,Negative,43.0,279,1
+2026-11-25,Deltapoll,London,Positive,46.0,279,1
+2026-11-25,Deltapoll,Midlands,Negative,46.0,325,1
+2026-11-25,Deltapoll,Midlands,Positive,42.0,325,1
+2026-11-25,Deltapoll,Northern England,Negative,38.0,463,1
+2026-11-25,Deltapoll,Northern England,Positive,42.0,463,1
+2026-11-25,Deltapoll,Overall,Negative,40.0,1933,1
+2026-11-25,Deltapoll,Overall,Positive,45.0,1933,1
+2026-11-25,Deltapoll,Scotland,Negative,47.0,162,1
+2026-11-25,Deltapoll,Scotland,Positive,35.0,162,1
+2026-11-25,Deltapoll,Southern England,Negative,35.0,611,1
+2026-11-25,Deltapoll,Southern England,Positive,51.0,611,1
