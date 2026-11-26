@@ -236,7 +236,7 @@
     {
       "name": "SNP",
       "col": 7,
-      "color": "#F1EC3C",
+      "color": "#A88A00",
       "includeInLine": true,
       "includeInBar": false
     },
